@@ -131,7 +131,7 @@ title: Dashboard
 
 <section class="band">
   <div class="section-head">
-    <h2>News of todat</h2>
+    <h2>News of today</h2>
     <a href="{{ '/news/' | relative_url }}">Open news</a>
   </div>
   {% assign digest_files = site.data.generated.news %}

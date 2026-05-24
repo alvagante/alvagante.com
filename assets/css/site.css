@@ -23,11 +23,15 @@ body {
 
 a { color: inherit; }
 
-.site-header,
-.site-footer,
 main {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
+}
+
+.site-header,
+.site-footer {
+  width: 100%;
+  background: var(--surface);
 }
 
 .site-header {
@@ -35,7 +39,7 @@ main {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 18px 0;
+  padding: 18px max(16px, calc((100% - 1180px) / 2));
 }
 
 .brand {
@@ -608,7 +612,7 @@ select {
   gap: 18px;
   border-top: 1px solid var(--line);
   margin-top: 36px;
-  padding: 22px 0 34px;
+  padding: 22px max(16px, calc((100% - 1180px) / 2)) 34px;
   color: var(--muted);
   font-size: 0.9rem;
 }
