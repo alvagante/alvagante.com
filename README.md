@@ -25,7 +25,15 @@ swamp extension source add . --only models
 swamp workflow run daily-news
 ```
 
-The `site-curation` model runs without an OpenAI key by using feed excerpts. To enable AI enrichment, provide `OPENAI_API_KEY` through a swamp vault or the GitHub Actions secret of the same name. Do not commit API keys.
+For host-level cron automation, use the repo script:
+
+```cron
+17 6 * * * REPO_DIR=/home/al/alvagante.com /home/al/alvagante.com/scripts/daily-news-cron.sh >> /home/al/alvagante.com-daily-news.log 2>&1
+```
+
+The script fast-forwards `main`, runs `swamp workflow run daily-news`, verifies the site with Docker, commits changed generated news files and `rss.xml`, and pushes back to GitHub. It refuses to run if the worktree is dirty before generation.
+
+The `site-curation` model runs without an OpenAI key by using feed excerpts. To enable AI enrichment, provide `OPENAI_API_KEY` through a swamp vault, environment variable, or the GitHub Actions secret of the same name. Do not commit API keys.
 
 ## Data files
 
