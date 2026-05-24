@@ -1,5 +1,5 @@
 {% assign item = include.item %}
-<article class="news-item">
+<article class="news-item" data-news-item data-news-category="{{ item.category | downcase | escape }}">
   {% if item.image %}<img src="{{ item.image }}" alt="" loading="lazy">{% endif %}
   <div>
     <div class="news-item__meta">

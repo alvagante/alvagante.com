@@ -1,0 +1,21 @@
+# Alvagante
+
+Alvagante is a compact personal dashboard for curated links and daily AI-assisted news digests. Public data is local-first and file-backed in this static Jekyll site.
+
+## Primary Pages
+
+- Home: https://alvagante.com/
+- Link directory: https://alvagante.com/links/
+- News digests: https://alvagante.com/news/
+- Sitemap: https://alvagante.com/sitemap/
+- RSS feed: https://alvagante.com/rss.xml
+
+## Data Shape
+
+- Curated links are grouped by topic and category.
+- Daily news digests are generated from enabled RSS/Atom sources.
+- News categories currently include AI, IT, and Science.
+
+## Usage Notes
+
+Use the public pages and RSS feed as the canonical interface. Do not assume there is a backend API, account system, comment system, or admin UI.

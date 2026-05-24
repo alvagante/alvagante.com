@@ -57,8 +57,10 @@ const DigestSchema = z.object({
 const GlobalArgsSchema = z.object({
   repoDir: z.string().default("."),
   linksPath: z.string().default("_data/links"),
-  newsSourcesPath: z.string().default("_data/news_sources.yml"),
+  newsSourcesPath: z.string().default("_data/sources"),
   generatedNewsDir: z.string().default("_data/generated/news"),
+  rssPath: z.string().default("rss.xml"),
+  siteUrl: z.string().url().default("https://alvagante.com"),
   openaiModel: z.string().default("gpt-5.4-mini"),
   openaiApiKey: z.string().optional(),
   maxItemsPerSource: z.number().int().positive().default(8),
@@ -72,6 +74,7 @@ const FetchFeedsArgsSchema = z.object({
 const BuildDigestArgsSchema = z.object({
   date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
   writeFile: z.boolean().default(true),
+  writeRss: z.boolean().default(true),
   maxItems: z.number().int().positive().optional(),
   openaiApiKey: z.string().optional(),
   openaiModel: z.string().optional(),
@@ -308,7 +311,7 @@ async function fetchItems(
   maxItemsPerSource?: number,
 ): Promise<NewsItem[]> {
   const sourcePath = pathJoin(repoDir, globals.newsSourcesPath);
-  const sourcesRaw = await readYamlFile<unknown[]>(sourcePath, []);
+  const sourcesRaw = await readYamlListPath(sourcePath);
   const sources = z.array(SourceSchema).parse(sourcesRaw).filter((source) =>
     source.enabled
   );
@@ -326,6 +329,13 @@ async function fetchItems(
   );
 }
 
+function rankedItems(items: NewsItem[]): NewsItem[] {
+  return items.sort((a, b) =>
+    b.relevance - a.relevance ||
+    Date.parse(b.published_at) - Date.parse(a.published_at)
+  );
+}
+
 function sortItems(items: NewsItem[], maxItems: number): NewsItem[] {
   const byUrl = new Map<string, NewsItem>();
   for (const item of items) {
@@ -334,18 +344,109 @@ function sortItems(items: NewsItem[], maxItems: number): NewsItem[] {
       byUrl.set(item.url, item);
     }
   }
-  return [...byUrl.values()]
-    .sort((a, b) =>
-      b.relevance - a.relevance ||
-      Date.parse(b.published_at) - Date.parse(a.published_at)
-    )
-    .slice(0, maxItems);
+
+  const categoryOrder = ["AI", "IT", "Science"];
+  const groups = new Map<string, NewsItem[]>();
+  for (const item of rankedItems([...byUrl.values()])) {
+    const group = groups.get(item.category) ?? [];
+    group.push(item);
+    groups.set(item.category, group);
+  }
+
+  const categories = [...groups.keys()].sort((a, b) => {
+    const aIndex = categoryOrder.indexOf(a);
+    const bIndex = categoryOrder.indexOf(b);
+    return (aIndex === -1 ? categoryOrder.length : aIndex) -
+        (bIndex === -1 ? categoryOrder.length : bIndex) || a.localeCompare(b);
+  });
+  const selected: NewsItem[] = [];
+
+  while (selected.length < maxItems && categories.length > 0) {
+    let added = false;
+    for (const category of categories) {
+      const next = groups.get(category)?.shift();
+      if (!next) continue;
+      selected.push(next);
+      added = true;
+      if (selected.length >= maxItems) break;
+    }
+    if (!added) break;
+  }
+
+  return selected;
+}
+
+function escapeXml(value: string): string {
+  return value
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&apos;");
+}
+
+function absoluteUrl(url: string, siteUrl: string): string {
+  return new URL(url, siteUrl.endsWith("/") ? siteUrl : `${siteUrl}/`).href;
+}
+
+function rfc822Date(value: string): string {
+  const parsed = Date.parse(value);
+  return new Date(Number.isNaN(parsed) ? value : parsed).toUTCString();
+}
+
+function directoryName(path: string): string {
+  const normalized = path.replaceAll(/\/+$/g, "");
+  const slash = normalized.lastIndexOf("/");
+  return slash === -1 ? "" : normalized.slice(0, slash);
+}
+
+function renderRssXml(
+  digest: z.infer<typeof DigestSchema>,
+  siteUrl: string,
+): string {
+  const channelUrl = absoluteUrl("/news/", siteUrl);
+  const feedUrl = absoluteUrl("/rss.xml", siteUrl);
+  const items = rankedItems([...digest.items]).map((item) => {
+    const itemUrl = absoluteUrl(item.url, siteUrl);
+    const title = escapeXml(item.title);
+    const description = escapeXml(item.summary);
+    const category = escapeXml(item.category);
+    const source = escapeXml(item.source);
+    const pubDate = rfc822Date(item.published_at);
+
+    return `    <item>
+      <title>${title}</title>
+      <link>${escapeXml(itemUrl)}</link>
+      <guid isPermaLink="true">${escapeXml(itemUrl)}</guid>
+      <description>${description}</description>
+      <category>${category}</category>
+      <source url="${escapeXml(itemUrl)}">${source}</source>
+      <pubDate>${pubDate}</pubDate>
+    </item>`;
+  }).join("\n");
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alvagante News of the Day</title>
+    <link>${escapeXml(channelUrl)}</link>
+    <atom:link href="${
+    escapeXml(feedUrl)
+  }" rel="self" type="application/rss+xml" />
+    <description>Daily AI-assisted news digest from Alvagante.</description>
+    <language>en</language>
+    <lastBuildDate>${rfc822Date(digest.generated_at)}</lastBuildDate>
+    <pubDate>${rfc822Date(digest.generated_at)}</pubDate>
+${items}
+  </channel>
+</rss>
+`;
 }
 
 /** Model definition for site curation. */
 export const model = {
   type: "@alvagante/site-curation",
-  version: "2026.05.24.1",
+  version: "2026.05.24.2",
   globalArguments: GlobalArgsSchema,
   resources: {
     "feed-items": {
@@ -378,7 +479,7 @@ export const model = {
   methods: {
     fetch_feeds: {
       description:
-        "Fetch all enabled feeds from _data/news_sources.yml in one fan-out run",
+        "Fetch all enabled feeds from _data/sources in one fan-out run",
       arguments: FetchFeedsArgsSchema,
       execute: async (args, context) => {
         const globals = GlobalArgsSchema.parse(context.globalArgs);
@@ -473,6 +574,16 @@ export const model = {
             pathJoin(outDir, `${date}.yml`),
             stringifyYaml(digest),
           );
+
+          if (args.writeRss) {
+            const rssPath = pathJoin(globals.repoDir, globals.rssPath);
+            const rssDir = directoryName(rssPath);
+            if (rssDir) await Deno.mkdir(rssDir, { recursive: true });
+            await Deno.writeTextFile(
+              rssPath,
+              renderRssXml(digest, globals.siteUrl),
+            );
+          }
         }
 
         const handle = await context.writeResource("digest", date, digest);
