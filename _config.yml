@@ -8,7 +8,14 @@ permalink: pretty
 
 exclude:
   - AGENTS.md
+  - .bundle/
   - .dockerignore
+  - .github/
+  - .jekyll-cache/
+  - .jekyll-metadata
+  - .sass-cache/
+  - .swamp/
+  - .swamp-sources.yaml
   - docker-compose.yml
   - Dockerfile
   - Gemfile
@@ -17,6 +24,7 @@ exclude:
   - manifest.yaml
   - models/
   - README.md
+  - vendor/
   - vaults/
   - workflows/
 
