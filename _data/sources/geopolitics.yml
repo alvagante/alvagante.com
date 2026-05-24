@@ -1,0 +1,135 @@
+- name: Reuters — World News
+  url: https://feeds.reuters.com/reuters/worldNews
+  topic: Geopolitics
+  category: Geopolitics
+  section: International news
+  tags: [geopolitics, world-news, international]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=reuters.com
+  enabled: true
+  importance_bias: 1.2
+- name: BBC News — World
+  url: https://feeds.bbci.co.uk/news/world/rss.xml
+  topic: Geopolitics
+  category: Geopolitics
+  section: International news
+  tags: [geopolitics, bbc, world-news]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+  enabled: true
+  importance_bias: 1.1
+- name: Foreign Policy
+  url: https://foreignpolicy.com/feed/
+  topic: Geopolitics
+  category: Geopolitics
+  section: Analysis
+  tags: [geopolitics, foreign-policy, analysis]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=foreignpolicy.com
+  enabled: true
+  importance_bias: 1.2
+- name: Al Jazeera — World
+  url: https://www.aljazeera.com/xml/rss/all.xml
+  topic: Geopolitics
+  category: Geopolitics
+  section: International news
+  tags: [geopolitics, middle-east, world-news]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
+  enabled: true
+  importance_bias: 1.0
+- name: Bellingcat
+  url: https://www.bellingcat.com/feed/
+  topic: Geopolitics
+  category: Geopolitics
+  section: Investigations
+  tags: [geopolitics, osint, conflict]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=bellingcat.com
+  enabled: false
+  importance_bias: 1.1
+- name: War on the Rocks
+  url: https://warontherocks.com/feed/
+  topic: Geopolitics
+  category: Geopolitics
+  section: Security & strategy
+  tags: [geopolitics, military, strategy]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=warontherocks.com
+  enabled: true
+  importance_bias: 1.1
+- name: The Diplomat
+  url: https://thediplomat.com/feed/
+  topic: Geopolitics
+  category: Geopolitics
+  section: Asia-Pacific
+  tags: [geopolitics, asia, pacific]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=thediplomat.com
+  enabled: true
+  importance_bias: 1.0
+- name: ECFR
+  url: https://ecfr.eu/feed/
+  topic: Geopolitics
+  category: Geopolitics
+  section: Europe
+  tags: [geopolitics, europe, eu, foreign-policy]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=ecfr.eu
+  enabled: true
+  importance_bias: 1.0
+- name: The Guardian — World
+  url: https://www.theguardian.com/world/rss
+  topic: Geopolitics
+  category: Geopolitics
+  section: International news
+  tags: [geopolitics, world-news, investigative]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=theguardian.com
+  enabled: true
+  importance_bias: 1.1
+- name: Politico Europe
+  url: https://www.politico.eu/feed/
+  topic: Geopolitics
+  category: Geopolitics
+  section: Europe
+  tags: [geopolitics, europe, politics, policy]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
+  enabled: true
+  importance_bias: 1.0
+- name: Atlantic Council
+  url: https://www.atlanticcouncil.org/feed/
+  topic: Geopolitics
+  category: Geopolitics
+  section: Analysis
+  tags: [geopolitics, nato, transatlantic, policy]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=atlanticcouncil.org
+  enabled: true
+  importance_bias: 1.0
+- name: Brookings — International
+  url: https://www.brookings.edu/topic/international-affairs/feed/
+  topic: Geopolitics
+  category: Geopolitics
+  section: Analysis
+  tags: [geopolitics, think-tank, policy]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=brookings.edu
+  enabled: true
+  importance_bias: 1.0
+- name: DW — World
+  url: https://rss.dw.com/rdf/rss-en-world
+  topic: Geopolitics
+  category: Geopolitics
+  section: International news
+  tags: [geopolitics, germany, europe, world-news]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=dw.com
+  enabled: true
+  importance_bias: 0.95
+- name: Meduza — English
+  url: https://meduza.io/rss/en/all
+  topic: Geopolitics
+  category: Geopolitics
+  section: Europe
+  tags: [geopolitics, russia, eastern-europe]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=meduza.io
+  enabled: true
+  importance_bias: 1.0
+- name: The Conversation — Global
+  url: https://theconversation.com/global/articles.atom
+  topic: Geopolitics
+  category: Geopolitics
+  section: Analysis
+  tags: [geopolitics, academic, analysis]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=theconversation.com
+  enabled: true
+  importance_bias: 0.9

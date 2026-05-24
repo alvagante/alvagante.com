@@ -1,0 +1,184 @@
+- title: Wireshark
+  url: https://wireshark.org
+  description: The world's most widely-used network protocol analyser for packet capture and deep inspection.
+  topic: Security
+  category: Network Security
+  section: Packet analysis
+  tags:
+    - security
+    - network
+    - packet-capture
+    - protocol-analysis
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=wireshark.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Suricata
+  url: https://suricata.io
+  description: High-performance, open-source network IDS, IPS, and network security monitoring engine.
+  topic: Security
+  category: Network Security
+  section: IDS & IPS
+  tags:
+    - security
+    - network
+    - ids
+    - ips
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=suricata.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Snort
+  url: https://snort.org
+  description: Pioneering open-source network intrusion detection and prevention system maintained by Cisco.
+  topic: Security
+  category: Network Security
+  section: IDS & IPS
+  tags:
+    - security
+    - network
+    - ids
+    - cisco
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=snort.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: pfSense
+  url: https://pfsense.org
+  description: Open-source firewall and router platform based on FreeBSD with enterprise-grade features.
+  topic: Security
+  category: Network Security
+  section: Firewalls & perimeter
+  tags:
+    - security
+    - firewall
+    - router
+    - freebsd
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=pfsense.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: OPNsense
+  url: https://opnsense.org
+  description: FreeBSD-based open-source firewall and routing platform with modern UI and active development community.
+  topic: Security
+  category: Network Security
+  section: Firewalls & perimeter
+  tags:
+    - security
+    - firewall
+    - router
+    - open-source
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=opnsense.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Pi-hole
+  url: https://pi-hole.net
+  description: Network-wide DNS sinkhole that blocks ads and tracking domains before they reach any device on the LAN.
+  topic: Security
+  category: Network Security
+  section: DNS & filtering
+  tags:
+    - security
+    - dns
+    - ad-blocking
+    - privacy
+  audience: general
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=pi-hole.net
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: MXToolbox
+  url: https://mxtoolbox.com
+  description: Suite of DNS, MX, DMARC, SPF, and blacklist lookup tools for diagnosing email and domain security.
+  topic: Security
+  category: Network Security
+  section: DNS & filtering
+  tags:
+    - security
+    - dns
+    - email
+    - dmarc
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=mxtoolbox.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: SSL Labs
+  url: https://ssllabs.com
+  description: Qualys free tool for deep analysis of SSL/TLS server configurations, graded A to F.
+  topic: Security
+  category: Network Security
+  section: TLS & certificates
+  tags:
+    - security
+    - tls
+    - ssl
+    - certificates
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=ssllabs.com
+  sublinks:
+    - title: SSL Server Test
+      url: https://www.ssllabs.com/ssltest/
+  notes: null
+  last_checked: '2026-05-24'
+- title: Cloudflare
+  url: https://cloudflare.com
+  description: Global network providing DDoS protection, WAF, CDN, Zero Trust access, and DNS security at scale.
+  topic: Security
+  category: Network Security
+  section: Firewalls & perimeter
+  tags:
+    - security
+    - ddos
+    - waf
+    - cdn
+  audience: developers
+  pricing: freemium
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cloudflare.com
+  sublinks:
+    - title: Cloudflare One (Zero Trust)
+      url: https://www.cloudflare.com/zero-trust/
+  notes: null
+  last_checked: '2026-05-24'
+- title: Netbird
+  url: https://netbird.io
+  description: Open-source, WireGuard-based overlay network for zero-config secure peer-to-peer connectivity.
+  topic: Security
+  category: Network Security
+  section: VPN & secure connectivity
+  tags:
+    - security
+    - vpn
+    - wireguard
+    - zero-trust
+  audience: developers
+  pricing: freemium
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=netbird.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'

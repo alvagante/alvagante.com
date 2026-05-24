@@ -1,0 +1,180 @@
+- title: Python
+  url: https://python.org
+  description: General-purpose, high-level language dominant in data science, AI/ML, scripting, and backend development.
+  topic: IT
+  category: Programming Languages
+  section: General-purpose languages
+  tags:
+    - it
+    - python
+    - language
+    - scripting
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=python.org
+  sublinks:
+    - title: Documentation
+      url: https://docs.python.org/3/
+    - title: PyPI
+      url: https://pypi.org
+  notes: null
+  last_checked: '2026-05-24'
+- title: Go
+  url: https://go.dev
+  description: Statically typed, compiled language from Google with fast compile times, garbage collection, and built-in concurrency.
+  topic: IT
+  category: Programming Languages
+  section: Systems & compiled languages
+  tags:
+    - it
+    - go
+    - golang
+    - language
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=go.dev
+  sublinks:
+    - title: Documentation
+      url: https://go.dev/doc/
+    - title: pkg.go.dev
+      url: https://pkg.go.dev
+  notes: null
+  last_checked: '2026-05-24'
+- title: Rust
+  url: https://rust-lang.org
+  description: Systems programming language focused on memory safety without garbage collection, with a modern toolchain.
+  topic: IT
+  category: Programming Languages
+  section: Systems & compiled languages
+  tags:
+    - it
+    - rust
+    - systems
+    - memory-safety
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=rust-lang.org
+  sublinks:
+    - title: The Rust Book
+      url: https://doc.rust-lang.org/book/
+    - title: crates.io
+      url: https://crates.io
+  notes: null
+  last_checked: '2026-05-24'
+- title: TypeScript
+  url: https://typescriptlang.org
+  description: Strongly typed superset of JavaScript that compiles to plain JS, developed and maintained by Microsoft.
+  topic: IT
+  category: Programming Languages
+  section: Web languages
+  tags:
+    - it
+    - typescript
+    - javascript
+    - web
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=typescriptlang.org
+  sublinks:
+    - title: Playground
+      url: https://www.typescriptlang.org/play
+  notes: null
+  last_checked: '2026-05-24'
+- title: Deno
+  url: https://deno.com
+  description: Secure JavaScript and TypeScript runtime with built-in tooling, native Web APIs, and npm compatibility.
+  topic: IT
+  category: Programming Languages
+  section: Runtimes
+  tags:
+    - it
+    - deno
+    - typescript
+    - javascript
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=deno.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Elixir
+  url: https://elixir-lang.org
+  description: Functional language running on the Erlang VM, optimised for building fault-tolerant, distributed, real-time systems.
+  topic: IT
+  category: Programming Languages
+  section: Functional languages
+  tags:
+    - it
+    - elixir
+    - erlang
+    - functional
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=elixir-lang.org
+  sublinks:
+    - title: Hex.pm (packages)
+      url: https://hex.pm
+  notes: null
+  last_checked: '2026-05-24'
+- title: Zig
+  url: https://ziglang.org
+  description: Low-level systems language focused on simplicity, explicit control, and C interoperability without a preprocessor.
+  topic: IT
+  category: Programming Languages
+  section: Systems & compiled languages
+  tags:
+    - it
+    - zig
+    - systems
+    - c-interop
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=ziglang.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Ruby
+  url: https://ruby-lang.org
+  description: Dynamic, object-oriented language known for developer ergonomics and the Rails web framework.
+  topic: IT
+  category: Programming Languages
+  section: General-purpose languages
+  tags:
+    - it
+    - ruby
+    - language
+    - rails
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=ruby-lang.org
+  sublinks:
+    - title: RubyGems
+      url: https://rubygems.org
+  notes: null
+  last_checked: '2026-05-24'
+- title: Kotlin
+  url: https://kotlinlang.org
+  description: Modern, statically typed JVM language from JetBrains, the preferred language for Android and a growing server-side choice.
+  topic: IT
+  category: Programming Languages
+  section: JVM languages
+  tags:
+    - it
+    - kotlin
+    - jvm
+    - android
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=kotlinlang.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'

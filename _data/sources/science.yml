@@ -1,28 +1,126 @@
-- name: ScienceDaily Top Science
+- name: ScienceDaily — Top Science
   url: https://www.sciencedaily.com/rss/top/science.xml
+  topic: Science
   category: Science
   section: General science
   tags: [science, research, discoveries]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
   enabled: true
   importance_bias: 1.0
 - name: Nature
   url: https://www.nature.com/nature.rss
+  topic: Science
   category: Science
-  section: Research and analysis
+  section: Research journals
   tags: [science, nature, research]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=nature.com
   enabled: true
-  importance_bias: 1.1
-- name: NASA News Releases
+  importance_bias: 1.2
+- name: NASA News
   url: https://www.nasa.gov/news-release/feed/
+  topic: Science
   category: Science
   section: Space science
   tags: [science, nasa, space]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
   enabled: true
   importance_bias: 1.0
-- name: Ars Technica Science
+- name: Ars Technica — Science
   url: https://feeds.arstechnica.com/arstechnica/science
+  topic: Science
   category: Science
-  section: Science news
+  section: General science
   tags: [science, research, analysis]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
+  enabled: true
+  importance_bias: 0.95
+- name: Quanta Magazine
+  url: https://api.quantamagazine.org/feed/
+  topic: Science
+  category: Science
+  section: General science
+  tags: [science, mathematics, physics, biology]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=quantamagazine.org
+  enabled: true
+  importance_bias: 1.2
+- name: New Scientist
+  url: https://www.newscientist.com/feed/home/
+  topic: Science
+  category: Science
+  section: General science
+  tags: [science, research, society]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
+  enabled: true
+  importance_bias: 1.0
+- name: Phys.org
+  url: https://phys.org/rss-feed/
+  topic: Science
+  category: Science
+  section: General science
+  tags: [science, physics, technology]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=phys.org
+  enabled: true
+  importance_bias: 0.9
+- name: Science Friday
+  url: https://www.sciencefriday.com/feed/
+  topic: Science
+  category: Science
+  section: Outreach
+  tags: [science, podcast, outreach]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=sciencefriday.com
+  enabled: true
+  importance_bias: 0.85
+- name: Scientific American
+  url: https://rss.sciam.com/ScientificAmerican-Global
+  topic: Science
+  category: Science
+  section: General science
+  tags: [science, magazine, accessible]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=scientificamerican.com
+  enabled: true
+  importance_bias: 1.1
+- name: Science (AAAS)
+  url: https://www.science.org/rss/news_current.xml
+  topic: Science
+  category: Science
+  section: Research journals
+  tags: [science, aaas, research]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=science.org
+  enabled: true
+  importance_bias: 1.2
+- name: EurekAlert
+  url: https://www.eurekalert.org/rss/all-news.xml
+  topic: Science
+  category: Science
+  section: Press releases
+  tags: [science, research, universities]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=eurekalert.org
+  enabled: true
+  importance_bias: 0.85
+- name: Space.com
+  url: https://www.space.com/feeds/all
+  topic: Science
+  category: Science
+  section: Space science
+  tags: [science, space, astronomy]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=space.com
+  enabled: true
+  importance_bias: 0.9
+- name: Live Science
+  url: https://www.livescience.com/feeds/all
+  topic: Science
+  category: Science
+  section: General science
+  tags: [science, biology, physics, health]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=livescience.com
+  enabled: true
+  importance_bias: 0.85
+- name: ESA — Space Science
+  url: https://www.esa.int/rssfeed/Our_Activities/Space_Science
+  topic: Science
+  category: Science
+  section: Space science
+  tags: [science, esa, space, europe]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=esa.int
   enabled: true
   importance_bias: 0.95

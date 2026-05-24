@@ -1,0 +1,162 @@
+- title: TheHive Project
+  url: https://thehive-project.org
+  description: Scalable, open-source security incident response platform with case and alert management and MISP integration.
+  topic: Security
+  category: Incident Response & Forensics
+  section: Case management
+  tags:
+    - security
+    - incident-response
+    - case-management
+    - open-source
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=thehive-project.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Velociraptor
+  url: https://velocidex.com
+  description: Advanced endpoint visibility and DFIR tool for collecting artifacts and hunting at scale across thousands of hosts.
+  topic: Security
+  category: Incident Response & Forensics
+  section: Endpoint forensics
+  tags:
+    - security
+    - dfir
+    - endpoint
+    - forensics
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=velocidex.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Autopsy
+  url: https://www.autopsy.com
+  description: Open-source digital forensics platform with a GUI front-end to The Sleuth Kit for disk image analysis.
+  topic: Security
+  category: Incident Response & Forensics
+  section: Disk & file forensics
+  tags:
+    - security
+    - forensics
+    - disk-analysis
+    - dfir
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.autopsy.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Volatility Framework
+  url: https://volatilityfoundation.org
+  description: Leading open-source memory forensics framework for analysing RAM dumps from Windows, Linux, and macOS.
+  topic: Security
+  category: Incident Response & Forensics
+  section: Memory forensics
+  tags:
+    - security
+    - memory-forensics
+    - dfir
+    - malware
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=volatilityfoundation.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Eric Zimmerman's Tools
+  url: https://ericzimmerman.github.io
+  description: Collection of free Windows forensic tools for registry analysis, prefetch, event logs, shellbags, and more.
+  topic: Security
+  category: Incident Response & Forensics
+  section: Disk & file forensics
+  tags:
+    - security
+    - forensics
+    - windows
+    - registry
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=ericzimmerman.github.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: CyberChef
+  url: https://gchq.github.io/CyberChef
+  description: GCHQ's browser-based data analysis "Cyber Swiss Army Knife" for encoding, encryption, and data transformation.
+  topic: Security
+  category: Incident Response & Forensics
+  section: Analysis utilities
+  tags:
+    - security
+    - analysis
+    - encoding
+    - dfir
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=gchq.github.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: DFIR.training
+  url: https://dfir.training
+  description: Curated directory of DFIR tools, training, and resources maintained by the community.
+  topic: Security
+  category: Incident Response & Forensics
+  section: References
+  tags:
+    - security
+    - dfir
+    - training
+    - reference
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=dfir.training
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: SANS Incident Handler's Handbook
+  url: https://www.sans.org/white-papers/incident-handlers-handbook/
+  description: SANS guide to the six phases of incident response — preparation, identification, containment, eradication, recovery, lessons learned.
+  topic: Security
+  category: Incident Response & Forensics
+  section: References
+  tags:
+    - security
+    - incident-response
+    - process
+    - sans
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.sans.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: FTK Imager
+  url: https://www.exterro.com/ftk-imager
+  description: Free disk imaging and preview tool from Exterro for acquiring forensic images of drives and memory.
+  topic: Security
+  category: Incident Response & Forensics
+  section: Disk & file forensics
+  tags:
+    - security
+    - forensics
+    - disk-imaging
+    - windows
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.exterro.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'

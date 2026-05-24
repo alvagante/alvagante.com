@@ -1,28 +1,126 @@
-- name: Ars Technica Technology Lab
+- name: Ars Technica — Tech Lab
   url: https://feeds.arstechnica.com/arstechnica/technology-lab
+  topic: IT
   category: IT
-  section: Technology news
+  section: Engineering
   tags: [it, infrastructure, engineering]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
   enabled: true
   importance_bias: 1.0
-- name: BleepingComputer
-  url: https://www.bleepingcomputer.com/feed/
-  category: IT
-  section: Security and systems
-  tags: [it, security, systems]
-  enabled: true
-  importance_bias: 1.1
 - name: GitHub Blog
   url: https://github.blog/feed/
+  topic: IT
   category: IT
   section: Development platforms
   tags: [it, github, development]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
   enabled: true
   importance_bias: 1.0
-- name: The Register Software
+- name: The Register — Software
   url: https://www.theregister.com/software/headlines.atom
+  topic: IT
   category: IT
-  section: Software industry
+  section: Industry news
   tags: [it, software, industry]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=theregister.com
   enabled: true
   importance_bias: 0.95
+- name: InfoQ
+  url: https://feed.infoq.com
+  topic: IT
+  category: IT
+  section: Engineering
+  tags: [it, engineering, architecture]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
+  enabled: true
+  importance_bias: 1.0
+- name: The Changelog
+  url: https://changelog.com/feed
+  topic: IT
+  category: IT
+  section: Open source
+  tags: [it, open-source, development]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=changelog.com
+  enabled: true
+  importance_bias: 0.9
+- name: Netflix Tech Blog
+  url: https://netflixtechblog.com/feed
+  topic: IT
+  category: IT
+  section: Engineering
+  tags: [it, engineering, scale]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=netflixtechblog.com
+  enabled: true
+  importance_bias: 0.95
+- name: HashiCorp Blog
+  url: https://www.hashicorp.com/blog/feed.xml
+  topic: IT
+  category: IT
+  section: Infrastructure
+  tags: [it, infrastructure, devops]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=hashicorp.com
+  enabled: true
+  importance_bias: 0.9
+- name: CNCF Blog
+  url: https://www.cncf.io/blog/feed/
+  topic: IT
+  category: IT
+  section: Cloud native
+  tags: [it, kubernetes, cloud-native]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cncf.io
+  enabled: true
+  importance_bias: 0.95
+- name: AWS Blog
+  url: https://aws.amazon.com/blogs/aws/feed/
+  topic: IT
+  category: IT
+  section: Cloud platforms
+  tags: [it, aws, cloud]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=aws.amazon.com
+  enabled: true
+  importance_bias: 1.0
+- name: Google Cloud Blog
+  url: https://cloudblog.withgoogle.com/rss/
+  topic: IT
+  category: IT
+  section: Cloud platforms
+  tags: [it, gcp, cloud]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
+  enabled: true
+  importance_bias: 0.95
+- name: Kubernetes Blog
+  url: https://kubernetes.io/feed.xml
+  topic: IT
+  category: IT
+  section: Cloud native
+  tags: [it, kubernetes, containers]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=kubernetes.io
+  enabled: true
+  importance_bias: 1.0
+- name: Docker Blog
+  url: https://www.docker.com/blog/feed/
+  topic: IT
+  category: IT
+  section: Cloud native
+  tags: [it, docker, containers]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docker.com
+  enabled: true
+  importance_bias: 0.9
+- name: Stack Overflow Blog
+  url: https://stackoverflow.blog/feed/
+  topic: IT
+  category: IT
+  section: Engineering
+  tags: [it, development, community]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=stackoverflow.blog
+  enabled: true
+  importance_bias: 0.9
+- name: Martin Fowler
+  url: https://martinfowler.com/feed.atom
+  topic: IT
+  category: IT
+  section: Engineering
+  tags: [it, architecture, patterns]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=martinfowler.com
+  enabled: true
+  importance_bias: 1.0

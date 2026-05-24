@@ -11,7 +11,9 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="{{ '/' | relative_url }}">Alvagante</a>
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+        <img src="{{ site.header_logo | default: site.logo | relative_url }}" alt="{{ site.title }} logo">
+      </a>
       <nav aria-label="Primary">
         <a href="{{ '/links/' | relative_url }}">Links</a>
         <a href="{{ '/news/' | relative_url }}">News</a>

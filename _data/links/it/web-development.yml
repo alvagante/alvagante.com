@@ -1,0 +1,205 @@
+- title: MDN Web Docs
+  url: https://developer.mozilla.org
+  description: Reference for HTML, CSS, JavaScript, browser APIs, and web platform behaviour — the definitive source.
+  topic: IT
+  category: Web Development
+  section: References & specs
+  tags:
+    - it
+    - web
+    - html
+    - css
+    - javascript
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=developer.mozilla.org
+  sublinks:
+    - title: CSS
+      url: https://developer.mozilla.org/en-US/docs/Web/CSS
+    - title: JavaScript
+      url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  notes: null
+  last_checked: '2026-05-24'
+- title: web.dev
+  url: https://web.dev
+  description: Google's resource for modern web development — performance, Core Web Vitals, PWAs, and best practices.
+  topic: IT
+  category: Web Development
+  section: References & specs
+  tags:
+    - it
+    - web
+    - performance
+    - pwa
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=web.dev
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Can I Use
+  url: https://caniuse.com
+  description: Browser compatibility tables for HTML, CSS, SVG, and JavaScript APIs across all major browsers.
+  topic: IT
+  category: Web Development
+  section: References & specs
+  tags:
+    - it
+    - web
+    - compatibility
+    - browser
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=caniuse.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: React
+  url: https://react.dev
+  description: Meta's declarative UI library for building component-based web and native interfaces.
+  topic: IT
+  category: Web Development
+  section: Frontend frameworks
+  tags:
+    - it
+    - react
+    - frontend
+    - javascript
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=react.dev
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Vue.js
+  url: https://vuejs.org
+  description: Progressive JavaScript framework for building user interfaces with an approachable, performant, and versatile design.
+  topic: IT
+  category: Web Development
+  section: Frontend frameworks
+  tags:
+    - it
+    - vue
+    - frontend
+    - javascript
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=vuejs.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Svelte
+  url: https://svelte.dev
+  description: Compiler-based frontend framework that shifts work to build time, producing small, fast vanilla JS output.
+  topic: IT
+  category: Web Development
+  section: Frontend frameworks
+  tags:
+    - it
+    - svelte
+    - frontend
+    - compiler
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=svelte.dev
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Tailwind CSS
+  url: https://tailwindcss.com
+  description: Utility-first CSS framework for rapidly building custom designs without leaving HTML.
+  topic: IT
+  category: Web Development
+  section: CSS & styling
+  tags:
+    - it
+    - css
+    - tailwind
+    - design
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=tailwindcss.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Vite
+  url: https://vitejs.dev
+  description: Next-generation frontend build tool with fast dev server using native ES modules and Rollup for production.
+  topic: IT
+  category: Web Development
+  section: Build tools
+  tags:
+    - it
+    - build
+    - vite
+    - bundler
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=vitejs.dev
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Astro
+  url: https://astro.build
+  description: Web framework for content-heavy sites that ships zero JavaScript by default and supports all major UI frameworks.
+  topic: IT
+  category: Web Development
+  section: Full-stack frameworks
+  tags:
+    - it
+    - astro
+    - static-site
+    - web
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=astro.build
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Next.js
+  url: https://nextjs.org
+  description: React meta-framework from Vercel with hybrid SSR/SSG, App Router, server components, and edge runtime support.
+  topic: IT
+  category: Web Development
+  section: Full-stack frameworks
+  tags:
+    - it
+    - nextjs
+    - react
+    - ssr
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=nextjs.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: RubyGems
+  url: https://rubygems.org
+  description: Package registry for Ruby gems including Jekyll, Rails, and GitHub Pages dependencies.
+  topic: IT
+  category: Web Development
+  section: Package registries
+  tags:
+    - it
+    - ruby
+    - packages
+    - jekyll
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=rubygems.org
+  sublinks:
+    - title: github-pages gem
+      url: https://rubygems.org/gems/github-pages
+  notes: null
+  last_checked: '2026-05-24'

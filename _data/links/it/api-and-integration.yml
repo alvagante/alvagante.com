@@ -1,0 +1,180 @@
+- title: OpenAPI Specification
+  url: https://spec.openapis.org
+  description: The industry-standard specification for describing HTTP APIs, enabling code generation and documentation.
+  topic: IT
+  category: API & Integration
+  section: API standards
+  tags:
+    - it
+    - api
+    - openapi
+    - standards
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=spec.openapis.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Hoppscotch
+  url: https://hoppscotch.io
+  description: Open-source, lightweight API development ecosystem — REST, GraphQL, WebSocket, and SSE client.
+  topic: IT
+  category: API & Integration
+  section: API testing
+  tags:
+    - it
+    - api
+    - testing
+    - open-source
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=hoppscotch.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: GraphQL
+  url: https://graphql.org
+  description: Query language and runtime for APIs enabling clients to request exactly the data they need.
+  topic: IT
+  category: API & Integration
+  section: API standards
+  tags:
+    - it
+    - graphql
+    - api
+    - query-language
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=graphql.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: gRPC
+  url: https://grpc.io
+  description: High-performance, open-source RPC framework using Protocol Buffers, with multi-language support.
+  topic: IT
+  category: API & Integration
+  section: API standards
+  tags:
+    - it
+    - grpc
+    - rpc
+    - protobuf
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=grpc.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: AsyncAPI
+  url: https://asyncapi.com
+  description: Open standard for defining event-driven and message-driven APIs — the OpenAPI equivalent for async systems.
+  topic: IT
+  category: API & Integration
+  section: API standards
+  tags:
+    - it
+    - asyncapi
+    - event-driven
+    - messaging
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=asyncapi.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Apache Kafka
+  url: https://kafka.apache.org
+  description: Distributed event streaming platform used for high-throughput data pipelines, event sourcing, and messaging.
+  topic: IT
+  category: API & Integration
+  section: Message brokers
+  tags:
+    - it
+    - kafka
+    - messaging
+    - streaming
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=kafka.apache.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: RabbitMQ
+  url: https://rabbitmq.com
+  description: Reliable open-source message broker supporting AMQP, MQTT, and STOMP with flexible routing patterns.
+  topic: IT
+  category: API & Integration
+  section: Message brokers
+  tags:
+    - it
+    - rabbitmq
+    - messaging
+    - amqp
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=rabbitmq.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: NATS
+  url: https://nats.io
+  description: Lightweight, high-performance cloud-native messaging system for microservices, edge, and IoT.
+  topic: IT
+  category: API & Integration
+  section: Message brokers
+  tags:
+    - it
+    - nats
+    - messaging
+    - cloud-native
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=nats.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Redpanda
+  url: https://redpanda.com
+  description: Kafka-compatible streaming platform written in C++ — 10x faster, no ZooKeeper, simpler operations.
+  topic: IT
+  category: API & Integration
+  section: Message brokers
+  tags:
+    - it
+    - kafka
+    - streaming
+    - performance
+  audience: developers
+  pricing: freemium
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=redpanda.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Swagger / Swagger UI
+  url: https://swagger.io
+  description: Tooling for OpenAPI — Swagger Editor, Swagger UI for documentation, and Codegen for API stubs.
+  topic: IT
+  category: API & Integration
+  section: API tooling
+  tags:
+    - it
+    - api
+    - openapi
+    - documentation
+  audience: developers
+  pricing: freemium
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=swagger.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'

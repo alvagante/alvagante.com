@@ -34,12 +34,14 @@ const SourceSchema = z.object({
   tags: z.array(z.string()).default([]),
   enabled: z.boolean().default(true),
   importance_bias: z.number().default(1),
+  favicon: z.string().nullish(),
 });
 
 const NewsItemSchema = z.object({
   title: z.string(),
   url: z.string().url(),
   source: z.string(),
+  source_favicon: z.string().nullish(),
   image: z.string().nullish(),
   summary: z.string(),
   category: z.string(),
@@ -206,6 +208,7 @@ function parseFeed(xml: string, source: Source, limit: number): NewsItem[] {
       title,
       url,
       source: source.name,
+      source_favicon: source.favicon ?? null,
       image: imageFromItem(item),
       summary,
       category: source.category,
@@ -345,7 +348,7 @@ function sortItems(items: NewsItem[], maxItems: number): NewsItem[] {
     }
   }
 
-  const categoryOrder = ["AI", "IT", "Science"];
+  const categoryOrder = ["AI", "Security", "IT", "Technology", "Science", "Geopolitics"];
   const groups = new Map<string, NewsItem[]>();
   for (const item of rankedItems([...byUrl.values()])) {
     const group = groups.get(item.category) ?? [];
@@ -446,7 +449,7 @@ ${items}
 /** Model definition for site curation. */
 export const model = {
   type: "@alvagante/site-curation",
-  version: "2026.05.24.2",
+  version: "2026.05.24.3",
   globalArguments: GlobalArgsSchema,
   resources: {
     "feed-items": {
@@ -528,6 +531,9 @@ export const model = {
       execute: async (args, context) => {
         const globals = GlobalArgsSchema.parse(context.globalArgs);
         const items = await fetchItems(globals.repoDir, globals);
+        const faviconBySource = new Map(
+          items.map((i) => [i.source, i.source_favicon]),
+        );
         const apiKey = args.openaiApiKey || globals.openaiApiKey ||
           Deno.env.get("OPENAI_API_KEY");
         const enriched = apiKey
@@ -537,9 +543,14 @@ export const model = {
             items,
           )
           : items;
+        const withFavicons = enriched.map((i) => ({
+          ...i,
+          source_favicon: i.source_favicon ?? faviconBySource.get(i.source) ??
+            null,
+        }));
         const handle = await context.writeResource("feed-items", "enriched", {
           generated_at: new Date().toISOString(),
-          items: enriched,
+          items: withFavicons,
         });
         return { dataHandles: [handle] };
       },
@@ -552,6 +563,9 @@ export const model = {
         const globals = GlobalArgsSchema.parse(context.globalArgs);
         const date = args.date || new Date().toISOString().slice(0, 10);
         const items = await fetchItems(globals.repoDir, globals);
+        const faviconBySource = new Map(
+          items.map((i) => [i.source, i.source_favicon]),
+        );
         const apiKey = args.openaiApiKey || globals.openaiApiKey ||
           Deno.env.get("OPENAI_API_KEY");
         const enriched = apiKey
@@ -561,10 +575,15 @@ export const model = {
             items,
           )
           : items;
+        const withFavicons = enriched.map((i) => ({
+          ...i,
+          source_favicon: i.source_favicon ?? faviconBySource.get(i.source) ??
+            null,
+        }));
         const digest = DigestSchema.parse({
           date,
           generated_at: new Date().toISOString(),
-          items: sortItems(enriched, args.maxItems ?? globals.maxDigestItems),
+          items: sortItems(withFavicons, args.maxItems ?? globals.maxDigestItems),
         });
 
         if (args.writeFile) {

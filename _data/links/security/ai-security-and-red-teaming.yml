@@ -1,7 +1,7 @@
 - title: OWASP Top 10 for LLM Applications
   url: https://genai.owasp.org
   description: the reference list.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Standards & threat models
   tags:
@@ -21,7 +21,7 @@
 - title: MITRE ATLAS
   url: https://atlas.mitre.org
   description: adversarial threat landscape for AI systems.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Standards & threat models
   tags:
@@ -41,7 +41,7 @@
 - title: NIST AI Risk Management Framework
   url: https://www.nist.gov/itl/ai-risk-management-framework
   description: NIST AI Risk Management Framework resource in AI Security & Red-Teaming.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Standards & threat models
   tags:
@@ -61,7 +61,7 @@
 - title: AI Incident Database
   url: https://incidentdatabase.ai
   description: searchable real-world incidents.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Standards & threat models
   tags:
@@ -81,7 +81,7 @@
 - title: garak
   url: https://github.com/NVIDIA/garak
   description: NVIDIA's LLM vulnerability scanner.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Red-team / scanning tools
   tags:
@@ -101,7 +101,7 @@
 - title: PyRIT
   url: https://github.com/Azure/PyRIT
   description: Microsoft's Python Risk Identification Toolkit for AI.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Red-team / scanning tools
   tags:
@@ -121,7 +121,7 @@
 - title: Promptfoo
   url: https://www.promptfoo.dev
   description: eval + red-team framework, CI-friendly.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Red-team / scanning tools
   tags:
@@ -141,7 +141,7 @@
 - title: Giskard
   url: https://www.giskard.ai
   description: open-source LLM testing.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Red-team / scanning tools
   tags:
@@ -161,7 +161,7 @@
 - title: DeepEval
   url: https://github.com/confident-ai/deepeval
   description: pytest-style LLM evals.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Red-team / scanning tools
   tags:
@@ -181,7 +181,7 @@
 - title: Inspect AI
   url: https://inspect.aisi.org.uk
   description: UK AISI's eval framework.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Red-team / scanning tools
   tags:
@@ -201,7 +201,7 @@
 - title: Lakera Guard
   url: https://www.lakera.ai
   description: prompt-injection/PII firewall.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Runtime defense
   tags:
@@ -221,7 +221,7 @@
 - title: Protect AI
   url: https://protectai.com
   description: ML supply-chain security.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Runtime defense
   tags:
@@ -241,7 +241,7 @@
 - title: HiddenLayer
   url: https://hiddenlayer.com
   description: model security platform.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Runtime defense
   tags:
@@ -261,7 +261,7 @@
 - title: NeMo Guardrails
   url: https://github.com/NVIDIA/NeMo-Guardrails
   description: NVIDIA, programmable rails.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Runtime defense
   tags:
@@ -281,7 +281,7 @@
 - title: LLM Guard
   url: https://llm-guard.com
   description: open-source input/output guard.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Runtime defense
   tags:
@@ -301,7 +301,7 @@
 - title: Anthropic alignment & red-team research
   url: https://www.anthropic.com/research
   description: Anthropic alignment & red-team research resource in AI Security & Red-Teaming.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Research / labs
   tags:
@@ -321,7 +321,7 @@
 - title: Apollo Research
   url: https://www.apolloresearch.ai
   description: deceptive-alignment evals.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Research / labs
   tags:
@@ -341,7 +341,7 @@
 - title: METR
   url: https://metr.org
   description: autonomy/capability evaluations.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Research / labs
   tags:
@@ -361,7 +361,7 @@
 - title: UK AI Safety Institute (AISI)
   url: https://www.aisi.gov.uk
   description: UK AI Safety Institute (AISI) resource in AI Security & Red-Teaming.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Research / labs
   tags:
@@ -381,7 +381,7 @@
 - title: US AISI (at NIST)
   url: https://www.nist.gov/aisi
   description: US AISI (at NIST) resource in AI Security & Red-Teaming.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Research / labs
   tags:
@@ -401,7 +401,7 @@
 - title: Simon Willison — prompt injection tag
   url: https://simonwillison.net/tags/prompt-injection/
   description: best running coverage.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Practitioner reading
   tags:
@@ -421,7 +421,7 @@
 - title: Embrace The Red
   url: https://embracethered.com/blog
   description: Johann Rehberger, AI red-team blog.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Practitioner reading
   tags:
@@ -441,7 +441,7 @@
 - title: HackAPrompt writeups
   url: https://www.learnprompting.org/hackaprompt
   description: Learn Prompting.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Practitioner reading
   tags:
@@ -461,7 +461,7 @@
 - title: DEF CON AI Village
   url: https://aivillage.org
   description: DEF CON AI Village resource in AI Security & Red-Teaming.
-  topic: AI
+  topic: Security
   category: AI Security & Red-Teaming
   section: Practitioner reading
   tags:

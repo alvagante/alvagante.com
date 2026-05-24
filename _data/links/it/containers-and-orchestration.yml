@@ -1,0 +1,190 @@
+- title: Docker Documentation
+  url: https://docs.docker.com
+  description: Official Docker documentation for containerisation — engine, Compose, build, and registry.
+  topic: IT
+  category: Containers & Orchestration
+  section: Container runtimes
+  tags:
+    - it
+    - docker
+    - containers
+    - compose
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.docker.com
+  sublinks:
+    - title: Docker Compose
+      url: https://docs.docker.com/compose/
+    - title: Dockerfile reference
+      url: https://docs.docker.com/reference/dockerfile/
+  notes: null
+  last_checked: '2026-05-24'
+- title: Podman
+  url: https://podman.io
+  description: Daemonless, rootless container engine compatible with Docker CLI and Compose, from Red Hat.
+  topic: IT
+  category: Containers & Orchestration
+  section: Container runtimes
+  tags:
+    - it
+    - containers
+    - rootless
+    - redhat
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=podman.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Kubernetes
+  url: https://kubernetes.io
+  description: Open-source container orchestration system for automated deployment, scaling, and management of containerised workloads.
+  topic: IT
+  category: Containers & Orchestration
+  section: Orchestration
+  tags:
+    - it
+    - kubernetes
+    - orchestration
+    - cloud-native
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=kubernetes.io
+  sublinks:
+    - title: Interactive tutorial
+      url: https://kubernetes.io/docs/tutorials/kubernetes-basics/
+  notes: null
+  last_checked: '2026-05-24'
+- title: k3s
+  url: https://k3s.io
+  description: Lightweight, certified Kubernetes distribution from Rancher/SUSE optimised for edge and resource-constrained environments.
+  topic: IT
+  category: Containers & Orchestration
+  section: Orchestration
+  tags:
+    - it
+    - kubernetes
+    - edge
+    - lightweight
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=k3s.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Helm
+  url: https://helm.sh
+  description: The package manager for Kubernetes, managing application lifecycle through charts and templating.
+  topic: IT
+  category: Containers & Orchestration
+  section: Packaging & deployment
+  tags:
+    - it
+    - kubernetes
+    - packaging
+    - charts
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=helm.sh
+  sublinks:
+    - title: Artifact Hub (charts)
+      url: https://artifacthub.io
+  notes: null
+  last_checked: '2026-05-24'
+- title: Kustomize
+  url: https://kustomize.io
+  description: Kubernetes-native configuration management that customises YAML manifests without templating.
+  topic: IT
+  category: Containers & Orchestration
+  section: Packaging & deployment
+  tags:
+    - it
+    - kubernetes
+    - configuration
+    - gitops
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=kustomize.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Argo CD
+  url: https://argoproj.github.io/argo-cd
+  description: Declarative, GitOps continuous delivery tool for Kubernetes syncing cluster state from Git repositories.
+  topic: IT
+  category: Containers & Orchestration
+  section: GitOps
+  tags:
+    - it
+    - kubernetes
+    - gitops
+    - cd
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=argoproj.github.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Flux
+  url: https://fluxcd.io
+  description: CNCF GitOps toolkit for keeping Kubernetes clusters in sync with configuration sources automatically.
+  topic: IT
+  category: Containers & Orchestration
+  section: GitOps
+  tags:
+    - it
+    - kubernetes
+    - gitops
+    - cncf
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=fluxcd.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: containerd
+  url: https://containerd.io
+  description: CNCF-graduated container runtime used as the standard OCI runtime inside Docker, Kubernetes, and other platforms.
+  topic: IT
+  category: Containers & Orchestration
+  section: Container runtimes
+  tags:
+    - it
+    - containers
+    - runtime
+    - cncf
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=containerd.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: CNCF Landscape
+  url: https://cncf.io
+  description: Cloud Native Computing Foundation hosting Kubernetes, Prometheus, and 100+ projects shaping cloud-native infrastructure.
+  topic: IT
+  category: Containers & Orchestration
+  section: Ecosystem
+  tags:
+    - it
+    - cloud-native
+    - cncf
+    - ecosystem
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cncf.io
+  sublinks:
+    - title: CNCF Landscape map
+      url: https://landscape.cncf.io
+  notes: null
+  last_checked: '2026-05-24'

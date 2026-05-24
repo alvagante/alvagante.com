@@ -1,0 +1,167 @@
+- title: VS Code
+  url: https://code.visualstudio.com
+  description: Microsoft's open-source code editor with a vast extension marketplace and deep language server protocol support.
+  topic: IT
+  category: Development Tools & IDEs
+  section: Editors & IDEs
+  tags:
+    - it
+    - editor
+    - vscode
+    - microsoft
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=code.visualstudio.com
+  sublinks:
+    - title: Extension Marketplace
+      url: https://marketplace.visualstudio.com/vscode
+  notes: null
+  last_checked: '2026-05-24'
+- title: JetBrains IDEs
+  url: https://jetbrains.com
+  description: Suite of professional IDEs for Python, Java, Kotlin, Go, Rust, PHP, and web development.
+  topic: IT
+  category: Development Tools & IDEs
+  section: Editors & IDEs
+  tags:
+    - it
+    - ide
+    - jetbrains
+    - professional
+  audience: developers
+  pricing: freemium
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=jetbrains.com
+  sublinks:
+    - title: IntelliJ IDEA
+      url: https://www.jetbrains.com/idea/
+  notes: null
+  last_checked: '2026-05-24'
+- title: Neovim
+  url: https://neovim.io
+  description: Hyperextensible Vim-based text editor with Lua-based configuration and a rich plugin ecosystem.
+  topic: IT
+  category: Development Tools & IDEs
+  section: Editors & IDEs
+  tags:
+    - it
+    - neovim
+    - vim
+    - editor
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=neovim.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Zed
+  url: https://zed.dev
+  description: High-performance, multiplayer code editor built in Rust with AI assistance and real-time collaboration.
+  topic: IT
+  category: Development Tools & IDEs
+  section: Editors & IDEs
+  tags:
+    - it
+    - editor
+    - zed
+    - collaboration
+  audience: developers
+  pricing: freemium
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=zed.dev
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Git
+  url: https://git-scm.com
+  description: The distributed version control system — official documentation, reference manual, and Pro Git book.
+  topic: IT
+  category: Development Tools & IDEs
+  section: Version control
+  tags:
+    - it
+    - git
+    - version-control
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=git-scm.com
+  sublinks:
+    - title: Pro Git (free book)
+      url: https://git-scm.com/book/en/v2
+  notes: null
+  last_checked: '2026-05-24'
+- title: GitLab
+  url: https://gitlab.com
+  description: Complete DevSecOps platform with self-hosted and SaaS options for code, CI/CD, and project management.
+  topic: IT
+  category: Development Tools & IDEs
+  section: Code platforms
+  tags:
+    - it
+    - gitlab
+    - git
+    - devops
+  audience: developers
+  pricing: freemium
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=gitlab.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Gitea
+  url: https://gitea.com
+  description: Lightweight, self-hosted Git service with GitHub-compatible interface and low resource requirements.
+  topic: IT
+  category: Development Tools & IDEs
+  section: Code platforms
+  tags:
+    - it
+    - git
+    - self-hosted
+    - open-source
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=gitea.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: tmux
+  url: https://github.com/tmux/tmux/wiki
+  description: Terminal multiplexer for managing multiple terminal sessions, panes, and windows in a single connection.
+  topic: IT
+  category: Development Tools & IDEs
+  section: Terminal tools
+  tags:
+    - it
+    - terminal
+    - tmux
+    - productivity
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: devenv.sh
+  url: https://devenv.sh
+  description: Nix-based tool for declarative, reproducible development environments with direnv integration.
+  topic: IT
+  category: Development Tools & IDEs
+  section: Dev environments
+  tags:
+    - it
+    - nix
+    - development
+    - reproducible
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=devenv.sh
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'

@@ -1,0 +1,135 @@
+- name: Krebs on Security
+  url: https://krebsonsecurity.com/feed/
+  topic: Security
+  category: Security
+  section: News & analysis
+  tags: [security, cybercrime, breaches]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=krebsonsecurity.com
+  enabled: true
+  importance_bias: 1.3
+- name: Schneier on Security
+  url: https://www.schneier.com/feed/
+  topic: Security
+  category: Security
+  section: News & analysis
+  tags: [security, cryptography, policy]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=schneier.com
+  enabled: true
+  importance_bias: 1.2
+- name: BleepingComputer
+  url: https://www.bleepingcomputer.com/feed/
+  topic: Security
+  category: Security
+  section: News & analysis
+  tags: [security, malware, vulnerabilities]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
+  enabled: true
+  importance_bias: 1.1
+- name: The Hacker News
+  url: https://feeds.feedburner.com/TheHackersNews
+  topic: Security
+  category: Security
+  section: News & analysis
+  tags: [security, hacking, vulnerabilities]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=thehackernews.com
+  enabled: true
+  importance_bias: 1.0
+- name: Dark Reading
+  url: https://www.darkreading.com/rss.xml
+  topic: Security
+  category: Security
+  section: News & analysis
+  tags: [security, enterprise, threats]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=darkreading.com
+  enabled: true
+  importance_bias: 1.0
+- name: SANS Internet Storm Center
+  url: https://isc.sans.edu/rssfeed.xml
+  topic: Security
+  category: Security
+  section: Threat intelligence
+  tags: [security, threats, iocs]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
+  enabled: true
+  importance_bias: 1.1
+- name: SecurityWeek
+  url: https://feeds.feedburner.com/securityweek
+  topic: Security
+  category: Security
+  section: News & analysis
+  tags: [security, industry, vulnerabilities]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=securityweek.com
+  enabled: true
+  importance_bias: 0.95
+- name: Bellingcat
+  url: https://www.bellingcat.com/feed/
+  topic: Security
+  category: Security
+  section: Investigations
+  tags: [security, osint, investigations]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=bellingcat.com
+  enabled: true
+  importance_bias: 1.0
+- name: Ars Technica — Security
+  url: https://feeds.arstechnica.com/arstechnica/security
+  topic: Security
+  category: Security
+  section: News & analysis
+  tags: [security, vulnerabilities, research]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
+  enabled: true
+  importance_bias: 1.1
+- name: Wired — Security
+  url: https://www.wired.com/category/security/feed/
+  topic: Security
+  category: Security
+  section: News & analysis
+  tags: [security, privacy, surveillance]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
+  enabled: true
+  importance_bias: 1.0
+- name: CyberScoop
+  url: https://cyberscoop.com/feed/
+  topic: Security
+  category: Security
+  section: News & analysis
+  tags: [security, policy, government]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cyberscoop.com
+  enabled: true
+  importance_bias: 1.0
+- name: Malwarebytes Labs
+  url: https://www.malwarebytes.com/blog/feed/
+  topic: Security
+  category: Security
+  section: Threat intelligence
+  tags: [security, malware, threats]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=malwarebytes.com
+  enabled: true
+  importance_bias: 0.95
+- name: Infosecurity Magazine
+  url: https://www.infosecurity-magazine.com/rss/news/
+  topic: Security
+  category: Security
+  section: News & analysis
+  tags: [security, enterprise, compliance]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=infosecurity-magazine.com
+  enabled: true
+  importance_bias: 0.9
+- name: Unit 42 (Palo Alto Networks)
+  url: https://unit42.paloaltonetworks.com/feed/
+  topic: Security
+  category: Security
+  section: Threat intelligence
+  tags: [security, threat-research, malware]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=unit42.paloaltonetworks.com
+  enabled: true
+  importance_bias: 1.0
+- name: Graham Cluley
+  url: https://grahamcluley.com/feed/
+  topic: Security
+  category: Security
+  section: News & analysis
+  tags: [security, news, commentary]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=grahamcluley.com
+  enabled: true
+  importance_bias: 0.9

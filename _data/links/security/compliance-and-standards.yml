@@ -1,0 +1,168 @@
+- title: NIST Cybersecurity Framework
+  url: https://nist.gov/cyberframework
+  description: Voluntary framework of standards, guidelines, and practices for managing cybersecurity risk, now at version 2.0.
+  topic: Security
+  category: Compliance & Standards
+  section: Frameworks
+  tags:
+    - security
+    - compliance
+    - framework
+    - nist
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=nist.gov
+  sublinks:
+    - title: CSF 2.0
+      url: https://www.nist.gov/cyberframework/framework
+  notes: null
+  last_checked: '2026-05-24'
+- title: CIS Controls
+  url: https://cisecurity.org/controls
+  description: Prioritised set of 18 defensive security controls developed by the Center for Internet Security.
+  topic: Security
+  category: Compliance & Standards
+  section: Frameworks
+  tags:
+    - security
+    - compliance
+    - cis
+    - controls
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cisecurity.org
+  sublinks:
+    - title: CIS Benchmarks
+      url: https://www.cisecurity.org/cis-benchmarks
+  notes: null
+  last_checked: '2026-05-24'
+- title: ISO/IEC 27001
+  url: https://www.iso.org/standard/27001
+  description: International standard for information security management systems (ISMS) and its certification framework.
+  topic: Security
+  category: Compliance & Standards
+  section: International standards
+  tags:
+    - security
+    - compliance
+    - iso
+    - isms
+  audience: security-professionals
+  pricing: paid
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.iso.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: GDPR Info
+  url: https://gdpr-info.eu
+  description: Full text of the EU General Data Protection Regulation with recitals and cross-references.
+  topic: Security
+  category: Compliance & Standards
+  section: Regulation texts
+  tags:
+    - security
+    - gdpr
+    - privacy
+    - europe
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=gdpr-info.eu
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: PCI Security Standards Council
+  url: https://pcisecuritystandards.org
+  description: Governing body for PCI DSS, the payment card industry data security standard.
+  topic: Security
+  category: Compliance & Standards
+  section: International standards
+  tags:
+    - security
+    - pci-dss
+    - payment
+    - compliance
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=pcisecuritystandards.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: ENISA
+  url: https://enisa.europa.eu
+  description: EU Agency for Cybersecurity publishing threat landscapes, guidelines, and policy recommendations across the EU.
+  topic: Security
+  category: Compliance & Standards
+  section: Regulatory bodies
+  tags:
+    - security
+    - europe
+    - policy
+    - enisa
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=enisa.europa.eu
+  sublinks:
+    - title: Threat Landscape
+      url: https://www.enisa.europa.eu/topics/cyber-threats/enisa-threat-landscape
+  notes: null
+  last_checked: '2026-05-24'
+- title: SOC 2 — AICPA
+  url: https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2
+  description: AICPA's Service Organization Control 2 framework for auditing security, availability, and confidentiality of cloud services.
+  topic: Security
+  category: Compliance & Standards
+  section: Frameworks
+  tags:
+    - security
+    - soc2
+    - compliance
+    - cloud
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.aicpa-cima.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: NIS2 Directive
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022L2555
+  description: EU Network and Information Security Directive 2 expanding cybersecurity obligations to more sectors.
+  topic: Security
+  category: Compliance & Standards
+  section: Regulation texts
+  tags:
+    - security
+    - nis2
+    - europe
+    - regulation
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=eur-lex.europa.eu
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: BSI — Federal Office for Information Security
+  url: https://bsi.bund.de
+  description: German federal authority for information security, publishing technical guidelines and IT-Grundschutz.
+  topic: Security
+  category: Compliance & Standards
+  section: Regulatory bodies
+  tags:
+    - security
+    - germany
+    - it-grundschutz
+    - standards
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=bsi.bund.de
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'

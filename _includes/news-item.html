@@ -3,7 +3,7 @@
   {% if item.image %}<img src="{{ item.image }}" alt="" loading="lazy">{% endif %}
   <div>
     <div class="news-item__meta">
-      <span>{{ item.source }}</span>
+      {% if item.source_favicon %}<img src="{{ item.source_favicon | escape }}" alt="" class="source-favicon" loading="lazy" width="16" height="16">{% endif %}<span>{{ item.source }}</span>
       <span>{{ item.published_at | date: "%b %-d" }}</span>
       <span>Score {{ item.relevance }}</span>
     </div>

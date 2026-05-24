@@ -39,8 +39,19 @@ main {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 1 auto;
   font-weight: 800;
   text-decoration: none;
+}
+
+.brand img {
+  display: block;
+  width: auto;
+  height: 44px;
+  max-width: min(260px, 52vw);
+  object-fit: contain;
 }
 
 nav {
@@ -114,6 +125,90 @@ nav a,
   border-radius: 16px;
   object-fit: cover;
   box-shadow: var(--shadow);
+}
+
+.home-title-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.home-title-row h1 {
+  margin: 0;
+}
+
+.social-links {
+  align-items: center;
+  gap: 8px;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--muted);
+  padding: 0;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: var(--accent);
+}
+
+.social-links svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.project-links {
+  margin-top: 18px;
+}
+
+.project-links h2 {
+  margin: 0 0 8px;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.project-links ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-links li {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.45fr) 1fr;
+  gap: 12px;
+  align-items: baseline;
+  padding: 9px 0;
+  border-top: 1px solid var(--line);
+}
+
+.project-links a {
+  color: var(--accent);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+.project-links span {
+  color: var(--muted);
+  font-size: 0.92rem;
 }
 
 .topic-tree {
@@ -565,6 +660,11 @@ code {
     overflow-x: auto;
   }
 
+  .brand img {
+    height: 38px;
+    max-width: 100%;
+  }
+
   .legal-nav {
     justify-content: flex-start;
   }
@@ -601,6 +701,11 @@ code {
 
   .stats {
     grid-template-columns: 1fr;
+  }
+
+  .project-links li {
+    grid-template-columns: 1fr;
+    gap: 2px;
   }
 
   .news-item {

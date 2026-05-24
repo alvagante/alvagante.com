@@ -1,0 +1,166 @@
+- title: GitHub Actions
+  url: https://docs.github.com/en/actions
+  description: CI/CD automation platform built into GitHub with a large marketplace of reusable actions.
+  topic: IT
+  category: DevOps & CI/CD
+  section: CI/CD platforms
+  tags:
+    - it
+    - cicd
+    - github
+    - automation
+  audience: developers
+  pricing: freemium
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.github.com
+  sublinks:
+    - title: Actions Marketplace
+      url: https://github.com/marketplace?type=actions
+  notes: null
+  last_checked: '2026-05-24'
+- title: GitHub Pages
+  url: https://docs.github.com/en/pages
+  description: Documentation for hosting static sites from GitHub repositories with Jekyll or custom workflows.
+  topic: IT
+  category: DevOps & CI/CD
+  section: Static site deployment
+  tags:
+    - it
+    - github
+    - static-site
+    - deployment
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.github.com
+  sublinks:
+    - title: Custom workflows
+      url: https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
+  notes: null
+  last_checked: '2026-05-24'
+- title: GitLab CI/CD
+  url: https://docs.gitlab.com/ee/ci/
+  description: Fully integrated CI/CD built into GitLab with parallel jobs, environments, and container registry.
+  topic: IT
+  category: DevOps & CI/CD
+  section: CI/CD platforms
+  tags:
+    - it
+    - cicd
+    - gitlab
+    - automation
+  audience: developers
+  pricing: freemium
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.gitlab.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Dagger
+  url: https://dagger.io
+  description: Portable CI/CD engine that runs pipelines as code in containers, locally and on any cloud.
+  topic: IT
+  category: DevOps & CI/CD
+  section: CI/CD platforms
+  tags:
+    - it
+    - cicd
+    - containers
+    - pipelines
+  audience: developers
+  pricing: freemium
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=dagger.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Earthly
+  url: https://earthly.dev
+  description: Build automation tool combining Makefile and Dockerfile concepts for reproducible, container-based builds.
+  topic: IT
+  category: DevOps & CI/CD
+  section: Build tools
+  tags:
+    - it
+    - build
+    - containers
+    - reproducible
+  audience: developers
+  pricing: freemium
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=earthly.dev
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Tekton
+  url: https://tekton.dev
+  description: CNCF cloud-native CI/CD framework running pipelines as Kubernetes-native resources.
+  topic: IT
+  category: DevOps & CI/CD
+  section: CI/CD platforms
+  tags:
+    - it
+    - cicd
+    - kubernetes
+    - cncf
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=tekton.dev
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Buildkite
+  url: https://buildkite.com
+  description: Scalable CI/CD platform using your own infrastructure as agents, with fast pipelines and a clean interface.
+  topic: IT
+  category: DevOps & CI/CD
+  section: CI/CD platforms
+  tags:
+    - it
+    - cicd
+    - self-hosted
+    - pipelines
+  audience: developers
+  pricing: freemium
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=buildkite.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Argo Workflows
+  url: https://argoproj.github.io/workflows
+  description: Kubernetes-native workflow orchestration engine for running parallel jobs, DAGs, and data pipelines.
+  topic: IT
+  category: DevOps & CI/CD
+  section: Workflow engines
+  tags:
+    - it
+    - kubernetes
+    - workflows
+    - orchestration
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=argoproj.github.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Jenkins
+  url: https://jenkins.io
+  description: The most widely-used open-source automation server with a vast plugin ecosystem for CI/CD pipelines.
+  topic: IT
+  category: DevOps & CI/CD
+  section: CI/CD platforms
+  tags:
+    - it
+    - cicd
+    - jenkins
+    - automation
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=jenkins.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'

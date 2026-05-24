@@ -1,0 +1,164 @@
+- title: Cryptopals
+  url: https://cryptopals.com
+  description: Series of cryptography challenges teaching practical breaks of real-world crypto constructions.
+  topic: Security
+  category: Cryptography & Protocols
+  section: Learning & challenges
+  tags:
+    - security
+    - cryptography
+    - challenges
+    - learning
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cryptopals.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Mozilla SSL Configuration Generator
+  url: https://ssl-config.mozilla.org
+  description: Generates secure TLS configurations for nginx, Apache, HAProxy, and other servers based on Mozilla guidelines.
+  topic: Security
+  category: Cryptography & Protocols
+  section: TLS & certificates
+  tags:
+    - security
+    - tls
+    - configuration
+    - mozilla
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=ssl-config.mozilla.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Let's Encrypt
+  url: https://letsencrypt.org
+  description: Free, automated, and open certificate authority providing TLS certificates to the public.
+  topic: Security
+  category: Cryptography & Protocols
+  section: TLS & certificates
+  tags:
+    - security
+    - tls
+    - certificates
+    - ca
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=letsencrypt.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: OpenSSL
+  url: https://openssl.org
+  description: The widely-used open-source toolkit for SSL/TLS and general-purpose cryptography.
+  topic: Security
+  category: Cryptography & Protocols
+  section: Libraries & tools
+  tags:
+    - security
+    - cryptography
+    - tls
+    - library
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=openssl.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Libsodium
+  url: https://doc.libsodium.org
+  description: Modern, easy-to-use cryptographic library with opinionated, hard-to-misuse APIs for encryption, signing, and hashing.
+  topic: Security
+  category: Cryptography & Protocols
+  section: Libraries & tools
+  tags:
+    - security
+    - cryptography
+    - library
+    - nacl
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=doc.libsodium.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Age
+  url: https://age-encryption.org
+  description: Simple, modern, and secure file encryption tool and library with a clean format specification.
+  topic: Security
+  category: Cryptography & Protocols
+  section: Libraries & tools
+  tags:
+    - security
+    - encryption
+    - file-encryption
+    - tools
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=age-encryption.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Sigstore
+  url: https://sigstore.dev
+  description: Open-source project for signing, verifying, and protecting software supply chains with keyless code signing.
+  topic: Security
+  category: Cryptography & Protocols
+  section: Code signing & supply chain
+  tags:
+    - security
+    - supply-chain
+    - signing
+    - open-source
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=sigstore.dev
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: Have I Been Pwned
+  url: https://haveibeenpwned.com
+  description: Check if email addresses or passwords have appeared in known data breaches; free API for developers.
+  topic: Security
+  category: Cryptography & Protocols
+  section: Password security
+  tags:
+    - security
+    - passwords
+    - breaches
+    - data-leak
+  audience: general
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=haveibeenpwned.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-05-24'
+- title: RFC Editor
+  url: https://rfc-editor.org
+  description: Authoritative source for Internet Standards and RFCs, including foundational security protocol specifications.
+  topic: Security
+  category: Cryptography & Protocols
+  section: Protocol specifications
+  tags:
+    - security
+    - protocols
+    - rfc
+    - standards
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=rfc-editor.org
+  sublinks:
+    - title: TLS 1.3 (RFC 8446)
+      url: https://www.rfc-editor.org/rfc/rfc8446
+  notes: null
+  last_checked: '2026-05-24'
