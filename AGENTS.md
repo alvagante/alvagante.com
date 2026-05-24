@@ -58,7 +58,7 @@ This repository is a GitHub Pages Jekyll site for `alvagante.com`. It serves a c
 Canonical public data lives under `_data/`:
 
 - `_data/links/<topic>/<category>.yml` - curated directory entries grouped by topic and category.
-- `_data/news_sources.yml` - RSS/Atom sources used by the news digest.
+- `_data/sources/<category>.yml` - RSS/Atom sources used by the news digest, grouped by news category.
 - `_data/generated/news/YYYY-MM-DD.yml` - generated daily digest files consumed by the Jekyll pages.
 
 Primary site files are:
@@ -160,7 +160,7 @@ For swamp extension/model/workflow changes, run the relevant swamp validation co
 
 ## Editing Guidelines
 
-- Treat `_data/links/<topic>/<category>.yml` and `_data/news_sources.yml` as hand-curated source data.
+- Treat `_data/links/<topic>/<category>.yml` and `_data/sources/<category>.yml` as hand-curated source data.
 - Treat `_data/generated/news/*.yml` as generated but commit-worthy site content.
 - Keep frontend UI compact and dashboard-like; avoid landing-page hero bloat.
 - Keep Liquid simple and GitHub Pages compatible.

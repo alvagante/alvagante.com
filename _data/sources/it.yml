@@ -1,0 +1,28 @@
+- name: Ars Technica Technology Lab
+  url: https://feeds.arstechnica.com/arstechnica/technology-lab
+  category: IT
+  section: Technology news
+  tags: [it, infrastructure, engineering]
+  enabled: true
+  importance_bias: 1.0
+- name: BleepingComputer
+  url: https://www.bleepingcomputer.com/feed/
+  category: IT
+  section: Security and systems
+  tags: [it, security, systems]
+  enabled: true
+  importance_bias: 1.1
+- name: GitHub Blog
+  url: https://github.blog/feed/
+  category: IT
+  section: Development platforms
+  tags: [it, github, development]
+  enabled: true
+  importance_bias: 1.0
+- name: The Register Software
+  url: https://www.theregister.com/software/headlines.atom
+  category: IT
+  section: Software industry
+  tags: [it, software, industry]
+  enabled: true
+  importance_bias: 0.95

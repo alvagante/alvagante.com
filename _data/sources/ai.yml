@@ -1,0 +1,28 @@
+- name: OpenAI News
+  url: https://openai.com/news/rss.xml
+  category: AI
+  section: Product and research
+  tags: [ai, openai, models]
+  enabled: true
+  importance_bias: 1.2
+- name: Google AI Blog
+  url: https://blog.google/innovation-and-ai/technology/ai/rss/
+  category: AI
+  section: Product and research
+  tags: [ai, google, research]
+  enabled: true
+  importance_bias: 1.1
+- name: Google DeepMind Blog
+  url: https://deepmind.google/blog/rss.xml
+  category: AI
+  section: Research labs
+  tags: [ai, deepmind, research]
+  enabled: true
+  importance_bias: 1.1
+- name: MIT News AI
+  url: https://news.mit.edu/rss/topic/artificial-intelligence2
+  category: AI
+  section: Academic research
+  tags: [ai, mit, research]
+  enabled: true
+  importance_bias: 1.0

@@ -30,5 +30,5 @@ The `site-curation` model runs without an OpenAI key by using feed excerpts. To 
 ## Data files
 
 - `_data/links/<topic>/<category>.yml` files contain curated directory entries grouped by topic and category.
-- `_data/news_sources.yml` contains enabled RSS/Atom sources.
+- `_data/sources/<category>.yml` contains enabled RSS/Atom sources by news category.
 - `_data/generated/news/YYYY-MM-DD.yml` contains generated daily digest data.
