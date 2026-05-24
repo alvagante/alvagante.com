@@ -1,0 +1,380 @@
+- title: LlamaParse
+  url: https://cloud.llamaindex.ai
+  description: LlamaIndex's hosted parser; strong on tables.
+  topic: AI
+  category: Document & PDF Processing
+  section: Modern document parsers (layout-aware)
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - modern-document-parsers-layout-aware
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cloud.llamaindex.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: Unstructured
+  url: https://unstructured.io
+  description: open-source + hosted; broad format support.
+  topic: AI
+  category: Document & PDF Processing
+  section: Modern document parsers (layout-aware)
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - modern-document-parsers-layout-aware
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=unstructured.io
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: Reducto
+  url: https://reducto.ai
+  description: high-fidelity proprietary parser.
+  topic: AI
+  category: Document & PDF Processing
+  section: Modern document parsers (layout-aware)
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - modern-document-parsers-layout-aware
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=reducto.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: Docling
+  url: https://github.com/DS4SD/docling
+  description: IBM open-source, well-engineered.
+  topic: AI
+  category: Document & PDF Processing
+  section: Modern document parsers (layout-aware)
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - modern-document-parsers-layout-aware
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: Marker
+  url: https://github.com/VikParuchuri/marker
+  description: open-source PDF → markdown.
+  topic: AI
+  category: Document & PDF Processing
+  section: Modern document parsers (layout-aware)
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - modern-document-parsers-layout-aware
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: Nougat
+  url: https://github.com/facebookresearch/nougat
+  description: Meta; academic-paper focused.
+  topic: AI
+  category: Document & PDF Processing
+  section: Modern document parsers (layout-aware)
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - modern-document-parsers-layout-aware
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: MinerU
+  url: https://github.com/opendatalab/MinerU
+  description: open-source, strong on math/tables.
+  topic: AI
+  category: Document & PDF Processing
+  section: Modern document parsers (layout-aware)
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - modern-document-parsers-layout-aware
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: Tesseract
+  url: https://github.com/tesseract-ocr/tesseract
+  description: the classic, still ubiquitous.
+  topic: AI
+  category: Document & PDF Processing
+  section: OCR (classic + modern)
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - ocr-classic-modern
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: PaddleOCR
+  url: https://github.com/PaddlePaddle/PaddleOCR
+  description: Baidu; strong multilingual.
+  topic: AI
+  category: Document & PDF Processing
+  section: OCR (classic + modern)
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - ocr-classic-modern
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: Surya
+  url: https://github.com/VikParuchuri/surya
+  description: modern open OCR (line-level).
+  topic: AI
+  category: Document & PDF Processing
+  section: OCR (classic + modern)
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - ocr-classic-modern
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: OCRmyPDF
+  url: https://github.com/ocrmypdf/OCRmyPDF
+  description: Tesseract wrapper for PDFs.
+  topic: AI
+  category: Document & PDF Processing
+  section: OCR (classic + modern)
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - ocr-classic-modern
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: Mistral OCR
+  url: https://mistral.ai/news/mistral-ocr
+  description: recent commercial offering.
+  topic: AI
+  category: Document & PDF Processing
+  section: OCR (classic + modern)
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - ocr-classic-modern
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=mistral.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: LayoutLM v3
+  url: https://huggingface.co/microsoft/layoutlmv3-base
+  description: (Microsoft)
+  topic: AI
+  category: Document & PDF Processing
+  section: Layout-aware research models
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - layout-aware-research-models
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: Donut
+  url: https://huggingface.co/naver-clova-ix/donut-base
+  description: OCR-free document understanding.
+  topic: AI
+  category: Document & PDF Processing
+  section: Layout-aware research models
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - layout-aware-research-models
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: OmniParser
+  url: https://github.com/microsoft/OmniParser
+  description: (Microsoft) UI/document parser.
+  topic: AI
+  category: Document & PDF Processing
+  section: Layout-aware research models
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - layout-aware-research-models
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: AWS Textract
+  url: https://aws.amazon.com/textract/
+  description: AWS Textract resource in Document & PDF Processing.
+  topic: AI
+  category: Document & PDF Processing
+  section: Cloud / enterprise
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - cloud-enterprise
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=aws.amazon.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: Google Document AI
+  url: https://cloud.google.com/document-ai
+  description: Google Document AI resource in Document & PDF Processing.
+  topic: AI
+  category: Document & PDF Processing
+  section: Cloud / enterprise
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - cloud-enterprise
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: Azure Document Intelligence
+  url: https://azure.microsoft.com/en-us/products/ai-services/ai-document-intelligence
+  description: Azure Document Intelligence resource in Document & PDF Processing.
+  topic: AI
+  category: Document & PDF Processing
+  section: Cloud / enterprise
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - cloud-enterprise
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=azure.microsoft.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'
+- title: Adobe PDF Services API
+  url: https://developer.adobe.com/document-services/apis/pdf-services/
+  description: Adobe PDF Services API resource in Document & PDF Processing.
+  topic: AI
+  category: Document & PDF Processing
+  section: Cloud / enterprise
+  tags:
+  - ai
+  - document-and-pdf-processing
+  - cloud-enterprise
+  - pdf
+  - ocr
+  - document-ai
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=developer.adobe.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Document & PDF Processing.md'
+  last_checked: '2026-05-24'

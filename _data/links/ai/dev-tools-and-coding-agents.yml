@@ -1,0 +1,706 @@
+- title: OpenAI Platform
+  url: https://platform.openai.com/docs
+  description: Official API documentation, guides, and reference for building with OpenAI models.
+  category: Dev Tools & Coding Agents
+  tags:
+  - ai
+  - dev-tools
+  - docs
+  - api
+  - models
+  - automation
+  audience: builders
+  pricing: freemium
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=platform.openai.com
+  sublinks:
+  - title: Models
+    url: https://platform.openai.com/docs/models
+  - title: Responses API
+    url: https://platform.openai.com/docs/api-reference/responses
+  notes: Primary reference for AI-assisted site curation.
+  last_checked: 2026-05-24
+  topic: AI
+  section: Documentation
+- title: Claude Code
+  url: https://claude.com/code
+  description: Anthropic's CLI agent.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Terminal / CLI coding agents
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - terminal-cli-coding-agents
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=claude.com
+  sublinks:
+  - title: docs
+    url: https://docs.claude.com/en/docs/claude-code
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Codex CLI
+  url: https://github.com/openai/codex
+  description: OpenAI's CLI agent.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Terminal / CLI coding agents
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - terminal-cli-coding-agents
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Gemini CLI
+  url: https://github.com/google-gemini/gemini-cli
+  description: Google's CLI agent.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Terminal / CLI coding agents
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - terminal-cli-coding-agents
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Aider
+  url: https://aider.chat
+  description: git-aware pair-programming CLI.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Terminal / CLI coding agents
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - terminal-cli-coding-agents
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=aider.chat
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: OpenCode
+  url: https://opencode.ai
+  description: open-source TUI coding agent.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Terminal / CLI coding agents
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - terminal-cli-coding-agents
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=opencode.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Cursor
+  url: https://cursor.com
+  description: fork of VS Code, agent-native.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Editor-integrated
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - editor-integrated
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cursor.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Windsurf
+  url: https://windsurf.com
+  description: Codeium's agentic editor.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Editor-integrated
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - editor-integrated
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=windsurf.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Zed
+  url: https://zed.dev
+  description: fast native editor with AI panel.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Editor-integrated
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - editor-integrated
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=zed.dev
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Continue
+  url: https://continue.dev
+  description: open-source IDE extension.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Editor-integrated
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - editor-integrated
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=continue.dev
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Cline
+  url: https://cline.bot
+  description: VS Code agent extension.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Editor-integrated
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - editor-integrated
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cline.bot
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Roo Code
+  url: https://roocode.com
+  description: Cline fork, broader model support.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Editor-integrated
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - editor-integrated
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=roocode.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: GitHub Copilot
+  url: https://github.com/features/copilot
+  description: GitHub Copilot resource in Dev Tools & Coding Agents.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Editor-integrated
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - editor-integrated
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Devin
+  url: https://devin.ai
+  description: Cognition's autonomous SWE.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Autonomous / SWE agents & app builders
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - autonomous-swe-agents-and-app-builders
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=devin.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Replit Agent
+  url: https://replit.com
+  description: full-stack agent in Replit.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Autonomous / SWE agents & app builders
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - autonomous-swe-agents-and-app-builders
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=replit.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Bolt.new
+  url: https://bolt.new
+  description: StackBlitz, full-stack from prompt.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Autonomous / SWE agents & app builders
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - autonomous-swe-agents-and-app-builders
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=bolt.new
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: v0
+  url: https://v0.dev
+  description: Vercel, UI generation.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Autonomous / SWE agents & app builders
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - autonomous-swe-agents-and-app-builders
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=v0.dev
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Lovable
+  url: https://lovable.dev
+  description: full-app generation.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Autonomous / SWE agents & app builders
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - autonomous-swe-agents-and-app-builders
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=lovable.dev
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Ollama
+  url: https://ollama.com
+  description: easiest local model runner.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Local inference
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - local-inference
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=ollama.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: LM Studio
+  url: https://lmstudio.ai
+  description: desktop GUI for local models.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Local inference
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - local-inference
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=lmstudio.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: llama.cpp
+  url: https://github.com/ggml-org/llama.cpp
+  description: the reference local runtime.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Local inference
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - local-inference
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: vLLM
+  url: https://docs.vllm.ai
+  description: high-throughput inference server.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Local inference
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - local-inference
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.vllm.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Hugging Face
+  url: https://huggingface.co
+  description: models, datasets, spaces.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Local inference
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - local-inference
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: OpenRouter
+  url: https://openrouter.ai
+  description: unified API across providers.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Hosted inference / routing
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - hosted-inference-routing
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=openrouter.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Groq
+  url: https://groq.com
+  description: LPU, extremely fast inference.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Hosted inference / routing
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - hosted-inference-routing
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=groq.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Together AI
+  url: https://www.together.ai
+  description: open-model hosting.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Hosted inference / routing
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - hosted-inference-routing
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.together.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Fireworks AI
+  url: https://fireworks.ai
+  description: fast open-model serving.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Hosted inference / routing
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - hosted-inference-routing
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=fireworks.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Replicate
+  url: https://replicate.com
+  description: run any model via API.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Hosted inference / routing
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - hosted-inference-routing
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=replicate.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Modal
+  url: https://modal.com
+  description: serverless GPU compute.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Hosted inference / routing
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - hosted-inference-routing
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=modal.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Model Context Protocol (MCP)
+  url: https://modelcontextprotocol.io
+  description: Anthropic's tool/context spec.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Agent frameworks & protocols
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - agent-frameworks-and-protocols
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=modelcontextprotocol.io
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Claude Agent SDK
+  url: https://docs.claude.com/en/api/agent-sdk/overview
+  description: Claude Agent SDK resource in Dev Tools & Coding Agents.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Agent frameworks & protocols
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - agent-frameworks-and-protocols
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.claude.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: LangChain
+  url: https://www.langchain.com
+  description: LangChain resource in Dev Tools & Coding Agents.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Agent frameworks & protocols
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - agent-frameworks-and-protocols
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.langchain.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: LlamaIndex
+  url: https://www.llamaindex.ai
+  description: RAG framework.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Agent frameworks & protocols
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - agent-frameworks-and-protocols
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.llamaindex.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: LiteLLM
+  url: https://www.litellm.ai
+  description: provider-agnostic SDK proxy.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Agent frameworks & protocols
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - agent-frameworks-and-protocols
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.litellm.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'
+- title: Pydantic AI
+  url: https://ai.pydantic.dev
+  description: typed agent framework.
+  topic: AI
+  category: Dev Tools & Coding Agents
+  section: Agent frameworks & protocols
+  tags:
+  - ai
+  - dev-tools-and-coding-agents
+  - agent-frameworks-and-protocols
+  - dev-tools
+  - agents
+  - coding
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=ai.pydantic.dev
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Dev Tools & Coding Agents.md'
+  last_checked: '2026-05-24'

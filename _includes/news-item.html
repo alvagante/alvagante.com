@@ -1,0 +1,17 @@
+{% assign item = include.item %}
+<article class="news-item">
+  {% if item.image %}<img src="{{ item.image }}" alt="" loading="lazy">{% endif %}
+  <div>
+    <div class="news-item__meta">
+      <span>{{ item.source }}</span>
+      <span>{{ item.published_at | date: "%b %-d" }}</span>
+      <span>Score {{ item.relevance }}</span>
+    </div>
+    <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
+    <p>{{ item.summary }}</p>
+    <div class="chips">
+      <span>{{ item.category }}</span>
+      {% for tag in item.tags limit: 4 %}<span>{{ tag }}</span>{% endfor %}
+    </div>
+  </div>
+</article>

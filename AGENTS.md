@@ -48,3 +48,120 @@ schema of the CLI (commands, options, arguments) intended for agent
 consumption, run `swamp help [<command>...]` — e.g. `swamp help` returns
 the full tree, and `swamp help model method run` scopes to a subtree.
 <!-- END swamp managed section -->
+
+# alvagante.com Site Instructions
+
+## Site Shape
+
+This repository is a GitHub Pages Jekyll site for `alvagante.com`. It serves a compact personal dashboard with curated links and daily AI-assisted news digests. Keep public site data local-first and file-backed; do not add a backend, database, accounts, comments, or admin UI unless explicitly requested.
+
+Canonical public data lives under `_data/`:
+
+- `_data/links/<topic>/<category>.yml` - curated directory entries grouped by topic and category.
+- `_data/news_sources.yml` - RSS/Atom sources used by the news digest.
+- `_data/generated/news/YYYY-MM-DD.yml` - generated daily digest files consumed by the Jekyll pages.
+
+Primary site files are:
+
+- `index.md`, `links.md`, `news.md`, `about.md` for top-level pages.
+- `_layouts/default.html` and `_includes/` for Liquid templates.
+- `assets/css/site.css`, `assets/js/filters.js`, and `assets/img/` for frontend assets.
+
+Avoid custom Jekyll plugins; this site should stay compatible with GitHub Pages and the `github-pages` gem.
+
+## Docker-First Local Development
+
+Use Docker for all Jekyll testing. Do not require host Ruby, Bundler, or Jekyll.
+
+Start or refresh the local site service:
+
+```bash
+docker compose up jekyll
+```
+
+Run it in the background:
+
+```bash
+docker compose up -d jekyll
+```
+
+Stop it:
+
+```bash
+docker compose down
+```
+
+Run a one-off build check:
+
+```bash
+docker compose run --rm jekyll bundle exec jekyll build
+```
+
+The Jekyll service must listen on an external interface because development happens on a remote node. `docker-compose.yml` publishes:
+
+- `0.0.0.0:4000:4000` for the site.
+- `0.0.0.0:35729:35729` for LiveReload.
+
+Jekyll itself must be started with `--host 0.0.0.0`. Access the site at `http://<remote-host>:4000/`, not only `localhost`.
+
+The Compose service uses a named `bundle-cache` volume for gem installs and runs incremental Jekyll rebuilds for faster checks. Generated Jekyll artifacts such as `_site/`, `.jekyll-cache/`, `.jekyll-metadata`, `.bundle/`, `vendor/bundle/`, and `Gemfile.lock` are local artifacts and should not be committed.
+
+## Swamp Automation
+
+The local swamp extension is `@alvagante/site-curation` in `extensions/models/site_curation.ts`, registered by `manifest.yaml`. It is intentionally a fan-out model: fetch all enabled feeds and build the digest in one method run rather than looping separate model calls.
+
+The configured model is named `site-curation` and lives under `models/@alvagante/site-curation/`. Preserve swamp-assigned IDs in model YAML.
+
+Useful commands:
+
+```bash
+swamp extension source add . --only models
+swamp extension fmt manifest.yaml --check
+swamp doctor extensions --json
+swamp model validate site-curation --json
+swamp model method run site-curation build_daily_digest
+swamp workflow validate daily-news --json
+swamp workflow run daily-news
+```
+
+The `daily-news` workflow calls `site-curation.build_daily_digest`, writes `_data/generated/news/YYYY-MM-DD.yml`, and stores a swamp data resource for the same digest. Preserve the workflow ID in `workflows/workflow-*.yaml`; create new workflows only with `swamp workflow create <name> --json` before editing.
+
+The model can run without an OpenAI key by using feed excerpts. For AI enrichment, provide `OPENAI_API_KEY` through a swamp vault, environment variable, or GitHub Actions secret. Never commit API keys or put them directly in model YAML.
+
+## GitHub Actions
+
+`.github/workflows/pages.yml` handles build, optional digest generation, committing generated digest changes, and Pages deployment. It runs on:
+
+- `push` to `main`.
+- `workflow_dispatch`, with `generate_digest` set to `true` when a manual digest run is needed.
+- Daily schedule at a non-top-of-hour cron.
+
+Keep GitHub Pages deployment plugin-free and static. If the Actions workflow changes, make sure it still builds Jekyll with Bundler and preserves `OPENAI_API_KEY` as a secret-only value.
+
+## Verification Before Handoff
+
+For site/template changes, run:
+
+```bash
+docker compose run --rm jekyll bundle exec jekyll build
+```
+
+For Docker service changes, run:
+
+```bash
+docker compose config
+docker compose up -d jekyll
+docker compose ps
+```
+
+Confirm `docker compose ps` shows `0.0.0.0:4000->4000/tcp`.
+
+For swamp extension/model/workflow changes, run the relevant swamp validation commands above and then run `swamp workflow run daily-news` when feed/network access is available.
+
+## Editing Guidelines
+
+- Treat `_data/links/<topic>/<category>.yml` and `_data/news_sources.yml` as hand-curated source data.
+- Treat `_data/generated/news/*.yml` as generated but commit-worthy site content.
+- Keep frontend UI compact and dashboard-like; avoid landing-page hero bloat.
+- Keep Liquid simple and GitHub Pages compatible.
+- Do not edit the swamp-managed section at the top of this file.

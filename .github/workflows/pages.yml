@@ -1,0 +1,70 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      generate_digest:
+        description: Generate the daily news digest before deploying
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+  schedule:
+    - cron: "17 5 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - name: Install swamp
+        run: |
+          if ! command -v swamp >/dev/null 2>&1; then
+            mkdir -p "$HOME/.local/bin"
+            curl -fsSL https://github.com/systeminit/swamp/releases/latest/download/swamp-linux-x86_64 -o "$HOME/.local/bin/swamp"
+            chmod +x "$HOME/.local/bin/swamp"
+            echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          fi
+      - name: Register local swamp extension
+        run: swamp extension source add . --only models || true
+      - name: Generate daily digest
+        if: github.event_name == 'schedule' || inputs.generate_digest == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: swamp workflow run daily-news
+      - name: Commit generated digest
+        if: github.event_name == 'schedule' || inputs.generate_digest == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update daily news digest"
+          file_pattern: "_data/generated/news/*.yml"
+      - name: Build Jekyll
+        run: bundle exec jekyll build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,21 @@
+services:
+  jekyll:
+    build:
+      context: .
+    command: >
+      sh -lc "bundle check || bundle install;
+      bundle exec jekyll serve --host 0.0.0.0 --port 4000 --livereload --incremental --force_polling"
+    environment:
+      BUNDLE_PATH: /bundle
+      BUNDLE_JOBS: "4"
+      BUNDLE_RETRY: "3"
+      JEKYLL_ENV: development
+    ports:
+      - "0.0.0.0:4000:4000"
+      - "0.0.0.0:35729:35729"
+    volumes:
+      - .:/srv/jekyll
+      - bundle-cache:/bundle
+
+volumes:
+  bundle-cache:

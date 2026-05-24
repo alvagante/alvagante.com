@@ -1,0 +1,560 @@
+- title: pgvector
+  url: https://github.com/pgvector/pgvector
+  description: Postgres extension; usually the right starting point.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Vector databases — open-source
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - vector-databases-open-source
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Qdrant
+  url: https://qdrant.tech
+  description: Rust-based, generous free tier.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Vector databases — open-source
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - vector-databases-open-source
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=qdrant.tech
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Weaviate
+  url: https://weaviate.io
+  description: schema-first, hybrid search built-in.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Vector databases — open-source
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - vector-databases-open-source
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=weaviate.io
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Chroma
+  url: https://www.trychroma.com
+  description: Python-native, dev-friendly.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Vector databases — open-source
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - vector-databases-open-source
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.trychroma.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Milvus
+  url: https://milvus.io
+  description: Zilliz; built for scale.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Vector databases — open-source
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - vector-databases-open-source
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=milvus.io
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: LanceDB
+  url: https://lancedb.com
+  description: embedded, columnar (Lance format).
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Vector databases — open-source
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - vector-databases-open-source
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=lancedb.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Vespa
+  url: https://vespa.ai
+  description: Yahoo's search engine, very serious.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Vector databases — open-source
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - vector-databases-open-source
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=vespa.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Pinecone
+  url: https://www.pinecone.io
+  description: the original; serverless.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Vector databases — managed
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - vector-databases-managed
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.pinecone.io
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Turbopuffer
+  url: https://turbopuffer.com
+  description: object-storage backed, cheap at scale.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Vector databases — managed
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - vector-databases-managed
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=turbopuffer.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: MongoDB Atlas Vector Search
+  url: https://www.mongodb.com/products/platform/atlas-vector-search
+  description: MongoDB Atlas Vector Search resource in RAG, Embeddings & Vector DBs.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Vector databases — managed
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - vector-databases-managed
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.mongodb.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Redis Vector
+  url: https://redis.io/docs/latest/develop/data-types/vector-sets/
+  description: Redis Vector resource in RAG, Embeddings & Vector DBs.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Vector databases — managed
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - vector-databases-managed
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=redis.io
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Voyage AI
+  url: https://www.voyageai.com
+  description: top commercial embeddings (now MongoDB).
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Embedding models — commercial
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - embedding-models-commercial
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.voyageai.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Cohere Embed
+  url: https://cohere.com
+  description: strong multilingual.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Embedding models — commercial
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - embedding-models-commercial
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cohere.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: OpenAI text-embedding-3
+  url: https://platform.openai.com/docs/guides/embeddings
+  description: easy default.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Embedding models — commercial
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - embedding-models-commercial
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=platform.openai.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Google text-embedding (Gemini)
+  url: https://ai.google.dev/gemini-api/docs/embeddings
+  description: Google text-embedding (Gemini) resource in RAG, Embeddings & Vector DBs.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Embedding models — commercial
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - embedding-models-commercial
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=ai.google.dev
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: BGE / BGE-M3
+  url: https://huggingface.co/BAAI
+  description: (BAAI) top open performance.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Embedding models — open weights
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - embedding-models-open-weights
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Nomic Embed
+  url: https://www.nomic.ai
+  description: open + reproducible.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Embedding models — open weights
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - embedding-models-open-weights
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.nomic.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Jina Embeddings
+  url: https://jina.ai
+  description: long context, multilingual.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Embedding models — open weights
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - embedding-models-open-weights
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=jina.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: mxbai-embed-large
+  url: https://www.mixedbread.com
+  description: (Mixedbread)
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Embedding models — open weights
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - embedding-models-open-weights
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.mixedbread.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Snowflake Arctic Embed
+  url: https://huggingface.co/Snowflake
+  description: Snowflake Arctic Embed resource in RAG, Embeddings & Vector DBs.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Embedding models — open weights
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - embedding-models-open-weights
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: MTEB
+  url: https://huggingface.co/spaces/mteb/leaderboard
+  description: Massive Text Embedding Benchmark.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Embedding leaderboard
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - embedding-leaderboard
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Haystack
+  url: https://haystack.deepset.ai
+  description: (deepset) production-oriented.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: RAG frameworks
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - rag-frameworks
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=haystack.deepset.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: R2R
+  url: https://github.com/SciPhi-AI/R2R
+  description: opinionated RAG-as-a-service.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: RAG frameworks
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - rag-frameworks
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Cognita
+  url: https://github.com/truefoundry/cognita
+  description: RAG framework + UI.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: RAG frameworks
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - rag-frameworks
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: RAGAS
+  url: https://docs.ragas.io
+  description: context relevance, faithfulness, answer relevance.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: RAG evaluation
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - rag-evaluation
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.ragas.io
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: ARES
+  url: https://github.com/stanford-futuredata/ARES
+  description: Stanford RAG eval.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: RAG evaluation
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - rag-evaluation
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Patterns for building LLM-based systems
+  url: https://eugeneyan.com/writing/llm-patterns/
+  description: Eugene Yan.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Reading
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - reading
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=eugeneyan.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'
+- title: Anyscale's RAG production guide
+  url: https://www.anyscale.com/blog/a-comprehensive-guide-for-building-rag-based-llm-applications-part-1
+  description: Anyscale's RAG production guide resource in RAG, Embeddings & Vector DBs.
+  topic: AI
+  category: RAG, Embeddings & Vector DBs
+  section: Reading
+  tags:
+  - ai
+  - rag-embeddings-and-vector-dbs
+  - reading
+  - rag
+  - embeddings
+  - vector-db
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.anyscale.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/RAG, Embeddings & Vector DBs.md'
+  last_checked: '2026-05-24'

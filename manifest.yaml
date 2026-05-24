@@ -1,0 +1,10 @@
+name: "@alvagante/site-curation"
+manifestVersion: 1
+version: 2026.05.24.1
+description: Feed and link curation model for the alvagante.com static site.
+labels:
+  - jekyll
+  - rss
+  - curation
+models:
+  - site_curation.ts

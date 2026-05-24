@@ -1,0 +1,266 @@
+- title: Anthropic prompt engineering overview
+  url: https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview
+  description: system prompts, XML tags, multi-shot, CoT.
+  topic: AI
+  category: Prompt Engineering & Patterns
+  section: Official model-maker guides
+  tags:
+  - ai
+  - prompt-engineering-and-patterns
+  - official-model-maker-guides
+  - prompt-engineering
+  - patterns
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.claude.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Prompt Engineering & Patterns.md'
+  last_checked: '2026-05-24'
+- title: Anthropic prompt library
+  url: https://docs.claude.com/en/resources/prompt-library/library
+  description: task-specific reference prompts.
+  topic: AI
+  category: Prompt Engineering & Patterns
+  section: Official model-maker guides
+  tags:
+  - ai
+  - prompt-engineering-and-patterns
+  - official-model-maker-guides
+  - prompt-engineering
+  - patterns
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.claude.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Prompt Engineering & Patterns.md'
+  last_checked: '2026-05-24'
+- title: OpenAI cookbook
+  url: https://cookbook.openai.com
+  description: recipes, eval patterns, function calling.
+  topic: AI
+  category: Prompt Engineering & Patterns
+  section: Official model-maker guides
+  tags:
+  - ai
+  - prompt-engineering-and-patterns
+  - official-model-maker-guides
+  - prompt-engineering
+  - patterns
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cookbook.openai.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Prompt Engineering & Patterns.md'
+  last_checked: '2026-05-24'
+- title: Google Gemini prompting guide
+  url: https://ai.google.dev/gemini-api/docs/prompting-strategies
+  description: Google Gemini prompting guide resource in Prompt Engineering & Patterns.
+  topic: AI
+  category: Prompt Engineering & Patterns
+  section: Official model-maker guides
+  tags:
+  - ai
+  - prompt-engineering-and-patterns
+  - official-model-maker-guides
+  - prompt-engineering
+  - patterns
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=ai.google.dev
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Prompt Engineering & Patterns.md'
+  last_checked: '2026-05-24'
+- title: Prompt Engineering Guide (DAIR)
+  url: https://www.promptingguide.ai
+  description: comprehensive open guide.
+  topic: AI
+  category: Prompt Engineering & Patterns
+  section: Open guides / surveys
+  tags:
+  - ai
+  - prompt-engineering-and-patterns
+  - open-guides-surveys
+  - prompt-engineering
+  - patterns
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.promptingguide.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Prompt Engineering & Patterns.md'
+  last_checked: '2026-05-24'
+- title: Lilian Weng's blog
+  url: https://lilianweng.github.io
+  description: agents, CoT, reasoning surveys.
+  topic: AI
+  category: Prompt Engineering & Patterns
+  section: Open guides / surveys
+  tags:
+  - ai
+  - prompt-engineering-and-patterns
+  - open-guides-surveys
+  - prompt-engineering
+  - patterns
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=lilianweng.github.io
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Prompt Engineering & Patterns.md'
+  last_checked: '2026-05-24'
+- title: Eugene Yan — patterns for LLM systems
+  url: https://eugeneyan.com/writing/llm-patterns/
+  description: Eugene Yan — patterns for LLM systems resource in Prompt Engineering & Patterns.
+  topic: AI
+  category: Prompt Engineering & Patterns
+  section: Open guides / surveys
+  tags:
+  - ai
+  - prompt-engineering-and-patterns
+  - open-guides-surveys
+  - prompt-engineering
+  - patterns
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=eugeneyan.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Prompt Engineering & Patterns.md'
+  last_checked: '2026-05-24'
+- title: DSPy
+  url: https://dspy.ai
+  description: Stanford; "compile" prompts via optimization, not hand-tuning.
+  topic: AI
+  category: Prompt Engineering & Patterns
+  section: Programmatic / managed prompts
+  tags:
+  - ai
+  - prompt-engineering-and-patterns
+  - programmatic-managed-prompts
+  - prompt-engineering
+  - patterns
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=dspy.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Prompt Engineering & Patterns.md'
+  last_checked: '2026-05-24'
+- title: LangChain Hub
+  url: https://smith.langchain.com/hub
+  description: versioned prompt registry.
+  topic: AI
+  category: Prompt Engineering & Patterns
+  section: Programmatic / managed prompts
+  tags:
+  - ai
+  - prompt-engineering-and-patterns
+  - programmatic-managed-prompts
+  - prompt-engineering
+  - patterns
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=smith.langchain.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Prompt Engineering & Patterns.md'
+  last_checked: '2026-05-24'
+- title: PromptLayer
+  url: https://www.promptlayer.com
+  description: hosted prompt management + tracking.
+  topic: AI
+  category: Prompt Engineering & Patterns
+  section: Programmatic / managed prompts
+  tags:
+  - ai
+  - prompt-engineering-and-patterns
+  - programmatic-managed-prompts
+  - prompt-engineering
+  - patterns
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.promptlayer.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Prompt Engineering & Patterns.md'
+  last_checked: '2026-05-24'
+- title: HumanLoop
+  url: https://humanloop.com
+  description: hosted prompt + eval platform.
+  topic: AI
+  category: Prompt Engineering & Patterns
+  section: Programmatic / managed prompts
+  tags:
+  - ai
+  - prompt-engineering-and-patterns
+  - programmatic-managed-prompts
+  - prompt-engineering
+  - patterns
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=humanloop.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Prompt Engineering & Patterns.md'
+  last_checked: '2026-05-24'
+- title: Anthropic Cookbook
+  url: https://github.com/anthropics/anthropic-cookbook
+  description: Anthropic Cookbook resource in Prompt Engineering & Patterns.
+  topic: AI
+  category: Prompt Engineering & Patterns
+  section: Pattern repos (community)
+  tags:
+  - ai
+  - prompt-engineering-and-patterns
+  - pattern-repos-community
+  - prompt-engineering
+  - patterns
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Prompt Engineering & Patterns.md'
+  last_checked: '2026-05-24'
+- title: Awesome ChatGPT Prompts
+  url: https://github.com/f/awesome-chatgpt-prompts
+  description: Awesome ChatGPT Prompts resource in Prompt Engineering & Patterns.
+  topic: AI
+  category: Prompt Engineering & Patterns
+  section: Pattern repos (community)
+  tags:
+  - ai
+  - prompt-engineering-and-patterns
+  - pattern-repos-community
+  - prompt-engineering
+  - patterns
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Prompt Engineering & Patterns.md'
+  last_checked: '2026-05-24'
+- title: LLM Prompt Library
+  url: https://github.com/abilzerian/LLM-Prompt-Library
+  description: broad collection.
+  topic: AI
+  category: Prompt Engineering & Patterns
+  section: Pattern repos (community)
+  tags:
+  - ai
+  - prompt-engineering-and-patterns
+  - pattern-repos-community
+  - prompt-engineering
+  - patterns
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Prompt Engineering & Patterns.md'
+  last_checked: '2026-05-24'

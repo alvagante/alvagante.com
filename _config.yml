@@ -1,0 +1,27 @@
+title: Alvagante
+description: Useful links and daily AI-assisted news digests.
+url: "https://alvagante.com"
+baseurl: ""
+timezone: Europe/Rome
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - AGENTS.md
+  - .dockerignore
+  - docker-compose.yml
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - extensions/
+  - manifest.yaml
+  - models/
+  - README.md
+  - vaults/
+  - workflows/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

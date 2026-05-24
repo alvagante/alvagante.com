@@ -1,0 +1,26 @@
+id: 73e9837b-7bb2-4913-8429-95de36ecc1fb
+name: daily-news
+description: Fetch, enrich, rank, and write the daily Jekyll news digest.
+trigger:
+  schedule: "17 5 * * *"
+tags:
+  site: alvagante.com
+  cadence: daily
+jobs:
+  - name: build-digest
+    description: Build the daily digest data file from configured feed sources.
+    steps:
+      - name: generate
+        description: Run the site curation model once for all sources.
+        task:
+          type: model_method
+          modelIdOrName: site-curation
+          methodName: build_daily_digest
+          inputs:
+            writeFile: true
+        dependsOn: []
+        weight: 0
+        allowFailure: false
+    dependsOn: []
+    weight: 0
+version: 1

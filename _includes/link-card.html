@@ -1,0 +1,29 @@
+{% assign link = include.link %}
+{% assign topic_slug = include.topic_slug | default: link.topic | downcase %}
+{% assign category_slug = include.category_slug | default: link.category | downcase %}
+<article class="link-card" data-link-card data-topic="{{ topic_slug | downcase | escape }}" data-category="{{ category_slug | downcase | escape }}" data-section="{{ link.section | downcase | escape }}" data-pricing="{{ link.pricing | downcase | escape }}" data-audience="{{ link.audience | downcase | escape }}" data-search="{{ link.title | append: ' ' | append: link.url | append: ' ' | append: link.description | append: ' ' | append: link.topic | append: ' ' | append: link.category | append: ' ' | append: link.section | append: ' ' | append: link.tags | append: ' ' | append: link.notes | downcase | escape }}">
+  <div class="link-card__top">
+    <img src="{{ link.logo | default: link.favicon | default: '/assets/img/link-fallback.svg' | relative_url }}" alt="" loading="lazy">
+    <div>
+      <h2><a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title }}</a></h2>
+      <p>{{ link.url | remove: 'https://' | remove: 'http://' | split: '/' | first }}</p>
+    </div>
+  </div>
+  <p class="description">{{ link.description }}</p>
+  <div class="chips">
+    <span>{{ link.topic }}</span>
+    <span>{{ link.category }}</span>
+    {% if link.section and link.section != link.category %}<span>{{ link.section }}</span>{% endif %}
+    <span>{{ link.pricing }}</span>
+    {% for tag in link.tags limit: 4 %}<span>{{ tag }}</span>{% endfor %}
+  </div>
+  {% unless include.compact %}
+    {% if link.sublinks %}
+      <div class="sublinks">
+        {% for sublink in link.sublinks %}
+          <a href="{{ sublink.url }}" target="_blank" rel="noopener noreferrer">{{ sublink.title }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endunless %}
+</article>

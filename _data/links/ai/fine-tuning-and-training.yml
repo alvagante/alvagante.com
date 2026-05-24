@@ -1,0 +1,400 @@
+- title: Hugging Face TRL
+  url: https://huggingface.co/docs/trl
+  description: RLHF, DPO, SFT trainers.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Open-source frameworks
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - open-source-frameworks
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: Hugging Face PEFT
+  url: https://huggingface.co/docs/peft
+  description: LoRA, QLoRA, adapters.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Open-source frameworks
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - open-source-frameworks
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: Axolotl
+  url: https://github.com/axolotl-ai-cloud/axolotl
+  description: config-driven fine-tuning; community standard.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Open-source frameworks
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - open-source-frameworks
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: LLaMA-Factory
+  url: https://github.com/hiyouga/LLaMA-Factory
+  description: UI + CLI for fine-tuning many open models.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Open-source frameworks
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - open-source-frameworks
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: Unsloth
+  url: https://github.com/unslothai/unsloth
+  description: 2-5× faster LoRA via Triton kernels.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Open-source frameworks
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - open-source-frameworks
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: torchtune
+  url: https://pytorch.org/torchtune
+  description: PyTorch native, scalable.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Open-source frameworks
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - open-source-frameworks
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=pytorch.org
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: MLX-LM
+  url: https://github.com/ml-explore/mlx-examples
+  description: fine-tuning on Apple Silicon.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Open-source frameworks
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - open-source-frameworks
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: DeepSpeed
+  url: https://www.deepspeed.ai
+  description: Microsoft; ZeRO sharding.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Distributed training
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - distributed-training
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.deepspeed.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: FSDP
+  url: https://pytorch.org/docs/stable/fsdp.html
+  description: PyTorch native.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Distributed training
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - distributed-training
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=pytorch.org
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: Megatron-LM
+  url: https://github.com/NVIDIA/Megatron-LM
+  description: NVIDIA; 3D parallelism.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Distributed training
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - distributed-training
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: OpenAI fine-tuning
+  url: https://platform.openai.com/docs/guides/fine-tuning
+  description: OpenAI fine-tuning resource in Fine-tuning & Training.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Hosted fine-tuning
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - hosted-fine-tuning
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=platform.openai.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: Anthropic fine-tuning (via Bedrock)
+  url: https://docs.aws.amazon.com/bedrock/latest/userguide/model-customization.html
+  description: Anthropic fine-tuning (via Bedrock) resource in Fine-tuning & Training.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Hosted fine-tuning
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - hosted-fine-tuning
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.aws.amazon.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: Google Vertex AI tuning
+  url: https://cloud.google.com/vertex-ai/generative-ai/docs/models/tune-models
+  description: Google Vertex AI tuning resource in Fine-tuning & Training.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Hosted fine-tuning
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - hosted-fine-tuning
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: Together fine-tuning
+  url: https://docs.together.ai/docs/fine-tuning-overview
+  description: Together fine-tuning resource in Fine-tuning & Training.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Hosted fine-tuning
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - hosted-fine-tuning
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.together.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: Fireworks fine-tuning
+  url: https://docs.fireworks.ai/fine-tuning/fine-tuning-models
+  description: Fireworks fine-tuning resource in Fine-tuning & Training.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Hosted fine-tuning
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - hosted-fine-tuning
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.fireworks.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: Mistral fine-tuning
+  url: https://docs.mistral.ai/capabilities/finetuning/
+  description: Mistral fine-tuning resource in Fine-tuning & Training.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Hosted fine-tuning
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - hosted-fine-tuning
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.mistral.ai
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: LoRA
+  url: https://arxiv.org/abs/2106.09685
+  description: Hu et al., 2021.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Key papers / concepts
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - key-papers-concepts
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=arxiv.org
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: QLoRA
+  url: https://arxiv.org/abs/2305.14314
+  description: 4-bit LoRA.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Key papers / concepts
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - key-papers-concepts
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=arxiv.org
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: DPO
+  url: https://arxiv.org/abs/2305.18290
+  description: direct preference optimization, simpler than PPO.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Key papers / concepts
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - key-papers-concepts
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=arxiv.org
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
+- title: HF Alignment Handbook
+  url: https://github.com/huggingface/alignment-handbook
+  description: practical RLHF recipes.
+  topic: AI
+  category: Fine-tuning & Training
+  section: Key papers / concepts
+  tags:
+  - ai
+  - fine-tuning-and-training
+  - key-papers-concepts
+  - fine-tuning
+  - training
+  - lora
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+  sublinks: []
+  notes: 'Imported from Obsidian: Resources/AI/Fine-tuning & Training.md'
+  last_checked: '2026-05-24'
