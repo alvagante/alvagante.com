@@ -14,7 +14,8 @@ title: Dashboard
 {% assign source_count = site.data.news_sources | where: "enabled", true | size %}
 
 <section class="hero">
-  <div>
+  <div class="hero-copy">
+    <img class="hero-logo" src="{{ site.logo | relative_url }}" alt="Alvagante logo">
     <p class="eyebrow">Personal curation</p>
     <h1>Alvagante</h1>
     <p class="lede">A compact directory of useful tools, references, and daily news signals.</p>

@@ -60,6 +60,21 @@ nav a,
   text-decoration: none;
 }
 
+
+.hero-copy {
+  display: grid;
+  gap: 10px;
+  justify-items: start;
+}
+
+.hero-logo {
+  width: min(180px, 42vw);
+  aspect-ratio: 1 / 1;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+}
+
 .hero,
 .page-head {
   display: flex;
@@ -331,12 +346,38 @@ select {
 .site-footer {
   display: flex;
   justify-content: space-between;
-  gap: 12px;
+  gap: 18px;
   border-top: 1px solid var(--line);
   margin-top: 36px;
   padding: 22px 0 34px;
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.site-footer > div {
+  display: grid;
+  gap: 4px;
+}
+
+.legal-nav {
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+
+.legal-copy {
+  max-width: 860px;
+}
+
+.legal-copy h2 {
+  margin-top: 22px;
+  margin-bottom: 8px;
+}
+
+.legal-copy a {
+  color: var(--accent);
+  font-weight: 700;
 }
 
 code {
@@ -358,6 +399,10 @@ code {
 
   nav {
     overflow-x: auto;
+  }
+
+  .legal-nav {
+    justify-content: flex-start;
   }
 
   .filters,

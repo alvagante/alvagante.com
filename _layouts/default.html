@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
+    <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ site.favicon | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
   </head>
   <body>
@@ -20,8 +22,16 @@
       {{ content }}
     </main>
     <footer class="site-footer">
-      <span>{{ site.time | date: "%Y" }} Alvagante</span>
-      <span>Static data, daily automation.</span>
+      <div>
+        <span>{{ site.time | date: "%Y" }} {{ site.company.name }} · VAT {{ site.company.vat_id }}</span>
+        <span>Static data, daily automation.</span>
+      </div>
+      <nav class="legal-nav" aria-label="Legal">
+        <a href="{{ '/legal-notice/' | relative_url }}">Legal Notice</a>
+        <a href="{{ '/privacy-policy/' | relative_url }}">Privacy</a>
+        <a href="{{ '/cookie-policy/' | relative_url }}">Cookies</a>
+        <a href="{{ '/terms/' | relative_url }}">Terms</a>
+      </nav>
     </footer>
     <script src="{{ '/assets/js/filters.js' | relative_url }}" defer></script>
   </body>

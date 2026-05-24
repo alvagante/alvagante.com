@@ -2,7 +2,13 @@ title: Alvagante
 description: Useful links and daily AI-assisted news digests.
 url: "https://alvagante.com"
 baseurl: ""
+logo: /assets/img/alvagante-logo.png
+favicon: /assets/img/alvagante-favicon.png
 timezone: Europe/Rome
+company:
+  name: Lab42 Srl
+  vat_id: IT03677180121
+  email: info@lab42.it
 markdown: kramdown
 permalink: pretty
 
