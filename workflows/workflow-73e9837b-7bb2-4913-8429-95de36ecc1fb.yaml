@@ -18,6 +18,7 @@ jobs:
           methodName: build_daily_digest
           inputs:
             writeFile: true
+            ollamaModel: nemotron-3-super
         dependsOn: []
         weight: 0
         allowFailure: false

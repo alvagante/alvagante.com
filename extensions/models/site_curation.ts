@@ -65,8 +65,10 @@ const GlobalArgsSchema = z.object({
   siteUrl: z.string().url().default("https://alvagante.com"),
   openaiModel: z.string().default("gpt-5.4-mini"),
   openaiApiKey: z.string().optional(),
+  ollamaBaseUrl: z.string().default("http://localhost:11434"),
+  ollamaModel: z.string().optional(),
   maxItemsPerSource: z.number().int().positive().default(8),
-  maxDigestItems: z.number().int().positive().default(18),
+  maxDigestItems: z.number().int().positive().default(500),
 });
 
 const FetchFeedsArgsSchema = z.object({
@@ -80,6 +82,8 @@ const BuildDigestArgsSchema = z.object({
   maxItems: z.number().int().positive().optional(),
   openaiApiKey: z.string().optional(),
   openaiModel: z.string().optional(),
+  ollamaBaseUrl: z.string().optional(),
+  ollamaModel: z.string().optional(),
 });
 
 type Source = z.infer<typeof SourceSchema>;
@@ -209,7 +213,7 @@ function parseFeed(xml: string, source: Source, limit: number): NewsItem[] {
       url,
       source: source.name,
       source_favicon: source.favicon ?? null,
-      image: imageFromItem(item),
+      image: imageFromItem(item) ?? source.favicon ?? null,
       summary,
       category: source.category,
       tags: source.tags,
@@ -304,6 +308,46 @@ async function callOpenAI(
     )
       .map((content: { text?: string }) => content.text ?? "")
       .join("");
+  const parsed = JSON.parse(textOutput);
+  return z.object({ items: z.array(NewsItemSchema) }).parse(parsed).items;
+}
+
+async function callOllama(
+  baseUrl: string,
+  model: string,
+  items: NewsItem[],
+): Promise<NewsItem[]> {
+  const response = await fetch(`${baseUrl}/v1/chat/completions`, {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({
+      model,
+      messages: [
+        {
+          role: "system",
+          content:
+            "Rank and summarize news items for a concise technical daily digest. " +
+            "Return a JSON object with a single key 'items' containing an array of news items. " +
+            "Each item must have: title, url, source, image (string or null), summary, category, tags (array), relevance (0-1), published_at.",
+        },
+        {
+          role: "user",
+          content: JSON.stringify({ items }),
+        },
+      ],
+      response_format: { type: "json_object" },
+      stream: false,
+    }),
+  });
+
+  if (!response.ok) {
+    throw new Error(
+      `Ollama enrichment failed: ${response.status} ${await response.text()}`,
+    );
+  }
+
+  const payload = await response.json();
+  const textOutput: string = payload.choices?.[0]?.message?.content ?? "";
   const parsed = JSON.parse(textOutput);
   return z.object({ items: z.array(NewsItemSchema) }).parse(parsed).items;
 }
@@ -527,6 +571,8 @@ export const model = {
       arguments: z.object({
         openaiApiKey: z.string().optional(),
         openaiModel: z.string().optional(),
+        ollamaBaseUrl: z.string().optional(),
+        ollamaModel: z.string().optional(),
       }),
       execute: async (args, context) => {
         const globals = GlobalArgsSchema.parse(context.globalArgs);
@@ -536,10 +582,17 @@ export const model = {
         );
         const apiKey = args.openaiApiKey || globals.openaiApiKey ||
           Deno.env.get("OPENAI_API_KEY");
+        const ollamaModel = args.ollamaModel || globals.ollamaModel;
         const enriched = apiKey
           ? await callOpenAI(
             apiKey,
             args.openaiModel || globals.openaiModel,
+            items,
+          )
+          : ollamaModel
+          ? await callOllama(
+            args.ollamaBaseUrl || globals.ollamaBaseUrl,
+            ollamaModel,
             items,
           )
           : items;
@@ -562,19 +615,64 @@ export const model = {
       execute: async (args, context) => {
         const globals = GlobalArgsSchema.parse(context.globalArgs);
         const date = args.date || new Date().toISOString().slice(0, 10);
+        const outDir = pathJoin(globals.repoDir, globals.generatedNewsDir);
+
+        // Collect URLs from the previous 2 digests to avoid republishing
+        const seenUrls = new Set<string>();
+        try {
+          const existing: string[] = [];
+          for await (const entry of Deno.readDir(outDir)) {
+            if (entry.isFile && /^\d{4}-\d{2}-\d{2}\.ya?ml$/.test(entry.name)) {
+              existing.push(entry.name);
+            }
+          }
+          existing.sort().reverse();
+          for (const fname of existing.slice(0, 2)) {
+            const prev = await readYamlFile<{ items?: Array<{ url: string }> }>(
+              pathJoin(outDir, fname),
+              {},
+            );
+            for (const item of (prev.items ?? [])) {
+              if (item.url) seenUrls.add(item.url);
+            }
+          }
+        } catch {
+          // directory may not exist yet
+        }
+
         const items = await fetchItems(globals.repoDir, globals);
+
+        // Keep only items published today or yesterday
+        const yesterday = new Date(
+          new Date(date + "T00:00:00Z").getTime() - 86400000,
+        ).toISOString().slice(0, 10);
+        const recentItems = items.filter((item) => {
+          const d = item.published_at.slice(0, 10);
+          return d === date || d === yesterday;
+        });
+
+        // Drop URLs already present in the last 2 digests
+        const freshItems = recentItems.filter((item) => !seenUrls.has(item.url));
+
         const faviconBySource = new Map(
-          items.map((i) => [i.source, i.source_favicon]),
+          freshItems.map((i) => [i.source, i.source_favicon]),
         );
         const apiKey = args.openaiApiKey || globals.openaiApiKey ||
           Deno.env.get("OPENAI_API_KEY");
+        const ollamaModel = args.ollamaModel || globals.ollamaModel;
         const enriched = apiKey
           ? await callOpenAI(
             apiKey,
             args.openaiModel || globals.openaiModel,
-            items,
+            freshItems,
           )
-          : items;
+          : ollamaModel
+          ? await callOllama(
+            args.ollamaBaseUrl || globals.ollamaBaseUrl,
+            ollamaModel,
+            freshItems,
+          )
+          : freshItems;
         const withFavicons = enriched.map((i) => ({
           ...i,
           source_favicon: i.source_favicon ?? faviconBySource.get(i.source) ??
@@ -587,7 +685,6 @@ export const model = {
         });
 
         if (args.writeFile) {
-          const outDir = pathJoin(globals.repoDir, globals.generatedNewsDir);
           await Deno.mkdir(outDir, { recursive: true });
           await Deno.writeTextFile(
             pathJoin(outDir, `${date}.yml`),
