@@ -617,12 +617,18 @@ export const model = {
         const date = args.date || new Date().toISOString().slice(0, 10);
         const outDir = pathJoin(globals.repoDir, globals.generatedNewsDir);
 
-        // Collect URLs from the previous 2 digests to avoid republishing
+        // Collect URLs from the 2 most recent digests from *previous* dates to avoid
+        // republishing across days. Digests with the same date as the current run are
+        // excluded so that re-runs don't consume that day's article pool.
         const seenUrls = new Set<string>();
         try {
           const existing: string[] = [];
           for await (const entry of Deno.readDir(outDir)) {
-            if (entry.isFile && /^\d{4}-\d{2}-\d{2}\.ya?ml$/.test(entry.name)) {
+            if (
+              entry.isFile &&
+              /^\d{4}-\d{2}-\d{2}\.ya?ml$/.test(entry.name) &&
+              entry.name !== `${date}.yml`
+            ) {
               existing.push(entry.name);
             }
           }
