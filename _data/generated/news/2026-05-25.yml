@@ -1,267 +1,78 @@
 date: 2026-05-25
-generated_at: 2026-05-25T04:39:08.572Z
+generated_at: 2026-05-25T05:22:57.676Z
 items:
-  - title: OpenAI named a Leader in enterprise coding agents by Gartner
-    url: https://openai.com/index/gartner-2026-agentic-coding-leader
-    source: OpenAI News
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=openai.com
-    summary: OpenAI is named a leader in the 2026 Gartner Magic Quadrant for
-      Enterprise AI Coding Agents, with Codex recognized for innovation and
-      enterprise-scale deployment.
+  - title: Everyone is navigating AI security in real time — even Google
+    url: https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/
+    source: TechCrunch — AI
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    summary: We're in the transition period -- all of us.
     category: AI
     tags:
       - ai
-      - openai
-      - models
-    relevance: 0.9750000000000001
-    published_at: 2026-05-22T00:00:00.000Z
-  - title: Lawmakers Demand Answers as CISA Tries to Contain Data Leak
-    url: https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/
-    source: Krebs on Security
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=krebsonsecurity.com
-    summary: Lawmakers in both houses of Congress are demanding answers from the
-      U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after
-      KrebsOnSecurity reported this week that a CISA contractor intentionally
-      published AWS GovCloud keys and a vast trove of ot
+      - industry
+      - startups
+    relevance: 0.675
+    published_at: 2026-05-24T21:39:21.000Z
+  - title: Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign
+    url: https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/
+    source: BleepingComputer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
+    summary: A large-scale campaign is exploiting a critical SQL injection
+      vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript
+      code that triggers ClickFix attack flows. [...]
     category: Security
     tags:
       - security
-      - cybercrime
-      - breaches
-    relevance: 0.9750000000000001
-    published_at: 2026-05-22T16:34:24.000Z
-  - title: "OpenJDK News Roundup: Vector API, Compact Object Headers and G1GC as
-      Default in JDK 27"
-    url: https://www.infoq.com/news/2026/05/jdk-news-roundup-may18-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
-    source: InfoQ
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
-    summary: There was a flurry of activity in the OpenJDK ecosystem during the week
-      of May 18th, 2026, highlighting three JEPs elevated from Proposed to
-      Target to Targeted and three JEPs elevated from Candidate to Proposed to
-      Target for JDK 27. The proposed release schedu
-    category: IT
-    tags:
-      - it
-      - engineering
-      - architecture
-    relevance: 0.75
-    published_at: 2026-05-25T02:30:00.000Z
-  - title: "Memorial Day Tech Deals: Sony, Anker, Beats (2026)"
-    url: https://www.wired.com/story/memorial-day-tech-deals-2026-1/
-    source: Wired
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    summary: Lots of our most-recommended headphones, power banks, and other gadgets
-      are on sale for Memorial Day.
-    category: Technology
-    tags:
-      - technology
-      - culture
-      - society
+      - malware
+      - vulnerabilities
     relevance: 0.8250000000000001
-    published_at: 2026-05-24T15:55:15.000Z
-  - title: How Ecotypes Harbor the Genetic Memory of a Species’ Past
-    url: https://www.quantamagazine.org/how-ecotypes-harbor-the-genetic-memory-of-a-species-past-20260521/
-    source: Quanta Magazine
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=quantamagazine.org
-    image: https://www.quantamagazine.org/wp-content/uploads/2026/05/Genomic-Ecotypes-cr-Aaron-Comeault-Default.webp
-    summary: "Evolutionary biologists are uncovering genomic mechanisms that allow
-      populations to adapt quickly to different, hyperlocal habitats without
-      splitting into new species. The post How Ecotypes Harbor the Genetic
-      Memory of a Species’ Past first appeared on Quanta "
-    category: Science
-    tags:
-      - science
-      - mathematics
-      - physics
-      - biology
-    relevance: 0.8999999999999999
-    published_at: 2026-05-21T14:48:20.000Z
-  - title: ‘One man, one vote’? Maybe Not in Trump’s America
-    url: https://foreignpolicy.com/2026/05/25/warren-court-one-man-one-vote-supreme-court/
-    source: Foreign Policy
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=foreignpolicy.com
-    image: https://foreignpolicy.com/wp-content/uploads/2026/05/Zelizer-Warren-Court-GettyImages-3088626-e1779482943676.png
-    summary: A recent Supreme Court decision threatens a core democratic principle.
-    category: Geopolitics
-    tags:
-      - geopolitics
-      - foreign-policy
-      - analysis
-    relevance: 0.8999999999999999
-    published_at: 2026-05-25T04:01:30.000Z
-  - title: How Virgin Atlantic ships faster with Codex
-    url: https://openai.com/index/virgin-atlantic
-    source: OpenAI News
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=openai.com
-    summary: How Virgin Atlantic used Codex to ship its revamped mobile app on a
-      fixed holiday travel deadline, reaching near-total unit test coverage and
-      zero P1 defects.
-    category: AI
-    tags:
-      - ai
-      - openai
-      - models
-    relevance: 0.9750000000000001
-    published_at: 2026-05-22T00:00:00.000Z
-  - title: Alleged Kimwolf Botmaster 'Dort' Arrested, Charged in U.S. and Canada
-    url: https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/
-    source: Krebs on Security
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=krebsonsecurity.com
-    summary: Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on
-      suspicion of building and operating Kimwolf, a fast spreading
-      Internet-of-Things botnet that enslaved millions of devices for use in a
-      series of massive distributed denial-of-service (DDoS)
-    category: Security
-    tags:
-      - security
-      - cybercrime
-      - breaches
-    relevance: 0.9750000000000001
-    published_at: 2026-05-21T21:50:25.000Z
-  - title: Google Introduces Middleware Architecture for Genkit Applications
-    url: https://www.infoq.com/news/2026/05/google-genkit-middleware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
-    source: InfoQ
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
-    summary: "Google has introduced Middleware for Genkit, its open-source framework
-      for building AI-powered and agentic applications. The update adds a
-      programmable interception layer around model calls, tool execution, and
-      generation loops, giving developers more control "
-    category: IT
-    tags:
-      - it
-      - engineering
-      - architecture
-    relevance: 0.75
-    published_at: 2026-05-24T17:55:00.000Z
-  - title: "Best Memorial Day Mattress Deals: Helix, Saatva (2026)"
-    url: https://www.wired.com/story/memorial-day-mattress-deals-2026-1/
-    source: Wired
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    summary: It’s one of the best times of the year to buy a mattress, and deals on
-      our favorite models are in full swing.
-    category: Technology
-    tags:
-      - technology
-      - culture
-      - society
-    relevance: 0.8250000000000001
-    published_at: 2026-05-24T15:50:18.000Z
-  - title: Two Researchers Are Rebuilding Mathematics From the Ground Up
-    url: https://www.quantamagazine.org/two-researchers-are-rebuilding-mathematics-from-the-ground-up-20260520/
-    source: Quanta Magazine
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=quantamagazine.org
-    image: https://www.quantamagazine.org/wp-content/uploads/2026/05/TearInTopology-crKristinaArmitage-Default.webp
-    summary: By replacing the most fundamental concept in topology, Peter Scholze
-      and Dustin Clausen are taking the first step in a far bigger program to
-      understand why numbers behave the way they do. The post Two Researchers
-      Are Rebuilding Mathematics From the Ground Up f
-    category: Science
-    tags:
-      - science
-      - mathematics
-      - physics
-      - biology
-    relevance: 0.8999999999999999
-    published_at: 2026-05-20T14:52:19.000Z
-  - title: Trump’s About-Face on U.S. Troops in Poland Mystifies Allies
-    url: https://foreignpolicy.com/2026/05/22/trump-troops-poland-deployment-hegseth-nato-rutte-rubio/
-    source: Foreign Policy
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=foreignpolicy.com
-    image: https://foreignpolicy.com/wp-content/uploads/2026/05/RubioNATOTroops-GettyImages-2277063056.jpg
-    summary: The abrupt policy reversal leaves NATO allies wondering to what extent
-      the United States will defend Europe.
-    category: Geopolitics
-    tags:
-      - geopolitics
-      - foreign-policy
-      - analysis
-    relevance: 0.8999999999999999
-    published_at: 2026-05-22T20:19:25.000Z
-  - title: AdventHealth advances whole-person care with OpenAI
-    url: https://openai.com/index/adventhealth
-    source: OpenAI News
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=openai.com
-    summary: AdventHealth is using ChatGPT for Healthcare to streamline workflows,
-      reduce administrative burden, and return more time to patient care.
-    category: AI
-    tags:
-      - ai
-      - openai
-      - models
-    relevance: 0.9750000000000001
-    published_at: 2026-05-21T12:00:00.000Z
-  - title: CISA Admin Leaked AWS GovCloud Keys on Github
-    url: https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/
-    source: Krebs on Security
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=krebsonsecurity.com
-    summary: Until this past weekend, a contractor for the Cybersecurity &#038;
-      Infrastructure Security Agency (CISA) maintained a public GitHub
-      repository that exposed credentials to several highly privileged AWS
-      GovCloud accounts and a large number of internal CISA syste
-    category: Security
-    tags:
-      - security
-      - cybercrime
-      - breaches
-    relevance: 0.9750000000000001
-    published_at: 2026-05-18T20:48:21.000Z
-  - title: AWS MCP Server Reaches GA with Full API Coverage and IAM-Based Governance
-    url: https://www.infoq.com/news/2026/05/aws-mcp-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
-    source: InfoQ
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
-    summary: "AWS has recently made its managed Model Context Protocol (MCP) server
-      generally available, giving AI coding agents controlled access to AWS
-      APIs, documentation, and operational workflows through a standard
-      interface. It provides a safer and more auditable way "
-    category: IT
-    tags:
-      - it
-      - engineering
-      - architecture
-    relevance: 0.75
-    published_at: 2026-05-24T08:53:00.000Z
-  - title: The best Memorial Day sales you can shop this weekend
-    url: https://www.theverge.com/gadgets/936196/best-memorial-day-sales-tech-deals-2026
+    published_at: 2026-05-24T14:12:32.000Z
+  - title: Hackers are learning to exploit chatbot 'personalities'
+    url: https://www.theverge.com/column/935545/hackers-ai-chatbots
     source: The Verge
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    summary: "Memorial Day is nearly here, meaning the seasonal sales are in full
-      swing. If your weekend plans involve pool parties or barbecues, now is a
-      great time to pick up a portable speaker or set of solar lights, as many
-      of our favorite models are currently on sale. "
+    image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
+    summary: This is The Stepback, a weekly newsletter breaking down one essential
+      story from the tech world. For more on AI mischief, follow Robert Hart.
+      The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The
+      Stepback here. How it started Hacking the f...
     category: Technology
     tags:
       - technology
       - gadgets
       - consumer
     relevance: 0.8250000000000001
-    published_at: 2026-05-24T15:28:08.000Z
-  - title: How Alexander Grothendieck Revolutionized 20th-Century Mathematics
-    url: https://www.quantamagazine.org/how-alexander-grothendieck-revolutionized-20th-century-mathematics-20260520/
-    source: Quanta Magazine
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=quantamagazine.org
-    image: https://www.quantamagazine.org/wp-content/uploads/2026/05/Grothendieck-cr-Mercedes-deBellard-Default.webp
-    summary: "Grothendieck is revered in the world of math; outside of it, he’s
-      known for his unusual life, if he’s known at all. But what were his actual
-      mathematical contributions? The post How Alexander Grothendieck
-      Revolutionized 20th-Century Mathematics first appeared "
+    published_at: 2026-05-24T12:00:00.000Z
+  - title: Beluga whales pass the mirror test
+    url: https://arstechnica.com/science/2026/05/belugas-may-pass-the-mirror-test-but-does-the-mirror-test-still-pass/
+    source: Ars Technica
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
+    image: https://cdn.arstechnica.net/wp-content/uploads/2026/05/GettyImages-547332154-1152x648.jpg
+    summary: The white whales join the short, contested list of animals that see
+      themselves.
     category: Science
     tags:
       - science
-      - mathematics
-      - physics
-      - biology
-    relevance: 0.8999999999999999
-    published_at: 2026-05-20T14:50:37.000Z
-  - title: What the U.S. Should Have Learned From Past Ebola Outbreaks
-    url: https://foreignpolicy.com/2026/05/22/africa-ebola-outbreak-history-congo-us-foreign-aid/
-    source: Foreign Policy
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=foreignpolicy.com
-    image: https://foreignpolicy.com/wp-content/uploads/2026/05/Congo-Ebola-outbreak-GettyImages-2276349291.jpg
-    summary: The West’s shortsightedness in Africa is more apparent than ever.
+      - research
+      - analysis
+    relevance: 0.7124999999999999
+    published_at: 2026-05-24T11:15:38.000Z
+  - title: Number of suspected Ebola cases in DR Congo passes 900 as health workers
+      face attacks and shortages
+    url: https://www.theguardian.com/world/2026/may/24/suspected-ebola-cases-congo-health-workers-attacks
+    source: The Guardian — World
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theguardian.com
+    image: https://i.guim.co.uk/img/media/8355603236b6205fbdf5131669437d4b19be02f9/430_0_3768_3016/master/3768.jpg?width=140&quality=85&auto=format&fit=max&s=481278866abc7ccc5613b5e60d12df61
+    summary: World Health Organization says outbreak poses ‘very high’ risk for
+      Congo, but risk of disease spreading globally remains low Congolese
+      authorities say that suspected Ebola cases have now passed 900 in the
+      ongoing outbreak in the east of the country. The Congol...
     category: Geopolitics
     tags:
       - geopolitics
-      - foreign-policy
-      - analysis
-    relevance: 0.8999999999999999
-    published_at: 2026-05-22T19:27:42.000Z
+      - world-news
+      - investigative
+    relevance: 0.8250000000000001
+    published_at: 2026-05-24T19:07:33.000Z
