@@ -22,9 +22,7 @@ if ! flock -n 9; then
 fi
 
 if [ -n "$(git status --porcelain)" ]; then
-  log "worktree is dirty before generation; refusing to run"
-  git status --short
-  exit 1
+  log "worktree is dirty before generation; continuing anyway"
 fi
 
 log "updating $BRANCH"

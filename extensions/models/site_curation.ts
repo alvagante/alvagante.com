@@ -68,6 +68,11 @@ const GlobalArgsSchema = z.object({
   ollamaBaseUrl: z.string().default("http://localhost:11434"),
   ollamaModel: z.string().optional(),
   maxItemsPerSource: z.number().int().positive().default(8),
+  feedSelectionMode: z.enum(["lookback_days", "latest_per_source"]).default(
+    "latest_per_source",
+  ),
+  newsLookbackDays: z.number().int().positive().default(2),
+  latestItemsPerSource: z.number().int().positive().default(5),
   maxDigestItems: z.number().int().positive().default(500),
 });
 
@@ -80,6 +85,10 @@ const BuildDigestArgsSchema = z.object({
   writeFile: z.boolean().default(true),
   writeRss: z.boolean().default(true),
   maxItems: z.number().int().positive().optional(),
+  feedSelectionMode: z.enum(["lookback_days", "latest_per_source"]).optional(),
+  newsLookbackDays: z.number().int().positive().optional(),
+  latestItemsPerSource: z.number().int().positive().optional(),
+  maxItemsPerSource: z.number().int().positive().optional(),
   openaiApiKey: z.string().optional(),
   openaiModel: z.string().optional(),
   ollamaBaseUrl: z.string().optional(),
@@ -383,16 +392,72 @@ function rankedItems(items: NewsItem[]): NewsItem[] {
   );
 }
 
+function itemKey(item: NewsItem): string {
+  return item.url || `${item.source}:${item.title}`.toLowerCase();
+}
+
+function isPromotionalItem(item: NewsItem): boolean {
+  const haystack = `${item.title}\n${item.summary}`.toLowerCase();
+  return [
+    /\b(?:promo|coupon|discount)\s+codes?\b/,
+    /\b(?:promo|coupon|discount)\s+code\b/,
+    /\b\d+%\s+off\b.*\b(?:promo|coupon|discount)\b/,
+    /\b(?:promo|coupon|discount)\b.*\b\d+%\s+off\b/,
+  ].some((pattern) => pattern.test(haystack));
+}
+
+function filterPromotionalItems(items: NewsItem[]): NewsItem[] {
+  return items.filter((item) => !isPromotionalItem(item));
+}
+
+function selectItemsForDigest(
+  items: NewsItem[],
+  date: string,
+  globals: z.infer<typeof GlobalArgsSchema>,
+  args: z.infer<typeof BuildDigestArgsSchema>,
+): NewsItem[] {
+  const mode = args.feedSelectionMode ?? globals.feedSelectionMode;
+
+  if (mode === "latest_per_source") {
+    const limit = args.latestItemsPerSource ?? globals.latestItemsPerSource;
+    const bySource = new Map<string, NewsItem[]>();
+    for (const item of rankedItems([...items])) {
+      const group = bySource.get(item.source) ?? [];
+      if (group.length < limit) {
+        group.push(item);
+        bySource.set(item.source, group);
+      }
+    }
+    return [...bySource.values()].flat();
+  }
+
+  const lookbackDays = args.newsLookbackDays ?? globals.newsLookbackDays;
+  const cutoff = new Date(`${date}T00:00:00Z`).getTime() -
+    (lookbackDays - 1) * 86400000;
+  return items.filter((item) => {
+    const published = Date.parse(item.published_at);
+    return !Number.isNaN(published) && published >= cutoff;
+  });
+}
+
 function sortItems(items: NewsItem[], maxItems: number): NewsItem[] {
   const byUrl = new Map<string, NewsItem>();
   for (const item of items) {
-    const current = byUrl.get(item.url);
+    const key = itemKey(item);
+    const current = byUrl.get(key);
     if (!current || item.relevance > current.relevance) {
-      byUrl.set(item.url, item);
+      byUrl.set(key, item);
     }
   }
 
-  const categoryOrder = ["AI", "Security", "IT", "Technology", "Science", "Geopolitics"];
+  const categoryOrder = [
+    "AI",
+    "Security",
+    "IT",
+    "Technology",
+    "Science",
+    "Geopolitics",
+  ];
   const groups = new Map<string, NewsItem[]>();
   for (const item of rankedItems([...byUrl.values()])) {
     const group = groups.get(item.category) ?? [];
@@ -493,7 +558,7 @@ ${items}
 /** Model definition for site curation. */
 export const model = {
   type: "@alvagante/site-curation",
-  version: "2026.05.24.3",
+  version: "2026.05.25.1",
   globalArguments: GlobalArgsSchema,
   resources: {
     "feed-items": {
@@ -596,7 +661,7 @@ export const model = {
             items,
           )
           : items;
-        const withFavicons = enriched.map((i) => ({
+        const withFavicons = filterPromotionalItems(enriched).map((i) => ({
           ...i,
           source_favicon: i.source_favicon ?? faviconBySource.get(i.source) ??
             null,
@@ -646,19 +711,21 @@ export const model = {
           // directory may not exist yet
         }
 
-        const items = await fetchItems(globals.repoDir, globals);
-
-        // Keep only items published today or yesterday
-        const yesterday = new Date(
-          new Date(date + "T00:00:00Z").getTime() - 86400000,
-        ).toISOString().slice(0, 10);
-        const recentItems = items.filter((item) => {
-          const d = item.published_at.slice(0, 10);
-          return d === date || d === yesterday;
-        });
+        const selectionMode = args.feedSelectionMode ??
+          globals.feedSelectionMode;
+        const fetchLimit = args.maxItemsPerSource ??
+          (selectionMode === "latest_per_source"
+            ? args.latestItemsPerSource ?? globals.latestItemsPerSource
+            : globals.maxItemsPerSource);
+        const items = filterPromotionalItems(
+          await fetchItems(globals.repoDir, globals, fetchLimit),
+        );
+        const selectedItems = selectItemsForDigest(items, date, globals, args);
 
         // Drop URLs already present in the last 2 digests
-        const freshItems = recentItems.filter((item) => !seenUrls.has(item.url));
+        const freshItems = selectedItems.filter((item) =>
+          !seenUrls.has(itemKey(item))
+        );
 
         const faviconBySource = new Map(
           freshItems.map((i) => [i.source, i.source_favicon]),
@@ -679,7 +746,7 @@ export const model = {
             freshItems,
           )
           : freshItems;
-        const withFavicons = enriched.map((i) => ({
+        const withFavicons = filterPromotionalItems(enriched).map((i) => ({
           ...i,
           source_favicon: i.source_favicon ?? faviconBySource.get(i.source) ??
             null,
@@ -687,7 +754,10 @@ export const model = {
         const digest = DigestSchema.parse({
           date,
           generated_at: new Date().toISOString(),
-          items: sortItems(withFavicons, args.maxItems ?? globals.maxDigestItems),
+          items: sortItems(
+            withFavicons,
+            args.maxItems ?? globals.maxDigestItems,
+          ),
         });
 
         if (args.writeFile) {
