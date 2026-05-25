@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 set -euo pipefail
 
 REPO_DIR="${REPO_DIR:-/home/al/alvagante.com}"
