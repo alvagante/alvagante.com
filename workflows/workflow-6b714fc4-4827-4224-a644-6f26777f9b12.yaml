@@ -1,0 +1,36 @@
+id: 6b714fc4-4827-4224-a644-6f26777f9b12
+name: enrich-links
+description: >
+  Enrich curated link metadata in _data/links/ with AI-inferred descriptions,
+  pricing classification, audience tags (Phase 1), upstream og:image logos and
+  meta description hints (Phase 2), and canonical sublink suggestions (Phase 3).
+  Writes results back to the source YAML files in-place.
+tags:
+  site: alvagante.com
+  cadence: on-demand
+jobs:
+  - name: enrich
+    description: Run all three enrichment phases across all topic directories.
+    steps:
+      - name: enrich-metadata
+        description: >
+          Fetch site metadata (Phase 2) and run AI enrichment for descriptions,
+          pricing, audience, and sublinks (Phases 1 and 3).
+        task:
+          type: model_method
+          modelIdOrName: site-curation
+          methodName: enrich_link_metadata
+          inputs:
+            phase1: true
+            phase2: true
+            phase3: true
+            dryRun: false
+            descriptionMinLength: 80
+            batchSize: 25
+            concurrency: 8
+        dependsOn: []
+        weight: 0
+        allowFailure: false
+    dependsOn: []
+    weight: 0
+version: 1

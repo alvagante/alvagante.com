@@ -25,6 +25,8 @@ const LinkSchema = z.object({
   last_checked: z.string().nullish(),
 });
 
+type Link = z.infer<typeof LinkSchema>;
+
 const SourceSchema = z.object({
   name: z.string(),
   url: z.string().url(),
@@ -95,14 +97,69 @@ const BuildDigestArgsSchema = z.object({
   ollamaModel: z.string().optional(),
 });
 
+const EnrichLinkMetadataArgsSchema = z.object({
+  /** Skip writing files — useful for previewing what would change. */
+  dryRun: z.boolean().default(false),
+  /** Limit enrichment to specific topic subdirectories (e.g. ["ai", "security"]). */
+  topics: z.array(z.string()).optional(),
+  /** Phase 1: AI-inferred descriptions, pricing, and audience. */
+  phase1: z.boolean().default(true),
+  /** Phase 2: Upstream HTML fetch for og:image (logo) and meta description hint. */
+  phase2: z.boolean().default(true),
+  /** Phase 3: AI-suggested canonical sublinks (docs, GitHub, pricing). */
+  phase3: z.boolean().default(true),
+  /** Description shorter than this (chars) is considered terse and will be rewritten. */
+  descriptionMinLength: z.number().int().positive().default(80),
+  /** Links per AI batch call. */
+  batchSize: z.number().int().positive().default(25),
+  /** Max parallel HTTP fetches for Phase 2. */
+  concurrency: z.number().int().positive().default(8),
+  openaiApiKey: z.string().optional(),
+  openaiModel: z.string().optional(),
+  ollamaBaseUrl: z.string().optional(),
+  ollamaModel: z.string().optional(),
+  /** Re-enrich even entries that already appear complete. */
+  forceReenrich: z.boolean().default(false),
+});
+
 type Source = z.infer<typeof SourceSchema>;
 type NewsItem = z.infer<typeof NewsItemSchema>;
+
+interface SiteMetadata {
+  ogImage?: string;
+  description?: string;
+}
+
+interface LinkEnrichInput {
+  url: string;
+  title: string;
+  description: string;
+  category: string;
+  section: string;
+  pricing: string;
+  audience: string;
+  hasSublinks: boolean;
+  ogHint?: string;
+  needsDescription: boolean;
+  needsPricing: boolean;
+  needsSublinks: boolean;
+}
+
+interface LinkEnrichOutput {
+  url: string;
+  description?: string;
+  pricing?: string;
+  audience?: string;
+  sublinks?: Array<{ title: string; url: string }>;
+}
 
 const xmlParser = new XMLParser({
   ignoreAttributes: false,
   attributeNamePrefix: "",
   textNodeName: "text",
 });
+
+// ─── Core YAML helpers ────────────────────────────────────────────────────────
 
 function pathJoin(...parts: string[]): string {
   return parts.filter(Boolean).join("/").replaceAll(/\/+/g, "/");
@@ -139,6 +196,8 @@ async function readYamlListPath(path: string): Promise<unknown[]> {
   }
   return links;
 }
+
+// ─── General utilities ────────────────────────────────────────────────────────
 
 function asArray<T>(value: T | T[] | undefined | null): T[] {
   if (!value) return [];
@@ -198,6 +257,8 @@ function imageFromItem(item: Record<string, unknown>): string | undefined {
   return undefined;
 }
 
+// ─── Feed parsing ─────────────────────────────────────────────────────────────
+
 function parseFeed(xml: string, source: Source, limit: number): NewsItem[] {
   const parsed = xmlParser.parse(xml);
   const channel = parsed?.rss?.channel;
@@ -234,6 +295,8 @@ function parseFeed(xml: string, source: Source, limit: number): NewsItem[] {
     };
   });
 }
+
+// ─── News AI enrichment (OpenAI / Ollama) ─────────────────────────────────────
 
 async function callOpenAI(
   apiKey: string,
@@ -360,6 +423,8 @@ async function callOllama(
   const parsed = JSON.parse(textOutput);
   return z.object({ items: z.array(NewsItemSchema) }).parse(parsed).items;
 }
+
+// ─── Feed selection / filtering ───────────────────────────────────────────────
 
 async function fetchItems(
   repoDir: string,
@@ -488,6 +553,8 @@ function sortItems(items: NewsItem[], maxItems: number): NewsItem[] {
   return selected;
 }
 
+// ─── RSS rendering ────────────────────────────────────────────────────────────
+
 function escapeXml(value: string): string {
   return value
     .replaceAll("&", "&amp;")
@@ -555,10 +622,253 @@ ${items}
 `;
 }
 
+// ─── Link metadata enrichment helpers ────────────────────────────────────────
+
+/** Extract a <meta> tag content value from raw HTML. */
+function extractMeta(
+  html: string,
+  key: string,
+  attr: "property" | "name",
+): string | undefined {
+  const esc = key.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const patterns = [
+    new RegExp(
+      `<meta[^>]+${attr}=["']${esc}["'][^>]+content=["']([^"']+)["']`,
+      "i",
+    ),
+    new RegExp(
+      `<meta[^>]+content=["']([^"']+)["'][^>]+${attr}=["']${esc}["']`,
+      "i",
+    ),
+  ];
+  for (const pattern of patterns) {
+    const m = html.match(pattern);
+    if (m?.[1]) return decodeEntities(m[1]).trim();
+  }
+  return undefined;
+}
+
+/** Fetch og:image and description-class meta from a URL's HTML. */
+async function fetchSiteMetadata(url: string): Promise<SiteMetadata> {
+  try {
+    const response = await fetch(url, {
+      headers: {
+        "user-agent": "alvagante-site-curation/1.0",
+        "accept": "text/html,*/*",
+      },
+      signal: AbortSignal.timeout(12000),
+    });
+    if (!response.ok) return {};
+    const html = await response.text();
+    const ogImage = extractMeta(html, "og:image", "property") ??
+      extractMeta(html, "twitter:image", "name");
+    const ogDesc = extractMeta(html, "og:description", "property") ??
+      extractMeta(html, "description", "name");
+    return {
+      ogImage: ogImage || undefined,
+      description: ogDesc || undefined,
+    };
+  } catch {
+    return {};
+  }
+}
+
+/** Concurrent map — errors per-item are captured, not thrown. */
+async function pMap<T, R>(
+  items: T[],
+  fn: (item: T, index: number) => Promise<R>,
+  concurrency: number,
+): Promise<Array<{ value?: R; error?: unknown }>> {
+  const results: Array<{ value?: R; error?: unknown }> = new Array(
+    items.length,
+  );
+  const executing = new Set<Promise<void>>();
+
+  for (let i = 0; i < items.length; i++) {
+    const idx = i;
+    const p: Promise<void> = fn(items[idx], idx)
+      .then((value) => {
+        results[idx] = { value };
+      })
+      .catch((error) => {
+        results[idx] = { error };
+      })
+      .finally(() => executing.delete(p));
+    executing.add(p);
+    if (executing.size >= concurrency) await Promise.race(executing);
+  }
+  await Promise.all(executing);
+  return results;
+}
+
+const LINK_ENRICH_SYSTEM_PROMPT =
+  `You are enriching a curated link directory for a technical personal site covering AI, IT, Security, Science, Geopolitics, and Technology.
+
+For each link item provided, return enrichments based on your training knowledge:
+
+- description: 1-2 factual sentences (80-200 chars total). State what the resource IS and why it is useful. Never start with "This is" or "A ". Use og_hint as extra context when present.
+- pricing: "free" (no cost ever), "freemium" (free tier + paid plans), "paid" (subscription or pay-per-use, no free tier), or "unknown" if genuinely unsure.
+- audience: exactly one of "developers", "builders" (ML/AI/startup practitioners), "researchers", "general", "security-professionals".
+- sublinks: 1-3 high-value canonical child pages (official docs, GitHub repo, pricing page, playground, blog). ONLY include URLs you are certain exist for this specific resource. Return [] if you are not certain — hallucinated URLs are worse than none.
+
+Return one output object per input item, always matched by url. Never omit an item.`;
+
+async function callAIForLinksOpenAI(
+  apiKey: string,
+  model: string,
+  items: LinkEnrichInput[],
+): Promise<LinkEnrichOutput[]> {
+  const response = await fetch("https://api.openai.com/v1/responses", {
+    method: "POST",
+    headers: {
+      authorization: `Bearer ${apiKey}`,
+      "content-type": "application/json",
+    },
+    body: JSON.stringify({
+      model,
+      input: [
+        { role: "system", content: LINK_ENRICH_SYSTEM_PROMPT },
+        { role: "user", content: JSON.stringify({ links: items }) },
+      ],
+      text: {
+        format: {
+          type: "json_schema",
+          name: "link_enrichments",
+          schema: {
+            type: "object",
+            additionalProperties: false,
+            properties: {
+              links: {
+                type: "array",
+                items: {
+                  type: "object",
+                  additionalProperties: false,
+                  properties: {
+                    url: { type: "string" },
+                    description: { type: "string" },
+                    pricing: {
+                      type: "string",
+                      enum: ["free", "freemium", "paid", "unknown"],
+                    },
+                    audience: { type: "string" },
+                    sublinks: {
+                      type: "array",
+                      items: {
+                        type: "object",
+                        additionalProperties: false,
+                        properties: {
+                          title: { type: "string" },
+                          url: { type: "string" },
+                        },
+                        required: ["title", "url"],
+                      },
+                    },
+                  },
+                  required: [
+                    "url",
+                    "description",
+                    "pricing",
+                    "audience",
+                    "sublinks",
+                  ],
+                },
+              },
+            },
+            required: ["links"],
+          },
+        },
+      },
+    }),
+  });
+
+  if (!response.ok) {
+    throw new Error(
+      `OpenAI link enrichment failed: ${response.status} ${await response
+        .text()}`,
+    );
+  }
+
+  const payload = await response.json();
+  const textOutput = payload.output_text ??
+    payload.output
+      ?.flatMap(
+        (e: { content?: Array<{ text?: string }> }) => e.content ?? [],
+      )
+      .map((c: { text?: string }) => c.text ?? "")
+      .join("");
+  const parsed = JSON.parse(textOutput);
+  return (parsed.links ?? []) as LinkEnrichOutput[];
+}
+
+async function callAIForLinksOllama(
+  baseUrl: string,
+  model: string,
+  items: LinkEnrichInput[],
+): Promise<LinkEnrichOutput[]> {
+  const response = await fetch(`${baseUrl}/v1/chat/completions`, {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({
+      model,
+      messages: [
+        {
+          role: "system",
+          content: LINK_ENRICH_SYSTEM_PROMPT +
+            "\nReturn a JSON object with a 'links' array.",
+        },
+        { role: "user", content: JSON.stringify({ links: items }) },
+      ],
+      response_format: { type: "json_object" },
+      stream: false,
+    }),
+  });
+
+  if (!response.ok) {
+    throw new Error(
+      `Ollama link enrichment failed: ${response.status} ${await response
+        .text()}`,
+    );
+  }
+
+  const payload = await response.json();
+  const textOutput: string = payload.choices?.[0]?.message?.content ?? "";
+  const parsed = JSON.parse(textOutput);
+  return (parsed.links ?? []) as LinkEnrichOutput[];
+}
+
+/**
+ * Read all per-topic YAML link files into a Map keyed by absolute file path.
+ * Only reads exactly 2 levels deep: <linksPath>/<topic>/<file>.yml
+ */
+async function readLinkFiles(
+  linksPath: string,
+  topics?: string[],
+): Promise<Map<string, Link[]>> {
+  const fileMap = new Map<string, Link[]>();
+  try {
+    for await (const topicEntry of Deno.readDir(linksPath)) {
+      if (!topicEntry.isDirectory) continue;
+      if (topics && !topics.includes(topicEntry.name)) continue;
+      const topicPath = pathJoin(linksPath, topicEntry.name);
+      for await (const catEntry of Deno.readDir(topicPath)) {
+        if (!catEntry.isFile || !/\.ya?ml$/.test(catEntry.name)) continue;
+        const filePath = pathJoin(topicPath, catEntry.name);
+        const raw = await readYamlFile<unknown[]>(filePath, []);
+        fileMap.set(filePath, z.array(LinkSchema).parse(raw));
+      }
+    }
+  } catch (error) {
+    if (!(error instanceof Deno.errors.NotFound)) throw error;
+  }
+  return fileMap;
+}
+
+// ─── Model definition ─────────────────────────────────────────────────────────
+
 /** Model definition for site curation. */
 export const model = {
   type: "@alvagante/site-curation",
-  version: "2026.05.25.1",
+  version: "2026.05.26.1",
   globalArguments: GlobalArgsSchema,
   resources: {
     "feed-items": {
@@ -586,6 +896,27 @@ export const model = {
       schema: DigestSchema,
       lifetime: "30d",
       garbageCollection: 30,
+    },
+    "link-enrichment": {
+      description: "Stats and report from a link metadata enrichment run",
+      schema: z.object({
+        generated_at: z.string(),
+        stats: z.object({
+          total: z.number(),
+          needsEnrichment: z.number(),
+          enriched: z.number(),
+          descriptionsUpdated: z.number(),
+          pricingUpdated: z.number(),
+          audienceUpdated: z.number(),
+          logosFound: z.number(),
+          sublinksAdded: z.number(),
+          filesWritten: z.number(),
+          errors: z.number(),
+          dryRun: z.boolean(),
+        }),
+      }),
+      lifetime: "7d",
+      garbageCollection: 5,
     },
   },
   methods: {
@@ -779,6 +1110,255 @@ export const model = {
         }
 
         const handle = await context.writeResource("digest", date, digest);
+        return { dataHandles: [handle] };
+      },
+    },
+    enrich_link_metadata: {
+      description: "Enrich curated link YAML files in three phases: " +
+        "(1) AI-inferred descriptions, pricing, and audience; " +
+        "(2) upstream HTML fetch for og:image logo and meta description hint; " +
+        "(3) AI-suggested canonical sublinks. " +
+        "Writes enriched data back to source _data/links files.",
+      arguments: EnrichLinkMetadataArgsSchema,
+      execute: async (args, context) => {
+        const globals = GlobalArgsSchema.parse(context.globalArgs);
+        const linksPath = pathJoin(globals.repoDir, globals.linksPath);
+        const apiKey = args.openaiApiKey || globals.openaiApiKey ||
+          Deno.env.get("OPENAI_API_KEY");
+        const ollamaModel = args.ollamaModel || globals.ollamaModel;
+        const today = new Date().toISOString().slice(0, 10);
+
+        // Stats counters
+        let total = 0;
+        let needsEnrichmentCount = 0;
+        let enriched = 0;
+        let descriptionsUpdated = 0;
+        let pricingUpdated = 0;
+        let audienceUpdated = 0;
+        let logosFound = 0;
+        let sublinksAdded = 0;
+        let errors = 0;
+
+        // Read all link files into memory, keyed by file path
+        const fileMap = await readLinkFiles(linksPath, args.topics);
+
+        // Build a flat index: [{filePath, index, link}]
+        type Entry = { filePath: string; index: number; link: Link };
+        const allEntries: Entry[] = [];
+        for (const [filePath, links] of fileMap) {
+          for (let i = 0; i < links.length; i++) {
+            allEntries.push({ filePath, index: i, link: links[i] });
+            total++;
+          }
+        }
+
+        // Determine which entries need work
+        const needsWork = (link: Link): boolean => {
+          if (args.forceReenrich) return true;
+          const terseDescript =
+            link.description.length < args.descriptionMinLength;
+          return (
+            (args.phase1 &&
+              (terseDescript || link.pricing === "unknown")) ||
+            (args.phase2 && !link.logo) ||
+            (args.phase3 && link.sublinks.length === 0)
+          );
+        };
+
+        const targets = allEntries.filter(({ link }) => needsWork(link));
+        needsEnrichmentCount = targets.length;
+
+        // ── Phase 2: upstream metadata fetch ─────────────────────────────────
+        // Fetch og:image and meta description for each link missing a logo.
+        // The meta description is passed as ogHint to Phase 1 for richer AI context.
+        const metaMap = new Map<string, SiteMetadata>();
+
+        if (args.phase2) {
+          const phase2Targets = targets.filter(({ link }) => !link.logo);
+          const metaResults = await pMap(
+            phase2Targets,
+            async ({ link }) => {
+              const meta = await fetchSiteMetadata(link.url);
+              return { url: link.url, meta };
+            },
+            args.concurrency,
+          );
+
+          for (const result of metaResults) {
+            if (result.error) {
+              errors++;
+              continue;
+            }
+            const { url, meta } = result.value!;
+            metaMap.set(url, meta);
+            if (meta.ogImage) {
+              // Find the entry and update its logo in the fileMap in-place
+              const entry = targets.find((e) => e.link.url === url);
+              if (entry) {
+                fileMap.get(entry.filePath)![entry.index].logo = meta.ogImage;
+                logosFound++;
+              }
+            }
+          }
+        }
+
+        // ── Phase 1 + 3: AI enrichment ────────────────────────────────────────
+        // Batch entries that need description, pricing, audience, or sublinks.
+        if (args.phase1 || args.phase3) {
+          const aiTargets = targets.filter(({ link }) => {
+            const terseDescript =
+              link.description.length < args.descriptionMinLength;
+            return (
+              (args.phase1 && (terseDescript || link.pricing === "unknown")) ||
+              (args.phase3 && link.sublinks.length === 0)
+            );
+          });
+
+          if (aiTargets.length > 0 && (apiKey || ollamaModel)) {
+            // Split into batches
+            const batches: Entry[][] = [];
+            for (let i = 0; i < aiTargets.length; i += args.batchSize) {
+              batches.push(aiTargets.slice(i, i + args.batchSize));
+            }
+
+            for (const batch of batches) {
+              const inputs: LinkEnrichInput[] = batch.map(({ link }) => {
+                const terseDescript =
+                  link.description.length < args.descriptionMinLength;
+                const meta = metaMap.get(link.url);
+                return {
+                  url: link.url,
+                  title: link.title,
+                  description: link.description,
+                  category: link.category,
+                  section: link.section,
+                  pricing: link.pricing,
+                  audience: link.audience,
+                  hasSublinks: link.sublinks.length > 0,
+                  // Pass upstream site snippet as AI context when available
+                  ogHint: meta?.description,
+                  needsDescription: args.phase1 && terseDescript,
+                  needsPricing: args.phase1 && link.pricing === "unknown",
+                  needsSublinks: args.phase3 && link.sublinks.length === 0,
+                };
+              });
+
+              try {
+                const outputs: LinkEnrichOutput[] = apiKey
+                  ? await callAIForLinksOpenAI(
+                    apiKey,
+                    args.openaiModel || globals.openaiModel,
+                    inputs,
+                  )
+                  : await callAIForLinksOllama(
+                    args.ollamaBaseUrl || globals.ollamaBaseUrl,
+                    ollamaModel!,
+                    inputs,
+                  );
+
+                const byUrl = new Map(outputs.map((o) => [o.url, o]));
+
+                for (const { filePath, index, link } of batch) {
+                  const out = byUrl.get(link.url);
+                  if (!out) continue;
+
+                  const fileLinks = fileMap.get(filePath)!;
+                  let changed = false;
+                  const terseDescript =
+                    link.description.length < args.descriptionMinLength;
+
+                  // Only update description if AI produced a longer, non-empty one
+                  if (
+                    args.phase1 &&
+                    terseDescript &&
+                    out.description &&
+                    out.description.length > link.description.length
+                  ) {
+                    fileLinks[index].description = out.description;
+                    descriptionsUpdated++;
+                    changed = true;
+                  }
+
+                  // Only override pricing when we have a definitive answer
+                  if (
+                    args.phase1 &&
+                    out.pricing &&
+                    out.pricing !== "unknown" &&
+                    link.pricing === "unknown"
+                  ) {
+                    fileLinks[index].pricing = out.pricing;
+                    pricingUpdated++;
+                    changed = true;
+                  }
+
+                  // Update audience when AI returns a different value
+                  if (
+                    args.phase1 &&
+                    out.audience &&
+                    out.audience !== link.audience
+                  ) {
+                    fileLinks[index].audience = out.audience;
+                    audienceUpdated++;
+                    changed = true;
+                  }
+
+                  // Add sublinks only if the entry had none
+                  if (
+                    args.phase3 &&
+                    out.sublinks &&
+                    out.sublinks.length > 0 &&
+                    link.sublinks.length === 0
+                  ) {
+                    fileLinks[index].sublinks = out.sublinks;
+                    sublinksAdded++;
+                    changed = true;
+                  }
+
+                  if (changed) enriched++;
+                }
+              } catch (_err) {
+                errors++;
+                // Continue with next batch rather than aborting the whole run
+              }
+            }
+          }
+        }
+
+        // Update last_checked on all links in touched files
+        for (const links of fileMap.values()) {
+          for (const link of links) {
+            link.last_checked = today;
+          }
+        }
+
+        // Write back to source files (unless dry run)
+        let filesWritten = 0;
+        if (!args.dryRun) {
+          for (const [filePath, links] of fileMap) {
+            await Deno.writeTextFile(filePath, stringifyYaml(links));
+            filesWritten++;
+          }
+        }
+
+        const stats = {
+          total,
+          needsEnrichment: needsEnrichmentCount,
+          enriched,
+          descriptionsUpdated,
+          pricingUpdated,
+          audienceUpdated,
+          logosFound,
+          sublinksAdded,
+          filesWritten,
+          errors,
+          dryRun: args.dryRun,
+        };
+
+        const handle = await context.writeResource(
+          "link-enrichment",
+          today,
+          { generated_at: new Date().toISOString(), stats },
+        );
         return { dataHandles: [handle] };
       },
     },

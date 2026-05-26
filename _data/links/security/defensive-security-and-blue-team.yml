@@ -1,6 +1,7 @@
 - title: MITRE D3FEND
   url: https://d3fend.mitre.org
-  description: Complementary framework to ATT&CK mapping defensive techniques to the offensive tactics they counter.
+  description: Complementary framework to ATT&CK mapping defensive techniques to
+    the offensive tactics they counter.
   topic: Security
   category: Defensive Security & Blue Team
   section: Frameworks & knowledge bases
@@ -11,14 +12,15 @@
     - mitre
   audience: security-professionals
   pricing: free
-  logo: null
+  logo: https://d3fend.mitre.org/img/d3fend-og.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=d3fend.mitre.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Sigma
   url: https://github.com/SigmaHQ/sigma
-  description: Generic signature format for SIEM rules enabling detection content to be shared and converted across platforms.
+  description: Generic signature format for SIEM rules enabling detection content
+    to be shared and converted across platforms.
   topic: Security
   category: Defensive Security & Blue Team
   section: Detection engineering
@@ -29,14 +31,15 @@
     - rules
   audience: security-professionals
   pricing: free
-  logo: null
+  logo: https://opengraph.githubassets.com/df72f25e6df565b18758fd0122b67bdfcd87964b1b003e2010861dca66edadd9/SigmaHQ/sigma
   favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: YARA
   url: https://virustotal.github.io/yara
-  description: Pattern-matching tool for identifying and classifying malware samples based on textual or binary patterns.
+  description: Pattern-matching tool for identifying and classifying malware
+    samples based on textual or binary patterns.
   topic: Security
   category: Defensive Security & Blue Team
   section: Detection engineering
@@ -51,10 +54,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=virustotal.github.io
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Wazuh
   url: https://wazuh.com
-  description: Open-source security platform combining SIEM, XDR, and CSPM for endpoint detection and log analysis.
+  description: Open-source security platform combining SIEM, XDR, and CSPM for
+    endpoint detection and log analysis.
   topic: Security
   category: Defensive Security & Blue Team
   section: SIEM & XDR
@@ -65,14 +69,15 @@
     - open-source
   audience: security-professionals
   pricing: free
-  logo: null
+  logo: https://wazuh.com/uploads/2024/01/wazuh-cover.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=wazuh.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Elastic Security
   url: https://elastic.co/security
-  description: SIEM and endpoint security built on the Elastic Stack, with free detection rules and prebuilt dashboards.
+  description: SIEM and endpoint security built on the Elastic Stack, with free
+    detection rules and prebuilt dashboards.
   topic: Security
   category: Defensive Security & Blue Team
   section: SIEM & XDR
@@ -83,16 +88,17 @@
     - detection
   audience: security-professionals
   pricing: freemium
-  logo: null
+  logo: https://www.elastic.co/static-res/images/social_media_default.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=elastic.co
   sublinks:
     - title: Detection rules repo
       url: https://github.com/elastic/detection-rules
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: TheHive Project
   url: https://thehive-project.org
-  description: Scalable, open-source security incident response platform with case management and MISP integration.
+  description: Scalable, open-source security incident response platform with case
+    management and MISP integration.
   topic: Security
   category: Defensive Security & Blue Team
   section: Incident response platforms
@@ -107,10 +113,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=thehive-project.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Velociraptor
   url: https://velocidex.com
-  description: Advanced DFIR and endpoint monitoring tool for fast artifact collection and threat hunting at scale.
+  description: Advanced DFIR and endpoint monitoring tool for fast artifact
+    collection and threat hunting at scale.
   topic: Security
   category: Defensive Security & Blue Team
   section: Threat hunting & DFIR
@@ -125,10 +132,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=velocidex.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: OpenVAS / Greenbone
   url: https://greenbone.net
-  description: Open-source vulnerability scanning and management solution with a large continuously updated feed of tests.
+  description: Open-source vulnerability scanning and management solution with a
+    large continuously updated feed of tests.
   topic: Security
   category: Defensive Security & Blue Team
   section: Vulnerability management
@@ -138,14 +146,15 @@
     - open-source
   audience: security-professionals
   pricing: free
-  logo: null
+  logo: https://www.greenbone.net/wp-content/uploads/greenbone-2025-avatar.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=greenbone.net
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Zeek
   url: https://zeek.org
-  description: Powerful network analysis framework that generates rich, structured logs for security monitoring and forensics.
+  description: Powerful network analysis framework that generates rich, structured
+    logs for security monitoring and forensics.
   topic: Security
   category: Defensive Security & Blue Team
   section: Network monitoring
@@ -156,14 +165,15 @@
     - forensics
   audience: security-professionals
   pricing: free
-  logo: null
+  logo: https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC96ZWVrLm9yZ1wvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNFwvMDNcL2Nyb3BwZWQtemVlay1mYXZpY29uLTEucG5nP2ZpdD01MTIlMkM1MTImc3NsPTEiLCJ0eHQiOiJaZWVrIiwidGVtcGxhdGUiOiJlZGdlIiwiZm9udCI6IiIsImJsb2dfaWQiOjE3NDAyOTc4MX0.NpOW6yECBYHWYnHGfUn8lSe9ywM7BRNYzSiTJRlDZ3MMQ
   favicon: https://www.google.com/s2/favicons?sz=64&domain=zeek.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Atomic Red Team
   url: https://atomicredteam.io
-  description: Library of tests mapped to MITRE ATT&CK for validating defensive controls and detection coverage.
+  description: Library of tests mapped to MITRE ATT&CK for validating defensive
+    controls and detection coverage.
   topic: Security
   category: Defensive Security & Blue Team
   section: Detection engineering
@@ -174,8 +184,8 @@
     - testing
   audience: security-professionals
   pricing: free
-  logo: null
+  logo: https://www.atomicredteam.io/api/og
   favicon: https://www.google.com/s2/favicons?sz=64&domain=atomicredteam.io
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26

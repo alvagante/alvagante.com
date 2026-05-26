@@ -18,16 +18,6 @@ title: Dashboard
   {% assign enabled_sources = source_file[1] | where: "enabled", true | size %}
   {% assign source_count = source_count | plus: enabled_sources %}
 {% endfor %}
-{% assign first_category_key = "" %}
-{% for topic in site.data.link_topics %}
-  {% assign topic_data = site.data.links[topic.slug] %}
-  {% if topic_data and first_category_key == "" %}
-    {% for category_pair in topic_data limit: 1 %}
-      {% assign first_category_key = topic.slug | append: "__" | append: category_pair[0] %}
-    {% endfor %}
-  {% endif %}
-{% endfor %}
-
 <section class="home-summary">
   <table class="home-summary__table">
     <tbody>
@@ -81,7 +71,7 @@ title: Dashboard
     {% for topic in site.data.link_topics %}
       {% assign topic_data = site.data.links[topic.slug] %}
       {% if topic_data %}
-        <details class="topic-tree__topic"{% if forloop.first %} open{% endif %}>
+        <details class="topic-tree__topic">
           <summary>
             <span>{{ topic.title }}</span>
             <span>{{ topic_data.size }} categories</span>
@@ -90,7 +80,7 @@ title: Dashboard
             {% for category_pair in topic_data %}
               {% assign first_link = category_pair[1] | first %}
               {% assign category_key = topic.slug | append: "__" | append: category_pair[0] %}
-              <button class="{% if category_key == first_category_key %}is-active{% endif %}" type="button" data-home-category="{{ category_key | escape }}" aria-pressed="{% if category_key == first_category_key %}true{% else %}false{% endif %}">
+              <button type="button" data-home-category="{{ category_key | escape }}" aria-pressed="false">
                 <span>{{ first_link.category | default: category_pair[0] }}</span>
                 <span>{{ category_pair[1].size }}</span>
               </button>
@@ -108,7 +98,7 @@ title: Dashboard
         {% for category_pair in topic_data %}
           {% assign first_link = category_pair[1] | first %}
           {% assign category_key = topic.slug | append: "__" | append: category_pair[0] %}
-          <section class="home-category-panel" data-home-category-panel="{{ category_key | escape }}" {% unless category_key == first_category_key %}hidden{% endunless %}>
+          <section class="home-category-panel" data-home-category-panel="{{ category_key | escape }}" hidden>
             <div class="section-head">
               <div>
                 <p class="eyebrow">{{ topic.title }}</p>

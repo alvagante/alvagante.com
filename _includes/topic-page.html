@@ -1,0 +1,109 @@
+{% assign topic = nil %}
+{% for topic_entry in site.data.link_topics %}
+  {% if topic_entry.slug == page.topic_slug %}
+    {% assign topic = topic_entry %}
+  {% endif %}
+{% endfor %}
+
+{% assign topic_data = site.data.links[page.topic_slug] %}
+{% assign total_links = 0 %}
+{% if topic_data %}
+  {% for category_pair in topic_data %}
+    {% assign total_links = total_links | plus: category_pair[1].size %}
+  {% endfor %}
+{% endif %}
+
+{% assign news_count = 0 %}
+{% assign digests = site.data.generated.news %}
+{% if digests and topic %}
+  {% for pair in digests %}
+    {% assign digest = pair.last %}
+    {% assign topic_items = digest.items | where: "category", topic.title %}
+    {% assign news_count = news_count | plus: topic_items.size %}
+  {% endfor %}
+{% endif %}
+
+<section class="page-head">
+  <div>
+    <p class="eyebrow">Topic</p>
+    <h1>{{ topic.title | default: page.title }}</h1>
+    {% if topic.description %}<p class="lede">{{ topic.description }}</p>{% endif %}
+  </div>
+  <div class="stats topic-stats">
+    <div><strong>{{ total_links }}</strong><span>links</span></div>
+    <div><strong>{{ news_count }}</strong><span>news items</span></div>
+  </div>
+</section>
+
+<section class="topic-jump-nav" aria-label="{{ topic.title | default: page.title }} sections">
+  <a href="#links">Links</a>
+  <a href="#news">News</a>
+</section>
+
+<section class="topic-section" id="links">
+  <header>
+    <div>
+      <p class="eyebrow">{{ page.topic_slug }}</p>
+      <h2>Links</h2>
+    </div>
+    <p>Curated resources grouped by category.</p>
+  </header>
+
+  {% if topic_data %}
+    {% for category_pair in topic_data %}
+      {% assign first_link = category_pair[1] | first %}
+      <details class="category-section topic-category-list">
+        <summary class="category-head">
+          <h3>{{ first_link.category | default: category_pair[0] }}</h3>
+          <span class="count">{{ category_pair[1].size }} links</span>
+        </summary>
+        <div class="link-grid">
+          {% for link in category_pair[1] %}
+            {% assign current_category_slug = category_pair[0] %}
+            {% include link-card.html link=link category_slug=current_category_slug topic_slug=page.topic_slug %}
+          {% endfor %}
+        </div>
+      </details>
+    {% endfor %}
+  {% else %}
+    <p class="empty">No links found for this topic.</p>
+  {% endif %}
+</section>
+
+<section class="topic-section" id="news">
+  <header>
+    <div>
+      <p class="eyebrow">{{ topic.title | default: page.title }}</p>
+      <h2>News</h2>
+    </div>
+    <p>Generated digest items for this topic.</p>
+  </header>
+
+  {% if digests and news_count > 0 %}
+    <section class="digest-index">
+      {% for pair in digests reversed %}
+        {% assign digest_date = pair.first %}
+        {% assign digest = pair.last %}
+        {% assign topic_items = digest.items | where: "category", topic.title | sort: "relevance" | reverse %}
+        {% if topic_items.size > 0 %}
+          <article class="digest-day" id="{{ digest_date }}">
+            <header>
+              <div>
+                <p class="meta">{{ digest.generated_at | default: digest.date }}</p>
+                <h3>{{ digest.date | default: digest_date }}</h3>
+              </div>
+              <span class="count">{{ topic_items.size }} items</span>
+            </header>
+            <div class="news-list">
+              {% for item in topic_items %}
+                {% include news-item.html item=item %}
+              {% endfor %}
+            </div>
+          </article>
+        {% endif %}
+      {% endfor %}
+    </section>
+  {% else %}
+    <p class="empty">No generated news found for this topic.</p>
+  {% endif %}
+</section>

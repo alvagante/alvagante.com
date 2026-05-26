@@ -1,6 +1,7 @@
 - title: Amazon Web Services
   url: https://aws.amazon.com
-  description: The world's most comprehensive cloud platform with 200+ services from compute to AI and edge.
+  description: The world's most comprehensive cloud platform with 200+ services
+    from compute to AI and edge.
   topic: IT
   category: Cloud Platforms
   section: Hyperscalers
@@ -19,10 +20,11 @@
     - title: Pricing calculator
       url: https://calculator.aws
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Google Cloud
   url: https://cloud.google.com
-  description: Google's cloud platform with strengths in data analytics, ML infrastructure, Kubernetes, and global networking.
+  description: Google's cloud platform with strengths in data analytics, ML
+    infrastructure, Kubernetes, and global networking.
   topic: IT
   category: Cloud Platforms
   section: Hyperscalers
@@ -33,16 +35,17 @@
     - infrastructure
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
   sublinks:
     - title: Documentation
       url: https://cloud.google.com/docs
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Microsoft Azure
   url: https://azure.microsoft.com
-  description: Microsoft's enterprise cloud platform with tight Active Directory integration and hybrid cloud capabilities.
+  description: Microsoft's enterprise cloud platform with tight Active Directory
+    integration and hybrid cloud capabilities.
   topic: IT
   category: Cloud Platforms
   section: Hyperscalers
@@ -59,10 +62,11 @@
     - title: Documentation
       url: https://docs.microsoft.com/azure
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: DigitalOcean
   url: https://digitalocean.com
-  description: Developer-friendly cloud with simple pricing, managed Kubernetes, databases, and an excellent tutorials library.
+  description: Developer-friendly cloud with simple pricing, managed Kubernetes,
+    databases, and an excellent tutorials library.
   topic: IT
   category: Cloud Platforms
   section: Developer clouds
@@ -79,10 +83,11 @@
     - title: Community tutorials
       url: https://digitalocean.com/community/tutorials
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Hetzner
   url: https://hetzner.com
-  description: German cloud and dedicated server provider with excellent price-to-performance, popular in the European tech community.
+  description: German cloud and dedicated server provider with excellent
+    price-to-performance, popular in the European tech community.
   topic: IT
   category: Cloud Platforms
   section: Developer clouds
@@ -97,10 +102,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=hetzner.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Fly.io
   url: https://fly.io
-  description: Platform for running full-stack apps and databases close to users with WireGuard-based private networking.
+  description: Platform for running full-stack apps and databases close to users
+    with WireGuard-based private networking.
   topic: IT
   category: Cloud Platforms
   section: Developer clouds
@@ -111,14 +117,15 @@
     - edge
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://fly.io/phx/images/preview/og-7ea9380853220ced249aaf88c2332937.jpg?vsn=d
   favicon: https://www.google.com/s2/favicons?sz=64&domain=fly.io
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Cloudflare Workers
   url: https://workers.cloudflare.com
-  description: Serverless compute platform running JavaScript/WASM at the network edge in 300+ cities globally.
+  description: Serverless compute platform running JavaScript/WASM at the network
+    edge in 300+ cities globally.
   topic: IT
   category: Cloud Platforms
   section: Edge & serverless
@@ -129,14 +136,15 @@
     - edge
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://www.cloudflare.com/preview.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=workers.cloudflare.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: OVHcloud
   url: https://ovhcloud.com
-  description: European cloud and hosting provider with bare-metal, VPS, managed Kubernetes, and object storage.
+  description: European cloud and hosting provider with bare-metal, VPS, managed
+    Kubernetes, and object storage.
   topic: IT
   category: Cloud Platforms
   section: Developer clouds
@@ -151,10 +159,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ovhcloud.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Render
   url: https://render.com
-  description: Unified cloud for web services, static sites, cron jobs, and databases with Git-based deployments.
+  description: Unified cloud for web services, static sites, cron jobs, and
+    databases with Git-based deployments.
   topic: IT
   category: Cloud Platforms
   section: Edge & serverless
@@ -165,8 +174,8 @@
     - deployment
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://cdn.sanity.io/images/hvk0tap5/production/a3528e77b010804af14908fab79f826d66437620-1600x900.png?fit=max&auto=format
   favicon: https://www.google.com/s2/favicons?sz=64&domain=render.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26

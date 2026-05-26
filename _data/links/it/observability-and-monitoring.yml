@@ -1,6 +1,7 @@
 - title: Prometheus
   url: https://prometheus.io
-  description: Open-source monitoring and alerting toolkit with a pull-based model and a powerful query language (PromQL).
+  description: Open-source monitoring and alerting toolkit with a pull-based model
+    and a powerful query language (PromQL).
   topic: IT
   category: Observability & Monitoring
   section: Metrics
@@ -11,16 +12,17 @@
     - prometheus
   audience: developers
   pricing: free
-  logo: null
+  logo: https://prometheus.io/opengraph-image.png?b370f6418ef38b42
   favicon: https://www.google.com/s2/favicons?sz=64&domain=prometheus.io
   sublinks:
     - title: PromQL tutorial
       url: https://prometheus.io/docs/prometheus/latest/querying/basics/
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Grafana
   url: https://grafana.com
-  description: Open-source analytics and visualization platform for metrics, logs, and traces with 100+ data source plugins.
+  description: Open-source analytics and visualization platform for metrics, logs,
+    and traces with 100+ data source plugins.
   topic: IT
   category: Observability & Monitoring
   section: Dashboards & visualization
@@ -31,16 +33,17 @@
     - grafana
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://a-us.storyblok.com/f/1022730/1920x1080/f5f38546c4/image-homepage-metaimage.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=grafana.com
   sublinks:
     - title: Dashboard community
       url: https://grafana.com/grafana/dashboards/
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: OpenTelemetry
   url: https://opentelemetry.io
-  description: CNCF standard for collecting telemetry — traces, metrics, and logs — with vendor-neutral SDKs and collectors.
+  description: CNCF standard for collecting telemetry — traces, metrics, and logs
+    — with vendor-neutral SDKs and collectors.
   topic: IT
   category: Observability & Monitoring
   section: Instrumentation standards
@@ -51,14 +54,15 @@
     - cncf
   audience: developers
   pricing: free
-  logo: null
+  logo: https://opentelemetry.io/img/social/logo-wordmark-001.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=opentelemetry.io
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Jaeger
   url: https://jaegertracing.io
-  description: CNCF distributed tracing platform for monitoring microservice transactions and diagnosing latency problems.
+  description: CNCF distributed tracing platform for monitoring microservice
+    transactions and diagnosing latency problems.
   topic: IT
   category: Observability & Monitoring
   section: Distributed tracing
@@ -73,10 +77,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=jaegertracing.io
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Grafana Loki
   url: https://grafana.com/oss/loki/
-  description: Horizontally scalable log aggregation system inspired by Prometheus, designed to store logs efficiently.
+  description: Horizontally scalable log aggregation system inspired by
+    Prometheus, designed to store logs efficiently.
   topic: IT
   category: Observability & Monitoring
   section: Logging
@@ -87,14 +92,15 @@
     - grafana
   audience: developers
   pricing: free
-  logo: null
+  logo: https://grafana.com/media/oss/Loki-metaimage.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=grafana.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Sentry
   url: https://sentry.io
-  description: Error tracking and performance monitoring for frontend, backend, and mobile applications with detailed stack traces.
+  description: Error tracking and performance monitoring for frontend, backend,
+    and mobile applications with detailed stack traces.
   topic: IT
   category: Observability & Monitoring
   section: Error tracking
@@ -105,14 +111,15 @@
     - sentry
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://sentry.io/_astro/home-hero-meta.DJDejDMD.webp
   favicon: https://www.google.com/s2/favicons?sz=64&domain=sentry.io
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: VictoriaMetrics
   url: https://victoriametrics.com
-  description: Fast, cost-effective, and scalable time series database and monitoring solution, Prometheus-compatible.
+  description: Fast, cost-effective, and scalable time series database and
+    monitoring solution, Prometheus-compatible.
   topic: IT
   category: Observability & Monitoring
   section: Metrics
@@ -123,14 +130,15 @@
     - prometheus
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://victoriametrics.com/images/preview/victoria-metrics-home-100.webp
   favicon: https://www.google.com/s2/favicons?sz=64&domain=victoriametrics.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Vector
   url: https://vector.dev
-  description: High-performance observability data pipeline for collecting, transforming, and routing logs and metrics.
+  description: High-performance observability data pipeline for collecting,
+    transforming, and routing logs and metrics.
   topic: IT
   category: Observability & Monitoring
   section: Data pipelines
@@ -141,14 +149,15 @@
     - rust
   audience: developers
   pricing: free
-  logo: null
+  logo: https://vector.dev/img/vector-open-graph.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=vector.dev
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Netdata
   url: https://netdata.cloud
-  description: Real-time performance monitoring for systems, containers, and applications with a 1-second resolution.
+  description: Real-time performance monitoring for systems, containers, and
+    applications with a 1-second resolution.
   topic: IT
   category: Observability & Monitoring
   section: Metrics
@@ -159,8 +168,8 @@
     - system
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://www.netdata.cloud/img/og-image.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=netdata.cloud
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26

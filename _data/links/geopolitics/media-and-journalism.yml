@@ -1,6 +1,7 @@
 - title: Reuters
   url: https://reuters.com
-  description: Global newswire providing fast, impartial international news across politics, finance, and world events.
+  description: Global newswire providing fast, impartial international news across
+    politics, finance, and world events.
   topic: Geopolitics
   category: Media & Journalism
   section: International news
@@ -15,10 +16,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=reuters.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: BBC News
   url: https://bbc.com/news
-  description: UK public broadcaster with extensive international coverage and editorial standards for impartiality.
+  description: UK public broadcaster with extensive international coverage and
+    editorial standards for impartiality.
   topic: Geopolitics
   category: Media & Journalism
   section: International news
@@ -33,10 +35,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: The Guardian World
   url: https://theguardian.com/world
-  description: UK-based progressive newspaper with award-winning international and investigative journalism.
+  description: UK-based progressive newspaper with award-winning international and
+    investigative journalism.
   topic: Geopolitics
   category: Media & Journalism
   section: International news
@@ -51,10 +54,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=theguardian.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Le Monde Diplomatique
   url: https://mondediplo.com
-  description: French international affairs monthly known for in-depth analysis of geopolitics, economics, and culture.
+  description: French international affairs monthly known for in-depth analysis of
+    geopolitics, economics, and culture.
   topic: Geopolitics
   category: Media & Journalism
   section: International news
@@ -65,14 +69,15 @@
     - magazine
   audience: general
   pricing: freemium
-  logo: null
+  logo: https://mondediplo.com/squelettes/images/logog-en.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=mondediplo.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Axios World
   url: https://axios.com/world
-  description: Concise international news with smart brevity format covering the most important global developments daily.
+  description: Concise international news with smart brevity format covering the
+    most important global developments daily.
   topic: Geopolitics
   category: Media & Journalism
   section: International news
@@ -87,10 +92,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=axios.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Rest of World
   url: https://restofworld.org
-  description: Non-profit journalism covering how technology is transforming economics and society outside the US and Western Europe.
+  description: Non-profit journalism covering how technology is transforming
+    economics and society outside the US and Western Europe.
   topic: Geopolitics
   category: Media & Journalism
   section: International news
@@ -101,14 +107,15 @@
     - journalism
   audience: general
   pricing: free
-  logo: null
+  logo: https://restofworld.org/wp-content/uploads/2020/05/cropped-SocialCard-1.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=restofworld.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Media Bias/Fact Check
   url: https://mediabiasfactcheck.com
-  description: Database rating news sources by political bias and factual reporting standards across the media spectrum.
+  description: Database rating news sources by political bias and factual
+    reporting standards across the media spectrum.
   topic: Geopolitics
   category: Media & Journalism
   section: Media literacy
@@ -119,14 +126,15 @@
     - fact-checking
   audience: general
   pricing: free
-  logo: null
+  logo: https://mediabiasfactcheck.com/wp-content/uploads/2019/09/70982153_683576715489993_3036728782363820032_n-e1608491429724.jpg
   favicon: https://www.google.com/s2/favicons?sz=64&domain=mediabiasfactcheck.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Committee to Protect Journalists
   url: https://cpj.org
-  description: Non-profit promoting press freedom by defending journalists facing attacks, imprisonment, and censorship globally.
+  description: Non-profit promoting press freedom by defending journalists facing
+    attacks, imprisonment, and censorship globally.
   topic: Geopolitics
   category: Media & Journalism
   section: Media freedom
@@ -137,8 +145,8 @@
     - human-rights
   audience: general
   pricing: free
-  logo: null
+  logo: https://cpj.org/wp-content/uploads/2020/05/cpj-logo-1.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=cpj.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26

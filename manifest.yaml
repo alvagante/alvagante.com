@@ -1,10 +1,12 @@
 name: "@alvagante/site-curation"
 manifestVersion: 1
-version: 2026.05.25.1
-description: Feed and link curation model for the alvagante.com static site.
+version: 2026.05.26.1
+description: Site models for alvagante.com — feed/link curation and course directory.
 labels:
   - jekyll
   - rss
   - curation
+  - courses
 models:
   - site_curation.ts
+  - course_directory.ts

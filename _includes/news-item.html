@@ -7,7 +7,7 @@
       <span>{{ item.published_at | date: "%b %-d" }}</span>
       <span>Score {{ item.relevance }}</span>
     </div>
-    <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
+    <h4><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></h4>
     <p>{{ item.summary }}</p>
     <div class="chips">
       <span>{{ item.category }}</span>

@@ -1,6 +1,7 @@
 - title: NASA
   url: https://nasa.gov
-  description: US space agency — missions, discoveries, imagery, and open data from Earth observation to deep space exploration.
+  description: US space agency — missions, discoveries, imagery, and open data
+    from Earth observation to deep space exploration.
   topic: Science
   category: Space & Astronomy
   section: Agencies & missions
@@ -11,7 +12,7 @@
     - exploration
   audience: general
   pricing: free
-  logo: null
+  logo: https://www.nasa.gov/wp-content/uploads/2018/07/174116main_2006_01777_highres.jpg
   favicon: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
   sublinks:
     - title: Astronomy Picture of the Day
@@ -19,10 +20,11 @@
     - title: NASA Open Data
       url: https://data.nasa.gov
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: ESA
   url: https://esa.int
-  description: European Space Agency — European space missions, Earth observation, and international cooperation.
+  description: European Space Agency — European space missions, Earth observation,
+    and international cooperation.
   topic: Science
   category: Space & Astronomy
   section: Agencies & missions
@@ -37,10 +39,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=esa.int
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: SpaceX
   url: https://spacex.com
-  description: Elon Musk's private launch company — Falcon 9, Starship, Crew Dragon, and Starlink updates.
+  description: Elon Musk's private launch company — Falcon 9, Starship, Crew
+    Dragon, and Starlink updates.
   topic: Science
   category: Space & Astronomy
   section: Commercial spaceflight
@@ -51,14 +54,15 @@
     - rocket
   audience: general
   pricing: free
-  logo: null
+  logo: https://www.spacex.com/assets/images/share.jpg
   favicon: https://www.google.com/s2/favicons?sz=64&domain=spacex.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Sky & Telescope
   url: https://skyandtelescope.org
-  description: Magazine and website for amateur and professional astronomy with observing guides, news, and equipment reviews.
+  description: Magazine and website for amateur and professional astronomy with
+    observing guides, news, and equipment reviews.
   topic: Science
   category: Space & Astronomy
   section: Publications & media
@@ -73,10 +77,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=skyandtelescope.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: The Planetary Society
   url: https://planetary.org
-  description: World's largest non-governmental space organisation — advocacy, education, and citizen-funded space projects.
+  description: World's largest non-governmental space organisation — advocacy,
+    education, and citizen-funded space projects.
   topic: Science
   category: Space & Astronomy
   section: Organisations
@@ -87,14 +92,15 @@
     - education
   audience: general
   pricing: free
-  logo: null
+  logo: https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x630_crop_center-center_82_none/TPS-logo.png?mtime=1753477397
   favicon: https://www.google.com/s2/favicons?sz=64&domain=planetary.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: JPL
   url: https://jpl.nasa.gov
-  description: NASA's Jet Propulsion Laboratory — home of Mars rovers, Voyager, and dozens of solar system missions.
+  description: NASA's Jet Propulsion Laboratory — home of Mars rovers, Voyager,
+    and dozens of solar system missions.
   topic: Science
   category: Space & Astronomy
   section: Agencies & missions
@@ -109,10 +115,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=jpl.nasa.gov
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Heavens-Above
   url: https://heavens-above.com
-  description: Real-time satellite tracking, ISS pass predictions, and planet visibility data for any location.
+  description: Real-time satellite tracking, ISS pass predictions, and planet
+    visibility data for any location.
   topic: Science
   category: Space & Astronomy
   section: Tools & utilities
@@ -127,10 +134,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=heavens-above.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Space.com
   url: https://space.com
-  description: General space news covering launches, discoveries, astronomy, and space industry developments.
+  description: General space news covering launches, discoveries, astronomy, and
+    space industry developments.
   topic: Science
   category: Space & Astronomy
   section: Publications & media
@@ -145,4 +153,4 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=space.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26

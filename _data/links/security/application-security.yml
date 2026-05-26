@@ -1,6 +1,7 @@
 - title: OWASP Foundation
   url: https://owasp.org
-  description: Open community producing free resources, tools, and standards for improving software security worldwide.
+  description: Open community producing free resources, tools, and standards for
+    improving software security worldwide.
   topic: Security
   category: Application Security
   section: Standards & references
@@ -11,7 +12,7 @@
     - standards
   audience: developers
   pricing: free
-  logo: null
+  logo: https://owasp.org/www--site-theme/favicon.ico
   favicon: https://www.google.com/s2/favicons?sz=64&domain=owasp.org
   sublinks:
     - title: OWASP Top Ten
@@ -19,10 +20,11 @@
     - title: OWASP ASVS
       url: https://owasp.org/www-project-application-security-verification-standard/
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: PortSwigger Web Security Academy
   url: https://portswigger.net/web-security
-  description: Free, world-class web security training with hands-on labs covering every major vulnerability class.
+  description: Free, world-class web security training with hands-on labs covering
+    every major vulnerability class.
   topic: Security
   category: Application Security
   section: Training & labs
@@ -33,14 +35,15 @@
     - labs
   audience: developers
   pricing: free
-  logo: null
+  logo: https://portswigger.net/content/images/logos/academy-twittercard.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=portswigger.net
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: CWE — Common Weakness Enumeration
   url: https://cwe.mitre.org
-  description: MITRE's community-developed list of software and hardware weakness types used in vulnerability classification.
+  description: MITRE's community-developed list of software and hardware weakness
+    types used in vulnerability classification.
   topic: Security
   category: Application Security
   section: Standards & references
@@ -55,10 +58,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=cwe.mitre.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: HackTricks
   url: https://book.hacktricks.xyz
-  description: Continuously updated hacking and pentesting reference covering techniques, tools, and CTF tricks.
+  description: Continuously updated hacking and pentesting reference covering
+    techniques, tools, and CTF tricks.
   topic: Security
   category: Application Security
   section: Training & labs
@@ -73,10 +77,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=book.hacktricks.xyz
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Semgrep
   url: https://semgrep.dev
-  description: Static analysis tool for finding bugs and security issues in source code with a large rule registry.
+  description: Static analysis tool for finding bugs and security issues in source
+    code with a large rule registry.
   topic: Security
   category: Application Security
   section: SAST & code scanning
@@ -87,16 +92,17 @@
     - ci
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://semgrep.dev/assets/content/global/blog-thumbnail-default.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=semgrep.dev
   sublinks:
     - title: Rule registry
       url: https://semgrep.dev/r
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: OWASP ZAP
   url: https://zaproxy.org
-  description: Open-source DAST scanner and proxy for automatically finding security vulnerabilities in web applications.
+  description: Open-source DAST scanner and proxy for automatically finding
+    security vulnerabilities in web applications.
   topic: Security
   category: Application Security
   section: DAST & scanning
@@ -107,14 +113,15 @@
     - scanning
   audience: developers
   pricing: free
-  logo: null
+  logo: https://www.zaproxy.org/img/zap-banner.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=zaproxy.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Snyk
   url: https://snyk.io
-  description: Developer security platform for scanning code, dependencies, containers, and IaC for vulnerabilities.
+  description: Developer security platform for scanning code, dependencies,
+    containers, and IaC for vulnerabilities.
   topic: Security
   category: Application Security
   section: SAST & code scanning
@@ -125,14 +132,15 @@
     - devsecops
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://snyk.io/_next/static/media/default-social.8953a9bd.jpg
   favicon: https://www.google.com/s2/favicons?sz=64&domain=snyk.io
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: SonarQube
   url: https://sonarqube.org
-  description: Continuous code quality and security inspection platform supporting 30+ languages.
+  description: Continuous code quality and security inspection platform supporting
+    30+ languages.
   topic: Security
   category: Application Security
   section: SAST & code scanning
@@ -143,14 +151,15 @@
     - ci
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://assets-eu-01.kc-usercontent.com:443/ef593040-b591-0198-9506-ed88b30bc023/8e69d91e-9d71-453d-a4c7-d25797ae7e1a/sonar-open-graph%402x.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=sonarqube.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Trivy
   url: https://trivy.dev
-  description: Comprehensive open-source security scanner for containers, filesystems, IaC, and git repositories.
+  description: Comprehensive open-source security scanner for containers,
+    filesystems, IaC, and git repositories.
   topic: Security
   category: Application Security
   section: DAST & scanning
@@ -165,10 +174,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=trivy.dev
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Content Security Policy (CSP) Evaluator
   url: https://csp-evaluator.withgoogle.com
-  description: Google tool for analysing CSP header configurations and identifying common misconfigurations and bypasses.
+  description: Google tool for analysing CSP header configurations and identifying
+    common misconfigurations and bypasses.
   topic: Security
   category: Application Security
   section: Browser & web standards
@@ -183,4 +193,4 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=csp-evaluator.withgoogle.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26

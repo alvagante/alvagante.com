@@ -1,0 +1,264 @@
+id: 1514d0f1-a878-4c1a-ac1a-ab25fed8d32c
+name: collect-courses
+description: >
+  Collect and populate course files for all major topic/category pairs.
+  Each step is atomic — it targets exactly one topic/category file and can run
+  independently. Add, remove, or reorder steps freely; each is a thin wrapper
+  around course-directory.collect_courses.
+
+  Run a single category ad-hoc with:
+    swamp model method run course-directory collect_courses \
+      --inputs '{"topic":"ai","category":"Machine Learning"}'
+tags:
+  site: alvagante.com
+  cadence: on-demand
+jobs:
+  # ── AI ────────────────────────────────────────────────────────────────────────
+  - name: ai
+    description: Collect courses for the AI topic.
+    steps:
+      - name: ai-machine-learning
+        description: ML fundamentals through advanced deep learning.
+        task:
+          type: model_method
+          modelIdOrName: course-directory
+          methodName: collect_courses
+          inputs:
+            topic: ai
+            category: Machine Learning
+            maxCourses: 20
+            merge: true
+        dependsOn: []
+        weight: 0
+        allowFailure: true
+
+      - name: ai-llm-development
+        description: Building with large language models and prompt engineering.
+        task:
+          type: model_method
+          modelIdOrName: course-directory
+          methodName: collect_courses
+          inputs:
+            topic: ai
+            category: LLM Development
+            maxCourses: 20
+            merge: true
+        dependsOn: []
+        weight: 0
+        allowFailure: true
+
+      - name: ai-mlops
+        description: MLOps, model deployment, and production AI pipelines.
+        task:
+          type: model_method
+          modelIdOrName: course-directory
+          methodName: collect_courses
+          inputs:
+            topic: ai
+            category: MLOps & Production AI
+            maxCourses: 15
+            merge: true
+        dependsOn: []
+        weight: 0
+        allowFailure: true
+
+      - name: ai-computer-vision
+        description: Computer vision and image recognition.
+        task:
+          type: model_method
+          modelIdOrName: course-directory
+          methodName: collect_courses
+          inputs:
+            topic: ai
+            category: Computer Vision
+            maxCourses: 15
+            merge: true
+        dependsOn: []
+        weight: 0
+        allowFailure: true
+
+      - name: ai-nlp
+        description: Natural Language Processing from classical to transformer-based.
+        task:
+          type: model_method
+          modelIdOrName: course-directory
+          methodName: collect_courses
+          inputs:
+            topic: ai
+            category: Natural Language Processing
+            maxCourses: 15
+            merge: true
+        dependsOn: []
+        weight: 0
+        allowFailure: true
+    dependsOn: []
+    weight: 0
+
+  # ── IT ────────────────────────────────────────────────────────────────────────
+  - name: it
+    description: Collect courses for the IT topic.
+    steps:
+      - name: it-python
+        description: Python programming from beginner to advanced.
+        task:
+          type: model_method
+          modelIdOrName: course-directory
+          methodName: collect_courses
+          inputs:
+            topic: it
+            category: Python
+            maxCourses: 20
+            merge: true
+        dependsOn: []
+        weight: 0
+        allowFailure: true
+
+      - name: it-devops
+        description: DevOps, CI/CD, and infrastructure automation.
+        task:
+          type: model_method
+          modelIdOrName: course-directory
+          methodName: collect_courses
+          inputs:
+            topic: it
+            category: DevOps & CI/CD
+            maxCourses: 20
+            merge: true
+        dependsOn: []
+        weight: 0
+        allowFailure: true
+
+      - name: it-kubernetes
+        description: Kubernetes and container orchestration.
+        task:
+          type: model_method
+          modelIdOrName: course-directory
+          methodName: collect_courses
+          inputs:
+            topic: it
+            category: Kubernetes & Containers
+            maxCourses: 15
+            merge: true
+        dependsOn: []
+        weight: 0
+        allowFailure: true
+
+      - name: it-cloud
+        description: Cloud platforms — AWS, GCP, Azure.
+        task:
+          type: model_method
+          modelIdOrName: course-directory
+          methodName: collect_courses
+          inputs:
+            topic: it
+            category: Cloud Platforms
+            maxCourses: 20
+            merge: true
+        dependsOn: []
+        weight: 0
+        allowFailure: true
+
+      - name: it-linux
+        description: Linux system administration.
+        task:
+          type: model_method
+          modelIdOrName: course-directory
+          methodName: collect_courses
+          inputs:
+            topic: it
+            category: Linux & System Administration
+            maxCourses: 15
+            merge: true
+        dependsOn: []
+        weight: 0
+        allowFailure: true
+    dependsOn: []
+    weight: 0
+
+  # ── Security ──────────────────────────────────────────────────────────────────
+  - name: security
+    description: Collect courses for the Security topic.
+    steps:
+      - name: security-ethical-hacking
+        description: Ethical hacking, penetration testing, and offensive security.
+        task:
+          type: model_method
+          modelIdOrName: course-directory
+          methodName: collect_courses
+          inputs:
+            topic: security
+            category: Ethical Hacking & Penetration Testing
+            maxCourses: 20
+            merge: true
+        dependsOn: []
+        weight: 0
+        allowFailure: true
+
+      - name: security-appsec
+        description: Application security and secure software development.
+        task:
+          type: model_method
+          modelIdOrName: course-directory
+          methodName: collect_courses
+          inputs:
+            topic: security
+            category: Application Security
+            maxCourses: 15
+            merge: true
+        dependsOn: []
+        weight: 0
+        allowFailure: true
+
+      - name: security-network
+        description: Network security, firewalls, and intrusion detection.
+        task:
+          type: model_method
+          modelIdOrName: course-directory
+          methodName: collect_courses
+          inputs:
+            topic: security
+            category: Network Security
+            maxCourses: 15
+            merge: true
+        dependsOn: []
+        weight: 0
+        allowFailure: true
+    dependsOn: []
+    weight: 0
+
+  # ── Science ───────────────────────────────────────────────────────────────────
+  - name: science
+    description: Collect courses for the Science topic.
+    steps:
+      - name: science-data-science
+        description: Data science, statistics, and scientific computing.
+        task:
+          type: model_method
+          modelIdOrName: course-directory
+          methodName: collect_courses
+          inputs:
+            topic: science
+            category: Data Science & Statistics
+            maxCourses: 20
+            merge: true
+        dependsOn: []
+        weight: 0
+        allowFailure: true
+
+      - name: science-bioinformatics
+        description: Bioinformatics and computational biology.
+        task:
+          type: model_method
+          modelIdOrName: course-directory
+          methodName: collect_courses
+          inputs:
+            topic: science
+            category: Bioinformatics
+            maxCourses: 15
+            merge: true
+        dependsOn: []
+        weight: 0
+        allowFailure: true
+    dependsOn: []
+    weight: 0
+version: 1

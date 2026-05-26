@@ -60,6 +60,7 @@ main {
 
 nav {
   display: flex;
+  flex-wrap: wrap;
   gap: 6px;
 }
 
@@ -282,6 +283,34 @@ nav a,
   background: #eef7f3;
 }
 
+.topic-stats {
+  grid-template-columns: repeat(2, minmax(96px, 1fr));
+}
+
+.topic-jump-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  border-top: 1px solid var(--line);
+  padding: 14px 0 4px;
+}
+
+.topic-jump-nav a {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--muted);
+  padding: 7px 10px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.topic-jump-nav a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 .home-selected-links {
   border-top: 1px solid var(--line);
   margin-top: 22px;
@@ -401,12 +430,64 @@ h4 { margin-bottom: 6px; font-size: 1rem; }
   margin-top: 18px;
 }
 
+.topic-category-list {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.52);
+  padding: 0;
+}
+
+.topic-category-list[open] {
+  padding-bottom: 12px;
+}
+
 .category-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
   margin-bottom: 10px;
+}
+
+.topic-category-list > .category-head {
+  margin-bottom: 0;
+  padding: 12px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.topic-category-list > .category-head::-webkit-details-marker {
+  display: none;
+}
+
+.topic-category-list > .category-head::before {
+  content: "+";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.topic-category-list[open] > .category-head {
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 12px;
+}
+
+.topic-category-list[open] > .category-head::before {
+  content: "-";
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.topic-category-list > .link-grid {
+  padding: 0 12px;
 }
 
 .category-head h3 {

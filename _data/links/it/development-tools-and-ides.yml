@@ -1,6 +1,7 @@
 - title: VS Code
   url: https://code.visualstudio.com
-  description: Microsoft's open-source code editor with a vast extension marketplace and deep language server protocol support.
+  description: Microsoft's open-source code editor with a vast extension
+    marketplace and deep language server protocol support.
   topic: IT
   category: Development Tools & IDEs
   section: Editors & IDEs
@@ -11,16 +12,17 @@
     - microsoft
   audience: developers
   pricing: free
-  logo: null
+  logo: https://code.visualstudio.com/opengraphimg/opengraph-home.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=code.visualstudio.com
   sublinks:
     - title: Extension Marketplace
       url: https://marketplace.visualstudio.com/vscode
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: JetBrains IDEs
   url: https://jetbrains.com
-  description: Suite of professional IDEs for Python, Java, Kotlin, Go, Rust, PHP, and web development.
+  description: Suite of professional IDEs for Python, Java, Kotlin, Go, Rust, PHP,
+    and web development.
   topic: IT
   category: Development Tools & IDEs
   section: Editors & IDEs
@@ -31,16 +33,17 @@
     - professional
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://resources.jetbrains.com/storage/products/jetbrains/img/meta/preview.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=jetbrains.com
   sublinks:
     - title: IntelliJ IDEA
       url: https://www.jetbrains.com/idea/
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Neovim
   url: https://neovim.io
-  description: Hyperextensible Vim-based text editor with Lua-based configuration and a rich plugin ecosystem.
+  description: Hyperextensible Vim-based text editor with Lua-based configuration
+    and a rich plugin ecosystem.
   topic: IT
   category: Development Tools & IDEs
   section: Editors & IDEs
@@ -51,14 +54,15 @@
     - editor
   audience: developers
   pricing: free
-  logo: null
+  logo: https://neovim.io/logos/neovim-logo-social-preview.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=neovim.io
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Zed
   url: https://zed.dev
-  description: High-performance, multiplayer code editor built in Rust with AI assistance and real-time collaboration.
+  description: High-performance, multiplayer code editor built in Rust with AI
+    assistance and real-time collaboration.
   topic: IT
   category: Development Tools & IDEs
   section: Editors & IDEs
@@ -69,14 +73,15 @@
     - collaboration
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://zed.dev/img/home/og.webp
   favicon: https://www.google.com/s2/favicons?sz=64&domain=zed.dev
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Git
   url: https://git-scm.com
-  description: The distributed version control system — official documentation, reference manual, and Pro Git book.
+  description: The distributed version control system — official documentation,
+    reference manual, and Pro Git book.
   topic: IT
   category: Development Tools & IDEs
   section: Version control
@@ -92,10 +97,11 @@
     - title: Pro Git (free book)
       url: https://git-scm.com/book/en/v2
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: GitLab
   url: https://gitlab.com
-  description: Complete DevSecOps platform with self-hosted and SaaS options for code, CI/CD, and project management.
+  description: Complete DevSecOps platform with self-hosted and SaaS options for
+    code, CI/CD, and project management.
   topic: IT
   category: Development Tools & IDEs
   section: Code platforms
@@ -106,14 +112,15 @@
     - devops
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://res.cloudinary.com/about-gitlab-com/image/upload/v1758207578/whxaklh4tf6nonryosrs.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=gitlab.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Gitea
   url: https://gitea.com
-  description: Lightweight, self-hosted Git service with GitHub-compatible interface and low resource requirements.
+  description: Lightweight, self-hosted Git service with GitHub-compatible
+    interface and low resource requirements.
   topic: IT
   category: Development Tools & IDEs
   section: Code platforms
@@ -124,14 +131,15 @@
     - open-source
   audience: developers
   pricing: free
-  logo: null
+  logo: https://about.gitea.com/gitea.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=gitea.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: tmux
   url: https://github.com/tmux/tmux/wiki
-  description: Terminal multiplexer for managing multiple terminal sessions, panes, and windows in a single connection.
+  description: Terminal multiplexer for managing multiple terminal sessions,
+    panes, and windows in a single connection.
   topic: IT
   category: Development Tools & IDEs
   section: Terminal tools
@@ -142,14 +150,15 @@
     - productivity
   audience: developers
   pricing: free
-  logo: null
+  logo: https://opengraph.githubassets.com/7a232d75e8b293bf9c8e5c0ffb3eb373539d5344157662228fca766cbeae3f01/tmux/tmux
   favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: devenv.sh
   url: https://devenv.sh
-  description: Nix-based tool for declarative, reproducible development environments with direnv integration.
+  description: Nix-based tool for declarative, reproducible development
+    environments with direnv integration.
   topic: IT
   category: Development Tools & IDEs
   section: Dev environments
@@ -160,8 +169,8 @@
     - reproducible
   audience: developers
   pricing: free
-  logo: null
+  logo: https://devenv.sh/assets/images/social/index.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=devenv.sh
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26

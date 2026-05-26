@@ -1,6 +1,7 @@
 - title: Open Source Initiative
   url: https://opensource.org
-  description: Steward of the Open Source Definition and approved license list — the authority on what "open source" means.
+  description: Steward of the Open Source Definition and approved license list —
+    the authority on what "open source" means.
   topic: Technology
   category: Open Source & FOSS
   section: Foundations & organisations
@@ -11,16 +12,17 @@
     - standards
   audience: general
   pricing: free
-  logo: null
+  logo: https://i0.wp.com/opensource.org/wp-content/uploads/2025/06/s-blob-v1-IMAGE-3ICZEWiiYz4.webp?fit=640%2C640&#038;quality=80&#038;ssl=1
   favicon: https://www.google.com/s2/favicons?sz=64&domain=opensource.org
   sublinks:
     - title: Approved licenses
       url: https://opensource.org/licenses
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Free Software Foundation
   url: https://fsf.org
-  description: Non-profit founded by Richard Stallman promoting software freedom and maintaining the GPL license family.
+  description: Non-profit founded by Richard Stallman promoting software freedom
+    and maintaining the GPL license family.
   topic: Technology
   category: Open Source & FOSS
   section: Foundations & organisations
@@ -35,10 +37,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=fsf.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: GitHub Trending
   url: https://github.com/trending
-  description: Daily and weekly rankings of the most starred open-source repositories on GitHub by language.
+  description: Daily and weekly rankings of the most starred open-source
+    repositories on GitHub by language.
   topic: Technology
   category: Open Source & FOSS
   section: Discovery
@@ -49,14 +52,15 @@
     - trending
   audience: general
   pricing: free
-  logo: null
+  logo: https://github.githubassets.com/assets/github-logo-55c5b9a1fe52.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Codeberg
   url: https://codeberg.org
-  description: Non-profit, community-owned Gitea instance for free and open-source projects — a European GitHub alternative.
+  description: Non-profit, community-owned Gitea instance for free and open-source
+    projects — a European GitHub alternative.
   topic: Technology
   category: Open Source & FOSS
   section: Forges & hosting
@@ -67,14 +71,15 @@
     - europe
   audience: general
   pricing: free
-  logo: null
+  logo: /assets/img/logo.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=codeberg.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: AlternativeTo
   url: https://alternativeto.net
-  description: Crowd-sourced directory for finding open-source and free alternatives to proprietary software.
+  description: Crowd-sourced directory for finding open-source and free
+    alternatives to proprietary software.
   topic: Technology
   category: Open Source & FOSS
   section: Discovery
@@ -89,10 +94,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=alternativeto.net
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: OpenHub (Black Duck)
   url: https://openhub.net
-  description: Metrics and analytics for open-source projects — activity, contributors, languages, and licence info.
+  description: Metrics and analytics for open-source projects — activity,
+    contributors, languages, and licence info.
   topic: Technology
   category: Open Source & FOSS
   section: Discovery
@@ -107,10 +113,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=openhub.net
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Awesome Lists
   url: https://github.com/sindresorhus/awesome
-  description: Meta-list of curated awesome lists covering every programming language, framework, and technical domain.
+  description: Meta-list of curated awesome lists covering every programming
+    language, framework, and technical domain.
   topic: Technology
   category: Open Source & FOSS
   section: Discovery
@@ -125,10 +132,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: SourceHut
   url: https://sr.ht
-  description: Minimalist, email-based code forge focusing on simplicity, plain-text workflows, and open-source sustainability.
+  description: Minimalist, email-based code forge focusing on simplicity,
+    plain-text workflows, and open-source sustainability.
   topic: Technology
   category: Open Source & FOSS
   section: Forges & hosting
@@ -143,4 +151,4 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=sr.ht
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26

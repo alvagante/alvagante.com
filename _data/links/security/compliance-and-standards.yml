@@ -1,6 +1,7 @@
 - title: NIST Cybersecurity Framework
   url: https://nist.gov/cyberframework
-  description: Voluntary framework of standards, guidelines, and practices for managing cybersecurity risk, now at version 2.0.
+  description: Voluntary framework of standards, guidelines, and practices for
+    managing cybersecurity risk, now at version 2.0.
   topic: Security
   category: Compliance & Standards
   section: Frameworks
@@ -11,16 +12,17 @@
     - nist
   audience: security-professionals
   pricing: free
-  logo: null
+  logo: https://www.nist.gov/themes/custom/nist_www/img/homepage/nist_mark.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=nist.gov
   sublinks:
     - title: CSF 2.0
       url: https://www.nist.gov/cyberframework/framework
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: CIS Controls
   url: https://cisecurity.org/controls
-  description: Prioritised set of 18 defensive security controls developed by the Center for Internet Security.
+  description: Prioritised set of 18 defensive security controls developed by the
+    Center for Internet Security.
   topic: Security
   category: Compliance & Standards
   section: Frameworks
@@ -31,16 +33,17 @@
     - controls
   audience: security-professionals
   pricing: free
-  logo: null
+  logo: /-/jssmedia/project/cisecurity/cisecurity/data/media/img/uploads/2021/05/cis-control-v8-1200x627-1.png?h=627&iar=0&w=1200&rev=700988e7a6d34af9850cdab6d132ada1&hash=E32161B8FC855473B6BA44005876D4D2
   favicon: https://www.google.com/s2/favicons?sz=64&domain=cisecurity.org
   sublinks:
     - title: CIS Benchmarks
       url: https://www.cisecurity.org/cis-benchmarks
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: ISO/IEC 27001
   url: https://www.iso.org/standard/27001
-  description: International standard for information security management systems (ISMS) and its certification framework.
+  description: International standard for information security management systems
+    (ISMS) and its certification framework.
   topic: Security
   category: Compliance & Standards
   section: International standards
@@ -51,14 +54,15 @@
     - isms
   audience: security-professionals
   pricing: paid
-  logo: null
+  logo: https://www.iso.org/modules/isoorg-template/img/iso/iso-logo-og.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.iso.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: GDPR Info
   url: https://gdpr-info.eu
-  description: Full text of the EU General Data Protection Regulation with recitals and cross-references.
+  description: Full text of the EU General Data Protection Regulation with
+    recitals and cross-references.
   topic: Security
   category: Compliance & Standards
   section: Regulation texts
@@ -73,7 +77,7 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=gdpr-info.eu
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: PCI Security Standards Council
   url: https://pcisecuritystandards.org
   description: Governing body for PCI DSS, the payment card industry data security standard.
@@ -87,14 +91,15 @@
     - compliance
   audience: security-professionals
   pricing: free
-  logo: null
+  logo: https://www.pcisecuritystandards.org/wp-content/uploads/2022/07/slider-pcidss.webp
   favicon: https://www.google.com/s2/favicons?sz=64&domain=pcisecuritystandards.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: ENISA
   url: https://enisa.europa.eu
-  description: EU Agency for Cybersecurity publishing threat landscapes, guidelines, and policy recommendations across the EU.
+  description: EU Agency for Cybersecurity publishing threat landscapes,
+    guidelines, and policy recommendations across the EU.
   topic: Security
   category: Compliance & Standards
   section: Regulatory bodies
@@ -111,10 +116,11 @@
     - title: Threat Landscape
       url: https://www.enisa.europa.eu/topics/cyber-threats/enisa-threat-landscape
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: SOC 2 — AICPA
   url: https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2
-  description: AICPA's Service Organization Control 2 framework for auditing security, availability, and confidentiality of cloud services.
+  description: AICPA's Service Organization Control 2 framework for auditing
+    security, availability, and confidentiality of cloud services.
   topic: Security
   category: Compliance & Standards
   section: Frameworks
@@ -125,14 +131,15 @@
     - cloud
   audience: security-professionals
   pricing: free
-  logo: null
+  logo: https://images.ctfassets.net/rb9cdnjh59cm/43ZKFkefBBGDMM3VoBYWIP/b4d7a47dedb6d7232936e0c8beb6e764/Logo_1200x630.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.aicpa-cima.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: NIS2 Directive
   url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022L2555
-  description: EU Network and Information Security Directive 2 expanding cybersecurity obligations to more sectors.
+  description: EU Network and Information Security Directive 2 expanding
+    cybersecurity obligations to more sectors.
   topic: Security
   category: Compliance & Standards
   section: Regulation texts
@@ -147,10 +154,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=eur-lex.europa.eu
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: BSI — Federal Office for Information Security
   url: https://bsi.bund.de
-  description: German federal authority for information security, publishing technical guidelines and IT-Grundschutz.
+  description: German federal authority for information security, publishing
+    technical guidelines and IT-Grundschutz.
   topic: Security
   category: Compliance & Standards
   section: Regulatory bodies
@@ -161,8 +169,8 @@
     - standards
   audience: security-professionals
   pricing: free
-  logo: null
+  logo: https://www.bsi.bund.de/_config/DefaultSocialMediaImage.jpg?__blob=value&v=4
   favicon: https://www.google.com/s2/favicons?sz=64&domain=bsi.bund.de
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26

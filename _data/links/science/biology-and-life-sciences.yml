@@ -1,6 +1,7 @@
 - title: PubMed
   url: https://pubmed.ncbi.nlm.nih.gov
-  description: Free database of 36M+ biomedical literature citations maintained by NLMNIH — the primary biology literature search.
+  description: Free database of 36M+ biomedical literature citations maintained by
+    NLMNIH — the primary biology literature search.
   topic: Science
   category: Biology & Life Sciences
   section: Databases & literature
@@ -11,14 +12,15 @@
     - research
   audience: researchers
   pricing: free
-  logo: null
+  logo: https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg
   favicon: https://www.google.com/s2/favicons?sz=64&domain=pubmed.ncbi.nlm.nih.gov
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: bioRxiv
   url: https://biorxiv.org
-  description: Preprint server for biology — papers posted before peer review, allowing rapid sharing of findings.
+  description: Preprint server for biology — papers posted before peer review,
+    allowing rapid sharing of findings.
   topic: Science
   category: Biology & Life Sciences
   section: Databases & literature
@@ -33,10 +35,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=biorxiv.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Nature
   url: https://nature.com
-  description: Multidisciplinary science journal and news outlet covering the most significant research across all life sciences.
+  description: Multidisciplinary science journal and news outlet covering the most
+    significant research across all life sciences.
   topic: Science
   category: Biology & Life Sciences
   section: Journals
@@ -51,10 +54,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=nature.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Cell
   url: https://cell.com
-  description: Premier journal for life science research, publishing landmark papers in cell biology, genomics, and medicine.
+  description: Premier journal for life science research, publishing landmark
+    papers in cell biology, genomics, and medicine.
   topic: Science
   category: Biology & Life Sciences
   section: Journals
@@ -69,10 +73,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=cell.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: eLife
   url: https://elifesciences.org
-  description: Open-access journal for biomedical and life sciences with a transparent peer-review model.
+  description: Open-access journal for biomedical and life sciences with a
+    transparent peer-review model.
   topic: Science
   category: Biology & Life Sciences
   section: Journals
@@ -83,14 +88,15 @@
     - peer-review
   audience: researchers
   pricing: free
-  logo: null
+  logo: https://elifesciences.org/assets/images/social/icon-600x600@1.52e87ee6.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=elifesciences.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: NCBI / GenBank
   url: https://ncbi.nlm.nih.gov/genbank
-  description: NIH's genetic sequence database containing over 250M sequences — the world's genetic data archive.
+  description: NIH's genetic sequence database containing over 250M sequences —
+    the world's genetic data archive.
   topic: Science
   category: Biology & Life Sciences
   section: Databases & literature
@@ -105,10 +111,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ncbi.nlm.nih.gov
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: EMBL-EBI
   url: https://ebi.ac.uk
-  description: European Molecular Biology Laboratory's bioinformatics institute providing free databases and tools.
+  description: European Molecular Biology Laboratory's bioinformatics institute
+    providing free databases and tools.
   topic: Science
   category: Biology & Life Sciences
   section: Institutes & tools
@@ -119,14 +126,15 @@
     - europe
   audience: researchers
   pricing: free
-  logo: null
+  logo: https://acxngcvroo.cloudimg.io/v7/www.embl.org/files/wp-content/uploads/EMBL-EBI-home-hero-cells_2021-1-scaled.jpeg?width=1600
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ebi.ac.uk
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Ensembl
   url: https://ensembl.org
-  description: Browser for vertebrate genome data with annotations, variant effects, and comparative genomics.
+  description: Browser for vertebrate genome data with annotations, variant
+    effects, and comparative genomics.
   topic: Science
   category: Biology & Life Sciences
   section: Databases & literature
@@ -141,4 +149,4 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ensembl.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26

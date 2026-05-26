@@ -1,6 +1,7 @@
 - title: PostgreSQL
   url: https://postgresql.org
-  description: The world's most advanced open-source relational database with strong ACID compliance and extensibility.
+  description: The world's most advanced open-source relational database with
+    strong ACID compliance and extensibility.
   topic: IT
   category: Databases & Storage
   section: Relational databases
@@ -11,16 +12,17 @@
     - postgresql
   audience: developers
   pricing: free
-  logo: null
+  logo: https://www.postgresql.org/media/img/about/press/elephant.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=postgresql.org
   sublinks:
     - title: Documentation
       url: https://www.postgresql.org/docs/current/
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: SQLite
   url: https://sqlite.org
-  description: Self-contained, serverless SQL database engine — the most widely deployed database in the world.
+  description: Self-contained, serverless SQL database engine — the most widely
+    deployed database in the world.
   topic: IT
   category: Databases & Storage
   section: Relational databases
@@ -35,10 +37,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=sqlite.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: DuckDB
   url: https://duckdb.org
-  description: In-process analytical SQL database with columnar storage, designed for fast OLAP queries on local files.
+  description: In-process analytical SQL database with columnar storage, designed
+    for fast OLAP queries on local files.
   topic: IT
   category: Databases & Storage
   section: Analytical databases
@@ -49,14 +52,15 @@
     - analytics
   audience: developers
   pricing: free
-  logo: null
+  logo: https://duckdb.org/images/sharingduckdb.jpg
   favicon: https://www.google.com/s2/favicons?sz=64&domain=duckdb.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: ClickHouse
   url: https://clickhouse.com
-  description: Column-oriented database for real-time analytics capable of processing billions of rows per second.
+  description: Column-oriented database for real-time analytics capable of
+    processing billions of rows per second.
   topic: IT
   category: Databases & Storage
   section: Analytical databases
@@ -67,14 +71,15 @@
     - analytics
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://clickhouse.com/_next/image?url=%2Fimages%2Fsocial_share.png&w=1200&h=630&q=80
   favicon: https://www.google.com/s2/favicons?sz=64&domain=clickhouse.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Redis
   url: https://redis.io
-  description: In-memory data structure store used as cache, message broker, and session store with persistence options.
+  description: In-memory data structure store used as cache, message broker, and
+    session store with persistence options.
   topic: IT
   category: Databases & Storage
   section: NoSQL & caching
@@ -85,14 +90,15 @@
     - nosql
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://redis.io/_next/static/media/open-graph.0ec72f52.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=redis.io
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: MongoDB
   url: https://mongodb.com
-  description: Leading document-oriented NoSQL database with flexible schema, rich query language, and Atlas cloud service.
+  description: Leading document-oriented NoSQL database with flexible schema, rich
+    query language, and Atlas cloud service.
   topic: IT
   category: Databases & Storage
   section: NoSQL & caching
@@ -103,14 +109,15 @@
     - document
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://images.contentstack.io/v3/assets/blt7151619cb9560896/bltfe3bee7877352896/Meta_Generic.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=mongodb.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: MinIO
   url: https://min.io
-  description: High-performance, S3-compatible object storage for on-premises and cloud environments.
+  description: High-performance, S3-compatible object storage for on-premises and
+    cloud environments.
   topic: IT
   category: Databases & Storage
   section: Object & file storage
@@ -121,14 +128,15 @@
     - object-storage
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://cdn.prod.website-files.com/681c8426519d8db8f867c1e8/68501f4ba8cc7fed33ecee9f_766a547f27ec1958c368e92c8c4a0c62_minio_share.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=min.io
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Apache Cassandra
   url: https://cassandra.apache.org
-  description: Highly scalable, distributed NoSQL database designed for high-availability with no single point of failure.
+  description: Highly scalable, distributed NoSQL database designed for
+    high-availability with no single point of failure.
   topic: IT
   category: Databases & Storage
   section: NoSQL & caching
@@ -143,10 +151,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=cassandra.apache.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: CockroachDB
   url: https://cockroachlabs.com
-  description: Distributed SQL database with geo-partitioning, horizontal scaling, and PostgreSQL wire compatibility.
+  description: Distributed SQL database with geo-partitioning, horizontal scaling,
+    and PostgreSQL wire compatibility.
   topic: IT
   category: Databases & Storage
   section: Distributed SQL
@@ -157,14 +166,15 @@
     - distributed
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://images.ctfassets.net/00voh0j35590/3HOcRkIRnmu4DIWirX6gDH/b4f8a962358bffa8da063319af5dbba0/crl-socialpost-default-2020-2.jpg
   favicon: https://www.google.com/s2/favicons?sz=64&domain=cockroachlabs.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Elasticsearch
   url: https://elastic.co/elasticsearch
-  description: Distributed search and analytics engine at the core of the Elastic Stack, used for full-text search and log analysis.
+  description: Distributed search and analytics engine at the core of the Elastic
+    Stack, used for full-text search and log analysis.
   topic: IT
   category: Databases & Storage
   section: Search engines
@@ -175,8 +185,8 @@
     - logging
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://www.elastic.co/static-res/images/social_media_default.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=elastic.co
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26

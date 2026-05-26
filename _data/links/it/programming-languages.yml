@@ -1,6 +1,7 @@
 - title: Python
   url: https://python.org
-  description: General-purpose, high-level language dominant in data science, AI/ML, scripting, and backend development.
+  description: General-purpose, high-level language dominant in data science,
+    AI/ML, scripting, and backend development.
   topic: IT
   category: Programming Languages
   section: General-purpose languages
@@ -11,7 +12,7 @@
     - scripting
   audience: developers
   pricing: free
-  logo: null
+  logo: https://www.python.org/static/opengraph-icon-200x200.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=python.org
   sublinks:
     - title: Documentation
@@ -19,10 +20,11 @@
     - title: PyPI
       url: https://pypi.org
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Go
   url: https://go.dev
-  description: Statically typed, compiled language from Google with fast compile times, garbage collection, and built-in concurrency.
+  description: Statically typed, compiled language from Google with fast compile
+    times, garbage collection, and built-in concurrency.
   topic: IT
   category: Programming Languages
   section: Systems & compiled languages
@@ -33,7 +35,7 @@
     - language
   audience: developers
   pricing: free
-  logo: null
+  logo: https://go.dev/doc/gopher/gopherbelly300.jpg
   favicon: https://www.google.com/s2/favicons?sz=64&domain=go.dev
   sublinks:
     - title: Documentation
@@ -41,10 +43,11 @@
     - title: pkg.go.dev
       url: https://pkg.go.dev
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Rust
   url: https://rust-lang.org
-  description: Systems programming language focused on memory safety without garbage collection, with a modern toolchain.
+  description: Systems programming language focused on memory safety without
+    garbage collection, with a modern toolchain.
   topic: IT
   category: Programming Languages
   section: Systems & compiled languages
@@ -55,7 +58,7 @@
     - memory-safety
   audience: developers
   pricing: free
-  logo: null
+  logo: https://www.rust-lang.org/static/images/rust-social-wide.jpg
   favicon: https://www.google.com/s2/favicons?sz=64&domain=rust-lang.org
   sublinks:
     - title: The Rust Book
@@ -63,10 +66,11 @@
     - title: crates.io
       url: https://crates.io
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: TypeScript
   url: https://typescriptlang.org
-  description: Strongly typed superset of JavaScript that compiles to plain JS, developed and maintained by Microsoft.
+  description: Strongly typed superset of JavaScript that compiles to plain JS,
+    developed and maintained by Microsoft.
   topic: IT
   category: Programming Languages
   section: Web languages
@@ -83,10 +87,11 @@
     - title: Playground
       url: https://www.typescriptlang.org/play
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Deno
   url: https://deno.com
-  description: Secure JavaScript and TypeScript runtime with built-in tooling, native Web APIs, and npm compatibility.
+  description: Secure JavaScript and TypeScript runtime with built-in tooling,
+    native Web APIs, and npm compatibility.
   topic: IT
   category: Programming Languages
   section: Runtimes
@@ -97,14 +102,15 @@
     - javascript
   audience: developers
   pricing: free
-  logo: null
+  logo: https://deno.com/og/image.jpg
   favicon: https://www.google.com/s2/favicons?sz=64&domain=deno.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Elixir
   url: https://elixir-lang.org
-  description: Functional language running on the Erlang VM, optimised for building fault-tolerant, distributed, real-time systems.
+  description: Functional language running on the Erlang VM, optimised for
+    building fault-tolerant, distributed, real-time systems.
   topic: IT
   category: Programming Languages
   section: Functional languages
@@ -115,16 +121,17 @@
     - functional
   audience: developers
   pricing: free
-  logo: null
+  logo: https://elixir-lang.org/images/social/elixir-og-card.jpg
   favicon: https://www.google.com/s2/favicons?sz=64&domain=elixir-lang.org
   sublinks:
     - title: Hex.pm (packages)
       url: https://hex.pm
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Zig
   url: https://ziglang.org
-  description: Low-level systems language focused on simplicity, explicit control, and C interoperability without a preprocessor.
+  description: Low-level systems language focused on simplicity, explicit control,
+    and C interoperability without a preprocessor.
   topic: IT
   category: Programming Languages
   section: Systems & compiled languages
@@ -139,10 +146,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ziglang.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Ruby
   url: https://ruby-lang.org
-  description: Dynamic, object-oriented language known for developer ergonomics and the Rails web framework.
+  description: Dynamic, object-oriented language known for developer ergonomics
+    and the Rails web framework.
   topic: IT
   category: Programming Languages
   section: General-purpose languages
@@ -159,10 +167,11 @@
     - title: RubyGems
       url: https://rubygems.org
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Kotlin
   url: https://kotlinlang.org
-  description: Modern, statically typed JVM language from JetBrains, the preferred language for Android and a growing server-side choice.
+  description: Modern, statically typed JVM language from JetBrains, the preferred
+    language for Android and a growing server-side choice.
   topic: IT
   category: Programming Languages
   section: JVM languages
@@ -173,8 +182,8 @@
     - android
   audience: developers
   pricing: free
-  logo: null
+  logo: https://kotlinlang.org/assets/images/open-graph/general.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=kotlinlang.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26

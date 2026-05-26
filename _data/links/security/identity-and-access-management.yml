@@ -1,6 +1,7 @@
 - title: Keycloak
   url: https://keycloak.org
-  description: Open-source identity and access management with SSO, OIDC, SAML, and fine-grained authorisation.
+  description: Open-source identity and access management with SSO, OIDC, SAML,
+    and fine-grained authorisation.
   topic: Security
   category: Identity & Access Management
   section: Open-source IAM
@@ -11,14 +12,15 @@
     - open-source
   audience: developers
   pricing: free
-  logo: null
+  logo: https://www.keycloak.org/preview/index.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=keycloak.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Authentik
   url: https://goauthentik.io
-  description: Self-hosted identity provider supporting OIDC, SAML, LDAP, and Radius with a modern UI.
+  description: Self-hosted identity provider supporting OIDC, SAML, LDAP, and
+    Radius with a modern UI.
   topic: Security
   category: Identity & Access Management
   section: Open-source IAM
@@ -33,10 +35,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=goauthentik.io
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Authelia
   url: https://authelia.com
-  description: Open-source authentication and authorisation server providing 2FA and SSO for reverse proxies.
+  description: Open-source authentication and authorisation server providing 2FA
+    and SSO for reverse proxies.
   topic: Security
   category: Identity & Access Management
   section: Open-source IAM
@@ -47,14 +50,15 @@
     - self-hosted
   audience: developers
   pricing: free
-  logo: null
+  logo: https://www.authelia.com/cover.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=authelia.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: HashiCorp Vault
   url: https://vaultproject.io
-  description: Secrets management, encryption-as-a-service, and dynamic credentials for any infrastructure.
+  description: Secrets management, encryption-as-a-service, and dynamic
+    credentials for any infrastructure.
   topic: Security
   category: Identity & Access Management
   section: Secrets management
@@ -65,14 +69,15 @@
     - hashicorp
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://developer.hashicorp.com/og-image/vault.jpg
   favicon: https://www.google.com/s2/favicons?sz=64&domain=vaultproject.io
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: NIST SP 800-63 Digital Identity Guidelines
   url: https://pages.nist.gov/800-63-3/
-  description: NIST's authoritative guidelines for digital identity, authentication levels, and federation.
+  description: NIST's authoritative guidelines for digital identity,
+    authentication levels, and federation.
   topic: Security
   category: Identity & Access Management
   section: Standards & frameworks
@@ -87,10 +92,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=pages.nist.gov
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: OpenID Connect
   url: https://openid.net/connect/
-  description: Identity layer built on top of OAuth 2.0 enabling client applications to verify end-user identity.
+  description: Identity layer built on top of OAuth 2.0 enabling client
+    applications to verify end-user identity.
   topic: Security
   category: Identity & Access Management
   section: Standards & frameworks
@@ -101,14 +107,15 @@
     - standards
   audience: developers
   pricing: free
-  logo: null
+  logo: https://openid.net/wp-content/uploads/2022/11/df-l-oix-l-openid_rgb-300dpi.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=openid.net
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: FIDO Alliance
   url: https://fidoalliance.org
-  description: Industry consortium behind FIDO2, WebAuthn, and passkeys — the standard for passwordless authentication.
+  description: Industry consortium behind FIDO2, WebAuthn, and passkeys — the
+    standard for passwordless authentication.
   topic: Security
   category: Identity & Access Management
   section: Standards & frameworks
@@ -119,14 +126,15 @@
     - passwordless
   audience: developers
   pricing: free
-  logo: null
+  logo: https://fidoalliance.org/wp-content/uploads/2023/12/fidoalliance-logo.jpg
   favicon: https://www.google.com/s2/favicons?sz=64&domain=fidoalliance.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Zitadel
   url: https://zitadel.com
-  description: Cloud-native, open-source IAM solution with multi-tenancy, passkeys, and audit log out of the box.
+  description: Cloud-native, open-source IAM solution with multi-tenancy,
+    passkeys, and audit log out of the box.
   topic: Security
   category: Identity & Access Management
   section: Open-source IAM
@@ -137,14 +145,15 @@
     - open-source
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://zitadel.com/og-image.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=zitadel.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: OAuth 2.0
   url: https://oauth.net/2/
-  description: The authorisation framework spec and resources — RFCs, security BCP, and implementation guides.
+  description: The authorisation framework spec and resources — RFCs, security
+    BCP, and implementation guides.
   topic: Security
   category: Identity & Access Management
   section: Standards & frameworks
@@ -159,4 +168,4 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=oauth.net
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26

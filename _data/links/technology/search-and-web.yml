@@ -1,6 +1,7 @@
 - title: DuckDuckGo
   url: https://duckduckgo.com
-  description: Privacy-first search engine that does not track users or build advertising profiles.
+  description: Privacy-first search engine that does not track users or build
+    advertising profiles.
   topic: Technology
   category: Search & Web
   section: Search engines
@@ -10,14 +11,15 @@
     - privacy
   audience: general
   pricing: free
-  logo: null
+  logo: https://duckduckgo.com/assets/logo_social-media.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=duckduckgo.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Kagi
   url: https://kagi.com
-  description: Paid, ad-free search engine prioritising quality results with personalisation and no data selling.
+  description: Paid, ad-free search engine prioritising quality results with
+    personalisation and no data selling.
   topic: Technology
   category: Search & Web
   section: Search engines
@@ -28,14 +30,15 @@
     - no-ads
   audience: general
   pricing: paid
-  logo: null
+  logo: https://kagi.com/_mkt/img/og-image.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=kagi.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Brave Search
   url: https://search.brave.com
-  description: Independent search engine from Brave with its own index, not relying on Google or Bing results.
+  description: Independent search engine from Brave with its own index, not
+    relying on Google or Bing results.
   topic: Technology
   category: Search & Web
   section: Search engines
@@ -46,14 +49,15 @@
     - independent
   audience: general
   pricing: free
-  logo: null
+  logo: https://cdn.search.brave.com/serp/v3/_app/immutable/assets/ogImg.6rMZQHXQ.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=search.brave.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Firefox
   url: https://mozilla.org/firefox
-  description: Mozilla's open-source browser — the main privacy-respecting alternative to Chrome-based browsers.
+  description: Mozilla's open-source browser — the main privacy-respecting
+    alternative to Chrome-based browsers.
   topic: Technology
   category: Search & Web
   section: Browsers
@@ -64,14 +68,15 @@
     - open-source
   audience: general
   pricing: free
-  logo: null
+  logo: https://www.firefox.com/media/img/firefox/flare/og.4d50d9b1674b.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=mozilla.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Brave Browser
   url: https://brave.com
-  description: Chromium-based browser with built-in ad and tracker blocking, Tor tabs, and a crypto wallet.
+  description: Chromium-based browser with built-in ad and tracker blocking, Tor
+    tabs, and a crypto wallet.
   topic: Technology
   category: Search & Web
   section: Browsers
@@ -82,14 +87,15 @@
     - ad-blocking
   audience: general
   pricing: free
-  logo: null
+  logo: https://brave.com/home-assets/images/brave-home-og.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=brave.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Can I Use
   url: https://caniuse.com
-  description: Browser compatibility reference for web platform features — used when checking support before deploying CSS or JS.
+  description: Browser compatibility reference for web platform features — used
+    when checking support before deploying CSS or JS.
   topic: Technology
   category: Search & Web
   section: Web utilities
@@ -104,10 +110,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=caniuse.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: PageSpeed Insights
   url: https://pagespeed.web.dev
-  description: Google's tool for measuring real-world performance and Core Web Vitals for any URL.
+  description: Google's tool for measuring real-world performance and Core Web
+    Vitals for any URL.
   topic: Technology
   category: Search & Web
   section: Web utilities
@@ -122,10 +129,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=pagespeed.web.dev
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Internet Archive Wayback Machine
   url: https://web.archive.org
-  description: Archive of over 800 billion web pages crawled since 1996 — retrieve deleted or changed content.
+  description: Archive of over 800 billion web pages crawled since 1996 — retrieve
+    deleted or changed content.
   topic: Technology
   category: Search & Web
   section: Web utilities
@@ -140,4 +148,4 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=web.archive.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26

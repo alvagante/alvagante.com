@@ -1,6 +1,7 @@
 - title: Hacker News
   url: https://news.ycombinator.com
-  description: Y Combinator's technology and startup discussion board — fast-moving, high signal, from devs and founders.
+  description: Y Combinator's technology and startup discussion board —
+    fast-moving, high signal, from devs and founders.
   topic: IT
   category: News & Communities
   section: Communities
@@ -17,10 +18,11 @@
     - title: RSS
       url: https://news.ycombinator.com/rss
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Lobsters
   url: https://lobste.rs
-  description: Technology-focused link aggregator with invitation-only membership and tagging — higher signal-to-noise than HN.
+  description: Technology-focused link aggregator with invitation-only membership
+    and tagging — higher signal-to-noise than HN.
   topic: IT
   category: News & Communities
   section: Communities
@@ -31,14 +33,15 @@
     - curated
   audience: developers
   pricing: free
-  logo: null
+  logo: https://lobste.rs/touch-icon-144.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: The Register
   url: https://theregister.com
-  description: British tech news site with sharp, sceptical commentary on industry, security, and enterprise technology.
+  description: British tech news site with sharp, sceptical commentary on
+    industry, security, and enterprise technology.
   topic: IT
   category: News & Communities
   section: News
@@ -53,10 +56,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=theregister.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: InfoQ
   url: https://infoq.com
-  description: Practitioner-focused coverage of software architecture, engineering culture, and emerging technology trends.
+  description: Practitioner-focused coverage of software architecture, engineering
+    culture, and emerging technology trends.
   topic: IT
   category: News & Communities
   section: News
@@ -67,14 +71,15 @@
     - engineering
   audience: developers
   pricing: free
-  logo: null
+  logo: https://cdn.infoq.com/statics_s2_20260519083042/styles/static/images/logo/logo-big.jpg
   favicon: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: TLDR Newsletter
   url: https://tldr.tech
-  description: Daily email digest of the most interesting tech, programming, and AI news — 5-minute read format.
+  description: Daily email digest of the most interesting tech, programming, and
+    AI news — 5-minute read format.
   topic: IT
   category: News & Communities
   section: Newsletters
@@ -85,14 +90,15 @@
     - digest
   audience: developers
   pricing: free
-  logo: null
+  logo: https://tldr.tech/logo-jpg.jpg
   favicon: https://www.google.com/s2/favicons?sz=64&domain=tldr.tech
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: The Changelog
   url: https://changelog.com
-  description: Podcasts, newsletters, and articles for developers covering open-source, software development, and tech culture.
+  description: Podcasts, newsletters, and articles for developers covering
+    open-source, software development, and tech culture.
   topic: IT
   category: News & Communities
   section: Podcasts & media
@@ -103,14 +109,15 @@
     - community
   audience: developers
   pricing: free
-  logo: null
+  logo: https://cdn.changelog.com/static/images/share/all-podcasts-7b45ddf7a9d413b02c326a4789827121.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=changelog.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: SRE Weekly
   url: https://sreweekly.com
-  description: Weekly newsletter curating the best SRE, reliability, and on-call engineering content from around the web.
+  description: Weekly newsletter curating the best SRE, reliability, and on-call
+    engineering content from around the web.
   topic: IT
   category: News & Communities
   section: Newsletters
@@ -125,10 +132,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=sreweekly.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Stack Overflow
   url: https://stackoverflow.com
-  description: The world's largest Q&A platform for programming questions across all languages and frameworks.
+  description: The world's largest Q&A platform for programming questions across
+    all languages and frameworks.
   topic: IT
   category: News & Communities
   section: Communities
@@ -139,14 +147,15 @@
     - programming
   audience: developers
   pricing: free
-  logo: null
+  logo: https://stackoverflow.com/Content/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=0f0cab681579
   favicon: https://www.google.com/s2/favicons?sz=64&domain=stackoverflow.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: dev.to
   url: https://dev.to
-  description: Community platform for developers sharing tutorials, career advice, and technical articles.
+  description: Community platform for developers sharing tutorials, career advice,
+    and technical articles.
   topic: IT
   category: News & Communities
   section: Communities
@@ -157,8 +166,8 @@
     - tutorials
   audience: developers
   pricing: free
-  logo: null
+  logo: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg
   favicon: https://www.google.com/s2/favicons?sz=64&domain=dev.to
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26

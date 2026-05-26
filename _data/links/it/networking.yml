@@ -1,6 +1,7 @@
 - title: Nginx
   url: https://nginx.org
-  description: High-performance web server, reverse proxy, and load balancer widely used for serving and proxying HTTP traffic.
+  description: High-performance web server, reverse proxy, and load balancer
+    widely used for serving and proxying HTTP traffic.
   topic: IT
   category: Networking
   section: Web servers & proxies
@@ -17,10 +18,11 @@
     - title: Documentation
       url: https://nginx.org/en/docs/
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: HAProxy
   url: https://haproxy.org
-  description: Industry-standard open-source TCP/HTTP load balancer and proxy server known for reliability and performance.
+  description: Industry-standard open-source TCP/HTTP load balancer and proxy
+    server known for reliability and performance.
   topic: IT
   category: Networking
   section: Web servers & proxies
@@ -35,10 +37,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=haproxy.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Caddy
   url: https://caddyserver.com
-  description: Modern web server with automatic HTTPS, simple configuration syntax, and a powerful plugin ecosystem.
+  description: Modern web server with automatic HTTPS, simple configuration
+    syntax, and a powerful plugin ecosystem.
   topic: IT
   category: Networking
   section: Web servers & proxies
@@ -49,14 +52,15 @@
     - web-server
   audience: developers
   pricing: free
-  logo: null
+  logo: https://caddyserver.com/resources/images/open-graph-square.png?v=378d6d0
   favicon: https://www.google.com/s2/favicons?sz=64&domain=caddyserver.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: IANA
   url: https://iana.org
-  description: Internet Assigned Numbers Authority maintaining root DNS, IP address allocations, and protocol parameter registries.
+  description: Internet Assigned Numbers Authority maintaining root DNS, IP
+    address allocations, and protocol parameter registries.
   topic: IT
   category: Networking
   section: Internet infrastructure
@@ -75,10 +79,11 @@
     - title: Root zone database
       url: https://www.iana.org/domains/root/db
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: RIPE NCC
   url: https://ripe.net
-  description: Regional Internet Registry for Europe, the Middle East, and Central Asia — IP allocation, routing data, and RPKI.
+  description: Regional Internet Registry for Europe, the Middle East, and Central
+    Asia — IP allocation, routing data, and RPKI.
   topic: IT
   category: Networking
   section: Internet infrastructure
@@ -89,16 +94,17 @@
     - ip-allocation
   audience: developers
   pricing: free
-  logo: null
+  logo: /static/images/logo.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ripe.net
   sublinks:
     - title: RIPE NCC RIS (routing data)
       url: https://www.ripe.net/analyse/internet-measurements/routing-information-service-ris
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: BGP.tools
   url: https://bgp.tools
-  description: Real-time BGP routing table, AS path lookup, and prefix visibility tool used by network engineers.
+  description: Real-time BGP routing table, AS path lookup, and prefix visibility
+    tool used by network engineers.
   topic: IT
   category: Networking
   section: Routing & BGP
@@ -113,10 +119,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=bgp.tools
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Hurricane Electric BGP Toolkit
   url: https://bgp.he.net
-  description: Network lookup tools covering BGP prefixes, ASNs, peering, and route origin for internet infrastructure analysis.
+  description: Network lookup tools covering BGP prefixes, ASNs, peering, and
+    route origin for internet infrastructure analysis.
   topic: IT
   category: Networking
   section: Routing & BGP
@@ -131,10 +138,11 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=bgp.he.net
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Wireshark
   url: https://wireshark.org
-  description: The world's most widely-used network protocol analyser for packet capture, filtering, and deep inspection.
+  description: The world's most widely-used network protocol analyser for packet
+    capture, filtering, and deep inspection.
   topic: IT
   category: Networking
   section: Packet analysis
@@ -145,14 +153,15 @@
     - debugging
   audience: developers
   pricing: free
-  logo: null
+  logo: https://www.wireshark.org/assets/img/og-image.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=wireshark.org
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Tailscale
   url: https://tailscale.com
-  description: Zero-config WireGuard-based mesh VPN for securely connecting devices across any network.
+  description: Zero-config WireGuard-based mesh VPN for securely connecting
+    devices across any network.
   topic: IT
   category: Networking
   section: VPN & overlay networks
@@ -163,14 +172,15 @@
     - mesh
   audience: developers
   pricing: freemium
-  logo: null
+  logo: https://cdn.sanity.io/images/w77i7m8x/production-v2/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=tailscale.com
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26
 - title: Envoy Proxy
   url: https://envoyproxy.io
-  description: High-performance, cloud-native L7 proxy and service mesh data plane used in Istio and as a standalone edge proxy.
+  description: High-performance, cloud-native L7 proxy and service mesh data plane
+    used in Istio and as a standalone edge proxy.
   topic: IT
   category: Networking
   section: Web servers & proxies
@@ -185,4 +195,4 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=envoyproxy.io
   sublinks: []
   notes: null
-  last_checked: '2026-05-24'
+  last_checked: 2026-05-26

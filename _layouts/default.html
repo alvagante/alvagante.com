@@ -17,6 +17,9 @@
       <nav aria-label="Primary">
         <a href="{{ '/links/' | relative_url }}">Links</a>
         <a href="{{ '/news/' | relative_url }}">News</a>
+        {% for topic in site.data.link_topics %}
+          <a href="{{ '/' | append: topic.slug | append: '/' | relative_url }}">{{ topic.title }}</a>
+        {% endfor %}
         <a href="{{ '/about/' | relative_url }}">About</a>
       </nav>
     </header>
