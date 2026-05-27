@@ -6,79 +6,97 @@
     <atom:link href="https://alvagante.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>Daily AI-assisted news digest from Alvagante.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 26 May 2026 04:08:45 GMT</lastBuildDate>
-    <pubDate>Tue, 26 May 2026 04:08:45 GMT</pubDate>
+    <lastBuildDate>Wed, 27 May 2026 04:09:54 GMT</lastBuildDate>
+    <pubDate>Wed, 27 May 2026 04:09:54 GMT</pubDate>
     <item>
-      <title>Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks</title>
-      <link>https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/</link>
-      <guid isPermaLink="true">https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/</guid>
-      <description>Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two</description>
+      <title>Lawmakers Demand Answers as CISA Tries to Contain Data Leak</title>
+      <link>https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/</link>
+      <guid isPermaLink="true">https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/</guid>
+      <description>Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &amp;#038; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of ot</description>
       <category>Security</category>
-      <source url="https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/">Krebs on Security</source>
-      <pubDate>Mon, 25 May 2026 13:21:49 GMT</pubDate>
+      <source url="https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/">Krebs on Security</source>
+      <pubDate>Fri, 22 May 2026 16:34:24 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership</title>
-      <link>https://openai.com/index/grupo-folha-grupo-uol-partnership</link>
-      <guid isPermaLink="true">https://openai.com/index/grupo-folha-grupo-uol-partnership</guid>
-      <description>OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.</description>
+      <title>How Virgin Atlantic ships faster with Codex</title>
+      <link>https://openai.com/index/virgin-atlantic</link>
+      <guid isPermaLink="true">https://openai.com/index/virgin-atlantic</guid>
+      <description>How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.</description>
       <category>AI</category>
-      <source url="https://openai.com/index/grupo-folha-grupo-uol-partnership">OpenAI News</source>
-      <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
+      <source url="https://openai.com/index/virgin-atlantic">OpenAI News</source>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>CISA Security Leak</title>
-      <link>https://www.schneier.com/blog/archives/2026/05/cisa-security-leak.html</link>
-      <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/05/cisa-security-leak.html</guid>
-      <description>Crazy story : Until this past weekend, a contractor for the Cybersecurity &amp;#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of inter</description>
+      <title>OpenAI named a Leader in enterprise coding agents by Gartner</title>
+      <link>https://openai.com/index/gartner-2026-agentic-coding-leader</link>
+      <guid isPermaLink="true">https://openai.com/index/gartner-2026-agentic-coding-leader</guid>
+      <description>OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.</description>
+      <category>AI</category>
+      <source url="https://openai.com/index/gartner-2026-agentic-coding-leader">OpenAI News</source>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Alleged Kimwolf Botmaster &apos;Dort&apos; Arrested, Charged in U.S. and Canada</title>
+      <link>https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/</link>
+      <guid isPermaLink="true">https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/</guid>
+      <description>Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS)</description>
       <category>Security</category>
-      <source url="https://www.schneier.com/blog/archives/2026/05/cisa-security-leak.html">Schneier on Security</source>
-      <pubDate>Fri, 22 May 2026 13:58:30 GMT</pubDate>
+      <source url="https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/">Krebs on Security</source>
+      <pubDate>Thu, 21 May 2026 21:50:25 GMT</pubDate>
     </item>
     <item>
-      <title>macOS Kernel Memory Corruption Exploit</title>
-      <link>https://www.schneier.com/blog/archives/2026/05/macos-kernel-memory-corruption-exploit.html</link>
-      <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/05/macos-kernel-memory-corruption-exploit.html</guid>
-      <description>A group used Anthropic&apos;s Mythos AI model to help find a kernel memory corruption vulnerability and exploit on Apple&apos;s M5. News article .</description>
+      <title>AdventHealth advances whole-person care with OpenAI</title>
+      <link>https://openai.com/index/adventhealth</link>
+      <guid isPermaLink="true">https://openai.com/index/adventhealth</guid>
+      <description>AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.</description>
+      <category>AI</category>
+      <source url="https://openai.com/index/adventhealth">OpenAI News</source>
+      <pubDate>Thu, 21 May 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>CISA Admin Leaked AWS GovCloud Keys on Github</title>
+      <link>https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/</link>
+      <guid isPermaLink="true">https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/</guid>
+      <description>Until this past weekend, a contractor for the Cybersecurity &amp;#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA syste</description>
       <category>Security</category>
-      <source url="https://www.schneier.com/blog/archives/2026/05/macos-kernel-memory-corruption-exploit.html">Schneier on Security</source>
-      <pubDate>Thu, 21 May 2026 16:03:37 GMT</pubDate>
+      <source url="https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/">Krebs on Security</source>
+      <pubDate>Mon, 18 May 2026 20:48:21 GMT</pubDate>
     </item>
     <item>
-      <title>On AI Security</title>
-      <link>https://www.schneier.com/blog/archives/2026/05/on-ai-security.html</link>
-      <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/05/on-ai-security.html</guid>
-      <description>Good report : Executive Summary: Let&apos;s say you wanted to make sure that your AI is secure. Can you just maximize the security and privacy benchmark and call it a day? Nope, because benchmarks don&apos;t actually work for measuring AI capabilities (even when they ar</description>
-      <category>Security</category>
-      <source url="https://www.schneier.com/blog/archives/2026/05/on-ai-security.html">Schneier on Security</source>
-      <pubDate>Wed, 20 May 2026 14:21:20 GMT</pubDate>
+      <title>Trump Is Treating Taiwan Like Collateral</title>
+      <link>https://foreignpolicy.com/2026/05/26/taiwan-china-us-arms-sales-package-trump-xi/</link>
+      <guid isPermaLink="true">https://foreignpolicy.com/2026/05/26/taiwan-china-us-arms-sales-package-trump-xi/</guid>
+      <description>The pause of a $14 billion arms package raises concerns about U.S. support for Taipei.</description>
+      <category>Geopolitics</category>
+      <source url="https://foreignpolicy.com/2026/05/26/taiwan-china-us-arms-sales-package-trump-xi/">Foreign Policy</source>
+      <pubDate>Tue, 26 May 2026 21:50:38 GMT</pubDate>
     </item>
     <item>
-      <title>Fast-tracking genetic leads to reverse cellular aging</title>
-      <link>https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/</link>
-      <guid isPermaLink="true">https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/</guid>
-      <description>Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.</description>
-      <category>AI</category>
-      <source url="https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/">Google DeepMind Blog</source>
-      <pubDate>Mon, 18 May 2026 18:21:39 GMT</pubDate>
+      <title>U.S. Launches ‘Self-Defense’ Strikes on Iran</title>
+      <link>https://foreignpolicy.com/2026/05/26/us-strikes-iran-self-defense-abraham-accords-israel-trump-rubio/</link>
+      <guid isPermaLink="true">https://foreignpolicy.com/2026/05/26/us-strikes-iran-self-defense-abraham-accords-israel-trump-rubio/</guid>
+      <description>Still, Washington insists that it is committed to peace talks with Tehran.</description>
+      <category>Geopolitics</category>
+      <source url="https://foreignpolicy.com/2026/05/26/us-strikes-iran-self-defense-abraham-accords-israel-trump-rubio/">Foreign Policy</source>
+      <pubDate>Tue, 26 May 2026 20:25:29 GMT</pubDate>
     </item>
     <item>
-      <title>Simulate real-world places with Project Genie and Street View</title>
-      <link>https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/</link>
-      <guid isPermaLink="true">https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/</guid>
-      <description>We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.</description>
-      <category>AI</category>
-      <source url="https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/">Google DeepMind Blog</source>
-      <pubDate>Sun, 17 May 2026 19:53:18 GMT</pubDate>
+      <title>The Iran War Has Remade the Gulf</title>
+      <link>https://foreignpolicy.com/2026/05/26/iran-war-persian-gulf-uae-saudi-trump-usa/</link>
+      <guid isPermaLink="true">https://foreignpolicy.com/2026/05/26/iran-war-persian-gulf-uae-saudi-trump-usa/</guid>
+      <description>The region knows that Iran won the war—and is hedging its bets as a result.</description>
+      <category>Geopolitics</category>
+      <source url="https://foreignpolicy.com/2026/05/26/iran-war-persian-gulf-uae-saudi-trump-usa/">Foreign Policy</source>
+      <pubDate>Tue, 26 May 2026 20:16:36 GMT</pubDate>
     </item>
     <item>
-      <title>Introducing Gemini Omni</title>
-      <link>https://deepmind.google/blog/introducing-gemini-omni/</link>
-      <guid isPermaLink="true">https://deepmind.google/blog/introducing-gemini-omni/</guid>
-      <description>Latest item from Google DeepMind Blog.</description>
-      <category>AI</category>
-      <source url="https://deepmind.google/blog/introducing-gemini-omni/">Google DeepMind Blog</source>
-      <pubDate>Sun, 17 May 2026 19:50:57 GMT</pubDate>
+      <title>Xi Ascendant</title>
+      <link>https://foreignpolicy.com/2026/05/26/xi-trump-china-united-states-summit-power/</link>
+      <guid isPermaLink="true">https://foreignpolicy.com/2026/05/26/xi-trump-china-united-states-summit-power/</guid>
+      <description>Trump’s Beijing trip shows that the wind is blowing in China’s direction.</description>
+      <category>Geopolitics</category>
+      <source url="https://foreignpolicy.com/2026/05/26/xi-trump-china-united-states-summit-power/">Foreign Policy</source>
+      <pubDate>Tue, 26 May 2026 18:37:13 GMT</pubDate>
     </item>
   </channel>
 </rss>
