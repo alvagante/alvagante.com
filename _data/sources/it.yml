@@ -50,7 +50,7 @@
   section: Engineering
   tags: [it, engineering, scale]
   favicon: https://www.google.com/s2/favicons?sz=64&domain=netflixtechblog.com
-  enabled: true
+  enabled: false
   importance_bias: 0.95
 - name: HashiCorp Blog
   url: https://www.hashicorp.com/blog/feed.xml
@@ -124,3 +124,57 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=martinfowler.com
   enabled: true
   importance_bias: 1.0
+- name: Hacker News
+  url: https://news.ycombinator.com/rss
+  topic: IT
+  category: IT
+  section: Communities
+  tags: [it, startups, development, community]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=news.ycombinator.com
+  enabled: true
+  importance_bias: 0.9
+- name: Lobsters
+  url: https://lobste.rs/rss
+  topic: IT
+  category: IT
+  section: Communities
+  tags: [it, programming, systems, community]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
+  enabled: true
+  importance_bias: 0.95
+- name: TLDR Tech
+  url: https://tldr.tech/api/rss/tech
+  topic: IT
+  category: IT
+  section: Newsletters
+  tags: [it, technology, newsletter, digest]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=tldr.tech
+  enabled: true
+  importance_bias: 0.85
+- name: TLDR DevOps
+  url: https://tldr.tech/api/rss/devops
+  topic: IT
+  category: IT
+  section: Newsletters
+  tags: [it, devops, infrastructure, newsletter]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=tldr.tech
+  enabled: true
+  importance_bias: 0.9
+- name: SRE Weekly
+  url: https://sreweekly.com/feed/
+  topic: IT
+  category: IT
+  section: Reliability
+  tags: [it, sre, reliability, operations]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=sreweekly.com
+  enabled: true
+  importance_bias: 1.0
+- name: DigitalOcean Community Tutorials
+  url: https://www.digitalocean.com/community/tutorials/feed
+  topic: IT
+  category: IT
+  section: Learning
+  tags: [it, linux, cloud, tutorials]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=digitalocean.com
+  enabled: true
+  importance_bias: 0.8

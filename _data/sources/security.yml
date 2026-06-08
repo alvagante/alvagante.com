@@ -133,3 +133,39 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=grahamcluley.com
   enabled: true
   importance_bias: 0.9
+- name: Risky Bulletin
+  url: https://risky.biz/feeds/risky-business-news
+  topic: Security
+  category: Security
+  section: Podcasts & media
+  tags: [security, news, podcast, intelligence]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=risky.biz
+  enabled: true
+  importance_bias: 1.0
+- name: Exploit Database
+  url: https://www.exploit-db.com/rss.xml
+  topic: Security
+  category: Security
+  section: Vulnerability research
+  tags: [security, exploits, vulnerabilities, offensive]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=exploit-db.com
+  enabled: true
+  importance_bias: 0.9
+- name: CISA Cybersecurity Advisories
+  url: https://www.cisa.gov/cybersecurity-advisories/all.xml
+  topic: Security
+  category: Security
+  section: Government advisories
+  tags: [security, cisa, advisories, vulnerabilities]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cisa.gov
+  enabled: true
+  importance_bias: 1.1
+- name: Embrace The Red
+  url: https://embracethered.com/blog/index.xml
+  topic: Security
+  category: Security
+  section: AI security
+  tags: [security, ai-security, red-team, prompt-injection]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=embracethered.com
+  enabled: true
+  importance_bias: 0.95

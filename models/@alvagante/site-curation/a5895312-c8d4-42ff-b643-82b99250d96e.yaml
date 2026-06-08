@@ -13,6 +13,7 @@ globalArguments:
   siteUrl: https://alvagante.com
   openaiModel: gpt-5.4-mini
   feedFetchTimeoutMs: 20000
+  feedFetchConcurrency: 24
   aiRequestTimeoutMs: 600000
   maxItemsPerSource: 8
   feedSelectionMode: latest_per_source

@@ -70,6 +70,7 @@ const GlobalArgsSchema = z.object({
   ollamaBaseUrl: z.string().default("http://localhost:11434"),
   ollamaModel: z.string().optional(),
   feedFetchTimeoutMs: z.number().int().positive().default(20000),
+  feedFetchConcurrency: z.number().int().positive().default(24),
   aiRequestTimeoutMs: z.number().int().positive().default(600000),
   maxItemsPerSource: z.number().int().positive().default(8),
   feedSelectionMode: z.enum(["lookback_days", "latest_per_source"]).default(
@@ -459,30 +460,32 @@ async function fetchItems(
     source.enabled
   );
   const limit = maxItemsPerSource ?? globals.maxItemsPerSource;
-  const batches = await Promise.allSettled(sources.map(async (source) => {
-    const response = await fetch(source.url, {
-      headers: {
-        "user-agent": "alvagante-site-curation/1.0",
-        "accept":
-          "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
-      },
-      signal: AbortSignal.timeout(
-        feedFetchTimeoutMs ?? globals.feedFetchTimeoutMs,
-      ),
-    });
-    if (!response.ok) throw new Error(`${source.name}: ${response.status}`);
-    return parseFeed(await response.text(), source, limit);
-  }));
+  const batches = await pMap(sources, async (source) => {
+    try {
+      const response = await fetch(source.url, {
+        headers: {
+          "user-agent": "alvagante-site-curation/1.0",
+          "accept":
+            "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+        },
+        signal: AbortSignal.timeout(
+          feedFetchTimeoutMs ?? globals.feedFetchTimeoutMs,
+        ),
+      });
+      if (!response.ok) throw new Error(`${response.status}`);
+      return parseFeed(await response.text(), source, limit);
+    } catch (error) {
+      throw new Error(`${source.name}: ${String(error)}`);
+    }
+  }, globals.feedFetchConcurrency);
 
   for (const result of batches) {
-    if (result.status === "rejected") {
-      console.warn(`feed fetch failed: ${String(result.reason)}`);
+    if (result.error) {
+      console.warn(`feed fetch failed: ${String(result.error)}`);
     }
   }
 
-  return batches.flatMap((result) =>
-    result.status === "fulfilled" ? result.value : []
-  );
+  return batches.flatMap((result) => result.value ? result.value : []);
 }
 
 function rankedItems(items: NewsItem[]): NewsItem[] {

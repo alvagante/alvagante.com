@@ -5,7 +5,7 @@
   section: Labs & products
   tags: [ai, anthropic, models, safety]
   favicon: https://www.google.com/s2/favicons?sz=64&domain=anthropic.com
-  enabled: true
+  enabled: false
   importance_bias: 1.3
 - name: OpenAI News
   url: https://openai.com/news/rss.xml
@@ -133,3 +133,84 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=towardsdatascience.com
   enabled: true
   importance_bias: 0.8
+- name: Simon Willison's Weblog
+  url: https://simonwillison.net/atom/everything/
+  topic: AI
+  category: AI
+  section: Practitioner blogs
+  tags: [ai, llms, engineering, analysis]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=simonwillison.net
+  enabled: true
+  importance_bias: 1.2
+- name: Import AI
+  url: https://importai.substack.com/feed
+  topic: AI
+  category: AI
+  section: Newsletters
+  tags: [ai, policy, research, newsletter]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=importai.substack.com
+  enabled: true
+  importance_bias: 1.1
+- name: Interconnects
+  url: https://www.interconnects.ai/feed
+  topic: AI
+  category: AI
+  section: Newsletters
+  tags: [ai, post-training, open-models, analysis]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=interconnects.ai
+  enabled: true
+  importance_bias: 1.1
+- name: Latent Space
+  url: https://www.latent.space/feed
+  topic: AI
+  category: AI
+  section: Newsletters
+  tags: [ai, engineering, agents, newsletter]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=latent.space
+  enabled: true
+  importance_bias: 1.0
+- name: One Useful Thing
+  url: https://www.oneusefulthing.org/feed
+  topic: AI
+  category: AI
+  section: Applied AI
+  tags: [ai, work, education, applied]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=oneusefulthing.org
+  enabled: true
+  importance_bias: 1.0
+- name: AI Snake Oil
+  url: https://www.aisnakeoil.com/feed
+  topic: AI
+  category: AI
+  section: Analysis
+  tags: [ai, policy, hype, accountability]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=aisnakeoil.com
+  enabled: true
+  importance_bias: 1.0
+- name: Ahead of AI
+  url: https://magazine.sebastianraschka.com/feed
+  topic: AI
+  category: AI
+  section: Practitioner blogs
+  tags: [ai, machine-learning, tutorials, research]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=magazine.sebastianraschka.com
+  enabled: true
+  importance_bias: 1.0
+- name: Chip Huyen
+  url: https://huyenchip.com/feed.xml
+  topic: AI
+  category: AI
+  section: Practitioner blogs
+  tags: [ai, mlops, engineering, production]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=huyenchip.com
+  enabled: true
+  importance_bias: 1.0
+- name: Lilian Weng's Blog
+  url: https://lilianweng.github.io/index.xml
+  topic: AI
+  category: AI
+  section: Research explainers
+  tags: [ai, research, agents, surveys]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=lilianweng.github.io
+  enabled: true
+  importance_bias: 1.0

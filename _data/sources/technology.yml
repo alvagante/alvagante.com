@@ -133,3 +133,66 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=slashdot.org
   enabled: true
   importance_bias: 0.8
+- name: TechRadar
+  url: https://www.techradar.com/rss
+  topic: Technology
+  category: Technology
+  section: Consumer tech
+  tags: [technology, consumer, gadgets, reviews]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=techradar.com
+  enabled: true
+  importance_bias: 0.85
+- name: Hackaday
+  url: https://hackaday.com/blog/feed/
+  topic: Technology
+  category: Technology
+  section: Maker & hardware
+  tags: [technology, maker, hardware, hacking]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=hackaday.com
+  enabled: true
+  importance_bias: 0.9
+- name: PC Gamer
+  url: https://www.pcgamer.com/rss/
+  topic: Technology
+  category: Technology
+  section: Gaming
+  tags: [technology, gaming, pc, reviews]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=pcgamer.com
+  enabled: true
+  importance_bias: 0.8
+- name: Platformer
+  url: https://www.platformer.news/feed
+  topic: Technology
+  category: Technology
+  section: Platforms
+  tags: [technology, social-media, platforms, newsletter]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=platformer.news
+  enabled: true
+  importance_bias: 1.0
+- name: Benedict Evans
+  url: https://www.ben-evans.com/benedictevans?format=rss
+  topic: Technology
+  category: Technology
+  section: Analysis
+  tags: [technology, strategy, trends, analysis]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=ben-evans.com
+  enabled: true
+  importance_bias: 1.0
+- name: Stratechery
+  url: https://stratechery.com/feed/
+  topic: Technology
+  category: Technology
+  section: Analysis
+  tags: [technology, strategy, business, newsletter]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=stratechery.com
+  enabled: true
+  importance_bias: 1.0
+- name: CB Insights Research
+  url: https://www.cbinsights.com/research/feed/
+  topic: Technology
+  category: Technology
+  section: Market intelligence
+  tags: [technology, startups, vc, market-intelligence]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cbinsights.com
+  enabled: true
+  importance_bias: 0.85

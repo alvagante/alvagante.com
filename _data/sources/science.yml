@@ -77,7 +77,7 @@
   section: General science
   tags: [science, magazine, accessible]
   favicon: https://www.google.com/s2/favicons?sz=64&domain=scientificamerican.com
-  enabled: true
+  enabled: false
   importance_bias: 1.1
 - name: Science (AAAS)
   url: https://www.science.org/rss/news_current.xml
@@ -95,7 +95,7 @@
   section: Press releases
   tags: [science, research, universities]
   favicon: https://www.google.com/s2/favicons?sz=64&domain=eurekalert.org
-  enabled: true
+  enabled: false
   importance_bias: 0.85
 - name: Space.com
   url: https://www.space.com/feeds/all
@@ -124,3 +124,39 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=esa.int
   enabled: true
   importance_bias: 0.95
+- name: Nautilus
+  url: https://nautil.us/feed/
+  topic: Science
+  category: Science
+  section: Essays
+  tags: [science, essays, culture, philosophy]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=nautil.us
+  enabled: true
+  importance_bias: 0.95
+- name: Sky & Telescope
+  url: https://skyandtelescope.org/feed/
+  topic: Science
+  category: Science
+  section: Space science
+  tags: [science, astronomy, space, observing]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=skyandtelescope.org
+  enabled: true
+  importance_bias: 0.85
+- name: PLOS
+  url: https://www.plos.org/feed/
+  topic: Science
+  category: Science
+  section: Open access journals
+  tags: [science, open-access, research, journals]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=plos.org
+  enabled: true
+  importance_bias: 0.9
+- name: PLOS ONE
+  url: https://journals.plos.org/plosone/feed/atom
+  topic: Science
+  category: Science
+  section: Open access journals
+  tags: [science, open-access, research, multidisciplinary]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=plos.org
+  enabled: true
+  importance_bias: 0.85

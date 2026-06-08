@@ -5,7 +5,7 @@
   section: International news
   tags: [geopolitics, world-news, international]
   favicon: https://www.google.com/s2/favicons?sz=64&domain=reuters.com
-  enabled: true
+  enabled: false
   importance_bias: 1.2
 - name: BBC News — World
   url: https://feeds.bbci.co.uk/news/world/rss.xml
@@ -133,3 +133,66 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=theconversation.com
   enabled: true
   importance_bias: 0.9
+- name: International Crisis Group
+  url: https://www.crisisgroup.org/rss.xml
+  topic: Geopolitics
+  category: Geopolitics
+  section: Conflict analysis
+  tags: [geopolitics, conflict, diplomacy, analysis]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=crisisgroup.org
+  enabled: true
+  importance_bias: 1.1
+- name: Foreign Affairs
+  url: https://www.foreignaffairs.com/rss.xml
+  topic: Geopolitics
+  category: Geopolitics
+  section: Analysis
+  tags: [geopolitics, foreign-policy, analysis, journals]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=foreignaffairs.com
+  enabled: true
+  importance_bias: 1.1
+- name: Le Monde Diplomatique
+  url: https://mondediplo.com/rss
+  topic: Geopolitics
+  category: Geopolitics
+  section: Analysis
+  tags: [geopolitics, diplomacy, analysis, europe]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=mondediplo.com
+  enabled: true
+  importance_bias: 0.95
+- name: Axios
+  url: https://www.axios.com/feeds/feed.rss
+  topic: Geopolitics
+  category: Geopolitics
+  section: International news
+  tags: [geopolitics, news, concise, us]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=axios.com
+  enabled: true
+  importance_bias: 0.9
+- name: Committee to Protect Journalists
+  url: https://cpj.org/feed/
+  topic: Geopolitics
+  category: Geopolitics
+  section: Media freedom
+  tags: [geopolitics, press-freedom, journalism, human-rights]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cpj.org
+  enabled: true
+  importance_bias: 0.9
+- name: Defense One
+  url: https://www.defenseone.com/rss/all/
+  topic: Geopolitics
+  category: Geopolitics
+  section: Military & defense
+  tags: [geopolitics, defense, military, policy]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=defenseone.com
+  enabled: true
+  importance_bias: 0.95
+- name: Breaking Defense
+  url: https://breakingdefense.com/feed/
+  topic: Geopolitics
+  category: Geopolitics
+  section: Military & defense
+  tags: [geopolitics, defense, procurement, technology]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=breakingdefense.com
+  enabled: true
+  importance_bias: 0.95
