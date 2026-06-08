@@ -12,12 +12,16 @@ permalink: /news/
 
 {% assign digests = site.data.generated.news %}
 {% if digests %}
-  {% assign today = site.time | date: "%Y-%m-%d" %}
+  {% assign sorted_digests = digests | sort %}
+  {% assign first_pair = sorted_digests | first %}
+  {% assign latest_pair = sorted_digests | last %}
+  {% assign first_date = first_pair[0] %}
+  {% assign latest_date = latest_pair[0] %}
 
   <section class="news-controls" data-news-filters>
     <label>
       <span>Date</span>
-      <input type="date" value="{{ today }}" data-news-date>
+      <input type="date" value="{{ latest_date }}" min="{{ first_date }}" max="{{ latest_date }}" data-news-date>
     </label>
     <div class="news-controls__categories" aria-label="News category filters" data-news-categories>
       <button class="is-active" type="button" data-news-category="all" aria-pressed="true">All</button>
@@ -33,7 +37,7 @@ permalink: /news/
   <p class="empty" data-news-empty hidden>No digest found for the selected filters.</p>
 
   <section class="digest-index" data-news-list>
-    {% for pair in digests %}
+    {% for pair in sorted_digests reversed %}
       {% assign digest_date = pair.first %}
       {% assign digest = pair.last %}
       <article class="digest-day" id="{{ digest_date }}" data-news-day data-news-date-value="{{ digest_date }}">

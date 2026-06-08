@@ -69,6 +69,8 @@ const GlobalArgsSchema = z.object({
   openaiApiKey: z.string().optional(),
   ollamaBaseUrl: z.string().default("http://localhost:11434"),
   ollamaModel: z.string().optional(),
+  feedFetchTimeoutMs: z.number().int().positive().default(20000),
+  aiRequestTimeoutMs: z.number().int().positive().default(600000),
   maxItemsPerSource: z.number().int().positive().default(8),
   feedSelectionMode: z.enum(["lookback_days", "latest_per_source"]).default(
     "latest_per_source",
@@ -80,6 +82,7 @@ const GlobalArgsSchema = z.object({
 
 const FetchFeedsArgsSchema = z.object({
   maxItemsPerSource: z.number().int().positive().optional(),
+  feedFetchTimeoutMs: z.number().int().positive().optional(),
 });
 
 const BuildDigestArgsSchema = z.object({
@@ -91,6 +94,8 @@ const BuildDigestArgsSchema = z.object({
   newsLookbackDays: z.number().int().positive().optional(),
   latestItemsPerSource: z.number().int().positive().optional(),
   maxItemsPerSource: z.number().int().positive().optional(),
+  feedFetchTimeoutMs: z.number().int().positive().optional(),
+  aiRequestTimeoutMs: z.number().int().positive().optional(),
   openaiApiKey: z.string().optional(),
   openaiModel: z.string().optional(),
   ollamaBaseUrl: z.string().optional(),
@@ -257,6 +262,18 @@ function imageFromItem(item: Record<string, unknown>): string | undefined {
   return undefined;
 }
 
+function relevanceForItem(source: Source, publishedAt: string): number {
+  const published = Date.parse(publishedAt);
+  const ageDays = Number.isNaN(published)
+    ? 30
+    : Math.max(0, (Date.now() - published) / 86400000);
+  const recencyPenalty = Math.min(0.6, ageDays * 0.04);
+  return Math.max(
+    0,
+    Math.min(1, source.importance_bias * 0.75 - recencyPenalty),
+  );
+}
+
 // ─── Feed parsing ─────────────────────────────────────────────────────────────
 
 function parseFeed(xml: string, source: Source, limit: number): NewsItem[] {
@@ -273,10 +290,13 @@ function parseFeed(xml: string, source: Source, limit: number): NewsItem[] {
     );
     const published = text(item.pubDate ?? item.published ?? item.updated) ||
       new Date().toISOString();
+    const parsedPublished = Date.parse(published);
+    const publishedAt = Number.isNaN(parsedPublished)
+      ? new Date().toISOString()
+      : new Date(parsedPublished).toISOString();
     const url = firstLink(item.link) || source.url;
     const summary = description.slice(0, 260) ||
       `Latest item from ${source.name}.`;
-    const agePenalty = Number.isNaN(Date.parse(published)) ? 0.1 : 0;
 
     return {
       title,
@@ -287,11 +307,8 @@ function parseFeed(xml: string, source: Source, limit: number): NewsItem[] {
       summary,
       category: source.category,
       tags: source.tags,
-      relevance: Math.max(
-        0,
-        Math.min(1, source.importance_bias * 0.75 - agePenalty),
-      ),
-      published_at: new Date(published).toISOString(),
+      relevance: relevanceForItem(source, publishedAt),
+      published_at: publishedAt,
     };
   });
 }
@@ -302,6 +319,7 @@ async function callOpenAI(
   apiKey: string,
   model: string,
   items: NewsItem[],
+  timeoutMs: number,
 ): Promise<NewsItem[]> {
   const response = await fetch("https://api.openai.com/v1/responses", {
     method: "POST",
@@ -365,6 +383,7 @@ async function callOpenAI(
         },
       },
     }),
+    signal: AbortSignal.timeout(timeoutMs),
   });
 
   if (!response.ok) {
@@ -388,6 +407,7 @@ async function callOllama(
   baseUrl: string,
   model: string,
   items: NewsItem[],
+  timeoutMs: number,
 ): Promise<NewsItem[]> {
   const response = await fetch(`${baseUrl}/v1/chat/completions`, {
     method: "POST",
@@ -410,6 +430,7 @@ async function callOllama(
       response_format: { type: "json_object" },
       stream: false,
     }),
+    signal: AbortSignal.timeout(timeoutMs),
   });
 
   if (!response.ok) {
@@ -430,6 +451,7 @@ async function fetchItems(
   repoDir: string,
   globals: z.infer<typeof GlobalArgsSchema>,
   maxItemsPerSource?: number,
+  feedFetchTimeoutMs?: number,
 ): Promise<NewsItem[]> {
   const sourcePath = pathJoin(repoDir, globals.newsSourcesPath);
   const sourcesRaw = await readYamlListPath(sourcePath);
@@ -439,11 +461,24 @@ async function fetchItems(
   const limit = maxItemsPerSource ?? globals.maxItemsPerSource;
   const batches = await Promise.allSettled(sources.map(async (source) => {
     const response = await fetch(source.url, {
-      headers: { "user-agent": "alvagante-site-curation/1.0" },
+      headers: {
+        "user-agent": "alvagante-site-curation/1.0",
+        "accept":
+          "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+      },
+      signal: AbortSignal.timeout(
+        feedFetchTimeoutMs ?? globals.feedFetchTimeoutMs,
+      ),
     });
     if (!response.ok) throw new Error(`${source.name}: ${response.status}`);
     return parseFeed(await response.text(), source, limit);
   }));
+
+  for (const result of batches) {
+    if (result.status === "rejected") {
+      console.warn(`feed fetch failed: ${String(result.reason)}`);
+    }
+  }
 
   return batches.flatMap((result) =>
     result.status === "fulfilled" ? result.value : []
@@ -473,6 +508,24 @@ function isPromotionalItem(item: NewsItem): boolean {
 
 function filterPromotionalItems(items: NewsItem[]): NewsItem[] {
   return items.filter((item) => !isPromotionalItem(item));
+}
+
+function preserveSourceMetadata(
+  items: NewsItem[],
+  originals: NewsItem[],
+): NewsItem[] {
+  const byKey = new Map(originals.map((item) => [itemKey(item), item]));
+  return items.map((item) => {
+    const original = byKey.get(itemKey(item));
+    if (!original) return item;
+    return {
+      ...item,
+      source: original.source,
+      source_favicon: item.source_favicon ?? original.source_favicon ?? null,
+      category: original.category,
+      tags: original.tags,
+    };
+  });
 }
 
 function selectItemsForDigest(
@@ -931,6 +984,7 @@ export const model = {
           repoDir,
           globals,
           args.maxItemsPerSource,
+          args.feedFetchTimeoutMs,
         );
         const handle = await context.writeResource("feed-items", "fetched", {
           generated_at: new Date().toISOString(),
@@ -973,9 +1027,6 @@ export const model = {
       execute: async (args, context) => {
         const globals = GlobalArgsSchema.parse(context.globalArgs);
         const items = await fetchItems(globals.repoDir, globals);
-        const faviconBySource = new Map(
-          items.map((i) => [i.source, i.source_favicon]),
-        );
         const apiKey = args.openaiApiKey || globals.openaiApiKey ||
           Deno.env.get("OPENAI_API_KEY");
         const ollamaModel = args.ollamaModel || globals.ollamaModel;
@@ -984,22 +1035,22 @@ export const model = {
             apiKey,
             args.openaiModel || globals.openaiModel,
             items,
+            globals.aiRequestTimeoutMs,
           )
           : ollamaModel
           ? await callOllama(
             args.ollamaBaseUrl || globals.ollamaBaseUrl,
             ollamaModel,
             items,
+            globals.aiRequestTimeoutMs,
           )
           : items;
-        const withFavicons = filterPromotionalItems(enriched).map((i) => ({
-          ...i,
-          source_favicon: i.source_favicon ?? faviconBySource.get(i.source) ??
-            null,
-        }));
+        const withSourceMetadata = filterPromotionalItems(
+          preserveSourceMetadata(enriched, items),
+        );
         const handle = await context.writeResource("feed-items", "enriched", {
           generated_at: new Date().toISOString(),
-          items: withFavicons,
+          items: withSourceMetadata,
         });
         return { dataHandles: [handle] };
       },
@@ -1049,44 +1100,58 @@ export const model = {
             ? args.latestItemsPerSource ?? globals.latestItemsPerSource
             : globals.maxItemsPerSource);
         const items = filterPromotionalItems(
-          await fetchItems(globals.repoDir, globals, fetchLimit),
+          await fetchItems(
+            globals.repoDir,
+            globals,
+            fetchLimit,
+            args.feedFetchTimeoutMs,
+          ),
         );
+        if (items.length === 0) {
+          throw new Error(
+            "No feed items fetched; refusing to build empty digest",
+          );
+        }
         const selectedItems = selectItemsForDigest(items, date, globals, args);
 
         // Drop URLs already present in the last 2 digests
         const freshItems = selectedItems.filter((item) =>
           !seenUrls.has(itemKey(item))
         );
+        if (freshItems.length === 0) {
+          throw new Error(
+            "No fresh feed items remain after de-duplication; refusing to build empty digest",
+          );
+        }
 
-        const faviconBySource = new Map(
-          freshItems.map((i) => [i.source, i.source_favicon]),
-        );
         const apiKey = args.openaiApiKey || globals.openaiApiKey ||
           Deno.env.get("OPENAI_API_KEY");
         const ollamaModel = args.ollamaModel || globals.ollamaModel;
+        const aiRequestTimeoutMs = args.aiRequestTimeoutMs ??
+          globals.aiRequestTimeoutMs;
         const enriched = apiKey
           ? await callOpenAI(
             apiKey,
             args.openaiModel || globals.openaiModel,
             freshItems,
+            aiRequestTimeoutMs,
           )
           : ollamaModel
           ? await callOllama(
             args.ollamaBaseUrl || globals.ollamaBaseUrl,
             ollamaModel,
             freshItems,
+            aiRequestTimeoutMs,
           )
           : freshItems;
-        const withFavicons = filterPromotionalItems(enriched).map((i) => ({
-          ...i,
-          source_favicon: i.source_favicon ?? faviconBySource.get(i.source) ??
-            null,
-        }));
+        const withSourceMetadata = filterPromotionalItems(
+          preserveSourceMetadata(enriched, freshItems),
+        );
         const digest = DigestSchema.parse({
           date,
           generated_at: new Date().toISOString(),
           items: sortItems(
-            withFavicons,
+            withSourceMetadata,
             args.maxItems ?? globals.maxDigestItems,
           ),
         });

@@ -16,7 +16,8 @@
 {% assign news_count = 0 %}
 {% assign digests = site.data.generated.news %}
 {% if digests and topic %}
-  {% for pair in digests %}
+  {% assign sorted_digests = digests | sort %}
+  {% for pair in sorted_digests %}
     {% assign digest = pair.last %}
     {% assign topic_items = digest.items | where: "category", topic.title %}
     {% assign news_count = news_count | plus: topic_items.size %}
@@ -81,7 +82,7 @@
 
   {% if digests and news_count > 0 %}
     <section class="digest-index">
-      {% for pair in digests reversed %}
+      {% for pair in sorted_digests reversed %}
         {% assign digest_date = pair.first %}
         {% assign digest = pair.last %}
         {% assign topic_items = digest.items | where: "category", topic.title | sort: "relevance" | reverse %}

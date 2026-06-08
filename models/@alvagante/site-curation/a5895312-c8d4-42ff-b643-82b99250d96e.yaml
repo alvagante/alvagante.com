@@ -1,5 +1,5 @@
 type: '@alvagante/site-curation'
-typeVersion: 2026.05.25.1
+typeVersion: 2026.05.26.1
 id: a5895312-c8d4-42ff-b643-82b99250d96e
 name: site-curation
 version: 1
@@ -12,6 +12,8 @@ globalArguments:
   rssPath: rss.xml
   siteUrl: https://alvagante.com
   openaiModel: gpt-5.4-mini
+  feedFetchTimeoutMs: 20000
+  aiRequestTimeoutMs: 600000
   maxItemsPerSource: 8
   feedSelectionMode: latest_per_source
   newsLookbackDays: 2
