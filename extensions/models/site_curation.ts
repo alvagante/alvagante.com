@@ -921,7 +921,7 @@ async function readLinkFiles(
 /** Model definition for site curation. */
 export const model = {
   type: "@alvagante/site-curation",
-  version: "2026.05.26.1",
+  version: "2026.05.27.1",
   globalArguments: GlobalArgsSchema,
   resources: {
     "feed-items": {

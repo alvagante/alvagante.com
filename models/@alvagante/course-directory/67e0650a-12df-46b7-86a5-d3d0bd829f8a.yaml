@@ -9,4 +9,5 @@ globalArguments:
   repoDir: .
   coursesPath: _data/courses
   openaiModel: gpt-5.4-mini
+  ollamaModel: nemotron-3-super:120b
 methods: {}

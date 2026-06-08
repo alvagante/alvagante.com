@@ -3,6 +3,11 @@
  * Jekyll site.  Each topic/category pair is an atomic unit: one method call
  * reads or writes exactly one _data/courses/<topic>/<category-slug>.yml file.
  *
+ * Supported AI backends (checked in priority order):
+ *   1. Anthropic / Claude  (anthropicApiKey or ANTHROPIC_API_KEY env)
+ *   2. OpenAI              (openaiApiKey or OPENAI_API_KEY env)
+ *   3. Ollama              (ollamaModel global arg or per-call override)
+ *
  * @module
  */
 import { z } from "npm:zod@4";
@@ -52,13 +57,26 @@ const GlobalArgsSchema = z.object({
   repoDir: z.string().default("."),
   /** Root path for course YAML files, relative to repoDir. */
   coursesPath: z.string().default("_data/courses"),
+  /** Anthropic model to use when anthropicApiKey is provided. */
+  anthropicModel: z.string().default("claude-sonnet-4-6"),
+  anthropicApiKey: z.string().optional(),
   openaiModel: z.string().default("gpt-5.4-mini"),
   openaiApiKey: z.string().optional(),
   ollamaBaseUrl: z.string().default("http://localhost:11434"),
   ollamaModel: z.string().optional(),
 });
 
-const CollectCoursesArgsSchema = z.object({
+/** Shared AI-backend overrides available on every write method. */
+const AiArgsSchema = z.object({
+  anthropicApiKey: z.string().optional(),
+  anthropicModel: z.string().optional(),
+  openaiApiKey: z.string().optional(),
+  openaiModel: z.string().optional(),
+  ollamaBaseUrl: z.string().optional(),
+  ollamaModel: z.string().optional(),
+});
+
+const CollectCoursesArgsSchema = AiArgsSchema.extend({
   /** Topic directory name, e.g. "ai", "it", "security". */
   topic: z.string(),
   /** Category name as it appears in the data, e.g. "Machine Learning". */
@@ -78,10 +96,6 @@ const CollectCoursesArgsSchema = z.object({
   merge: z.boolean().default(true),
   writeFile: z.boolean().default(true),
   dryRun: z.boolean().default(false),
-  openaiApiKey: z.string().optional(),
-  openaiModel: z.string().optional(),
-  ollamaBaseUrl: z.string().optional(),
-  ollamaModel: z.string().optional(),
 });
 
 const GetCoursesArgsSchema = z.object({
@@ -93,17 +107,13 @@ const GetCoursesArgsSchema = z.object({
   pricingType: z.enum(["free", "freemium", "paid", "subscription"]).optional(),
 });
 
-const RefreshCoursesArgsSchema = z.object({
+const RefreshCoursesArgsSchema = AiArgsSchema.extend({
   topic: z.string(),
   category: z.string(),
   /** Re-run AI enrichment even on entries that already appear complete. */
   forceReenrich: z.boolean().default(false),
   writeFile: z.boolean().default(true),
   dryRun: z.boolean().default(false),
-  openaiApiKey: z.string().optional(),
-  openaiModel: z.string().optional(),
-  ollamaBaseUrl: z.string().optional(),
-  ollamaModel: z.string().optional(),
 });
 
 // ─── File helpers ─────────────────────────────────────────────────────────────
@@ -117,6 +127,15 @@ function slugify(value: string): string {
     .toLowerCase()
     .replaceAll(/[^a-z0-9]+/g, "-")
     .replaceAll(/^-+|-+$/g, "");
+}
+
+/** Resource keys for a topic/category pair — no slashes allowed by swamp. */
+function resourceKeys(
+  topic: string,
+  categorySlug: string,
+): { courses: string; stats: string } {
+  const base = `${topic}--${categorySlug}`;
+  return { courses: base, stats: `${base}--stats` };
 }
 
 async function readYamlFile<T>(path: string, fallback: T): Promise<T> {
@@ -267,6 +286,58 @@ const AI_COURSE_ITEM_SCHEMA = {
   ],
 };
 
+async function callAnthropicForCourses(
+  apiKey: string,
+  model: string,
+  topic: string,
+  category: string,
+  query: string | undefined,
+  maxCourses: number,
+): Promise<AICourseEntry[]> {
+  const response = await fetch("https://api.anthropic.com/v1/messages", {
+    method: "POST",
+    headers: {
+      "x-api-key": apiKey,
+      "anthropic-version": "2023-06-01",
+      "content-type": "application/json",
+    },
+    body: JSON.stringify({
+      model,
+      max_tokens: 8192,
+      system: COLLECT_SYSTEM_PROMPT +
+        "\nReturn ONLY a valid JSON object with a 'courses' array. No prose, no markdown fences.",
+      messages: [
+        {
+          role: "user",
+          content: JSON.stringify({
+            topic,
+            category,
+            query: query ?? null,
+            maxCourses,
+          }),
+        },
+      ],
+    }),
+  });
+
+  if (!response.ok) {
+    throw new Error(
+      `Anthropic course collection failed: ${response.status} ${await response
+        .text()}`,
+    );
+  }
+
+  const payload = await response.json();
+  const raw: string = payload.content?.[0]?.text ?? "";
+  // Strip optional markdown code fence
+  const jsonStr = raw
+    .replace(/^```(?:json)?\s*\n?/, "")
+    .replace(/\n?```\s*$/, "")
+    .trim();
+  const parsed = JSON.parse(jsonStr);
+  return (parsed.courses ?? []) as AICourseEntry[];
+}
+
 async function callOpenAIForCourses(
   apiKey: string,
   model: string,
@@ -275,13 +346,6 @@ async function callOpenAIForCourses(
   query: string | undefined,
   maxCourses: number,
 ): Promise<AICourseEntry[]> {
-  const userContent = JSON.stringify({
-    topic,
-    category,
-    query: query ?? null,
-    maxCourses,
-  });
-
   const response = await fetch("https://api.openai.com/v1/responses", {
     method: "POST",
     headers: {
@@ -292,7 +356,15 @@ async function callOpenAIForCourses(
       model,
       input: [
         { role: "system", content: COLLECT_SYSTEM_PROMPT },
-        { role: "user", content: userContent },
+        {
+          role: "user",
+          content: JSON.stringify({
+            topic,
+            category,
+            query: query ?? null,
+            maxCourses,
+          }),
+        },
       ],
       text: {
         format: {
@@ -377,6 +449,62 @@ async function callOllamaForCourses(
   return (parsed.courses ?? []) as AICourseEntry[];
 }
 
+type Globals = z.infer<typeof GlobalArgsSchema>;
+type AiArgs = z.infer<typeof AiArgsSchema>;
+
+/**
+ * Unified AI dispatch — tries Anthropic → OpenAI → Ollama in that order,
+ * using per-call overrides first, then globalArguments, then env vars.
+ */
+function callAI(
+  globals: Globals,
+  args: AiArgs,
+  topic: string,
+  category: string,
+  query: string | undefined,
+  maxCourses: number,
+): Promise<AICourseEntry[]> {
+  const anthropicKey = args.anthropicApiKey || globals.anthropicApiKey ||
+    Deno.env.get("ANTHROPIC_API_KEY");
+  const openaiKey = args.openaiApiKey || globals.openaiApiKey ||
+    Deno.env.get("OPENAI_API_KEY");
+  const ollamaModel = args.ollamaModel || globals.ollamaModel;
+
+  if (anthropicKey) {
+    return callAnthropicForCourses(
+      anthropicKey,
+      args.anthropicModel || globals.anthropicModel,
+      topic,
+      category,
+      query,
+      maxCourses,
+    );
+  }
+  if (openaiKey) {
+    return callOpenAIForCourses(
+      openaiKey,
+      args.openaiModel || globals.openaiModel,
+      topic,
+      category,
+      query,
+      maxCourses,
+    );
+  }
+  if (ollamaModel) {
+    return callOllamaForCourses(
+      args.ollamaBaseUrl || globals.ollamaBaseUrl,
+      ollamaModel,
+      topic,
+      category,
+      query,
+      maxCourses,
+    );
+  }
+  throw new Error(
+    "No AI backend configured — set ANTHROPIC_API_KEY, OPENAI_API_KEY, or ollamaModel",
+  );
+}
+
 /** Convert an AI-returned entry into a validated Course record. */
 function aiEntryToCourse(
   entry: AICourseEntry,
@@ -411,7 +539,7 @@ function mergeCourses(existing: Course[], incoming: Course[]): Course[] {
 /** Course directory model for alvagante.com. */
 export const model = {
   type: "@alvagante/course-directory",
-  version: "2026.05.26.1",
+  version: "2026.05.27.1",
   globalArguments: GlobalArgsSchema,
   resources: {
     "courses": {
@@ -453,47 +581,28 @@ export const model = {
       description:
         "AI-powered course discovery for a single topic/category pair. " +
         "Merges newly found courses with any existing entries (deduplicated " +
-        "by URL) and writes the result to _data/courses/<topic>/<slug>.yml.",
+        "by URL) and writes the result to _data/courses/<topic>/<slug>.yml. " +
+        "Supports Anthropic, OpenAI, and Ollama backends.",
       arguments: CollectCoursesArgsSchema,
       execute: async (args, context) => {
         const globals = GlobalArgsSchema.parse(context.globalArgs);
         const today = new Date().toISOString().slice(0, 10);
-        const apiKey = args.openaiApiKey || globals.openaiApiKey ||
-          Deno.env.get("OPENAI_API_KEY");
-        const ollamaModel = args.ollamaModel || globals.ollamaModel;
-
-        if (!apiKey && !ollamaModel) {
-          throw new Error(
-            "No AI backend configured — set openaiApiKey or ollamaModel",
-          );
-        }
 
         const categorySlug = slugify(args.category);
         const coursesPath = pathJoin(globals.repoDir, globals.coursesPath);
         const topicPath = pathJoin(coursesPath, args.topic);
         const filePath = pathJoin(topicPath, `${categorySlug}.yml`);
 
-        // Read existing entries for this topic/category
         const existing = await readCourseFile(filePath);
 
-        // Discover new courses via AI
-        const rawEntries: AICourseEntry[] = apiKey
-          ? await callOpenAIForCourses(
-            apiKey,
-            args.openaiModel || globals.openaiModel,
-            args.topic,
-            args.category,
-            args.query,
-            args.maxCourses,
-          )
-          : await callOllamaForCourses(
-            args.ollamaBaseUrl || globals.ollamaBaseUrl,
-            ollamaModel!,
-            args.topic,
-            args.category,
-            args.query,
-            args.maxCourses,
-          );
+        const rawEntries = await callAI(
+          globals,
+          args,
+          args.topic,
+          args.category,
+          args.query,
+          args.maxCourses,
+        );
 
         const discovered = rawEntries
           .map((e) => aiEntryToCourse(e, args.topic, args.category, today))
@@ -503,16 +612,15 @@ export const model = {
           ? mergeCourses(existing, discovered)
           : discovered;
 
-        // Write to file
         if (args.writeFile && !args.dryRun) {
           await Deno.mkdir(topicPath, { recursive: true });
           await Deno.writeTextFile(filePath, stringifyYaml(merged));
         }
 
-        const resourceKey = `${args.topic}/${categorySlug}`;
+        const rk = resourceKeys(args.topic, categorySlug);
         const coursesHandle = await context.writeResource(
           "courses",
-          resourceKey,
+          rk.courses,
           {
             generated_at: new Date().toISOString(),
             topic: args.topic,
@@ -522,7 +630,7 @@ export const model = {
         );
         const statsHandle = await context.writeResource(
           "course-collection-stats",
-          resourceKey,
+          rk.stats,
           {
             generated_at: new Date().toISOString(),
             topic: args.topic,
@@ -553,11 +661,7 @@ export const model = {
         const coursesPath = pathJoin(globals.repoDir, globals.coursesPath);
         const categorySlug = args.category ? slugify(args.category) : undefined;
 
-        let courses = await readCourses(
-          coursesPath,
-          args.topic,
-          categorySlug,
-        );
+        let courses = await readCourses(coursesPath, args.topic, categorySlug);
 
         if (args.skillLevel) {
           courses = courses.filter((c) => c.skill_level === args.skillLevel);
@@ -567,13 +671,13 @@ export const model = {
         }
 
         const topic = args.topic ?? "all";
-        const category = args.category ?? "all";
-        const key = `${topic}/${category}`;
+        const catSlug = categorySlug ?? "all";
+        const rk = resourceKeys(topic, catSlug);
 
-        const handle = await context.writeResource("courses", key, {
+        const handle = await context.writeResource("courses", rk.courses, {
           generated_at: new Date().toISOString(),
           topic,
-          category,
+          category: args.category ?? "all",
           courses,
         });
         return { dataHandles: [handle] };
@@ -593,15 +697,6 @@ export const model = {
       execute: async (args, context) => {
         const globals = GlobalArgsSchema.parse(context.globalArgs);
         const today = new Date().toISOString().slice(0, 10);
-        const apiKey = args.openaiApiKey || globals.openaiApiKey ||
-          Deno.env.get("OPENAI_API_KEY");
-        const ollamaModel = args.ollamaModel || globals.ollamaModel;
-
-        if (!apiKey && !ollamaModel) {
-          throw new Error(
-            "No AI backend configured — set openaiApiKey or ollamaModel",
-          );
-        }
 
         const categorySlug = slugify(args.category);
         const coursesPath = pathJoin(globals.repoDir, globals.coursesPath);
@@ -610,30 +705,19 @@ export const model = {
 
         const existing = await readCourseFile(filePath);
 
-        // Discover fresh candidates and merge — same logic as collect_courses
-        const rawEntries: AICourseEntry[] = apiKey
-          ? await callOpenAIForCourses(
-            apiKey,
-            args.openaiModel || globals.openaiModel,
-            args.topic,
-            args.category,
-            undefined,
-            Math.max(20, existing.length + 10),
-          )
-          : await callOllamaForCourses(
-            args.ollamaBaseUrl || globals.ollamaBaseUrl,
-            ollamaModel!,
-            args.topic,
-            args.category,
-            undefined,
-            Math.max(20, existing.length + 10),
-          );
+        const rawEntries = await callAI(
+          globals,
+          args,
+          args.topic,
+          args.category,
+          undefined,
+          Math.max(20, existing.length + 10),
+        );
 
         const discovered = rawEntries
           .map((e) => aiEntryToCourse(e, args.topic, args.category, today))
           .filter((c): c is Course => c !== null);
 
-        // Update last_checked on all existing entries
         const refreshed = existing.map((c) => ({ ...c, last_checked: today }));
         const merged = mergeCourses(refreshed, discovered);
 
@@ -642,10 +726,10 @@ export const model = {
           await Deno.writeTextFile(filePath, stringifyYaml(merged));
         }
 
-        const resourceKey = `${args.topic}/${categorySlug}`;
+        const rk = resourceKeys(args.topic, categorySlug);
         const coursesHandle = await context.writeResource(
           "courses",
-          resourceKey,
+          rk.courses,
           {
             generated_at: new Date().toISOString(),
             topic: args.topic,
@@ -655,7 +739,7 @@ export const model = {
         );
         const statsHandle = await context.writeResource(
           "course-collection-stats",
-          resourceKey,
+          rk.stats,
           {
             generated_at: new Date().toISOString(),
             topic: args.topic,
