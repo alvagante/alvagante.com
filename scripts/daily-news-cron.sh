@@ -20,9 +20,9 @@ run_with_timeout() {
   shift
 
   if command -v timeout >/dev/null 2>&1; then
-    timeout --kill-after=2m "$duration" "$@"
+    timeout --kill-after=20m "$duration" "$@"
   elif command -v gtimeout >/dev/null 2>&1; then
-    gtimeout --kill-after=2m "$duration" "$@"
+    gtimeout --kill-after=20m "$duration" "$@"
   else
     "$@"
   fi
