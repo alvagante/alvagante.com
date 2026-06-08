@@ -40,3 +40,24 @@ defaults:
       path: ""
     values:
       layout: default
+
+# Collections for AI engineering section
+collections:
+  ai-blog:
+    output: true
+    permalink: /ai-engineer/blog/:path/
+  ai-notebooks:
+    output: true
+    permalink: /ai-engineer/notebooks/:path/
+  ai-slides:
+    output: true
+    permalink: /ai-engineer/slides/:path/
+  ai-cheat-sheets:
+    output: true
+    permalink: /ai-engineer/cheat-sheets/:path/
+  ai-infographics:
+    output: true
+    permalink: /ai-engineer/infographics/:path/
+  ai-social-posts:
+    output: true
+    permalink: /ai-engineer/social/:path/

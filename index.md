@@ -121,6 +121,28 @@ title: Dashboard
 
 <section class="band">
   <div class="section-head">
+    <h2>AI Engineer</h2>
+    <a href="{{ '/ai-engineer/' | relative_url }}">Open section</a>
+  </div>
+  {% assign blog_posts = site.ai-blog | sort: 'date' | reverse %}
+  {% if blog_posts.size > 0 %}
+  <div class="ai-engineer-preview">
+    <ul class="blog-list">
+    {% for post in blog_posts limit:5 %}
+      <li>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b, %Y" }}</time>
+        — <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+  {% else %}
+  <p class="empty">No AI engineer content published yet. Check back later or <a href="{{ '/ai-engineer/' | relative_url }}">browse the full section</a>.</p>
+  {% endif %}
+</section>
+
+<section class="band">
+  <div class="section-head">
     <h2>News of today</h2>
     <a href="{{ '/news/' | relative_url }}">Open news</a>
   </div>
