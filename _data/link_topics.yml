@@ -1,21 +1,31 @@
-- slug: ai
-  title: AI
-  description: Models, agents, infrastructure, research, policy, and applied AI tools.
+- slug: interests
+  title: Interests
+  description: Curated links across the topics I care about.
+  children:
+    - slug: ai
+      title: AI
+      data_key: interests
+      description: Models, agents, infrastructure, research, policy, and applied AI tools.
+    - slug: security
+      title: Security
+      data_key: interests
+      description: Offensive and defensive security, vulnerability research, threat intelligence, and compliance.
+    - slug: it
+      title: IT
+      data_key: interests
+      description: Development, infrastructure, cloud, databases, DevOps, and operational resources.
+    - slug: technology
+      title: Technology
+      data_key: interests
+      description: Devices, platforms, consumer software, gaming, open source, and internet culture.
+    - slug: science
+      title: Science
+      data_key: interests
+      description: Research journals, preprints, news, and discipline-specific resources across the sciences.
+    - slug: geopolitics
+      title: Geopolitics
+      data_key: interests
+      description: International relations, economics, military affairs, energy, democracy, and global media.
 - slug: ai-engineer
   title: AI Engineer
   description: AI engineering deep dives — notebooks, slides, cheat sheets, infographics, blog posts, and social content.
-- slug: security
-  title: Security
-  description: Offensive and defensive security, vulnerability research, threat intelligence, and compliance.
-- slug: it
-  title: IT
-  description: Development, infrastructure, cloud, databases, DevOps, and operational resources.
-- slug: technology
-  title: Technology
-  description: Devices, platforms, consumer software, gaming, open source, and internet culture.
-- slug: science
-  title: Science
-  description: Research journals, preprints, news, and discipline-specific resources across the sciences.
-- slug: geopolitics
-  title: Geopolitics
-  description: International relations, economics, military affairs, energy, democracy, and global media.

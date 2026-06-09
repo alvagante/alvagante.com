@@ -1,0 +1,16 @@
+---
+# Include to resolve topic data path.
+# For top-level topics: site.data.links[topic.slug]
+# For interest children: site.data.links.interests[topic.slug]
+---
+{% assign resolved_data = nil %}
+{% if page.slug == 'interests' %}
+  {% assign resolved_data = site.data.links.interests %}
+{% elsif site.data.links[page.slug] %}
+  {% assign resolved_data = site.data.links[page.slug] %}
+{% elsif site.data.links.interests and site.data.links.interests[page.slug] %}
+  {% assign resolved_data = site.data.links.interests[page.slug] %}
+{% else %}
+  {% assign resolved_data = site.data.links[page.slug] %}
+{% endif %}
+{{ resolved_data | jsonify }}
