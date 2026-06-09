@@ -15,11 +15,24 @@
         <img src="{{ site.header_logo | default: site.logo | relative_url }}" alt="{{ site.title }} logo">
       </a>
       <nav aria-label="Primary">
+        {% for topic in site.data.link_topics %}
+          {% if topic.children %}
+            <span class="nav-parent">
+              <a class="nav-parent-title" href="{{ '/interests/' | relative_url }}">{{ topic.title }}</a>
+              <ul class="nav-dropdown">
+                {% for child in topic.children %}
+                  <li><a href="{{ '/' | append: child.slug | append: '/' | relative_url }}">{{ child.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </span>
+          {% else %}
+            {% if topic.slug == 'ai-engineer' %}
+              <a href="{{ '/ai-engineer/' | relative_url }}">{{ topic.title }}</a>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
         <a href="{{ '/links/' | relative_url }}">Links</a>
         <a href="{{ '/news/' | relative_url }}">News</a>
-        {% for topic in site.data.link_topics %}
-          <a href="{{ '/' | append: topic.slug | append: '/' | relative_url }}">{{ topic.title }}</a>
-        {% endfor %}
         <a href="{{ '/about/' | relative_url }}">About</a>
       </nav>
     </header>
