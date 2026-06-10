@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 set -euo pipefail
 
-REPO_DIR="${REPO_DIR:-/home/al/alvagante.com}"
+REPO_DIR="${REPO_DIR:-${HOME}/alvagante.com}"
 BRANCH="${BRANCH:-main}"
 LOG_PREFIX="[alvagante-daily-news]"
 LOCK_FILE="${LOCK_FILE:-/tmp/alvagante-daily-news.lock}"
