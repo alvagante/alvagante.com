@@ -148,7 +148,8 @@ title: Dashboard
                 </div>
                 <div class="link-grid">
                   {% for link in category_pair[1] %}
-                    {% include link-card.html link=link, category_slug=category_pair[0], topic_slug=child.slug %}
+                    {% assign current_category_slug = category_pair[0] %}
+                    {% include link-card.html link=link category_slug=current_category_slug topic_slug=child.slug %}
                   {% endfor %}
                 </div>
               </section>
@@ -170,7 +171,8 @@ title: Dashboard
             </div>
             <div class="link-grid">
               {% for link in category_pair[1] %}
-                {% include link-card.html link=link, category_slug=category_pair[0], topic_slug=topic.slug %}
+                {% assign current_category_slug = category_pair[0] %}
+                {% include link-card.html link=link category_slug=current_category_slug topic_slug=topic.slug %}
               {% endfor %}
             </div>
           </section>
