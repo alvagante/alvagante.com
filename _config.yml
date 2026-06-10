@@ -23,6 +23,8 @@ exclude:
   - .sass-cache/
   - .swamp/
   - .swamp-sources.yaml
+  - .agents/
+  - .claude/
   - docker-compose.yml
   - Dockerfile
   - Gemfile
