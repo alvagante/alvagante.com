@@ -1,0 +1,117 @@
+id: c3d4e5f6-a7b8-9012-cdef-123456789012
+name: media-production
+description: >
+  Umbrella workflow for content generation across media types.
+  Each media type is a step that can run independently or as part
+  of the full batch. New media types are added by appending a step;
+  they call whichever model handles that domain. All steps are
+  idempotent and use dryRun by default for dry-testing.
+tags:
+  site: alvagante.com
+  cadence: on-demand
+jobs:
+  - name: all-media
+    description: Run every enabled media sub-workflow.
+    steps:
+      # ----------------------------------------------------------------
+      # Blog
+      # ----------------------------------------------------------------
+      - name: generate-blog-posts
+        description: Generate Alvagante AI Engineer style blog posts.
+        task:
+          type: model_method
+          modelIdOrName: site-curation
+          methodName: write_blog_post
+          inputs:
+            mode: blog-production
+            style: alfabot
+            dryRun: true
+        dependsOn: []
+        weight: 1
+        allowFailure: true
+
+      # ----------------------------------------------------------------
+      # Social media
+      # ----------------------------------------------------------------
+      - name: generate-social-posts
+        description: Generate social media posts from blog content.
+        task:
+          type: model_method
+          modelIdOrName: social-media-generator
+          methodName: generate_posts
+          inputs:
+            mode: derive-from-blog
+            platforms: [twitter, bluesky, linkedin]
+            dryRun: true
+        dependsOn: [generate-blog-posts]
+        weight: 1
+        allowFailure: true
+
+      # ----------------------------------------------------------------
+      # Cheatsheets
+      # ----------------------------------------------------------------
+      - name: generate-cheatsheets
+        description: Generate technical cheatsheets from blog content.
+        task:
+          type: model_method
+          modelIdOrName: content-transformer
+          methodName: generate_cheatsheet
+          inputs:
+            mode: from-blog
+            dryRun: true
+        dependsOn: [generate-blog-posts]
+        weight: 1
+        allowFailure: true
+
+      # ----------------------------------------------------------------
+      # Infographics
+      # ----------------------------------------------------------------
+      - name: generate-infographics
+        description: Generate data-driven infographics from research.
+        task:
+          type: model_method
+          modelIdOrName: visual-content-generator
+          methodName: generate_infographic
+          inputs:
+            mode: data-driven
+            dryRun: true
+        dependsOn: [generate-cheatsheets]
+        weight: 2
+        allowFailure: true
+
+      # ----------------------------------------------------------------
+      # Short video
+      # ----------------------------------------------------------------
+      - name: generate-short-videos
+        description: Generate short-form video content and scripts.
+        task:
+          type: model_method
+          modelIdOrName: video-generator
+          methodName: generate_video_script
+          inputs:
+            mode: script-first
+            targetLength: short
+            dryRun: true
+        dependsOn: [generate-blog-posts]
+        weight: 2
+        allowFailure: true
+
+      # ----------------------------------------------------------------
+      # Podcast episodes
+      # ----------------------------------------------------------------
+      - name: generate-podcasts
+        description: Generate podcast episode outlines and scripts.
+        topic: podcast
+        task:
+          type: model_method
+          modelIdOrName: podcast-generator
+          methodName: generate_episode
+          inputs:
+            mode: outline-first
+            dryRun: true
+        dependsOn: [generate-blog-posts]
+        weight: 3
+        allowFailure: true
+    dependsOn: []
+    weight: 0
+version: 1

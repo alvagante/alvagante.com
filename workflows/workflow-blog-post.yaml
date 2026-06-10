@@ -1,0 +1,34 @@
+id: b2c3d4e5-f6a7-8901-bcde-f12345678901
+name: blog-post
+description: >
+  Generate a standalone blog post in the Alvagante AI Engineer style
+  (Gibson/Alex cyberpunk noir meets Douglas Adams absurdity).
+  Accepts a topic and optional parameters; outputs a ready-to-publish
+  markdown file. Independent of the media-production umbrella; can
+  be run on its own.
+tags:
+  site: alvagante.com
+  cadence: on-demand
+jobs:
+  - name: write
+    description: Generate a single blog post on the given topic.
+    steps:
+      - name: draft
+        description: Write the blog post using the site-curation model.
+        task:
+          type: model_method
+          modelIdOrName: site-curation
+          methodName: write_blog_post
+          inputs:
+            mode: standalone-blog
+            topic: ""
+            style: alfabot
+            tone: cyberpunk-noir
+            outputFormat: markdown
+            dryRun: false
+        dependsOn: []
+        weight: 1
+        allowFailure: false
+    dependsOn: []
+    weight: 0
+version: 1
