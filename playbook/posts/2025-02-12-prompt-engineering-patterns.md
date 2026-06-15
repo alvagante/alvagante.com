@@ -252,42 +252,37 @@ Include:
 
 Prompt engineering at scale requires templated prompts with variable injection:
 
+{% raw %}
 ```python
 from jinja2 import Template
 
-# Template prompt
-template = Template("""You are a code reviewer for {language} projects.
-Task: Review the following code and provide feedback.
-Focus areas: {focus_areas}
-Severity threshold: {severity}
-
-Code:
-{
-```python
-"""
 def code_review(code: str, language: str, focus_areas: str, severity: str) -> dict:
-    template = Template("""You are a code reviewer for {language} projects.
+    template = Template("""You are a code reviewer for {{ language }} projects.
 Task: Review the following code and provide feedback.
-Focus areas: {focus_areas}
-Severity threshold: {severity_threshold}
+Focus areas: {{ focus_areas }}
+Severity threshold: {{ severity }}
 
 Code:
-{text}
+{{ code }}
 
 Provide feedback in the following JSON format:
-{{
+{
   "overall_rating": 1-10,
   "issues": [
-    {{ "severity": "high|medium|low", "description": "...", "line": N }}
+    { "severity": "high|medium|low", "description": "...", "line": N }
   ],
   "improvements": ["...", "..."]
-}}
+}
 """)
-    
-    prompt = template.render(
+
+    return template.render(
         language=language,
-        review(code=code)
-"""
+        focus_areas=focus_areas,
+        severity=severity,
+        code=code,
+    )
+```
+{% endraw %}
 
 # This is how professional AI systems manage prompts
 # Templates are versioned, tested, and deployed like code
