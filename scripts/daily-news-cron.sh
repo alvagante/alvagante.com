@@ -7,8 +7,9 @@ LOG_PREFIX="[alvagante-daily-news]"
 LOCK_FILE="${LOCK_FILE:-/tmp/alvagante-daily-news.lock}"
 NEWS_TIMEOUT="${NEWS_TIMEOUT:-50m}"
 BUILD_TIMEOUT="${BUILD_TIMEOUT:-20m}"
+GENERATED_PATHS=("_data/generated/news" "rss.xml")
 
-export PATH="/usr/local/bin:/usr/bin:/bin:${PATH:-}"
+export PATH="${HOME}/.local/bin:${HOME}/bin:${HOME}/.deno/bin:/usr/local/bin:/usr/bin:/bin:${PATH:-}"
 
 log() {
   printf '%s %s %s
@@ -28,6 +29,40 @@ run_with_timeout() {
   fi
 }
 
+push_branch() {
+  if git push origin "$BRANCH"; then
+    return 0
+  fi
+
+  log "push failed; rebasing onto origin/$BRANCH and retrying"
+  git fetch origin "$BRANCH"
+  git pull --rebase --autostash origin "$BRANCH"
+  git push origin "$BRANCH"
+}
+
+publish_generated_changes() {
+  local reason="$1"
+
+  if [ -z "$(git status --porcelain -- "${GENERATED_PATHS[@]}")" ]; then
+    log "no generated news changes to publish"
+    return 0
+  fi
+
+  log "committing generated news changes (${reason})"
+  git add -- "${GENERATED_PATHS[@]}"
+
+  if git diff --cached --quiet -- "${GENERATED_PATHS[@]}"; then
+    log "no staged changes after filtering generated outputs"
+    return 0
+  fi
+
+  commit_date="$(date +%Y-%m-%d)"
+  git commit --only -m "Generate daily news ${commit_date}" -- "${GENERATED_PATHS[@]}"
+
+  log "pushing generated news changes"
+  push_branch
+}
+
 cd "$REPO_DIR"
 
 exec 9>"$LOCK_FILE"
@@ -43,7 +78,14 @@ fi
 log "updating $BRANCH"
 git fetch origin "$BRANCH"
 git checkout "$BRANCH"
-git pull --ff-only origin "$BRANCH"
+if git rev-parse --verify "origin/$BRANCH" >/dev/null 2>&1; then
+  ahead_count="$(git rev-list --count "origin/$BRANCH..$BRANCH")"
+  if [ "$ahead_count" -gt 0 ]; then
+    log "branch is ahead of origin/$BRANCH by ${ahead_count} commit(s); pushing first"
+    push_branch
+  fi
+fi
+git pull --ff-only --autostash origin "$BRANCH"
 
 log "generating daily news digest"
 set +e
@@ -57,7 +99,7 @@ fi
 
 log "verifying Jekyll build"
 set +e
-run_with_timeout "$BUILD_TIMEOUT" docker compose run --rm jekyll bundle exec jekyll build
+run_with_timeout "$BUILD_TIMEOUT" docker compose run --rm --no-deps --entrypoint sh jekyll -lc "bundle exec jekyll build"
 status=$?
 set -e
 if [ "$status" -ne 0 ]; then
@@ -65,23 +107,6 @@ if [ "$status" -ne 0 ]; then
   exit "$status"
 fi
 
-if [ -z "$(git status --porcelain _data/generated/news rss.xml)" ]; then
-  log "no generated news changes to publish"
-  exit 0
-fi
-
-log "committing generated news changes"
-git add _data/generated/news rss.xml
-
-if git diff --cached --quiet; then
-  log "no staged changes after filtering generated outputs"
-  exit 0
-fi
-
-commit_date="$(date +%Y-%m-%d)"
-git commit -m "Generate daily news ${commit_date}"
-
-log "pushing generated news changes"
-git push origin "$BRANCH"
+publish_generated_changes "post-generation"
 
 log "done"
