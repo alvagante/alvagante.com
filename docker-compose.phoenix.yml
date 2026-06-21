@@ -1,0 +1,15 @@
+services:
+  phoenix:
+    image: arizephoenix/phoenix:latest
+    container_name: "${PHOENIX_CONTAINER_NAME:-phoenix}"
+    restart: unless-stopped
+    environment:
+      PHOENIX_WORKING_DIR: /mnt/data
+    ports:
+      - "${PHOENIX_BIND:-127.0.0.1}:${PHOENIX_PORT:-6006}:6006"
+      - "${PHOENIX_GRPC_BIND:-127.0.0.1}:${PHOENIX_GRPC_PORT:-4317}:4317"
+    volumes:
+      - phoenix-data:/mnt/data
+
+volumes:
+  phoenix-data:

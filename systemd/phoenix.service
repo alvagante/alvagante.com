@@ -1,0 +1,21 @@
+[Unit]
+Description=Phoenix OTEL collector
+Requires=docker.service
+After=docker.service network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=al
+Group=al
+WorkingDirectory=/home/al/alvagante.com
+Environment=REPO_DIR=/home/al/alvagante.com
+Environment=PHOENIX_BIND=127.0.0.1
+Environment=PHOENIX_GRPC_BIND=127.0.0.1
+ExecStart=/home/al/alvagante.com/scripts/launch-phoenix.sh
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target
