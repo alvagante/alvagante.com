@@ -66,6 +66,8 @@ nav {
 
 .nav-parent {
   position: relative;
+  display: inline-flex;
+  align-items: center;
 }
 
 .nav-parent-title {
@@ -88,13 +90,13 @@ nav {
 .nav-dropdown {
   display: none;
   position: absolute;
-  top: calc(100% + 4px);
+  top: 100%;
   left: 0;
   min-width: 130px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
-  padding: 4px;
+  padding: 8px 4px 4px;
   gap: 2px;
   box-shadow: 0 10px 30px rgba(23, 32, 38, 0.06);
   z-index: 100;
