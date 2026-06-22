@@ -455,6 +455,34 @@ export const model = {
   detection
 - Always check for `null` content — the model may not have been created yet
 
+## Cleaning Up Stale Data with deleteResource
+
+When a reconciliation loop detects that a previously-errored target has
+recovered, use `deleteResource` to remove stale error data:
+
+```typescript
+sync: {
+  description: "Reconcile target state and clean up stale error records",
+  arguments: z.object({}),
+  execute: async (context) => {
+    const status = await context.readResource!("status");
+    if (!status) return {};
+
+    const errorData = await context.readResource!("last-error");
+    if (errorData && status.state === "healthy") {
+      await context.deleteResource!("last-error");
+    }
+
+    return {};
+  },
+},
+```
+
+`deleteResource` removes all versions of the named resource. It is a no-op if
+the resource does not exist. For version-specific deletion, use the lower-level
+`context.dataRepository.delete(context.modelType, context.modelId, name, version)`
+API directly.
+
 ## Polling to Completion
 
 When integrating with cloud providers or async APIs, the create/update response
@@ -1614,7 +1642,7 @@ export const extension = {
           ) => Promise<{ name: string }>;
         },
       ) => {
-        // Extensions use the target model's resources/files
+        // Write to a resource declared on the target model
         const handle = await context.writeResource("result", "result", {
           exitCode: 0,
           command: `audit: ${context.definition.name}`,
@@ -1688,6 +1716,60 @@ export const extension = {
   }],
 };
 ```
+
+### Extension with Custom Resources
+
+Extensions can declare their own resource specs when the target model's existing
+resources don't fit the extension's output shape:
+
+```typescript
+// extensions/models/shell_audit_custom.ts
+import { z } from "npm:zod@4";
+
+export const extension = {
+  type: "command/shell",
+  resources: {
+    "audit": {
+      description: "Audit findings for the shell command",
+      schema: z.object({
+        findings: z.array(z.string()),
+        summary: z.string(),
+        auditedAt: z.string(),
+      }),
+      lifetime: "infinite",
+      garbageCollection: 5,
+    },
+  },
+  methods: [{
+    audit: {
+      description: "Audit the shell command with custom output",
+      arguments: z.object({}),
+      execute: async (
+        _args: Record<string, never>,
+        context: {
+          definition: { name: string };
+          writeResource: (
+            specName: string,
+            name: string,
+            data: Record<string, unknown>,
+          ) => Promise<{ name: string }>;
+        },
+      ) => {
+        // Write to the extension-declared "audit" resource
+        const handle = await context.writeResource("audit", "audit", {
+          findings: ["command uses shell expansion safely"],
+          summary: "No issues found",
+          auditedAt: new Date().toISOString(),
+        });
+        return { dataHandles: [handle] };
+      },
+    },
+  }],
+};
+```
+
+Resource spec names must not conflict with specs already declared on the target
+model type. The `resources` field uses the same shape as base model definitions.
 
 ### Nested Directory Organization
 

@@ -13,9 +13,24 @@ description: >
 
 # Swamp
 
-Route to the right guide based on what the user needs.
+## Core Concepts
+
+- **Models** — typed definitions of resources (an EC2 instance, a DNS record, a
+  GitHub repo). Each exposes **methods** (create, start, stop, destroy, sync)
+  that operate on the real resource.
+- **Data** — versioned state snapshots produced by method runs; other models
+  reference them via CEL expressions.
+- **Workflows** — declarative DAGs chaining model methods, wiring step outputs
+  into step inputs.
+- **Vaults** — secret storage (API keys, tokens) that models reference at
+  runtime.
+- **Extensions** — TypeScript packages adding model types, vault backends,
+  datastores, and report generators; published to a registry.
+- **Reports** — summaries of data across models for observability.
 
 ## Routing Table
+
+Route to the right guide based on what the user needs.
 
 | User intent                                                  | Guide                                                                          |
 | ------------------------------------------------------------ | ------------------------------------------------------------------------------ |
@@ -33,10 +48,28 @@ Route to the right guide based on what the user needs.
 ## Common Commands
 
 ```bash
-swamp model @<type> method run <method> <name> --input key=value
-swamp workflow create <name>
-swamp vault create <type> <name>
-swamp data query <name> '<CEL predicate>'
+# Models
+swamp model @<type> create <name>              # create a model definition
+swamp model @<type> method run <method> <name> # run a method on a model
+swamp model get <name> --json                  # inspect current model state
+swamp model search @<type>                     # find available model types
+swamp model list                               # list all models in the repo
+
+# Data
+swamp data list <name>                         # list data versions for a model
+swamp data query <name> '<CEL predicate>'      # query data with CEL expressions
+swamp data get <name>                          # get latest data snapshot
+
+# Workflows
+swamp workflow create <name>                   # create a new workflow
+swamp workflow run <name>                      # execute a workflow
+swamp workflow validate <name>                 # validate DAG before running
+swamp workflow history <name>                  # view past workflow runs
+
+# Vaults, Reports, Extensions
+swamp vault create <type> <name>               # create a vault for secrets
+swamp report run <name>                        # run a report
+swamp extension init <name>                    # scaffold a new extension
 ```
 
 ## Rules
@@ -49,3 +82,11 @@ swamp data query <name> '<CEL predicate>'
    running a model in a workflow), load both relevant guides.
 4. **Use the routing table, not memory.** Don't answer from cached knowledge
    about swamp commands — always load the current guide.
+5. **Validate before acting.** Run `swamp workflow validate <name>` before
+   `workflow run`, and inspect with `swamp model get <name> --json` to verify
+   resource IDs before destructive methods (delete, stop, destroy). Proceed only
+   when validation passes and the target is confirmed.
+6. **On failure, route to troubleshooting.** If validation reports errors, a
+   method run fails, or any command errors unexpectedly, load
+   [references/troubleshooting/guide.md](references/troubleshooting/guide.md)
+   and diagnose before retrying or changing the definition.

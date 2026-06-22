@@ -21,7 +21,9 @@ via `swamp-extension-publish`.
    `swamp extension pull <package>` and use it. Stop.
 2. `swamp model type search <query>` — check built-in/installed local types.
 3. Extend an existing type (including `@swamp` extensions) if it covers the
-   domain but lacks the method you need.
+   domain but lacks the method you need. If the type is an official `@swamp/*`
+   extension, also file a feature request so the maintainers learn about the
+   gap: `swamp issue feature --extension @swamp/<name>`.
 4. For local or private extensions, use `swamp extension source add <path>`.
 5. Only create a new extension if nothing fits.
 
@@ -258,14 +260,15 @@ export const datastore = {
 All extension types follow the same lifecycle:
 
 1. **Confirm nothing covers it** — search built-in and community first.
-2. **Author the extension file** — use the Quick Start above; `deno check`.
+2. **Author the extension file** — use the Quick Start above;
+   `~/.swamp/deno/deno check`.
 3. **Verify registration** — `swamp model type search --json` (models/drivers)
    or `swamp vault status --json` / `swamp datastore status --json`.
 4. **Adversarial review** — see
    [Adversarial Review Gate](#adversarial-review-gate) below.
 5. **Smoke test** (models) — see
    [references/model/smoke_testing.md](references/model/smoke_testing.md).
-6. **Unit tests** — colocate `*_test.ts`; `deno test` passes.
+6. **Unit tests** — colocate `*_test.ts`; `~/.swamp/deno/deno test` passes.
 7. **Version + manifest** — `swamp extension version`,
    `swamp extension fmt manifest.yaml --check`.
 8. **Quality check** (optional) — `swamp extension quality manifest.yaml`.
@@ -364,8 +367,6 @@ Models have the richest API surface. For model-specific guidance:
   [references/model/upgrades.md](references/model/upgrades.md)
 - **Smoke testing**:
   [references/model/smoke_testing.md](references/model/smoke_testing.md)
-- **Docker execution**:
-  [references/model/docker-execution.md](references/model/docker-execution.md)
 - **Typing**: [references/model/typing.md](references/model/typing.md)
 - **Bundling skills**: [references/model/skills.md](references/model/skills.md)
 - **Examples**: [references/model/examples.md](references/model/examples.md)
@@ -386,16 +387,6 @@ Models have the richest API surface. For model-specific guidance:
 
 Note: `createProvider` takes two args: `(name: string, config)` — the first is
 the vault instance name, the second is the parsed config.
-
-## Driver-Specific
-
-- **ExecutionDriver interface** (`execute`, `initialize`, `shutdown`):
-  [references/driver/api.md](references/driver/api.md)
-- **Resolution priority**: step > job > workflow > definition > "raw" (default)
-- **Examples**: [references/driver/examples.md](references/driver/examples.md)
-- **Testing**: [references/driver/testing.md](references/driver/testing.md)
-- **Troubleshooting**:
-  [references/driver/troubleshooting.md](references/driver/troubleshooting.md)
 
 ## Datastore-Specific
 

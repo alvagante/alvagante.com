@@ -7,6 +7,7 @@ Detailed API documentation for extension model development.
 - [Resource & File Specs](#resource--file-specs)
 - [Reading Bundled Assets](#reading-bundled-assets)
 - [writeResource API](#writeresource-api)
+- [deleteResource API](#deleteresource-api)
 - [createFileWriter API](#createfilewriter-api)
 - [DataWriter Methods](#datawriter-methods)
 - [DataHandle Structure](#datahandle-structure)
@@ -190,6 +191,39 @@ for (const item of items) {
 
 ---
 
+## deleteResource API
+
+Delete a previously stored resource by instance name:
+`context.deleteResource(instanceName)`.
+
+**Signature:**
+
+```typescript
+deleteResource(instanceName: string): Promise<void>
+```
+
+Removes all versions of the named resource. Use this to clean up stale data when
+a target recovers or a reconciliation loop detects orphaned entries.
+
+**Example — reconciliation cleanup:**
+
+```typescript
+const existing = await context.readResource!("target-status");
+if (existing && existing.state === "recovered") {
+  await context.deleteResource!("error-details");
+}
+```
+
+**Notes:**
+
+- Not available in pre-flight checks (same restriction as `writeResource`)
+- No-op if the named resource does not exist
+- For lower-level control (e.g., deleting a specific version), use
+  `context.dataRepository.delete(context.modelType, context.modelId, name, version?)`
+  directly
+
+---
+
 ## createFileWriter API
 
 Create a file writer:
@@ -332,11 +366,12 @@ const content = await context.dataRepository.getContent(
 
 **Key dataRepository methods for model authors:**
 
-| Method                                      | Returns              | Description                            |
-| ------------------------------------------- | -------------------- | -------------------------------------- |
-| `getContent(type, modelId, dataName, ver?)` | `Uint8Array \| null` | Get raw content bytes                  |
-| `findByName(type, modelId, dataName, ver?)` | `Data \| null`       | Get data metadata (tags, version, etc) |
-| `findAllForModel(type, modelId)`            | `Data[]`             | List all data for this model instance  |
+| Method                                      | Returns              | Description                               |
+| ------------------------------------------- | -------------------- | ----------------------------------------- |
+| `getContent(type, modelId, dataName, ver?)` | `Uint8Array \| null` | Get raw content bytes                     |
+| `findByName(type, modelId, dataName, ver?)` | `Data \| null`       | Get data metadata (tags, version, etc)    |
+| `findAllForModel(type, modelId)`            | `Data[]`             | List all data for this model instance     |
+| `delete(type, modelId, dataName, version?)` | `void`               | Delete data (all versions if unspecified) |
 
 ---
 
@@ -631,6 +666,47 @@ modelRegistry.extend("aws/ec2/vpc", {}, {
 
 Check names must be unique -- conflicts with existing checks on the target model
 throw an error at registration time.
+
+### Extension Resources via export const extension
+
+Extensions can declare new resource specs that are merged into the target model
+type. Add an optional `resources` field to the extension object:
+
+```typescript
+export const extension = {
+  type: "aws/ec2/vpc",
+  resources: {
+    "audit": {
+      description: "Audit results for the VPC",
+      schema: z.object({
+        findings: z.array(z.string()),
+        summary: z.string(),
+      }),
+      lifetime: "infinite",
+      garbageCollection: 5,
+    },
+  },
+  methods: [
+    {
+      audit: {
+        description: "Audit the VPC",
+        arguments: z.object({}),
+        execute: async (args, context) => {
+          const handle = await context.writeResource("audit", "audit", {
+            findings: ["all good"],
+            summary: "No issues found",
+          });
+          return { dataHandles: [handle] };
+        },
+      },
+    },
+  ],
+};
+```
+
+Resource spec names must be unique -- conflicts with existing resource specs on
+the target model throw an error at registration time. The `resources` field uses
+the same `Record<string, ResourceOutputSpec>` shape as base model definitions.
 
 ---
 
