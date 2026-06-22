@@ -5,8 +5,6 @@ layout: post
 collection: ai-blog
 ---
 
-# First post. Human, for the moment
-
 This is the first and probably the last post entirely written by a human on this website,
 
 Yes indeed,

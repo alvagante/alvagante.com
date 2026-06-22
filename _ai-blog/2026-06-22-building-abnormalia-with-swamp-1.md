@@ -5,8 +5,6 @@ layout: post
 collection: ai-blog
 ---
 
-# Building Abnormalia with Swamp, Part 1: What Is an Ixen?
-
 Some domains live with you for decades. abnormalia.com is one of mine.
 
 I registered it in the early 2000s, back when Dreamweaver was a legitimate career choice and XHTML 1.0 strict with table layouts was what passed for craftsmanship. The original site was in Italian, hand-built, with micro contents called Abnominio of satire about the Internet. Then life happened, Puppet consumed most of my professional attention, and abnormalia went dormant. For a long time.
