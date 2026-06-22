@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<article class="post-shell">
+  <header class="post-head">
+    <div class="post-kicker">
+      {% if page.collection == 'ai-blog' %}
+        <a href="{{ '/ai-engineer/' | relative_url }}">AI Engineer</a>
+        <span>/</span>
+        <span>Blog</span>
+      {% elsif page.collection %}
+        <span>{{ page.collection | replace: '-', ' ' }}</span>
+      {% else %}
+        <span>{{ site.title }}</span>
+      {% endif %}
+    </div>
+
+    <h1>{{ page.title }}</h1>
+
+    {% if page.description %}
+      <p class="post-dek">{{ page.description }}</p>
+    {% endif %}
+
+    {% if page.date or page.author %}
+      <div class="post-meta">
+        {% if page.date %}
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d %b %Y" }}</time>
+        {% endif %}
+        {% if page.author %}
+          <span>{{ page.author }}</span>
+        {% endif %}
+      </div>
+    {% endif %}
+  </header>
+
+  <div class="post-body">
