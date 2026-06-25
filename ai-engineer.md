@@ -4,8 +4,6 @@ title: AI Engineer
 permalink: /ai-engineer/
 ---
 
-# AI Engineering
-
 Deep dive into AI engineering — architecture, infrastructure, and practical guides for building, deploying, and maintaining AI systems.
 
 <div class="blog-list">
