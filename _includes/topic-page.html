@@ -3,9 +3,20 @@
   {% if topic_entry.slug == page.topic_slug %}
     {% assign topic = topic_entry %}
   {% endif %}
+  {% if topic_entry.children %}
+    {% for child in topic_entry.children %}
+      {% if child.slug == page.topic_slug %}
+        {% assign topic = child %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 {% endfor %}
 
-{% assign topic_data = site.data.links[page.topic_slug] %}
+{% if topic.data_key %}
+  {% assign topic_data = site.data.links[topic.data_key][page.topic_slug] %}
+{% else %}
+  {% assign topic_data = site.data.links[page.topic_slug] %}
+{% endif %}
 {% assign total_links = 0 %}
 {% if topic_data %}
   {% for category_pair in topic_data %}
