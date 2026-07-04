@@ -70,6 +70,15 @@ nav {
   align-items: center;
 }
 
+.nav-parent::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 130px;
+  height: 100%;
+}
+
 .nav-parent-title {
   cursor: pointer;
   border: 1px solid var(--line);
