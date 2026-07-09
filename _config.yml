@@ -1,11 +1,20 @@
 title: Alvagante
-description: Useful links and daily AI-assisted news digests.
+description: Curated links, AI engineering notes, and daily AI-assisted news digests across AI, security, IT, technology, science, and geopolitics.
 url: "https://alvagante.com"
 baseurl: ""
 logo: /assets/img/alvagante-logo.png
 header_logo: /assets/img/alvagante-logo-horizontal.png
+og_image: /assets/img/alvagante-logo.png
 favicon: /assets/img/alvagante-favicon.png
 timezone: Europe/Rome
+lang: en
+author:
+  name: Alessandro Franceschi
+  url: https://alvagante.com/about/
+  same_as:
+    - https://github.com/alvagante/
+    - https://www.linkedin.com/in/alessandrofranceschi/
+    - https://x.com/alvagante
 company:
   name: Lab42 Srl
   vat_id: IT03677180121
@@ -15,6 +24,7 @@ permalink: pretty
 
 exclude:
   - AGENTS.md
+  - CLAUDE.md
   - .bundle/
   - .dockerignore
   - .github/

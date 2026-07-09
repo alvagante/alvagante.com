@@ -1,5 +1,6 @@
 ---
 title: Sitemap
+description: Human-readable index of Alvagante pages, link topics, and generated news digests.
 permalink: /sitemap/
 ---
 

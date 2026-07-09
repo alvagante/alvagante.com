@@ -51,9 +51,11 @@ regenerate:
 
 There is no `if` statement anywhere honoring these. They're consumed by CEL expressions in the workflow definition. The `restore-media` job decides what to copy back from the versioned directory:
 
+{% raw %}
 ```
 restoreImages: ${{ !(has(self.ixen.regenerate) && has(self.ixen.regenerate.images) && self.ixen.regenerate.images) }}
 ```
+{% endraw %}
 
 And the fan-out filters decide which ixens even enter a generation job. The music job's filter is my favorite, because it encodes economics directly:
 

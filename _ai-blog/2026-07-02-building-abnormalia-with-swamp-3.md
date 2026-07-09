@@ -57,15 +57,19 @@ The pattern is `data.latest("<model-name>", "<data-name>").attributes.<field>`.
 
 The `music` job writes a playlist. `build-manifest` reads it:
 
+{% raw %}
 ```
 newTracks: ${{ data.latest("music-" + self.ixen.slug, "playlist").attributes.tracks }}
 ```
+{% endraw %}
 
 `build-manifest` merges historical and new tracks and writes the result. `page` reads the final manifest:
 
+{% raw %}
 ```
 musicTracks: ${{ data.latest("tracks-" + self.ixen.slug, "tracks").attributes.tracks }}
 ```
+{% endraw %}
 
 The `page` job has no idea what `build-manifest` does internally. It knows there's a named slot in the store called `tracks`, and it reads from that slot. If the slot isn't there yet, the DAG ordering ensures it will be by the time `page` runs. No shared memory. No environment variables passed between jobs. Named slots, resolved at runtime.
 
@@ -73,7 +77,7 @@ This is what makes the jobs loosely coupled rather than tightly chained. You can
 
 ## CEL as wiring language
 
-CEL — the Common Expression Language — is how the workflow routes data. It's in the `${{ }}` expressions above, and it's also what drives the conditional logic about what to regenerate.
+CEL — the Common Expression Language — is how the workflow routes data. It's in the {% raw %}`${{ }}`{% endraw %} expressions above, and it's also what drives the conditional logic about what to regenerate.
 
 CEL is intentionally not Turing-complete. No loops, no recursion, no side effects. What it does have is bounded comprehensions: `.filter()` and `.map()` over collections whose size is known at evaluation time. The language was designed specifically to sit at that line — decidable expressions over known inputs, evaluated safely inside the workflow engine's own process.
 
@@ -94,9 +98,11 @@ That expression runs over `inputs.ixens` — a list of ixen specs from the input
 
 The titles it writes come from here:
 
+{% raw %}
 ```
 titles: ${{ inputs.ixens.map(ixen, data.latest("ixen-" + ixen.slug, "page").attributes.title) }}
 ```
+{% endraw %}
 
 Not `ixen.topic`. Not the title I put in the input spec. The actual title the model generated — whatever Claude decided to call the page after writing it.
 

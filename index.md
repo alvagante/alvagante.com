@@ -1,5 +1,7 @@
 ---
 title: Dashboard
+seo_title: Alvagante
+description: Personal dashboard by Alessandro Franceschi with curated links, AI engineering notes, and daily AI-assisted news digests on AI, security, IT, technology, science, and geopolitics.
 ---
 
 {% assign total_links = 0 %}

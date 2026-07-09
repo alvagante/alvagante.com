@@ -1,5 +1,7 @@
 ---
 title: About
+seo_title: Alessandro Franceschi
+description: Alessandro Franceschi, Italian infrastructure automation consultant, Puppet expert, open source author, and builder of AI-assisted static publishing experiments.
 permalink: /about/
 ---
 

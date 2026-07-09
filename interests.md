@@ -1,5 +1,6 @@
 ---
 title: Interests
+description: Curated topic directories for AI, security, IT, technology, science, and geopolitics, each with hand-picked resources and related digest items.
 permalink: /interests/
 ---
 
@@ -11,39 +12,35 @@ permalink: /interests/
   </div>
 </section>
 
-<section class="link-directory" data-link-list>
-  {% for child in site.data.link_topics[0].children %}
-    {% assign topic_entry = child %}
-    {% assign slug = child.slug %}
-    {% assign topic_data = site.data.links.interests[slug] %}
-    {% assign topic = child %}
-    <section class="topic-section" data-topic-section="{{ slug | escape }}">
-      <header>
-        <div>
-          <p class="eyebrow">{{ slug }}</p>
-          <h2>{{ topic.title }}</h2>
-        </div>
-        <p>{{ topic.description }}</p>
-      </header>
+<section class="topic-section">
+  <header>
+    <div>
+      <p class="eyebrow">Topics</p>
+      <h2>Interest Pages</h2>
+    </div>
+    <p>Open a focused page for links and digest items on each topic.</p>
+  </header>
+
+  <div class="compact-grid">
+    {% for child in site.data.link_topics[0].children %}
+      {% assign topic_data = site.data.links[child.data_key][child.slug] %}
+      {% assign total_links = 0 %}
       {% if topic_data %}
         {% for category_pair in topic_data %}
-          {% assign first_link = category_pair[1] | first %}
-          <section class="category-section" data-category-section="{{ category_pair[0] | escape }}">
-            <div class="category-head">
-              <h3>{{ first_link.category | default: category_pair[0] }}</h3>
-              <span class="count">{{ category_pair[1].size }} links</span>
-            </div>
-            <div class="link-grid">
-              {% for link in category_pair[1] %}
-                {% assign current_category_slug = category_pair[0] %}
-                {% include link-card.html link=link category_slug=current_category_slug topic_slug=slug %}
-              {% endfor %}
-            </div>
-          </section>
+          {% assign total_links = total_links | plus: category_pair[1].size %}
         {% endfor %}
       {% endif %}
-    </section>
-  {% endfor %}
+      <article class="link-card">
+        <div>
+          <p class="eyebrow">{{ child.slug }}</p>
+          <h2><a href="{{ '/' | append: child.slug | append: '/' | relative_url }}">{{ child.title }}</a></h2>
+        </div>
+        <p class="description">{{ child.description }}</p>
+        <div class="chips">
+          <span>{{ topic_data.size | default: 0 }} categories</span>
+          <span>{{ total_links }} links</span>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
 </section>
-
-<p class="empty" data-empty hidden>No matching links.</p>

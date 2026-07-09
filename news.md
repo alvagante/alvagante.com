@@ -1,5 +1,7 @@
 ---
 title: News
+seo_title: Daily AI-Assisted News Digest
+description: Daily AI-assisted digest of news from selected feeds across AI, security, IT, technology, science, and geopolitics.
 permalink: /news/
 ---
 

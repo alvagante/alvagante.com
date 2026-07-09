@@ -1,6 +1,7 @@
 ---
 layout: post
 title: AI Engineer
+description: AI engineering deep dives, notebooks, slides, cheat sheets, infographics, blog posts, and practical notes on building and operating AI systems.
 permalink: /ai-engineer/
 ---
 

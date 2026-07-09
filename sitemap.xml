@@ -1,0 +1,38 @@
+---
+layout: null
+permalink: /sitemap.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- assign sitemap_pages = site.pages | sort: "url" -%}
+{%- for item in sitemap_pages -%}
+  {%- unless item.sitemap == false or item.robots contains "noindex" -%}
+    {%- assign include_url = false -%}
+    {%- if item.url == "/" or item.url contains "/ai-engineer/" or item.url contains "/playbook/" -%}
+      {%- assign include_url = true -%}
+    {%- elsif item.url contains ".xml" or item.url contains ".txt" or item.url contains ".css" or item.url contains ".js" -%}
+      {%- assign include_url = false -%}
+    {%- elsif item.url contains "/assets/" -%}
+      {%- assign include_url = false -%}
+    {%- elsif item.url contains "/" -%}
+      {%- assign include_url = true -%}
+    {%- endif -%}
+    {%- if include_url %}
+  <url>
+    <loc>{{ item.url | absolute_url | xml_escape }}</loc>
+    {% if item.date or item.last_modified_at %}<lastmod>{{ item.last_modified_at | default: item.date | date_to_xmlschema }}</lastmod>{% endif %}
+  </url>
+    {%- endif -%}
+  {%- endunless -%}
+{%- endfor -%}
+{%- assign collection_docs = site.ai-blog | concat: site.ai-notebooks | concat: site.ai-slides | concat: site.ai-cheat-sheets | concat: site.ai-infographics | concat: site.ai-social-posts | sort: "url" -%}
+{%- for item in collection_docs -%}
+  {%- unless item.sitemap == false or item.robots contains "noindex" %}
+  <url>
+    <loc>{{ item.url | absolute_url | xml_escape }}</loc>
+    {% if item.date or item.last_modified_at %}<lastmod>{{ item.last_modified_at | default: item.date | date_to_xmlschema }}</lastmod>{% endif %}
+  </url>
+  {%- endunless -%}
+{%- endfor %}
+</urlset>
