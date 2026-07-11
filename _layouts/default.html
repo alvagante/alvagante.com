@@ -22,6 +22,7 @@
     {% endif %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0d332d">
     <title>{{ full_title | escape }}</title>
     <meta name="description" content="{{ seo_description | escape }}">
     <meta name="robots" content="{{ robots | escape }}">
@@ -48,11 +49,13 @@
     <meta name="twitter:title" content="{{ full_title | escape }}">
     <meta name="twitter:description" content="{{ seo_description | escape }}">
     <meta name="twitter:image" content="{{ seo_image | escape }}">
+    <meta name="twitter:creator" content="@{{ site.social.twitter }}">
     <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "{% if page.collection == 'ai-blog' %}BlogPosting{% elsif is_article %}Article{% elsif page.url == '/' %}WebSite{% else %}WebPage{% endif %}",
+      "@type": "{% if page.collection == 'ai-blog' %}BlogPosting{% elsif is_article %}Article{% else %}WebPage{% endif %}",
+      "@id": {{ canonical_url | append: '#page' | jsonify }},
       "name": {{ full_title | jsonify }},
       "headline": {{ seo_title | default: site.title | jsonify }},
       "description": {{ seo_description | jsonify }},
@@ -60,6 +63,7 @@
       "image": {{ seo_image | jsonify }},
       "publisher": {
         "@type": "Organization",
+        "@id": {{ site.url | append: '/#organization' | jsonify }},
         "name": {{ site.company.name | jsonify }},
         "url": {{ site.url | jsonify }},
         "logo": {
@@ -69,6 +73,7 @@
       },
       "author": {
         "@type": "Person",
+        "@id": {{ site.author.url | append: '#person' | jsonify }},
         "name": {{ page.author | default: site.author.name | jsonify }},
         "url": {{ site.author.url | absolute_url | jsonify }},
         "sameAs": {{ site.author.same_as | jsonify }}
@@ -79,17 +84,32 @@
       {% endif %}
     }
     </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": {{ site.url | append: '/#website' | jsonify }},
+      "url": {{ site.url | append: '/' | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "inLanguage": {{ site.lang | jsonify }},
+      "publisher": { "@id": {{ site.url | append: '/#organization' | jsonify }} }
+    }
+    </script>
   </head>
   <body>
+    <a class="skip-link" href="#content">Skip to content</a>
     <header class="site-header">
-      <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
-        <img src="{{ site.header_logo | default: site.logo | relative_url }}" alt="{{ site.title }} logo">
-      </a>
-      <nav aria-label="Primary">
+      <div class="site-header__inner">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+          <img src="{{ site.header_logo | default: site.logo | relative_url }}" alt="{{ site.title }}">
+          <span>{{ site.tagline }}</span>
+        </a>
+        <nav aria-label="Primary">
         {% for topic in site.data.link_topics %}
           {% if topic.children %}
             <span class="nav-parent">
-              <a class="nav-parent-title" href="{{ '/interests/' | relative_url }}">{{ topic.title }}</a>
+              <a class="nav-parent-title" href="{{ '/interests/' | relative_url }}"{% if page.url == '/interests/' or page.topic_slug %} aria-current="page"{% endif %}>{{ topic.title }}</a>
               <ul class="nav-dropdown">
                 {% for child in topic.children %}
                   <li><a href="{{ '/' | append: child.slug | append: '/' | relative_url }}">{{ child.title }}</a></li>
@@ -98,16 +118,17 @@
             </span>
           {% else %}
             {% if topic.slug == 'ai-engineer' %}
-              <a href="{{ '/ai-engineer/' | relative_url }}">{{ topic.title }}</a>
+              <a href="{{ '/ai-engineer/' | relative_url }}"{% if page.url contains '/ai-engineer/' %} aria-current="page"{% endif %}>{{ topic.title }}</a>
             {% endif %}
           {% endif %}
         {% endfor %}
-        <a href="{{ '/links/' | relative_url }}">Links</a>
-        <a href="{{ '/news/' | relative_url }}">News</a>
-        <a href="{{ '/about/' | relative_url }}">About</a>
-      </nav>
+        <a href="{{ '/links/' | relative_url }}"{% if page.url == '/links/' %} aria-current="page"{% endif %}>Links</a>
+        <a href="{{ '/news/' | relative_url }}"{% if page.url == '/news/' %} aria-current="page"{% endif %}>News</a>
+        <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+        </nav>
+      </div>
     </header>
-    <main>
+    <main id="content">
       {{ content }}
     </main>
     <footer class="site-footer">

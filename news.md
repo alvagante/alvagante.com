@@ -9,6 +9,7 @@ permalink: /news/
   <div>
     <p class="eyebrow">Daily digests</p>
     <h1>News</h1>
+    <p class="lede">A daily, AI-assisted briefing ranked from selected sources. Pick a date or narrow it by topic.</p>
   </div>
 </section>
 

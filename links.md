@@ -26,6 +26,7 @@ permalink: /links/
   <div>
     <p class="eyebrow">Directory</p>
     <h1>Useful Links</h1>
+    <p class="lede">A maintained index of high-signal tools, references, research, and publications.</p>
   </div>
   <span class="count">{{ total_links }} entries</span>
 </section>
@@ -33,7 +34,7 @@ permalink: /links/
 <section class="filters" data-link-filters>
   <label>
     <span>Search</span>
-    <input type="search" placeholder="Search title, URL, notes, tags" data-filter-search>
+    <input type="search" placeholder="Search title, URL, notes, tags" aria-label="Search links" data-filter-search>
   </label>
   <label>
     <span>Topic</span>

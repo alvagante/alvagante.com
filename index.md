@@ -35,14 +35,12 @@ description: Personal dashboard by Alessandro Franceschi with curated links, AI 
 {% endfor %}
 
 <section class="home-summary">
-  <table class="home-summary__table">
-    <tbody>
-      <tr>
-        <td class="home-summary__logo-cell">
+  <div class="home-summary__grid">
+        <div class="home-summary__logo-cell">
           <img class="home-logo" src="{{ site.logo | relative_url }}" alt="Alvagante logo">
-        </td>
-        <td class="home-summary__stats-cell">
-          <p class="eyebrow">Links and daily news about the stuff that matters (to me)</p>
+        </div>
+        <div class="home-summary__stats-cell">
+          <p class="eyebrow">Personal signal, minus the noise</p>
           <div class="home-title-row">
             <h1>Alvagante</h1>
             <nav class="social-links" aria-label="Social profiles">
@@ -63,9 +61,10 @@ description: Personal dashboard by Alessandro Franceschi with curated links, AI 
               </a>
             </nav>
           </div>
+          <p class="lede home-intro">Infrastructure, AI, security, science, technology, and geopolitics — curated links, practical notes, and a fresh news digest every day.</p>
           <div class="stats" aria-label="Site summary">
             <div><strong>{{ total_links }}</strong><span>curated links</span></div>
-            <div><strong>{{ site.data.link_topics.size | minus: 1 }} topics</strong><span>{{ site.data.link_topics.size }} in tree</span></div>
+            <div><strong>{{ site.data.link_topics[0].children.size }}</strong><span>interest topics</span></div>
             <div><strong>{{ category_count }}</strong><span>categories</span></div>
             <div><strong>{{ source_count }}</strong><span>active sources</span></div>
           </div>
@@ -79,10 +78,8 @@ description: Personal dashboard by Alessandro Franceschi with curated links, AI 
               <li><a href="https://labrigatadeigeekestinti.com" target="_blank" rel="noopener">labrigatadeigeekestinti.com</a><span>Italian geek and technology podcast with a rotating crew.</span></li>
             </ul>
           </section>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+        </div>
+  </div>
 
   <div class="topic-tree" data-home-link-picker>
     {% for topic in site.data.link_topics %}
@@ -147,7 +144,7 @@ description: Personal dashboard by Alessandro Franceschi with curated links, AI 
                     <p class="eyebrow">{{ child.title }}</p>
                     <h2>{{ first_link.category | default: category_pair[0] }}</h2>
                   </div>
-                  <a href="{{ '/links/' | relative_url }} #{{ child.slug }}-{{ category_pair[0] | slugify }}">Open directory</a>
+                  <a href="{{ '/links/' | relative_url }}#{{ child.slug }}-{{ category_pair[0] | slugify }}">Open directory</a>
                 </div>
                 <div class="link-grid">
                   {% for link in category_pair[1] %}
@@ -170,7 +167,7 @@ description: Personal dashboard by Alessandro Franceschi with curated links, AI 
                 <p class="eyebrow">{{ topic.title }}</p>
                 <h2>{{ first_link.category | default: category_pair[0] }}</h2>
               </div>
-              <a href="{{ '/links/' | relative_url }} #{{ topic.slug }}-{{ category_pair[0] | slugify }}">Open directory</a>
+              <a href="{{ '/links/' | relative_url }}#{{ topic.slug }}-{{ category_pair[0] | slugify }}">Open directory</a>
             </div>
             <div class="link-grid">
               {% for link in category_pair[1] %}
