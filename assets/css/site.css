@@ -111,12 +111,7 @@ nav {
 }
 
 .nav-parent::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 130px;
-  height: 100%;
+  content: none;
 }
 
 .nav-parent-title {
@@ -139,9 +134,10 @@ nav {
 .nav-dropdown {
   display: none;
   position: absolute;
-  top: 100%;
+  top: calc(100% - 1px);
   left: 0;
   min-width: 130px;
+  margin: 0;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
@@ -151,7 +147,8 @@ nav {
   z-index: 100;
 }
 
-.nav-parent:hover .nav-dropdown {
+.nav-parent:hover .nav-dropdown,
+.nav-parent:focus-within .nav-dropdown {
   display: flex;
   flex-direction: column;
 }
@@ -852,7 +849,17 @@ select {
   font-size: 0.9rem;
 }
 
-.site-footer a { color: rgba(255,255,255,.76); }
+.site-footer a {
+  border-color: rgba(255,255,255,.18);
+  background: transparent;
+  color: rgba(255,255,255,.76);
+}
+
+.site-footer a:hover {
+  border-color: rgba(255,255,255,.38);
+  background: rgba(255,255,255,.08);
+  color: #fff;
+}
 
 .page-head {
   min-height: 210px;
