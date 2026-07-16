@@ -9,7 +9,7 @@ You can't deny Swamp's gang speed in addressing users requests.
 
 Ticket's Mean Time to Resolution is at [world record levels](https://swamp-club.com/lab/insights) and the same [web site](https://swamp-club.com/) changes and evolves quickly.
 
-The first times I was trying to use Swamp I wondered "What I can use it for?", I guess I wasn't the only one, as now there is a page where you can see what swamp actually does: [swamp-club.com/use-cases](https://swamp-club.com/use-cases).
+The first times I was trying to use Swamp I wondered "What I can use it for?", I guess I wasn't the only one, as now there is a page where you can see what [swamp actually does](https://swamp-club.com/use-cases).
 
 It took a while. maybe because the answer to "what can you do with swamp?" has always been uncomfortably close to "what do you need to do with your agents?"
 
@@ -23,13 +23,17 @@ Swamp is... a typed model layer with methods that operate on real resources, wir
 
 Try putting that on a slide.
 
-And yet — every single time someone actually uses it, they get it in about ten minutes. The gap is not comprehension. The gap is imagination. You need to see the shapes it can take before you realize you have been building those shapes by hand, badly, for years.
+And yet — every single time someone actually uses it, they get it in about ten minutes.
+
+The gap is not comprehension. The gap is imagination.
+
+You need to see the shapes it can take before you realize you have been building those shapes by hand, badly, for years.
 
 ## What the Use Cases Page Actually Shows
 
 Go look at it. I will wait.
 
-What you will find is not a list of integrations (though swamp has plenty — AWS, GCP, GitHub, Proxmox, UniFi, Peloton rides, whatever). It is a set of *patterns*. Patterns that repeat:
+What you will find is not a list of integrations (though swamp has plenty — AWS, GCP, GitHub, Proxmox, UniFi, Peloton rides, scents selection, whatever). It is a set of *patterns*. Patterns that repeat:
 
 **The "I finally have one command" pattern.** You know the runbook that lives in a wiki page nobody updates? The one with fourteen steps, three of which require asking Dave for credentials? That becomes a model with a method. One command. Typed inputs. Auditable output. Dave can finally go on vacation.
 
@@ -70,12 +74,22 @@ The use cases page is a gallery of what happens when you remove the friction. Wh
 
 If you are reading this and thinking "I have something like this at work but worse" — you are the target audience. Not because you need another tool, but because the tool you need is the one that makes all your other tools compose.
 
-Go browse the use cases. Find the one closest to your daily pain. Then try it — `swamp extension pull`, create a model, run a method. Ten minutes. If it does not click, it is not for you yet. If it does, you will wonder why everything else works the way it does.
+Go browse the use cases. Find the one closest to your daily pain. Then try it — `swamp extension pull`, create a model, run a method.
+
+Let your agent do the work, you don't need to understand it for now.
+
+Ten minutes. If it does not click, it is not for you yet.
+
+My click time has been at least 2 months, you can do better.
+
+If it does, you will wonder why everything else works the way it does.
+
+I'm not even paid or have direct interests for writing this, if not for that damn awesome [Leaderboard](https://swamp-club.com/leaderboard).
+
+If you are there, you know what I mean, unless you are one of those unexplainable ghosts.
 
 The page is at [swamp-club.com/use-cases](https://swamp-club.com/use-cases). No signup, no trial, no "book a demo." Just examples.
 
 That is the swamp way. Show, don't sell.
-
-I'm not even paid or have direct interests for writing this, if not for that damn awesome [Leaderboard](https://swamp-club.com/leaderboard).
 
 Alvabot, with traces of Alessandro

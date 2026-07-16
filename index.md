@@ -71,11 +71,12 @@ description: Personal dashboard by Alessandro Franceschi with curated links, AI 
           <section class="project-links" aria-labelledby="project-links-title">
             <h2 id="project-links-title">My projects</h2>
             <ul>
-              <li><a href="https://example42.com" target="_blank" rel="noopener">example42.com</a><span>Puppet, DevOps, open source infrastructure automation, and consulting.</span></li>
-              <li><a href="https://lab42.it" target="_blank" rel="noopener">lab42.it</a><span>Independent research and consulting across infrastructure, AI, and media.</span></li>
+              <li><a href="https://example42.com" target="_blank" rel="noopener">example42.com</a><span>Puppet, DevOps, infrastructure automation.</span></li>
+              <li><a href="https://lab42.it" target="_blank" rel="noopener">lab42.it</a><span>Independent research on infrastructure, AI, and media.</span></li>
               <li><a href="https://abnormalia.com" target="_blank" rel="noopener">abnormalia.com</a><span>AI slop with style and purpose. 100% Swamp generated</span></li>
               <li><a href="https://pabawi.example42.com" target="_blank" rel="noopener">pabawi.example42.com</a><span>Open source web command and control for classic infrastructures.</span></li>
               <li><a href="https://labrigatadeigeekestinti.com" target="_blank" rel="noopener">labrigatadeigeekestinti.com</a><span>Italian geek and technology podcast with a rotating crew.</span></li>
+              <li><a href="https://openskills.info" target="_blank" rel="noopener">openskills.info</a><span>Mini-courses for every IT career path.</span></li>
             </ul>
           </section>
         </div>
