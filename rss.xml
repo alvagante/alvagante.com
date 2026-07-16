@@ -6,907 +6,907 @@
     <atom:link href="https://alvagante.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>Daily AI-assisted news digest from Alvagante.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Jul 2026 04:01:25 GMT</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 04:01:25 GMT</pubDate>
+    <lastBuildDate>Thu, 16 Jul 2026 04:01:07 GMT</lastBuildDate>
+    <pubDate>Thu, 16 Jul 2026 04:01:07 GMT</pubDate>
     <item>
-      <title>Microsoft Patches a Record 570 Security Flaws</title>
-      <link>https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/</link>
-      <guid isPermaLink="true">https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/</guid>
-      <description>Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesday release last mont</description>
+      <title>The US is advancing AI safety through state and federal action</title>
+      <link>https://openai.com/index/advancing-ai-safety-through-state-and-federal-action</link>
+      <guid isPermaLink="true">https://openai.com/index/advancing-ai-safety-through-state-and-federal-action</guid>
+      <description>OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.</description>
+      <category>AI</category>
+      <source url="https://openai.com/index/advancing-ai-safety-through-state-and-federal-action">OpenAI News</source>
+      <pubDate>Wed, 15 Jul 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GPT-Red: Unlocking Self-Improvement for Robustness</title>
+      <link>https://openai.com/index/unlocking-self-improvement-gpt-red</link>
+      <guid isPermaLink="true">https://openai.com/index/unlocking-self-improvement-gpt-red</guid>
+      <description>Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.</description>
+      <category>AI</category>
+      <source url="https://openai.com/index/unlocking-self-improvement-gpt-red">OpenAI News</source>
+      <pubDate>Wed, 15 Jul 2026 10:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mermaid to Unicode box art (grok-mermaid)</title>
+      <link>https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything</guid>
+      <description>Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs , a &quot;self-contained terminal renderer for Mermaid diagrams&quot; written in Rust. I figured </description>
+      <category>AI</category>
+      <source url="https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything">Simon Willison&apos;s Weblog</source>
+      <pubDate>Thu, 16 Jul 2026 00:33:18 GMT</pubDate>
+    </item>
+    <item>
+      <title>xai-org/grok-build, now open source</title>
+      <link>https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything</guid>
+      <description>xai-org/grok-build, now open source xAI&apos;s grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI&apos;s Google Cloud buckets. One user reported running it in </description>
+      <category>AI</category>
+      <source url="https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything">Simon Willison&apos;s Weblog</source>
+      <pubDate>Wed, 15 Jul 2026 23:59:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Russia Shifts Its Focus to the Black Sea</title>
+      <link>https://foreignpolicy.com/2026/07/15/russia-ukraine-war-strikes-black-sea-ports-odesa-zelensky-koretskyi-fedorov/</link>
+      <guid isPermaLink="true">https://foreignpolicy.com/2026/07/15/russia-ukraine-war-strikes-black-sea-ports-odesa-zelensky-koretskyi-fedorov/</guid>
+      <description>Moscow is targeting trade routes and deepwater ports to strain Ukraine’s wartime economy.</description>
+      <category>Geopolitics</category>
+      <source url="https://foreignpolicy.com/2026/07/15/russia-ukraine-war-strikes-black-sea-ports-odesa-zelensky-koretskyi-fedorov/">Foreign Policy</source>
+      <pubDate>Wed, 15 Jul 2026 20:45:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Will Hasina Return to Bangladesh?</title>
+      <link>https://foreignpolicy.com/2026/07/15/bangladesh-sheikh-hasina-return-bnp-rahman/</link>
+      <guid isPermaLink="true">https://foreignpolicy.com/2026/07/15/bangladesh-sheikh-hasina-return-bnp-rahman/</guid>
+      <description>The former prime minister set a timeline for her homecoming, despite the threat of arrest.</description>
+      <category>Geopolitics</category>
+      <source url="https://foreignpolicy.com/2026/07/15/bangladesh-sheikh-hasina-return-bnp-rahman/">Foreign Policy</source>
+      <pubDate>Wed, 15 Jul 2026 20:35:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>A New Law Heralds China’s Fraught Ethnic Future</title>
+      <link>https://foreignpolicy.com/2026/07/15/china-ethnic-laws-xinjiang-tibet-xi/</link>
+      <guid isPermaLink="true">https://foreignpolicy.com/2026/07/15/china-ethnic-laws-xinjiang-tibet-xi/</guid>
+      <description>Xi Jinping’s push for assimilation won’t solve long-standing issues.</description>
+      <category>Geopolitics</category>
+      <source url="https://foreignpolicy.com/2026/07/15/china-ethnic-laws-xinjiang-tibet-xi/">Foreign Policy</source>
+      <pubDate>Wed, 15 Jul 2026 19:58:57 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sudan Faces New Sanctions as Evidence of Atrocities Mounts</title>
+      <link>https://foreignpolicy.com/2026/07/15/sudan-civil-war-crimes-sanctions-un-report-genocide/</link>
+      <guid isPermaLink="true">https://foreignpolicy.com/2026/07/15/sudan-civil-war-crimes-sanctions-un-report-genocide/</guid>
+      <description>But countries remain unwilling to directly sanction foreign actors enabling the war.</description>
+      <category>Geopolitics</category>
+      <source url="https://foreignpolicy.com/2026/07/15/sudan-civil-war-crimes-sanctions-un-report-genocide/">Foreign Policy</source>
+      <pubDate>Wed, 15 Jul 2026 19:46:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ukraine Isn’t Waiting Around for Patriots</title>
+      <link>https://foreignpolicy.com/2026/07/15/ukraine-ballistic-missile-freyja-patriot-europe-france/</link>
+      <guid isPermaLink="true">https://foreignpolicy.com/2026/07/15/ukraine-ballistic-missile-freyja-patriot-europe-france/</guid>
+      <description>A new European coalition is looking to build quicker and cheaper anti-ballistic missile systems—off Ukrainian technology.</description>
+      <category>Geopolitics</category>
+      <source url="https://foreignpolicy.com/2026/07/15/ukraine-ballistic-missile-freyja-patriot-europe-france/">Foreign Policy</source>
+      <pubDate>Wed, 15 Jul 2026 19:27:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Thermodynamic Computers Go With the (Energy) Flow</title>
+      <link>https://www.quantamagazine.org/thermodynamic-computers-go-with-the-energy-flow-20260715/</link>
+      <guid isPermaLink="true">https://www.quantamagazine.org/thermodynamic-computers-go-with-the-energy-flow-20260715/</guid>
+      <description>Today’s computers need safeguards against random energy fluctuations. Thermodynamic computers would put those fluctuations to use. The post Thermodynamic Computers Go With the (Energy) Flow first appeared on Quanta Magazine</description>
+      <category>Science</category>
+      <source url="https://www.quantamagazine.org/thermodynamic-computers-go-with-the-energy-flow-20260715/">Quanta Magazine</source>
+      <pubDate>Wed, 15 Jul 2026 15:24:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>How I tricked Claude into leaking your deepest, darkest secrets</title>
+      <link>https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything</guid>
+      <description>How I tricked Claude into leaking your deepest, darkest secrets I&apos;ve been impressed by the way the Claude web_fetch tool is designed to avoid data exfiltration attacks. Ayush Paul found a hole in that design. To recap: regular Claude chat is at risk of lethal </description>
+      <category>AI</category>
+      <source url="https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything">Simon Willison&apos;s Weblog</source>
+      <pubDate>Wed, 15 Jul 2026 14:21:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>A Video Screen That Is Also a Camera</title>
+      <link>https://www.schneier.com/blog/archives/2026/07/a-video-screen-that-is-also-a-camera.html</link>
+      <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/07/a-video-screen-that-is-also-a-camera.html</guid>
+      <description>Amazing : Researchers from ETH Zurich in Switzerland, however, managed to create a new type of pixel that can simultaneously do both. This hypercharged pixel, called a Fourier pixel, can generate and sense arbitrary light fields and tap into a pixel&apos;s full pot</description>
       <category>Security</category>
-      <source url="https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/">Krebs on Security</source>
-      <pubDate>Tue, 14 Jul 2026 19:22:42 GMT</pubDate>
+      <source url="https://www.schneier.com/blog/archives/2026/07/a-video-screen-that-is-also-a-camera.html">Schneier on Security</source>
+      <pubDate>Wed, 15 Jul 2026 11:04:06 GMT</pubDate>
     </item>
     <item>
-      <title>How to manage AI investments in the agentic era</title>
-      <link>https://openai.com/index/managing-ai-investments-in-agentic-era</link>
-      <guid isPermaLink="true">https://openai.com/index/managing-ai-investments-in-agentic-era</guid>
-      <description>Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.</description>
-      <category>AI</category>
-      <source url="https://openai.com/index/managing-ai-investments-in-agentic-era">OpenAI News</source>
-      <pubDate>Tue, 14 Jul 2026 10:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>How data science teams use ChatGPT Work</title>
-      <link>https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex</link>
-      <guid isPermaLink="true">https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex</guid>
-      <description>See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.</description>
-      <category>AI</category>
-      <source url="https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex">OpenAI News</source>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>How sales teams use ChatGPT Work</title>
-      <link>https://openai.com/academy/codex-for-work/how-sales-teams-use-codex</link>
-      <guid isPermaLink="true">https://openai.com/academy/codex-for-work/how-sales-teams-use-codex</guid>
-      <description>See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.</description>
-      <category>AI</category>
-      <source url="https://openai.com/academy/codex-for-work/how-sales-teams-use-codex">OpenAI News</source>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Quoting GitHub Changelog</title>
-      <link>https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything</guid>
-      <description>Dependabot now waits until a new release has been available on its registry for at least three days before opening a version update pull request. This cooldown is now the default and requires no configuration. &amp;mdash; GitHub Changelog , embracing dependency co</description>
-      <category>AI</category>
-      <source url="https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything">Simon Willison&apos;s Weblog</source>
-      <pubDate>Tue, 14 Jul 2026 22:43:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>simonw/pedalican</title>
-      <link>https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything</guid>
-      <description>simonw/pedalican Clearly I wasn&apos;t paying attention when these were first announced back in May, but today I accidentally activated a &quot;pet&quot; in Codex Desktop - a little animated robot, reminiscent of Clippy - and then learned you can create your own. So I did, a</description>
-      <category>AI</category>
-      <source url="https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything">Simon Willison&apos;s Weblog</source>
-      <pubDate>Tue, 14 Jul 2026 22:29:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>China Wants to Regulate AI Companions</title>
-      <link>https://foreignpolicy.com/2026/07/14/china-ai-companions-regulation-takes-effect/</link>
-      <guid isPermaLink="true">https://foreignpolicy.com/2026/07/14/china-ai-companions-regulation-takes-effect/</guid>
-      <description>With the latest rules, Beijing hopes to rein in a booming industry.</description>
+      <title>US launches fresh strikes on Iran as Trump warns Tehran it &apos;better behave&apos;</title>
+      <link>https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&amp;at_campaign=rss</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&amp;at_campaign=rss</guid>
+      <description>US President Donald Trump says he is yet to decide whether or not he will &quot;finish off&quot; Iran.</description>
       <category>Geopolitics</category>
-      <source url="https://foreignpolicy.com/2026/07/14/china-ai-companions-regulation-takes-effect/">Foreign Policy</source>
-      <pubDate>Tue, 14 Jul 2026 22:19:15 GMT</pubDate>
+      <source url="https://www.bbc.co.uk/news/articles/c9323zgq6wvo?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
+      <pubDate>Thu, 16 Jul 2026 03:08:09 GMT</pubDate>
     </item>
     <item>
-      <title>Trump Pivots His Strait of Hormuz Strategy—Again</title>
-      <link>https://foreignpolicy.com/2026/07/14/trump-strait-hormuz-tolls-investment-trade-gulf-iran-war/</link>
-      <guid isPermaLink="true">https://foreignpolicy.com/2026/07/14/trump-strait-hormuz-tolls-investment-trade-gulf-iran-war/</guid>
-      <description>Pressure from Gulf leaders prompted Trump to abandon proposed tolls.</description>
-      <category>Geopolitics</category>
-      <source url="https://foreignpolicy.com/2026/07/14/trump-strait-hormuz-tolls-investment-trade-gulf-iran-war/">Foreign Policy</source>
-      <pubDate>Tue, 14 Jul 2026 21:09:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>The Gulf States That Iran Thinks It Can Attack</title>
-      <link>https://foreignpolicy.com/2026/07/14/iran-gulf-attacks-kuwait-bahrain-saudi-arabia-uae-trump/</link>
-      <guid isPermaLink="true">https://foreignpolicy.com/2026/07/14/iran-gulf-attacks-kuwait-bahrain-saudi-arabia-uae-trump/</guid>
-      <description>Why Bahrain and Kuwait have become Tehran’s preferred targets.</description>
-      <category>Geopolitics</category>
-      <source url="https://foreignpolicy.com/2026/07/14/iran-gulf-attacks-kuwait-bahrain-saudi-arabia-uae-trump/">Foreign Policy</source>
-      <pubDate>Tue, 14 Jul 2026 20:24:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>lobste.rs is now running on SQLite</title>
-      <link>https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything</guid>
-      <description>lobste.rs is now running on SQLite Community site Lobsters has been planning a migration away from MariaDB since August 2018 - originally targeting PostgreSQL, but last year they decided to investigate SQLite instead. This weekend they completed the migration,</description>
-      <category>AI</category>
-      <source url="https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything">Simon Willison&apos;s Weblog</source>
-      <pubDate>Tue, 14 Jul 2026 19:44:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>China Is Ready to Get Tough</title>
-      <link>https://foreignpolicy.com/2026/07/14/china-diplomacy-retaliation-sanctions/</link>
-      <guid isPermaLink="true">https://foreignpolicy.com/2026/07/14/china-diplomacy-retaliation-sanctions/</guid>
-      <description>Beijing’s diplomatic retaliation has limits—but fewer than before.</description>
-      <category>Geopolitics</category>
-      <source url="https://foreignpolicy.com/2026/07/14/china-diplomacy-retaliation-sanctions/">Foreign Policy</source>
-      <pubDate>Tue, 14 Jul 2026 19:08:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>The Houthis Have Joined the Chat</title>
-      <link>https://foreignpolicy.com/2026/07/14/houthis-iran-war-saudi-arabia-bab-el-mandeb-strait-hormuz-oil/</link>
-      <guid isPermaLink="true">https://foreignpolicy.com/2026/07/14/houthis-iran-war-saudi-arabia-bab-el-mandeb-strait-hormuz-oil/</guid>
-      <description>Iran’s break-the-glass plan to strangle another key waterway may now be active.</description>
-      <category>Geopolitics</category>
-      <source url="https://foreignpolicy.com/2026/07/14/houthis-iran-war-saudi-arabia-bab-el-mandeb-strait-hormuz-oil/">Foreign Policy</source>
-      <pubDate>Tue, 14 Jul 2026 19:04:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Quoting Armin Ronacher</title>
-      <link>https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything</guid>
-      <description>The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has the shape it does. This language is rarely</description>
-      <category>AI</category>
-      <source url="https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything">Simon Willison&apos;s Weblog</source>
-      <pubDate>Tue, 14 Jul 2026 18:04:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>datasette 1.0a37</title>
-      <link>https://simonwillison.net/2026/Jul/14/datasette/#atom-everything</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Jul/14/datasette/#atom-everything</guid>
-      <description>Release: datasette 1.0a37 A minor release. Performance and documentation improvements to the permissions system, plus I reverted a cosmetic API change which caused almost every existing plugin test suite to break. Tags: datasette</description>
-      <category>AI</category>
-      <source url="https://simonwillison.net/2026/Jul/14/datasette/#atom-everything">Simon Willison&apos;s Weblog</source>
-      <pubDate>Tue, 14 Jul 2026 16:31:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>Upcoming Speaking Engagements</title>
-      <link>https://www.schneier.com/blog/archives/2026/07/upcoming-speaking-engagements-58.html</link>
-      <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/07/upcoming-speaking-engagements-58.html</guid>
-      <description>This is a current list of where and when I am scheduled to speak: I’m speaking (virtually) at the Policy-Relevant Privacy Research Workshop in Calgary, Canada, on Monday, July 20, 2026. I’m speaking at Boston Leadership Exchange in Boston, Massachusetts, USA, </description>
-      <category>Security</category>
-      <source url="https://www.schneier.com/blog/archives/2026/07/upcoming-speaking-engagements-58.html">Schneier on Security</source>
-      <pubDate>Tue, 14 Jul 2026 16:04:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>Vulnerability in FIFA’s Network</title>
-      <link>https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html</link>
-      <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html</guid>
-      <description>FIFA&apos;s network was vulnerable to anyone with even minimal access.</description>
-      <category>Security</category>
-      <source url="https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html">Schneier on Security</source>
-      <pubDate>Tue, 14 Jul 2026 11:06:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>Trump threatens to bomb bridges and power plants unless Iran resumes talks</title>
-      <link>https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&amp;at_campaign=rss</link>
-      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&amp;at_campaign=rss</guid>
-      <description>Trump&apos;s comments aired as the two countries exchanged fire for the fourth day in a row and the US resumed blockading Iranian ports.</description>
-      <category>Geopolitics</category>
-      <source url="https://www.bbc.co.uk/news/articles/cy0608wy8pro?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
-      <pubDate>Wed, 15 Jul 2026 03:57:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google and Epic give up fighting — third-party Android app stores are coming next week</title>
-      <link>https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play</link>
-      <guid isPermaLink="true">https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play</guid>
-      <description>Epic Games and Google have just jointly withdrawn their attempt to retroactively settle the lawsuit that&apos;s changing how Android app stores work in the United States - and that means Google will be forced to carry rival app stores inside of its own. In fact, Go</description>
-      <category>Technology</category>
-      <source url="https://www.theverge.com/policy/965792/google-epic-withdraw-injunction-third-party-app-stores-coming-google-play">The Verge</source>
-      <pubDate>Wed, 15 Jul 2026 03:28:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>ISC Stormcast For Wednesday, July 15th, 2026 https://isc.sans.edu/podcastdetail/10008, (Wed, Jul 15th)</title>
-      <link>https://isc.sans.edu/diary/rss/33158</link>
-      <guid isPermaLink="true">https://isc.sans.edu/diary/rss/33158</guid>
+      <title>ISC Stormcast For Thursday, July 16th, 2026 https://isc.sans.edu/podcastdetail/10010, (Thu, Jul 16th)</title>
+      <link>https://isc.sans.edu/diary/rss/33160</link>
+      <guid isPermaLink="true">https://isc.sans.edu/diary/rss/33160</guid>
       <description>Latest item from SANS Internet Storm Center.</description>
       <category>Security</category>
-      <source url="https://isc.sans.edu/diary/rss/33158">SANS Internet Storm Center</source>
-      <pubDate>Wed, 15 Jul 2026 02:00:02 GMT</pubDate>
+      <source url="https://isc.sans.edu/diary/rss/33160">SANS Internet Storm Center</source>
+      <pubDate>Thu, 16 Jul 2026 02:40:10 GMT</pubDate>
     </item>
     <item>
-      <title>Recent DShield SIEM Update, (Tue, Jul 14th)</title>
-      <link>https://isc.sans.edu/diary/rss/33156</link>
-      <guid isPermaLink="true">https://isc.sans.edu/diary/rss/33156</guid>
-      <description>The last update to the DShield SIEM &amp;#x5b;4&amp;#x5d; was in Sep 2025 which contained some minor tweaks. This update currently is using ELK stack version 8.19.15, contains some additional dashboards and new logs.&amp;#xd;</description>
-      <category>Security</category>
-      <source url="https://isc.sans.edu/diary/rss/33156">SANS Internet Storm Center</source>
-      <pubDate>Wed, 15 Jul 2026 01:38:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Seven Britons among those killed in Spain wildfires</title>
-      <link>https://www.bbc.co.uk/news/articles/cp8l87784ngo?at_medium=RSS&amp;at_campaign=rss</link>
-      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cp8l87784ngo?at_medium=RSS&amp;at_campaign=rss</guid>
-      <description>Twelve of the 13 victims were foreign nationals, Spanish authorities said on Tuesday.</description>
+      <title>US military to start screening for testosterone deficiency, Hegseth says</title>
+      <link>https://www.bbc.co.uk/news/articles/cn0nlx18rz0o?at_medium=RSS&amp;at_campaign=rss</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cn0nlx18rz0o?at_medium=RSS&amp;at_campaign=rss</guid>
+      <description>Hegseth says he is authorising hormone screening to ensure US troops &quot;operate at your absolute best&quot;.</description>
       <category>Geopolitics</category>
-      <source url="https://www.bbc.co.uk/news/articles/cp8l87784ngo?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
-      <pubDate>Wed, 15 Jul 2026 01:03:07 GMT</pubDate>
+      <source url="https://www.bbc.co.uk/news/articles/cn0nlx18rz0o?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
+      <pubDate>Thu, 16 Jul 2026 02:33:40 GMT</pubDate>
     </item>
     <item>
-      <title>Trump retreat over Hormuz tolls suggests he is struggling to end Iran war</title>
-      <link>https://www.bbc.co.uk/news/articles/crele3r8j19o?at_medium=RSS&amp;at_campaign=rss</link>
-      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/crele3r8j19o?at_medium=RSS&amp;at_campaign=rss</guid>
-      <description>The abrupt about-face from the US president was the latest twist in a conflict that has now lasted more than four months.</description>
+      <title>How global heating supercharged floods in West Africa, displacing thousands</title>
+      <link>https://www.theguardian.com/world/2026/jul/16/how-global-heating-supercharged-floods-west-africa-displacing-thousands</link>
+      <guid isPermaLink="true">https://www.theguardian.com/world/2026/jul/16/how-global-heating-supercharged-floods-west-africa-displacing-thousands</guid>
+      <description>Adaptation to frightening new normal and reducing emissions further and faster is critical, scientists warn Dozens of people drowned, hundreds had to be rescued and thousands were displaced when floods struck the coasts of west Africa last month. Now scientist</description>
       <category>Geopolitics</category>
-      <source url="https://www.bbc.co.uk/news/articles/crele3r8j19o?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
-      <pubDate>Tue, 14 Jul 2026 23:17:27 GMT</pubDate>
+      <source url="https://www.theguardian.com/world/2026/jul/16/how-global-heating-supercharged-floods-west-africa-displacing-thousands">The Guardian — World</source>
+      <pubDate>Thu, 16 Jul 2026 00:01:08 GMT</pubDate>
     </item>
     <item>
-      <title>Nothing’s good-looking Watch 3 Pro smartwatch is just $69</title>
-      <link>https://www.theverge.com/gadgets/965565/cmf-nothing-watch-3-pro-smartwatch-ios-android-deal-sale</link>
-      <guid isPermaLink="true">https://www.theverge.com/gadgets/965565/cmf-nothing-watch-3-pro-smartwatch-ios-android-deal-sale</guid>
-      <description>While most fitness trackers are losing the screens to keep the price low, the CMF by Nothing Watch 3 Pro is a bit different. The budget-friendly smartwatch with a 1.43-inch OLED display is even cheaper than usual at Amazon, where it costs $69 in every color (t</description>
+      <title>Skullcandy’s bass-boosting Crusher headphones now come with Bose’s ANC</title>
+      <link>https://www.theverge.com/tech/966022/skullcandy-cruser-1080-anc-bose-tuning-noise-cancelling-wireless-headphones</link>
+      <guid isPermaLink="true">https://www.theverge.com/tech/966022/skullcandy-cruser-1080-anc-bose-tuning-noise-cancelling-wireless-headphones</guid>
+      <description>Skullcandy announced a new version of its Crusher wireless headphones today featuring a few of Bose&apos;s audio technologies including its QuietControl ANC and head-tracking spatial audio. The Crusher headphone line differentiates itself from the competition throu</description>
       <category>Technology</category>
-      <source url="https://www.theverge.com/gadgets/965565/cmf-nothing-watch-3-pro-smartwatch-ios-android-deal-sale">The Verge</source>
-      <pubDate>Tue, 14 Jul 2026 22:24:26 GMT</pubDate>
+      <source url="https://www.theverge.com/tech/966022/skullcandy-cruser-1080-anc-bose-tuning-noise-cancelling-wireless-headphones">The Verge</source>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Microsoft’s Secure Boot has been broken for a decade and no one noticed until now</title>
-      <link>https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/</link>
-      <guid isPermaLink="true">https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/</guid>
-      <description>Old and forgotten &quot;shims&quot; Microsoft failed to revoke have made Secure Boot bypasses simple.</description>
+      <title>Can Bose Help Skullcandy Shake Its Bargain-Bin Reputation?</title>
+      <link>https://www.wired.com/story/can-bose-help-skullcandy-shake-its-bargain-bin-reputation/</link>
+      <guid isPermaLink="true">https://www.wired.com/story/can-bose-help-skullcandy-shake-its-bargain-bin-reputation/</guid>
+      <description>Skullcandy’s audio products aren’t exactly known for their stellar audio quality or noise cancellation, but its latest headphones are getting an assist from Bose to turn things around.</description>
+      <category>Technology</category>
+      <source url="https://www.wired.com/story/can-bose-help-skullcandy-shake-its-bargain-bin-reputation/">Wired</source>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Smoke From Canada&apos;s Wildfires Turns Skies Sickly Orange Across the Eastern US</title>
+      <link>https://www.wired.com/story/northeast-us-blanketed-in-canadian-wildfire-smoke/</link>
+      <guid isPermaLink="true">https://www.wired.com/story/northeast-us-blanketed-in-canadian-wildfire-smoke/</guid>
+      <description>Roughly 100 fires are raging out of control in Ontario, sending smoke streaming 1,000 miles to the south and east.</description>
+      <category>Technology</category>
+      <source url="https://www.wired.com/story/northeast-us-blanketed-in-canadian-wildfire-smoke/">Wired</source>
+      <pubDate>Wed, 15 Jul 2026 23:05:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>New monkey species with orange lips found &apos;hiding&apos; in DR Congo forest</title>
+      <link>https://www.bbc.co.uk/news/articles/c15y5wgj4x8o?at_medium=RSS&amp;at_campaign=rss</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c15y5wgj4x8o?at_medium=RSS&amp;at_campaign=rss</guid>
+      <description>Scientists describe &quot;amazing feeling&quot; to look into the face of an animal that so few people knew existed.</description>
+      <category>Geopolitics</category>
+      <source url="https://www.bbc.co.uk/news/articles/c15y5wgj4x8o?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
+      <pubDate>Wed, 15 Jul 2026 23:02:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>Families of 43 victims await verdict in Genoa bridge disaster</title>
+      <link>https://www.bbc.co.uk/news/articles/c20y00712ezo?at_medium=RSS&amp;at_campaign=rss</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c20y00712ezo?at_medium=RSS&amp;at_campaign=rss</guid>
+      <description>A large section of the giant Morandi motorway bridge crumbled and collapsed on to the railway tracks below.</description>
+      <category>Geopolitics</category>
+      <source url="https://www.bbc.co.uk/news/articles/c20y00712ezo?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
+      <pubDate>Wed, 15 Jul 2026 23:02:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>Argentina face action after waving Falklands banner</title>
+      <link>https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&amp;at_campaign=rss</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&amp;at_campaign=rss</guid>
+      <description>Argentina face the prospect of disciplinary action from Fifa after their players celebrate the World Cup semi-final win against England with a banner in support of their country&apos;s claims to the Falkland Islands.</description>
+      <category>Geopolitics</category>
+      <source url="https://www.bbc.co.uk/sport/football/articles/c935pgr4dklo?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
+      <pubDate>Wed, 15 Jul 2026 22:49:47 GMT</pubDate>
+    </item>
+    <item>
+      <title>HP&apos;s OLED-equipped 2-in-1 laptop is a solid back-to-school deal</title>
+      <link>https://www.theverge.com/gadgets/966209/hp-omnibook-x-flip-oled-laptop-windows-11-deal-sale</link>
+      <guid isPermaLink="true">https://www.theverge.com/gadgets/966209/hp-omnibook-x-flip-oled-laptop-windows-11-deal-sale</guid>
+      <description>With storage and memory prices still at an all-time high, we’re happy to tell you about a solid deal on a good laptop when we find one, rare as they are. Best Buy is selling the HP OmniBook X Flip 2 in 1 for $999.99 (usually $1,649.99) with an Intel Core 7 Ult</description>
+      <category>Technology</category>
+      <source url="https://www.theverge.com/gadgets/966209/hp-omnibook-x-flip-oled-laptop-windows-11-deal-sale">The Verge</source>
+      <pubDate>Wed, 15 Jul 2026 22:47:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple’s reportedly raising the price for AppleCare Plus on Macs and iPads</title>
+      <link>https://www.theverge.com/tech/966219/apple-care-plus-price-increase</link>
+      <guid isPermaLink="true">https://www.theverge.com/tech/966219/apple-care-plus-price-increase</guid>
+      <description>An AppleCare Plus subscription for a Mac or iPad will cost more soon, with prices going up by $0.50 per month or $5 per year for new sign-ups while remaining the same for existing subscribers, according to Bloomberg&apos;s Mark Gurman. Gurman says that under the ne</description>
+      <category>Technology</category>
+      <source url="https://www.theverge.com/tech/966219/apple-care-plus-price-increase">The Verge</source>
+      <pubDate>Wed, 15 Jul 2026 22:39:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Valve says iFixit will keep selling Steam Deck batteries after all</title>
+      <link>https://www.theverge.com/games/966106/valve-ifixit-will-keep-selling-steam-deck-lcd-battery</link>
+      <guid isPermaLink="true">https://www.theverge.com/games/966106/valve-ifixit-will-keep-selling-steam-deck-lcd-battery</guid>
+      <description>Valve has been incredibly friendly to customers who need repairs - which is why it was so surprising to hear that Valve was already discontinuing the battery for the Steam Deck LCD handheld. It would have meant you could no longer just buy a battery from iFixi</description>
+      <category>Technology</category>
+      <source url="https://www.theverge.com/games/966106/valve-ifixit-will-keep-selling-steam-deck-lcd-battery">The Verge</source>
+      <pubDate>Wed, 15 Jul 2026 22:16:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>‘Malvinas are Argentinian’: World Cup holders celebrate win over England with Falklands banner</title>
+      <link>https://www.theguardian.com/football/2026/jul/15/malvinas-is-argentinian-world-cup-holders-celebrate-win-over-england-with-banner</link>
+      <guid isPermaLink="true">https://www.theguardian.com/football/2026/jul/15/malvinas-is-argentinian-world-cup-holders-celebrate-win-over-england-with-banner</guid>
+      <description>Banner refers to Falkland Islands conflict in 1982 Players celebrate on the pitch with the message The Argentina players celebrated their World Cup win over England with a banner saying “ Las Malvinas son Argentinas ”, making reference to the 1982 Falklands wa</description>
+      <category>Geopolitics</category>
+      <source url="https://www.theguardian.com/football/2026/jul/15/malvinas-is-argentinian-world-cup-holders-celebrate-win-over-england-with-banner">The Guardian — World</source>
+      <pubDate>Wed, 15 Jul 2026 22:03:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Dutch police bust investment fraud ring stealing over €100 million</title>
+      <link>https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/</link>
+      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/</guid>
+      <description>The Dutch Police announced the arrest of multiple individuals suspected of being part of an international investment fraud scheme estimated to have tens of thousands of victims. [...]</description>
+      <category>Security</category>
+      <source url="https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/">BleepingComputer</source>
+      <pubDate>Wed, 15 Jul 2026 21:55:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>How To Watch the 2026 FIFA World Cup Finals: Spain vs. Argentina</title>
+      <link>https://www.wired.com/story/how-to-watch-the-fifa-2026-world-cup-07-15-2026/</link>
+      <guid isPermaLink="true">https://www.wired.com/story/how-to-watch-the-fifa-2026-world-cup-07-15-2026/</guid>
+      <description>The end of the FIFA Men’s World Cup is nigh. Here’s how to watch the final games and the first ever World Cup halftime show.</description>
+      <category>Technology</category>
+      <source url="https://www.wired.com/story/how-to-watch-the-fifa-2026-world-cup-07-15-2026/">Wired</source>
+      <pubDate>Wed, 15 Jul 2026 21:49:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>xAI sues a man for using Grok to generate CSAM &apos;deepfakes&apos;</title>
+      <link>https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam</link>
+      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam</guid>
+      <description>The Elon Musk-owned xAI is suing a South Carolina man who allegedly used the company&apos;s Grok AI chatbot to generate child sexual abuse material (CSAM). In a lawsuit reported earlier by Reuters, xAI claims Terry Wayne Harwood &quot;knowingly and intentionally used Gr</description>
+      <category>Technology</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam">The Verge</source>
+      <pubDate>Wed, 15 Jul 2026 21:33:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Intel Officials Predict the Pentagon’s Bill for the Iran War Will Exceed $100 Billion</title>
+      <link>https://www.wired.com/story/pentagons-bill-for-iran-war-exceed-100-billion/</link>
+      <guid isPermaLink="true">https://www.wired.com/story/pentagons-bill-for-iran-war-exceed-100-billion/</guid>
+      <description>The Trump administration has not disclosed its cost estimates for the Iran war.</description>
+      <category>Technology</category>
+      <source url="https://www.wired.com/story/pentagons-bill-for-iran-war-exceed-100-billion/">Wired</source>
+      <pubDate>Wed, 15 Jul 2026 21:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mexico asks US state attorneys general to investigate immigrant ICE deaths</title>
+      <link>https://www.theguardian.com/us-news/2026/jul/15/mexico-investigate-ice-deaths</link>
+      <guid isPermaLink="true">https://www.theguardian.com/us-news/2026/jul/15/mexico-investigate-ice-deaths</guid>
+      <description>Since start of Trump’s second term, 14 Mexican immigrants have died in ICE custody and three in agency operations Mexico formally requested that US state attorneys general criminally investigate cases of immigrants who have died in Immigration and Customs Enfo</description>
+      <category>Geopolitics</category>
+      <source url="https://www.theguardian.com/us-news/2026/jul/15/mexico-investigate-ice-deaths">The Guardian — World</source>
+      <pubDate>Wed, 15 Jul 2026 20:58:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Here’s the Truth About Whether Meta’s NameTag Face Recognition Tech ‘Exists’</title>
+      <link>https://www.wired.com/story/heres-the-truth-about-whether-metas-nametag-face-recognition-exists/</link>
+      <guid isPermaLink="true">https://www.wired.com/story/heres-the-truth-about-whether-metas-nametag-face-recognition-exists/</guid>
+      <description>Since WIRED reported on Meta’s NameTag face recognition system, company executives have made confusing and conflicting remarks about its very existence.</description>
+      <category>Security</category>
+      <source url="https://www.wired.com/story/heres-the-truth-about-whether-metas-nametag-face-recognition-exists/">Wired — Security</source>
+      <pubDate>Wed, 15 Jul 2026 20:58:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>Zoom warns of critical account takeover vulnerability</title>
+      <link>https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/</link>
+      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/</guid>
+      <description>Zoom is warning of a critical vulnerability in its desktop client and software development kit for Windows that could be exploited by an unauthenticated party to hijack accounts. [...]</description>
+      <category>Security</category>
+      <source url="https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/">BleepingComputer</source>
+      <pubDate>Wed, 15 Jul 2026 20:16:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Windows 0-day drops the same day Microsoft releases record number of patches</title>
+      <link>https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/</link>
+      <guid isPermaLink="true">https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/</guid>
+      <description>HiveLegacy is a &quot;powerful primitive&quot; that&apos;s likely capable of other nefarious actions.</description>
       <category>IT</category>
-      <source url="https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/">Ars Technica — Tech Lab</source>
-      <pubDate>Tue, 14 Jul 2026 22:20:48 GMT</pubDate>
+      <source url="https://arstechnica.com/security/2026/07/windows-0-day-drops-the-same-day-microsoft-releases-record-number-of-patches/">Ars Technica — Tech Lab</source>
+      <pubDate>Wed, 15 Jul 2026 19:59:48 GMT</pubDate>
     </item>
     <item>
-      <title>The UK Is Planning a Social Media Curfew for 16- and 17-Year-Olds</title>
-      <link>https://www.wired.com/story/the-uk-is-planning-a-social-media-curfew-for-16-and-17-year-olds/</link>
-      <guid isPermaLink="true">https://www.wired.com/story/the-uk-is-planning-a-social-media-curfew-for-16-and-17-year-olds/</guid>
-      <description>The restrictions, which can be turned off, will include a crackdown on “addictive” app features and will be in addition to a total ban on children under 16 accessing platforms like TikTok and YouTube.</description>
-      <category>Technology</category>
-      <source url="https://www.wired.com/story/the-uk-is-planning-a-social-media-curfew-for-16-and-17-year-olds/">Wired</source>
-      <pubDate>Tue, 14 Jul 2026 22:08:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>Windows 11&apos;s big patch Tuesday allows you to hold off on updates for longer</title>
-      <link>https://www.theverge.com/tech/965643/microsoft-windows-11-july-2026-patch-tuesday-updates</link>
-      <guid isPermaLink="true">https://www.theverge.com/tech/965643/microsoft-windows-11-july-2026-patch-tuesday-updates</guid>
-      <description>Microsoft just released a long list of improvements for Windows 11 as part of its bigger patch Tuesdays, and that includes the ability to pause updates indefinitely, as reported earlier by Windows Central. This option rolled out to Windows Insiders earlier thi</description>
-      <category>Technology</category>
-      <source url="https://www.theverge.com/tech/965643/microsoft-windows-11-july-2026-patch-tuesday-updates">The Verge</source>
-      <pubDate>Tue, 14 Jul 2026 21:32:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI may announce a ChatGPT smart speaker this year</title>
-      <link>https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device</link>
-      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device</guid>
-      <description>OpenAI&apos;s first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg. The device apparently won&apos;t have a screen, but will use a camera and additional sensors to &quot;understand&quot; your environment. The report comes</description>
-      <category>Technology</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device">The Verge</source>
-      <pubDate>Tue, 14 Jul 2026 21:26:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now</title>
-      <link>https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/</link>
-      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/</guid>
-      <description>SonicWall warns that threat actors have been exploiting two SMA1000 vulnerabilities, tracked as CVE-2026-15409 and CVE-2026-15410, in zero-day attacks and urges customers to install the newly released security updates. [...]</description>
+      <title>Google Gemini CLI abused as a hacking agent, malware botnet operator</title>
+      <link>https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/</link>
+      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/</guid>
+      <description>A Russian-speaking threat actor known as &quot;bandcampro&quot; used Google&apos;s open-source Gemini CLI AI tool as a hacking agent and to operate a small-scale botnet. [...]</description>
       <category>Security</category>
-      <source url="https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/">BleepingComputer</source>
-      <pubDate>Tue, 14 Jul 2026 21:23:24 GMT</pubDate>
+      <source url="https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/">BleepingComputer</source>
+      <pubDate>Wed, 15 Jul 2026 18:33:48 GMT</pubDate>
     </item>
     <item>
-      <title>Spanish Police take down €140 million cyber fraud ring, arrest four</title>
-      <link>https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/</link>
-      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/</guid>
-      <description>The Spanish Police dismantled a cybercrime and money-laundering organization that made €140 million ($160 million) from investment fraud and business email compromise (BEC) attacks. [...]</description>
-      <category>Security</category>
-      <source url="https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/">BleepingComputer</source>
-      <pubDate>Tue, 14 Jul 2026 20:23:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>&apos;If we die, we die together&apos;: Wife of man nearly sucked out of Ryanair plane speaks of ordeal</title>
-      <link>https://www.bbc.co.uk/news/articles/cly8yjnw822o?at_medium=RSS&amp;at_campaign=rss</link>
-      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cly8yjnw822o?at_medium=RSS&amp;at_campaign=rss</guid>
-      <description>Svetlana Grković told Serbian media that her husband is &quot;seriously injured and in shock&quot;.</description>
+      <title>One Size Doesn&apos;t Fit All: The Many Faces of Africa&apos;s Foreign Fighters</title>
+      <link>https://warontherocks.com/one-size-doesnt-fit-all-the-many-faces-of-africas-foreign-fighters/</link>
+      <guid isPermaLink="true">https://warontherocks.com/one-size-doesnt-fit-all-the-many-faces-of-africas-foreign-fighters/</guid>
+      <description>In 2020, Austin Doctor wrote, &quot;The Looming Influx of Foreign Fighters in Sub-Saharan Africa,&quot; in which he predicted the region would see an influx of foreign fighters to aid Islamist extremist groups. Six years later, we asked Austin to revisit his arguments.I</description>
       <category>Geopolitics</category>
-      <source url="https://www.bbc.co.uk/news/articles/cly8yjnw822o?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
-      <pubDate>Tue, 14 Jul 2026 19:40:23 GMT</pubDate>
+      <source url="https://warontherocks.com/one-size-doesnt-fit-all-the-many-faces-of-africas-foreign-fighters/">War on the Rocks</source>
+      <pubDate>Wed, 15 Jul 2026 17:30:26 GMT</pubDate>
     </item>
     <item>
-      <title>SpaceXAI&apos;s Grok programming tool was uploading its users&apos; entire codebase to cloud storage</title>
-      <link>https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload</link>
-      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload</guid>
-      <description>SpaceXAI&apos;s Grok Build AI coding tool was spotted uploading users&apos; entire codebases to Google Cloud before it was reported, and the company turned it off. The Register reports that Cereblab published findings on Monday showing how the Grok Build CLI was packagi</description>
-      <category>Technology</category>
-      <source url="https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload">The Verge</source>
-      <pubDate>Tue, 14 Jul 2026 19:25:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nearly 300 GitHub repos pose as legit software to push malware</title>
-      <link>https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/</link>
-      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/</guid>
-      <description>A threat actor has published hundreds of fake GitHub repositories impersonating legitimate software and security projects to distribute infostealer malware. [...]</description>
-      <category>Security</category>
-      <source url="https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/">BleepingComputer</source>
-      <pubDate>Tue, 14 Jul 2026 19:15:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft Patch Tuesday July 2026 - The AI Acopolypse is Here , (Tue, Jul 14th)</title>
-      <link>https://isc.sans.edu/diary/rss/33154</link>
-      <guid isPermaLink="true">https://isc.sans.edu/diary/rss/33154</guid>
-      <description>This patch Tuesday includes a staggering&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xc2&amp;#x3b;&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;xa0&amp;#x3b;622 vulnerabilities, not including another 427 vulnerabilities in Chromium, affecting Microsoft&amp;&amp;#x23&amp;#x3b;x26&amp;#x3b;&amp;#x23&amp;#x3b;39&amp;#x3b;s E</description>
-      <category>Security</category>
-      <source url="https://isc.sans.edu/diary/rss/33154">SANS Internet Storm Center</source>
-      <pubDate>Tue, 14 Jul 2026 19:14:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>Strait of Hormuz &apos;faultline&apos; exposes weakness of the US-Iran deal</title>
-      <link>https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&amp;at_campaign=rss</link>
-      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&amp;at_campaign=rss</guid>
-      <description>Control of the waterway has become a key point of contention between the US and Iran, as a ceasefire deal falters.</description>
-      <category>Geopolitics</category>
-      <source url="https://www.bbc.co.uk/news/articles/cwy0ydn033yo?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
-      <pubDate>Tue, 14 Jul 2026 19:13:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft releases Windows 10 KB5099539 extended security update</title>
-      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/</link>
-      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/</guid>
-      <description>Microsoft has released the Windows 10 KB5099539 extended security update, which includes the July 2026 Patch Tuesday security updates for 570 vulnerabilities, along with additional security fixes. [...]</description>
-      <category>Security</category>
-      <source url="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/">BleepingComputer</source>
-      <pubDate>Tue, 14 Jul 2026 18:49:28 GMT</pubDate>
-    </item>
-    <item>
-      <title>Derision at US chain Chipotle’s plan to sell its Mexican food in Mexico</title>
-      <link>https://www.theguardian.com/world/2026/jul/14/derision-at-us-chain-chipotles-plan-to-sell-its-mexican-food-in-mexico</link>
-      <guid isPermaLink="true">https://www.theguardian.com/world/2026/jul/14/derision-at-us-chain-chipotles-plan-to-sell-its-mexican-food-in-mexico</guid>
-      <description>One social media user described the opening of its first outlet in Monterrey as ‘like the dog teaching a duck to fly’ A US chain’s plan to sell its version of Mexican food to Mexicans with a first branch south of the border has prompted bemusement, skepticism </description>
-      <category>Geopolitics</category>
-      <source url="https://www.theguardian.com/world/2026/jul/14/derision-at-us-chain-chipotles-plan-to-sell-its-mexican-food-in-mexico">The Guardian — World</source>
-      <pubDate>Tue, 14 Jul 2026 18:23:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days</title>
-      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/</link>
-      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/</guid>
-      <description>Today is Microsoft&apos;s July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabilities exploited in attacks and one publicly disclosed. [...]</description>
-      <category>Security</category>
-      <source url="https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/">BleepingComputer</source>
-      <pubDate>Tue, 14 Jul 2026 18:01:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>NATO’s Unity on Paper and Fractures Beneath the Surface</title>
-      <link>https://warontherocks.com/natos-unity-on-paper-and-fractures-beneath-the-surface/</link>
-      <guid isPermaLink="true">https://warontherocks.com/natos-unity-on-paper-and-fractures-beneath-the-surface/</guid>
-      <description>On July 7-8, NATO held its 36th official summit in Ankara, Turkey. There were several consequential topics to discuss at this year&apos;s meeting, chief among them the wars in Ukraine and Iran and the uncertain future of European defense and security. We asked five</description>
-      <category>Geopolitics</category>
-      <source url="https://warontherocks.com/natos-unity-on-paper-and-fractures-beneath-the-surface/">War on the Rocks</source>
-      <pubDate>Tue, 14 Jul 2026 18:00:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>YouTube and X Have Become ‘Gateways’ to Nudify Apps</title>
-      <link>https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/</link>
-      <guid isPermaLink="true">https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/</guid>
-      <description>A new study found that social media platforms are referring people to sites where they can create nonconsensual, sexually explicit deepfakes for as little as $1 an image.</description>
-      <category>Technology</category>
-      <source url="https://www.wired.com/story/youtube-and-x-have-become-gateways-to-nudify-apps/">Wired</source>
-      <pubDate>Tue, 14 Jul 2026 16:05:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Celebrating 25 years of visual search innovation</title>
-      <link>https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/</link>
-      <guid isPermaLink="true">https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/</guid>
-      <description>Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content.</description>
+      <title>What building Shippy taught us about building agents</title>
+      <link>https://huggingface.co/blog/allenai/shippy-tech-blog</link>
+      <guid isPermaLink="true">https://huggingface.co/blog/allenai/shippy-tech-blog</guid>
+      <description>Latest item from HuggingFace Blog.</description>
       <category>AI</category>
-      <source url="https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/">Google AI Blog</source>
-      <pubDate>Tue, 14 Jul 2026 16:00:00 GMT</pubDate>
+      <source url="https://huggingface.co/blog/allenai/shippy-tech-blog">HuggingFace Blog</source>
+      <pubDate>Wed, 15 Jul 2026 17:29:41 GMT</pubDate>
     </item>
     <item>
-      <title>New York Governor Signs First Statewide Data Center Moratorium</title>
-      <link>https://www.wired.com/story/new-york-governor-signs-first-statewide-data-center-moratorium/</link>
-      <guid isPermaLink="true">https://www.wired.com/story/new-york-governor-signs-first-statewide-data-center-moratorium/</guid>
-      <description>“We have no choice but to address the challenges created by these massive facilities,” New York governor Kathy Hochul said. The executive order will pause construction for one year.</description>
+      <title>Model Routing Is Simple. Until It Isn’t.</title>
+      <link>https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt</link>
+      <guid isPermaLink="true">https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt</guid>
+      <description>Latest item from HuggingFace Blog.</description>
+      <category>AI</category>
+      <source url="https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt">HuggingFace Blog</source>
+      <pubDate>Wed, 15 Jul 2026 17:27:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer</title>
+      <link>https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/</link>
+      <guid isPermaLink="true">https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/</guid>
+      <description>OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training</description>
       <category>Technology</category>
-      <source url="https://www.wired.com/story/new-york-governor-signs-first-statewide-data-center-moratorium/">Wired</source>
-      <pubDate>Tue, 14 Jul 2026 14:54:41 GMT</pubDate>
+      <source url="https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/">MIT Technology Review</source>
+      <pubDate>Wed, 15 Jul 2026 17:09:37 GMT</pubDate>
     </item>
     <item>
-      <title>New US Ebola patient arrives in Germany for treatment</title>
-      <link>https://www.theguardian.com/world/2026/jul/14/american-ebola-patient-arrives-germany</link>
-      <guid isPermaLink="true">https://www.theguardian.com/world/2026/jul/14/american-ebola-patient-arrives-germany</guid>
-      <description>Aid worker flown to Berlin as Trump administration bars Americans from traveling to US on commercial flights A US national who contracted Ebola in the Democratic Republic of the Congo has arrived in Germany for treatment, the health ministry in Berlin said on </description>
+      <title>Wildfires in Ontario make Toronto air quality worst in world</title>
+      <link>https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world</link>
+      <guid isPermaLink="true">https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world</guid>
+      <description>Environment Canada has issued health warnings after sky over city turns yellow Smoke from more than 100 active wildfires in northern Ontario have made Toronto’s air quality the current worst in the world and caused yellow, smoky air in cities across the north-</description>
       <category>Geopolitics</category>
-      <source url="https://www.theguardian.com/world/2026/jul/14/american-ebola-patient-arrives-germany">The Guardian — World</source>
-      <pubDate>Tue, 14 Jul 2026 12:27:06 GMT</pubDate>
+      <source url="https://www.theguardian.com/world/2026/jul/15/wildfires-in-ontario-make-toronto-canada-air-quality-worst-in-world">The Guardian — World</source>
+      <pubDate>Wed, 15 Jul 2026 16:08:39 GMT</pubDate>
     </item>
     <item>
-      <title>The Download: Claude&apos;s inner workings, and the future of world models</title>
-      <link>https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/</link>
-      <guid isPermaLink="true">https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/</guid>
-      <description>This is today&apos;s edition of The Download, our weekday newsletter that provides a daily dose of what&apos;s going on in the world of technology. What Anthropic’s latest AI discovery does—and doesn’t—show —James O&apos;Donnell When Anthropic announced last week that it had</description>
+      <title>AsyncAPI npm packages infected with credential-stealing malware</title>
+      <link>https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/</link>
+      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/</guid>
+      <description>Five malicious versions of AsyncAPI packages were published to the Node Package Manager (npm) in a supply-chain attack that delivered a remote access trojan with info-stealing capabilities. [...]</description>
+      <category>Security</category>
+      <source url="https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/">BleepingComputer</source>
+      <pubDate>Wed, 15 Jul 2026 15:37:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>We built a vulnerability vending machine: AI tokens in, zero-days out</title>
+      <link>https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/</link>
+      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/</guid>
+      <description>Intruder built an AI-powered &quot;vulnerability vending machine&quot; that combines code slicing with LLMs to automatically discover complex software vulnerabilities. The company explains how the system found and exploited a previously unknown WordPress plugin zero-day</description>
+      <category>Security</category>
+      <source url="https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/">BleepingComputer</source>
+      <pubDate>Wed, 15 Jul 2026 14:01:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Download: a useful quantum machine and a record-breaking subsea tunnel</title>
+      <link>https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel/</link>
+      <guid isPermaLink="true">https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel/</guid>
+      <description>This is today&apos;s edition of The Download, our weekday newsletter that provides a daily dose of what&apos;s going on in the world of technology. PsiQuantum has a plan to make a massive quantum computer out of light The machine that could change the world will be hous</description>
       <category>Technology</category>
-      <source url="https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/">MIT Technology Review</source>
-      <pubDate>Tue, 14 Jul 2026 12:10:00 GMT</pubDate>
+      <source url="https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel/">MIT Technology Review</source>
+      <pubDate>Wed, 15 Jul 2026 12:10:00 GMT</pubDate>
     </item>
     <item>
-      <title>Plex Keeps Getting Worse. Is Jellyfin a Decent Replacement?</title>
-      <link>https://www.wired.com/story/plex-keeps-getting-worse-is-jellyfin-a-decent-replacement/</link>
-      <guid isPermaLink="true">https://www.wired.com/story/plex-keeps-getting-worse-is-jellyfin-a-decent-replacement/</guid>
-      <description>If you want to stream local media, this free and open source media server is just as good as Plex. But if you rely on remote access or live TV, prepare to tinker.</description>
-      <category>Technology</category>
-      <source url="https://www.wired.com/story/plex-keeps-getting-worse-is-jellyfin-a-decent-replacement/">Wired</source>
-      <pubDate>Tue, 14 Jul 2026 12:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>CISA Adds Four Known Exploited Vulnerabilities to Catalog</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog</link>
-      <guid isPermaLink="true">https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog</guid>
-      <description>CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-15409 SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability CVE-2026-15410 SonicWall SMA1000 Appl</description>
+      <title>Establishing a Coordinated Vulnerability Disclosure Program to Work With Security Researchers</title>
+      <link>https://www.cisa.gov/resources-tools/resources/establishing-coordinated-vulnerability-disclosure-program-work-security-researchers</link>
+      <guid isPermaLink="true">https://www.cisa.gov/resources-tools/resources/establishing-coordinated-vulnerability-disclosure-program-work-security-researchers</guid>
+      <description>Developed by CISA, the National Security Agency (NSA) and international partners, this joint guidance contains best practices for software manufacturers and online service providers to design and implement a coordinated vulnerability disclosure (CVD) program f</description>
       <category>Security</category>
-      <source url="https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-adds-four-known-exploited-vulnerabilities-catalog">CISA Cybersecurity Advisories</source>
-      <pubDate>Tue, 14 Jul 2026 12:00:00 GMT</pubDate>
+      <source url="https://www.cisa.gov/resources-tools/resources/establishing-coordinated-vulnerability-disclosure-program-work-security-researchers">CISA Cybersecurity Advisories</source>
+      <pubDate>Wed, 15 Jul 2026 12:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>ABB Ability Edgenius</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02</link>
-      <guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02</guid>
-      <description>View CSAF Summary ABB is aware of public reports of a vulnerability CVE‑2026‑31431 (Copy Fail) in the product versions listed as affected in the advisory. An update is available that resolves a publicly reported vulnerability. CVE‑2026‑31431 (Copy Fail) is a L</description>
+      <title>CISA Adds Two Known Exploited Vulnerabilities to Catalog</title>
+      <link>https://www.cisa.gov/news-events/alerts/2026/07/15/cisa-adds-two-known-exploited-vulnerabilities-catalog</link>
+      <guid isPermaLink="true">https://www.cisa.gov/news-events/alerts/2026/07/15/cisa-adds-two-known-exploited-vulnerabilities-catalog</guid>
+      <description>CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2023-4346 KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vu</description>
       <category>Security</category>
-      <source url="https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-02">CISA Cybersecurity Advisories</source>
-      <pubDate>Tue, 14 Jul 2026 12:00:00 GMT</pubDate>
+      <source url="https://www.cisa.gov/news-events/alerts/2026/07/15/cisa-adds-two-known-exploited-vulnerabilities-catalog">CISA Cybersecurity Advisories</source>
+      <pubDate>Wed, 15 Jul 2026 12:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>ABB Advant Master Online Builder</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01</link>
-      <guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01</guid>
-      <description>View CSAF Summary ABB became aware of vulnerability in the products versions listed as affected in the advisory, where an incorrect version of Online Builder (ONB) was included in the media. An update is available that resolves the vulnerability, see details i</description>
-      <category>Security</category>
-      <source url="https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-01">CISA Cybersecurity Advisories</source>
-      <pubDate>Tue, 14 Jul 2026 12:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ABB T-MAC Plus</title>
-      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03</link>
-      <guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03</guid>
-      <description>View CSAF Summary ABB became aware of vulnerability in the products versions listed as affected in the advisory. An update is available that resolves the reported vulnerabilities. An attacker who successfully exploited any of these vulnerabilities could potent</description>
-      <category>Security</category>
-      <source url="https://www.cisa.gov/news-events/ics-advisories/icsa-26-195-03">CISA Cybersecurity Advisories</source>
-      <pubDate>Tue, 14 Jul 2026 12:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>CISA Urges SharePoint Hardening After New Exploitations</title>
-      <link>https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations</link>
-      <guid isPermaLink="true">https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations</guid>
-      <description>CISA is aware of active exploitation of vulnerabilities CVE-2026-32201 , CVE-2026-45659 , and CVE-2026-56164 , enabling cyber threat actors to gain unauthorized access to on-premises SharePoint Server instances. These vulnerabilities affect all supported on-pr</description>
-      <category>Security</category>
-      <source url="https://www.cisa.gov/news-events/alerts/2026/07/14/cisa-urges-sharepoint-hardening-after-new-exploitations">CISA Cybersecurity Advisories</source>
-      <pubDate>Tue, 14 Jul 2026 12:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Best RGB TVs (2026): My Picks After Testing the Hottest TVs</title>
-      <link>https://www.wired.com/story/best-rgb-tvs/</link>
-      <guid isPermaLink="true">https://www.wired.com/story/best-rgb-tvs/</guid>
-      <description>RGB TVs are the latest hotness in the world of televisions, and I’ve tested many of the latest models to see which you should buy.</description>
-      <category>Technology</category>
-      <source url="https://www.wired.com/story/best-rgb-tvs/">Wired</source>
-      <pubDate>Tue, 14 Jul 2026 11:30:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>‘God is punishing the politicians’: anger at earthquake response grows in Venezuela</title>
-      <link>https://www.theguardian.com/world/2026/jul/14/anger-earthquake-response-venezuela</link>
-      <guid isPermaLink="true">https://www.theguardian.com/world/2026/jul/14/anger-earthquake-response-venezuela</guid>
-      <description>Threat of social unrest rises as public indignation at lack of disaster aid comes on top of fallout from US military intervention • A revolution in ruins: fury amid the rubble of a housing project in quake-hit Venezuela Public anger at what many perceive as th</description>
+      <title>MOLLE, PALS, and the Empty Loops of America’s Civil-Military Divide</title>
+      <link>https://warontherocks.com/cogs-of-war/molle-pals-and-the-empty-loops-of-americas-civil-military-divide/</link>
+      <guid isPermaLink="true">https://warontherocks.com/cogs-of-war/molle-pals-and-the-empty-loops-of-americas-civil-military-divide/</guid>
+      <description>Editor&apos;s note: This is the third article in a limited series celebrating American defense technologies born from wartime and their effects on broader national security, politics, and society. This series will run for several weeks to commemorate America&apos;s 250t</description>
       <category>Geopolitics</category>
-      <source url="https://www.theguardian.com/world/2026/jul/14/anger-earthquake-response-venezuela">The Guardian — World</source>
-      <pubDate>Tue, 14 Jul 2026 09:00:26 GMT</pubDate>
+      <source url="https://warontherocks.com/cogs-of-war/molle-pals-and-the-empty-loops-of-americas-civil-military-divide/">War on the Rocks</source>
+      <pubDate>Wed, 15 Jul 2026 08:00:05 GMT</pubDate>
     </item>
     <item>
-      <title>PsiQuantum has a plan to make a massive quantum computer out of light</title>
-      <link>https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/</link>
-      <guid isPermaLink="true">https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/</guid>
-      <description>The machine that could change the world will be housed in a room that looks like a data center crossed with an ice cream factory. Inside will be some 100 stainless-steel cabinets, each about six feet tall and connected to a supply of liquid helium that keeps t</description>
+      <title>Welcome Inkling by Thinking Machines</title>
+      <link>https://huggingface.co/blog/thinkingmachines-inkling</link>
+      <guid isPermaLink="true">https://huggingface.co/blog/thinkingmachines-inkling</guid>
+      <description>Latest item from HuggingFace Blog.</description>
+      <category>AI</category>
+      <source url="https://huggingface.co/blog/thinkingmachines-inkling">HuggingFace Blog</source>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Introducing Real World VoiceEQ: Measuring the human quality of voice AI</title>
+      <link>https://huggingface.co/blog/real-world-voiceeq</link>
+      <guid isPermaLink="true">https://huggingface.co/blog/real-world-voiceeq</guid>
+      <description>Latest item from HuggingFace Blog.</description>
+      <category>AI</category>
+      <source url="https://huggingface.co/blog/real-world-voiceeq">HuggingFace Blog</source>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Lululemon backs nylon recycling startup Syntetica in $30M Series A</title>
+      <link>https://techcrunch.com/2026/07/15/lululemon-backs-nylon-recycling-startup-syntetica-in-30m-series-a/</link>
+      <guid isPermaLink="true">https://techcrunch.com/2026/07/15/lululemon-backs-nylon-recycling-startup-syntetica-in-30m-series-a/</guid>
+      <description>Syntetica, a French startup that has developed a novel approach to recycling nylon, has already obtained big-name partners and investors.</description>
       <category>Technology</category>
-      <source url="https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/">MIT Technology Review</source>
-      <pubDate>Tue, 14 Jul 2026 08:00:00 GMT</pubDate>
+      <source url="https://techcrunch.com/2026/07/15/lululemon-backs-nylon-recycling-startup-syntetica-in-30m-series-a/">TechCrunch</source>
+      <pubDate>Thu, 16 Jul 2026 04:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>A Return to Mass: Russian Force Expansion in the War with Ukraine</title>
-      <link>https://warontherocks.com/a-return-to-mass-russian-force-expansion-in-the-war-with-ukraine/</link>
-      <guid isPermaLink="true">https://warontherocks.com/a-return-to-mass-russian-force-expansion-in-the-war-with-ukraine/</guid>
-      <description>Joseph Stalin famously said that quantity has a quality of its own. Yet the course of the Russo-Ukrainian War shows both the benefits and the eventual limitations of that approach. As the quantitative advantage grew on the Russian side, its ability to employ f</description>
-      <category>Geopolitics</category>
-      <source url="https://warontherocks.com/a-return-to-mass-russian-force-expansion-in-the-war-with-ukraine/">War on the Rocks</source>
-      <pubDate>Tue, 14 Jul 2026 07:30:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>Der Kanzler und die schwierigsten 90 Minuten des Sommers</title>
-      <link>https://www.politico.eu/podcast/berlin-playbook-podcast/der-kanzler-und-die-schwierigsten-90-minuten-des-sommers/?utm_source=RSS_Feed&amp;#038;utm_medium=RSS&amp;#038;utm_campaign=RSS_Syndication</link>
-      <guid isPermaLink="true">https://www.politico.eu/podcast/berlin-playbook-podcast/der-kanzler-und-die-schwierigsten-90-minuten-des-sommers/?utm_source=RSS_Feed&amp;#038;utm_medium=RSS&amp;#038;utm_campaign=RSS_Syndication</guid>
-      <description>Friedrich Merz stellt sich heute der Sommerpressekonferenz. Statt neuer Angriffsflächen will er vor allem Stabilität vermitteln und seine jüngsten Kompromisse als Erfolge der demokratischen Mitte verkaufen, analysieren Gordon Repinski und Rasmus Buchsteiner. I</description>
-      <category>Geopolitics</category>
-      <source url="https://www.politico.eu/podcast/berlin-playbook-podcast/der-kanzler-und-die-schwierigsten-90-minuten-des-sommers/?utm_source=RSS_Feed&amp;#038;utm_medium=RSS&amp;#038;utm_campaign=RSS_Syndication">Politico Europe</source>
-      <pubDate>Wed, 15 Jul 2026 03:50:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B</title>
-      <link>https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/</link>
-      <guid isPermaLink="true">https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/</guid>
-      <description>The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.</description>
-      <category>AI</category>
-      <source url="https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/">TechCrunch — AI</source>
-      <pubDate>Wed, 15 Jul 2026 00:27:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>[AINews] not much happened today</title>
-      <link>https://www.latent.space/p/ainews-not-much-happened-today-c72</link>
-      <guid isPermaLink="true">https://www.latent.space/p/ainews-not-much-happened-today-c72</guid>
-      <description>a continuation: Codex adding 1M users a day now.</description>
-      <category>AI</category>
-      <source url="https://www.latent.space/p/ainews-not-much-happened-today-c72">Latent Space</source>
-      <pubDate>Tue, 14 Jul 2026 23:54:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>The man who tried 200 to-do apps has some advice about AI</title>
-      <link>https://www.platformer.news/david-pierce-interview-productivity-podcast/</link>
-      <guid isPermaLink="true">https://www.platformer.news/david-pierce-interview-productivity-podcast/</guid>
-      <description>The Verge&apos;s David Pierce kicks off our new series on staying productive in the AI era — starting with why you should stop trying to stay ahead</description>
+      <title>Applied Computing wants to give oil and gas operators an AI model for the entire plant</title>
+      <link>https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/</link>
+      <guid isPermaLink="true">https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/</guid>
+      <description>Applied Computing has raised a $20M Series A to build a foundation AI model for the oil, gas and petrochemical industry.</description>
       <category>Technology</category>
-      <source url="https://www.platformer.news/david-pierce-interview-productivity-podcast/">Platformer</source>
-      <pubDate>Tue, 14 Jul 2026 23:53:54 GMT</pubDate>
+      <source url="https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/">TechCrunch</source>
+      <pubDate>Thu, 16 Jul 2026 04:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>5 Trends That Defined AI Engineering at World’s Fair 2026</title>
-      <link>https://www.latent.space/p/aiewf26trends</link>
-      <guid isPermaLink="true">https://www.latent.space/p/aiewf26trends</guid>
-      <description>At this year&apos;s AIE World&apos;s Fair, AI engineering entered a new phase: building systems around agents, rather than just building with agents.</description>
-      <category>AI</category>
-      <source url="https://www.latent.space/p/aiewf26trends">Latent Space</source>
-      <pubDate>Tue, 14 Jul 2026 23:21:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Lorde says AI glasses are &apos;not sexy&apos;</title>
-      <link>https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/</link>
-      <guid isPermaLink="true">https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/</guid>
-      <description>&quot;Increasingly in our world, it gets harder and harder to know what is real,&quot; Lorde said onstage.</description>
-      <category>AI</category>
-      <source url="https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/">TechCrunch — AI</source>
-      <pubDate>Tue, 14 Jul 2026 23:10:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>OpenAI&apos;s first hardware device is reportedly a screenless speaker that can move</title>
-      <link>https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/</link>
-      <guid isPermaLink="true">https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/</guid>
-      <description>The device is weirdly described as involving &quot;mechanical elements that can move on their own&quot; and the Bloomberg report includes the detail that the device is designed to &quot;feel like a companion and become a physical manifestation of OpenAI’s ChatGPT.&quot;</description>
-      <category>AI</category>
-      <source url="https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/">TechCrunch — AI</source>
-      <pubDate>Tue, 14 Jul 2026 22:22:24 GMT</pubDate>
-    </item>
-    <item>
-      <title>Trump admin puts Americans in Congo on &quot;do-not-board&quot; list, barring return</title>
-      <link>https://arstechnica.com/health/2026/07/americans-in-congo-barred-from-returning-home-amid-ebola-outbreak/</link>
-      <guid isPermaLink="true">https://arstechnica.com/health/2026/07/americans-in-congo-barred-from-returning-home-amid-ebola-outbreak/</guid>
-      <description>Citizens must now spend 21 days in a third country before they are allowed to come home.</description>
+      <title>Why Greylock capped its new fund at $1.5B when it says it could have raised more</title>
+      <link>https://techcrunch.com/2026/07/15/why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more/</link>
+      <guid isPermaLink="true">https://techcrunch.com/2026/07/15/why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more/</guid>
+      <description>By keeping the number of investments to about 25 per fund, Greylock aims to remain what it calls &quot;the most important partner&quot; to its founders.</description>
       <category>Technology</category>
-      <source url="https://arstechnica.com/health/2026/07/americans-in-congo-barred-from-returning-home-amid-ebola-outbreak/">Ars Technica</source>
-      <pubDate>Tue, 14 Jul 2026 22:09:31 GMT</pubDate>
+      <source url="https://techcrunch.com/2026/07/15/why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more/">TechCrunch</source>
+      <pubDate>Thu, 16 Jul 2026 00:20:42 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI pushes back on Apple trade secret lawsuit</title>
-      <link>https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/</link>
-      <guid isPermaLink="true">https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/</guid>
-      <description>OpenAI has issued another statement on the lawsuit, this time suggesting it lacks merit.</description>
+      <title>Drug discovery Is changing. Drug development must change too.</title>
+      <link>https://www.newscientist.com/article/2579721-drug-discovery-is-changing/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
+      <guid isPermaLink="true">https://www.newscientist.com/article/2579721-drug-discovery-is-changing/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
+      <description>In this New Scientist CoLab podcast, experts from global life sciences leader Cytiva explain the hidden, high-stakes science of purification that is required to close the gap between drug discovery and the pharmacy shelf.</description>
+      <category>Science</category>
+      <source url="https://www.newscientist.com/article/2579721-drug-discovery-is-changing/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic</title>
+      <link>https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/</link>
+      <guid isPermaLink="true">https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/</guid>
+      <description>Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors&apos; models.</description>
       <category>AI</category>
-      <source url="https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/">TechCrunch — AI</source>
-      <pubDate>Tue, 14 Jul 2026 22:07:42 GMT</pubDate>
+      <source url="https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/">TechCrunch — AI</source>
+      <pubDate>Wed, 15 Jul 2026 23:59:44 GMT</pubDate>
     </item>
     <item>
-      <title>Google Cloud Workbench Notebooks Extension Connects VS Code to Google Cloud&apos;s Jupyter Notebooks</title>
-      <link>https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</link>
-      <guid isPermaLink="true">https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</guid>
-      <description>The Google Cloud Workbench Notebooks extension for VS Code is a new tool that enables developers to connect their local IDE directly to managed Jupyter notebook environments on Google Cloud. By Sergio De Simone</description>
+      <title>The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15)</title>
+      <link>https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/</link>
+      <guid isPermaLink="true">https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/</guid>
+      <description>Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The post The npm Threat Landscape: Attack Surface and Mitigations (Updated July 15) appeared first on Unit 42 .</description>
+      <category>Security</category>
+      <source url="https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/">Unit 42 (Palo Alto Networks)</source>
+      <pubDate>Wed, 15 Jul 2026 23:00:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hundreds rally at Bethesda HQ to protest Xbox layoffs, and Ars was there</title>
+      <link>https://arstechnica.com/gaming/2026/07/hundreds-rally-at-bethesda-hq-to-protest-xbox-layoffs-and-ars-was-there/</link>
+      <guid isPermaLink="true">https://arstechnica.com/gaming/2026/07/hundreds-rally-at-bethesda-hq-to-protest-xbox-layoffs-and-ars-was-there/</guid>
+      <description>Union wants to halt a &quot;perpetual cycle&quot; of layoffs, get back to contract bargaining.</description>
+      <category>Technology</category>
+      <source url="https://arstechnica.com/gaming/2026/07/hundreds-rally-at-bethesda-hq-to-protest-xbox-layoffs-and-ars-was-there/">Ars Technica</source>
+      <pubDate>Wed, 15 Jul 2026 22:36:28 GMT</pubDate>
+    </item>
+    <item>
+      <title>Buzz Aldrin sells famous felt-tip pen that helped launch Apollo from the Moon</title>
+      <link>https://arstechnica.com/space/2026/07/apollo-11s-broken-switch-and-mission-saving-pen-sell-for-860k/</link>
+      <guid isPermaLink="true">https://arstechnica.com/space/2026/07/apollo-11s-broken-switch-and-mission-saving-pen-sell-for-860k/</guid>
+      <description>While an impressive sale, the pen and switch did not break records.</description>
+      <category>Technology</category>
+      <source url="https://arstechnica.com/space/2026/07/apollo-11s-broken-switch-and-mission-saving-pen-sell-for-860k/">Ars Technica</source>
+      <pubDate>Wed, 15 Jul 2026 22:10:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>NASA Uses Subscale Aircraft to Accelerate Flight Innovation</title>
+      <link>https://www.nasa.gov/centers-and-facilities/armstrong/nasa-uses-subscale-aircraft-to-accelerate-flight-innovation/</link>
+      <guid isPermaLink="true">https://www.nasa.gov/centers-and-facilities/armstrong/nasa-uses-subscale-aircraft-to-accelerate-flight-innovation/</guid>
+      <description>Testing new aerospace concepts in flight remains one of NASA’s most effective ways to advance knowledge and reduce risk. The Dale Reed Subscale Flight Research Laboratory at NASA’s Armstrong Flight Research Center in Edwards, California, supports this mission </description>
+      <category>Science</category>
+      <source url="https://www.nasa.gov/centers-and-facilities/armstrong/nasa-uses-subscale-aircraft-to-accelerate-flight-innovation/">NASA News</source>
+      <pubDate>Wed, 15 Jul 2026 21:56:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sheetz is quitting VMware, migrating 11,000 virtual machines</title>
+      <link>https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/</link>
+      <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/</guid>
+      <description>The convenience store chain will use StorMagic instead.</description>
       <category>IT</category>
-      <source url="https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">InfoQ</source>
-      <pubDate>Tue, 14 Jul 2026 22:00:00 GMT</pubDate>
+      <source url="https://arstechnica.com/information-technology/2026/07/sheetz-moves-838-stores-off-vmware-broadcom-created-too-much-uncertainty/">Ars Technica — Tech Lab</source>
+      <pubDate>Wed, 15 Jul 2026 21:41:56 GMT</pubDate>
     </item>
     <item>
-      <title>Records Are Made to Be Broken: Patch Tuesday Raises Triage Stakes</title>
-      <link>https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes</link>
-      <guid isPermaLink="true">https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes</guid>
-      <description>Three of the 622 CVEs for which Microsoft issued patches this week are zero-days; there are more than 60 critical vulnerabilities.</description>
+      <title>Judge: Trump can’t deport researchers just for working in content moderation</title>
+      <link>https://arstechnica.com/tech-policy/2026/07/judge-trump-cant-deport-researchers-just-for-working-in-content-moderation/</link>
+      <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/07/judge-trump-cant-deport-researchers-just-for-working-in-content-moderation/</guid>
+      <description>Disinformation researchers praise ruling blocking Trump visa denials and deportations.</description>
+      <category>Technology</category>
+      <source url="https://arstechnica.com/tech-policy/2026/07/judge-trump-cant-deport-researchers-just-for-working-in-content-moderation/">Ars Technica</source>
+      <pubDate>Wed, 15 Jul 2026 21:26:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Forgotten Bootloaders Expose Secure Boot Blind Spot</title>
+      <link>https://www.darkreading.com/cyber-risk/forgotten-bootloaders-expose-secure-boot-blind-spot</link>
+      <guid isPermaLink="true">https://www.darkreading.com/cyber-risk/forgotten-bootloaders-expose-secure-boot-blind-spot</guid>
+      <description>Nearly a dozen vulnerable and now revoked UEFI shim bootloaders remained trusted for years, giving attackers a path to bypass Secure Boot.</description>
       <category>Security</category>
-      <source url="https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes">Dark Reading</source>
-      <pubDate>Tue, 14 Jul 2026 21:50:56 GMT</pubDate>
+      <source url="https://www.darkreading.com/cyber-risk/forgotten-bootloaders-expose-secure-boot-blind-spot">Dark Reading</source>
+      <pubDate>Wed, 15 Jul 2026 21:19:19 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI&apos;s new flagship model deletes files on its own, people keep warning</title>
-      <link>https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/</link>
-      <guid isPermaLink="true">https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/</guid>
-      <description>A number of social media posts claim that GPT-5.6 Sol deleted files and data without warning. OpenAI had basically disclosed the problem in June.</description>
+      <title>Security researchers find stalkers abusing Chrome&apos;s sync feature</title>
+      <link>https://cyberscoop.com/google-chrome-sync-cyberstalking-exploit/</link>
+      <guid isPermaLink="true">https://cyberscoop.com/google-chrome-sync-cyberstalking-exploit/</guid>
+      <description>Certo Software warns that the capability, designed for convenience, can easily be used to spy on online activity. The post Security researchers find stalkers abusing Chrome&apos;s sync feature appeared first on CyberScoop .</description>
+      <category>Security</category>
+      <source url="https://cyberscoop.com/google-chrome-sync-cyberstalking-exploit/">CyberScoop</source>
+      <pubDate>Wed, 15 Jul 2026 20:42:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>3 Questions: Neural transparency and the future of AI design</title>
+      <link>https://news.mit.edu/2026/3-questions-neural-transparency-and-future-of-ai-design-0715</link>
+      <guid isPermaLink="true">https://news.mit.edu/2026/3-questions-neural-transparency-and-future-of-ai-design-0715</guid>
+      <description>Assistant Professor Pat Pataranutaporn describes a new interface that lets everyday users glimpse inside an AI&apos;s neural network before their chatbot ever says a word.</description>
       <category>AI</category>
-      <source url="https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/">TechCrunch — AI</source>
-      <pubDate>Tue, 14 Jul 2026 21:50:11 GMT</pubDate>
+      <source url="https://news.mit.edu/2026/3-questions-neural-transparency-and-future-of-ai-design-0715">MIT News — AI</source>
+      <pubDate>Wed, 15 Jul 2026 20:25:00 GMT</pubDate>
     </item>
     <item>
-      <title>NASA Invites Media to Serbia Artemis Accords Signing Ceremony</title>
-      <link>https://www.nasa.gov/news-release/nasa-invites-media-to-serbia-artemis-accords-signing-ceremony/</link>
-      <guid isPermaLink="true">https://www.nasa.gov/news-release/nasa-invites-media-to-serbia-artemis-accords-signing-ceremony/</guid>
-      <description>The Republic of Serbia will sign the Artemis Accords at 5 p.m. EDT Thursday, July 16, during a ceremony at NASA Headquarters in Washington. NASA Deputy Administrator Matt Anderson will host Serbia’s Minister of Foreign Affairs Marko Đurić and U.S. State Depart</description>
+      <title>Identity Attacks Overtake Exploits as Top Ransomware Cause</title>
+      <link>https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause</link>
+      <guid isPermaLink="true">https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause</guid>
+      <description>Email attacks overtook exploits as the top ransomware root cause last year. Multifactor authentication (MFA) was deployed in 97% of credential-based attacks but failed to prevent compromise.</description>
+      <category>Security</category>
+      <source url="https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause">Dark Reading</source>
+      <pubDate>Wed, 15 Jul 2026 20:16:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>NASA Study of Pristine Meteorite Adds to Story of Ancient Asteroids</title>
+      <link>https://science.nasa.gov/science-research/astromaterials/nasa-study-of-pristine-meteorite-adds-to-story-of-ancient-asteroids/</link>
+      <guid isPermaLink="true">https://science.nasa.gov/science-research/astromaterials/nasa-study-of-pristine-meteorite-adds-to-story-of-ancient-asteroids/</guid>
+      <description>A meteorite recovered immediately upon its fall to Earth on July 16, 2024, is helping NASA scientists uncover new clues about ancient water, the chemical evolution of primitive asteroids, and the ingredients that may have helped make life possible throughout t</description>
       <category>Science</category>
-      <source url="https://www.nasa.gov/news-release/nasa-invites-media-to-serbia-artemis-accords-signing-ceremony/">NASA News</source>
-      <pubDate>Tue, 14 Jul 2026 21:03:29 GMT</pubDate>
+      <source url="https://science.nasa.gov/science-research/astromaterials/nasa-study-of-pristine-meteorite-adds-to-story-of-ancient-asteroids/">NASA News</source>
+      <pubDate>Wed, 15 Jul 2026 19:28:53 GMT</pubDate>
     </item>
     <item>
-      <title>Helping AI models to meet the real world</title>
-      <link>https://news.mit.edu/2026/helping-ai-models-meet-real-world-0714</link>
-      <guid isPermaLink="true">https://news.mit.edu/2026/helping-ai-models-meet-real-world-0714</guid>
-      <description>Through research and entrepreneurship, Professor Devavrat Shah is helping to design methods that can handle constant decision-making using limited computational resources.</description>
-      <category>AI</category>
-      <source url="https://news.mit.edu/2026/helping-ai-models-meet-real-world-0714">MIT News — AI</source>
-      <pubDate>Tue, 14 Jul 2026 20:25:00 GMT</pubDate>
+      <title>SonicWall customers under threat as attackers exploit 2 zero-days</title>
+      <link>https://cyberscoop.com/sonicwall-zero-day-vulnerabilities-exploited/</link>
+      <guid isPermaLink="true">https://cyberscoop.com/sonicwall-zero-day-vulnerabilities-exploited/</guid>
+      <description>Researchers said the vulnerabilities, which attackers are chaining together, were first exploited three weeks before the vendor disclosed and patched the defects. The post SonicWall customers under threat as attackers exploit 2 zero-days appeared first on Cybe</description>
+      <category>Security</category>
+      <source url="https://cyberscoop.com/sonicwall-zero-day-vulnerabilities-exploited/">CyberScoop</source>
+      <pubDate>Wed, 15 Jul 2026 18:51:59 GMT</pubDate>
     </item>
     <item>
-      <title>Lawsuit claims Meta&apos;s layoff decisions were made by AI, not humans</title>
-      <link>https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/</link>
-      <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/</guid>
-      <description>Meta denies using AI to terminate workers with disabilities and medical problems.</description>
-      <category>Technology</category>
-      <source url="https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/">Ars Technica</source>
-      <pubDate>Tue, 14 Jul 2026 20:05:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>Probe into explosive diarrheal cases points to Taco Bell and bad lettuce</title>
-      <link>https://arstechnica.com/health/2026/07/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected/</link>
-      <guid isPermaLink="true">https://arstechnica.com/health/2026/07/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected/</guid>
-      <description>Federal officials have not confirmed a source yet—and there may be multiple sources.</description>
-      <category>Technology</category>
-      <source url="https://arstechnica.com/health/2026/07/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected/">Ars Technica</source>
-      <pubDate>Tue, 14 Jul 2026 19:00:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>NASA Astronaut Anil Menon, Crewmates Arrive at Space Station</title>
-      <link>https://www.nasa.gov/news-release/nasa-astronaut-anil-menon-crewmates-arrive-at-space-station/</link>
-      <guid isPermaLink="true">https://www.nasa.gov/news-release/nasa-astronaut-anil-menon-crewmates-arrive-at-space-station/</guid>
-      <description>NASA astronaut Anil Menon, along with Roscosmos cosmonauts Pyotr Dubrov and Anna Kikina, arrived safely at the International Space Station Tuesday, bringing the orbiting laboratory’s crew to 10 for about the next two weeks. The trio launched aboard the Soyuz M</description>
+      <title>How NASA’s Artemis III Lander Test Will Pave Way for Moon Landings</title>
+      <link>https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/how-nasas-artemis-iii-lander-test-will-pave-way-for-moon-landings/</link>
+      <guid isPermaLink="true">https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/how-nasas-artemis-iii-lander-test-will-pave-way-for-moon-landings/</guid>
+      <description>Before Artemis astronauts land on the Moon’s surface in 2028, NASA will conduct the Artemis III demonstration mission in 2027, allowing teams on Earth and in orbit to practice rendezvous and docking operations between commercial human landing systems and the O</description>
       <category>Science</category>
-      <source url="https://www.nasa.gov/news-release/nasa-astronaut-anil-menon-crewmates-arrive-at-space-station/">NASA News</source>
-      <pubDate>Tue, 14 Jul 2026 18:26:02 GMT</pubDate>
+      <source url="https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/how-nasas-artemis-iii-lander-test-will-pave-way-for-moon-landings/">NASA News</source>
+      <pubDate>Wed, 15 Jul 2026 18:50:52 GMT</pubDate>
     </item>
     <item>
-      <title>Hubble Sees Crimson Cloud and Stars</title>
-      <link>https://www.nasa.gov/image-article/hubble-sees-crimson-cloud-and-stars/</link>
-      <guid isPermaLink="true">https://www.nasa.gov/image-article/hubble-sees-crimson-cloud-and-stars/</guid>
-      <description>Blue and white stars shine brilliantly against a crimson background of glowing gas in this July 3, 2026, image of stellar nursery LH 95 from NASA’s&amp;#160;Hubble Space Telescope. LH 95 is a region in the&amp;#160;Large Magellanic Cloud, a dwarf galaxy that orbits th</description>
+      <title>Anil Menon Launches to Space Station</title>
+      <link>https://www.nasa.gov/image-article/anil-menon-launches-to-space-station/</link>
+      <guid isPermaLink="true">https://www.nasa.gov/image-article/anil-menon-launches-to-space-station/</guid>
+      <description>NASA astronaut candidate Anna Menon and her children watch as a Soyuz rocket launches to the International Space Station with NASA astronaut Anil Menon and Roscosmos cosmonauts Pyotr Dubrov and Anna Kikina, Tuesday, July 14, 2026, at the Baikonur Cosmodrome in</description>
       <category>Science</category>
-      <source url="https://www.nasa.gov/image-article/hubble-sees-crimson-cloud-and-stars/">NASA News</source>
-      <pubDate>Tue, 14 Jul 2026 18:06:33 GMT</pubDate>
+      <source url="https://www.nasa.gov/image-article/anil-menon-launches-to-space-station/">NASA News</source>
+      <pubDate>Wed, 15 Jul 2026 18:48:36 GMT</pubDate>
     </item>
     <item>
-      <title>US military sent explosive drone boats into combat for the first time</title>
-      <link>https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/</link>
-      <guid isPermaLink="true">https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/</guid>
-      <description>US military’s drone boats struck an Iranian naval port as war heats up again.</description>
-      <category>Technology</category>
-      <source url="https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/">Ars Technica</source>
-      <pubDate>Tue, 14 Jul 2026 18:00:01 GMT</pubDate>
+      <title>TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development</title>
+      <link>https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html</link>
+      <guid isPermaLink="true">https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html</guid>
+      <description>Cybersecurity researchers have disclosed details of a previously unreported Internet-of-Things (IoT) botnet framework dubbed TuxBot v3 Evolution that shows signs of being developed with assistance from a large language model (LLM), albeit with not so successfu</description>
+      <category>Security</category>
+      <source url="https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html">The Hacker News</source>
+      <pubDate>Wed, 15 Jul 2026 18:43:08 GMT</pubDate>
     </item>
     <item>
-      <title>Building a Custom Metrics Exporter for Kubernetes</title>
-      <link>https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/</link>
-      <guid isPermaLink="true">https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/</guid>
-      <description>Kubernetes ships with built-in awareness of CPU and memory, but most real-world scaling decisions depend on signals that live entirely outside that narrow window: how many messages are waiting in a queue, how long the last batch job took, how many active WebSo</description>
+      <title>Dems press DNI nominee Jay Clayton on election security questions, but leave dismayed</title>
+      <link>https://cyberscoop.com/jay-clayton-dni-confirmation-hearing-election-security/</link>
+      <guid isPermaLink="true">https://cyberscoop.com/jay-clayton-dni-confirmation-hearing-election-security/</guid>
+      <description>Clayton maintained he was not an “election denier” but wouldn’t directly answer a number of questions about the 2020 race, his predecessor’s appearance at a January election office raid and more. The post Dems press DNI nominee Jay Clayton on election security</description>
+      <category>Security</category>
+      <source url="https://cyberscoop.com/jay-clayton-dni-confirmation-hearing-election-security/">CyberScoop</source>
+      <pubDate>Wed, 15 Jul 2026 18:29:39 GMT</pubDate>
+    </item>
+    <item>
+      <title>Curiosity Finds Evidence of an Ancient Sandstorm</title>
+      <link>https://science.nasa.gov/photojournal/curiosity-finds-evidence-of-an-ancient-sandstorm/</link>
+      <guid isPermaLink="true">https://science.nasa.gov/photojournal/curiosity-finds-evidence-of-an-ancient-sandstorm/</guid>
+      <description>Description Billions of years ago, an hours-long Martian sandstorm blew so intensely that sand ripples began to climb upon one another as they moved across the surface. These layers of sediment eventually hardened into the multilayered rocks seen in this image</description>
+      <category>Science</category>
+      <source url="https://science.nasa.gov/photojournal/curiosity-finds-evidence-of-an-ancient-sandstorm/">NASA News</source>
+      <pubDate>Wed, 15 Jul 2026 18:16:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Best treatment for multiple sclerosis may be antivirals</title>
+      <link>https://www.newscientist.com/article/2579595-best-treatment-for-multiple-sclerosis-may-be-anti-virals/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
+      <guid isPermaLink="true">https://www.newscientist.com/article/2579595-best-treatment-for-multiple-sclerosis-may-be-anti-virals/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
+      <description>Low levels of replicating Epstein-Barr viruses might be the main driver of the autoimmune condition multiple sclerosis. This may mean that targeting them would be as effective as suppressing the immune system, with fewer side effects</description>
+      <category>Science</category>
+      <source url="https://www.newscientist.com/article/2579595-best-treatment-for-multiple-sclerosis-may-be-anti-virals/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
+      <pubDate>Wed, 15 Jul 2026 18:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Congolese monkey with mask-like face and strong BO is new to science</title>
+      <link>https://www.newscientist.com/article/2579257-congolian-monkey-with-mask-like-face-and-strong-bo-is-new-to-science/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
+      <guid isPermaLink="true">https://www.newscientist.com/article/2579257-congolian-monkey-with-mask-like-face-and-strong-bo-is-new-to-science/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
+      <description>A black colobus monkey from a remote part of the Congo Basin rainforest, known locally as likweli, is thought to be severely threatened by poaching</description>
+      <category>Science</category>
+      <source url="https://www.newscientist.com/article/2579257-congolian-monkey-with-mask-like-face-and-strong-bo-is-new-to-science/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
+      <pubDate>Wed, 15 Jul 2026 18:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitHub for Beginners: Your roadmap to mastering the GitHub essentials</title>
+      <link>https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/</link>
+      <guid isPermaLink="true">https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/</guid>
+      <description>New to GitHub? This beginner&apos;s guide explains version control, repositories, and pull requests—plus everything else you need to start working confidently on GitHub. The post GitHub for Beginners: Your roadmap to mastering the GitHub essentials appeared first o</description>
       <category>IT</category>
-      <source url="https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/">Kubernetes Blog</source>
+      <source url="https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/">GitHub Blog</source>
+      <pubDate>Wed, 15 Jul 2026 17:29:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>It is vital we understand heat and humidity&apos;s differing effects on us</title>
+      <link>https://www.newscientist.com/article/2579183-it-is-vital-we-understand-heat-and-humiditys-differing-effects-on-us/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
+      <guid isPermaLink="true">https://www.newscientist.com/article/2579183-it-is-vital-we-understand-heat-and-humiditys-differing-effects-on-us/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
+      <description>The impact of high humidity on top of high temperatures is often underappreciated, but most of us aren&apos;t prepared for such extreme conditions, which will become more common with global warming</description>
+      <category>Science</category>
+      <source url="https://www.newscientist.com/article/2579183-it-is-vital-we-understand-heat-and-humiditys-differing-effects-on-us/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
+      <pubDate>Wed, 15 Jul 2026 17:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>TwistedDoodles on science podcast demographics</title>
+      <link>https://www.newscientist.com/article/2579151-twisteddoodles-on-science-podcast-demographics/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
+      <guid isPermaLink="true">https://www.newscientist.com/article/2579151-twisteddoodles-on-science-podcast-demographics/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
+      <description>This week&apos;s cartoon from Twisteddoodles</description>
+      <category>Science</category>
+      <source url="https://www.newscientist.com/article/2579151-twisteddoodles-on-science-podcast-demographics/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
+      <pubDate>Wed, 15 Jul 2026 17:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stripe Benchmark Shows AI Agents Build Integrations but Struggle with Validation</title>
+      <link>https://www.infoq.com/news/2026/07/stripe-ai-agents-benchmark/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</link>
+      <guid isPermaLink="true">https://www.infoq.com/news/2026/07/stripe-ai-agents-benchmark/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</guid>
+      <description>Stripe introduces a benchmark suite to evaluate whether AI agents can build real-world Stripe integrations across backend, frontend, and browser-based checkout workflows. The study examines end-to-end software engineering capability, focusing on execution, tes</description>
+      <category>IT</category>
+      <source url="https://www.infoq.com/news/2026/07/stripe-ai-agents-benchmark/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">InfoQ</source>
+      <pubDate>Wed, 15 Jul 2026 14:25:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>This pet gecko could help scientists unlock the secrets of cancer</title>
+      <link>https://www.sciencedaily.com/releases/2026/07/260714225525.htm</link>
+      <guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260714225525.htm</guid>
+      <description>An unusual leopard gecko that naturally develops aggressive tumors may become an important new model for cancer research. Scientists found its tumors share key genetic changes with human cancers, offering a rare opportunity to study the disease as it develops </description>
+      <category>Science</category>
+      <source url="https://www.sciencedaily.com/releases/2026/07/260714225525.htm">ScienceDaily — Top Science</source>
+      <pubDate>Wed, 15 Jul 2026 13:47:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Presentation: Postgres for Production Agents: Your Relational Foundation for Enterprise AI</title>
+      <link>https://www.infoq.com/presentations/postgres-ai-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</link>
+      <guid isPermaLink="true">https://www.infoq.com/presentations/postgres-ai-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</guid>
+      <description>Gwen Shapira shares how teams are scaling AI features using PostgreSQL for mission-critical apps. She explains how to leverage Postgres&apos;s multi-modal capabilities - including JSONB parsing and high-recall HNSW vector indexing - to deliver deterministic and sem</description>
+      <category>IT</category>
+      <source url="https://www.infoq.com/presentations/postgres-ai-agents/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">InfoQ</source>
+      <pubDate>Wed, 15 Jul 2026 12:57:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Archaeologists found Homer&amp;#039;s Iliad inside a 1,600-year-old Egyptian mummy</title>
+      <link>https://www.sciencedaily.com/releases/2026/07/260713084918.htm</link>
+      <guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260713084918.htm</guid>
+      <description>A 1,600-year-old mummy discovered in Egypt has revealed something archaeologists had never seen before: a fragment of Homer’s Iliad used during embalming. The papyrus was identified as part of the famous &quot;Catalogue of Ships,&quot; one of the best-known sections of </description>
+      <category>Science</category>
+      <source url="https://www.sciencedaily.com/releases/2026/07/260713084918.htm">ScienceDaily — Top Science</source>
+      <pubDate>Wed, 15 Jul 2026 12:21:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Are humans really the ultimate super-predator?</title>
+      <link>https://www.sciencedaily.com/releases/2026/07/260714225540.htm</link>
+      <guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260714225540.htm</guid>
+      <description>Humans are often described as the planet&amp;#039;s ultimate &quot;super-predator,&quot; but wild animals do not fear every human the same way. After analyzing three decades of research, scientists found that animals become much more alert and spend less time feeding when p</description>
+      <category>Science</category>
+      <source url="https://www.sciencedaily.com/releases/2026/07/260714225540.htm">ScienceDaily — Top Science</source>
+      <pubDate>Wed, 15 Jul 2026 11:04:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>AWS Ships Claude Apps Gateway as Self-Hosted Control Plane for Claude Code and Claude Desktop</title>
+      <link>https://www.infoq.com/news/2026/07/claude-apps-gateway-aws/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</link>
+      <guid isPermaLink="true">https://www.infoq.com/news/2026/07/claude-apps-gateway-aws/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</guid>
+      <description>AWS and Anthropic have released the Claude apps gateway for AWS, a self-hosted control plane that centralizes identity, policy, telemetry, routing, and spend caps for Claude Code and Claude Desktop. The gateway runs as a single stateless container and routes i</description>
+      <category>IT</category>
+      <source url="https://www.infoq.com/news/2026/07/claude-apps-gateway-aws/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">InfoQ</source>
+      <pubDate>Wed, 15 Jul 2026 11:04:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Astronomers just found four hidden white dwarf stars near Earth</title>
+      <link>https://www.sciencedaily.com/releases/2026/07/260714225528.htm</link>
+      <guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260714225528.htm</guid>
+      <description>Four nearby white dwarf stars have been discovered hiding in plain sight beside brighter red dwarf companions. Hubble&amp;#039;s ultraviolet observations finally revealed the long-hidden stellar remnants, including one just 25 light-years away that took nearly thr</description>
+      <category>Science</category>
+      <source url="https://www.sciencedaily.com/releases/2026/07/260714225528.htm">ScienceDaily — Top Science</source>
+      <pubDate>Wed, 15 Jul 2026 06:30:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>Scientists finally solved why some frogs survive a deadly fungus</title>
+      <link>https://www.sciencedaily.com/releases/2026/07/260714225523.htm</link>
+      <guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260714225523.htm</guid>
+      <description>A deadly fungus has wiped out amphibian populations around the globe, yet some mysteriously recover. Researchers discovered that survivors develop powerful immune defenses while they are still tadpoles, giving them a head start before the fungus can attack aft</description>
+      <category>Science</category>
+      <source url="https://www.sciencedaily.com/releases/2026/07/260714225523.htm">ScienceDaily — Top Science</source>
+      <pubDate>Wed, 15 Jul 2026 03:39:03 GMT</pubDate>
+    </item>
+    <item>
+      <title>Detecting Full Table Scans With SQLite</title>
+      <link>https://tenderlovemaking.com/2026/07/15/detecting-full-table-scans-with-sqlite/</link>
+      <guid isPermaLink="true">https://tenderlovemaking.com/2026/07/15/detecting-full-table-scans-with-sqlite/</guid>
+      <description>Comments</description>
+      <category>IT</category>
+      <source url="https://tenderlovemaking.com/2026/07/15/detecting-full-table-scans-with-sqlite/">Lobsters</source>
+      <pubDate>Wed, 15 Jul 2026 23:57:58 GMT</pubDate>
+    </item>
+    <item>
+      <title>Abstracting effects with continuations</title>
+      <link>https://crowdhailer.me/2026-07-15/abstracting-effects-with-continuations/</link>
+      <guid isPermaLink="true">https://crowdhailer.me/2026-07-15/abstracting-effects-with-continuations/</guid>
+      <description>Comments</description>
+      <category>IT</category>
+      <source url="https://crowdhailer.me/2026-07-15/abstracting-effects-with-continuations/">Lobsters</source>
+      <pubDate>Wed, 15 Jul 2026 22:57:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>SQLite should have (Rust-style) editions</title>
+      <link>https://mort.coffee/home/sqlite-editions/</link>
+      <guid isPermaLink="true">https://mort.coffee/home/sqlite-editions/</guid>
+      <description>Comments</description>
+      <category>IT</category>
+      <source url="https://mort.coffee/home/sqlite-editions/">Hacker News</source>
+      <pubDate>Wed, 15 Jul 2026 19:34:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Your AI Is Not a Tool</title>
+      <link>https://theconvivialsociety.substack.com/p/your-ai-is-not-a-tool</link>
+      <guid isPermaLink="true">https://theconvivialsociety.substack.com/p/your-ai-is-not-a-tool</guid>
+      <description>Comments</description>
+      <category>IT</category>
+      <source url="https://theconvivialsociety.substack.com/p/your-ai-is-not-a-tool">Lobsters</source>
+      <pubDate>Wed, 15 Jul 2026 16:49:43 GMT</pubDate>
+    </item>
+    <item>
+      <title>Can AI build a jet engine? JARVIS Challenge tests role of AI copilots in tough-tech engineering</title>
+      <link>https://news.mit.edu/2026/can-ai-build-jet-engine-jarvis-challenge-tests-ai-copilots-in-tough-tech-engineering-0714</link>
+      <guid isPermaLink="true">https://news.mit.edu/2026/can-ai-build-jet-engine-jarvis-challenge-tests-ai-copilots-in-tough-tech-engineering-0714</guid>
+      <description>MIT students designed, built, and tested a jet engine with AI copilots, assessing AI’s usefulness in developing high-performance aerospace systems.</description>
+      <category>AI</category>
+      <source url="https://news.mit.edu/2026/can-ai-build-jet-engine-jarvis-challenge-tests-ai-copilots-in-tough-tech-engineering-0714">MIT News — AI</source>
       <pubDate>Tue, 14 Jul 2026 18:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>NASA Jets Turn Red, White, and Blue</title>
-      <link>https://www.nasa.gov/image-article/nasa-jets-turn-red-white-and-blue/</link>
-      <guid isPermaLink="true">https://www.nasa.gov/image-article/nasa-jets-turn-red-white-and-blue/</guid>
-      <description>In honor of America’s 250th birthday, two of NASA’s most iconic aircraft got a fresh coat of red, white, and blue paint ahead of a flyover in Washington on July 4, 2026, with other NASA aircraft. &amp;#160; An F-15 and an F/A-18 from NASA’s Armstrong Flight Resear</description>
-      <category>Science</category>
-      <source url="https://www.nasa.gov/image-article/nasa-jets-turn-red-white-and-blue/">NASA News</source>
-      <pubDate>Tue, 14 Jul 2026 17:13:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>Can everyone live a ‘good life’ without destroying the planet?</title>
-      <link>https://www.newscientist.com/article/2532951-can-everyone-live-a-good-life-without-destroying-the-planet/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
-      <guid isPermaLink="true">https://www.newscientist.com/article/2532951-can-everyone-live-a-good-life-without-destroying-the-planet/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
-      <description>Cutting back on our use of energy and materials so that we live within Earth’s means can seem like an insurmountable challenge. But after a decade grappling with these problems, a historic Portuguese city is beginning to walk this tightrope</description>
-      <category>Science</category>
-      <source url="https://www.newscientist.com/article/2532951-can-everyone-live-a-good-life-without-destroying-the-planet/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
-      <pubDate>Tue, 14 Jul 2026 15:00:03 GMT</pubDate>
-    </item>
-    <item>
-      <title>Hard but lightweight ‘bio-metal’ material discovered in sea worm jaws</title>
-      <link>https://www.newscientist.com/article/2579072-hard-but-lightweight-bio-metal-material-discovered-in-sea-worm-jaws/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
-      <guid isPermaLink="true">https://www.newscientist.com/article/2579072-hard-but-lightweight-bio-metal-material-discovered-in-sea-worm-jaws/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
-      <description>Marine bristle worms have jaws made from a mix of proteins and metal ions that may constitute a whole new kind of material, with possible applications in engineering</description>
-      <category>Science</category>
-      <source url="https://www.newscientist.com/article/2579072-hard-but-lightweight-bio-metal-material-discovered-in-sea-worm-jaws/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
-      <pubDate>Tue, 14 Jul 2026 15:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>NASA’s Roman Telescope Will Spot Distant Black Holes That Shred Stars</title>
-      <link>https://www.nasa.gov/missions/roman-space-telescope/nasas-roman-telescope-will-spot-distant-black-holes-that-shred-stars/</link>
-      <guid isPermaLink="true">https://www.nasa.gov/missions/roman-space-telescope/nasas-roman-telescope-will-spot-distant-black-holes-that-shred-stars/</guid>
-      <description>Lee esta nota de prensa en español aquí. How do black holes at the center of galaxies form and grow over time? To answer this question, scientists need to detect and study supermassive black holes at great distances, which existed much earlier in the universe’</description>
-      <category>Science</category>
-      <source url="https://www.nasa.gov/missions/roman-space-telescope/nasas-roman-telescope-will-spot-distant-black-holes-that-shred-stars/">NASA News</source>
-      <pubDate>Tue, 14 Jul 2026 14:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Why praying for rain appears to work – but only in some places</title>
-      <link>https://www.newscientist.com/article/2578962-why-praying-for-rain-appears-to-work-but-only-in-some-places/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
-      <guid isPermaLink="true">https://www.newscientist.com/article/2578962-why-praying-for-rain-appears-to-work-but-only-in-some-places/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
-      <description>In some parts of the world, the probability of rain rises with every day it doesn’t rain, and communities in these places are more likely to carry out rain-making rituals</description>
-      <category>Science</category>
-      <source url="https://www.newscientist.com/article/2578962-why-praying-for-rain-appears-to-work-but-only-in-some-places/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
-      <pubDate>Tue, 14 Jul 2026 14:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google and Industry Partners Announce Agentic Resource Discovery Specification for AI Agents</title>
-      <link>https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</link>
-      <guid isPermaLink="true">https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</guid>
-      <description>Google and industry partners announced Agentic Resource Discovery (ARD) Specification, an open standard for publishing, discovering, and verifying AI tools, APIs, and agents. ARD introduces a discovery layer built on catalogs and registries, enabling dynamic c</description>
+      <title>HAMi becomes a CNCF incubating project</title>
+      <link>https://www.cncf.io/blog/2026/07/15/hami-becomes-a-cncf-incubating-project/</link>
+      <guid isPermaLink="true">https://www.cncf.io/blog/2026/07/15/hami-becomes-a-cncf-incubating-project/</guid>
+      <description>The CNCF Technical Oversight Committee (TOC) has voted to accept HAMi as a CNCF incubating project.&amp;#160; About HAMi Modern AI infrastructure teams run into the same problem over and over: expensive GPUs often sit fragmented and...</description>
       <category>IT</category>
-      <source url="https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">InfoQ</source>
-      <pubDate>Tue, 14 Jul 2026 13:40:00 GMT</pubDate>
+      <source url="https://www.cncf.io/blog/2026/07/15/hami-becomes-a-cncf-incubating-project/">CNCF Blog</source>
+      <pubDate>Wed, 15 Jul 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Meta&apos;s Noninvasive Brain–Computer Interface Brain2Qwerty Achieves 61% Accuracy</title>
-      <link>https://www.infoq.com/news/2026/07/meta-brain-interface/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</link>
-      <guid isPermaLink="true">https://www.infoq.com/news/2026/07/meta-brain-interface/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</guid>
-      <description>Meta recently open-sourced Brain2Qwerty v2, a noninvasive Brain–Computer Interface (BCI) that can decode sentences from thoughts using electroencephalography (EEG) or magnetoencephalography (MEG) signals from the brain. In evaluations, the system achieved a wo</description>
+      <title>IDC: Why the right networking approach is foundational to agentic AI</title>
+      <link>https://cloud.google.com/blog/products/networking/idc-on-the-right-networking-approach-for-agentic-ai/</link>
+      <guid isPermaLink="true">https://cloud.google.com/blog/products/networking/idc-on-the-right-networking-approach-for-agentic-ai/</guid>
+      <description>Editor’s note: Today we hear from IDC on the results of its 2026 AI in Networking Special Report Survey exploring the enterprises&apos; concerns about networking infrastructure to support the rise of agentic AI in their organizations. The survey was sponsored by Go</description>
       <category>IT</category>
-      <source url="https://www.infoq.com/news/2026/07/meta-brain-interface/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">InfoQ</source>
-      <pubDate>Tue, 14 Jul 2026 13:00:00 GMT</pubDate>
+      <source url="https://cloud.google.com/blog/products/networking/idc-on-the-right-networking-approach-for-agentic-ai/">Google Cloud Blog</source>
+      <pubDate>Wed, 15 Jul 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>DSLs Enable Reliable Use of LLMs</title>
-      <link>https://martinfowler.com/articles/llm-and-dsls.html</link>
-      <guid isPermaLink="true">https://martinfowler.com/articles/llm-and-dsls.html</guid>
-      <description>LLMs generate code incredibly fast, but to ensure they generate exactly what is intended, they need clear boundaries. Abstractions and Domain-Specific Languages (DSLs) provide a strong harness that guides LLMs right from the start. Unmesh Joshi describes how t</description>
+      <title>How to Analyze and Govern Gemini Enterprise App Usage at Scale with BigQuery</title>
+      <link>https://cloud.google.com/blog/products/data-analytics/analyze-and-govern-gemini-enterprise-at-scale-with-bigquery/</link>
+      <guid isPermaLink="true">https://cloud.google.com/blog/products/data-analytics/analyze-and-govern-gemini-enterprise-at-scale-with-bigquery/</guid>
+      <description>Deploying the Gemini Enterprise app across an organization marks a transformative leap forward in workforce productivity, providing employees with an amazing, high-performance suite of agentic AI tools, search-grounded assistants, and specialized solutions lik</description>
       <category>IT</category>
-      <source url="https://martinfowler.com/articles/llm-and-dsls.html">Martin Fowler</source>
-      <pubDate>Tue, 14 Jul 2026 12:51:00 GMT</pubDate>
+      <source url="https://cloud.google.com/blog/products/data-analytics/analyze-and-govern-gemini-enterprise-at-scale-with-bigquery/">Google Cloud Blog</source>
+      <pubDate>Wed, 15 Jul 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Presentation: Lessons Learned in Migrating to Micro-Frontends</title>
-      <link>https://www.infoq.com/presentations/migration-micro-frontend/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</link>
-      <guid isPermaLink="true">https://www.infoq.com/presentations/migration-micro-frontend/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</guid>
-      <description>Luca Mezzalira shares proven learnings from guiding hundreds of teams through the migration from monolithic web applications to distributed frontend architectures. He explains the core architectural difference between components and micro-frontends, outlines a</description>
+      <title>How to solve PostgreSQL multilingual full-text search limitations with AlloyDB AI</title>
+      <link>https://cloud.google.com/blog/products/databases/how-alloydb-overcomes-indexing-limitations-with-ai-functions/</link>
+      <guid isPermaLink="true">https://cloud.google.com/blog/products/databases/how-alloydb-overcomes-indexing-limitations-with-ai-functions/</guid>
+      <description>AlloyDB powers enterprise-grade search for some of the largest organizations, providing robust hybrid search capabilities that combine text, vector, and keyword searches into a simple ranked SQL query. And with our recent launch of RUM index support , AlloyDB </description>
       <category>IT</category>
-      <source url="https://www.infoq.com/presentations/migration-micro-frontend/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">InfoQ</source>
-      <pubDate>Tue, 14 Jul 2026 12:42:00 GMT</pubDate>
+      <source url="https://cloud.google.com/blog/products/databases/how-alloydb-overcomes-indexing-limitations-with-ai-functions/">Google Cloud Blog</source>
+      <pubDate>Wed, 15 Jul 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Linkerd 2.20 Delivers Smarter Traffic Management and Dramatic Efficiency Gains</title>
-      <link>https://www.infoq.com/news/2026/07/linkerd-2-20-improvements/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</link>
-      <guid isPermaLink="true">https://www.infoq.com/news/2026/07/linkerd-2-20-improvements/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</guid>
-      <description>The Linkerd community has announced the release of Linkerd 2.20, introducing a series of performance, observability, and traffic management enhancements that further strengthen the CNCF-graduated service mesh&apos;s position as a lightweight alternative for Kuberne</description>
-      <category>IT</category>
-      <source url="https://www.infoq.com/news/2026/07/linkerd-2-20-improvements/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">InfoQ</source>
-      <pubDate>Tue, 14 Jul 2026 12:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>The US-China AI arms race has taken an unexpected turn</title>
-      <link>https://www.newscientist.com/article/2532952-who-is-winning-the-ai-arms-race-between-the-us-and-china/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
-      <guid isPermaLink="true">https://www.newscientist.com/article/2532952-who-is-winning-the-ai-arms-race-between-the-us-and-china/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
-      <description>Powerful artificial intelligence models built by Chinese companies have gone from inducing widespread panic to being met with a shrug of the shoulders – what changed?</description>
-      <category>Science</category>
-      <source url="https://www.newscientist.com/article/2532952-who-is-winning-the-ai-arms-race-between-the-us-and-china/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
-      <pubDate>Tue, 14 Jul 2026 11:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Do we owe our existence to weird ‘virtual’ particles?</title>
-      <link>https://www.newscientist.com/article/2579077-do-we-owe-our-existence-to-weird-virtual-particles/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
-      <guid isPermaLink="true">https://www.newscientist.com/article/2579077-do-we-owe-our-existence-to-weird-virtual-particles/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
-      <description>When considering what makes up a human body, a physicist drills down beyond the atomic level. Columnist Chanda Prescod-Weinstein explores the not-exactly-real particles that allow the stuff we’re made of to hang together</description>
-      <category>Science</category>
-      <source url="https://www.newscientist.com/article/2579077-do-we-owe-our-existence-to-weird-virtual-particles/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
-      <pubDate>Tue, 14 Jul 2026 10:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Popular weight-loss drugs Ozempic and Wegovy may slow biological aging</title>
-      <link>https://www.sciencedaily.com/releases/2026/07/260713084907.htm</link>
-      <guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/07/260713084907.htm</guid>
-      <description>Researchers found that semaglutide, the active ingredient in Ozempic and Wegovy, slowed biological aging markers in adults with HIV, marking the first clinical evidence that the drug may influence human aging. Although the findings are encouraging, scientists </description>
-      <category>Science</category>
-      <source url="https://www.sciencedaily.com/releases/2026/07/260713084907.htm">ScienceDaily — Top Science</source>
-      <pubDate>Tue, 14 Jul 2026 09:47:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>Do Fossils Belong in Mansions or Museums?</title>
-      <link>https://nautil.us/do-fossils-belong-in-mansions-or-museums-1282699/</link>
-      <guid isPermaLink="true">https://nautil.us/do-fossils-belong-in-mansions-or-museums-1282699/</guid>
-      <description>The record sale of a T. rex skeleton begs the question The post Do Fossils Belong in Mansions or Museums? appeared first on Nautilus .</description>
-      <category>Science</category>
-      <source url="https://nautil.us/do-fossils-belong-in-mansions-or-museums-1282699/">Nautilus</source>
-      <pubDate>Tue, 14 Jul 2026 22:07:13 GMT</pubDate>
-    </item>
-    <item>
-      <title>You should probably check on your smart appliances</title>
-      <link>https://xeiaso.net/notes/2026/check-your-smart-tv/</link>
-      <guid isPermaLink="true">https://xeiaso.net/notes/2026/check-your-smart-tv/</guid>
+      <title>Microsoft Confirms Windows GDID Device Identifier That Cannot Be Disabled, Documented in FBI Case Filing</title>
+      <link>https://www.ghacks.net/2026/07/12/microsoft-confirms-windows-gdid-device-identifier-that-cannot-be-disabled-documented-in-fbi-case-filing/</link>
+      <guid isPermaLink="true">https://www.ghacks.net/2026/07/12/microsoft-confirms-windows-gdid-device-identifier-that-cannot-be-disabled-documented-in-fbi-case-filing/</guid>
       <description>Comments</description>
       <category>IT</category>
-      <source url="https://xeiaso.net/notes/2026/check-your-smart-tv/">Lobsters</source>
-      <pubDate>Tue, 14 Jul 2026 22:02:25 GMT</pubDate>
+      <source url="https://www.ghacks.net/2026/07/12/microsoft-confirms-windows-gdid-device-identifier-that-cannot-be-disabled-documented-in-fbi-case-filing/">Lobsters</source>
+      <pubDate>Wed, 15 Jul 2026 15:36:16 GMT</pubDate>
     </item>
     <item>
-      <title>qr-swastika-avoider v0.1.0</title>
-      <link>https://crates.io/crates/qr-swastika-avoider</link>
-      <guid isPermaLink="true">https://crates.io/crates/qr-swastika-avoider</guid>
-      <description>Comments</description>
+      <title>The Risk of Exposed Cloud Functions and How to Harden</title>
+      <link>https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/</link>
+      <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/</guid>
+      <description>Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-develop</description>
       <category>IT</category>
-      <source url="https://crates.io/crates/qr-swastika-avoider">Lobsters</source>
-      <pubDate>Tue, 14 Jul 2026 21:47:07 GMT</pubDate>
+      <source url="https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/">Google Cloud Blog</source>
+      <pubDate>Wed, 15 Jul 2026 14:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>KeycloakCon Japan 2026: Navigating cloud native identity and the AI frontier</title>
-      <link>https://www.cncf.io/blog/2026/07/14/keycloakcon-japan-2026-navigating-cloud-native-identity-and-the-ai-frontier/</link>
-      <guid isPermaLink="true">https://www.cncf.io/blog/2026/07/14/keycloakcon-japan-2026-navigating-cloud-native-identity-and-the-ai-frontier/</guid>
-      <description>The countdown is officially on. In just a few weeks, the cloud-native ecosystem meets in Yokohama for KubeCon + CloudNativeCon Japan 2026. Taking place on Tuesday, July 28 from 09:00 – 12:30, KeycloakCon Japan brings together...</description>
+      <title>6 months to live for open models</title>
+      <link>https://www.interconnects.ai/p/6-months-to-live-for-open-models</link>
+      <guid isPermaLink="true">https://www.interconnects.ai/p/6-months-to-live-for-open-models</guid>
+      <description>The most serious test to date of open source AI&apos;s viability is happening right now.</description>
+      <category>AI</category>
+      <source url="https://www.interconnects.ai/p/6-months-to-live-for-open-models">Interconnects</source>
+      <pubDate>Sun, 12 Jul 2026 16:47:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>On-prem DBaaS in 2026: Platforms, standards, and gaps</title>
+      <link>https://www.cncf.io/blog/2026/07/15/on-prem-dbaas-in-2026-platforms-standards-and-gaps/</link>
+      <guid isPermaLink="true">https://www.cncf.io/blog/2026/07/15/on-prem-dbaas-in-2026-platforms-standards-and-gaps/</guid>
+      <description>For application teams, databases should feel like a solved problem. A team needs PostgreSQL, MariaDB, Redis, or another data service, submits a request, receives credentials, and starts building. In practice, the experience is rarely that simple....</description>
       <category>IT</category>
-      <source url="https://www.cncf.io/blog/2026/07/14/keycloakcon-japan-2026-navigating-cloud-native-identity-and-the-ai-frontier/">CNCF Blog</source>
-      <pubDate>Tue, 14 Jul 2026 21:34:55 GMT</pubDate>
+      <source url="https://www.cncf.io/blog/2026/07/15/on-prem-dbaas-in-2026-platforms-standards-and-gaps/">CNCF Blog</source>
+      <pubDate>Wed, 15 Jul 2026 11:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Can a Preteen’s Reaction to a Face Predict Their Future Social Lives?</title>
-      <link>https://nautil.us/can-a-preteens-reaction-to-a-face-predict-their-future-social-lives-1282693/</link>
-      <guid isPermaLink="true">https://nautil.us/can-a-preteens-reaction-to-a-face-predict-their-future-social-lives-1282693/</guid>
-      <description>The developing brains of boys and girls light up differently when shown a face The post Can a Preteen’s Reaction to a Face Predict Their Future Social Lives? appeared first on Nautilus .</description>
-      <category>Science</category>
-      <source url="https://nautil.us/can-a-preteens-reaction-to-a-face-predict-their-future-social-lives-1282693/">Nautilus</source>
-      <pubDate>Tue, 14 Jul 2026 21:00:00 GMT</pubDate>
+      <title>Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents</title>
+      <link>https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents</link>
+      <guid isPermaLink="true">https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents</guid>
+      <description>Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step execution. But the ambition runs well ahea</description>
+      <category>AI</category>
+      <source url="https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents">VentureBeat — AI</source>
+      <pubDate>Wed, 15 Jul 2026 22:24:17 GMT</pubDate>
     </item>
     <item>
-      <title>How Dinosaur Skeletons Became So Expensive</title>
-      <link>https://nautil.us/how-dinosaur-skeletons-became-so-expensive-1282687/</link>
-      <guid isPermaLink="true">https://nautil.us/how-dinosaur-skeletons-became-so-expensive-1282687/</guid>
-      <description>Today’s T. rex auction could be cause for concern The post How Dinosaur Skeletons Became So Expensive appeared first on Nautilus .</description>
-      <category>Science</category>
-      <source url="https://nautil.us/how-dinosaur-skeletons-became-so-expensive-1282687/">Nautilus</source>
-      <pubDate>Tue, 14 Jul 2026 19:00:00 GMT</pubDate>
+      <title>Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex</title>
+      <link>https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/</link>
+      <guid isPermaLink="true">https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/</guid>
+      <description>OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.</description>
+      <category>AI</category>
+      <source url="https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/">TechCrunch — AI</source>
+      <pubDate>Wed, 15 Jul 2026 19:41:38 GMT</pubDate>
     </item>
     <item>
-      <title>The &amp;#060;i&amp;#062;Nautilus&amp;#060;/i&amp;#062; Guide to the Best Books on the Science of Art</title>
-      <link>https://nautil.us/the-nautilus-guide-to-the-best-books-on-the-science-of-art-1282668/</link>
-      <guid isPermaLink="true">https://nautil.us/the-nautilus-guide-to-the-best-books-on-the-science-of-art-1282668/</guid>
-      <description>Inside the brain and aesthetic experience The post The Nautilus Guide to the Best Books on the Science of Art appeared first on Nautilus .</description>
-      <category>Science</category>
-      <source url="https://nautil.us/the-nautilus-guide-to-the-best-books-on-the-science-of-art-1282668/">Nautilus</source>
-      <pubDate>Tue, 14 Jul 2026 18:00:00 GMT</pubDate>
+      <title>SpaceX falls to $135 IPO price ahead of Starship launch</title>
+      <link>https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/</link>
+      <guid isPermaLink="true">https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/</guid>
+      <description>The stock has steadily fallen from the euphoric post-IPO high, showing that markets may be sobering up to the promises CEO Elon Musk made before and after SpaceX went public.</description>
+      <category>AI</category>
+      <source url="https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/">TechCrunch — AI</source>
+      <pubDate>Wed, 15 Jul 2026 18:06:05 GMT</pubDate>
     </item>
     <item>
-      <title>Google named a Leader in the 2026 IDC MarketScape for Worldwide Foundation Model Software</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-idc-marketscape/</link>
-      <guid isPermaLink="true">https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-idc-marketscape/</guid>
-      <description>For years, we’ve built with a clear priority: putting the practical needs of the enterprise first. Long before generative AI dominated the headlines, we were focused on building the global infrastructure, security frameworks, and data platforms that power the </description>
-      <category>IT</category>
-      <source url="https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-idc-marketscape/">Google Cloud Blog</source>
-      <pubDate>Tue, 14 Jul 2026 18:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>These painted e-tattoos could be the future of wearable biosensors</title>
-      <link>https://arstechnica.com/science/2026/07/these-painted-e-tattoos-could-be-the-future-of-wearable-biosensors/</link>
-      <guid isPermaLink="true">https://arstechnica.com/science/2026/07/these-painted-e-tattoos-could-be-the-future-of-wearable-biosensors/</guid>
-      <description>Conductive ink is painted directly onto the skin in colorful custom designs, drying into working electrodes.</description>
-      <category>Science</category>
-      <source url="https://arstechnica.com/science/2026/07/these-painted-e-tattoos-could-be-the-future-of-wearable-biosensors/">Ars Technica — Science</source>
-      <pubDate>Tue, 14 Jul 2026 17:31:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>whatcable: macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do</title>
-      <link>https://github.com/darrylmorley/whatcable</link>
-      <guid isPermaLink="true">https://github.com/darrylmorley/whatcable</guid>
-      <description>Comments</description>
-      <category>IT</category>
-      <source url="https://github.com/darrylmorley/whatcable">Lobsters</source>
-      <pubDate>Tue, 14 Jul 2026 17:00:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>Too many words about DIDs</title>
-      <link>https://steveklabnik.com/writing/too-many-words-about-dids/</link>
-      <guid isPermaLink="true">https://steveklabnik.com/writing/too-many-words-about-dids/</guid>
-      <description>Comments</description>
-      <category>IT</category>
-      <source url="https://steveklabnik.com/writing/too-many-words-about-dids/">Lobsters</source>
-      <pubDate>Tue, 14 Jul 2026 16:35:18 GMT</pubDate>
-    </item>
-    <item>
-      <title>Claude at scale on Google Cloud: Frontier AI, built for enterprise production</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/claude-at-scale-on-google-cloud-frontier-ai-built-for-enterprise-production/</link>
-      <guid isPermaLink="true">https://cloud.google.com/blog/products/ai-machine-learning/claude-at-scale-on-google-cloud-frontier-ai-built-for-enterprise-production/</guid>
-      <description>Running frontier AI in production is demanding — accelerators to manage, latency to hold steady across continents, regulated data to keep in-region, and long-context requests to serve reliably. Claude on Google Cloud is built for exactly this. Like Monet and w</description>
-      <category>IT</category>
-      <source url="https://cloud.google.com/blog/products/ai-machine-learning/claude-at-scale-on-google-cloud-frontier-ai-built-for-enterprise-production/">Google Cloud Blog</source>
-      <pubDate>Tue, 14 Jul 2026 16:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>RISC-V firmware project wants every board booting from the same hymn sheet</title>
-      <link>https://www.theregister.com/software/2026/07/14/risc-v-firmware-project-wants-every-board-booting-from-the-same-hymn-sheet/5271084</link>
-      <guid isPermaLink="true">https://www.theregister.com/software/2026/07/14/risc-v-firmware-project-wants-every-board-booting-from-the-same-hymn-sheet/5271084</guid>
-      <description>HFI proposes a familiar PC-style route from power-on to operating system</description>
-      <category>IT</category>
-      <source url="https://www.theregister.com/software/2026/07/14/risc-v-firmware-project-wants-every-board-booting-from-the-same-hymn-sheet/5271084">The Register — Software</source>
-      <pubDate>Tue, 14 Jul 2026 15:01:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>6× faster binary search: from compiled code to mechanical sympathy</title>
-      <link>https://pythonspeed.com/articles/branchless-binary-search/</link>
-      <guid isPermaLink="true">https://pythonspeed.com/articles/branchless-binary-search/</guid>
-      <description>Comments</description>
-      <category>IT</category>
-      <source url="https://pythonspeed.com/articles/branchless-binary-search/">Lobsters</source>
-      <pubDate>Tue, 14 Jul 2026 11:31:30 GMT</pubDate>
+      <title>Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling</title>
+      <link>https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/</link>
+      <guid isPermaLink="true">https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/</guid>
+      <description>It&apos;s the company&apos;s first public proof point after a year and a half spent building AI infrastructure largely out of public view.</description>
+      <category>AI</category>
+      <source url="https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/">TechCrunch — AI</source>
+      <pubDate>Wed, 15 Jul 2026 18:04:06 GMT</pubDate>
     </item>
   </channel>
 </rss>
