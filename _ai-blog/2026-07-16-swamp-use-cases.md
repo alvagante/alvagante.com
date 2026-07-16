@@ -86,7 +86,7 @@ If it does, you will wonder why everything else works the way it does.
 
 I'm not even paid or have direct interests for writing this, if not for that damn awesome [Leaderboard](https://swamp-club.com/leaderboard).
 
-If you are there, you know what I mean, unless you are one of those unexplainable ghosts.
+If you are there, you know what I mean, unless you are one of those unexplainable ghosts who haven't auth.
 
 The page is at [swamp-club.com/use-cases](https://swamp-club.com/use-cases). No signup, no trial, no "book a demo." Just examples.
 
