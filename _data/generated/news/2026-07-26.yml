@@ -1,5 +1,5 @@
 date: 2026-07-26
-generated_at: 2026-07-26T04:01:07.493Z
+generated_at: 2026-07-26T07:46:46.992Z
 items:
   - title: Ruff v0.16.0
     url: https://simonwillison.net/2026/Jul/25/ruff/#atom-everything
@@ -16,7 +16,7 @@ items:
       - llms
       - engineering
       - analysis
-    relevance: 0.8911945157407406
+    relevance: 0.8849255023148147
     published_at: 2026-07-25T22:44:05.000Z
   - title: Steam forum ClickFix attacks infect gamers with XMRig cryptominers
     url: https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/
@@ -31,24 +31,24 @@ items:
       - security
       - malware
       - vulnerabilities
-    relevance: 0.8160193819444446
+    relevance: 0.8097508125
     published_at: 2026-07-25T22:37:47.000Z
-  - title: AI Root Cause Analysis Shifts from Model Reasoning to Context Engineering
-    url: https://www.infoq.com/news/2026/07/ai-rca-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+  - title: Amazon EKS Adds Kubernetes Version Rollback Within 7 Days of an Upgrade
+    url: https://www.infoq.com/news/2026/07/eks-version-rollback/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
     source: InfoQ
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
     image: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
-    summary: Engineers are increasingly arguing that modern LLMs can already reason
-      through root cause analysis once given correctly prepared context,
-      shifting the hard problem to the pipelines that correlate telemetry. A
-      Coroot experiment across eleven models offers early
+    summary: Amazon EKS has recently introduced support for Kubernetes version
+      rollbacks, letting practitioners revert a cluster's control plane to its
+      previous Kubernetes version within 7 days of an upgrade if issues arise.
+      The feature reduces the risk of in-place cluster
     category: IT
     tags:
       - it
       - engineering
       - architecture
-    relevance: 0.7183025490740741
-    published_at: 2026-07-25T09:00:00.000Z
+    relevance: 0.7471450175925926
+    published_at: 2026-07-26T06:04:00.000Z
   - title: Google basically confirms the Pixel 11 is getting a price hike
     url: https://www.theverge.com/tech/971041/google-confirms-pixel-11-price-hike
     source: The Verge
@@ -63,7 +63,7 @@ items:
       - technology
       - gadgets
       - consumer
-    relevance: 0.8086810986111111
+    relevance: 0.8024120921296297
     published_at: 2026-07-25T18:13:36.000Z
   - title: SpaceX eyes tower catch for next Starship after auspicious end to 13th
       flight
@@ -78,22 +78,22 @@ items:
       - science
       - research
       - analysis
-    relevance: 0.7329523666666666
+    relevance: 0.7266833861111112
     published_at: 2026-07-25T17:47:22.000Z
-  - title: More than 300,000 flee wildfires in France and Spain
-    url: https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss
+  - title: France battles fire 'whirlwinds' as another 55,000 evacuated
+    url: https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss
     source: BBC News — World
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
     image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    summary: Spain's PM warns of "complex hours" ahead as authorities in France say
-      they are far from bringing blazes burning near Bordeaux under control.
+    summary: More than 340,000 people have now been evacuated from wildfires in
+      France and Spain.
     category: Geopolitics
     tags:
       - geopolitics
       - bbc
       - world-news
-    relevance: 0.8198057986111111
-    published_at: 2026-07-26T00:54:06.000Z
+    relevance: 0.8242895865740741
+    published_at: 2026-07-26T07:21:11.000Z
   - title: Building AI infrastructure with the Effingham County community
     url: https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community
     source: OpenAI News
@@ -107,7 +107,7 @@ items:
       - ai
       - openai
       - models
-    relevance: 0.8299699601851853
+    relevance: 0.8237010629629631
     published_at: 2026-07-22T13:00:00.000Z
   - title: Malicious sites use JavaScript to build malware in browser memory
     url: https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/
@@ -122,22 +122,24 @@ items:
       - security
       - malware
       - vulnerabilities
-    relevance: 0.8038906782407408
+    relevance: 0.7976221087962964
     published_at: 2026-07-25T15:21:09.000Z
-  - title: Maybe we should revisit microkernels
-    url: https://notes.hella.cheap/maybe-we-should-revisit-microkernels.html
-    source: Lobsters
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    summary: Comments
+  - title: AI Root Cause Analysis Shifts from Model Reasoning to Context Engineering
+    url: https://www.infoq.com/news/2026/07/ai-rca-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+    source: InfoQ
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
+    summary: Engineers are increasingly arguing that modern LLMs can already reason
+      through root cause analysis once given correctly prepared context,
+      shifting the hard problem to the pipelines that correlate telemetry. A
+      Coroot experiment across eleven models offers early
     category: IT
     tags:
       - it
-      - programming
-      - systems
-      - community
-    relevance: 0.7028336976851851
-    published_at: 2026-07-25T22:13:07.000Z
+      - engineering
+      - architecture
+    relevance: 0.7120339064814815
+    published_at: 2026-07-25T09:00:00.000Z
   - title: Synth historian Oli Freke will spend big on a good bicycle
     url: https://www.theverge.com/entertainment/971013/oli-freke-bjooks-beat-gems-drum-machine-book-interview
     source: The Verge
@@ -152,7 +154,7 @@ items:
       - technology
       - gadgets
       - consumer
-    relevance: 0.8037199875000001
+    relevance: 0.7974509810185186
     published_at: 2026-07-25T15:15:00.000Z
   - title: Scientists put the “recycling is a distraction” claim to the test
     url: https://www.sciencedaily.com/releases/2026/07/260724061437.htm
@@ -168,22 +170,25 @@ items:
       - science
       - research
       - discoveries
-    relevance: 0.7266524675925926
+    relevance: 0.7203840611111111
     published_at: 2026-07-25T14:00:35.000Z
-  - title: India's 'cockroach' protest called off after education minister quits
-    url: https://www.bbc.co.uk/news/articles/cdx828gj5xko?at_medium=RSS&at_campaign=rss
-    source: BBC News — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    summary: The CJP protest has been the most visible expression of public anger
-      against PM Narendra Modi's government in recent years.
+  - title: Venezuela men sue aviation firms who flew them to notorious Salvadorian
+      jail
+    url: https://www.theguardian.com/us-news/2026/jul/26/lawsuit-csi-aviation-globalx-cecot-deportation
+    source: The Guardian — World
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theguardian.com
+    image: https://i.guim.co.uk/img/media/3e9e1459fc9e2f91af28faefff090d2f3466847f/493_0_4906_3927/master/4906.jpg?width=140&quality=85&auto=format&fit=max&s=aa3ec0fb863f4cb4b3781e3b07f18697
+    summary: "Exclusive: CSI Aviation and GlobalX accused of violating civil rights
+      as part of Trump immigration crackdown Venezuelan men sent last year to a
+      notorious Salvadorian terrorism prison by the Trump administration are
+      suing the US aviation companies that transpor"
     category: Geopolitics
     tags:
       - geopolitics
-      - bbc
       - world-news
-    relevance: 0.8078798726851852
-    published_at: 2026-07-25T17:44:46.000Z
+      - investigative
+    relevance: 0.8203691990740741
+    published_at: 2026-07-26T05:00:03.000Z
   - title: How news organizations are using AI to advance their vital missions
     url: https://openai.com/index/how-news-organizations-are-using-ai
     source: OpenAI News
@@ -197,7 +202,7 @@ items:
       - ai
       - openai
       - models
-    relevance: 0.8299699601851853
+    relevance: 0.8237010629629631
     published_at: 2026-07-22T13:00:00.000Z
   - title: ShinyHunters data leaks fuel $2,000 sextortion email scam
     url: https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/
@@ -212,10 +217,10 @@ items:
       - security
       - malware
       - vulnerabilities
-    relevance: 0.8020929930555556
+    relevance: 0.7958244236111112
     published_at: 2026-07-25T14:16:26.000Z
-  - title: Memory Safety Absolutists
-    url: https://itsallaboutthebit.com/memory-safety-absolutists/
+  - title: "Himalaya v2.0.0: CLI to manage emails"
+    url: https://fosstodon.org/@pimalaya/116983467890532240
     source: Lobsters
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
     image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
@@ -226,8 +231,8 @@ items:
       - programming
       - systems
       - community
-    relevance: 0.7018716606481481
-    published_at: 2026-07-25T21:38:29.000Z
+    relevance: 0.7007876472222221
+    published_at: 2026-07-26T00:45:08.000Z
   - title: Teenage Engineering’s unique music machines are 30 percent off
     url: https://www.theverge.com/gadgets/970685/teenage-engineering-30-percent-deal-sale
     source: The Verge
@@ -242,7 +247,7 @@ items:
       - technology
       - gadgets
       - consumer
-    relevance: 0.8033033208333334
+    relevance: 0.7970343143518519
     published_at: 2026-07-25T15:00:00.000Z
   - title: The Universe can outrun light without breaking Einstein’s rules
     url: https://www.sciencedaily.com/releases/2026/07/260724061444.htm
@@ -258,22 +263,22 @@ items:
       - science
       - research
       - discoveries
-    relevance: 0.7254432083333333
+    relevance: 0.7191748023148148
     published_at: 2026-07-25T13:17:03.000Z
-  - title: Trump takes swipes at press during White House Correspondents' Dinner
-    url: https://www.bbc.co.uk/news/articles/cd7le4ylev2o?at_medium=RSS&at_campaign=rss
+  - title: India's 'cockroach' protest called off after education minister quits
+    url: https://www.bbc.co.uk/news/articles/cdx828gj5xko?at_medium=RSS&at_campaign=rss
     source: BBC News — World
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
     image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    summary: The event celebrated press freedom after the first dinner was cancelled
-      by a shooting in April.
+    summary: The CJP protest has been the most visible expression of public anger
+      against PM Narendra Modi's government in recent years.
     category: Geopolitics
     tags:
       - geopolitics
       - bbc
       - world-news
-    relevance: 0.8013895949074075
-    published_at: 2026-07-25T13:51:07.000Z
+    relevance: 0.8016113458333334
+    published_at: 2026-07-25T17:44:46.000Z
   - title: Advancing the next era of national science
     url: https://openai.com/index/advancing-the-next-era-of-national-science
     source: OpenAI News
@@ -287,7 +292,7 @@ items:
       - ai
       - openai
       - models
-    relevance: 0.8283032935185186
+    relevance: 0.8220343962962964
     published_at: 2026-07-22T12:00:00.000Z
   - title: The OpenAI Models That Hacked Hugging Face Were ‘Active on the Internet’
       for Days
@@ -303,10 +308,10 @@ items:
       - security
       - privacy
       - surveillance
-    relevance: 0.7958032902777779
+    relevance: 0.7895342953703705
     published_at: 2026-07-25T10:30:00.000Z
-  - title: How I Find Problems to Solve as a Staff Engineer
-    url: https://lalitm.com/post/find-problems-staff-engineer/
+  - title: Maybe we should revisit microkernels
+    url: https://notes.hella.cheap/maybe-we-should-revisit-microkernels.html
     source: Lobsters
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
     image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
@@ -317,8 +322,8 @@ items:
       - programming
       - systems
       - community
-    relevance: 0.7006031416666666
-    published_at: 2026-07-25T20:52:49.000Z
+    relevance: 0.696564962037037
+    published_at: 2026-07-25T22:13:07.000Z
   - title: Warner Bros. is suing Amazon for poaching employees
     url: https://www.theverge.com/business/971011/warner-bros-suing-amazon-poaching-employees
     source: The Verge
@@ -333,7 +338,7 @@ items:
       - technology
       - gadgets
       - consumer
-    relevance: 0.8017810986111111
+    relevance: 0.7955120921296297
     published_at: 2026-07-25T14:05:12.000Z
   - title: Oral GLP-1 drugs may quiet the brain’s food craving circuit
     url: https://www.sciencedaily.com/releases/2026/07/260724061439.htm
@@ -349,22 +354,22 @@ items:
       - science
       - research
       - discoveries
-    relevance: 0.7225825601851852
+    relevance: 0.7163141537037037
     published_at: 2026-07-25T11:34:04.000Z
-  - title: Can Zimbabwe’s mineral ambitions benefit smaller producers?
-    url: https://www.aljazeera.com/news/2026/7/26/can-zimbabwes-mineral-ambitions-benefit-smaller-producers?traffic_source=rss
-    source: Al Jazeera — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
-    summary: Zimbabwe wants to process more minerals at home, but smaller miners
-      fear being left behind.
+  - title: Trump takes swipes at press during White House Correspondents' Dinner
+    url: https://www.bbc.co.uk/news/articles/cd7le4ylev2o?at_medium=RSS&at_campaign=rss
+    source: BBC News — World
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+    summary: The event celebrated press freedom after the first dinner was cancelled
+      by a shooting in April.
     category: Geopolitics
     tags:
       - geopolitics
-      - middle-east
+      - bbc
       - world-news
-    relevance: 0.7488993152777778
-    published_at: 2026-07-26T03:21:28.000Z
+    relevance: 0.7951210680555556
+    published_at: 2026-07-25T13:51:07.000Z
   - title: Introducing OpenAI Presence
     url: https://openai.com/index/introducing-openai-presence
     source: OpenAI News
@@ -378,7 +383,7 @@ items:
       - ai
       - openai
       - models
-    relevance: 0.8174699601851853
+    relevance: 0.811201062962963
     published_at: 2026-07-22T05:30:00.000Z
   - title: OpenAI confirms ChatGPT is down worldwide
     url: https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/
@@ -393,10 +398,10 @@ items:
       - security
       - malware
       - vulnerabilities
-    relevance: 0.7941684560185186
+    relevance: 0.7878998865740742
     published_at: 2026-07-25T09:31:09.000Z
-  - title: Your harddrive is probably full
-    url: https://www.marginalia.nu/log/a_139_hdd/
+  - title: Memory Safety Absolutists
+    url: https://itsallaboutthebit.com/memory-safety-absolutists/
     source: Lobsters
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
     image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
@@ -407,8 +412,8 @@ items:
       - programming
       - systems
       - community
-    relevance: 0.6963341601851851
-    published_at: 2026-07-25T18:19:08.000Z
+    relevance: 0.6956029249999999
+    published_at: 2026-07-25T21:38:29.000Z
   - title: Is this e-reader case a gun?
     url: https://www.theverge.com/tech/970343/e-reader-case-3d-printed-gun
     source: The Verge
@@ -423,7 +428,7 @@ items:
       - technology
       - gadgets
       - consumer
-    relevance: 0.7999699875
+    relevance: 0.7937009810185186
     published_at: 2026-07-25T13:00:00.000Z
   - title: With help from data, art museums are reframing the visitor experience
     url: https://arstechnica.com/culture/2026/07/with-help-from-data-art-museums-are-reframing-the-visitor-experience/
@@ -437,22 +442,23 @@ items:
       - science
       - research
       - analysis
-    relevance: 0.7216514407407407
+    relevance: 0.7153824601851851
     published_at: 2026-07-25T11:00:32.000Z
-  - title: French wildfires trigger mass evacuations around Bordeaux
-    url: https://www.aljazeera.com/video/newsfeed/2026/7/26/french-wildfires-trigger-mass-evacuations-around-bordeaux?traffic_source=rss
-    source: Al Jazeera — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
-    summary: Around 200,000 people have been evacuated around Bordeaux as wildfires
-      tear through southwestern France.
+  - title: Attack on Berlin pride parade leaves 1 dead, 16 injured
+    url: https://www.politico.eu/article/attack-on-berlin-pride-parade-leaves-1-dead-16-injured/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication
+    source: Politico Europe
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
+    image: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
+    summary: The suspected attacker is considered "to be part of Berlin's Islamist
+      scene," according to police.
     category: Geopolitics
     tags:
       - geopolitics
-      - middle-east
-      - world-news
-    relevance: 0.7483942226851852
-    published_at: 2026-07-26T03:03:17.000Z
+      - europe
+      - politics
+      - policy
+    relevance: 0.7497474333333334
+    published_at: 2026-07-26T07:37:40.000Z
   - title: Quoting Seth Larson
     url: https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything
     source: Simon Willison's Weblog
@@ -468,7 +474,7 @@ items:
       - llms
       - engineering
       - analysis
-    relevance: 0.7813755342592592
+    relevance: 0.7751065208333332
     published_at: 2026-07-23T04:50:36.000Z
   - title: First-Person Identity Theft Story
     url: https://www.schneier.com/blog/archives/2026/07/first-person-identity-theft-story.html
@@ -484,22 +490,22 @@ items:
       - security
       - cryptography
       - policy
-    relevance: 0.7517041009259258
+    relevance: 0.7454355412037036
     published_at: 2026-07-22T11:02:26.000Z
-  - title: Zig by Example
-    url: https://zigbyexample.neocities.org/
+  - title: How I Find Problems to Solve as a Staff Engineer
+    url: https://lalitm.com/post/find-problems-staff-engineer/
     source: Lobsters
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
     image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    summary: Inspired by the infamous Go by Example Comments
+    summary: Comments
     category: IT
     tags:
       - it
       - programming
       - systems
       - community
-    relevance: 0.6874336972222221
-    published_at: 2026-07-25T12:58:43.000Z
+    relevance: 0.6943344064814814
+    published_at: 2026-07-25T20:52:49.000Z
   - title: "Cricut Explore 5 vs. Siser Romeo: Choosing the Right Smart Cutting
       Machine (2026)"
     url: https://www.wired.com/story/cricut-explore-5-vs-siser-romeo/
@@ -513,7 +519,7 @@ items:
       - technology
       - culture
       - society
-    relevance: 0.7968032902777779
+    relevance: 0.7905342953703705
     published_at: 2026-07-25T11:06:00.000Z
   - title: Venus may be tearing itself apart from within
     url: https://www.sciencedaily.com/releases/2026/07/260724061434.htm
@@ -529,22 +535,22 @@ items:
       - science
       - research
       - discoveries
-    relevance: 0.7088395046296296
+    relevance: 0.7025710981481481
     published_at: 2026-07-25T03:19:19.000Z
-  - title: Flavio Bolsonaro launches Brazil presidential bid with Milei support
-    url: https://www.aljazeera.com/video/newsfeed/2026/7/26/flavio-bolsonaro-launches-brazil-presidential-bid-with-milei-support?traffic_source=rss
+  - title: Israeli settlers set fire to mosque in occupied West Bank
+    url: https://www.aljazeera.com/video/newsfeed/2026/7/26/israeli-settlers-set-fire-to-mosque-in-occupied-west-bank?traffic_source=rss
     source: Al Jazeera — World
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
     image: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
-    summary: Flavio Bolsonaro, son of disgraced former Brazilian President Jair, has
-      launched his bid to unseat President Lula.
+    summary: Israeli settlers set fire to Al-Rahma Mosque in Qusra, near Nablus, as
+      Israeli forces arrested dozens of Palestinians
     category: Geopolitics
     tags:
       - geopolitics
       - middle-east
       - world-news
-    relevance: 0.7471909819444444
-    published_at: 2026-07-26T02:19:58.000Z
+    relevance: 0.7490465087962963
+    published_at: 2026-07-26T07:12:26.000Z
   - title: "Accelerating the frontiers of scientific discovery: Google’s $40M
       commitment to the Genesis Mission"
     url: https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/
@@ -557,7 +563,7 @@ items:
       - ai
       - deepmind
       - research
-    relevance: 0.7560504981481481
+    relevance: 0.7497815129629628
     published_at: 2026-07-22T13:38:54.000Z
   - title: Malvertising Sends Malware in Pieces, Then Makes the Browser Build the
       Executable
@@ -574,22 +580,22 @@ items:
       - security
       - hacking
       - vulnerabilities
-    relevance: 0.7346568097222222
+    relevance: 0.7283882231481481
     published_at: 2026-07-25T18:48:44.000Z
-  - title: JetZero
-    url: https://www.jetzero.aero
-    source: Hacker News
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=news.ycombinator.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=news.ycombinator.com
+  - title: Your harddrive is probably full
+    url: https://www.marginalia.nu/log/a_139_hdd/
+    source: Lobsters
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
+    image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
     summary: Comments
     category: IT
     tags:
       - it
-      - startups
-      - development
+      - programming
+      - systems
       - community
-    relevance: 0.6731867356481482
-    published_at: 2026-07-26T02:55:50.000Z
+    relevance: 0.6900654249999999
+    published_at: 2026-07-25T18:19:08.000Z
   - title: 3 Clever Things You Can Do With an Old Amazon Kindle
     url: https://www.wired.com/story/3-clever-things-you-can-do-with-an-old-amazon-kindle/
     source: Wired
@@ -601,7 +607,7 @@ items:
       - technology
       - culture
       - society
-    relevance: 0.7966366236111112
+    relevance: 0.7903676287037038
     published_at: 2026-07-25T11:00:00.000Z
   - title: "&#039;I can&#039;t work in the farce of climate change cruise tourism
       anymore&#039;: Why Antarctic guides quit their dream jobs"
@@ -618,22 +624,22 @@ items:
       - science
       - physics
       - technology
-    relevance: 0.6691381773148148
+    relevance: 0.6628696296296297
     published_at: 2026-07-26T00:30:04.000Z
-  - title: Israel arrests nine at Tel Aviv protest against West Bank settler violence
-    url: https://www.aljazeera.com/news/2026/7/26/israel-arrests-nine-at-tel-aviv-protest-against-west-bank-settler-violence?traffic_source=rss
+  - title: Cape Verde World Cup star Vozinha agrees deal with Chile’s Colo Colo
+    url: https://www.aljazeera.com/sports/2026/7/26/cape-verde-world-cup-star-vozinha-agrees-deal-with-chiles-colo-colo?traffic_source=rss
     source: Al Jazeera — World
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
     image: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
-    summary: Protest group says at least 200 demonstrated in Israeli capital a day
-      after major escalation of West Bank violence.
+    summary: The 40-year-old goalkeeper made global headlines after starring in Cape
+      Verde’s historic run at the World Cup.
     category: Geopolitics
     tags:
       - geopolitics
       - middle-east
       - world-news
-    relevance: 0.7464400560185185
-    published_at: 2026-07-26T01:52:56.000Z
+    relevance: 0.7488173421296296
+    published_at: 2026-07-26T07:04:11.000Z
   - title: Monday.com is the latest tech company to blame AI for layoffs — here are
       20 others
     url: https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/
@@ -648,7 +654,7 @@ items:
       - ai
       - industry
       - startups
-    relevance: 0.7458032907407407
+    relevance: 0.7395343097222222
     published_at: 2026-07-26T01:30:00.000Z
   - title: Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched
       Available
@@ -665,10 +671,10 @@ items:
       - security
       - hacking
       - vulnerabilities
-    relevance: 0.7247674578703703
+    relevance: 0.7184988712962963
     published_at: 2026-07-25T12:52:43.000Z
-  - title: An ESP32 based plane radar for my desk
-    url: https://blog.ktz.me/esp32-plane-radar/
+  - title: Vision 50 Years Phone – Keeping old Android phones fast without root
+    url: https://github.com/50YearsPhone/vision-50-years-phone
     source: Hacker News
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=news.ycombinator.com
     image: https://www.google.com/s2/favicons?sz=64&domain=news.ycombinator.com
@@ -679,8 +685,8 @@ items:
       - startups
       - development
       - community
-    relevance: 0.672627939351852
-    published_at: 2026-07-26T02:35:43.000Z
+    relevance: 0.6728108226851852
+    published_at: 2026-07-26T06:27:58.000Z
   - title: Why Leatherology Makes Some of the Best Totes for Work (2026)
     url: https://www.wired.com/story/leatherology-totes-for-carrying-tech/
     source: Wired
@@ -694,7 +700,7 @@ items:
       - technology
       - culture
       - society
-    relevance: 0.7960255125000001
+    relevance: 0.7897565175925927
     published_at: 2026-07-25T10:38:00.000Z
   - title: New research shows how language experience shapes human communication
     url: https://phys.org/news/2026-07-language-human-communication.html
@@ -709,22 +715,22 @@ items:
       - science
       - physics
       - technology
-    relevance: 0.6658039180555556
+    relevance: 0.6595353703703705
     published_at: 2026-07-25T22:30:02.000Z
-  - title: Yemen’s Houthis target Saudi oil facilities along the Red Sea
-    url: https://www.aljazeera.com/video/newsfeed/2026/7/26/yemens-houthis-target-saudi-oil-facilities-along-the-red-sea?traffic_source=rss
+  - title: Joshua comes back twice to knock out Prenga and set up Fury showdown
+    url: https://www.aljazeera.com/sports/2026/7/26/joshua-comes-back-twice-to-knock-out-prenga-and-set-up-fury-showdown?traffic_source=rss
     source: Al Jazeera — World
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
     image: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
-    summary: Yemen&#039;s Houthis say they have targeted oil facilities in Saudi
-      Arabia owned by Aramco.
+    summary: Anthony Joshua survives two knockdowns by Albania&#039;s Kristian
+      Prenga before winning the fight in the second round.
     category: Geopolitics
     tags:
       - geopolitics
       - middle-east
       - world-news
-    relevance: 0.7446696856481482
-    published_at: 2026-07-26T00:49:12.000Z
+    relevance: 0.748062249537037
+    published_at: 2026-07-26T06:37:00.000Z
   - title: Bringing Nunchaku 4-bit Diffusion Inference to Diffusers
     url: https://huggingface.co/blog/nunchaku-diffusers
     source: HuggingFace Blog
@@ -737,7 +743,7 @@ items:
       - huggingface
       - models
       - open-source
-    relevance: 0.6983032523148149
+    relevance: 0.6920343462962963
     published_at: 2026-07-23T00:00:00.000Z
   - title: Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run
       Commands as Git
@@ -754,10 +760,10 @@ items:
       - security
       - hacking
       - vulnerabilities
-    relevance: 0.7203706986111111
+    relevance: 0.714102112037037
     published_at: 2026-07-25T10:14:26.000Z
-  - title: "Show HN: I mapped every US golf course – 16k+ courses, free, no signup"
-    url: https://golfcoursebrowser.com/
+  - title: JetZero
+    url: https://www.jetzero.aero
     source: Hacker News
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=news.ycombinator.com
     image: https://www.google.com/s2/favicons?sz=64&domain=news.ycombinator.com
@@ -768,8 +774,8 @@ items:
       - startups
       - development
       - community
-    relevance: 0.6722589578703704
-    published_at: 2026-07-26T02:22:26.000Z
+    relevance: 0.6669182300925927
+    published_at: 2026-07-26T02:55:50.000Z
   - title: "Best Laptops (2026): My Top Recommendations After Testing Hundreds"
     url: https://www.wired.com/story/best-laptops/
     source: Wired
@@ -782,7 +788,7 @@ items:
       - technology
       - culture
       - society
-    relevance: 0.7949699569444445
+    relevance: 0.7887009620370371
     published_at: 2026-07-25T10:00:00.000Z
   - title: "&#039;I get caught up in the numbers game&#039;: Why useful social media
       content gets lost online"
@@ -799,23 +805,23 @@ items:
       - science
       - physics
       - technology
-    relevance: 0.6633048439814815
+    relevance: 0.6570362962962963
     published_at: 2026-07-25T21:00:04.000Z
-  - title: Romanian airspace violated twice in 2 days
-    url: https://www.politico.eu/article/romanian-airspace-violated-twice-in-2-days/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication
-    source: Politico Europe
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
-    image: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
-    summary: Romanian fighter jets shot down drones in separate incidents on Friday
-      and Saturday.
+  - title: "House of Hope: New film follows a Waldorf-inspired school in the West
+      Bank"
+    url: https://www.aljazeera.com/news/2026/7/26/house-of-hope-new-film-follows-a-waldorf-inspired-school-in-the-west-bank?traffic_source=rss
+    source: Al Jazeera — World
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
+    summary: Documentary follows children under occupation and the couple who run a
+      holistic primary school as Israel&#039;s war persists.
     category: Geopolitics
     tags:
       - geopolitics
-      - europe
-      - politics
-      - policy
-    relevance: 0.7280618064814814
-    published_at: 2026-07-25T14:51:19.000Z
+      - middle-east
+      - world-news
+    relevance: 0.7461960458333333
+    published_at: 2026-07-26T05:29:49.000Z
   - title: "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech,
       distillation, the open-closed gap, and what's next"
     url: https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3
@@ -829,7 +835,7 @@ items:
       - post-training
       - open-models
       - analysis
-    relevance: 0.6818884930555557
+    relevance: 0.6756194615740742
     published_at: 2026-07-22T14:09:04.000Z
   - title: CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time
       Account Hijacking
@@ -846,10 +852,10 @@ items:
       - security
       - hacking
       - vulnerabilities
-    relevance: 0.7203683837962963
+    relevance: 0.7140997972222223
     published_at: 2026-07-25T10:14:21.000Z
-  - title: "Inflect-Micro-v2: complete voice in 9.36M parameters"
-    url: https://huggingface.co/owensong/Inflect-Micro-v2
+  - title: An ESP32 based plane radar for my desk
+    url: https://blog.ktz.me/esp32-plane-radar/
     source: Hacker News
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=news.ycombinator.com
     image: https://www.google.com/s2/favicons?sz=64&domain=news.ycombinator.com
@@ -860,8 +866,8 @@ items:
       - startups
       - development
       - community
-    relevance: 0.6693163652777778
-    published_at: 2026-07-26T00:36:30.000Z
+    relevance: 0.6663594337962964
+    published_at: 2026-07-26T02:35:43.000Z
   - title: Warner Bros. lawsuit accuses Amazon of illegally poaching executives
     url: https://techcrunch.com/2026/07/25/warner-bros-lawsuit-accuses-amazon-of-illegally-poaching-executives/
     source: TechCrunch
@@ -874,7 +880,7 @@ items:
       - technology
       - startups
       - venture-capital
-    relevance: 0.7381694944444445
+    relevance: 0.7319005134259259
     published_at: 2026-07-25T20:55:11.000Z
   - title: Unwritten social rules, not government oversight, help keep forest land
       sustainable
@@ -891,23 +897,22 @@ items:
       - science
       - physics
       - technology
-    relevance: 0.6633043810185185
+    relevance: 0.6570358333333334
     published_at: 2026-07-25T21:00:03.000Z
-  - title: Trump orders content warnings installed outside Smithsonian museum
-    url: https://www.politico.com/news/2026/07/24/trump-content-warnings-smithsonian-01012076?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication
-    source: Politico Europe
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
-    image: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
-    summary: The temporary signage, to be placed outside the National Museum of
-      American History, will caution the public about “inaccurate” programming.
+  - title: Typhoon Noul makes landfall in China, with hundreds of thousands evacuated
+    url: https://www.aljazeera.com/news/2026/7/26/typhoon-noul-makes-landfall-in-china-with-hundreds-of-thousands-evacuated?traffic_source=rss
+    source: Al Jazeera — World
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
+    summary: Noul hit southern Guangdong province and neighbouring Hong Kong,
+      bringing strong winds and heavy rain to the region.
     category: Geopolitics
     tags:
       - geopolitics
-      - europe
-      - politics
-      - policy
-    relevance: 0.7267280101851852
-    published_at: 2026-07-25T14:03:18.000Z
+      - middle-east
+      - world-news
+    relevance: 0.7461798421296296
+    published_at: 2026-07-26T05:29:14.000Z
   - title: 3 Google updates from Galaxy Unpacked 2026
     url: https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/
     source: Google AI Blog
@@ -920,7 +925,7 @@ items:
       - ai
       - google
       - research
-    relevance: 0.6799698990740741
+    relevance: 0.6737010277777778
     published_at: 2026-07-22T13:00:00.000Z
   - title: Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with
       Unauthenticated RCE
@@ -937,23 +942,22 @@ items:
       - security
       - hacking
       - vulnerabilities
-    relevance: 0.7203600504629629
+    relevance: 0.7140914638888889
     published_at: 2026-07-25T10:14:03.000Z
-  - title: Agentic AI Needs Guardrails, Not Guesswork
-    url: https://www.docker.com/blog/agentic-ai-needs-guardrails-not-guesswork/
-    source: Docker Blog
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=docker.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=docker.com
-    summary: "Docker brought together enterprise security leaders to tackle agentic
-      AI's biggest challenge: how to govern AI agents without slowing developers
-      down. Here's what they said."
+  - title: "Show HN: I mapped every US golf course"
+    url: https://golfcoursebrowser.com/
+    source: Hacker News
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=news.ycombinator.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=news.ycombinator.com
+    summary: Comments
     category: IT
     tags:
       - it
-      - docker
-      - containers
-    relevance: 0.6171806722222223
-    published_at: 2026-07-24T17:19:36.000Z
+      - startups
+      - development
+      - community
+    relevance: 0.6659904523148149
+    published_at: 2026-07-26T02:22:26.000Z
   - title: SDCC teaser gives us our first good look at Blade Runner 2099
     url: https://arstechnica.com/culture/2026/07/sdcc-teaser-gives-us-our-first-good-look-at-blade-runner-2099/
     source: Ars Technica
@@ -966,7 +970,7 @@ items:
       - technology
       - hardware
       - software
-    relevance: 0.7380949592592593
+    relevance: 0.7318259787037037
     published_at: 2026-07-25T20:52:30.000Z
   - title: Syria&#039;s ancient sites face widespread looting and systematic
       bulldozing, satellite images reveal
@@ -983,23 +987,23 @@ items:
       - science
       - physics
       - technology
-    relevance: 0.661636788425926
+    relevance: 0.6553682407407407
     published_at: 2026-07-25T20:00:01.000Z
-  - title: Record-breaking wildfires burned nearly 100,000 hectares in France,
-      interior minister says
-    url: https://www.politico.eu/article/record-breaking-wildfires-burned-nearly-100000-hectares-in-france-interior-minister-says/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication
+  - title: Romanian airspace violated by drones twice in 2 days
+    url: https://www.politico.eu/article/romanian-airspace-violated-twice-in-2-days/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication
     source: Politico Europe
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
     image: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
-    summary: For days, France and Spain have been fighting raging wildfires.
+    summary: Romanian fighter jets shot down drones in separate incidents on Friday
+      and Saturday.
     category: Geopolitics
     tags:
       - geopolitics
       - europe
       - politics
       - policy
-    relevance: 0.724968287962963
-    published_at: 2026-07-25T12:59:57.000Z
+    relevance: 0.7217932666666667
+    published_at: 2026-07-25T14:51:19.000Z
   - title: Librarians are hosting viral 'Avoiding AI' workshops for people who are
       fed up with Big Tech
     url: https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/
@@ -1013,38 +1017,36 @@ items:
       - ai
       - industry
       - startups
-    relevance: 0.654969987962963
+    relevance: 0.6487010462962963
     published_at: 2026-07-25T16:00:00.000Z
-  - title: OpenAI says its AI agent broke out of testing sandbox to hack Hugging Face
-    url: https://arstechnica.com/ai/2026/07/how-an-openai-benchmark-test-turned-into-a-real-world-cyberattack/
-    source: Ars Technica — Security
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
-    summary: '"This is day one for cybersecurity in the age of agents," Hugging Face
-      CEO says.'
+  - title: ISC Stormcast For Thursday, July 23rd, 2026
+      https://isc.sans.edu/podcastdetail/10020, (Thu, Jul 23rd)
+    url: https://isc.sans.edu/diary/rss/33178
+    source: SANS Internet Storm Center
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
+    image: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
+    summary: Latest item from SANS Internet Storm Center.
     category: Security
     tags:
       - security
-      - vulnerabilities
-      - research
-    relevance: 0.6862976578703704
-    published_at: 2026-07-22T16:47:49.000Z
-  - title: "Copilot vs. raw API access: What are you actually paying for?"
-    url: https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/
-    source: GitHub Blog
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=github.com
-    summary: "Copilot now bills usage at listed API rates. Compare direct model
-      access with the coding workflow, policy, and harness work around it. The
-      post Copilot vs. raw API access: What are you actually paying for?
-      appeared first on The GitHub Blog ."
+      - threats
+      - iocs
+    relevance: 0.6953693222222224
+    published_at: 2026-07-23T02:00:03.000Z
+  - title: "Inflect-Micro-v2: complete voice in 9.36M parameters"
+    url: https://huggingface.co/owensong/Inflect-Micro-v2
+    source: Hacker News
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=news.ycombinator.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=news.ycombinator.com
+    summary: Comments
     category: IT
     tags:
       - it
-      - github
+      - startups
       - development
-    relevance: 0.6149696328703704
-    published_at: 2026-07-22T19:00:00.000Z
+      - community
+    relevance: 0.6630478597222222
+    published_at: 2026-07-26T00:36:30.000Z
   - title: The hacker who humiliated spyware makers and was never caught
     url: https://techcrunch.com/2026/07/25/the-hacker-who-humiliated-spyware-makers-and-was-never-caught/
     source: TechCrunch
@@ -1058,7 +1060,7 @@ items:
       - technology
       - startups
       - venture-capital
-    relevance: 0.7373097722222223
+    relevance: 0.7310407912037037
     published_at: 2026-07-25T20:24:14.000Z
   - title: How an Inbred Snake Invader Took Over an Island Paradise
     url: https://nautil.us/how-an-inbred-snake-invader-took-over-an-island-paradise-1283018/
@@ -1074,22 +1076,23 @@ items:
       - essays
       - culture
       - philosophy
-    relevance: 0.6567897111111111
+    relevance: 0.6505209180555555
     published_at: 2026-07-24T18:35:31.000Z
-  - title: They Gave MAGA a Safe Haven. Now They’re in Retreat.
-    url: https://www.politico.com/news/magazine/2026/07/25/hungary-maga-trump-orban-01010018?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication
+  - title: Trump orders content warnings installed outside Smithsonian museum
+    url: https://www.politico.com/news/2026/07/24/trump-content-warnings-smithsonian-01012076?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication
     source: Politico Europe
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
     image: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
-    summary: Will the alliance between MAGA and Hungary’s far right survive defeat?
+    summary: The temporary signage, to be placed outside the National Museum of
+      American History, will caution the public about “inaccurate” programming.
     category: Geopolitics
     tags:
       - geopolitics
       - europe
       - politics
       - policy
-    relevance: 0.7227567138888888
-    published_at: 2026-07-25T11:40:20.000Z
+    relevance: 0.7204594703703704
+    published_at: 2026-07-25T14:03:18.000Z
   - title: One fallen power line exposed a growing AI data center problem. Here's
       how to fix it.
     url: https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/
@@ -1103,8 +1106,184 @@ items:
       - ai
       - industry
       - startups
-    relevance: 0.6501088768518519
+    relevance: 0.6438399351851852
     published_at: 2026-07-25T13:05:00.000Z
+  - title: Rondo Meets Geoserver, (Wed, Jul 22nd)
+    url: https://isc.sans.edu/diary/rss/33176
+    source: SANS Internet Storm Center
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
+    image: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
+    summary: This isn&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;t a new attack, but
+      something I saw "pop-up" in our logs this week:&#xd;
+    category: Security
+    tags:
+      - security
+      - threats
+      - iocs
+    relevance: 0.6813554333333334
+    published_at: 2026-07-22T17:35:33.000Z
+  - title: Agentic AI Needs Guardrails, Not Guesswork
+    url: https://www.docker.com/blog/agentic-ai-needs-guardrails-not-guesswork/
+    source: Docker Blog
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=docker.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=docker.com
+    summary: "Docker brought together enterprise security leaders to tackle agentic
+      AI's biggest challenge: how to govern AI agents without slowing developers
+      down. Here's what they said."
+    category: IT
+    tags:
+      - it
+      - docker
+      - containers
+    relevance: 0.6109118833333333
+    published_at: 2026-07-24T17:19:36.000Z
+  - title: Elon Musk’s Boring Company reportedly raising funding at a $20 billion
+      valuation
+    url: https://techcrunch.com/2026/07/25/elon-musks-boring-company-reportedly-raising-funding-at-a-20-billion-valuation/
+    source: TechCrunch
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    summary: Elon Musk's tunneling startup is reportedly in talks for a major new
+      funding round.
+    category: Technology
+    tags:
+      - technology
+      - startups
+      - venture-capital
+    relevance: 0.7293546800925926
+    published_at: 2026-07-25T19:23:32.000Z
+  - title: Team uses AlphaFold AI to redesign gene-editing proteins to make them safer
+    url: https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/
+    source: Ars Technica — Science
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
+    image: https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2239702658-1152x648.jpg
+    summary: Google's AlphaFold can help ID what parts of a gene editing protein
+      enable mistakes.
+    category: Science
+    tags:
+      - science
+      - research
+      - analysis
+    relevance: 0.6487411009259259
+    published_at: 2026-07-24T17:31:26.000Z
+  - title: Record-breaking wildfires burned nearly 100,000 hectares in France,
+      interior minister says
+    url: https://www.politico.eu/article/record-breaking-wildfires-burned-nearly-100000-hectares-in-france-interior-minister-says/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication
+    source: Politico Europe
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
+    image: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
+    summary: For days, France and Spain have been fighting raging wildfires.
+    category: Geopolitics
+    tags:
+      - geopolitics
+      - europe
+      - politics
+      - policy
+    relevance: 0.7186997481481482
+    published_at: 2026-07-25T12:59:57.000Z
+  - title: '[AINews] "Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better
+      than V4 Pro"'
+    url: https://www.latent.space/p/ainews-laguna-s-21-released-cheaper
+    source: Latent Space
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=latent.space
+    image: https://substackcdn.com/image/youtube/w_728,c_limit/9_0hs2sxHHo
+    summary: a quiet day lets us highlight a new neolab win.
+    category: AI
+    tags:
+      - ai
+      - engineering
+      - agents
+      - newsletter
+    relevance: 0.6258894078703704
+    published_at: 2026-07-23T05:18:47.000Z
+  - title: OpenAI says its AI agent broke out of testing sandbox to hack Hugging Face
+    url: https://arstechnica.com/ai/2026/07/how-an-openai-benchmark-test-turned-into-a-real-world-cyberattack/
+    source: Ars Technica — Security
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
+    summary: '"This is day one for cybersecurity in the age of agents," Hugging Face
+      CEO says.'
+    category: Security
+    tags:
+      - security
+      - vulnerabilities
+      - research
+    relevance: 0.6800294671296296
+    published_at: 2026-07-22T16:47:49.000Z
+  - title: "Copilot vs. raw API access: What are you actually paying for?"
+    url: https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/
+    source: GitHub Blog
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=github.com
+    summary: "Copilot now bills usage at listed API rates. Compare direct model
+      access with the coding workflow, policy, and harness work around it. The
+      post Copilot vs. raw API access: What are you actually paying for?
+      appeared first on The GitHub Blog ."
+    category: IT
+    tags:
+      - it
+      - github
+      - development
+    relevance: 0.6087006657407408
+    published_at: 2026-07-22T19:00:00.000Z
+  - title: Kalshi demands Netflix take down trailer for ‘Prediction Games’ documentary
+    url: https://techcrunch.com/2026/07/25/kalshi-demands-netflix-take-down-trailer-for-prediction-games-documentary/
+    source: TechCrunch
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    summary: Kalshi claims the trailer is “defamatory” and contains “both fabricated
+      documents and false and misleading statements.”
+    category: Technology
+    tags:
+      - technology
+      - startups
+      - venture-capital
+    relevance: 0.725000050462963
+    published_at: 2026-07-25T16:46:46.000Z
+  - title: "We talk with astronaut Michael Foale about the 1997 Space Station Mir
+      crisis: 'He took all the blame of the collision on his shoulders'"
+    url: https://www.space.com/entertainment/space-movies-shows/we-talk-with-astronaut-michael-foale-about-the-1997-space-station-mir-crisis-he-took-all-the-blame-of-the-collision-on-his-shoulders
+    source: Space.com
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=space.com
+    image: https://cdn.mos.cms.futurecdn.net/GyYNKSiewacztsABQYnVUW-1280-80.jpg
+    summary: "'I believe that we, as a crew, saved space station Mir that day'"
+    category: Science
+    tags:
+      - science
+      - space
+      - astronomy
+    relevance: 0.6487012152777778
+    published_at: 2026-07-25T16:00:00.000Z
+  - title: They Gave MAGA a Safe Haven. Now They’re in Retreat.
+    url: https://www.politico.com/news/magazine/2026/07/25/hungary-maga-trump-orban-01010018?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication
+    source: Politico Europe
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
+    image: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
+    summary: Will the alliance between MAGA and Hungary’s far right survive defeat?
+    category: Geopolitics
+    tags:
+      - geopolitics
+      - europe
+      - politics
+      - policy
+    relevance: 0.7164881740740741
+    published_at: 2026-07-25T11:40:20.000Z
+  - title: Inside the Model Factory — Eiso Kant, Poolside AI
+    url: https://www.latent.space/p/poolside
+    source: Latent Space
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=latent.space
+    image: https://api.substack.com/feed/podcast/208082176/150a7023faa153b1393ccb518c6ff305.mp3
+    summary: Poolside's co-CEO on how his small team of top researchers built a
+      model factory capable of training Laguna S - a 118B MOE beating Thinky's
+      ~1T open weights model... and this is just the beginning.
+    category: AI
+    tags:
+      - ai
+      - engineering
+      - agents
+      - newsletter
+    relevance: 0.6256241300925925
+    published_at: 2026-07-23T05:09:14.000Z
   - title: Vatican's Official Prayer App Leaks 700K+ Global Users' PII
     url: https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii
     source: Dark Reading
@@ -1117,7 +1296,7 @@ items:
       - security
       - enterprise
       - threats
-    relevance: 0.684969674537037
+    relevance: 0.6787011416666666
     published_at: 2026-07-24T13:00:00.000Z
   - title: "No Dumb Questions: What is the AI bottleneck? How does context
       engineering fix it?​​​​‌ ‍ ​‍​‍‌‍ ‌ ​‍‌‍‍‌‌‍‌ ‌‍‍‌‌‍ ‍​‍​‍​ ‍‍​‍​‍‌ ​
@@ -1149,69 +1328,71 @@ items:
       - it
       - development
       - community
-    relevance: 0.6149695300925926
+    relevance: 0.6087006393518519
     published_at: 2026-07-24T16:00:00.000Z
-  - title: Elon Musk’s Boring Company reportedly raising funding at a $20 billion
-      valuation
-    url: https://techcrunch.com/2026/07/25/elon-musks-boring-company-reportedly-raising-funding-at-a-20-billion-valuation/
-    source: TechCrunch
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    summary: Elon Musk's tunneling startup is reportedly in talks for a major new
-      funding round.
+  - title: Big Tech accused of stonewalling European social media researchers
+    url: https://arstechnica.com/tech-policy/2026/07/big-tech-accused-of-stonewalling-european-social-media-researchers/
+    source: Ars Technica
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
+    image: https://cdn.arstechnica.net/wp-content/uploads/2017/10/getty-security-1152x648.jpg
+    summary: Researchers say TikTok, X, and Meta aren't providing data they're
+      legally required to.
     category: Technology
     tags:
       - technology
-      - startups
-      - venture-capital
-    relevance: 0.7356236611111111
-    published_at: 2026-07-25T19:23:32.000Z
-  - title: Team uses AlphaFold AI to redesign gene-editing proteins to make them safer
-    url: https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/
-    source: Ars Technica — Science
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
-    image: https://cdn.arstechnica.net/wp-content/uploads/2026/07/GettyImages-2239702658-1152x648.jpg
-    summary: Google's AlphaFold can help ID what parts of a gene editing protein
-      enable mistakes.
+      - hardware
+      - software
+    relevance: 0.7149657935185185
+    published_at: 2026-07-25T10:45:32.000Z
+  - title: When Stupid Was a Diagnosis
+    url: https://nautil.us/when-stupid-was-a-diagnosis-1282984/
+    source: Nautilus
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nautil.us
+    image: https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/07/Fleerackers_HERO.png?w=564
+    summary: A dark history that is in danger of returning as support for people
+      with disabilities withers The post When Stupid Was a Diagnosis appeared
+      first on Nautilus .
     category: Science
     tags:
       - science
-      - research
-      - analysis
-    relevance: 0.6550097282407407
-    published_at: 2026-07-24T17:31:26.000Z
-  - title: Businesses sue to block Trump’s tariff reboot
-    url: https://www.politico.com/news/2026/07/24/trump-tariffs-carve-outs-01011751?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication
-    source: Politico Europe
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
-    image: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
-    summary: Two small businesses sued the Trump administration Friday over its new
-      tariffs targeting forced labor, teeing up another legal fight over
-      President Donald Trump’s trade policy. The lawsuit,&#160;filed in the U.S.
-      Court of International Trade, argues that the a
+      - essays
+      - culture
+      - philosophy
+    relevance: 0.6478676773148148
+    published_at: 2026-07-24T17:00:00.000Z
+  - title: America Needs an Off-Ramp Between Doing Nothing and Shutting AI Down
+    url: https://warontherocks.com/cogs-of-war/america-needs-an-off-ramp-between-doing-nothing-and-shutting-ai-down/
+    source: War on the Rocks
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=warontherocks.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=warontherocks.com
+    summary: For 18 days in June, two of America's most capable AI models went dark
+      worldwide, not for technical or business reasons, but because the U.S.
+      government ordered it. On June 12, 2026, the Commerce Department informed
+      Anthropic that its Fable 5 and Mythos 5 mode
     category: Geopolitics
     tags:
       - geopolitics
-      - europe
-      - politics
-      - policy
-    relevance: 0.7216988435185185
-    published_at: 2026-07-25T11:02:15.000Z
-  - title: '[AINews] "Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better
-      than V4 Pro"'
-    url: https://www.latent.space/p/ainews-laguna-s-21-released-cheaper
-    source: Latent Space
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=latent.space
-    image: https://substackcdn.com/image/youtube/w_728,c_limit/9_0hs2sxHHo
-    summary: a quiet day lets us highlight a new neolab win.
+      - military
+      - strategy
+    relevance: 0.7053798162037037
+    published_at: 2026-07-23T08:00:26.000Z
+  - title: "How to Optimize Vector Search When RAM Gets Too Expensive: On-Disk vs.
+      In-Memory ANN Indexes"
+    url: https://towardsdatascience.com/optimizing-vector-search-on-disk-vs-in-memory-ann-indexes-when-ram-gets-too-expensive/
+    source: Towards Data Science
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=towardsdatascience.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=towardsdatascience.com
+    summary: "Architecting cost-effective infrastructure by navigating the latency
+      and storage trade-offs of HNSW, SPANN, and DiskANN The post How to
+      Optimize Vector Search When RAM Gets Too Expensive: On-Disk vs. In-Memory
+      ANN Indexes appeared first on Towards Data Science"
     category: AI
     tags:
       - ai
-      - engineering
-      - agents
-      - newsletter
-    relevance: 0.632158362037037
-    published_at: 2026-07-23T05:18:47.000Z
+      - data-science
+      - tutorials
+    relevance: 0.5720342972222223
+    published_at: 2026-07-25T15:00:00.000Z
   - title: Default Azure Automation Setting Enables Cross-Tenant Identity Takeover
     url: https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover
     source: Dark Reading
@@ -1226,7 +1407,7 @@ items:
       - security
       - enterprise
       - threats
-    relevance: 0.6846437486111111
+    relevance: 0.6783752157407408
     published_at: 2026-07-24T12:48:16.000Z
   - title: "Next chapter: Restructuring GitHub's bug bounty program"
     url: https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/
@@ -1242,68 +1423,72 @@ items:
       - it
       - github
       - development
-    relevance: 0.6099696328703703
+    relevance: 0.6037006657407408
     published_at: 2026-07-22T16:00:00.000Z
-  - title: Kalshi demands Netflix take down trailer for ‘Prediction Games’ documentary
-    url: https://techcrunch.com/2026/07/25/kalshi-demands-netflix-take-down-trailer-for-prediction-games-documentary/
-    source: TechCrunch
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    summary: Kalshi claims the trailer is “defamatory” and contains “both fabricated
-      documents and false and misleading statements.”
+  - title: "2026.30: The Copium Wars"
+    url: https://stratechery.com/2026/the-copium-wars/
+    source: Stratechery
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=stratechery.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=stratechery.com
+    summary: The best Stratechery content from the week of July 20, 2026 including
+      Chinese models and frontier futures, what happened to Hugging Face, and
+      the NBA and its second apron bet.
     category: Technology
     tags:
       - technology
-      - startups
-      - venture-capital
-    relevance: 0.7312690314814815
-    published_at: 2026-07-25T16:46:46.000Z
-  - title: "We talk with astronaut Michael Foale about the 1997 Space Station Mir
-      crisis: 'He took all the blame of the collision on his shoulders'"
-    url: https://www.space.com/entertainment/space-movies-shows/we-talk-with-astronaut-michael-foale-about-the-1997-space-station-mir-crisis-he-took-all-the-blame-of-the-collision-on-his-shoulders
+      - strategy
+      - business
+      - newsletter
+    relevance: 0.6853674564814815
+    published_at: 2026-07-24T17:00:00.000Z
+  - title: "This Week In Space podcast: Episode 220 — First on Mars"
+    url: https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-220-first-on-mars
     source: Space.com
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=space.com
-    image: https://cdn.mos.cms.futurecdn.net/GyYNKSiewacztsABQYnVUW-1280-80.jpg
-    summary: "'I believe that we, as a crew, saved space station Mir that day'"
+    image: https://cdn.mos.cms.futurecdn.net/5hdME3MWmpxLWcv6jFYXBH-1280-80.jpg
+    summary: On Episode 220 of This Week In Space, Rod Pyle and Tariq Malik are
+      joined by Dr. Pascal Lee and astrobiologist Dr. Penny Boston to mark the
+      50th anniversary of Viking 1's landing on Mars.
     category: Science
     tags:
       - science
       - space
       - astronomy
-    relevance: 0.6549698717592594
-    published_at: 2026-07-25T16:00:00.000Z
-  - title: America Needs an Off-Ramp Between Doing Nothing and Shutting AI Down
-    url: https://warontherocks.com/cogs-of-war/america-needs-an-off-ramp-between-doing-nothing-and-shutting-ai-down/
+    relevance: 0.6473526041666667
+    published_at: 2026-07-25T15:11:27.000Z
+  - title: "The King of Cool: Mobile Refrigeration and the Remaking of Global
+      Logistics"
+    url: https://warontherocks.com/cogs-of-war/the-king-of-cool-mobile-refrigeration-and-the-remaking-of-global-logistics/
     source: War on the Rocks
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=warontherocks.com
     image: https://www.google.com/s2/favicons?sz=64&domain=warontherocks.com
-    summary: For 18 days in June, two of America's most capable AI models went dark
-      worldwide, not for technical or business reasons, but because the U.S.
-      government ordered it. On June 12, 2026, the Commerce Department informed
-      Anthropic that its Fable 5 and Mythos 5 mode
+    summary: "Editor's note: This is the fifth article in a limited series
+      celebrating American defense technologies born from wartime and their
+      effects on broader national security, politics, and society. This series
+      will run for several weeks to commemorate America's 250t"
     category: Geopolitics
     tags:
       - geopolitics
       - military
       - strategy
-    relevance: 0.7116481597222223
-    published_at: 2026-07-23T08:00:26.000Z
-  - title: Inside the Model Factory — Eiso Kant, Poolside AI
-    url: https://www.latent.space/p/poolside
-    source: Latent Space
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=latent.space
-    image: https://api.substack.com/feed/podcast/208082176/150a7023faa153b1393ccb518c6ff305.mp3
-    summary: Poolside's co-CEO on how his small team of top researchers built a
-      model factory capable of training Laguna S - a 118B MOE beating Thinky's
-      ~1T open weights model... and this is just the beginning.
+    relevance: 0.7049756495370371
+    published_at: 2026-07-23T07:45:53.000Z
+  - title: The Fluid Simulator That Doesn’t Solve the Fluid Equations
+    url: https://towardsdatascience.com/the-fluid-simulator-that-doesnt-solve-the-fluid-equations/
+    source: Towards Data Science
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=towardsdatascience.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=towardsdatascience.com
+    summary: I generated a Kármán vortex street without solving a single fluid
+      equation. Here's how the Lattice Boltzmann Method gets there instead,
+      derived from first principles, implemented in C++, and run on a
+      supercomputer. The post The Fluid Simulator That Doesn’t Sol
     category: AI
     tags:
       - ai
-      - engineering
-      - agents
-      - newsletter
-    relevance: 0.6318930842592593
-    published_at: 2026-07-23T05:09:14.000Z
+      - data-science
+      - tutorials
+    relevance: 0.568700963888889
+    published_at: 2026-07-25T13:00:00.000Z
   - title: Satellite Images Reveal How Suspected Scam Compounds Appear Out of Nowhere
     url: https://www.wired.com/story/satellite-images-reveal-how-giant-scam-compounds-keep-on-expanding/
     source: Wired — Security
@@ -1317,7 +1502,7 @@ items:
       - security
       - privacy
       - surveillance
-    relevance: 0.6799697861111111
+    relevance: 0.6737012291666666
     published_at: 2026-07-24T10:00:00.000Z
   - title: "Sustaining OpenTelemetry: What a 10-week contributor cohort actually
       looks like"
@@ -1334,194 +1519,8 @@ items:
       - it
       - kubernetes
       - cloud-native
-    relevance: 0.6074695962962962
+    relevance: 0.6012007050925925
     published_at: 2026-07-23T13:00:00.000Z
-  - title: Big Tech accused of stonewalling European social media researchers
-    url: https://arstechnica.com/tech-policy/2026/07/big-tech-accused-of-stonewalling-european-social-media-researchers/
-    source: Ars Technica
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
-    image: https://cdn.arstechnica.net/wp-content/uploads/2017/10/getty-security-1152x648.jpg
-    summary: Researchers say TikTok, X, and Meta aren't providing data they're
-      legally required to.
-    category: Technology
-    tags:
-      - technology
-      - hardware
-      - software
-    relevance: 0.7212347740740741
-    published_at: 2026-07-25T10:45:32.000Z
-  - title: When Stupid Was a Diagnosis
-    url: https://nautil.us/when-stupid-was-a-diagnosis-1282984/
-    source: Nautilus
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nautil.us
-    image: https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/07/Fleerackers_HERO.png?w=564
-    summary: A dark history that is in danger of returning as support for people
-      with disabilities withers The post When Stupid Was a Diagnosis appeared
-      first on Nautilus .
-    category: Science
-    tags:
-      - science
-      - essays
-      - culture
-      - philosophy
-    relevance: 0.6541364703703703
-    published_at: 2026-07-24T17:00:00.000Z
-  - title: "The King of Cool: Mobile Refrigeration and the Remaking of Global
-      Logistics"
-    url: https://warontherocks.com/cogs-of-war/the-king-of-cool-mobile-refrigeration-and-the-remaking-of-global-logistics/
-    source: War on the Rocks
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=warontherocks.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=warontherocks.com
-    summary: "Editor's note: This is the fifth article in a limited series
-      celebrating American defense technologies born from wartime and their
-      effects on broader national security, politics, and society. This series
-      will run for several weeks to commemorate America's 250t"
-    category: Geopolitics
-    tags:
-      - geopolitics
-      - military
-      - strategy
-    relevance: 0.7112439930555556
-    published_at: 2026-07-23T07:45:53.000Z
-  - title: "Import AI 465: Open vs closed gaps; Kimi K3; Demis' big policy plan"
-    url: https://importai.substack.com/p/import-ai-465-open-vs-closed-gaps
-    source: Import AI
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=importai.substack.com
-    image: https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png
-    summary: The singularity will be seen in hindsight as an interregnum
-    category: AI
-    tags:
-      - ai
-      - policy
-      - research
-      - newsletter
-    relevance: 0.5991852513888889
-    published_at: 2026-07-20T12:31:45.000Z
-  - title: Rockwell Patches Code Execution Flaws in Arena Simulation Software
-    url: https://www.securityweek.com/rockwell-patches-code-execution-flaws-in-arena-simulation-software/
-    source: SecurityWeek
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=securityweek.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=securityweek.com
-    summary: A researcher has explained how an attacker could exploit these
-      vulnerabilities to target industrial organizations. The post Rockwell
-      Patches Code Execution Flaws in Arena Simulation Software appeared first
-      on SecurityWeek .
-    category: Security
-    tags:
-      - security
-      - industry
-      - vulnerabilities
-    relevance: 0.679969423148148
-    published_at: 2026-07-25T08:30:00.000Z
-  - title: IBM insists AI didn't kill software deals, just delayed them
-    url: https://www.theregister.com/software/2026/07/23/ibm-insists-ai-didnt-kill-software-deals-just-delayed-them/5276977
-    source: The Register — Software
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theregister.com
-    image: https://image.theregister.com/?imageId=241548&width=800
-    summary: Big Blue says customers postponed rather than abandoned major purchases
-      as hardware soaked up enterprise budgets
-    category: IT
-    tags:
-      - it
-      - software
-      - industry
-    relevance: 0.6051000634259258
-    published_at: 2026-07-23T11:34:42.000Z
-  - title: "2026.30: The Copium Wars"
-    url: https://stratechery.com/2026/the-copium-wars/
-    source: Stratechery
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=stratechery.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=stratechery.com
-    summary: The best Stratechery content from the week of July 20, 2026 including
-      Chinese models and frontier futures, what happened to Hugging Face, and
-      the NBA and its second apron bet.
-    category: Technology
-    tags:
-      - technology
-      - strategy
-      - business
-      - newsletter
-    relevance: 0.6916365509259259
-    published_at: 2026-07-24T17:00:00.000Z
-  - title: "This Week In Space podcast: Episode 220 — First on Mars"
-    url: https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-220-first-on-mars
-    source: Space.com
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=space.com
-    image: https://cdn.mos.cms.futurecdn.net/5hdME3MWmpxLWcv6jFYXBH-1280-80.jpg
-    summary: On Episode 220 of This Week In Space, Rod Pyle and Tariq Malik are
-      joined by Dr. Pascal Lee and astrobiologist Dr. Penny Boston to mark the
-      50th anniversary of Viking 1's landing on Mars.
-    category: Science
-    tags:
-      - science
-      - space
-      - astronomy
-    relevance: 0.6536212606481482
-    published_at: 2026-07-25T15:11:27.000Z
-  - title: The Small Suffer What They Must?
-    url: https://www.foreignaffairs.com/united-states/small-suffer-what-they-must
-    source: Foreign Affairs
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=foreignaffairs.com
-    image: https://cdn-live.foreignaffairs.com/sites/default/files/styles/x_large_1x/public/images/2026/07/22/2026-07-07T053455Z_250927324_RC2Q8MAGDFUZ_RTRMADP_3_CUBA-CRISIS-GRID-COLLAPSE.JPG?itok=gL8NQAj3
-    summary: Band together or struggle alone in a disordered world.
-    category: Geopolitics
-    tags:
-      - geopolitics
-      - foreign-policy
-      - analysis
-      - journals
-    relevance: 0.7049696495370371
-    published_at: 2026-07-23T04:00:00.000Z
-  - title: "How to Optimize Vector Search When RAM Gets Too Expensive: On-Disk vs.
-      In-Memory ANN Indexes"
-    url: https://towardsdatascience.com/optimizing-vector-search-on-disk-vs-in-memory-ann-indexes-when-ram-gets-too-expensive/
-    source: Towards Data Science
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=towardsdatascience.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=towardsdatascience.com
-    summary: "Architecting cost-effective infrastructure by navigating the latency
-      and storage trade-offs of HNSW, SPANN, and DiskANN The post How to
-      Optimize Vector Search When RAM Gets Too Expensive: On-Disk vs. In-Memory
-      ANN Indexes appeared first on Towards Data Science"
-    category: AI
-    tags:
-      - ai
-      - data-science
-      - tutorials
-    relevance: 0.5783033064814815
-    published_at: 2026-07-25T15:00:00.000Z
-  - title: "Risky Bulletin: Western cyber agencies warn of Russian hacks of Zimbra
-      servers"
-    url: https://risky.biz/RBNEWS591/
-    source: Risky Bulletin
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=risky.biz
-    image: https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RBNEWS591.mp3
-    summary: "A Russian hacking campaign targets Zimbra servers, the US accuses
-      Moonshot AI of distillation attacks, Iran targets more PLC vendors, and
-      Google adds selfie video to its login options. Show notes Risky Bulletin:
-      Western cyber agencies warn of Russian hacks of "
-    category: Security
-    tags:
-      - security
-      - news
-      - podcast
-      - intelligence
-    relevance: 0.6685820587962963
-    published_at: 2026-07-24T03:10:04.000Z
-  - title: "When Kubeflow meets Cilium: Debugging 60% idle GPUs in Kubernetes"
-    url: https://www.cncf.io/blog/2026/07/23/when-kubeflow-meets-cilium-debugging-60-idle-gpus-in-kubernetes/
-    source: CNCF Blog
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=cncf.io
-    image: https://www.google.com/s2/favicons?sz=64&domain=cncf.io
-    summary: The symptom that made no sense The first time we saw it, we didn't
-      trust the dashboard. A distributed training job was scheduled and healthy
-      — every pod was running, no crashes, no OOMKills, nothing in...
-    category: IT
-    tags:
-      - it
-      - kubernetes
-      - cloud-native
-    relevance: 0.6050529296296295
-    published_at: 2026-07-23T11:33:00.000Z
   - title: Why state-owned AI won’t solve inequality
     url: https://restofworld.org/2026/ai-government-ownership/?utm_source=rss&utm_medium=rss&utm_campaign=feeds
     source: Rest of World
@@ -1534,5 +1533,5 @@ items:
       - technology
       - global
       - society
-    relevance: 0.6849699291666667
+    relevance: 0.6787008435185186
     published_at: 2026-07-24T13:00:00.000Z
