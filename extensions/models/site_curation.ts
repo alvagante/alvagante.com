@@ -576,8 +576,10 @@ function sortItems(items: NewsItem[], maxItems: number): NewsItem[] {
     "Security",
     "IT",
     "Technology",
+    "Gaming",
     "Science",
     "Geopolitics",
+    "Economy",
   ];
   const groups = new Map<string, NewsItem[]>();
   for (const item of rankedItems([...byUrl.values()])) {
@@ -924,7 +926,7 @@ async function readLinkFiles(
 /** Model definition for site curation. */
 export const model = {
   type: "@alvagante/site-curation",
-  version: "2026.05.27.1",
+  version: "2026.07.27.1",
   globalArguments: GlobalArgsSchema,
   resources: {
     "feed-items": {

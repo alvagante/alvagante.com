@@ -1,7 +1,7 @@
 ---
 title: Dashboard
 seo_title: Alvagante
-description: Personal dashboard by Alessandro Franceschi with curated links, AI engineering notes, and daily AI-assisted news digests on AI, security, IT, technology, science, and geopolitics.
+description: Personal dashboard by Alessandro Franceschi with curated links, AI engineering notes, and daily AI-assisted news digests on AI, security, IT, technology, gaming, science, geopolitics, and economy.
 ---
 
 {% assign total_links = 0 %}
@@ -61,7 +61,7 @@ description: Personal dashboard by Alessandro Franceschi with curated links, AI 
               </a>
             </nav>
           </div>
-          <p class="lede home-intro">Infrastructure, AI, security, science, technology, and geopolitics — curated links, practical notes, and a fresh news digest every day.</p>
+          <p class="lede home-intro">Infrastructure, AI, security, technology, gaming, science, geopolitics, and economy — curated links, practical notes, and a fresh news digest every day.</p>
           <div class="stats" aria-label="Site summary">
             <div><strong>{{ total_links }}</strong><span>curated links</span></div>
             <div><strong>{{ site.data.link_topics[0].children.size }}</strong><span>interest topics</span></div>

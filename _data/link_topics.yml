@@ -17,7 +17,11 @@
     - slug: technology
       title: Technology
       data_key: interests
-      description: Devices, platforms, consumer software, gaming, open source, and internet culture.
+      description: Devices, platforms, consumer software, open source, privacy, and internet culture.
+    - slug: gaming
+      title: Gaming
+      data_key: interests
+      description: Video games across platforms, stores, development, esports, and preservation, plus tabletop RPGs, puzzles, party games, board games, and card games.
     - slug: science
       title: Science
       data_key: interests
@@ -25,7 +29,11 @@
     - slug: geopolitics
       title: Geopolitics
       data_key: interests
-      description: International relations, economics, military affairs, energy, democracy, and global media.
+      description: International relations, military affairs, energy, democracy, diplomacy, and global media.
+    - slug: economy
+      title: Economy
+      data_key: interests
+      description: Markets, macroeconomics, monetary and fiscal policy, labor, development, data, and economic research.
 - slug: ai-engineer
   title: AI Engineer
   description: AI engineering deep dives — notebooks, slides, cheat sheets, infographics, blog posts, and social content.

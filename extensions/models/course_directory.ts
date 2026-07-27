@@ -539,7 +539,7 @@ function mergeCourses(existing: Course[], incoming: Course[]): Course[] {
 /** Course directory model for alvagante.com. */
 export const model = {
   type: "@alvagante/course-directory",
-  version: "2026.05.27.1",
+  version: "2026.07.27.1",
   globalArguments: GlobalArgsSchema,
   resources: {
     "courses": {

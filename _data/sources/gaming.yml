@@ -1,0 +1,144 @@
+- name: PC Gamer
+  url: https://www.pcgamer.com/rss/
+  topic: Gaming
+  category: Gaming
+  section: Video games
+  tags: [gaming, pc, news, reviews]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=pcgamer.com
+  enabled: true
+  importance_bias: 1.0
+- name: Eurogamer
+  url: https://www.eurogamer.net/feed
+  topic: Gaming
+  category: Gaming
+  section: Video games
+  tags: [gaming, video-games, news, reviews]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=eurogamer.net
+  enabled: true
+  importance_bias: 1.0
+- name: Rock Paper Shotgun
+  url: https://www.rockpapershotgun.com/feed
+  topic: Gaming
+  category: Gaming
+  section: Video games
+  tags: [gaming, pc, news, criticism]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=rockpapershotgun.com
+  enabled: true
+  importance_bias: 0.95
+- name: Polygon Gaming
+  url: https://www.polygon.com/rss/index.xml
+  topic: Gaming
+  category: Gaming
+  section: Video games
+  tags: [gaming, news, reviews, culture]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=polygon.com
+  enabled: true
+  importance_bias: 0.95
+- name: Game Developer
+  url: https://www.gamedeveloper.com/rss.xml
+  topic: Gaming
+  category: Gaming
+  section: Game development
+  tags: [gaming, development, design, industry]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=gamedeveloper.com
+  enabled: true
+  importance_bias: 1.05
+- name: GamesIndustry.biz
+  url: https://www.gamesindustry.biz/feed
+  topic: Gaming
+  category: Gaming
+  section: Games industry
+  tags: [gaming, industry, business, development]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=gamesindustry.biz
+  enabled: true
+  importance_bias: 1.05
+- name: Board Game Quest
+  url: https://www.boardgamequest.com/feed/
+  topic: Gaming
+  category: Gaming
+  section: Board games
+  tags: [gaming, board-games, reviews, news]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=boardgamequest.com
+  enabled: true
+  importance_bias: 0.9
+- name: Shut Up & Sit Down
+  url: https://www.shutupandsitdown.com/feed/
+  topic: Gaming
+  category: Gaming
+  section: Board games
+  tags: [gaming, board-games, reviews, podcast]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=shutupandsitdown.com
+  enabled: true
+  importance_bias: 0.95
+- name: The Dice Tower
+  url: https://www.dicetower.com/feed
+  topic: Gaming
+  category: Gaming
+  section: Board games
+  tags: [gaming, board-games, reviews, media]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=dicetower.com
+  enabled: false
+  importance_bias: 0.9
+- name: Dicebreaker
+  url: https://www.dicebreaker.com/feed
+  topic: Gaming
+  category: Gaming
+  section: Tabletop games
+  tags: [gaming, board-games, card-games, tabletop]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=dicebreaker.com
+  enabled: true
+  importance_bias: 0.95
+- name: Wargamer
+  url: https://www.wargamer.com/feed
+  topic: Gaming
+  category: Gaming
+  section: Tabletop games
+  tags: [gaming, card-games, strategy, tabletop]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=wargamer.com
+  enabled: true
+  importance_bias: 0.9
+- name: RPG Site
+  url: https://www.rpgsite.net/feed
+  topic: Gaming
+  category: Gaming
+  section: Role-playing games
+  tags: [gaming, rpg, news, reviews]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=rpgsite.net
+  enabled: true
+  importance_bias: 0.9
+- name: Esports Insider
+  url: https://esportsinsider.com/feed
+  topic: Gaming
+  category: Gaming
+  section: Esports
+  tags: [gaming, esports, industry, competitive]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=esportsinsider.com
+  enabled: true
+  importance_bias: 0.9
+- name: Video Game History Foundation
+  url: https://gamehistory.org/feed/
+  topic: Gaming
+  category: Gaming
+  section: Preservation & history
+  tags: [gaming, preservation, history, archives]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=gamehistory.org
+  enabled: true
+  importance_bias: 1.0
+- name: Scryfall Blog
+  url: https://scryfall.com/blog/feed.atom
+  topic: Gaming
+  category: Gaming
+  section: Card games
+  tags: [gaming, card-games, magic, database]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=scryfall.com
+  enabled: false
+  importance_bias: 0.85
+- name: BoardGameGeek News
+  url: https://boardgamegeek.com/rss/blog/1
+  topic: Gaming
+  category: Gaming
+  section: Board games
+  tags: [gaming, board-games, community, news]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=boardgamegeek.com
+  enabled: false
+  importance_bias: 0.85

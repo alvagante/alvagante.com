@@ -1,0 +1,162 @@
+- name: The Economist — Finance & Economics
+  url: https://www.economist.com/finance-and-economics/rss.xml
+  topic: Economy
+  category: Economy
+  section: News & analysis
+  tags: [economy, finance, macroeconomics, analysis]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=economist.com
+  enabled: true
+  importance_bias: 1.15
+- name: Federal Reserve Press Releases
+  url: https://www.federalreserve.gov/feeds/press_all.xml
+  topic: Economy
+  category: Economy
+  section: Central banking
+  tags: [economy, federal-reserve, monetary-policy, united-states]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=federalreserve.gov
+  enabled: true
+  importance_bias: 1.15
+- name: Liberty Street Economics
+  url: https://libertystreeteconomics.newyorkfed.org/feed/
+  topic: Economy
+  category: Economy
+  section: Central banking
+  tags: [economy, monetary-policy, banking, research]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=libertystreeteconomics.newyorkfed.org
+  enabled: true
+  importance_bias: 1.05
+- name: FRED Blog
+  url: https://fredblog.stlouisfed.org/feed/
+  topic: Economy
+  category: Economy
+  section: Data & indicators
+  tags: [economy, data, indicators, federal-reserve]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=fredblog.stlouisfed.org
+  enabled: true
+  importance_bias: 1.0
+- name: IMF Blog
+  url: https://www.imf.org/en/Blogs/RSS
+  topic: Economy
+  category: Economy
+  section: Macroeconomics
+  tags: [economy, macroeconomics, finance, imf]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=imf.org
+  enabled: false
+  importance_bias: 1.1
+- name: World Bank Blogs
+  url: https://blogs.worldbank.org/en/feed
+  topic: Economy
+  category: Economy
+  section: Development economics
+  tags: [economy, development, poverty, world-bank]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=blogs.worldbank.org
+  enabled: false
+  importance_bias: 1.0
+- name: BIS Press Releases
+  url: https://www.bis.org/doclist/all_pressrels.rss
+  topic: Economy
+  category: Economy
+  section: Central banking
+  tags: [economy, central-banking, financial-stability, bis]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=bis.org
+  enabled: true
+  importance_bias: 1.05
+- name: VoxEU
+  url: https://cepr.org/voxeu/rss.xml
+  topic: Economy
+  category: Economy
+  section: Economic research
+  tags: [economy, research, policy, cepr]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cepr.org
+  enabled: false
+  importance_bias: 1.05
+- name: Econbrowser
+  url: https://econbrowser.com/feed
+  topic: Economy
+  category: Economy
+  section: Macroeconomics
+  tags: [economy, macroeconomics, energy, research]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=econbrowser.com
+  enabled: true
+  importance_bias: 1.0
+- name: Marginal Revolution
+  url: https://feeds.feedblitz.com/marginalrevolution
+  topic: Economy
+  category: Economy
+  section: Economic commentary
+  tags: [economy, economics, commentary, blog]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=marginalrevolution.com
+  enabled: true
+  importance_bias: 0.95
+- name: Naked Capitalism
+  url: https://www.nakedcapitalism.com/feed
+  topic: Economy
+  category: Economy
+  section: Finance & political economy
+  tags: [economy, finance, political-economy, commentary]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=nakedcapitalism.com
+  enabled: true
+  importance_bias: 0.9
+- name: Calculated Risk
+  url: https://www.calculatedriskblog.com/feeds/posts/default
+  topic: Economy
+  category: Economy
+  section: Housing & macroeconomics
+  tags: [economy, housing, macroeconomics, data]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=calculatedriskblog.com
+  enabled: true
+  importance_bias: 0.95
+- name: Economic Policy Institute
+  url: https://www.epi.org/feed/
+  topic: Economy
+  category: Economy
+  section: Labor & employment
+  tags: [economy, labor, wages, inequality]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=epi.org
+  enabled: true
+  importance_bias: 1.0
+- name: Our World in Data
+  url: https://ourworldindata.org/atom.xml
+  topic: Economy
+  category: Economy
+  section: Data & development
+  tags: [economy, data, development, inequality]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=ourworldindata.org
+  enabled: true
+  importance_bias: 1.05
+- name: NBER New Working Papers
+  url: https://www.nber.org/rss/new.xml
+  topic: Economy
+  category: Economy
+  section: Economic research
+  tags: [economy, research, working-papers, nber]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=nber.org
+  enabled: true
+  importance_bias: 1.05
+- name: MarketWatch Top Stories
+  url: https://feeds.content.dowjones.io/public/rss/mw_topstories
+  topic: Economy
+  category: Economy
+  section: Financial markets
+  tags: [economy, markets, finance, news]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=marketwatch.com
+  enabled: true
+  importance_bias: 0.95
+- name: Project Syndicate
+  url: https://www.project-syndicate.org/rss
+  topic: Economy
+  category: Economy
+  section: Economic commentary
+  tags: [economy, policy, commentary, international]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=project-syndicate.org
+  enabled: false
+  importance_bias: 0.95
+- name: OECD Newsroom
+  url: https://www.oecd.org/newsroom/rss.xml
+  topic: Economy
+  category: Economy
+  section: Economic policy
+  tags: [economy, policy, data, oecd]
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=oecd.org
+  enabled: false
+  importance_bias: 1.0

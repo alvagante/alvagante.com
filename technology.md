@@ -1,6 +1,6 @@
 ---
 title: Technology
-description: Curated technology links and digest items covering devices, platforms, consumer software, gaming, open source, and internet culture.
+description: Curated technology links and digest items covering devices, platforms, consumer software, open source, privacy, and internet culture.
 permalink: /technology/
 topic_slug: technology
 ---

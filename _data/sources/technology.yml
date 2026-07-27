@@ -151,15 +151,6 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=hackaday.com
   enabled: true
   importance_bias: 0.9
-- name: PC Gamer
-  url: https://www.pcgamer.com/rss/
-  topic: Technology
-  category: Technology
-  section: Gaming
-  tags: [technology, gaming, pc, reviews]
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=pcgamer.com
-  enabled: true
-  importance_bias: 0.8
 - name: Platformer
   url: https://www.platformer.news/feed
   topic: Technology

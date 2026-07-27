@@ -1,7 +1,7 @@
 ---
 title: Links
 seo_title: Useful Links
-description: Curated directory of technical, AI, security, science, technology, and geopolitics resources, grouped by topic and category.
+description: Curated directory of AI, security, IT, technology, gaming, science, geopolitics, and economy resources, grouped by topic and category.
 permalink: /links/
 ---
 

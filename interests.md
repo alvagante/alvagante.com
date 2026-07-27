@@ -1,6 +1,6 @@
 ---
 title: Interests
-description: Curated topic directories for AI, security, IT, technology, science, and geopolitics, each with hand-picked resources and related digest items.
+description: Curated topic directories for AI, security, IT, technology, gaming, science, geopolitics, and economy, each with hand-picked resources and related digest items.
 permalink: /interests/
 ---
 
@@ -8,7 +8,7 @@ permalink: /interests/
   <div>
     <p class="eyebrow">Browse</p>
     <h1>Interests</h1>
-    <p class="lede">Curated links across the topics that matter -- AI, security, IT, technology, science, and geopolitics.</p>
+    <p class="lede">Curated links across the topics that matter -- AI, security, IT, technology, gaming, science, geopolitics, and economy.</p>
   </div>
 </section>
 
