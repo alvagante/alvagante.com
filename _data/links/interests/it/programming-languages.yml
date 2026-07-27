@@ -1,189 +1,281 @@
 - title: Python
   url: https://python.org
-  description: General-purpose, high-level language dominant in data science,
-    AI/ML, scripting, and backend development.
+  description: General-purpose, high-level language dominant in data science, AI/ML, scripting,
+    and backend development.
   topic: IT
   category: Programming Languages
   section: General-purpose languages
   tags:
-    - it
-    - python
-    - language
-    - scripting
+  - it
+  - python
+  - language
+  - scripting
   audience: developers
   pricing: free
-  logo: https://www.python.org/static/opengraph-icon-200x200.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=python.org
   sublinks:
-    - title: Documentation
-      url: https://docs.python.org/3/
-    - title: PyPI
-      url: https://pypi.org
+  - title: Documentation
+    url: https://docs.python.org/3/
+  - title: PyPI
+    url: https://pypi.org
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Go
   url: https://go.dev
-  description: Statically typed, compiled language from Google with fast compile
-    times, garbage collection, and built-in concurrency.
+  description: Statically typed, compiled language from Google with fast compile times, garbage
+    collection, and built-in concurrency.
   topic: IT
   category: Programming Languages
   section: Systems & compiled languages
   tags:
-    - it
-    - go
-    - golang
-    - language
+  - it
+  - go
+  - golang
+  - language
   audience: developers
   pricing: free
-  logo: https://go.dev/doc/gopher/gopherbelly300.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=go.dev
   sublinks:
-    - title: Documentation
-      url: https://go.dev/doc/
-    - title: pkg.go.dev
-      url: https://pkg.go.dev
+  - title: Documentation
+    url: https://go.dev/doc/
+  - title: pkg.go.dev
+    url: https://pkg.go.dev
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Rust
   url: https://rust-lang.org
-  description: Systems programming language focused on memory safety without
-    garbage collection, with a modern toolchain.
+  description: Systems programming language focused on memory safety without garbage collection,
+    with a modern toolchain.
   topic: IT
   category: Programming Languages
   section: Systems & compiled languages
   tags:
-    - it
-    - rust
-    - systems
-    - memory-safety
+  - it
+  - rust
+  - systems
+  - memory-safety
   audience: developers
   pricing: free
-  logo: https://www.rust-lang.org/static/images/rust-social-wide.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=rust-lang.org
   sublinks:
-    - title: The Rust Book
-      url: https://doc.rust-lang.org/book/
-    - title: crates.io
-      url: https://crates.io
+  - title: The Rust Book
+    url: https://doc.rust-lang.org/book/
+  - title: crates.io
+    url: https://crates.io
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: TypeScript
   url: https://typescriptlang.org
-  description: Strongly typed superset of JavaScript that compiles to plain JS,
-    developed and maintained by Microsoft.
+  description: Strongly typed superset of JavaScript that compiles to plain JS, developed
+    and maintained by Microsoft.
   topic: IT
   category: Programming Languages
   section: Web languages
   tags:
-    - it
-    - typescript
-    - javascript
-    - web
+  - it
+  - typescript
+  - javascript
+  - web
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=typescriptlang.org
   sublinks:
-    - title: Playground
-      url: https://www.typescriptlang.org/play
+  - title: Playground
+    url: https://www.typescriptlang.org/play
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Deno
   url: https://deno.com
-  description: Secure JavaScript and TypeScript runtime with built-in tooling,
-    native Web APIs, and npm compatibility.
+  description: Secure JavaScript and TypeScript runtime with built-in tooling, native Web
+    APIs, and npm compatibility.
   topic: IT
   category: Programming Languages
   section: Runtimes
   tags:
-    - it
-    - deno
-    - typescript
-    - javascript
+  - it
+  - deno
+  - typescript
+  - javascript
   audience: developers
   pricing: free
-  logo: https://deno.com/og/image.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=deno.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Elixir
   url: https://elixir-lang.org
-  description: Functional language running on the Erlang VM, optimised for
-    building fault-tolerant, distributed, real-time systems.
+  description: Functional language running on the Erlang VM, optimised for building fault-tolerant,
+    distributed, real-time systems.
   topic: IT
   category: Programming Languages
   section: Functional languages
   tags:
-    - it
-    - elixir
-    - erlang
-    - functional
+  - it
+  - elixir
+  - erlang
+  - functional
   audience: developers
   pricing: free
-  logo: https://elixir-lang.org/images/social/elixir-og-card.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=elixir-lang.org
   sublinks:
-    - title: Hex.pm (packages)
-      url: https://hex.pm
+  - title: Hex.pm (packages)
+    url: https://hex.pm
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Zig
   url: https://ziglang.org
-  description: Low-level systems language focused on simplicity, explicit control,
-    and C interoperability without a preprocessor.
+  description: Low-level systems language focused on simplicity, explicit control, and C interoperability
+    without a preprocessor.
   topic: IT
   category: Programming Languages
   section: Systems & compiled languages
   tags:
-    - it
-    - zig
-    - systems
-    - c-interop
+  - it
+  - zig
+  - systems
+  - c-interop
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ziglang.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Ruby
   url: https://ruby-lang.org
-  description: Dynamic, object-oriented language known for developer ergonomics
-    and the Rails web framework.
+  description: Dynamic, object-oriented language known for developer ergonomics and the Rails
+    web framework.
   topic: IT
   category: Programming Languages
   section: General-purpose languages
   tags:
-    - it
-    - ruby
-    - language
-    - rails
+  - it
+  - ruby
+  - language
+  - rails
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ruby-lang.org
-  sublinks:
-    - title: RubyGems
-      url: https://rubygems.org
+  sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Kotlin
   url: https://kotlinlang.org
-  description: Modern, statically typed JVM language from JetBrains, the preferred
-    language for Android and a growing server-side choice.
+  description: Modern, statically typed JVM language from JetBrains, the preferred language
+    for Android and a growing server-side choice.
   topic: IT
   category: Programming Languages
   section: JVM languages
   tags:
-    - it
-    - kotlin
-    - jvm
-    - android
+  - it
+  - kotlin
+  - jvm
+  - android
   audience: developers
   pricing: free
-  logo: https://kotlinlang.org/assets/images/open-graph/general.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=kotlinlang.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: Java
+  url: https://dev.java/
+  description: Official Java learning and reference portal covering the language, JVM, tools,
+    and current JDK releases.
+  topic: IT
+  category: Programming Languages
+  section: JVM languages
+  tags:
+  - it
+  - java
+  - jvm
+  - language
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=dev.java
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Node.js
+  url: https://nodejs.org/
+  description: Open-source JavaScript runtime for servers, command-line tools, and network
+    applications.
+  topic: IT
+  category: Programming Languages
+  section: Runtimes
+  tags:
+  - it
+  - nodejs
+  - javascript
+  - runtime
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=nodejs.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: PHP
+  url: https://www.php.net/
+  description: Official PHP language site with documentation, release information, and extension
+    references.
+  topic: IT
+  category: Programming Languages
+  section: Web languages
+  tags:
+  - it
+  - php
+  - web
+  - language
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.php.net
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: C#
+  url: https://learn.microsoft.com/en-us/dotnet/csharp/
+  description: Official Microsoft documentation for the C# language and its .NET development
+    tools.
+  topic: IT
+  category: Programming Languages
+  section: General-purpose languages
+  tags:
+  - it
+  - csharp
+  - dotnet
+  - language
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=learn.microsoft.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Swift
+  url: https://www.swift.org/
+  description: Official home and documentation for the open-source Swift programming language.
+  topic: IT
+  category: Programming Languages
+  section: Systems & compiled languages
+  tags:
+  - it
+  - swift
+  - language
+  - open-source
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.swift.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

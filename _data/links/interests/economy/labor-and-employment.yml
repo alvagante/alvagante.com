@@ -1,69 +1,87 @@
 - title: ILOSTAT
   url: https://ilostat.ilo.org
-  description: International Labour Organization database for employment, unemployment, wages, hours, and labor-force indicators.
+  description: International Labour Organization database for employment, unemployment, wages, hours, and labor force indicators.
   topic: Economy
   category: Labor & Employment
   section: Data & statistics
   tags: [economy, labor, employment, statistics]
   audience: researchers
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ilostat.ilo.org
-  last_checked: 2026-07-27
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: U.S. Bureau of Labor Statistics
   url: https://www.bls.gov
-  description: Official US data on jobs, unemployment, inflation, productivity, wages, benefits, and workplace injuries.
+  description: Official U.S. data on employment, unemployment, prices, productivity, wages, benefits, and workplace injuries.
   topic: Economy
   category: Labor & Employment
   section: Data & statistics
   tags: [economy, labor, employment, united-states]
   audience: researchers
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=bls.gov
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.bls.gov
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: OECD Employment
   url: https://www.oecd.org/employment/
-  description: Cross-country labor-market indicators and analysis covering jobs, wages, skills, migration, and social policy.
+  description: Cross-country labor market indicators and analysis covering jobs, wages, skills, migration, and social policy.
   topic: Economy
   category: Labor & Employment
   section: International analysis
   tags: [economy, labor, employment, oecd]
   audience: researchers
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=oecd.org
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.oecd.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: Economic Policy Institute
   url: https://www.epi.org
-  description: US labor-market research focused on wages, inequality, worker power, employment, and economic policy.
+  description: U.S. labor market research focused on wages, inequality, worker power, employment, and economic policy.
   topic: Economy
   category: Labor & Employment
   section: Research institutes
   tags: [economy, labor, wages, inequality]
   audience: general
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=epi.org
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.epi.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: Indeed Hiring Lab
   url: https://www.hiringlab.org
-  description: Labor-market research based on job postings, searches, wages, remote work, and hiring trends across countries.
+  description: Labor market research based on job postings, searches, wages, remote work, and hiring trends across countries.
   topic: Economy
   category: Labor & Employment
   section: Real-time indicators
   tags: [economy, labor, hiring, jobs]
   audience: general
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=hiringlab.org
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.hiringlab.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: ADP Research
   url: https://www.adpresearch.com
-  description: Payroll-based employment, pay, workforce, and people-at-work research using large administrative datasets.
+  description: Payroll-based research on employment, pay, workforce trends, and worker experiences.
   topic: Economy
   category: Labor & Employment
   section: Real-time indicators
   tags: [economy, labor, payroll, wages]
   audience: general
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=adpresearch.com
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.adpresearch.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: Eurostat Labour Market
   url: https://ec.europa.eu/eurostat/web/labour-market
   description: Harmonized European data on employment, unemployment, vacancies, earnings, labor costs, and working conditions.
@@ -73,16 +91,36 @@
   tags: [economy, labor, employment, european-union]
   audience: researchers
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ec.europa.eu
-  last_checked: 2026-07-27
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: IZA Institute of Labor Economics
   url: https://www.iza.org
-  description: International labor-economics research network publishing discussion papers, policy analysis, and data resources.
+  description: International labor economics research network publishing discussion papers, policy analysis, and data resources.
   topic: Economy
   category: Labor & Employment
   section: Research institutes
   tags: [economy, labor, research, working-papers]
   audience: researchers
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=iza.org
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.iza.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Atlanta Fed Wage Growth Tracker
+  url: https://www.atlantafed.org/chcs/wage-growth-tracker
+  description: Federal Reserve Bank of Atlanta measure of nominal wage growth for continuously employed individuals.
+  topic: Economy
+  category: Labor & Employment
+  section: Wage indicators
+  tags: [economy, labor, wages, federal-reserve]
+  audience: researchers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.atlantafed.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

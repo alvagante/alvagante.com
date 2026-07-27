@@ -1,496 +1,336 @@
 - title: Andrej Karpathy — Zero to Hero
   url: https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
-  description: from micrograd to GPT; exceptional.
+  description: A code-first video series that builds neural networks from micrograd through GPT-style language models.
   topic: AI
   category: Learning Resources
   section: Video courses (free, high-signal)
-  tags:
-    - ai
-    - learning-resources
-    - video-courses-free-high-signal
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, video-courses-free-high-signal, learning, courses, books]
   audience: builders
   pricing: unknown
-  logo: https://i.ytimg.com/vi/VMj-3S1tku0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAsbch9qh_yKE5PEvVrJKLFzLfYYQ&days_since_epoch=20599
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.youtube.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Karpathy — "Let's build GPT-2"
   url: https://www.youtube.com/watch?v=l8pRSuU81PU
-  description: 4-hour masterclass, single video.
+  description: A four-hour implementation walkthrough covering GPT-2 data preparation, training, and optimization.
   topic: AI
   category: Learning Resources
   section: Video courses (free, high-signal)
-  tags:
-    - ai
-    - learning-resources
-    - video-courses-free-high-signal
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, video-courses-free-high-signal, learning, courses, books]
   audience: builders
   pricing: unknown
-  logo: https://i.ytimg.com/vi/l8pRSuU81PU/maxresdefault.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.youtube.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: fast.ai — Practical Deep Learning
   url: https://course.fast.ai
-  description: top-down pedagogy.
+  description: A free, application-first course on training and deploying deep-learning models with fastai and PyTorch.
   topic: AI
   category: Learning Resources
   section: Video courses (free, high-signal)
-  tags:
-    - ai
-    - learning-resources
-    - video-courses-free-high-signal
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, video-courses-free-high-signal, learning, courses, books]
   audience: builders
   pricing: unknown
-  logo: https://course.fast.ai/www/social.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=course.fast.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
-- title: Hugging Face Course
+  notes: null
+  last_checked: 2026-07-27
+- title: Hugging Face Learn
   url: https://huggingface.co/learn
-  description: transformers, RL, audio.
+  description: Free courses from Hugging Face covering language models, agents, reinforcement learning, audio, and computer vision.
   topic: AI
   category: Learning Resources
   section: Video courses (free, high-signal)
-  tags:
-    - ai
-    - learning-resources
-    - video-courses-free-high-signal
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, video-courses-free-high-signal, learning, courses, books]
   audience: builders
   pricing: unknown
-  logo: https://huggingface.co/front/thumbnails/learn.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: DeepLearning.AI
   url: https://www.deeplearning.ai
-  description: (Andrew Ng) many specializations + short courses.
+  description: Andrew Ng's education platform offers structured programs and short courses on machine learning and generative AI.
   topic: AI
   category: Learning Resources
   section: Video courses (free, high-signal)
-  tags:
-    - ai
-    - learning-resources
-    - video-courses-free-high-signal
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, video-courses-free-high-signal, learning, courses, books]
   audience: builders
   pricing: unknown
-  logo: https://home-wordpress.deeplearning.ai/wp-content/uploads/2024/06/homepage-preview.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.deeplearning.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Stanford CS25 — Transformers United
   url: https://web.stanford.edu/class/cs25/
-  description: guest-lecturer seminar.
+  description: A Stanford seminar series featuring researchers and practitioners working on transformer models and applications.
   topic: AI
   category: Learning Resources
   section: Video courses (free, high-signal)
-  tags:
-    - ai
-    - learning-resources
-    - video-courses-free-high-signal
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, video-courses-free-high-signal, learning, courses, books]
   audience: builders
   pricing: unknown
-  logo: https://cs25.stanford.edu/images/transformer_seal.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=web.stanford.edu
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Stanford CS336 — Language Modeling from Scratch
   url: https://stanford-cs336.github.io
-  description: Stanford CS336 — Language Modeling from Scratch resource in
-    Learning Resources.
+  description: A rigorous Stanford course on implementing language-model data, architecture, training, scaling, and evaluation pipelines.
   topic: AI
   category: Learning Resources
   section: Video courses (free, high-signal)
-  tags:
-    - ai
-    - learning-resources
-    - video-courses-free-high-signal
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, video-courses-free-high-signal, learning, courses, books]
   audience: builders
   pricing: unknown
-  logo: https://cs336.stanford.edu/assets/images/stanford-nlp-logo-new.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=stanford-cs336.github.io
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
-- title: MIT 6.S191 — Intro to Deep Learning
-  url: http://introtodeeplearning.com
-  description: MIT 6.S191 — Intro to Deep Learning resource in Learning Resources.
+  notes: null
+  last_checked: 2026-07-27
+- title: MIT 6.S191 — Introduction to Deep Learning
+  url: https://introtodeeplearning.com
+  description: MIT's open introductory course covers deep-learning foundations and applications through lectures and labs.
   topic: AI
   category: Learning Resources
   section: Video courses (free, high-signal)
-  tags:
-    - ai
-    - learning-resources
-    - video-courses-free-high-signal
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, video-courses-free-high-signal, learning, courses, books]
   audience: builders
   pricing: unknown
-  logo: https://i.ibb.co/Jm3xHCR/MIT-Deep-Learning.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=introtodeeplearning.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: 3Blue1Brown — Neural Networks
   url: https://www.3blue1brown.com/topics/neural-networks
-  description: visual intuition.
+  description: Grant Sanderson's visual lessons develop intuition for neural networks, gradient descent, and transformer concepts.
   topic: AI
   category: Learning Resources
   section: Video courses (free, high-signal)
-  tags:
-    - ai
-    - learning-resources
-    - video-courses-free-high-signal
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, video-courses-free-high-signal, learning, courses, books]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.3blue1brown.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: AI Engineering
   url: https://www.oreilly.com/library/view/ai-engineering/9781098166298/
-  description: Chip Huyen (O'Reilly, 2024).
+  description: Chip Huyen's book covers foundation-model application design, evaluation, data, deployment, and operations.
   topic: AI
   category: Learning Resources
   section: Books
-  tags:
-    - ai
-    - learning-resources
-    - books
-    - learning
-    - courses
+  tags: [ai, learning-resources, books, learning, courses]
   audience: builders
   pricing: unknown
-  logo: https://www.oreilly.com/library/cover/9781098166298/1200w630h/
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.oreilly.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Hands-On Large Language Models
   url: https://www.oreilly.com/library/view/hands-on-large-language/9781098150952/
-  description: Alammar & Grootendorst (O'Reilly).
+  description: Jay Alammar and Maarten Grootendorst explain language-model concepts through visual explanations and practical code.
   topic: AI
   category: Learning Resources
   section: Books
-  tags:
-    - ai
-    - learning-resources
-    - books
-    - learning
-    - courses
+  tags: [ai, learning-resources, books, learning, courses]
   audience: builders
   pricing: unknown
-  logo: https://www.oreilly.com/library/cover/9781098150952/1200w630h/
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.oreilly.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Build a Large Language Model (From Scratch)
   url: https://www.manning.com/books/build-a-large-language-model-from-scratch
-  description: Sebastian Raschka (Manning).
+  description: Sebastian Raschka's book implements a GPT-style language model, pretraining, fine-tuning, and evaluation in PyTorch.
   topic: AI
   category: Learning Resources
   section: Books
-  tags:
-    - ai
-    - learning-resources
-    - books
-    - learning
-    - courses
+  tags: [ai, learning-resources, books, learning, courses]
   audience: builders
   pricing: unknown
-  logo: https://images.manning.com/360/480/resize/book/1/92362be-2647-4fa1-9998-e4959d9c568f/DOTD_Raschka.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.manning.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Designing Machine Learning Systems
   url: https://huyenchip.com/books/
-  description: Chip Huyen.
+  description: Chip Huyen's book presents design principles for reliable, scalable production machine-learning systems.
   topic: AI
   category: Learning Resources
   section: Books
-  tags:
-    - ai
-    - learning-resources
-    - books
-    - learning
-    - courses
+  tags: [ai, learning-resources, books, learning, courses]
   audience: builders
   pricing: unknown
-  logo: https://huyenchip.com/assets/pics/speaking/6.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=huyenchip.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Deep Learning
   url: https://www.deeplearningbook.org
-  description: Goodfellow/Bengio/Courville (free online).
+  description: The free online textbook by Ian Goodfellow, Yoshua Bengio, and Aaron Courville covers deep-learning foundations.
   topic: AI
   category: Learning Resources
   section: Books
-  tags:
-    - ai
-    - learning-resources
-    - books
-    - learning
-    - courses
+  tags: [ai, learning-resources, books, learning, courses]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.deeplearningbook.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Sebastian Raschka — Ahead of AI
   url: https://magazine.sebastianraschka.com
-  description: clear, technical.
+  description: Technical articles on language-model research, implementation, fine-tuning, and evaluation.
   topic: AI
   category: Learning Resources
   section: Practitioner blogs (tutorials + write-ups)
-  tags:
-    - ai
-    - learning-resources
-    - practitioner-blogs-tutorials-write-ups
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, practitioner-blogs-tutorials-write-ups, learning, courses, books]
   audience: builders
   pricing: unknown
-  logo: https://substackcdn.com/image/fetch/$s_!4SGJ!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fsebastianraschka.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D2075234941%26version%3D9
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=magazine.sebastianraschka.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Maxime Labonne
-  url: https://mlabonne.github.io
-  description: fine-tuning, model merging.
+  url: https://mlabonne.github.io/blog
+  description: Practical articles and notebooks on fine-tuning, quantization, synthetic data, and model merging.
   topic: AI
   category: Learning Resources
   section: Practitioner blogs (tutorials + write-ups)
-  tags:
-    - ai
-    - learning-resources
-    - practitioner-blogs-tutorials-write-ups
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, practitioner-blogs-tutorials-write-ups, learning, courses, books]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=mlabonne.github.io
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Eugene Yan
   url: https://eugeneyan.com
-  description: patterns for production LLMs.
+  description: Engineering essays on recommendation systems, retrieval, evaluation, and production language-model applications.
   topic: AI
   category: Learning Resources
   section: Practitioner blogs (tutorials + write-ups)
-  tags:
-    - ai
-    - learning-resources
-    - practitioner-blogs-tutorials-write-ups
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, practitioner-blogs-tutorials-write-ups, learning, courses, books]
   audience: builders
   pricing: unknown
-  logo: https://eugeneyan.com/assets/og_image/default.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=eugeneyan.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Hamel Husain
   url: https://hamel.dev
-  description: evaluation-focused.
+  description: Practitioner guidance on language-model evaluation, fine-tuning, data quality, and AI product development.
   topic: AI
   category: Learning Resources
   section: Practitioner blogs (tutorials + write-ups)
-  tags:
-    - ai
-    - learning-resources
-    - practitioner-blogs-tutorials-write-ups
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, practitioner-blogs-tutorials-write-ups, learning, courses, books]
   audience: builders
   pricing: unknown
-  logo: https://hamel.dev/quarto.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=hamel.dev
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Chip Huyen
   url: https://huyenchip.com/blog/
-  description: Chip Huyen resource in Learning Resources.
+  description: Essays on machine-learning systems, data infrastructure, language models, and AI engineering.
   topic: AI
   category: Learning Resources
   section: Practitioner blogs (tutorials + write-ups)
-  tags:
-    - ai
-    - learning-resources
-    - practitioner-blogs-tutorials-write-ups
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, practitioner-blogs-tutorials-write-ups, learning, courses, books]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=huyenchip.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Anthropic Courses
   url: https://github.com/anthropics/courses
-  description: Anthropic Courses resource in Learning Resources.
+  description: Anthropic's open course repositories cover its API, prompt evaluation, tool use, and Model Context Protocol.
   topic: AI
   category: Learning Resources
   section: Hands-on tutorial collections
-  tags:
-    - ai
-    - learning-resources
-    - hands-on-tutorial-collections
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, hands-on-tutorial-collections, learning, courses, books]
   audience: builders
   pricing: unknown
-  logo: https://opengraph.githubassets.com/aac3be349b1df951e253087ca0931273f62f69bd3e0d3adaad2d56a009742afb/anthropics/courses
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
-- title: HF NLP Course
-  url: https://huggingface.co/learn/nlp-course
-  description: HF NLP Course resource in Learning Resources.
-  topic: AI
-  category: Learning Resources
-  section: Hands-on tutorial collections
-  tags:
-    - ai
-    - learning-resources
-    - hands-on-tutorial-collections
-    - learning
-    - courses
-    - books
-  audience: builders
-  pricing: unknown
-  logo: https://cdn-thumbnails.huggingface.co/social-thumbnails/learn/llm-course/chapter1/1.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: LangChain Academy
   url: https://academy.langchain.com
-  description: LangChain Academy resource in Learning Resources.
+  description: Free courses on building agents and language-model applications with LangChain and LangGraph.
   topic: AI
   category: Learning Resources
   section: Hands-on tutorial collections
-  tags:
-    - ai
-    - learning-resources
-    - hands-on-tutorial-collections
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, hands-on-tutorial-collections, learning, courses, books]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=academy.langchain.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Pinecone Learning Center
   url: https://www.pinecone.io/learn/
-  description: RAG focus.
+  description: Technical guides on vector search, embeddings, retrieval-augmented generation, and semantic search.
   topic: AI
   category: Learning Resources
   section: Hands-on tutorial collections
-  tags:
-    - ai
-    - learning-resources
-    - hands-on-tutorial-collections
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, hands-on-tutorial-collections, learning, courses, books]
   audience: builders
   pricing: unknown
-  logo: https://www.pinecone.io/api/og/?title=Learning%20Center&alignment=center
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.pinecone.io
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Yannic Kilcher
   url: https://www.youtube.com/@YannicKilcher
-  description: deep paper walkthroughs.
+  description: Detailed video walkthroughs of machine-learning papers, methods, and research debates.
   topic: AI
   category: Learning Resources
   section: Paper-reading channels
-  tags:
-    - ai
-    - learning-resources
-    - paper-reading-channels
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, paper-reading-channels, learning, courses, books]
   audience: builders
   pricing: unknown
-  logo: https://yt3.googleusercontent.com/ytc/AIdro_nqmmpWC-iPIeVF4grbJGcGmoWyYX0E6_PFGITlKv7jTMrh=s900-c-k-c0x00ffffff-no-rj
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.youtube.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: AI Coffee Break
   url: https://www.youtube.com/@AICoffeeBreak
-  description: shorter, accessible.
+  description: Concise visual explanations of machine-learning papers and core AI concepts.
   topic: AI
   category: Learning Resources
   section: Paper-reading channels
-  tags:
-    - ai
-    - learning-resources
-    - paper-reading-channels
-    - learning
-    - courses
-    - books
+  tags: [ai, learning-resources, paper-reading-channels, learning, courses, books]
   audience: builders
   pricing: unknown
-  logo: https://yt3.googleusercontent.com/eAkQjpP5aaqDSfWTaseTMhrJZ9iYElzALKZ6kIgOHPoTFIbidNYgPugOZ1HpNhIIhQzEGbXCcg=s900-c-k-c0x00ffffff-no-rj
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.youtube.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Learning Resources.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27

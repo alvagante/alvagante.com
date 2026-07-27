@@ -1,175 +1,231 @@
 - title: GitHub Actions
   url: https://docs.github.com/en/actions
-  description: CI/CD automation platform built into GitHub with a large
-    marketplace of reusable actions.
+  description: CI/CD automation platform built into GitHub with a large marketplace of reusable
+    actions.
   topic: IT
   category: DevOps & CI/CD
   section: CI/CD platforms
   tags:
-    - it
-    - cicd
-    - github
-    - automation
+  - it
+  - cicd
+  - github
+  - automation
   audience: developers
   pricing: freemium
-  logo: https://docs.github.com/assets/cb-345/images/social-cards/actions.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.github.com
   sublinks:
-    - title: Actions Marketplace
-      url: https://github.com/marketplace?type=actions
+  - title: Actions Marketplace
+    url: https://github.com/marketplace?type=actions
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: GitHub Pages
   url: https://docs.github.com/en/pages
-  description: Documentation for hosting static sites from GitHub repositories
-    with Jekyll or custom workflows.
+  description: Documentation for hosting static sites from GitHub repositories with Jekyll
+    or custom workflows.
   topic: IT
   category: DevOps & CI/CD
   section: Static site deployment
   tags:
-    - it
-    - github
-    - static-site
-    - deployment
+  - it
+  - github
+  - static-site
+  - deployment
   audience: developers
   pricing: free
-  logo: https://docs.github.com/assets/cb-345/images/social-cards/pages.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.github.com
   sublinks:
-    - title: Custom workflows
-      url: https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
+  - title: Custom workflows
+    url: https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: GitLab CI/CD
-  url: https://docs.gitlab.com/ee/ci/
-  description: Fully integrated CI/CD built into GitLab with parallel jobs,
-    environments, and container registry.
+  url: https://docs.gitlab.com/ci/
+  description: Official GitLab CI/CD documentation for pipelines, runners, jobs, environments,
+    and deployment workflows.
   topic: IT
   category: DevOps & CI/CD
   section: CI/CD platforms
   tags:
-    - it
-    - cicd
-    - gitlab
-    - automation
+  - it
+  - cicd
+  - gitlab
+  - automation
   audience: developers
   pricing: freemium
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.gitlab.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Dagger
   url: https://dagger.io
-  description: Portable CI/CD engine that runs pipelines as code in containers,
-    locally and on any cloud.
+  description: Portable CI/CD engine that runs pipelines as code in containers, locally and
+    on any cloud.
   topic: IT
   category: DevOps & CI/CD
   section: CI/CD platforms
   tags:
-    - it
-    - cicd
-    - containers
-    - pipelines
+  - it
+  - cicd
+  - containers
+  - pipelines
   audience: developers
   pricing: freemium
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=dagger.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Earthly
   url: https://earthly.dev
-  description: Build automation tool combining Makefile and Dockerfile concepts
-    for reproducible, container-based builds.
+  description: Build automation tool combining Makefile and Dockerfile concepts for reproducible,
+    container-based builds.
   topic: IT
   category: DevOps & CI/CD
   section: Build tools
   tags:
-    - it
-    - build
-    - containers
-    - reproducible
+  - it
+  - build
+  - containers
+  - reproducible
   audience: developers
   pricing: freemium
-  logo: https://earthly.dev/svg/twitter-card-large.svg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=earthly.dev
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Tekton
   url: https://tekton.dev
-  description: CNCF cloud-native CI/CD framework running pipelines as
-    Kubernetes-native resources.
+  description: CNCF cloud-native CI/CD framework running pipelines as Kubernetes-native resources.
   topic: IT
   category: DevOps & CI/CD
   section: CI/CD platforms
   tags:
-    - it
-    - cicd
-    - kubernetes
-    - cncf
+  - it
+  - cicd
+  - kubernetes
+  - cncf
   audience: developers
   pricing: free
-  logo: https://tekton.dev/featured-background.jpeg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=tekton.dev
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Buildkite
   url: https://buildkite.com
-  description: Scalable CI/CD platform using your own infrastructure as agents,
-    with fast pipelines and a clean interface.
+  description: Scalable CI/CD platform using your own infrastructure as agents, with fast
+    pipelines and a clean interface.
   topic: IT
   category: DevOps & CI/CD
   section: CI/CD platforms
   tags:
-    - it
-    - cicd
-    - self-hosted
-    - pipelines
+  - it
+  - cicd
+  - self-hosted
+  - pipelines
   audience: developers
   pricing: freemium
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=buildkite.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Argo Workflows
   url: https://argoproj.github.io/workflows
-  description: Kubernetes-native workflow orchestration engine for running
-    parallel jobs, DAGs, and data pipelines.
+  description: Kubernetes-native workflow orchestration engine for running parallel jobs,
+    DAGs, and data pipelines.
   topic: IT
   category: DevOps & CI/CD
   section: Workflow engines
   tags:
-    - it
-    - kubernetes
-    - workflows
-    - orchestration
+  - it
+  - kubernetes
+  - workflows
+  - orchestration
   audience: developers
   pricing: free
-  logo: /static/db13ca8ed5bf65c28742454220231e7e/workflows-thumbnail.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=argoproj.github.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Jenkins
   url: https://jenkins.io
-  description: The most widely-used open-source automation server with a vast
-    plugin ecosystem for CI/CD pipelines.
+  description: The most widely-used open-source automation server with a vast plugin ecosystem
+    for CI/CD pipelines.
   topic: IT
   category: DevOps & CI/CD
   section: CI/CD platforms
   tags:
-    - it
-    - cicd
-    - jenkins
-    - automation
+  - it
+  - cicd
+  - jenkins
+  - automation
   audience: developers
   pricing: free
-  logo: /images/logo-title-opengraph.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=jenkins.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: GNU Make
+  url: https://www.gnu.org/software/make/
+  description: GNU build automation tool for expressing file dependencies and reproducible
+    command workflows.
+  topic: IT
+  category: DevOps & CI/CD
+  section: Build tools
+  tags:
+  - it
+  - build
+  - make
+  - automation
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.gnu.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Bazel
+  url: https://bazel.build/
+  description: Open-source build and test tool supporting large, multi-language repositories
+    with hermetic and incremental builds.
+  topic: IT
+  category: DevOps & CI/CD
+  section: Build tools
+  tags:
+  - it
+  - build
+  - bazel
+  - monorepo
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=bazel.build
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Woodpecker CI
+  url: https://woodpecker-ci.org/
+  description: Open-source CI engine using container-based pipeline steps and common Git forge
+    integrations.
+  topic: IT
+  category: DevOps & CI/CD
+  section: CI/CD platforms
+  tags:
+  - it
+  - cicd
+  - containers
+  - open-source
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=woodpecker-ci.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

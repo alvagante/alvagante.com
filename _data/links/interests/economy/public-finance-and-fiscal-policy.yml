@@ -1,14 +1,17 @@
 - title: IMF Fiscal Monitor
   url: https://www.imf.org/en/Publications/FM
-  description: Semiannual analysis of public finances, debt, fiscal risks, taxation, and government policy across economies.
+  description: IMF analysis of public finances, debt, fiscal risks, taxation, and government policy across economies.
   topic: Economy
   category: Public Finance & Fiscal Policy
   section: Global analysis
   tags: [economy, fiscal-policy, public-finance, imf]
   audience: researchers
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=imf.org
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.imf.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: OECD Tax
   url: https://www.oecd.org/tax/
   description: Comparative tax statistics, policy analysis, international tax standards, and country-level revenue data.
@@ -18,19 +21,25 @@
   tags: [economy, taxation, public-finance, oecd]
   audience: researchers
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=oecd.org
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.oecd.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: Congressional Budget Office
   url: https://www.cbo.gov
-  description: Independent US federal budget projections, cost estimates, long-term outlooks, and economic analysis.
+  description: Independent U.S. federal budget projections, cost estimates, long-term outlooks, and economic analysis.
   topic: Economy
   category: Public Finance & Fiscal Policy
   section: Budget institutions
   tags: [economy, budget, fiscal-policy, united-states]
   audience: researchers
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=cbo.gov
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.cbo.gov
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: Institute for Fiscal Studies
   url: https://ifs.org.uk
   description: Independent research on taxation, public spending, inequality, education, pensions, and household finances.
@@ -40,30 +49,39 @@
   tags: [economy, fiscal-policy, taxation, research]
   audience: researchers
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ifs.org.uk
-  last_checked: 2026-07-27
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: Tax Policy Center
   url: https://taxpolicycenter.org
-  description: Nonpartisan analysis, modeling, explainers, and data on US federal, state, and local tax policy.
+  description: Nonpartisan analysis, modeling, explainers, and data on U.S. federal, state, and local tax policy.
   topic: Economy
   category: Public Finance & Fiscal Policy
   section: Tax policy
   tags: [economy, taxation, fiscal-policy, research]
   audience: general
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=taxpolicycenter.org
-  last_checked: 2026-07-27
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: EU Economy and Finance
   url: https://economy-finance.ec.europa.eu
-  description: European Commission fiscal surveillance, forecasts, public-finance data, and economic policy coordination.
+  description: European Commission fiscal surveillance, forecasts, public finance data, and economic policy coordination.
   topic: Economy
   category: Public Finance & Fiscal Policy
   section: Budget institutions
   tags: [economy, fiscal-policy, european-union, forecasts]
   audience: researchers
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=economy-finance.ec.europa.eu
-  last_checked: 2026-07-27
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: International Budget Partnership
   url: https://internationalbudget.org
   description: Comparative research and advocacy on budget transparency, public participation, accountability, and equitable spending.
@@ -73,8 +91,11 @@
   tags: [economy, public-finance, transparency, budgets]
   audience: general
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=internationalbudget.org
-  last_checked: 2026-07-27
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: World Bank Public Finance
   url: https://www.worldbank.org/en/topic/governance/brief/public-finance
   description: Guidance and research on public financial management, domestic revenue, government spending, and fiscal institutions.
@@ -84,5 +105,36 @@
   tags: [economy, public-finance, development, world-bank]
   audience: researchers
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=worldbank.org
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.worldbank.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: IMF Government Finance Statistics
+  url: https://data.imf.org/?sk=a0867067-d23c-4ebc-ad23-d3b015045405
+  description: IMF fiscal data covering government revenue, expenditure, financing, financial assets, liabilities, and balance sheets.
+  topic: Economy
+  category: Public Finance & Fiscal Policy
+  section: Fiscal data
+  tags: [economy, public-finance, fiscal-data, imf]
+  audience: researchers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=data.imf.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: U.S. Treasury Fiscal Data
+  url: https://fiscaldata.treasury.gov
+  description: Official U.S. federal financial data on debt, revenue, spending, interest costs, and other fiscal measures.
+  topic: Economy
+  category: Public Finance & Fiscal Policy
+  section: Fiscal data
+  tags: [economy, public-finance, fiscal-data, united-states]
+  audience: researchers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=fiscaldata.treasury.gov
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

@@ -1,175 +1,250 @@
 - title: Prometheus
   url: https://prometheus.io
-  description: Open-source monitoring and alerting toolkit with a pull-based model
-    and a powerful query language (PromQL).
+  description: Open-source monitoring and alerting toolkit with a pull-based model and a powerful
+    query language (PromQL).
   topic: IT
   category: Observability & Monitoring
   section: Metrics
   tags:
-    - it
-    - monitoring
-    - metrics
-    - prometheus
+  - it
+  - monitoring
+  - metrics
+  - prometheus
   audience: developers
   pricing: free
-  logo: https://prometheus.io/opengraph-image.png?b370f6418ef38b42
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=prometheus.io
   sublinks:
-    - title: PromQL tutorial
-      url: https://prometheus.io/docs/prometheus/latest/querying/basics/
+  - title: PromQL tutorial
+    url: https://prometheus.io/docs/prometheus/latest/querying/basics/
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Grafana
   url: https://grafana.com
-  description: Open-source analytics and visualization platform for metrics, logs,
-    and traces with 100+ data source plugins.
+  description: Open-source analytics and visualization platform for metrics, logs, and traces
+    with 100+ data source plugins.
   topic: IT
   category: Observability & Monitoring
   section: Dashboards & visualization
   tags:
-    - it
-    - monitoring
-    - dashboards
-    - grafana
+  - it
+  - monitoring
+  - dashboards
+  - grafana
   audience: developers
   pricing: freemium
-  logo: https://a-us.storyblok.com/f/1022730/1920x1080/f5f38546c4/image-homepage-metaimage.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=grafana.com
   sublinks:
-    - title: Dashboard community
-      url: https://grafana.com/grafana/dashboards/
+  - title: Dashboard community
+    url: https://grafana.com/grafana/dashboards/
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: OpenTelemetry
   url: https://opentelemetry.io
-  description: CNCF standard for collecting telemetry — traces, metrics, and logs
-    — with vendor-neutral SDKs and collectors.
+  description: CNCF standard for collecting telemetry — traces, metrics, and logs — with vendor-neutral
+    SDKs and collectors.
   topic: IT
   category: Observability & Monitoring
   section: Instrumentation standards
   tags:
-    - it
-    - observability
-    - tracing
-    - cncf
+  - it
+  - observability
+  - tracing
+  - cncf
   audience: developers
   pricing: free
-  logo: https://opentelemetry.io/img/social/logo-wordmark-001.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=opentelemetry.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Jaeger
   url: https://jaegertracing.io
-  description: CNCF distributed tracing platform for monitoring microservice
-    transactions and diagnosing latency problems.
+  description: CNCF distributed tracing platform for monitoring microservice transactions
+    and diagnosing latency problems.
   topic: IT
   category: Observability & Monitoring
   section: Distributed tracing
   tags:
-    - it
-    - tracing
-    - microservices
-    - cncf
+  - it
+  - tracing
+  - microservices
+  - cncf
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=jaegertracing.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Grafana Loki
   url: https://grafana.com/oss/loki/
-  description: Horizontally scalable log aggregation system inspired by
-    Prometheus, designed to store logs efficiently.
+  description: Horizontally scalable log aggregation system inspired by Prometheus, designed
+    to store logs efficiently.
   topic: IT
   category: Observability & Monitoring
   section: Logging
   tags:
-    - it
-    - logging
-    - loki
-    - grafana
+  - it
+  - logging
+  - loki
+  - grafana
   audience: developers
   pricing: free
-  logo: https://grafana.com/media/oss/Loki-metaimage.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=grafana.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Sentry
   url: https://sentry.io
-  description: Error tracking and performance monitoring for frontend, backend,
-    and mobile applications with detailed stack traces.
+  description: Error tracking and performance monitoring for frontend, backend, and mobile
+    applications with detailed stack traces.
   topic: IT
   category: Observability & Monitoring
   section: Error tracking
   tags:
-    - it
-    - error-tracking
-    - apm
-    - sentry
+  - it
+  - error-tracking
+  - apm
+  - sentry
   audience: developers
   pricing: freemium
-  logo: https://sentry.io/_astro/home-hero-meta.DJDejDMD.webp
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=sentry.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: VictoriaMetrics
   url: https://victoriametrics.com
-  description: Fast, cost-effective, and scalable time series database and
-    monitoring solution, Prometheus-compatible.
+  description: Fast, cost-effective, and scalable time series database and monitoring solution,
+    Prometheus-compatible.
   topic: IT
   category: Observability & Monitoring
   section: Metrics
   tags:
-    - it
-    - metrics
-    - time-series
-    - prometheus
+  - it
+  - metrics
+  - time-series
+  - prometheus
   audience: developers
   pricing: freemium
-  logo: https://victoriametrics.com/images/preview/victoria-metrics-home-100.webp
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=victoriametrics.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Vector
   url: https://vector.dev
-  description: High-performance observability data pipeline for collecting,
-    transforming, and routing logs and metrics.
+  description: High-performance observability data pipeline for collecting, transforming,
+    and routing logs and metrics.
   topic: IT
   category: Observability & Monitoring
   section: Data pipelines
   tags:
-    - it
-    - logging
-    - pipeline
-    - rust
+  - it
+  - logging
+  - pipeline
+  - rust
   audience: developers
   pricing: free
-  logo: https://vector.dev/img/vector-open-graph.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=vector.dev
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Netdata
   url: https://netdata.cloud
-  description: Real-time performance monitoring for systems, containers, and
-    applications with a 1-second resolution.
+  description: Real-time performance monitoring for systems, containers, and applications
+    with a 1-second resolution.
   topic: IT
   category: Observability & Monitoring
   section: Metrics
   tags:
-    - it
-    - monitoring
-    - real-time
-    - system
+  - it
+  - monitoring
+  - real-time
+  - system
   audience: developers
   pricing: freemium
-  logo: https://www.netdata.cloud/img/og-image.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=netdata.cloud
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: Zabbix
+  url: https://www.zabbix.com/
+  description: Open-source monitoring platform for servers, networks, applications, services,
+    and synthetic checks.
+  topic: IT
+  category: Observability & Monitoring
+  section: Metrics
+  tags:
+  - it
+  - monitoring
+  - infrastructure
+  - open-source
+  audience: developers
+  pricing: freemium
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.zabbix.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: SigNoz
+  url: https://signoz.io/
+  description: Open-source observability platform for traces, metrics, and logs built around
+    OpenTelemetry.
+  topic: IT
+  category: Observability & Monitoring
+  section: Dashboards & visualization
+  tags:
+  - it
+  - observability
+  - opentelemetry
+  - open-source
+  audience: developers
+  pricing: freemium
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=signoz.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: OpenMetrics
+  url: https://openmetrics.io/
+  description: CNCF specification for transmitting cloud-native metrics at scale.
+  topic: IT
+  category: Observability & Monitoring
+  section: Instrumentation standards
+  tags:
+  - it
+  - metrics
+  - standards
+  - cncf
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=openmetrics.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Grafana Tempo
+  url: https://grafana.com/oss/tempo/
+  description: Open-source distributed tracing backend designed for high-scale storage and
+    OpenTelemetry ingestion.
+  topic: IT
+  category: Observability & Monitoring
+  section: Distributed tracing
+  tags:
+  - it
+  - tracing
+  - grafana
+  - opentelemetry
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=grafana.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

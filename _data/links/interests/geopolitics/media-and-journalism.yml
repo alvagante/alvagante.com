@@ -1,152 +1,140 @@
 - title: Reuters
   url: https://reuters.com
-  description: Global newswire providing fast, impartial international news across
-    politics, finance, and world events.
+  description: International news agency reporting on politics, markets, business, conflicts, and major events across regions.
   topic: Geopolitics
   category: Media & Journalism
   section: International news
-  tags:
-    - geopolitics
-    - news
-    - international
-    - wire
+  tags: [geopolitics, news, international, wire]
   audience: general
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=reuters.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: BBC News
   url: https://bbc.com/news
-  description: UK public broadcaster with extensive international coverage and
-    editorial standards for impartiality.
+  description: News service of the UK public broadcaster covering domestic and international politics, economics, conflict, science, and society.
   topic: Geopolitics
   category: Media & Journalism
   section: International news
-  tags:
-    - geopolitics
-    - news
-    - bbc
-    - international
+  tags: [geopolitics, news, public-media, international]
   audience: general
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: The Guardian World
   url: https://theguardian.com/world
-  description: UK-based progressive newspaper with award-winning international and
-    investigative journalism.
+  description: World news section of the UK-based newspaper covering international politics, conflict, climate, migration, and human rights.
   topic: Geopolitics
   category: Media & Journalism
   section: International news
-  tags:
-    - geopolitics
-    - news
-    - investigative
-    - international
+  tags: [geopolitics, news, world, journalism]
   audience: general
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=theguardian.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Le Monde Diplomatique
   url: https://mondediplo.com
-  description: French international affairs monthly known for in-depth analysis of
-    geopolitics, economics, and culture.
+  description: English edition of a French monthly publishing analysis of international politics, economics, society, and culture.
   topic: Geopolitics
   category: Media & Journalism
   section: International news
-  tags:
-    - geopolitics
-    - france
-    - analysis
-    - magazine
+  tags: [geopolitics, france, analysis, magazine]
   audience: general
   pricing: freemium
-  logo: https://mondediplo.com/squelettes/images/logog-en.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=mondediplo.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Axios World
   url: https://axios.com/world
-  description: Concise international news with smart brevity format covering the
-    most important global developments daily.
+  description: International news section covering diplomacy, security, elections, economics, and major developments by region.
   topic: Geopolitics
   category: Media & Journalism
   section: International news
-  tags:
-    - geopolitics
-    - news
-    - concise
-    - daily
+  tags: [geopolitics, news, world, daily]
   audience: general
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=axios.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Rest of World
   url: https://restofworld.org
-  description: Non-profit journalism covering how technology is transforming
-    economics and society outside the US and Western Europe.
+  description: Nonprofit publication reporting on technology, labor, economics, and society outside the United States and Western Europe.
   topic: Geopolitics
   category: Media & Journalism
   section: International news
-  tags:
-    - geopolitics
-    - technology
-    - global-south
-    - journalism
+  tags: [geopolitics, technology, global-south, journalism]
   audience: general
   pricing: free
-  logo: https://restofworld.org/wp-content/uploads/2020/05/cropped-SocialCard-1.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=restofworld.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
-- title: Media Bias/Fact Check
-  url: https://mediabiasfactcheck.com
-  description: Database rating news sources by political bias and factual
-    reporting standards across the media spectrum.
-  topic: Geopolitics
-  category: Media & Journalism
-  section: Media literacy
-  tags:
-    - geopolitics
-    - media
-    - bias
-    - fact-checking
-  audience: general
-  pricing: free
-  logo: https://mediabiasfactcheck.com/wp-content/uploads/2019/09/70982153_683576715489993_3036728782363820032_n-e1608491429724.jpg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=mediabiasfactcheck.com
-  sublinks: []
-  notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Committee to Protect Journalists
   url: https://cpj.org
-  description: Non-profit promoting press freedom by defending journalists facing
-    attacks, imprisonment, and censorship globally.
+  description: Nonprofit organization documenting attacks, imprisonment, censorship, and other threats affecting journalists and press freedom worldwide.
   topic: Geopolitics
   category: Media & Journalism
   section: Media freedom
-  tags:
-    - geopolitics
-    - press-freedom
-    - journalism
-    - human-rights
+  tags: [geopolitics, press-freedom, journalism, human-rights]
   audience: general
   pricing: free
-  logo: https://cpj.org/wp-content/uploads/2020/05/cpj-logo-1.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=cpj.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: Associated Press
+  url: https://apnews.com
+  description: International news agency covering politics, conflict, business, climate, science, sports, and events across regions.
+  topic: Geopolitics
+  category: Media & Journalism
+  section: International news
+  tags: [geopolitics, news, international, wire]
+  audience: general
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=apnews.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Al Jazeera
+  url: https://www.aljazeera.com
+  description: Qatar-based international news network covering politics, conflict, economics, society, and current affairs across regions.
+  topic: Geopolitics
+  category: Media & Journalism
+  section: International news
+  tags: [geopolitics, news, middle-east, international]
+  audience: general
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.aljazeera.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: DW (Deutsche Welle)
+  url: https://dw.com
+  description: Germany's international public broadcaster reporting on global politics, economics, culture, science, and society in multiple languages.
+  topic: Geopolitics
+  category: Media & Journalism
+  section: International news
+  tags: [geopolitics, news, public-media, international]
+  audience: general
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=dw.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

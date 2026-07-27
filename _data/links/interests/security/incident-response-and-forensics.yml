@@ -1,171 +1,209 @@
 - title: TheHive Project
   url: https://thehive-project.org
-  description: Scalable, open-source security incident response platform with case
-    and alert management and MISP integration.
+  description: Scalable, open-source security incident response platform with case and alert
+    management and MISP integration.
   topic: Security
   category: Incident Response & Forensics
   section: Case management
   tags:
-    - security
-    - incident-response
-    - case-management
-    - open-source
+  - security
+  - incident-response
+  - case-management
+  - open-source
   audience: security-professionals
   pricing: free
-  logo: https://strangebee.com/wp-content/uploads/2025/01/Main-page.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=thehive-project.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Velociraptor
-  url: https://velocidex.com
-  description: Advanced endpoint visibility and DFIR tool for collecting artifacts
-    and hunting at scale across thousands of hosts.
+  url: https://docs.velociraptor.app/docs/
+  description: Official documentation for the endpoint visibility and DFIR platform used to
+    collect artifacts and hunt across fleets.
   topic: Security
   category: Incident Response & Forensics
   section: Endpoint forensics
   tags:
-    - security
-    - dfir
-    - endpoint
-    - forensics
+  - security
+  - dfir
+  - endpoint
+  - forensics
   audience: security-professionals
   pricing: free
   logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=velocidex.com
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.velociraptor.app
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Autopsy
   url: https://www.autopsy.com
-  description: Open-source digital forensics platform with a GUI front-end to The
-    Sleuth Kit for disk image analysis.
+  description: Open-source digital forensics platform with a GUI front-end to The Sleuth Kit
+    for disk image analysis.
   topic: Security
   category: Incident Response & Forensics
   section: Disk & file forensics
   tags:
-    - security
-    - forensics
-    - disk-analysis
-    - dfir
+  - security
+  - forensics
+  - disk-analysis
+  - dfir
   audience: security-professionals
   pricing: free
-  logo: https://www.autopsy.com/wp-content/uploads/2019/08/autopsy-logo-full-dog.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.autopsy.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Volatility Framework
   url: https://volatilityfoundation.org
-  description: Leading open-source memory forensics framework for analysing RAM
-    dumps from Windows, Linux, and macOS.
+  description: Leading open-source memory forensics framework for analysing RAM dumps from
+    Windows, Linux, and macOS.
   topic: Security
   category: Incident Response & Forensics
   section: Memory forensics
   tags:
-    - security
-    - memory-forensics
-    - dfir
-    - malware
+  - security
+  - memory-forensics
+  - dfir
+  - malware
   audience: security-professionals
   pricing: free
-  logo: https://volatilityfoundation.org/wp-content/uploads/2023/11/IMG_6307.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=volatilityfoundation.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Eric Zimmerman's Tools
   url: https://ericzimmerman.github.io
-  description: Collection of free Windows forensic tools for registry analysis,
-    prefetch, event logs, shellbags, and more.
+  description: Collection of free Windows forensic tools for registry analysis, prefetch,
+    event logs, shellbags, and more.
   topic: Security
   category: Incident Response & Forensics
   section: Disk & file forensics
   tags:
-    - security
-    - forensics
-    - windows
-    - registry
+  - security
+  - forensics
+  - windows
+  - registry
   audience: security-professionals
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ericzimmerman.github.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: CyberChef
   url: https://gchq.github.io/CyberChef
-  description: GCHQ's browser-based data analysis "Cyber Swiss Army Knife" for
-    encoding, encryption, and data transformation.
+  description: GCHQ's browser-based data analysis "Cyber Swiss Army Knife" for encoding, encryption,
+    and data transformation.
   topic: Security
   category: Incident Response & Forensics
   section: Analysis utilities
   tags:
-    - security
-    - analysis
-    - encoding
-    - dfir
+  - security
+  - analysis
+  - encoding
+  - dfir
   audience: security-professionals
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=gchq.github.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: DFIR.training
   url: https://dfir.training
-  description: Curated directory of DFIR tools, training, and resources maintained
-    by the community.
+  description: Curated directory of DFIR tools, training, and resources maintained by the
+    community.
   topic: Security
   category: Incident Response & Forensics
   section: References
   tags:
-    - security
-    - dfir
-    - training
-    - reference
+  - security
+  - dfir
+  - training
+  - reference
   audience: security-professionals
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=dfir.training
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
-- title: SANS Incident Handler's Handbook
-  url: https://www.sans.org/white-papers/incident-handlers-handbook/
-  description: SANS guide to the six phases of incident response — preparation,
-    identification, containment, eradication, recovery, lessons learned.
-  topic: Security
-  category: Incident Response & Forensics
-  section: References
-  tags:
-    - security
-    - incident-response
-    - process
-    - sans
-  audience: security-professionals
-  pricing: free
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.sans.org
-  sublinks: []
-  notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: FTK Imager
-  url: https://www.exterro.com/ftk-imager
-  description: Free disk imaging and preview tool from Exterro for acquiring
-    forensic images of drives and memory.
+  url: https://www.exterro.com/digital-forensics-software/ftk-imager
+  description: Exterro forensic imaging and preview tool for acquiring drives, memory, and
+    logical evidence while preserving source integrity.
   topic: Security
   category: Incident Response & Forensics
   section: Disk & file forensics
   tags:
-    - security
-    - forensics
-    - disk-imaging
-    - windows
+  - security
+  - forensics
+  - disk-imaging
+  - windows
   audience: security-professionals
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.exterro.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: NIST SP 800-61 Rev. 3
+  url: https://csrc.nist.gov/pubs/sp/800/61/r3/final
+  description: Current NIST guidance for integrating incident response into cybersecurity
+    risk management.
+  topic: Security
+  category: Incident Response & Forensics
+  section: References
+  tags:
+  - security
+  - incident-response
+  - nist
+  - risk-management
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=csrc.nist.gov
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: CISA Incident and Vulnerability Response Playbooks
+  url: https://www.cisa.gov/resources-tools/resources/federal-government-cybersecurity-incident-and-vulnerability-response-playbooks
+  description: CISA operational playbooks for standardizing incident and vulnerability response
+    activities.
+  topic: Security
+  category: Incident Response & Forensics
+  section: References
+  tags:
+  - security
+  - incident-response
+  - cisa
+  - playbook
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.cisa.gov
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Plaso
+  url: https://plaso.readthedocs.io/en/latest/
+  description: Open-source framework for extracting and analyzing timestamped events from
+    forensic artifacts.
+  topic: Security
+  category: Incident Response & Forensics
+  section: Disk & file forensics
+  tags:
+  - security
+  - forensics
+  - timeline
+  - dfir
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=plaso.readthedocs.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

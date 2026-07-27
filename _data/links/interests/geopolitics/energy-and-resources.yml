@@ -1,152 +1,126 @@
 - title: IEA
   url: https://iea.org
-  description: International Energy Agency — global energy data, oil market
-    reports, and analysis of the energy transition.
+  description: International Energy Agency portal for energy statistics, market reports, policy analysis, and energy transition research.
   topic: Geopolitics
   category: Energy & Resources
   section: Institutions
-  tags:
-    - geopolitics
-    - energy
-    - iea
-    - data
+  tags: [geopolitics, energy, markets, data]
   audience: researchers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=iea.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: EIA
   url: https://eia.gov
-  description: US Energy Information Administration — authoritative statistics and
-    analysis on US and world energy supply and demand.
+  description: US Energy Information Administration data and analysis on domestic and international energy production, consumption, prices, and trade.
   topic: Geopolitics
   category: Energy & Resources
   section: Data & databases
-  tags:
-    - geopolitics
-    - energy
-    - oil
-    - data
+  tags: [geopolitics, energy, statistics, markets]
   audience: researchers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=eia.gov
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: OPEC
   url: https://opec.org
-  description: Organization of the Petroleum Exporting Countries — production
-    data, oil market reports, and member country profiles.
+  description: Organization of the Petroleum Exporting Countries portal for oil market reports, production data, publications, and member information.
   topic: Geopolitics
   category: Energy & Resources
   section: Institutions
-  tags:
-    - geopolitics
-    - oil
-    - energy
-    - opec
+  tags: [geopolitics, oil, energy, opec]
   audience: researchers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=opec.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Energy Monitor
   url: https://energymonitor.ai
-  description: Data journalism on the global energy transition — renewables,
-    fossil fuels, and climate policy impacts.
+  description: Journalism and analysis covering energy markets, infrastructure, climate policy, and the transition between energy systems.
   topic: Geopolitics
   category: Energy & Resources
   section: Analysis & journalism
-  tags:
-    - geopolitics
-    - energy
-    - transition
-    - journalism
+  tags: [geopolitics, energy, transition, journalism]
   audience: general
   pricing: free
-  logo: https://www.energymonitor.ai/wp-content/uploads/sites/2/2021/01/Screenshot-2021-01-12-at-11.06.36.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=energymonitor.ai
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Columbia SIPA Center on Global Energy Policy
   url: https://energypolicy.columbia.edu
-  description: Research hub at Columbia University covering energy markets,
-    geopolitics, security, and the energy transition.
+  description: Columbia University research center examining energy markets, security, geopolitics, climate policy, and energy transitions.
   topic: Geopolitics
   category: Energy & Resources
-  section: Think tanks
-  tags:
-    - geopolitics
-    - energy
-    - policy
-    - research
+  section: Research institutes
+  tags: [geopolitics, energy, policy, research]
   audience: researchers
   pricing: free
-  logo: https://www.energypolicy.columbia.edu/wp-content/uploads/2023/12/CGEP_share_image.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=energypolicy.columbia.edu
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: IRENA
   url: https://irena.org
-  description: International Renewable Energy Agency — data and policy analysis on
-    global renewable energy capacity and transition.
+  description: International Renewable Energy Agency data, reports, and policy analysis on renewable energy deployment and energy transitions.
   topic: Geopolitics
   category: Energy & Resources
   section: Institutions
-  tags:
-    - geopolitics
-    - renewables
-    - energy
-    - transition
+  tags: [geopolitics, renewables, energy, transition]
   audience: researchers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=irena.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
-- title: Resource Governance Index
+  last_checked: '2026-07-27'
+- title: Natural Resource Governance Institute
   url: https://resourcegovernance.org
-  description: Rankings of how well oil, gas, and mining sectors are governed in
-    resource-rich countries.
+  description: Independent nonprofit institution researching governance of oil, gas, and mineral resources and supporting policy reform in resource-producing countries.
   topic: Geopolitics
   category: Energy & Resources
-  section: Data & databases
-  tags:
-    - geopolitics
-    - resources
-    - governance
-    - mining
+  section: Research institutes
+  tags: [geopolitics, resources, governance, extractives]
   audience: researchers
   pricing: free
-  logo: https://resourcegovernance.org/themes/custom/nrgi/assets/img/fallback-default.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=resourcegovernance.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
-- title: Oil Price
-  url: https://oilprice.com
-  description: Energy news covering oil, gas, and alternative energy markets with
-    price data and geopolitical analysis.
+  last_checked: '2026-07-27'
+- title: Energy Institute Statistical Review
+  url: https://www.energyinst.org/statistical-review
+  description: Annual collection of global data on energy production, consumption, trade, reserves, prices, and emissions by fuel and region.
   topic: Geopolitics
   category: Energy & Resources
-  section: Analysis & journalism
-  tags:
-    - geopolitics
-    - oil
-    - energy
-    - markets
-  audience: general
+  section: Data & databases
+  tags: [geopolitics, energy, statistics, data]
+  audience: researchers
   pricing: free
-  logo: https://d1o9e4un86hhpc.cloudfront.net/images/facebook-share-logo.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=oilprice.com
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.energyinst.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: USGS National Minerals Information Center
+  url: https://www.usgs.gov/centers/national-minerals-information-center
+  description: US government source for statistics and analysis on mineral production, consumption, trade, supply chains, and commodity markets.
+  topic: Geopolitics
+  category: Energy & Resources
+  section: Data & databases
+  tags: [geopolitics, minerals, commodities, data]
+  audience: researchers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.usgs.gov
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

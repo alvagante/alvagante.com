@@ -1,460 +1,280 @@
 - title: EU AI Act
-  url: https://artificialintelligenceact.eu
-  description: text, timelines, GPAI obligations.
+  url: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+  description: "European Commission overview of Regulation (EU) 2024/1689, its risk-based rules, implementation, and enforcement structure."
   topic: AI
   category: AI Policy & Governance
   section: Regulations & official frameworks
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - regulations-and-official-frameworks
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, regulations-and-official-frameworks, policy, governance, regulation]
   audience: builders
   pricing: unknown
   logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=artificialintelligenceact.eu
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=digital-strategy.ec.europa.eu
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
-- title: EU AI Act explorer
+  notes: null
+  last_checked: 2026-07-27
+- title: EU AI Act Explorer
   url: https://artificialintelligenceact.eu/the-act/
-  description: searchable annotated text.
+  description: "Independent, searchable presentation of the EU AI Act text with article-level navigation and implementation context."
   topic: AI
   category: AI Policy & Governance
   section: Regulations & official frameworks
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - regulations-and-official-frameworks
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, regulations-and-official-frameworks, policy, governance, regulation]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=artificialintelligenceact.eu
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: NIST AI Risk Management Framework
   url: https://www.nist.gov/itl/ai-risk-management-framework
-  description: NIST AI Risk Management Framework resource in AI Policy & Governance.
+  description: "Voluntary NIST framework for governing, mapping, measuring, and managing risks across the AI lifecycle."
   topic: AI
   category: AI Policy & Governance
   section: Regulations & official frameworks
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - regulations-and-official-frameworks
-    - policy
-    - governance
-    - regulation
-  audience: builders
-  pricing: unknown
-  logo: https://www.nist.gov/themes/custom/nist_www/img/homepage/nist_mark.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.nist.gov
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
-- title: NIST GenAI Profile
-  url: https://airc.nist.gov/AI_RMF_Knowledge_Base/Playbook
-  description: companion to AI RMF.
-  topic: AI
-  category: AI Policy & Governance
-  section: Regulations & official frameworks
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - regulations-and-official-frameworks
-    - policy
-    - governance
-    - regulation
-  audience: builders
-  pricing: unknown
-  logo: https://airc.nist.gov/img/ai_head_ratio_191.jpeg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=airc.nist.gov
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
-- title: US Executive Order 14110 (Oct 2023)
-  url: https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/
-  description: US Executive Order 14110 (Oct 2023) resource in AI Policy & Governance.
-  topic: AI
-  category: AI Policy & Governance
-  section: Regulations & official frameworks
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - regulations-and-official-frameworks
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, regulations-and-official-frameworks, policy, governance, regulation]
   audience: builders
   pricing: unknown
   logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.whitehouse.gov
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.nist.gov
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
-- title: UK AI policy (DSIT)
-  url: https://www.gov.uk/government/topical-events/artificial-intelligence-ai
-  description: UK AI policy (DSIT) resource in AI Policy & Governance.
+  notes: null
+  last_checked: 2026-07-27
+- title: NIST Generative AI Profile
+  url: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
+  description: "NIST AI 600-1 profile applying the AI Risk Management Framework to risks specific to generative AI."
   topic: AI
   category: AI Policy & Governance
   section: Regulations & official frameworks
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - regulations-and-official-frameworks
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, regulations-and-official-frameworks, policy, governance, regulation]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.nist.gov
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: UK AI Regulation Policy
+  url: https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach
+  description: "Official UK policy collection for the government's principles-based, regulator-led approach to AI regulation."
+  topic: AI
+  category: AI Policy & Governance
+  section: Regulations & official frameworks
+  tags: [ai, ai-policy-and-governance, regulations-and-official-frameworks, policy, governance, regulation]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.gov.uk
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: OECD AI Principles
   url: https://oecd.ai/en/ai-principles
-  description: OECD AI Principles resource in AI Policy & Governance.
+  description: "Intergovernmental principles for trustworthy AI covering human rights, transparency, robustness, and accountability."
   topic: AI
   category: AI Policy & Governance
   section: Regulations & official frameworks
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - regulations-and-official-frameworks
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, regulations-and-official-frameworks, policy, governance, regulation]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=oecd.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Council of Europe AI Convention
   url: https://www.coe.int/en/web/artificial-intelligence
-  description: first binding international treaty.
+  description: "Official portal for the Framework Convention on AI, human rights, democracy, and the rule of law."
   topic: AI
   category: AI Policy & Governance
   section: Regulations & official frameworks
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - regulations-and-official-frameworks
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, regulations-and-official-frameworks, policy, governance, regulation]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.coe.int
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
-- title: UK AI Safety Institute
+  notes: null
+  last_checked: 2026-07-27
+- title: UK AI Security Institute
   url: https://www.aisi.gov.uk
-  description: UK AI Safety Institute resource in AI Policy & Governance.
+  description: "UK government institute researching, evaluating, and mitigating security risks from advanced AI systems."
   topic: AI
   category: AI Policy & Governance
   section: AI Safety Institutes
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - ai-safety-institutes
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, ai-safety-institutes, policy, governance, regulation]
   audience: builders
   pricing: unknown
-  logo: https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6647d507adbcc32e1a71b369_117e4787c7c7da2f5051c866f26ad260_AISI-metacard.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.aisi.gov.uk
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
-- title: US AISI (at NIST)
-  url: https://www.nist.gov/aisi
-  description: US AISI (at NIST) resource in AI Policy & Governance.
+  notes: null
+  last_checked: 2026-07-27
+- title: NIST Center for AI Standards and Innovation
+  url: https://www.nist.gov/caisi
+  description: "U.S. government center developing AI measurement science, evaluations, standards, and security guidance at NIST."
   topic: AI
   category: AI Policy & Governance
   section: AI Safety Institutes
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - ai-safety-institutes
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, ai-safety-institutes, policy, governance, regulation]
   audience: builders
   pricing: unknown
-  logo: https://www.nist.gov/themes/custom/nist_www/img/homepage/nist_mark.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.nist.gov
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
-- title: Anthropic RSP
-  url: https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy
-  description: Responsible Scaling Policy.
+  notes: null
+  last_checked: 2026-07-27
+- title: Anthropic Responsible Scaling Policy
+  url: https://www.anthropic.com/rsp-updates
+  description: "Anthropic's maintained policy and update log for evaluating frontier capabilities and applying proportional safeguards."
   topic: AI
   category: AI Policy & Governance
   section: Lab-side responsible-scaling commitments
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - lab-side-responsible-scaling-commitments
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, lab-side-responsible-scaling-commitments, policy, governance, regulation]
   audience: builders
   pricing: unknown
-  logo: https://cdn.sanity.io/images/4zrzovbb/website/4048dcbe1e4e38c32891bfb7ca28c1b7628982cd-2400x1260.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.anthropic.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: OpenAI Preparedness Framework
   url: https://openai.com/safety/preparedness
-  description: OpenAI Preparedness Framework resource in AI Policy & Governance.
+  description: "OpenAI's framework for tracking severe-harm capabilities and defining safeguards for increasingly capable models."
   topic: AI
   category: AI Policy & Governance
   section: Lab-side responsible-scaling commitments
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - lab-side-responsible-scaling-commitments
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, lab-side-responsible-scaling-commitments, policy, governance, regulation]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=openai.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Google DeepMind Frontier Safety Framework
-  url: https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework
-  description: Google DeepMind Frontier Safety Framework resource in AI Policy & Governance.
+  url: https://deepmind.google/blog/updating-the-frontier-safety-framework/
+  description: "Google DeepMind's updated framework for identifying frontier capability thresholds and specifying evaluation and mitigation protocols."
   topic: AI
   category: AI Policy & Governance
   section: Lab-side responsible-scaling commitments
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - lab-side-responsible-scaling-commitments
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, lab-side-responsible-scaling-commitments, policy, governance, regulation]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=deepmind.google
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: OECD AI Observatory
   url: https://oecd.ai
-  description: policies and metrics.
+  description: "OECD platform tracking national AI policies, incidents, indicators, and evidence for policy analysis."
   topic: AI
   category: AI Policy & Governance
   section: Think tanks / research orgs
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - think-tanks-research-orgs
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, think-tanks-research-orgs, policy, governance, regulation]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=oecd.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
-- title: Stanford HAI
+  notes: null
+  last_checked: 2026-07-27
+- title: Stanford Institute for Human-Centered AI
   url: https://hai.stanford.edu
-  description: Stanford HAI resource in AI Policy & Governance.
+  description: "Stanford research institute publishing interdisciplinary work on AI policy, economics, safety, and social impact."
   topic: AI
   category: AI Policy & Governance
   section: Think tanks / research orgs
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - think-tanks-research-orgs
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, think-tanks-research-orgs, policy, governance, regulation]
   audience: builders
   pricing: unknown
-  logo: https://hai.stanford.edu/assets/images/1200x630_hai_stanford.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=hai.stanford.edu
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
-- title: Centre for the Governance of AI (GovAI)
+  notes: null
+  last_checked: 2026-07-27
+- title: Centre for the Governance of AI
   url: https://www.governance.ai
-  description: Centre for the Governance of AI (GovAI) resource in AI Policy & Governance.
+  description: "Research organization focused on governance institutions and policy responses for advanced AI."
   topic: AI
   category: AI Policy & Governance
   section: Think tanks / research orgs
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - think-tanks-research-orgs
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, think-tanks-research-orgs, policy, governance, regulation]
   audience: builders
   pricing: unknown
-  logo: https://cdn.prod.website-files.com/614b70a71b9f715e7e40c791/62ed3614cc3a06aa807e56d4_d6cf4dc414b9cee1b0c7030bb96fd5c5_GovernanceAI.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.governance.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Center for AI Safety
   url: https://www.safe.ai
-  description: Center for AI Safety resource in AI Policy & Governance.
+  description: "Nonprofit conducting technical research and policy work on societal-scale risks from advanced AI."
   topic: AI
   category: AI Policy & Governance
   section: Think tanks / research orgs
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - think-tanks-research-orgs
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, think-tanks-research-orgs, policy, governance, regulation]
   audience: builders
   pricing: unknown
-  logo: https://cdn.prod.website-files.com/63fe96aeda6bea77ac7d3000/64324a03a3160886d3b5caeb_4b4f439a03e8ac769d522c27f439d7c6_CAIS%20Meta%20Card.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.safe.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Future of Life Institute
   url: https://futureoflife.org
-  description: Future of Life Institute resource in AI Policy & Governance.
+  description: "Nonprofit producing policy analysis and advocacy on advanced AI governance and other large-scale technology risks."
   topic: AI
   category: AI Policy & Governance
   section: Think tanks / research orgs
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - think-tanks-research-orgs
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, think-tanks-research-orgs, policy, governance, regulation]
   audience: builders
   pricing: unknown
-  logo: https://futureoflife.org/wp-content/uploads/2023/03/FLi_Banner-05.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=futureoflife.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Partnership on AI
   url: https://partnershiponai.org
-  description: Partnership on AI resource in AI Policy & Governance.
+  description: "Multistakeholder nonprofit developing guidance and research on responsible AI practices and deployment impacts."
   topic: AI
   category: AI Policy & Governance
   section: Think tanks / research orgs
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - think-tanks-research-orgs
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, think-tanks-research-orgs, policy, governance, regulation]
   audience: builders
   pricing: unknown
-  logo: https://partnershiponai.org/wp-content/uploads/2021/09/linkedin-logo-1200x1200-1.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=partnershiponai.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: AI Now Institute
   url: https://ainowinstitute.org
-  description: AI Now Institute resource in AI Policy & Governance.
+  description: "Independent institute researching the concentration of power, accountability, labor, and public policy around AI."
   topic: AI
   category: AI Policy & Governance
   section: Think tanks / research orgs
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - think-tanks-research-orgs
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, think-tanks-research-orgs, policy, governance, regulation]
   audience: builders
   pricing: unknown
-  logo: https://ainowinstitute.org/wp-content/uploads/2025/07/20250529-ExecSummary-web.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ainowinstitute.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
-- title: Zvi Mowshowitz on policy
-  url: https://thezvi.substack.com
-  description: Zvi Mowshowitz on policy resource in AI Policy & Governance.
-  topic: AI
-  category: AI Policy & Governance
-  section: Tracking / commentary
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - tracking-commentary
-    - policy
-    - governance
-    - regulation
-  audience: builders
-  pricing: unknown
-  logo: https://substackcdn.com/image/fetch/$s_!d2rp!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fthezvi.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-1101181227%26version%3D9
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=thezvi.substack.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Anthropic Policy
   url: https://www.anthropic.com/policy
-  description: Anthropic Policy resource in AI Policy & Governance.
+  description: "Anthropic's policy hub for government engagement, regulation proposals, economic research, and public-interest initiatives."
   topic: AI
   category: AI Policy & Governance
   section: Tracking / commentary
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - tracking-commentary
-    - policy
-    - governance
-    - regulation
+  tags: [ai, ai-policy-and-governance, tracking-commentary, policy, governance, regulation]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.anthropic.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
-- title: MIT Tech Review on AI policy
-  url: https://www.technologyreview.com/topic/policy/
-  description: MIT Tech Review on AI policy resource in AI Policy & Governance.
-  topic: AI
-  category: AI Policy & Governance
-  section: Tracking / commentary
-  tags:
-    - ai
-    - ai-policy-and-governance
-    - tracking-commentary
-    - policy
-    - governance
-    - regulation
-  audience: builders
-  pricing: unknown
-  logo: https://wp.technologyreview.com/wp-content/uploads/2024/06/Topic-policy.png?w=1800
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.technologyreview.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Policy & Governance.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27

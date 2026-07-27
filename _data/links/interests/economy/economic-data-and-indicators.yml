@@ -1,25 +1,31 @@
 - title: DBnomics
   url: https://db.nomics.world
-  description: Open platform aggregating hundreds of millions of economic time series from national and international providers.
+  description: Open platform aggregating economic time series from national and international statistical providers.
   topic: Economy
   category: Economic Data & Indicators
   section: Data platforms
   tags: [economy, data, indicators, time-series]
   audience: researchers
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=db.nomics.world
-  last_checked: 2026-07-27
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: IMF Data
   url: https://www.imf.org/en/Data
-  description: Global macroeconomic, financial, trade, fiscal, and balance-of-payments datasets maintained by the IMF.
+  description: Macroeconomic, financial, trade, fiscal, and balance-of-payments datasets maintained by the International Monetary Fund.
   topic: Economy
   category: Economic Data & Indicators
   section: International data
   tags: [economy, data, macroeconomics, imf]
   audience: researchers
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=imf.org
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.imf.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: Eurostat
   url: https://ec.europa.eu/eurostat
   description: Official European Union statistics covering the economy, population, labor, trade, industry, and environment.
@@ -29,52 +35,67 @@
   tags: [economy, data, statistics, european-union]
   audience: researchers
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ec.europa.eu
-  last_checked: 2026-07-27
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: UNdata
   url: https://data.un.org
-  description: United Nations portal combining economic, demographic, social, trade, energy, and environmental indicators.
+  description: United Nations portal for economic, demographic, social, trade, energy, and environmental indicators.
   topic: Economy
   category: Economic Data & Indicators
   section: International data
   tags: [economy, data, indicators, united-nations]
   audience: researchers
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=data.un.org
-  last_checked: 2026-07-27
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: Penn World Table
   url: https://www.rug.nl/ggdc/productivity/pwt/
-  description: Cross-country national accounts with purchasing-power, productivity, capital, labor, and income comparisons.
+  description: Cross-country national accounts with purchasing power, productivity, capital, labor, and income comparisons.
   topic: Economy
   category: Economic Data & Indicators
   section: Research datasets
   tags: [economy, data, productivity, national-accounts]
   audience: researchers
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=rug.nl
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.rug.nl
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: Maddison Project Database
   url: https://www.rug.nl/ggdc/historicaldevelopment/maddison/
-  description: Long-run historical estimates of GDP, population, and income per capita across countries and centuries.
+  description: Long-run estimates of GDP, population, and income per person across countries and historical periods.
   topic: Economy
   category: Economic Data & Indicators
   section: Historical data
   tags: [economy, data, economic-history, gdp]
   audience: researchers
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=rug.nl
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.rug.nl
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: Gapminder
   url: https://www.gapminder.org/data/
-  description: Downloadable global development indicators and visualization tools designed to make long-run trends understandable.
+  description: Downloadable global development indicators and visualization tools for exploring long-run trends.
   topic: Economy
   category: Economic Data & Indicators
   section: Data visualization
   tags: [economy, data, development, visualization]
   audience: general
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=gapminder.org
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.gapminder.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: OECD Data Explorer
   url: https://data-explorer.oecd.org
   description: OECD platform for comparable economic, social, fiscal, labor, trade, and environmental statistics.
@@ -84,5 +105,64 @@
   tags: [economy, data, indicators, oecd]
   audience: researchers
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=data-explorer.oecd.org
-  last_checked: 2026-07-27
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: World Bank Open Data
+  url: https://data.worldbank.org
+  description: World Bank indicators on development, poverty, population, trade, health, education, and national economies.
+  topic: Economy
+  category: Economic Data & Indicators
+  section: International data
+  tags: [economy, data, development, world-bank]
+  audience: researchers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=data.worldbank.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: FRED (Federal Reserve Bank of St. Louis)
+  url: https://fred.stlouisfed.org
+  description: Economic time series from U.S. and international sources maintained by the Federal Reserve Bank of St. Louis.
+  topic: Economy
+  category: Economic Data & Indicators
+  section: Data platforms
+  tags: [economy, data, time-series, federal-reserve]
+  audience: researchers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=fred.stlouisfed.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Our World in Data
+  url: https://ourworldindata.org
+  description: Research and interactive data on economic development, inequality, health, population, energy, and global change.
+  topic: Economy
+  category: Economic Data & Indicators
+  section: Data visualization
+  tags: [economy, data, development, visualization]
+  audience: general
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=ourworldindata.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: UN Comtrade
+  url: https://comtradeplus.un.org
+  description: United Nations database of detailed international merchandise trade statistics reported by countries and areas.
+  topic: Economy
+  category: Economic Data & Indicators
+  section: Trade data
+  tags: [economy, data, trade, united-nations]
+  audience: researchers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=comtradeplus.un.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

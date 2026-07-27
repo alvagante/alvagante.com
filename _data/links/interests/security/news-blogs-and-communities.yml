@@ -1,192 +1,268 @@
 - title: Krebs on Security
   url: https://krebsonsecurity.com
-  description: Brian Krebs's investigative security blog known for deep reporting
-    on cybercrime and breach investigations.
+  description: Brian Krebs's investigative security blog known for deep reporting on cybercrime
+    and breach investigations.
   topic: Security
   category: News, Blogs & Communities
   section: Blogs & journalism
   tags:
-    - security
-    - news
-    - cybercrime
-    - journalism
+  - security
+  - news
+  - cybercrime
+  - journalism
   audience: general
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=krebsonsecurity.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Schneier on Security
   url: https://schneier.com
-  description: Bruce Schneier's blog on security, privacy, and technology policy —
-    one of the most respected voices in security.
+  description: Bruce Schneier's blog on security, privacy, and technology policy — one of
+    the most respected voices in security.
   topic: Security
   category: News, Blogs & Communities
   section: Blogs & journalism
   tags:
-    - security
-    - privacy
-    - policy
-    - blog
+  - security
+  - privacy
+  - policy
+  - blog
   audience: general
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=schneier.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Dark Reading
   url: https://darkreading.com
-  description: Enterprise security news covering vulnerabilities, threats, and
-    security strategy for IT professionals.
+  description: Enterprise security news covering vulnerabilities, threats, and security strategy
+    for IT professionals.
   topic: Security
   category: News, Blogs & Communities
   section: Blogs & journalism
   tags:
-    - security
-    - news
-    - enterprise
-    - vulnerabilities
+  - security
+  - news
+  - enterprise
+  - vulnerabilities
   audience: security-professionals
   pricing: free
-  logo: https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltc94608acf452fd67/655cf371ab171e040a838b2a/329050_DR23_Graphics_Website_V5_Default_Image_v1.png?disable=upscale&width=1200&height=630&fit=crop
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=darkreading.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: SecurityWeek
   url: https://securityweek.com
-  description: Security industry news covering breaches, vulnerabilities, malware,
-    and enterprise security market.
+  description: Security industry news covering breaches, vulnerabilities, malware, and enterprise
+    security market.
   topic: Security
   category: News, Blogs & Communities
   section: Blogs & journalism
   tags:
-    - security
-    - news
-    - industry
-    - breaches
+  - security
+  - news
+  - industry
+  - breaches
   audience: security-professionals
   pricing: free
-  logo: https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=securityweek.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: The Hacker News
   url: https://thehackernews.com
-  description: High-volume cybersecurity news site covering CVEs, breaches,
-    hacking campaigns, and security tools.
+  description: High-volume cybersecurity news site covering CVEs, breaches, hacking campaigns,
+    and security tools.
   topic: Security
   category: News, Blogs & Communities
   section: Blogs & journalism
   tags:
-    - security
-    - news
-    - cve
-    - breaches
+  - security
+  - news
+  - cve
+  - breaches
   audience: security-professionals
   pricing: free
-  logo: https://thehackernews.com/images/-AaptImXE5Y4/WzjvqBS8HtI/AAAAAAAAxSs/BcCIwpWJszILkuEbDfKZhxQJwOAD7qV6ACLcBGAs/s728-e365/the-hacker-news.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=thehackernews.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Risky Biz
   url: https://risky.biz
-  description: Weekly information security podcast and news site with high-quality
-    interviews and briefings.
+  description: Weekly information security podcast and news site with high-quality interviews
+    and briefings.
   topic: Security
   category: News, Blogs & Communities
   section: Podcasts & media
   tags:
-    - security
-    - podcast
-    - news
-    - interviews
+  - security
+  - podcast
+  - news
+  - interviews
   audience: security-professionals
   pricing: free
-  logo: /static/img/RB-OG-Social.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=risky.biz
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: SANS Internet Storm Center
   url: https://isc.sans.edu
-  description: Daily threat intelligence updates and diary posts from SANS
-    handlers tracking live internet threats.
+  description: Daily threat intelligence updates and diary posts from SANS handlers tracking
+    live internet threats.
   topic: Security
   category: News, Blogs & Communities
   section: Threat feeds & intel
   tags:
-    - security
-    - threat-intelligence
-    - daily
-    - sans
+  - security
+  - threat-intelligence
+  - daily
+  - sans
   audience: security-professionals
   pricing: free
-  logo: https://isc.sans.edu/images/logos/isc/large.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: /r/netsec
   url: https://reddit.com/r/netsec
-  description: Reddit community for technical information security content — high
-    quality signal, minimal noise.
+  description: Reddit community for technical information security content — high quality
+    signal, minimal noise.
   topic: Security
   category: News, Blogs & Communities
   section: Communities
   tags:
-    - security
-    - community
-    - reddit
-    - discussion
+  - security
+  - community
+  - reddit
+  - discussion
   audience: security-professionals
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=reddit.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: DEF CON
   url: https://defcon.org
-  description: The world's largest underground hacking conference, with talks
-    published free and a year-round community.
+  description: The world's largest underground hacking conference, with talks published free
+    and a year-round community.
   topic: Security
   category: News, Blogs & Communities
   section: Conferences & events
   tags:
-    - security
-    - conference
-    - community
-    - talks
+  - security
+  - conference
+  - community
+  - talks
   audience: security-professionals
   pricing: free
-  logo: https://defcon.org/images/logos/DEFCON-logo.webp
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=defcon.org
   sublinks:
-    - title: Talk recordings
-      url: https://media.defcon.org
+  - title: Talk recordings
+    url: https://media.defcon.org
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Black Hat
   url: https://blackhat.com
-  description: Technical security conference series focused on advanced research,
-    with free Briefings archives.
+  description: Technical security conference series focused on advanced research, with free
+    Briefings archives.
   topic: Security
   category: News, Blogs & Communities
   section: Conferences & events
   tags:
-    - security
-    - conference
-    - research
-    - enterprise
+  - security
+  - conference
+  - research
+  - enterprise
   audience: security-professionals
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=blackhat.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: CISA Cybersecurity Advisories
+  url: https://www.cisa.gov/news-events/cybersecurity-advisories
+  description: Official CISA advisories on active threats, vulnerabilities, mitigations, and
+    incident activity.
+  topic: Security
+  category: News, Blogs & Communities
+  section: Threat feeds & intel
+  tags:
+  - security
+  - cisa
+  - advisories
+  - threat-intelligence
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.cisa.gov
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Google Project Zero
+  url: https://googleprojectzero.blogspot.com/
+  description: Technical vulnerability research and disclosure write-ups from Google Project
+    Zero.
+  topic: Security
+  category: News, Blogs & Communities
+  section: Blogs & journalism
+  tags:
+  - security
+  - vulnerability-research
+  - blog
+  - disclosure
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=googleprojectzero.blogspot.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: BleepingComputer
+  url: https://www.bleepingcomputer.com/
+  description: Independent technology publication with sustained reporting on ransomware,
+    breaches, malware, and security updates.
+  topic: Security
+  category: News, Blogs & Communities
+  section: Blogs & journalism
+  tags:
+  - security
+  - news
+  - malware
+  - breaches
+  audience: general
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.bleepingcomputer.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: USENIX Security Symposium
+  url: https://www.usenix.org/conferences/byname/108
+  description: Long-running peer-reviewed conference publishing open security research papers
+    and presentation materials.
+  topic: Security
+  category: News, Blogs & Communities
+  section: Conferences & events
+  tags:
+  - security
+  - research
+  - conference
+  - papers
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.usenix.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

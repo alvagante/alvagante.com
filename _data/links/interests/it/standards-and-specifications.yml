@@ -1,177 +1,234 @@
 - title: IETF
   url: https://ietf.org
-  description: Internet Engineering Task Force producing open internet standards
-    including TCP/IP, HTTP, DNS, and TLS.
+  description: Internet Engineering Task Force producing open internet standards including
+    TCP/IP, HTTP, DNS, and TLS.
   topic: IT
   category: Standards & Specifications
   section: Standards bodies
   tags:
-    - it
-    - standards
-    - ietf
-    - protocols
+  - it
+  - standards
+  - ietf
+  - protocols
   audience: developers
   pricing: free
-  logo: /media/images/ietf-logo-500-square-250x250.original.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ietf.org
   sublinks:
-    - title: Datatracker (drafts & RFCs)
-      url: https://datatracker.ietf.org
+  - title: Datatracker (drafts & RFCs)
+    url: https://datatracker.ietf.org
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: RFC Editor
   url: https://rfc-editor.org
-  description: Authoritative archive of Request for Comments documents defining
-    Internet protocols and standards.
+  description: Authoritative archive of Request for Comments documents defining Internet protocols
+    and standards.
   topic: IT
   category: Standards & Specifications
   section: Standards bodies
   tags:
-    - it
-    - rfc
-    - standards
-    - protocols
+  - it
+  - rfc
+  - standards
+  - protocols
   audience: developers
   pricing: free
-  logo: https://www.rfc-editor.org/api/v1/meta-thumbnail/rfc-editor-logo-1200x630.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=rfc-editor.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: W3C
   url: https://w3.org
-  description: World Wide Web Consortium developing open web standards for HTML,
-    CSS, SVG, WebAssembly, and Linked Data.
+  description: World Wide Web Consortium developing open web standards for HTML, CSS, SVG,
+    WebAssembly, and Linked Data.
   topic: IT
   category: Standards & Specifications
   section: Standards bodies
   tags:
-    - it
-    - standards
-    - web
-    - w3c
+  - it
+  - standards
+  - web
+  - w3c
   audience: developers
   pricing: free
-  logo: https://www.w3.org/assets/website-2021/images/w3c-opengraph-image.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=w3.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: ECMA International
   url: https://ecma-international.org
-  description: Standards body responsible for ECMAScript (JavaScript), the
-    language spec behind every browser and runtime.
+  description: Standards body responsible for ECMAScript (JavaScript), the language spec behind
+    every browser and runtime.
   topic: IT
   category: Standards & Specifications
   section: Standards bodies
   tags:
-    - it
-    - standards
-    - ecmascript
-    - javascript
+  - it
+  - standards
+  - ecmascript
+  - javascript
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ecma-international.org
   sublinks:
-    - title: ECMAScript spec
-      url: https://tc39.es/ecma262/
+  - title: ECMAScript spec
+    url: https://tc39.es/ecma262/
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Linux Foundation
   url: https://linuxfoundation.org
-  description: Non-profit hosting Linux, Kubernetes, CNCF, OpenSSF, and hundreds
-    of other critical open-source projects.
+  description: Non-profit hosting Linux, Kubernetes, CNCF, OpenSSF, and hundreds of other
+    critical open-source projects.
   topic: IT
   category: Standards & Specifications
   section: Open-source foundations
   tags:
-    - it
-    - linux
-    - open-source
-    - foundation
+  - it
+  - linux
+  - open-source
+  - foundation
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=linuxfoundation.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Apache Software Foundation
   url: https://apache.org
-  description: Non-profit hosting Apache Kafka, HTTP Server, Spark, Airflow, and
-    200+ critical open-source projects.
+  description: Non-profit hosting Apache Kafka, HTTP Server, Spark, Airflow, and 200+ critical
+    open-source projects.
   topic: IT
   category: Standards & Specifications
   section: Open-source foundations
   tags:
-    - it
-    - apache
-    - open-source
-    - foundation
+  - it
+  - apache
+  - open-source
+  - foundation
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=apache.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: OpenSSF
   url: https://openssf.org
-  description: Open Source Security Foundation improving security across the
-    open-source ecosystem through tools and standards.
+  description: Open Source Security Foundation improving security across the open-source ecosystem
+    through tools and standards.
   topic: IT
   category: Standards & Specifications
   section: Open-source foundations
   tags:
-    - it
-    - security
-    - open-source
-    - supply-chain
+  - it
+  - security
+  - open-source
+  - supply-chain
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=openssf.org
   sublinks:
-    - title: Scorecard
-      url: https://securityscorecards.dev
+  - title: Scorecard
+    url: https://securityscorecards.dev
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: OASIS Open
   url: https://oasis-open.org
-  description: Standards consortium advancing open standards for cybersecurity,
-    IoT, and cloud including STIX and ODATA.
+  description: Standards consortium advancing open standards for cybersecurity, IoT, and cloud
+    including STIX and ODATA.
   topic: IT
   category: Standards & Specifications
   section: Standards bodies
   tags:
-    - it
-    - standards
-    - cybersecurity
-    - iot
+  - it
+  - standards
+  - cybersecurity
+  - iot
   audience: developers
   pricing: free
-  logo: https://www.oasis-open.org/wp-content/uploads/2020/11/not-for-profit@2x-150x150-1.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=oasis-open.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: IEEE Standards
   url: https://standards.ieee.org
-  description: IEEE standards for networking (802.11 Wi-Fi, 802.3 Ethernet),
-    software engineering, and power systems.
+  description: IEEE standards for networking (802.11 Wi-Fi, 802.3 Ethernet), software engineering,
+    and power systems.
   topic: IT
   category: Standards & Specifications
   section: Standards bodies
   tags:
-    - it
-    - standards
-    - ieee
-    - networking
+  - it
+  - standards
+  - ieee
+  - networking
   audience: developers
   pricing: freemium
-  logo: https://standards.ieee.org/wp-content/uploads/2024/03/iStock-1413210242-DM-r1.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=standards.ieee.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: WHATWG
+  url: https://whatwg.org/
+  description: Standards community maintaining the HTML and DOM Living Standards and related
+    web platform specifications.
+  topic: IT
+  category: Standards & Specifications
+  section: Standards bodies
+  tags:
+  - it
+  - standards
+  - web
+  - html
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=whatwg.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Unicode Consortium
+  url: https://www.unicode.org/
+  description: Organization maintaining the Unicode Standard, character database, and internationalization
+    specifications.
+  topic: IT
+  category: Standards & Specifications
+  section: Standards bodies
+  tags:
+  - it
+  - unicode
+  - text
+  - internationalization
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.unicode.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: POSIX.1-2024
+  url: https://pubs.opengroup.org/onlinepubs/9799919799/
+  description: The Open Group Base Specifications defining portable operating-system interfaces,
+    shells, and utilities.
+  topic: IT
+  category: Standards & Specifications
+  section: Operating system standards
+  tags:
+  - it
+  - posix
+  - unix
+  - standards
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=pubs.opengroup.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

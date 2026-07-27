@@ -1,399 +1,280 @@
 - title: NeurIPS
   url: https://neurips.cc
-  description: Neural Information Processing Systems (Dec).
+  description: "Major annual research conference covering machine learning, computational neuroscience, and AI systems."
   topic: AI
   category: Conferences & Events
   section: Top-tier academic
-  tags:
-    - ai
-    - conferences-and-events
-    - top-tier-academic
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, top-tier-academic, conferences, events]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=neurips.cc
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: ICML
   url: https://icml.cc
-  description: International Conference on Machine Learning (Jul).
+  description: "Major annual conference for machine-learning theory, methods, applications, and empirical research."
   topic: AI
   category: Conferences & Events
   section: Top-tier academic
-  tags:
-    - ai
-    - conferences-and-events
-    - top-tier-academic
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, top-tier-academic, conferences, events]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=icml.cc
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: ICLR
   url: https://iclr.cc
-  description: Learning Representations (Apr/May).
+  description: "Annual research conference centered on representation learning, deep learning, optimization, and related methods."
   topic: AI
   category: Conferences & Events
   section: Top-tier academic
-  tags:
-    - ai
-    - conferences-and-events
-    - top-tier-academic
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, top-tier-academic, conferences, events]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=iclr.cc
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: COLM
   url: https://colmweb.org
-  description: Conference on Language Modeling (Oct, new since 2024).
+  description: "Annual research conference dedicated to language modeling, including architectures, evaluation, theory, and applications."
   topic: AI
   category: Conferences & Events
   section: Top-tier academic
-  tags:
-    - ai
-    - conferences-and-events
-    - top-tier-academic
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, top-tier-academic, conferences, events]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=colmweb.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: ACL
   url: https://www.aclweb.org
-  description: Association for Computational Linguistics.
+  description: "Association for Computational Linguistics portal linking its flagship conference and broader NLP conference program."
   topic: AI
   category: Conferences & Events
   section: Top-tier academic
-  tags:
-    - ai
-    - conferences-and-events
-    - top-tier-academic
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, top-tier-academic, conferences, events]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.aclweb.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: EMNLP
   url: https://aclweb.org/anthology/venues/emnlp/
-  description: Empirical Methods in NLP.
+  description: "Durable ACL Anthology venue page for the annual Conference on Empirical Methods in Natural Language Processing."
   topic: AI
   category: Conferences & Events
   section: Top-tier academic
-  tags:
-    - ai
-    - conferences-and-events
-    - top-tier-academic
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, top-tier-academic, conferences, events]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=aclweb.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: CVPR
   url: https://cvpr.thecvf.com
-  description: Computer Vision and Pattern Recognition.
+  description: "Flagship annual conference for computer vision, visual recognition, and pattern recognition research."
   topic: AI
   category: Conferences & Events
   section: Top-tier academic
-  tags:
-    - ai
-    - conferences-and-events
-    - top-tier-academic
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, top-tier-academic, conferences, events]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=cvpr.thecvf.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
-- title: ICCV / ECCV
+  notes: null
+  last_checked: 2026-07-27
+- title: ICCV and ECCV
   url: https://www.thecvf.com
-  description: vision (alternating).
+  description: "Major alternating computer-vision conferences covering recognition, geometry, generative methods, and visual learning."
   topic: AI
   category: Conferences & Events
   section: Top-tier academic
-  tags:
-    - ai
-    - conferences-and-events
-    - top-tier-academic
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, top-tier-academic, conferences, events]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.thecvf.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
-- title: AI Engineer Summit / World
+  notes: null
+  last_checked: 2026-07-27
+- title: AAAI Conference on Artificial Intelligence
+  url: https://aaai.org/conference/aaai/
+  description: "Long-running annual conference spanning foundational and applied artificial-intelligence research across subfields."
+  topic: AI
+  category: Conferences & Events
+  section: Top-tier academic
+  tags: [ai, conferences-and-events, top-tier-academic, conferences, events]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=aaai.org
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: AI Engineer
   url: https://www.ai.engineer
-  description: swyx-organized; engineering-focused.
+  description: "Practitioner conference series focused on building, evaluating, deploying, and operating AI-powered products."
   topic: AI
   category: Conferences & Events
   section: Industry / practitioner
-  tags:
-    - ai
-    - conferences-and-events
-    - industry-practitioner
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, industry-practitioner, conferences, events]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.ai.engineer
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
-- title: The AI Conference (SF)
+  notes: null
+  last_checked: 2026-07-27
+- title: The AI Conference
   url: https://theaiconf.com
-  description: The AI Conference (SF) resource in Conferences & Events.
+  description: "San Francisco industry conference covering applied AI, infrastructure, research translation, and enterprise adoption."
   topic: AI
   category: Conferences & Events
   section: Industry / practitioner
-  tags:
-    - ai
-    - conferences-and-events
-    - industry-practitioner
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, industry-practitioner, conferences, events]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=theaiconf.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Ray Summit
   url: https://raysummit.anyscale.com
-  description: distributed Python + ML.
+  description: "Anyscale conference for Ray users working on distributed Python, machine learning infrastructure, and AI applications."
   topic: AI
   category: Conferences & Events
   section: Industry / practitioner
-  tags:
-    - ai
-    - conferences-and-events
-    - industry-practitioner
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, industry-practitioner, conferences, events]
   audience: builders
   pricing: unknown
-  logo: https://images.ctfassets.net/xjan103pcp94/4s3h2cDsWzEftwaNQuik3F/a1d6629365a6d6e0b2d9ca1b76f44227/Ray_Summit_2026.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=raysummit.anyscale.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: MLOps World
   url: https://mlopsworld.com
-  description: MLOps World resource in Conferences & Events.
+  description: "Practitioner event covering production machine learning, generative AI operations, platforms, governance, and observability."
   topic: AI
   category: Conferences & Events
   section: Industry / practitioner
-  tags:
-    - ai
-    - conferences-and-events
-    - industry-practitioner
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, industry-practitioner, conferences, events]
   audience: builders
   pricing: unknown
-  logo: https://mlopsworld.com/wp-content/uploads/2025/07/MLOps-Gen-AI-2025.webp
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=mlopsworld.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
-- title: Anthropic events
+  notes: null
+  last_checked: 2026-07-27
+- title: Anthropic Events
   url: https://www.anthropic.com/events
-  description: Anthropic events resource in Conferences & Events.
+  description: "Official calendar of Anthropic developer sessions, community gatherings, workshops, and conference appearances."
   topic: AI
   category: Conferences & Events
   section: Industry / practitioner
-  tags:
-    - ai
-    - conferences-and-events
-    - industry-practitioner
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, industry-practitioner, conferences, events]
   audience: builders
   pricing: unknown
-  logo: https://cdn.prod.website-files.com/67ce28cfec624e2b733f8a52/68309ab48369f7ad9b4a40e1_open-graph.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.anthropic.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: OpenAI DevDay
-  url: https://openai.com/devday
-  description: OpenAI DevDay resource in Conferences & Events.
+  url: https://devday.openai.com
+  description: "OpenAI's developer conference for platform announcements, technical sessions, demonstrations, and product-building guidance."
   topic: AI
   category: Conferences & Events
   section: Industry / practitioner
-  tags:
-    - ai
-    - conferences-and-events
-    - industry-practitioner
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, industry-practitioner, conferences, events]
   audience: builders
   pricing: unknown
   logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=openai.com
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=devday.openai.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Google I/O
   url: https://io.google
-  description: AI tracks.
+  description: "Google's annual developer conference, with major tracks and announcements for Gemini and AI-enabled platforms."
   topic: AI
   category: Conferences & Events
   section: Industry / practitioner
-  tags:
-    - ai
-    - conferences-and-events
-    - industry-practitioner
-    - conferences
-    - events
-  audience: builders
-  pricing: unknown
-  logo: https://io.google/2026/assets/images/io26-og-image.jpg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=io.google
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
-- title: NVIDIA GTC
-  url: https://www.nvidia.com/gtc/
-  description: NVIDIA GTC resource in Conferences & Events.
-  topic: AI
-  category: Conferences & Events
-  section: Industry / practitioner
-  tags:
-    - ai
-    - conferences-and-events
-    - industry-practitioner
-    - conferences
-    - events
-  audience: builders
-  pricing: unknown
-  logo: https://www.nvidia.com/content/dam/en-zz/Solutions/gtc/social-image/gtc26-web-homepage-best-of-gtc-og.jpg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.nvidia.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
-- title: Web Marketing Festival (WMF, Rimini)
-  url: https://www.webmarketingfestival.it
-  description: has a sizeable AI track.
-  topic: AI
-  category: Conferences & Events
-  section: Italy / EU
-  tags:
-    - ai
-    - conferences-and-events
-    - italy-eu
-    - conferences
-    - events
-  audience: builders
-  pricing: unknown
-  logo: https://www.wemakefuture.it/cdn/?url=storage.ibrida.io/public/621cb4059ac564637c14d848_settings/uploader/2e997508-68e3-4f66-9ac8-16b153d2dcf7.jpg&w=1280&h=628
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.webmarketingfestival.it
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
-- title: CfgMgmtCamp (Ghent)
-  url: https://cfgmgmtcamp.org
-  description: DevOps; AI/agents tracks emerging.
-  topic: AI
-  category: Conferences & Events
-  section: Italy / EU
-  tags:
-    - ai
-    - conferences-and-events
-    - italy-eu
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, industry-practitioner, conferences, events]
   audience: builders
   pricing: unknown
   logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=cfgmgmtcamp.org
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=io.google
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
-- title: All Things Open
-  url: https://allthingsopen.org
-  description: open source incl. AI.
+  notes: null
+  last_checked: 2026-07-27
+- title: NVIDIA GTC
+  url: https://www.nvidia.com/gtc/
+  description: "NVIDIA's annual conference for accelerated computing, AI infrastructure, model development, robotics, and industry applications."
+  topic: AI
+  category: Conferences & Events
+  section: Industry / practitioner
+  tags: [ai, conferences-and-events, industry-practitioner, conferences, events]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.nvidia.com
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: We Make Future
+  url: https://www.wemakefuture.it
+  description: "Rimini technology festival with a substantial program on AI, digital innovation, startups, and applied technology."
   topic: AI
   category: Conferences & Events
   section: Italy / EU
-  tags:
-    - ai
-    - conferences-and-events
-    - italy-eu
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, italy-eu, conferences, events]
   audience: builders
   pricing: unknown
-  logo: https://allthingsopen.org/wp-content/uploads/2025/06/ATO_Site_Image.jpg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=allthingsopen.org
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.wemakefuture.it
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: The AI Summit
   url: https://www.theaisummit.com
-  description: (various cities)
+  description: "Global event series for enterprise AI strategy, implementation, governance, infrastructure, and vendor ecosystems."
   topic: AI
   category: Conferences & Events
   section: Italy / EU
-  tags:
-    - ai
-    - conferences-and-events
-    - italy-eu
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, italy-eu, conferences, events]
   audience: builders
   pricing: unknown
-  logo: https://knect365.imgix.net/uploads/AISummitLondon-2025-2919-1aac9cfa10d367f98fb5c1b8591dd454.jpg?auto=format&fit=max
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.theaisummit.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
-- title: Hugging Face events / hackathons
+  notes: null
+  last_checked: 2026-07-27
+- title: Hugging Face Events
   url: https://huggingface.co/events
-  description: Hugging Face events / hackathons resource in Conferences & Events.
+  description: "Community calendar for Hugging Face meetups, workshops, hackathons, and open machine-learning events."
   topic: AI
   category: Conferences & Events
   section: Hackathons / community
-  tags:
-    - ai
-    - conferences-and-events
-    - hackathons-community
-    - conferences
-    - events
+  tags: [ai, conferences-and-events, hackathons-community, conferences, events]
   audience: builders
   pricing: unknown
-  logo: https://cdn-thumbnails.huggingface.co/social-thumbnails/Events.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Conferences & Events.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27

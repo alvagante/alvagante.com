@@ -1,152 +1,112 @@
 - title: Financial Times
   url: https://ft.com
-  description: Global business and financial news — essential reading for markets,
-    economics, and corporate intelligence.
+  description: International business, economics, and financial markets reporting with data and analysis.
   topic: Economy
   category: Financial Markets
   section: News & journalism
-  tags:
-    - economy
-    - finance
-    - markets
-    - news
+  tags: [economy, finance, markets, news]
   audience: general
   pricing: freemium
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ft.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Bloomberg Markets
   url: https://bloomberg.com/markets
-  description: Real-time financial data, market news, and analysis from one of the
-    world's leading financial information services.
+  description: Financial market data, news, and analysis covering equities, fixed income, currencies, commodities, and derivatives.
   topic: Economy
   category: Financial Markets
   section: News & journalism
-  tags:
-    - economy
-    - finance
-    - markets
-    - bloomberg
+  tags: [economy, finance, markets, bloomberg]
   audience: general
   pricing: freemium
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=bloomberg.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Reuters Markets
   url: https://reuters.com/markets
-  description: Global financial markets news, data, and analysis from Reuters'
-    international network of correspondents.
+  description: International financial markets reporting and analysis from the Reuters news network.
   topic: Economy
   category: Financial Markets
   section: News & journalism
-  tags:
-    - economy
-    - finance
-    - markets
-    - reuters
+  tags: [economy, finance, markets, reuters]
   audience: general
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=reuters.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
-- title: BIS
-  url: https://bis.org
-  description: Bank for International Settlements — central bank for central
-    banks, publishing reports on global banking and financial stability.
-  topic: Economy
-  category: Financial Markets
-  section: Institutions
-  tags:
-    - economy
-    - finance
-    - banking
-    - stability
-  audience: researchers
-  pricing: free
-  logo: https://www.bis.org/img/bislogo_og.jpg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=bis.org
-  sublinks: []
-  notes: null
-  last_checked: 2026-05-26
-- title: Zero Hedge
-  url: https://zerohedge.com
-  description: Contrarian financial news and market analysis with a focus on macro
-    risks, credit markets, and geopolitical factors.
-  topic: Economy
-  category: Financial Markets
-  section: News & journalism
-  tags:
-    - economy
-    - finance
-    - markets
-    - contrarian
-  audience: general
-  pricing: free
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=zerohedge.com
-  sublinks: []
-  notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Investopedia
   url: https://investopedia.com
-  description: Financial education, market news, and dictionary of financial terms
-    for investors and students.
+  description: Educational articles, market coverage, and reference material on investing, economics, and personal finance.
   topic: Economy
   category: Financial Markets
   section: Education & reference
-  tags:
-    - economy
-    - finance
-    - education
-    - reference
+  tags: [economy, finance, education, reference]
   audience: general
   pricing: free
-  logo: https://www.investopedia.com/thmb/Sxark7T9uD1N9O3iHTTQlzAKFKc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/investopedia-social-share-default-ab113c8afd9a439dbc4c68b1926292f4.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=investopedia.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
-- title: Macro Trends
+  last_checked: '2026-07-27'
+- title: Macrotrends
   url: https://macrotrends.net
-  description: Long-term charts and historical data on stocks, commodities,
-    currencies, and economic indicators.
+  description: Long-term charts and historical data for stocks, commodities, currencies, and economic indicators.
   topic: Economy
   category: Financial Markets
   section: Data & databases
-  tags:
-    - economy
-    - finance
-    - data
-    - charts
+  tags: [economy, finance, data, charts]
   audience: general
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=macrotrends.net
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Trading Economics
   url: https://tradingeconomics.com
-  description: Economic indicators, government bond yields, exchange rates, and
-    commodities data for 200+ countries.
+  description: Economic indicators and market data covering government bonds, currencies, equities, and commodities across countries.
   topic: Economy
   category: Financial Markets
   section: Data & databases
-  tags:
-    - economy
-    - economics
-    - indicators
-    - data
+  tags: [economy, finance, markets, indicators]
   audience: general
   pricing: freemium
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=tradingeconomics.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: SEC EDGAR
+  url: https://www.sec.gov/edgar/search/
+  description: U.S. Securities and Exchange Commission search interface for public company filings and regulatory disclosures.
+  topic: Economy
+  category: Financial Markets
+  section: Regulatory filings
+  tags: [economy, finance, filings, regulation]
+  audience: professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.sec.gov
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: CME Group Markets
+  url: https://www.cmegroup.com/markets.html
+  description: Contract information, quotes, and market resources for futures and options traded through CME Group markets.
+  topic: Economy
+  category: Financial Markets
+  section: Exchanges
+  tags: [economy, finance, derivatives, futures]
+  audience: professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.cmegroup.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

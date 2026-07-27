@@ -1,198 +1,274 @@
 - title: MITRE ATT&CK
   url: https://attack.mitre.org
-  description: Globally-accessible knowledge base of adversary tactics,
-    techniques, and procedures based on real observations.
+  description: Globally-accessible knowledge base of adversary tactics, techniques, and procedures
+    based on real observations.
   topic: Security
   category: Threat Intelligence
   section: Frameworks & taxonomies
   tags:
-    - security
-    - threat-intelligence
-    - ttp
-    - mitre
+  - security
+  - threat-intelligence
+  - ttp
+  - mitre
   audience: security-professionals
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=attack.mitre.org
   sublinks:
-    - title: ATT&CK Navigator
-      url: https://mitre-attack.github.io/attack-navigator
+  - title: ATT&CK Navigator
+    url: https://mitre-attack.github.io/attack-navigator
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: VirusTotal
   url: https://virustotal.com
-  description: Multi-engine file and URL scanner aggregating results from 70+
-    antivirus engines and threat intelligence feeds.
+  description: Multi-engine file and URL scanner aggregating results from 70+ antivirus engines
+    and threat intelligence feeds.
   topic: Security
   category: Threat Intelligence
   section: Analysis & scanning
   tags:
-    - security
-    - malware
-    - analysis
-    - ioc
+  - security
+  - malware
+  - analysis
+  - ioc
   audience: security-professionals
   pricing: freemium
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=virustotal.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Shodan
   url: https://shodan.io
-  description: Search engine for internet-connected devices — servers, IoT,
-    industrial systems — with banner and vulnerability data.
+  description: Search engine for internet-connected devices — servers, IoT, industrial systems
+    — with banner and vulnerability data.
   topic: Security
   category: Threat Intelligence
   section: Internet scanning
   tags:
-    - security
-    - threat-intelligence
-    - osint
-    - iot
+  - security
+  - threat-intelligence
+  - osint
+  - iot
   audience: security-professionals
   pricing: freemium
-  logo: https://www.shodan.io/static/img/opengraph.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=shodan.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Censys
   url: https://censys.io
-  description: Internet-wide scanning service for attack surface management; maps
-    exposed services, certs, and misconfigurations.
+  description: Internet-wide scanning service for attack surface management; maps exposed
+    services, certs, and misconfigurations.
   topic: Security
   category: Threat Intelligence
   section: Internet scanning
   tags:
-    - security
-    - attack-surface
-    - osint
-    - scanning
+  - security
+  - attack-surface
+  - osint
+  - scanning
   audience: security-professionals
   pricing: freemium
-  logo: https://censys.com/wp-content/uploads/Censys-Featured-Image-1200x1200-1.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=censys.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: GreyNoise
   url: https://greynoise.io
-  description: Filters internet background noise from real threats by categorising
-    mass-scanning and exploit-broadcasting IPs.
+  description: Filters internet background noise from real threats by categorising mass-scanning
+    and exploit-broadcasting IPs.
   topic: Security
   category: Threat Intelligence
   section: Analysis & scanning
   tags:
-    - security
-    - threat-intelligence
-    - noise-reduction
-    - ip-reputation
+  - security
+  - threat-intelligence
+  - noise-reduction
+  - ip-reputation
   audience: security-professionals
   pricing: freemium
-  logo: https://cdn.prod.website-files.com/667dd40ebb8095e89f275639/66aaae14ca231e11222f392c_og-image.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=greynoise.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: AlienVault OTX
   url: https://otx.alienvault.com
-  description: Open Threat Exchange — community-driven threat intelligence sharing
-    platform with millions of indicators.
+  description: Open Threat Exchange — community-driven threat intelligence sharing platform
+    with millions of indicators.
   topic: Security
   category: Threat Intelligence
   section: Sharing platforms
   tags:
-    - security
-    - threat-intelligence
-    - ioc
-    - community
+  - security
+  - threat-intelligence
+  - ioc
+  - community
   audience: security-professionals
   pricing: free
-  logo: /assets/images/otx-logo-twitter.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=otx.alienvault.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: abuse.ch
   url: https://abuse.ch
-  description: Non-profit running MalwareBazaar, URLhaus, Feodo Tracker, and
-    ThreatFox for free threat intelligence feeds.
+  description: Non-profit running MalwareBazaar, URLhaus, Feodo Tracker, and ThreatFox for
+    free threat intelligence feeds.
   topic: Security
   category: Threat Intelligence
   section: Sharing platforms
   tags:
-    - security
-    - malware
-    - threat-intelligence
-    - feeds
+  - security
+  - malware
+  - threat-intelligence
+  - feeds
   audience: security-professionals
   pricing: free
-  logo: https://abuse.ch/images/abusech_twitter.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=abuse.ch
   sublinks:
-    - title: MalwareBazaar
-      url: https://bazaar.abuse.ch
-    - title: URLhaus
-      url: https://urlhaus.abuse.ch
-    - title: Feodo Tracker
-      url: https://feodotracker.abuse.ch
+  - title: MalwareBazaar
+    url: https://bazaar.abuse.ch
+  - title: URLhaus
+    url: https://urlhaus.abuse.ch
+  - title: Feodo Tracker
+    url: https://feodotracker.abuse.ch
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: CIRCL
   url: https://circl.lu
-  description: Computer Incident Response Center Luxembourg — publishes free
-    threat intelligence feeds, MISP, and CVE tools.
+  description: Computer Incident Response Center Luxembourg — publishes free threat intelligence
+    feeds, MISP, and CVE tools.
   topic: Security
   category: Threat Intelligence
   section: CSIRTs & national bodies
   tags:
-    - security
-    - threat-intelligence
-    - csirt
-    - europe
+  - security
+  - threat-intelligence
+  - csirt
+  - europe
   audience: security-professionals
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=circl.lu
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: CISA Known Exploited Vulnerabilities
   url: https://www.cisa.gov/known-exploited-vulnerabilities-catalog
-  description: US CISA's authoritative catalog of CVEs actively exploited in the
-    wild, with required remediation dates for federal agencies.
+  description: US CISA's authoritative catalog of CVEs actively exploited in the wild, with
+    required remediation dates for federal agencies.
   topic: Security
   category: Threat Intelligence
   section: CSIRTs & national bodies
   tags:
-    - security
-    - cve
-    - threat-intelligence
-    - cisa
+  - security
+  - cve
+  - threat-intelligence
+  - cisa
   audience: security-professionals
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.cisa.gov
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: MISP Project
   url: https://misp-project.org
-  description: Open-source threat intelligence sharing platform and format
-    standard used by hundreds of organisations globally.
+  description: Open-source threat intelligence sharing platform and format standard used by
+    hundreds of organisations globally.
   topic: Security
   category: Threat Intelligence
   section: Sharing platforms
   tags:
-    - security
-    - threat-intelligence
-    - sharing
-    - open-source
+  - security
+  - threat-intelligence
+  - sharing
+  - open-source
   audience: security-professionals
   pricing: free
-  logo: https://www.misp-project.org/img/sharing-default.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=misp-project.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: OpenCTI Documentation
+  url: https://docs.opencti.io/latest/
+  description: Documentation for the open-source platform used to structure, correlate, and
+    share cyber threat intelligence.
+  topic: Security
+  category: Threat Intelligence
+  section: Sharing platforms
+  tags:
+  - security
+  - threat-intelligence
+  - open-source
+  - stix
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.opencti.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: STIX 2.1 Specification
+  url: https://docs.oasis-open.org/cti/stix/v2.1/stix-v2.1.html
+  description: OASIS standard language for representing cyber threat intelligence in a structured,
+    interoperable format.
+  topic: Security
+  category: Threat Intelligence
+  section: Frameworks & taxonomies
+  tags:
+  - security
+  - threat-intelligence
+  - stix
+  - standards
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.oasis-open.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: TAXII 2.1 Specification
+  url: https://docs.oasis-open.org/cti/taxii/v2.1/taxii-v2.1.html
+  description: OASIS application-layer protocol for exchanging cyber threat intelligence over
+    HTTPS.
+  topic: Security
+  category: Threat Intelligence
+  section: Frameworks & taxonomies
+  tags:
+  - security
+  - threat-intelligence
+  - taxii
+  - standards
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.oasis-open.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: FIRST EPSS
+  url: https://www.first.org/epss/
+  description: Exploit Prediction Scoring System estimates the probability that a published
+    CVE will be exploited in the near term.
+  topic: Security
+  category: Threat Intelligence
+  section: Frameworks & taxonomies
+  tags:
+  - security
+  - vulnerability
+  - risk-prioritization
+  - epss
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.first.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

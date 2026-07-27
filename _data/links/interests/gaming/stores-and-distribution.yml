@@ -97,7 +97,7 @@
   notes: null
   last_checked: 2026-07-27
 - title: Microsoft Store Games
-  url: https://www.microsoft.com/en-us/store/games/windows
+  url: https://apps.microsoft.com/games
   description: Microsoft's official Windows storefront for PC games, downloadable content, apps, and account-linked purchases.
   topic: Gaming
   category: Stores & Distribution
@@ -106,7 +106,35 @@
   audience: general
   pricing: free
   logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=microsoft.com
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=apps.microsoft.com
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: EA app
+  url: https://www.ea.com/ea-app
+  description: Electronic Arts' official Windows client for buying, installing, updating, and managing EA games and subscriptions.
+  topic: Gaming
+  category: Stores & Distribution
+  section: Publisher platforms
+  tags: [gaming, pc, ea, distribution]
+  audience: general
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=ea.com
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: Ubisoft Connect
+  url: https://www.ubisoft.com/ubisoft-connect
+  description: Ubisoft's official game distribution and player-services platform for purchases, libraries, rewards, saves, and social features.
+  topic: Gaming
+  category: Stores & Distribution
+  section: Publisher platforms
+  tags: [gaming, pc, ubisoft, distribution]
+  audience: general
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=ubisoft.com
   sublinks: []
   notes: null
   last_checked: 2026-07-27

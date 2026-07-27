@@ -1,173 +1,230 @@
 - title: Cloud Security Alliance
   url: https://cloudsecurityalliance.org
-  description: Non-profit defining cloud security best practices through research,
-    certifications (CCSK), and the CCM framework.
+  description: Non-profit defining cloud security best practices through research, certifications
+    (CCSK), and the CCM framework.
   topic: Security
   category: Cloud Security
   section: Frameworks & standards
   tags:
-    - security
-    - cloud
-    - standards
-    - compliance
+  - security
+  - cloud
+  - standards
+  - compliance
   audience: security-professionals
   pricing: free
-  logo: /assets/social-share/facebook-429f9d45f1c2afbf16c63ff940668c3dfc1e7ed3f9155f98eab6691bf6b5fd82.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=cloudsecurityalliance.org
   sublinks:
-    - title: Cloud Controls Matrix
-      url: https://cloudsecurityalliance.org/research/cloud-controls-matrix/
+  - title: Cloud Controls Matrix
+    url: https://cloudsecurityalliance.org/research/cloud-controls-matrix/
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Prowler
   url: https://prowler.com
-  description: Open-source cloud security tool for auditing, hardening, and
-    continuous compliance across AWS, Azure, and GCP.
+  description: Open-source cloud security tool for auditing, hardening, and continuous compliance
+    across AWS, Azure, and GCP.
   topic: Security
   category: Cloud Security
   section: Posture management (CSPM)
   tags:
-    - security
-    - cloud
-    - cspm
-    - compliance
+  - security
+  - cloud
+  - cspm
+  - compliance
   audience: security-professionals
   pricing: freemium
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=prowler.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: ScoutSuite
   url: https://github.com/nccgroup/ScoutSuite
-  description: NCC Group's multi-cloud security auditing tool that produces an
-    HTML report of misconfigurations.
+  description: NCC Group's multi-cloud security auditing tool that produces an HTML report
+    of misconfigurations.
   topic: Security
   category: Cloud Security
   section: Posture management (CSPM)
   tags:
-    - security
-    - cloud
-    - audit
-    - open-source
+  - security
+  - cloud
+  - audit
+  - open-source
   audience: security-professionals
   pricing: free
-  logo: https://opengraph.githubassets.com/7298d8c1df533ff8944205fdae469d5b8ee4dfc9af6fa1ff700536ff94760f99/nccgroup/ScoutSuite
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Trivy
   url: https://trivy.dev
-  description: Comprehensive scanner for container images, IaC files, git repos,
-    and Kubernetes clusters.
+  description: Comprehensive scanner for container images, IaC files, git repos, and Kubernetes
+    clusters.
   topic: Security
   category: Cloud Security
   section: Container & IaC scanning
   tags:
-    - security
-    - containers
-    - iac
-    - kubernetes
+  - security
+  - containers
+  - iac
+  - kubernetes
   audience: developers
   pricing: free
-  logo: assets/images/trivy-horizontal-featured-image.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=trivy.dev
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Checkov
   url: https://checkov.io
-  description: Static analysis tool for Terraform, Kubernetes, Dockerfile, and
-    CloudFormation to catch misconfigurations pre-deploy.
+  description: Static analysis tool for Terraform, Kubernetes, Dockerfile, and CloudFormation
+    to catch misconfigurations pre-deploy.
   topic: Security
   category: Cloud Security
   section: Container & IaC scanning
   tags:
-    - security
-    - iac
-    - terraform
-    - kubernetes
+  - security
+  - iac
+  - terraform
+  - kubernetes
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=checkov.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Falco
   url: https://falco.org
-  description: CNCF runtime security tool for detecting anomalous behaviour in
-    containers and Kubernetes workloads.
+  description: CNCF runtime security tool for detecting anomalous behaviour in containers
+    and Kubernetes workloads.
   topic: Security
   category: Cloud Security
   section: Runtime security
   tags:
-    - security
-    - kubernetes
-    - runtime
-    - detection
+  - security
+  - kubernetes
+  - runtime
+  - detection
   audience: security-professionals
   pricing: free
-  logo: https://falco.org/images/featured/default-01.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=falco.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: AWS Security Hub
   url: https://aws.amazon.com/security-hub/
-  description: Centralised AWS security posture management aggregating findings
-    from GuardDuty, Inspector, Macie, and third-party tools.
+  description: Centralised AWS security posture management aggregating findings from GuardDuty,
+    Inspector, Macie, and third-party tools.
   topic: Security
   category: Cloud Security
   section: Cloud-native security services
   tags:
-    - security
-    - aws
-    - cspm
-    - findings
+  - security
+  - aws
+  - cspm
+  - findings
   audience: security-professionals
   pricing: paid
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=aws.amazon.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Steampipe
   url: https://steampipe.io
-  description: Query cloud APIs with SQL; includes prebuilt compliance benchmarks
-    for AWS, Azure, GCP, and Kubernetes.
+  description: Query cloud APIs with SQL; includes prebuilt compliance benchmarks for AWS,
+    Azure, GCP, and Kubernetes.
   topic: Security
   category: Cloud Security
   section: Posture management (CSPM)
   tags:
-    - security
-    - cloud
-    - compliance
-    - sql
+  - security
+  - cloud
+  - compliance
+  - sql
   audience: security-professionals
   pricing: free
-  logo: https://steampipe.io/images/steampipe-social-preview.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=steampipe.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: CNAPP landscape — CNCF Security TAG
   url: https://tag-security.cncf.io
-  description: CNCF's Security Technical Advisory Group producing white papers,
-    assessments, and guidance on cloud-native security.
+  description: CNCF's Security Technical Advisory Group producing white papers, assessments,
+    and guidance on cloud-native security.
   topic: Security
   category: Cloud Security
   section: Frameworks & standards
   tags:
-    - security
-    - cloud-native
-    - cncf
-    - kubernetes
+  - security
+  - cloud-native
+  - cncf
+  - kubernetes
   audience: security-professionals
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=tag-security.cncf.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: Kubernetes Security Documentation
+  url: https://kubernetes.io/docs/concepts/security/
+  description: Official Kubernetes guidance covering cluster, workload, pod, and API security
+    concepts.
+  topic: Security
+  category: Cloud Security
+  section: Container & IaC scanning
+  tags:
+  - security
+  - kubernetes
+  - containers
+  - hardening
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=kubernetes.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: AWS Well-Architected Security Pillar
+  url: https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html
+  description: AWS architecture guidance for identity, detection, infrastructure protection,
+    data protection, and incident response.
+  topic: Security
+  category: Cloud Security
+  section: Cloud-native security services
+  tags:
+  - security
+  - aws
+  - architecture
+  - best-practices
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.aws.amazon.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Google Cloud Security Foundations Guide
+  url: https://cloud.google.com/architecture/security-foundations
+  description: Google Cloud reference architecture for organization structure, identity, networking,
+    logging, and security controls.
+  topic: Security
+  category: Cloud Security
+  section: Cloud-native security services
+  tags:
+  - security
+  - gcp
+  - architecture
+  - hardening
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

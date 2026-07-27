@@ -1,340 +1,224 @@
 - title: Vast.ai
   url: https://vast.ai
-  description: peer-to-peer; cheapest by far, variable reliability.
+  description: "Marketplace for renting GPUs from independent hosts, with broad hardware availability and host-dependent reliability."
   topic: AI
   category: Compute & GPU Hosting
   section: On-demand GPU rental
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - on-demand-gpu-rental
-    - compute
-    - gpu
-    - infrastructure
+  tags: [ai, compute-and-gpu-hosting, on-demand-gpu-rental, compute, gpu, infrastructure]
   audience: builders
   pricing: unknown
-  logo: https://vast.ai/home/Vast_Social_Banner.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=vast.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: RunPod
   url: https://www.runpod.io
-  description: pods + serverless; great UX.
+  description: "GPU cloud offering configurable pods and serverless endpoints for training, inference, and development workloads."
   topic: AI
   category: Compute & GPU Hosting
   section: On-demand GPU rental
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - on-demand-gpu-rental
-    - compute
-    - gpu
-    - infrastructure
+  tags: [ai, compute-and-gpu-hosting, on-demand-gpu-rental, compute, gpu, infrastructure]
   audience: builders
   pricing: unknown
-  logo: https://cdn.prod.website-files.com/69ce570adca53340abab8376/69e08af826de248f8febd0dc_opengraph-cover-image.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.runpod.io
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: TensorDock
   url: https://www.tensordock.com
-  description: broad GPU selection.
+  description: "GPU cloud marketplace offering hourly virtual machines across a range of consumer and data-center accelerators."
   topic: AI
   category: Compute & GPU Hosting
   section: On-demand GPU rental
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - on-demand-gpu-rental
-    - compute
-    - gpu
-    - infrastructure
+  tags: [ai, compute-and-gpu-hosting, on-demand-gpu-rental, compute, gpu, infrastructure]
   audience: builders
   pricing: unknown
-  logo: https://www.tensordock.com/assets/img/opengraph/home.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.tensordock.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Hyperstack
   url: https://www.hyperstack.cloud
-  description: Nordic energy, reliable A100/H100.
+  description: "GPU cloud providing on-demand and reserved virtual machines for AI training, inference, and rendering."
   topic: AI
   category: Compute & GPU Hosting
   section: On-demand GPU rental
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - on-demand-gpu-rental
-    - compute
-    - gpu
-    - infrastructure
+  tags: [ai, compute-and-gpu-hosting, on-demand-gpu-rental, compute, gpu, infrastructure]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.hyperstack.cloud
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Paperspace
   url: https://www.paperspace.com
-  description: Gradient notebooks + dedicated.
+  description: "DigitalOcean GPU platform with virtual machines and Gradient tools for notebooks, training, and deployment."
   topic: AI
   category: Compute & GPU Hosting
   section: On-demand GPU rental
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - on-demand-gpu-rental
-    - compute
-    - gpu
-    - infrastructure
+  tags: [ai, compute-and-gpu-hosting, on-demand-gpu-rental, compute, gpu, infrastructure]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.paperspace.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
-- title: Salad
+  notes: null
+  last_checked: 2026-07-27
+- title: SaladCloud
   url: https://salad.com
-  description: distributed consumer GPUs.
+  description: "Distributed GPU cloud using capacity from geographically dispersed consumer and data-center machines."
   topic: AI
   category: Compute & GPU Hosting
   section: On-demand GPU rental
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - on-demand-gpu-rental
-    - compute
-    - gpu
-    - infrastructure
-  audience: builders
-  pricing: unknown
-  logo: https://uploads-ssl.webflow.com/657145f7e647f68f04562685/658075992cdde6c9d1975a1b_image%20106.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=salad.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
-- title: Cudo Compute
-  url: https://www.cudocompute.com
-  description: Cudo Compute resource in Compute & GPU Hosting.
-  topic: AI
-  category: Compute & GPU Hosting
-  section: On-demand GPU rental
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - on-demand-gpu-rental
-    - compute
-    - gpu
-    - infrastructure
-  audience: builders
-  pricing: unknown
-  logo: https://www.cudocompute.com/wp-content/uploads/2026/04/CUDO-Thumbnail-1200.jpeg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.cudocompute.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
-- title: CoreWeave
-  url: https://www.coreweave.com
-  description: H100/H200 clusters at scale.
-  topic: AI
-  category: Compute & GPU Hosting
-  section: Premium / enterprise
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - premium-enterprise
-    - compute
-    - gpu
-    - infrastructure
-  audience: builders
-  pricing: unknown
-  logo: https://cdn.prod.website-files.com/62ba1fb86485b6d5029975c4/67782a9cb02bc934fae303cb_coreweave_share_v2.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.coreweave.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
-- title: Lambda Labs
-  url: https://lambdalabs.com
-  description: popular among researchers.
-  topic: AI
-  category: Compute & GPU Hosting
-  section: Premium / enterprise
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - premium-enterprise
-    - compute
-    - gpu
-    - infrastructure
-  audience: builders
-  pricing: unknown
-  logo: https://lambda.ai/hubfs/OPENGRAPH%20-%20Main-1.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=lambdalabs.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
-- title: Crusoe Cloud
-  url: https://crusoecloud.com
-  description: stranded-energy GPUs.
-  topic: AI
-  category: Compute & GPU Hosting
-  section: Premium / enterprise
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - premium-enterprise
-    - compute
-    - gpu
-    - infrastructure
-  audience: builders
-  pricing: unknown
-  logo: https://cdn.prod.website-files.com/6855c1aa175582ee23e0aa19/68e56afb7fd29e836c07c81b_og-crusoe-home.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=crusoecloud.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
-- title: Together
-  url: https://www.together.ai
-  description: inference + training.
-  topic: AI
-  category: Compute & GPU Hosting
-  section: Premium / enterprise
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - premium-enterprise
-    - compute
-    - gpu
-    - infrastructure
+  tags: [ai, compute-and-gpu-hosting, on-demand-gpu-rental, compute, gpu, infrastructure]
   audience: builders
   pricing: unknown
   logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.together.ai
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=salad.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
+- title: Cudo Compute
+  url: https://www.cudocompute.com
+  description: "GPU cloud for virtual machines and clusters spanning AI training, inference, and high-performance computing."
+  topic: AI
+  category: Compute & GPU Hosting
+  section: On-demand GPU rental
+  tags: [ai, compute-and-gpu-hosting, on-demand-gpu-rental, compute, gpu, infrastructure]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.cudocompute.com
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: CoreWeave
+  url: https://www.coreweave.com
+  description: "Specialized cloud providing large-scale NVIDIA GPU infrastructure, managed Kubernetes, and AI platform services."
+  topic: AI
+  category: Compute & GPU Hosting
+  section: Premium / enterprise
+  tags: [ai, compute-and-gpu-hosting, premium-enterprise, compute, gpu, infrastructure]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.coreweave.com
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: Lambda
+  url: https://lambda.ai
+  description: "AI infrastructure provider offering GPU instances, reserved clusters, and on-premises systems for model workloads."
+  topic: AI
+  category: Compute & GPU Hosting
+  section: Premium / enterprise
+  tags: [ai, compute-and-gpu-hosting, premium-enterprise, compute, gpu, infrastructure]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=lambda.ai
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: Crusoe Cloud
+  url: https://www.crusoe.ai
+  description: "AI cloud and data-center operator providing GPU clusters with an emphasis on energy-efficient infrastructure."
+  topic: AI
+  category: Compute & GPU Hosting
+  section: Premium / enterprise
+  tags: [ai, compute-and-gpu-hosting, premium-enterprise, compute, gpu, infrastructure]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.crusoe.ai
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
 - title: GPU List
   url: https://www.gpulist.ai
-  description: aggregated marketplace pricing.
+  description: "Searchable comparison of GPU instance availability and hourly pricing across cloud providers."
   topic: AI
   category: Compute & GPU Hosting
   section: Spot pricing & cross-provider comparison
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - spot-pricing-and-cross-provider-comparison
-    - compute
-    - gpu
-    - infrastructure
+  tags: [ai, compute-and-gpu-hosting, spot-pricing-and-cross-provider-comparison, compute, gpu, infrastructure]
   audience: builders
   pricing: unknown
-  logo: https://gpulist.ai/logo.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.gpulist.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
-- title: ShadeForm
+  notes: null
+  last_checked: 2026-07-27
+- title: Shadeform
   url: https://www.shadeform.com
-  description: orchestrates spot GPUs across providers.
+  description: "Unified API and console for finding, provisioning, and managing GPU instances across multiple clouds."
   topic: AI
   category: Compute & GPU Hosting
   section: Spot pricing & cross-provider comparison
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - spot-pricing-and-cross-provider-comparison
-    - compute
-    - gpu
-    - infrastructure
+  tags: [ai, compute-and-gpu-hosting, spot-pricing-and-cross-provider-comparison, compute, gpu, infrastructure]
   audience: builders
   pricing: unknown
-  logo: https://shadeform.com/img/meta/url-preview.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.shadeform.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
-- title: Cloud GPU comparison
+  notes: null
+  last_checked: 2026-07-27
+- title: Full Stack Deep Learning Cloud GPU Guide
   url: https://fullstackdeeplearning.com/cloud-gpus/
-  description: (Full Stack Deep Learning)
+  description: "Practical comparison of GPU cloud options, hardware, pricing models, setup tradeoffs, and provider selection."
   topic: AI
   category: Compute & GPU Hosting
   section: Spot pricing & cross-provider comparison
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - spot-pricing-and-cross-provider-comparison
-    - compute
-    - gpu
-    - infrastructure
+  tags: [ai, compute-and-gpu-hosting, spot-pricing-and-cross-provider-comparison, compute, gpu, infrastructure]
   audience: builders
   pricing: unknown
-  logo: https://fullstackdeeplearning.com/cloud-gpus/opengraph.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=fullstackdeeplearning.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
-- title: Apple Silicon (MLX)
+  notes: null
+  last_checked: 2026-07-27
+- title: MLX
   url: https://github.com/ml-explore/mlx
-  description: surprisingly capable up to ~30B locally.
+  description: "Apple's array framework for machine learning research and local model execution on Apple silicon."
   topic: AI
   category: Compute & GPU Hosting
   section: Local / DIY
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - local-diy
-    - compute
-    - gpu
-    - infrastructure
+  tags: [ai, compute-and-gpu-hosting, local-diy, compute, gpu, infrastructure]
   audience: builders
   pricing: unknown
-  logo: https://opengraph.githubassets.com/322a68490ec1d20489ac7dc52ea93368943aa2fd0057615ceccdfbb7f180328d/ml-explore/mlx
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
-- title: Tinybox / tinygrad
+  notes: null
+  last_checked: 2026-07-27
+- title: tinygrad and tinybox
   url: https://tinygrad.org
-  description: DIY rigs, opinionated.
+  description: "Minimal tensor framework and integrated multi-GPU workstation designs for local AI development and training."
   topic: AI
   category: Compute & GPU Hosting
   section: Local / DIY
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - local-diy
-    - compute
-    - gpu
-    - infrastructure
+  tags: [ai, compute-and-gpu-hosting, local-diy, compute, gpu, infrastructure]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=tinygrad.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: NVIDIA Jetson
   url: https://developer.nvidia.com/embedded-computing
-  description: edge inference.
+  description: "NVIDIA embedded computing platform and developer kits for running accelerated AI inference at the edge."
   topic: AI
   category: Compute & GPU Hosting
   section: Local / DIY
-  tags:
-    - ai
-    - compute-and-gpu-hosting
-    - local-diy
-    - compute
-    - gpu
-    - infrastructure
+  tags: [ai, compute-and-gpu-hosting, local-diy, compute, gpu, infrastructure]
   audience: builders
   pricing: unknown
-  logo: https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/embedded/images/jetson-developer-kit-850x480.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=developer.nvidia.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Compute & GPU Hosting.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27

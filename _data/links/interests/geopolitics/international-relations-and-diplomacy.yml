@@ -1,175 +1,156 @@
 - title: Foreign Affairs
   url: https://foreignaffairs.com
-  description: Premier journal of international relations from the Council on
-    Foreign Relations — long-form analysis and debate.
+  description: Journal published by the Council on Foreign Relations featuring essays and debate on international relations and foreign policy.
   topic: Geopolitics
   category: International Relations & Diplomacy
   section: Journals & magazines
-  tags:
-    - geopolitics
-    - international-relations
-    - analysis
-    - foreign-policy
+  tags: [geopolitics, international-relations, analysis, foreign-policy]
   audience: general
   pricing: freemium
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=foreignaffairs.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Foreign Policy
   url: https://foreignpolicy.com
-  description: Global affairs magazine covering diplomacy, security, economics,
-    and geopolitics with insider access.
+  description: Magazine covering diplomacy, security, economics, international institutions, and global political developments.
   topic: Geopolitics
   category: International Relations & Diplomacy
   section: Journals & magazines
-  tags:
-    - geopolitics
-    - international-relations
-    - diplomacy
-    - analysis
+  tags: [geopolitics, international-relations, diplomacy, analysis]
   audience: general
   pricing: freemium
-  logo: https://foreignpolicy.com/wp-content/themes/foreign-policy-2017/assets/src/images/logos/favicon-256.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=foreignpolicy.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Council on Foreign Relations
   url: https://cfr.org
-  description: Non-partisan think tank and publisher with country briefings,
-    interactive timelines, and policy briefs.
+  description: US membership organization and think tank publishing research, briefings, explainers, and educational resources on foreign policy.
   topic: Geopolitics
   category: International Relations & Diplomacy
   section: Think tanks
-  tags:
-    - geopolitics
-    - think-tank
-    - foreign-policy
-    - usa
+  tags: [geopolitics, think-tank, foreign-policy, united-states]
   audience: general
   pricing: free
-  logo: https://res.cloudinary.com/dmovl8u5q/images/f_auto,q_auto/v1756392849/share-image_4721e2107/share-image_4721e2107.png?_i=AA
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=cfr.org
   sublinks:
     - title: Global Conflict Tracker
       url: https://www.cfr.org/global-conflict-tracker
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Carnegie Endowment for International Peace
   url: https://carnegieendowment.org
-  description: Global policy research network with experts in US-China relations,
-    nuclear security, and democracy.
+  description: International affairs think tank publishing research on foreign policy, security, governance, technology, and regional politics.
   topic: Geopolitics
   category: International Relations & Diplomacy
   section: Think tanks
-  tags:
-    - geopolitics
-    - think-tank
-    - nuclear
-    - democracy
+  tags: [geopolitics, think-tank, security, foreign-policy]
   audience: general
   pricing: free
-  logo: https://assets.carnegieendowment.org/_/eyJrZXkiOiJtZWRpYS9tZXRhZGVmYXVsdC1Ud2l0dGVyY2FyZC1jZWlwLnBuZyJ9
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=carnegieendowment.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: International Crisis Group
   url: https://crisisgroup.org
-  description: Independent organisation working to prevent and resolve deadly
-    conflicts through field research and advocacy.
+  description: Organization conducting field research and policy analysis on armed conflict, crisis prevention, and peace processes.
   topic: Geopolitics
   category: International Relations & Diplomacy
   section: Think tanks
-  tags:
-    - geopolitics
-    - conflict
-    - diplomacy
-    - advocacy
+  tags: [geopolitics, conflict, diplomacy, peacebuilding]
   audience: general
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=crisisgroup.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Chatham House
   url: https://chathamhouse.org
-  description: British foreign affairs think tank known for the Chatham House Rule
-    and research on global governance.
+  description: UK institute publishing research on international affairs, security, economics, energy, environment, and global governance.
   topic: Geopolitics
   category: International Relations & Diplomacy
   section: Think tanks
-  tags:
-    - geopolitics
-    - think-tank
-    - uk
-    - global-governance
+  tags: [geopolitics, think-tank, uk, global-governance]
   audience: general
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=chathamhouse.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Belfer Center — Harvard Kennedy School
   url: https://belfercenter.org
-  description: Harvard's centre for science, technology, and international affairs
-    covering nuclear security and US-China relations.
-  topic: Geopolitics
-  category: International Relations & Diplomacy
-  section: Think tanks
-  tags:
-    - geopolitics
-    - think-tank
-    - nuclear
-    - harvard
-  audience: general
-  pricing: free
-  logo: https://www.belfercenter.org/sites/default/files/styles/1200x630/public/2024-08/Belfer%20Center%20logo%20image.jpg?itok=05GNzJn4
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=belfercenter.org
-  sublinks: []
-  notes: null
-  last_checked: 2026-05-26
-- title: SIPRI
-  url: https://sipri.org
-  description: Stockholm International Peace Research Institute providing data on
-    armaments, arms trade, and peace.
+  description: Harvard Kennedy School research center focused on international security, diplomacy, technology, energy, and environmental policy.
   topic: Geopolitics
   category: International Relations & Diplomacy
   section: Research institutes
-  tags:
-    - geopolitics
-    - arms
-    - peace
-    - research
+  tags: [geopolitics, security, technology, research]
+  audience: general
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=belfercenter.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: SIPRI
+  url: https://sipri.org
+  description: Stockholm International Peace Research Institute data and research on armaments, arms transfers, military spending, conflict, and peace.
+  topic: Geopolitics
+  category: International Relations & Diplomacy
+  section: Research institutes
+  tags: [geopolitics, arms, peace, research]
   audience: researchers
   pricing: free
-  logo: https://sipri.org/sites/default/files/styles/home_slide/public/2022-06/dsc_0957-4.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=sipri.org
-  sublinks:
-    - title: Military expenditure database
-      url: https://www.sipri.org/databases/milex
+  sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: United Nations
   url: https://un.org
-  description: Official portal for UN resolutions, peacekeeping operations,
-    reports, and international law documentation.
+  description: Official portal for United Nations bodies, resolutions, reports, peace operations, international law, and member-state information.
   topic: Geopolitics
   category: International Relations & Diplomacy
   section: Institutions
-  tags:
-    - geopolitics
-    - un
-    - international-law
-    - peacekeeping
+  tags: [geopolitics, united-nations, international-law, diplomacy]
   audience: general
   pricing: free
-  logo: https://www.un.org/images/splash/Flag.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=un.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: UN Treaty Collection
+  url: https://treaties.un.org
+  description: Official United Nations repository for registered treaties, treaty status information, certified true copies, and related legal publications.
+  topic: Geopolitics
+  category: International Relations & Diplomacy
+  section: International law
+  tags: [geopolitics, treaties, international-law, united-nations]
+  audience: researchers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=treaties.un.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: ICJ Cases
+  url: https://www.icj-cij.org/cases
+  description: Official case records of the International Court of Justice, including contentious cases, advisory proceedings, orders, and judgments.
+  topic: Geopolitics
+  category: International Relations & Diplomacy
+  section: International law
+  tags: [geopolitics, international-law, courts, disputes]
+  audience: researchers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.icj-cij.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

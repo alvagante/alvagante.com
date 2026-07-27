@@ -1,63 +1,66 @@
 - title: OWASP Top 10 for LLM Applications
   url: https://genai.owasp.org
-  description: the reference list.
+  description: OWASP GenAI Security Project guidance on common risks and mitigations for applications
+    built with large language models.
   topic: Security
   category: AI Security & Red-Teaming
   section: Standards & threat models
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - standards-and-threat-models
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - standards-and-threat-models
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
-  logo: https://genai.owasp.org/wp-content/uploads/2025/07/OWASP-GenAI-Security-Project-right-img.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=genai.owasp.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: MITRE ATLAS
   url: https://atlas.mitre.org
-  description: adversarial threat landscape for AI systems.
+  description: MITRE knowledge base of adversary tactics and techniques observed in attacks
+    against AI-enabled systems.
   topic: Security
   category: AI Security & Red-Teaming
   section: Standards & threat models
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - standards-and-threat-models
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - standards-and-threat-models
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=atlas.mitre.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: NIST AI Risk Management Framework
   url: https://www.nist.gov/itl/ai-risk-management-framework
-  description: NIST AI Risk Management Framework resource in AI Security & Red-Teaming.
+  description: NIST framework and companion resources for identifying and managing risks across
+    the AI system lifecycle.
   topic: Security
   category: AI Security & Red-Teaming
   section: Standards & threat models
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - standards-and-threat-models
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - standards-and-threat-models
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.nist.gov
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: AI Incident Database
   url: https://incidentdatabase.ai
   description: searchable real-world incidents.
@@ -65,19 +68,19 @@
   category: AI Security & Red-Teaming
   section: Standards & threat models
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - standards-and-threat-models
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - standards-and-threat-models
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
-  logo: https://incidentdatabase.ai/logos/AIID_1000x1000px.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=incidentdatabase.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: garak
   url: https://github.com/NVIDIA/garak
   description: NVIDIA's LLM vulnerability scanner.
@@ -85,19 +88,19 @@
   category: AI Security & Red-Teaming
   section: Red-team / scanning tools
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - red-team-scanning-tools
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - red-team-scanning-tools
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
-  logo: https://opengraph.githubassets.com/2e0086092f1e2be61d298f708f45e8b7d24e669a6ee507ba87f9a5be122dd10d/NVIDIA/garak
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: PyRIT
   url: https://github.com/Azure/PyRIT
   description: Microsoft's Python Risk Identification Toolkit for AI.
@@ -105,19 +108,19 @@
   category: AI Security & Red-Teaming
   section: Red-team / scanning tools
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - red-team-scanning-tools
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - red-team-scanning-tools
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
-  logo: https://opengraph.githubassets.com/e44f2de80086e29104b09d373d919902153b26f2f9a2f0b1b5c99c1e840aa7f6/Azure/PyRIT
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: Promptfoo
   url: https://www.promptfoo.dev
   description: eval + red-team framework, CI-friendly.
@@ -125,59 +128,61 @@
   category: AI Security & Red-Teaming
   section: Red-team / scanning tools
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - red-team-scanning-tools
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - red-team-scanning-tools
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
-  logo: https://www.promptfoo.dev/img/meta/homepage.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.promptfoo.dev
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: Giskard
   url: https://www.giskard.ai
-  description: open-source LLM testing.
+  description: Open-source testing framework for evaluating model quality, robustness, and
+    security-related failure modes.
   topic: Security
   category: AI Security & Red-Teaming
   section: Red-team / scanning tools
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - red-team-scanning-tools
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - red-team-scanning-tools
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
-  logo: https://cdn.prod.website-files.com/601d6f7d0b9c984f07bf10bc/68c2d6145cd458e5404dff1d_open-graph-image.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.giskard.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: DeepEval
   url: https://github.com/confident-ai/deepeval
-  description: pytest-style LLM evals.
+  description: Open-source, pytest-style framework for evaluating LLM application outputs
+    with reusable metrics and test cases.
   topic: Security
   category: AI Security & Red-Teaming
   section: Red-team / scanning tools
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - red-team-scanning-tools
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - red-team-scanning-tools
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
-  logo: https://opengraph.githubassets.com/88fd778dcf39f9aa6e5cea58257abc7d490b66c5c1fdaf0fffad14c4a86a21ed/confident-ai/deepeval
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: Inspect AI
   url: https://inspect.aisi.org.uk
   description: UK AISI's eval framework.
@@ -185,19 +190,19 @@
   category: AI Security & Red-Teaming
   section: Red-team / scanning tools
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - red-team-scanning-tools
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - red-team-scanning-tools
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
-  logo: https://inspect.aisi.org.uk/images/inspect.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=inspect.aisi.org.uk
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: Lakera Guard
   url: https://www.lakera.ai
   description: prompt-injection/PII firewall.
@@ -205,19 +210,19 @@
   category: AI Security & Red-Teaming
   section: Runtime defense
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - runtime-defense
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - runtime-defense
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
-  logo: https://cdn.prod.website-files.com/65080baa3f9a607985451de3/680f884722cf28ff9cd4fc68_lakera.webp
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.lakera.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: Protect AI
   url: https://protectai.com
   description: ML supply-chain security.
@@ -225,39 +230,40 @@
   category: AI Security & Red-Teaming
   section: Runtime defense
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - runtime-defense
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - runtime-defense
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=protectai.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: HiddenLayer
   url: https://hiddenlayer.com
-  description: model security platform.
+  description: Commercial platform for model scanning, runtime detection, and security monitoring
+    across machine-learning systems.
   topic: Security
   category: AI Security & Red-Teaming
   section: Runtime defense
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - runtime-defense
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - runtime-defense
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
-  logo: https://cdn.prod.website-files.com/694066252c49b2800c70cf57/696115ded512487d1a974ab0_Open%20Graph%20OPT1.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=hiddenlayer.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: NeMo Guardrails
   url: https://github.com/NVIDIA/NeMo-Guardrails
   description: NVIDIA, programmable rails.
@@ -265,60 +271,60 @@
   category: AI Security & Red-Teaming
   section: Runtime defense
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - runtime-defense
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - runtime-defense
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
-  logo: https://opengraph.githubassets.com/118a1abf08898e543e609c1d125c546b999577fb47f94917763ef8c6ca6bff23/NVIDIA-NeMo/Guardrails
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: LLM Guard
-  url: https://llm-guard.com
-  description: open-source input/output guard.
+  url: https://github.com/protectai/llm-guard
+  description: Open-source toolkit providing configurable scanners and sanitizers for LLM
+    inputs and outputs.
   topic: Security
   category: AI Security & Red-Teaming
   section: Runtime defense
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - runtime-defense
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - runtime-defense
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
   logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=llm-guard.com
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: Anthropic alignment & red-team research
   url: https://www.anthropic.com/research
-  description: Anthropic alignment & red-team research resource in AI Security &
-    Red-Teaming.
+  description: Anthropic alignment & red-team research resource in AI Security & Red-Teaming.
   topic: Security
   category: AI Security & Red-Teaming
   section: Research / labs
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - research-labs
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - research-labs
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.anthropic.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: Apollo Research
   url: https://www.apolloresearch.ai
   description: deceptive-alignment evals.
@@ -326,19 +332,19 @@
   category: AI Security & Red-Teaming
   section: Research / labs
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - research-labs
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - research-labs
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.apolloresearch.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: METR
   url: https://metr.org
   description: autonomy/capability evaluations.
@@ -346,79 +352,82 @@
   category: AI Security & Red-Teaming
   section: Research / labs
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - research-labs
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - research-labs
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=metr.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: UK AI Safety Institute (AISI)
   url: https://www.aisi.gov.uk
-  description: UK AI Safety Institute (AISI) resource in AI Security & Red-Teaming.
+  description: UK government institute publishing AI safety evaluations, research, and testing
+    resources.
   topic: Security
   category: AI Security & Red-Teaming
   section: Research / labs
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - research-labs
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - research-labs
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.aisi.gov.uk
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: US AISI (at NIST)
   url: https://www.nist.gov/aisi
-  description: US AISI (at NIST) resource in AI Security & Red-Teaming.
+  description: NIST program materials on U.S. government AI safety measurement, evaluation,
+    and standards work.
   topic: Security
   category: AI Security & Red-Teaming
   section: Research / labs
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - research-labs
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - research-labs
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.nist.gov
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: Simon Willison — prompt injection tag
   url: https://simonwillison.net/tags/prompt-injection/
-  description: best running coverage.
+  description: Practitioner articles tracking prompt injection research, demonstrations, and
+    defensive design constraints.
   topic: Security
   category: AI Security & Red-Teaming
   section: Practitioner reading
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - practitioner-reading
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - practitioner-reading
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=simonwillison.net
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: Embrace The Red
   url: https://embracethered.com/blog
   description: Johann Rehberger, AI red-team blog.
@@ -426,56 +435,77 @@
   category: AI Security & Red-Teaming
   section: Practitioner reading
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - practitioner-reading
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - practitioner-reading
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=embracethered.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
-- title: HackAPrompt writeups
-  url: https://www.learnprompting.org/hackaprompt
-  description: Learn Prompting.
+  notes: null
+  last_checked: '2026-07-27'
+- title: HackAPrompt competition
+  url: https://learnprompting.org/blog/announce-hackaprompt-2
+  description: Learn Prompting overview of its AI red-teaming competition, challenge structure,
+    and participating tracks.
   topic: Security
   category: AI Security & Red-Teaming
   section: Practitioner reading
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - practitioner-reading
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - practitioner-reading
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
   logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.learnprompting.org
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=learnprompting.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
 - title: DEF CON AI Village
   url: https://aivillage.org
-  description: DEF CON AI Village resource in AI Security & Red-Teaming.
+  description: Security community and DEF CON village focused on testing, research, and education
+    for AI systems.
   topic: Security
   category: AI Security & Red-Teaming
   section: Practitioner reading
   tags:
-    - ai
-    - ai-security-and-red-teaming
-    - practitioner-reading
-    - security
-    - red-team
-    - prompt-injection
+  - ai
+  - ai-security-and-red-teaming
+  - practitioner-reading
+  - security
+  - red-team
+  - prompt-injection
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=aivillage.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/AI Security & Red-Teaming.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: '2026-07-27'
+- title: Google Secure AI Framework
+  url: https://saif.google
+  description: Google framework for applying secure-by-design practices to AI systems, including
+    model, data, infrastructure, and application risks.
+  topic: Security
+  category: AI Security & Red-Teaming
+  section: Standards & threat models
+  tags:
+  - security
+  - ai
+  - framework
+  - secure-by-design
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=saif.google
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

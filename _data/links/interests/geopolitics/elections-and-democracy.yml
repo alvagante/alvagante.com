@@ -1,152 +1,112 @@
 - title: V-Dem Institute
   url: https://v-dem.net
-  description: Varieties of Democracy project — longitudinal data on democratic
-    institutions for 200+ countries since 1789.
+  description: Research institute that produces comparative datasets and analysis on democratic institutions and political systems worldwide.
   topic: Geopolitics
   category: Elections & Democracy
   section: Data & databases
-  tags:
-    - geopolitics
-    - democracy
-    - data
-    - political-science
+  tags: [geopolitics, democracy, data, political-science]
   audience: researchers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=v-dem.net
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Freedom House
   url: https://freedomhouse.org
-  description: Annual Freedom in the World report assessing political rights and
-    civil liberties country by country.
+  description: Organization that publishes country assessments of political rights, civil liberties, and democratic governance.
   topic: Geopolitics
   category: Elections & Democracy
   section: Data & databases
-  tags:
-    - geopolitics
-    - democracy
-    - human-rights
-    - freedom
+  tags: [geopolitics, democracy, human-rights, freedom]
   audience: general
   pricing: free
-  logo: https://freedomhouse.org/sites/default/files/styles/1380x450_fp_and_crop_/public/2024-01/FIW24_Guatemala_Cover.jpg?h=c17dfc75&itok=qBWs1qs_
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=freedomhouse.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Electoral Integrity Project
   url: https://electoralintegrityproject.com
-  description: Harvard/Sydney research initiative evaluating the integrity of
-    elections globally with expert surveys.
+  description: Research project studying election quality through expert surveys, comparative datasets, and publications on electoral integrity.
   topic: Geopolitics
   category: Elections & Democracy
-  section: Think tanks
-  tags:
-    - geopolitics
-    - elections
-    - integrity
-    - research
+  section: Research projects
+  tags: [geopolitics, elections, integrity, research]
   audience: researchers
   pricing: free
-  logo: http://static1.squarespace.com/static/58533f31bebafbe99c85dc9b/t/5a8df02c0852290e320a8bc4/1519251502915/map-+black.jpg?format=1500w
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=electoralintegrityproject.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: International IDEA
   url: https://idea.int
-  description: Intergovernmental organisation supporting sustainable democracy
-    with electoral data and democracy assessments.
+  description: Intergovernmental organization providing electoral data, democracy assessments, and support for democratic institutions.
   topic: Geopolitics
   category: Elections & Democracy
   section: Institutions
-  tags:
-    - geopolitics
-    - democracy
-    - elections
-    - institutions
+  tags: [geopolitics, democracy, elections, institutions]
   audience: researchers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=idea.int
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Economist Intelligence Unit Democracy Index
   url: https://eiu.com/n/campaigns/democracy-index
-  description: Annual index ranking 167 countries by electoral process, pluralism,
-    civil liberties, and political culture.
+  description: Annual index assessing countries and territories across electoral process, government functioning, participation, political culture, and civil liberties.
   topic: Geopolitics
   category: Elections & Democracy
   section: Data & databases
-  tags:
-    - geopolitics
-    - democracy
-    - index
-    - rankings
+  tags: [geopolitics, democracy, index, rankings]
   audience: general
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=eiu.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
-- title: Politico Europe
-  url: https://politico.eu
-  description: Political news and analysis covering European politics, elections,
-    policy, and institutions.
-  topic: Geopolitics
-  category: Elections & Democracy
-  section: Analysis & journalism
-  tags:
-    - geopolitics
-    - europe
-    - politics
-    - elections
-  audience: general
-  pricing: freemium
-  logo: https://www.politico.eu/wp-content/themes/politico/assets/images/politico-billboard.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
-  sublinks: []
-  notes: null
-  last_checked: 2026-05-26
-- title: DW (Deutsche Welle)
-  url: https://dw.com
-  description: Germany's international broadcaster covering global news and
-    democracy with independent editorial standards.
-  topic: Geopolitics
-  category: Elections & Democracy
-  section: Analysis & journalism
-  tags:
-    - geopolitics
-    - news
-    - democracy
-    - international
-  audience: general
-  pricing: free
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=dw.com
-  sublinks: []
-  notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: NDI (National Democratic Institute)
   url: https://ndi.org
-  description: Non-profit supporting democratic institutions, elections, and civil
-    society development worldwide.
+  description: Nonprofit organization supporting elections, democratic institutions, political participation, and civil society programs worldwide.
   topic: Geopolitics
   category: Elections & Democracy
   section: Institutions
-  tags:
-    - geopolitics
-    - democracy
-    - civil-society
-    - elections
+  tags: [geopolitics, democracy, civil-society, elections]
   audience: researchers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ndi.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: ACE Electoral Knowledge Network
+  url: https://aceproject.org
+  description: Collaborative knowledge resource covering election administration, electoral systems, legal frameworks, and comparative electoral practice.
+  topic: Geopolitics
+  category: Elections & Democracy
+  section: References
+  tags: [geopolitics, elections, administration, reference]
+  audience: researchers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=aceproject.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: IFES Election Guide
+  url: https://www.electionguide.org
+  description: Database of national elections, referendums, results, electoral systems, and political institutions around the world.
+  topic: Geopolitics
+  category: Elections & Democracy
+  section: Data & databases
+  tags: [geopolitics, elections, results, data]
+  audience: researchers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.electionguide.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

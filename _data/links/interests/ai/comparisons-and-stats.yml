@@ -1,340 +1,210 @@
 - title: Artificial Analysis
   url: https://artificialanalysis.ai
-  description: speed, price, quality across providers.
+  description: "Independent comparisons of model quality, price, latency, and output speed across major AI providers."
   topic: AI
   category: Comparisons & Stats
   section: Cross-model comparison / pricing
-  tags:
-    - ai
-    - comparisons-and-stats
-    - cross-model-comparison-pricing
-    - benchmarks
-    - leaderboards
-    - stats
+  tags: [ai, comparisons-and-stats, cross-model-comparison-pricing, benchmarks, leaderboards, stats]
   audience: builders
   pricing: unknown
-  logo: https://artificialanalysis.ai/opengraph-image.png?732728ccc2829321
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=artificialanalysis.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
-- title: OpenRouter rankings
+  notes: null
+  last_checked: 2026-07-27
+- title: OpenRouter Rankings
   url: https://openrouter.ai/rankings
-  description: real-world usage by app/model.
+  description: "Model and application rankings derived from aggregate usage on the OpenRouter inference marketplace."
   topic: AI
   category: Comparisons & Stats
   section: Cross-model comparison / pricing
-  tags:
-    - ai
-    - comparisons-and-stats
-    - cross-model-comparison-pricing
-    - benchmarks
-    - leaderboards
-    - stats
+  tags: [ai, comparisons-and-stats, cross-model-comparison-pricing, benchmarks, leaderboards, stats]
   audience: builders
   pricing: unknown
-  logo: https://openrouter.ai/dynamic-og?pathname=rankings&title=LLM+Rankings&description=LLM+rankings+and+AI+leaderboard+based+on+benchmarks+and+real+usage+data+from+millions+of+users.+See+which+AI+models+developers+actually+use.
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=openrouter.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: LLM Stats
   url: https://llm-stats.com
-  description: pricing + capability table.
+  description: "Filterable comparison of language-model pricing, context limits, benchmark results, and API characteristics."
   topic: AI
   category: Comparisons & Stats
   section: Cross-model comparison / pricing
-  tags:
-    - ai
-    - comparisons-and-stats
-    - cross-model-comparison-pricing
-    - benchmarks
-    - leaderboards
-    - stats
+  tags: [ai, comparisons-and-stats, cross-model-comparison-pricing, benchmarks, leaderboards, stats]
   audience: builders
   pricing: unknown
-  logo: https://llm-stats.com/og/main.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=llm-stats.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
-- title: LMArena (formerly Chatbot Arena)
-  url: https://lmarena.ai
-  description: human pairwise vote.
+  notes: null
+  last_checked: 2026-07-27
+- title: LMArena
+  url: https://arena.ai
+  description: "Crowdsourced model comparison platform using blinded, pairwise human preference votes to produce arena rankings."
   topic: AI
   category: Comparisons & Stats
   section: Capability leaderboards
-  tags:
-    - ai
-    - comparisons-and-stats
-    - capability-leaderboards
-    - benchmarks
-    - leaderboards
-    - stats
+  tags: [ai, comparisons-and-stats, capability-leaderboards, benchmarks, leaderboards, stats]
   audience: builders
   pricing: unknown
-  logo: https://indexable.arena.ai/routes/arena-preview--og-twitter--1200x630--v1.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=lmarena.ai
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=arena.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: LiveBench
   url: https://livebench.ai
-  description: contamination-resistant, frequent refresh.
+  description: "Frequently refreshed language-model benchmark designed to reduce contamination through newly released questions."
   topic: AI
   category: Comparisons & Stats
   section: Capability leaderboards
-  tags:
-    - ai
-    - comparisons-and-stats
-    - capability-leaderboards
-    - benchmarks
-    - leaderboards
-    - stats
+  tags: [ai, comparisons-and-stats, capability-leaderboards, benchmarks, leaderboards, stats]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=livebench.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Hugging Face Open LLM Leaderboard
   url: https://huggingface.co/open-llm-leaderboard
-  description: open weights only.
+  description: "Reproducible evaluation results and artifacts for comparing open language models across standardized tasks."
   topic: AI
   category: Comparisons & Stats
   section: Capability leaderboards
-  tags:
-    - ai
-    - comparisons-and-stats
-    - capability-leaderboards
-    - benchmarks
-    - leaderboards
-    - stats
-  audience: builders
-  pricing: unknown
-  logo: https://cdn-thumbnails.huggingface.co/social-thumbnails/open-llm-leaderboard.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
-- title: SEAL Leaderboards
-  url: https://scale.com/leaderboard
-  description: Scale AI private evals.
-  topic: AI
-  category: Comparisons & Stats
-  section: Capability leaderboards
-  tags:
-    - ai
-    - comparisons-and-stats
-    - capability-leaderboards
-    - benchmarks
-    - leaderboards
-    - stats
-  audience: builders
-  pricing: unknown
-  logo: https://labs.scale.com/og?title=AI%20Model%20Leaderboards%20%26%20Benchmarks&subtitle=Scale%20Labs&theme=light
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=scale.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
-- title: AlpacaEval
-  url: https://tatsu-lab.github.io/alpaca_eval
-  description: instruction-following auto-eval.
-  topic: AI
-  category: Comparisons & Stats
-  section: Capability leaderboards
-  tags:
-    - ai
-    - comparisons-and-stats
-    - capability-leaderboards
-    - benchmarks
-    - leaderboards
-    - stats
+  tags: [ai, comparisons-and-stats, capability-leaderboards, benchmarks, leaderboards, stats]
   audience: builders
   pricing: unknown
   logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=tatsu-lab.github.io
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
+- title: SEAL Leaderboards
+  url: https://scale.com/leaderboard
+  description: "Scale AI leaderboards based on expert-designed evaluations and private test sets for frontier models."
+  topic: AI
+  category: Comparisons & Stats
+  section: Capability leaderboards
+  tags: [ai, comparisons-and-stats, capability-leaderboards, benchmarks, leaderboards, stats]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=scale.com
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
 - title: SWE-bench
   url: https://www.swebench.com
-  description: real-world GitHub issue resolution.
+  description: "Benchmark and leaderboards measuring whether models can resolve real issues from software repositories."
   topic: AI
   category: Comparisons & Stats
   section: Coding-specific
-  tags:
-    - ai
-    - comparisons-and-stats
-    - coding-specific
-    - benchmarks
-    - leaderboards
-    - stats
+  tags: [ai, comparisons-and-stats, coding-specific, benchmarks, leaderboards, stats]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.swebench.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
-- title: Aider Polyglot leaderboard
+  notes: null
+  last_checked: 2026-07-27
+- title: Aider Polyglot Leaderboard
   url: https://aider.chat/docs/leaderboards
-  description: edit-format coding bench.
+  description: "Coding-model leaderboard based on repository edits across multiple programming languages using Aider."
   topic: AI
   category: Comparisons & Stats
   section: Coding-specific
-  tags:
-    - ai
-    - comparisons-and-stats
-    - coding-specific
-    - benchmarks
-    - leaderboards
-    - stats
+  tags: [ai, comparisons-and-stats, coding-specific, benchmarks, leaderboards, stats]
   audience: builders
   pricing: unknown
-  logo: https://aider.chat/assets/leaderboard.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=aider.chat
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: BigCodeBench
   url: https://bigcode-bench.github.io
-  description: BigCodeBench resource in Comparisons & Stats.
+  description: "Benchmark for practical code generation with diverse function-level tasks, tests, and detailed execution metrics."
   topic: AI
   category: Comparisons & Stats
   section: Coding-specific
-  tags:
-    - ai
-    - comparisons-and-stats
-    - coding-specific
-    - benchmarks
-    - leaderboards
-    - stats
+  tags: [ai, comparisons-and-stats, coding-specific, benchmarks, leaderboards, stats]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=bigcode-bench.github.io
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
-- title: ARC-AGI
+  notes: null
+  last_checked: 2026-07-27
+- title: ARC Prize
   url: https://arcprize.org
-  description: abstraction/reasoning.
+  description: "Research competition and leaderboard built around ARC-AGI tasks for testing abstract reasoning and generalization."
   topic: AI
   category: Comparisons & Stats
   section: Specialized benchmarks
-  tags:
-    - ai
-    - comparisons-and-stats
-    - specialized-benchmarks
-    - benchmarks
-    - leaderboards
-    - stats
+  tags: [ai, comparisons-and-stats, specialized-benchmarks, benchmarks, leaderboards, stats]
   audience: builders
   pricing: unknown
-  logo: https://arcprize.org/media/images/og-image-default.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=arcprize.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
-- title: Vellum LLM leaderboard
-  url: https://www.vellum.ai/llm-leaderboard
-  description: aggregated.
-  topic: AI
-  category: Comparisons & Stats
-  section: Specialized benchmarks
-  tags:
-    - ai
-    - comparisons-and-stats
-    - specialized-benchmarks
-    - benchmarks
-    - leaderboards
-    - stats
-  audience: builders
-  pricing: unknown
-  logo: https://www.vellum.ai/api/og?title=LLM%20Leaderboard%202026%20%E2%80%94%20Compare%20Top%20AI%20Models
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.vellum.ai
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Epoch AI
   url: https://epoch.ai
-  description: compute, training-run, scaling data.
+  description: "Research and datasets on notable AI models, training compute, hardware, algorithmic progress, and scaling trends."
   topic: AI
   category: Comparisons & Stats
   section: Industry / macro stats
-  tags:
-    - ai
-    - comparisons-and-stats
-    - industry-macro-stats
-    - benchmarks
-    - leaderboards
-    - stats
+  tags: [ai, comparisons-and-stats, industry-macro-stats, benchmarks, leaderboards, stats]
   audience: builders
   pricing: unknown
-  logo: https://epoch.ai/assets/images/thumbnails/general.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=epoch.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Stanford AI Index
   url: https://aiindex.stanford.edu
-  description: annual report, very comprehensive.
+  description: "Annual evidence-based report tracking AI research, technical performance, investment, adoption, education, and policy."
   topic: AI
   category: Comparisons & Stats
   section: Industry / macro stats
-  tags:
-    - ai
-    - comparisons-and-stats
-    - industry-macro-stats
-    - benchmarks
-    - leaderboards
-    - stats
+  tags: [ai, comparisons-and-stats, industry-macro-stats, benchmarks, leaderboards, stats]
   audience: builders
   pricing: unknown
-  logo: https://hai.stanford.edu/assets/images/hai-ai-index-thumbnail.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=aiindex.stanford.edu
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: State of AI Report
   url: https://www.stateof.ai
-  description: Nathan Benaich's annual deck.
+  description: "Annual review of major developments in AI research, industry, politics, safety, and investment."
   topic: AI
   category: Comparisons & Stats
   section: Industry / macro stats
-  tags:
-    - ai
-    - comparisons-and-stats
-    - industry-macro-stats
-    - benchmarks
-    - leaderboards
-    - stats
+  tags: [ai, comparisons-and-stats, industry-macro-stats, benchmarks, leaderboards, stats]
   audience: builders
   pricing: unknown
-  logo: https://www.stateof.ai/2025-report-live.png?cache=bust
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.stateof.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
-- title: Our World in Data — AI
+  notes: null
+  last_checked: 2026-07-27
+- title: Our World in Data — Artificial Intelligence
   url: https://ourworldindata.org/artificial-intelligence
-  description: long-run charts.
+  description: "Research and interactive charts on AI capabilities, adoption, investment, compute, public opinion, and societal effects."
   topic: AI
   category: Comparisons & Stats
   section: Industry / macro stats
-  tags:
-    - ai
-    - comparisons-and-stats
-    - industry-macro-stats
-    - benchmarks
-    - leaderboards
-    - stats
+  tags: [ai, comparisons-and-stats, industry-macro-stats, benchmarks, leaderboards, stats]
   audience: builders
   pricing: unknown
-  logo: https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/bd76d67a-a5f3-4b21-8a94-d67b5459e200/public
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ourworldindata.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Comparisons & Stats.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27

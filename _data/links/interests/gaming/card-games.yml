@@ -7,18 +7,24 @@
   tags: [gaming, card-games, traditional, rules]
   audience: general
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=pagat.com
+  sublinks: []
+  notes: null
   last_checked: 2026-07-27
 - title: Scryfall
   url: https://scryfall.com
-  description: "Fast, comprehensive Magic: The Gathering card search with advanced queries, rulings, prices, and APIs."
+  description: 'Fast, comprehensive Magic: The Gathering card search with advanced queries, rulings, prices, and APIs.'
   topic: Gaming
   category: Card Games
   section: Card databases
   tags: [gaming, card-games, magic, database]
   audience: general
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=scryfall.com
+  sublinks: []
+  notes: null
   last_checked: 2026-07-27
 - title: Gatherer
   url: https://gatherer.wizards.com
@@ -29,7 +35,10 @@
   tags: [gaming, card-games, magic, official]
   audience: general
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=gatherer.wizards.com
+  sublinks: []
+  notes: null
   last_checked: 2026-07-27
 - title: MTGGoldfish
   url: https://www.mtggoldfish.com
@@ -40,7 +49,10 @@
   tags: [gaming, card-games, magic, metagame]
   audience: general
   pricing: freemium
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=mtggoldfish.com
+  sublinks: []
+  notes: null
   last_checked: 2026-07-27
 - title: Limitless TCG
   url: https://limitlesstcg.com
@@ -51,7 +63,10 @@
   tags: [gaming, card-games, pokemon, tournaments]
   audience: general
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=limitlesstcg.com
+  sublinks: []
+  notes: null
   last_checked: 2026-07-27
 - title: NetrunnerDB
   url: https://netrunnerdb.com
@@ -62,27 +77,64 @@
   tags: [gaming, card-games, netrunner, deck-builder]
   audience: general
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=netrunnerdb.com
+  sublinks: []
+  notes: null
   last_checked: 2026-07-27
 - title: ArkhamDB
   url: https://arkhamdb.com
-  description: "Card database, investigator deck builder, and campaign reference for Arkham Horror: The Card Game."
+  description: 'Card database, investigator deck builder, and campaign reference for Arkham Horror: The Card Game.'
   topic: Gaming
   category: Card Games
   section: Deck building
   tags: [gaming, card-games, arkham-horror, deck-builder]
   audience: general
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=arkhamdb.com
+  sublinks: []
+  notes: null
   last_checked: 2026-07-27
-- title: Card Game Database
-  url: https://www.cardgamedb.com
-  description: Deck builders, card databases, strategy articles, and forums for living and collectible card games.
+- title: Pokémon TCG Card Database
+  url: https://www.pokemon.com/us/pokemon-tcg/pokemon-cards/
+  description: Official searchable Pokémon Trading Card Game database with card text, expansions, formats, rarity, and illustrator data.
   topic: Gaming
   category: Card Games
-  section: Databases & communities
-  tags: [gaming, card-games, deck-builder, community]
+  section: Card databases
+  tags: [gaming, card-games, pokemon, official]
   audience: general
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=cardgamedb.com
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=pokemon.com
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: Yu-Gi-Oh! Card Database
+  url: https://www.db.yugioh-card.com/yugiohdb/
+  description: Official Yu-Gi-Oh! database for card searches, product lists, deck management, rulings information, and tournament legality.
+  topic: Gaming
+  category: Card Games
+  section: Card databases
+  tags: [gaming, card-games, yu-gi-oh, official]
+  audience: general
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=db.yugioh-card.com
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: The World of Playing Cards
+  url: https://www.wopc.co.uk
+  description: Illustrated reference and archive covering playing-card history, regional patterns, makers, artists, and collecting.
+  topic: Gaming
+  category: Card Games
+  section: History & reference
+  tags: [gaming, card-games, playing-cards, history]
+  audience: enthusiasts
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=wopc.co.uk
+  sublinks: []
+  notes: null
   last_checked: 2026-07-27

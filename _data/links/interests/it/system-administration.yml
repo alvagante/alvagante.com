@@ -1,190 +1,266 @@
 - title: Arch Wiki
   url: https://wiki.archlinux.org
-  description: The most comprehensive Linux reference wiki — accurate, detailed,
-    and useful beyond Arch Linux.
+  description: The most comprehensive Linux reference wiki — accurate, detailed, and useful
+    beyond Arch Linux.
   topic: IT
   category: System Administration
   section: References & guides
   tags:
-    - it
-    - linux
-    - sysadmin
-    - reference
+  - it
+  - linux
+  - sysadmin
+  - reference
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=wiki.archlinux.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: man7.org
   url: https://man7.org
-  description: Online Linux manual pages — comprehensive reference for system
-    calls, commands, and libraries.
+  description: Online Linux manual pages — comprehensive reference for system calls, commands,
+    and libraries.
   topic: IT
   category: System Administration
   section: References & guides
   tags:
-    - it
-    - linux
-    - man-pages
-    - reference
+  - it
+  - linux
+  - man-pages
+  - reference
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=man7.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: tldr pages
   url: https://tldr.sh
-  description: Community-maintained simplified man pages with practical examples
-    for common command-line tools.
+  description: Community-maintained simplified man pages with practical examples for common
+    command-line tools.
   topic: IT
   category: System Administration
   section: References & guides
   tags:
-    - it
-    - cli
-    - reference
-    - cheatsheet
+  - it
+  - cli
+  - reference
+  - cheatsheet
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=tldr.sh
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: ExplainShell
   url: https://explainshell.com
-  description: Parses any shell command and visually explains each argument and
-    flag from the relevant man pages.
+  description: Parses any shell command and visually explains each argument and flag from
+    the relevant man pages.
   topic: IT
   category: System Administration
   section: References & guides
   tags:
-    - it
-    - bash
-    - shell
-    - learning
+  - it
+  - bash
+  - shell
+  - learning
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=explainshell.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: ShellCheck
   url: https://shellcheck.net
-  description: Static analysis tool for shell scripts that detects common bugs,
-    pitfalls, and portability issues.
+  description: Static analysis tool for shell scripts that detects common bugs, pitfalls,
+    and portability issues.
   topic: IT
   category: System Administration
   section: Tools
   tags:
-    - it
-    - bash
-    - shell
-    - linting
+  - it
+  - bash
+  - shell
+  - linting
   audience: developers
   pricing: free
-  logo: shellcheck.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=shellcheck.net
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Bash Guide (Wooledge)
   url: https://mywiki.wooledge.org/BashGuide
-  description: Thorough, opinionated guide to writing correct Bash scripts,
-    covering quoting, arrays, and common pitfalls.
+  description: Thorough, opinionated guide to writing correct Bash scripts, covering quoting,
+    arrays, and common pitfalls.
   topic: IT
   category: System Administration
   section: References & guides
   tags:
-    - it
-    - bash
-    - scripting
-    - guide
+  - it
+  - bash
+  - scripting
+  - guide
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=mywiki.wooledge.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Systemd
   url: https://systemd.io
-  description: Init system and service manager for Linux with comprehensive
-    documentation for services, timers, and units.
+  description: Init system and service manager for Linux with comprehensive documentation
+    for services, timers, and units.
   topic: IT
   category: System Administration
   section: Core Linux systems
   tags:
-    - it
-    - linux
-    - systemd
-    - services
+  - it
+  - linux
+  - systemd
+  - services
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=systemd.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: DigitalOcean Community Tutorials
   url: https://digitalocean.com/community/tutorials
-  description: High-quality tutorials covering Linux server administration,
-    databases, web servers, and security hardening.
+  description: High-quality tutorials covering Linux server administration, databases, web
+    servers, and security hardening.
   topic: IT
   category: System Administration
   section: References & guides
   tags:
-    - it
-    - linux
-    - tutorials
-    - server
+  - it
+  - linux
+  - tutorials
+  - server
   audience: developers
   pricing: free
-  logo: https://www.digitalocean.com/_next/static/media/social-share-default.e8530e9e.jpeg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=digitalocean.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: SSH Academy
   url: https://ssh.com/academy
-  description: SSH.com's reference guide covering SSH protocol, key management,
-    tunnelling, and secure file transfer.
+  description: SSH.com's reference guide covering SSH protocol, key management, tunnelling,
+    and secure file transfer.
   topic: IT
   category: System Administration
   section: Core Linux systems
   tags:
-    - it
-    - ssh
-    - security
-    - remote-access
+  - it
+  - ssh
+  - security
+  - remote-access
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ssh.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: cron.help
   url: https://cron.help
-  description: Plain-English cron expression builder and validator with examples
-    for common scheduling patterns.
+  description: Plain-English cron expression builder and validator with examples for common
+    scheduling patterns.
   topic: IT
   category: System Administration
   section: Tools
   tags:
-    - it
-    - cron
-    - scheduling
-    - linux
+  - it
+  - cron
+  - scheduling
+  - linux
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=cron.help
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: Debian Administrator's Handbook
+  url: https://debian-handbook.info/
+  description: Free reference covering Debian installation, package management, networking,
+    services, and administration.
+  topic: IT
+  category: System Administration
+  section: References & guides
+  tags:
+  - it
+  - debian
+  - linux
+  - sysadmin
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=debian-handbook.info
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Ubuntu Server Documentation
+  url: https://documentation.ubuntu.com/server/
+  description: Official Ubuntu Server guides for installation, networking, storage, security,
+    and common services.
+  topic: IT
+  category: System Administration
+  section: References & guides
+  tags:
+  - it
+  - ubuntu
+  - linux
+  - server
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=documentation.ubuntu.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: FreeBSD Handbook
+  url: https://docs.freebsd.org/en/books/handbook/
+  description: Official handbook for installing, configuring, securing, and administering
+    FreeBSD systems.
+  topic: IT
+  category: System Administration
+  section: References & guides
+  tags:
+  - it
+  - freebsd
+  - unix
+  - sysadmin
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.freebsd.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Red Hat Product Documentation
+  url: https://docs.redhat.com/
+  description: Official administration and deployment documentation for Red Hat Enterprise
+    Linux and related infrastructure products.
+  topic: IT
+  category: System Administration
+  section: References & guides
+  tags:
+  - it
+  - redhat
+  - linux
+  - enterprise
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.redhat.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

@@ -7,41 +7,53 @@
   tags: [economy, development, inequality, united-nations]
   audience: researchers
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=hdr.undp.org
-  last_checked: 2026-07-27
-- title: UN Trade and Development
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: UN Trade and Development (UNCTAD)
   url: https://unctad.org
-  description: Research and statistics on trade, investment, debt, technology, and development in emerging economies.
+  description: United Nations research, statistics, and policy resources on trade, investment, finance, technology, and development.
   topic: Economy
   category: Development Economics
-  section: Institutions
-  tags: [economy, development, trade, investment]
+  section: International institutions
+  tags: [economy, development, trade, united-nations]
   audience: researchers
   pricing: free
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=unctad.org
-  last_checked: 2026-07-27
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: Asian Development Bank
   url: https://www.adb.org
-  description: Development indicators, regional economic outlooks, project data, and policy research across Asia and the Pacific.
+  description: Development indicators, regional economic outlooks, project data, and policy research for Asia and the Pacific.
   topic: Economy
   category: Development Economics
   section: Development banks
   tags: [economy, development, asia, policy]
   audience: researchers
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=adb.org
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.adb.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: African Development Bank
   url: https://www.afdb.org
-  description: African economic outlooks, development data, policy research, and information on regional investment projects.
+  description: African economic outlooks, development data, policy research, and information on regional financing and projects.
   topic: Economy
   category: Development Economics
   section: Development banks
   tags: [economy, development, africa, policy]
   audience: researchers
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=afdb.org
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.afdb.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: Center for Global Development
   url: https://www.cgdev.org
   description: Independent research on development finance, global health, migration, climate, poverty, and aid effectiveness.
@@ -51,19 +63,25 @@
   tags: [economy, development, policy, research]
   audience: researchers
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=cgdev.org
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.cgdev.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: J-PAL
   url: https://www.povertyactionlab.org
-  description: Evidence and randomized-evaluation resources on poverty, education, health, labor, finance, and public policy.
+  description: Evidence and randomized evaluation resources on poverty, education, health, labor, finance, and public policy.
   topic: Economy
   category: Development Economics
   section: Evidence & evaluation
   tags: [economy, development, poverty, experiments]
   audience: researchers
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=povertyactionlab.org
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.povertyactionlab.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: Development Economics Network Berlin
   url: https://www.development-economics.org
   description: Research community sharing seminars, papers, jobs, and resources for development economists.
@@ -73,8 +91,11 @@
   tags: [economy, development, research, community]
   audience: researchers
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=development-economics.org
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.development-economics.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
 - title: World Institute for Development Economics Research
   url: https://www.wider.unu.edu
   description: United Nations University research on structural transformation, inequality, taxation, institutions, and development.
@@ -84,5 +105,36 @@
   tags: [economy, development, inequality, research]
   audience: researchers
   pricing: free
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=wider.unu.edu
-  last_checked: 2026-07-27
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.wider.unu.edu
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: World Bank Development Research Group
+  url: https://www.worldbank.org/en/research
+  description: World Bank research on development policy, poverty, growth, trade, finance, governance, and public services.
+  topic: Economy
+  category: Development Economics
+  section: Research institutes
+  tags: [economy, development, research, world-bank]
+  audience: researchers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.worldbank.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Inter-American Development Bank
+  url: https://www.iadb.org/en
+  description: Development financing, project information, data, and policy research focused on Latin America and the Caribbean.
+  topic: Economy
+  category: Development Economics
+  section: Development banks
+  tags: [economy, development, latin-america, policy]
+  audience: researchers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.iadb.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

@@ -1,194 +1,232 @@
-- title: Wireshark
-  url: https://wireshark.org
-  description: The world's most widely-used network protocol analyser for packet
-    capture and deep inspection.
-  topic: Security
-  category: Network Security
-  section: Packet analysis
-  tags:
-    - security
-    - network
-    - packet-capture
-    - protocol-analysis
-  audience: security-professionals
-  pricing: free
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=wireshark.org
-  sublinks: []
-  notes: null
-  last_checked: 2026-05-26
 - title: Suricata
   url: https://suricata.io
-  description: High-performance, open-source network IDS, IPS, and network
-    security monitoring engine.
+  description: High-performance, open-source network IDS, IPS, and network security monitoring
+    engine.
   topic: Security
   category: Network Security
   section: IDS & IPS
   tags:
-    - security
-    - network
-    - ids
-    - ips
+  - security
+  - network
+  - ids
+  - ips
   audience: security-professionals
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=suricata.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Snort
   url: https://snort.org
-  description: Pioneering open-source network intrusion detection and prevention
-    system maintained by Cisco.
+  description: Pioneering open-source network intrusion detection and prevention system maintained
+    by Cisco.
   topic: Security
   category: Network Security
   section: IDS & IPS
   tags:
-    - security
-    - network
-    - ids
-    - cisco
+  - security
+  - network
+  - ids
+  - cisco
   audience: security-professionals
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=snort.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: pfSense
   url: https://pfsense.org
-  description: Open-source firewall and router platform based on FreeBSD with
-    enterprise-grade features.
+  description: Open-source firewall and router platform based on FreeBSD with enterprise-grade
+    features.
   topic: Security
   category: Network Security
   section: Firewalls & perimeter
   tags:
-    - security
-    - firewall
-    - router
-    - freebsd
+  - security
+  - firewall
+  - router
+  - freebsd
   audience: security-professionals
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=pfsense.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: OPNsense
   url: https://opnsense.org
-  description: FreeBSD-based open-source firewall and routing platform with modern
-    UI and active development community.
+  description: FreeBSD-based open-source firewall and routing platform with modern UI and
+    active development community.
   topic: Security
   category: Network Security
   section: Firewalls & perimeter
   tags:
-    - security
-    - firewall
-    - router
-    - open-source
+  - security
+  - firewall
+  - router
+  - open-source
   audience: security-professionals
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=opnsense.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
-- title: Pi-hole
-  url: https://pi-hole.net
-  description: Network-wide DNS sinkhole that blocks ads and tracking domains
-    before they reach any device on the LAN.
-  topic: Security
-  category: Network Security
-  section: DNS & filtering
-  tags:
-    - security
-    - dns
-    - ad-blocking
-    - privacy
-  audience: general
-  pricing: free
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=pi-hole.net
-  sublinks: []
-  notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: MXToolbox
   url: https://mxtoolbox.com
-  description: Suite of DNS, MX, DMARC, SPF, and blacklist lookup tools for
-    diagnosing email and domain security.
+  description: Suite of DNS, MX, DMARC, SPF, and blacklist lookup tools for diagnosing email
+    and domain security.
   topic: Security
   category: Network Security
   section: DNS & filtering
   tags:
-    - security
-    - dns
-    - email
-    - dmarc
+  - security
+  - dns
+  - email
+  - dmarc
   audience: security-professionals
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=mxtoolbox.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: SSL Labs
   url: https://ssllabs.com
-  description: Qualys free tool for deep analysis of SSL/TLS server
-    configurations, graded A to F.
+  description: Qualys free tool for deep analysis of SSL/TLS server configurations, graded
+    A to F.
   topic: Security
   category: Network Security
   section: TLS & certificates
   tags:
-    - security
-    - tls
-    - ssl
-    - certificates
+  - security
+  - tls
+  - ssl
+  - certificates
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ssllabs.com
   sublinks:
-    - title: SSL Server Test
-      url: https://www.ssllabs.com/ssltest/
+  - title: SSL Server Test
+    url: https://www.ssllabs.com/ssltest/
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Cloudflare
   url: https://cloudflare.com
-  description: Global network providing DDoS protection, WAF, CDN, Zero Trust
-    access, and DNS security at scale.
+  description: Global network providing DDoS protection, WAF, CDN, Zero Trust access, and
+    DNS security at scale.
   topic: Security
   category: Network Security
   section: Firewalls & perimeter
   tags:
-    - security
-    - ddos
-    - waf
-    - cdn
+  - security
+  - ddos
+  - waf
+  - cdn
   audience: developers
   pricing: freemium
-  logo: https://www.cloudflare.com/preview.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=cloudflare.com
   sublinks:
-    - title: Cloudflare One (Zero Trust)
-      url: https://www.cloudflare.com/zero-trust/
+  - title: Cloudflare One (Zero Trust)
+    url: https://www.cloudflare.com/zero-trust/
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Netbird
   url: https://netbird.io
-  description: Open-source, WireGuard-based overlay network for zero-config secure
-    peer-to-peer connectivity.
+  description: Open-source, WireGuard-based overlay network for zero-config secure peer-to-peer
+    connectivity.
   topic: Security
   category: Network Security
   section: VPN & secure connectivity
   tags:
-    - security
-    - vpn
-    - wireguard
-    - zero-trust
+  - security
+  - vpn
+  - wireguard
+  - zero-trust
   audience: developers
   pricing: freemium
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=netbird.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: WireGuard
+  url: https://www.wireguard.com/
+  description: Modern VPN protocol and open-source implementation using a compact cryptographic
+    design.
+  topic: Security
+  category: Network Security
+  section: VPN & secure connectivity
+  tags:
+  - security
+  - vpn
+  - wireguard
+  - network
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.wireguard.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: NLnet Labs Unbound
+  url: https://nlnetlabs.nl/projects/unbound/about/
+  description: Validating, recursive, caching DNS resolver with DNSSEC support and privacy-focused
+    configuration options.
+  topic: Security
+  category: Network Security
+  section: DNS & filtering
+  tags:
+  - security
+  - dns
+  - dnssec
+  - resolver
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=nlnetlabs.nl
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: MANRS
+  url: https://www.manrs.org/
+  description: Mutually Agreed Norms for Routing Security provides concrete actions for safer
+    internet routing and route validation.
+  topic: Security
+  category: Network Security
+  section: Routing security
+  tags:
+  - security
+  - routing
+  - bgp
+  - rpki
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.manrs.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: DNSViz
+  url: https://dnsviz.net/
+  description: DNSSEC analysis tool that visualizes delegation and validation problems in
+    DNS zones.
+  topic: Security
+  category: Network Security
+  section: DNS & filtering
+  tags:
+  - security
+  - dns
+  - dnssec
+  - analysis
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=dnsviz.net
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

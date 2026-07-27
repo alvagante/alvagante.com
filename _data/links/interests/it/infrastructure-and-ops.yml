@@ -1,177 +1,234 @@
 - title: Terraform
   url: https://terraform.io
-  description: HashiCorp's infrastructure-as-code tool for provisioning and
-    managing cloud resources across 1,500+ providers.
+  description: HashiCorp's infrastructure-as-code tool for provisioning and managing cloud
+    resources across 1,500+ providers.
   topic: IT
   category: Infrastructure & Ops
   section: Infrastructure as code
   tags:
-    - it
-    - iac
-    - terraform
-    - hashicorp
+  - it
+  - iac
+  - terraform
+  - hashicorp
   audience: developers
   pricing: freemium
-  logo: https://developer.hashicorp.com/og-image/terraform.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=terraform.io
   sublinks:
-    - title: Registry
-      url: https://registry.terraform.io
+  - title: Registry
+    url: https://registry.terraform.io
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: OpenTofu
   url: https://opentofu.org
-  description: Open-source, community-driven fork of Terraform under the Linux
-    Foundation, API-compatible with Terraform.
+  description: Open-source, community-driven fork of Terraform under the Linux Foundation,
+    API-compatible with Terraform.
   topic: IT
   category: Infrastructure & Ops
   section: Infrastructure as code
   tags:
-    - it
-    - iac
-    - opentofu
-    - open-source
+  - it
+  - iac
+  - opentofu
+  - open-source
   audience: developers
   pricing: free
-  logo: https://opentofu.org/img/og.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=opentofu.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Ansible
   url: https://ansible.com
-  description: Red Hat's agentless automation platform for configuration
-    management, application deployment, and orchestration.
+  description: Red Hat's agentless automation platform for configuration management, application
+    deployment, and orchestration.
   topic: IT
   category: Infrastructure & Ops
   section: Configuration management
   tags:
-    - it
-    - ansible
-    - configuration-management
-    - automation
+  - it
+  - ansible
+  - configuration-management
+  - automation
   audience: developers
   pricing: freemium
-  logo: https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ansible.com
   sublinks:
-    - title: Ansible Galaxy (roles)
-      url: https://galaxy.ansible.com
+  - title: Ansible Galaxy (roles)
+    url: https://galaxy.ansible.com
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Pulumi
   url: https://pulumi.com
-  description: Infrastructure as code using general-purpose languages (Python,
-    TypeScript, Go) rather than DSLs.
+  description: Infrastructure as code using general-purpose languages (Python, TypeScript,
+    Go) rather than DSLs.
   topic: IT
   category: Infrastructure & Ops
   section: Infrastructure as code
   tags:
-    - it
-    - iac
-    - pulumi
-    - cloud
+  - it
+  - iac
+  - pulumi
+  - cloud
   audience: developers
   pricing: freemium
-  logo: https://www.pulumi.com/images/home/home-meta.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=pulumi.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: NixOS
   url: https://nixos.org
-  description: Linux distribution built on the Nix package manager enabling
-    reproducible, declarative system configuration.
+  description: Linux distribution built on the Nix package manager enabling reproducible,
+    declarative system configuration.
   topic: IT
   category: Infrastructure & Ops
   section: Configuration management
   tags:
-    - it
-    - nix
-    - nixos
-    - reproducible
+  - it
+  - nix
+  - nixos
+  - reproducible
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=nixos.org
   sublinks:
-    - title: Nix packages
-      url: https://search.nixos.org/packages
+  - title: Nix packages
+    url: https://search.nixos.org/packages
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Crossplane
   url: https://crossplane.io
-  description: CNCF project extending Kubernetes to manage cloud infrastructure as
-    Kubernetes custom resources.
+  description: CNCF project extending Kubernetes to manage cloud infrastructure as Kubernetes
+    custom resources.
   topic: IT
   category: Infrastructure & Ops
   section: Infrastructure as code
   tags:
-    - it
-    - kubernetes
-    - iac
-    - cloud-native
+  - it
+  - kubernetes
+  - iac
+  - cloud-native
   audience: developers
   pricing: free
-  logo: /og-images/crossplane-og.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=crossplane.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
-- title: HashiCorp
-  url: https://hashicorp.com
-  description: Suite of infrastructure automation tools — Terraform, Vault,
-    Consul, Packer, Nomad — for any cloud.
-  topic: IT
-  category: Infrastructure & Ops
-  section: Tooling suites
-  tags:
-    - it
-    - hashicorp
-    - infrastructure
-    - automation
-  audience: developers
-  pricing: freemium
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=hashicorp.com
-  sublinks: []
-  notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Packer
   url: https://packer.io
-  description: HashiCorp tool for building identical machine images across
-    multiple platforms from a single configuration.
+  description: HashiCorp tool for building identical machine images across multiple platforms
+    from a single configuration.
   topic: IT
   category: Infrastructure & Ops
   section: Infrastructure as code
   tags:
-    - it
-    - packer
-    - images
-    - hashicorp
+  - it
+  - packer
+  - images
+  - hashicorp
   audience: developers
   pricing: free
-  logo: https://developer.hashicorp.com/og-image/packer.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=packer.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Salt Project
   url: https://saltproject.io
-  description: Event-driven infrastructure automation and configuration management
-    tool for large-scale systems.
+  description: Event-driven infrastructure automation and configuration management tool for
+    large-scale systems.
   topic: IT
   category: Infrastructure & Ops
   section: Configuration management
   tags:
-    - it
-    - salt
-    - configuration-management
-    - automation
+  - it
+  - salt
+  - configuration-management
+  - automation
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=saltproject.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: cloud-init
+  url: https://cloud-init.io/
+  description: Cross-platform standard and tool for initializing cloud instances from provider
+    metadata and user data.
+  topic: IT
+  category: Infrastructure & Ops
+  section: Configuration management
+  tags:
+  - it
+  - cloud
+  - provisioning
+  - automation
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cloud-init.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Vagrant
+  url: https://developer.hashicorp.com/vagrant
+  description: Official documentation for defining and managing reproducible virtual-machine
+    development environments.
+  topic: IT
+  category: Infrastructure & Ops
+  section: Infrastructure as code
+  tags:
+  - it
+  - virtual-machines
+  - development
+  - hashicorp
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=developer.hashicorp.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Puppet Documentation
+  url: https://www.puppet.com/docs/puppet/latest/puppet_index.html
+  description: Official documentation for Puppet declarative configuration management and
+    infrastructure automation.
+  topic: IT
+  category: Infrastructure & Ops
+  section: Configuration management
+  tags:
+  - it
+  - puppet
+  - configuration-management
+  - automation
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.puppet.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Chef Infra Documentation
+  url: https://docs.chef.io/
+  description: Official documentation for Chef Infra configuration management, resources,
+    cookbooks, and clients.
+  topic: IT
+  category: Infrastructure & Ops
+  section: Configuration management
+  tags:
+  - it
+  - chef
+  - configuration-management
+  - automation
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.chef.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

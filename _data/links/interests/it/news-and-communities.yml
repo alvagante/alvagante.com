@@ -1,173 +1,211 @@
 - title: Hacker News
   url: https://news.ycombinator.com
-  description: Y Combinator's technology and startup discussion board —
-    fast-moving, high signal, from devs and founders.
+  description: Y Combinator's technology and startup discussion board — fast-moving, high
+    signal, from devs and founders.
   topic: IT
   category: News & Communities
   section: Communities
   tags:
-    - it
-    - news
-    - community
-    - discussion
+  - it
+  - news
+  - community
+  - discussion
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=news.ycombinator.com
   sublinks:
-    - title: RSS
-      url: https://news.ycombinator.com/rss
+  - title: RSS
+    url: https://news.ycombinator.com/rss
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Lobsters
   url: https://lobste.rs
-  description: Technology-focused link aggregator with invitation-only membership
-    and tagging — higher signal-to-noise than HN.
+  description: Technology-focused link aggregator with invitation-only membership and tagging
+    — higher signal-to-noise than HN.
   topic: IT
   category: News & Communities
   section: Communities
   tags:
-    - it
-    - news
-    - community
-    - curated
+  - it
+  - news
+  - community
+  - curated
   audience: developers
   pricing: free
-  logo: https://lobste.rs/touch-icon-144.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: The Register
   url: https://theregister.com
-  description: British tech news site with sharp, sceptical commentary on
-    industry, security, and enterprise technology.
+  description: British tech news site with sharp, sceptical commentary on industry, security,
+    and enterprise technology.
   topic: IT
   category: News & Communities
   section: News
   tags:
-    - it
-    - news
-    - enterprise
-    - commentary
+  - it
+  - news
+  - enterprise
+  - commentary
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=theregister.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: InfoQ
   url: https://infoq.com
-  description: Practitioner-focused coverage of software architecture, engineering
-    culture, and emerging technology trends.
+  description: Practitioner-focused coverage of software architecture, engineering culture,
+    and emerging technology trends.
   topic: IT
   category: News & Communities
   section: News
   tags:
-    - it
-    - news
-    - architecture
-    - engineering
+  - it
+  - news
+  - architecture
+  - engineering
   audience: developers
   pricing: free
-  logo: https://cdn.infoq.com/statics_s2_20260519083042/styles/static/images/logo/logo-big.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: TLDR Newsletter
   url: https://tldr.tech
-  description: Daily email digest of the most interesting tech, programming, and
-    AI news — 5-minute read format.
+  description: Daily email digest of the most interesting tech, programming, and AI news —
+    5-minute read format.
   topic: IT
   category: News & Communities
   section: Newsletters
   tags:
-    - it
-    - newsletter
-    - daily
-    - digest
+  - it
+  - newsletter
+  - daily
+  - digest
   audience: developers
   pricing: free
-  logo: https://tldr.tech/logo-jpg.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=tldr.tech
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: The Changelog
   url: https://changelog.com
-  description: Podcasts, newsletters, and articles for developers covering
-    open-source, software development, and tech culture.
+  description: Podcasts, newsletters, and articles for developers covering open-source, software
+    development, and tech culture.
   topic: IT
   category: News & Communities
   section: Podcasts & media
   tags:
-    - it
-    - podcast
-    - open-source
-    - community
+  - it
+  - podcast
+  - open-source
+  - community
   audience: developers
   pricing: free
-  logo: https://cdn.changelog.com/static/images/share/all-podcasts-7b45ddf7a9d413b02c326a4789827121.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=changelog.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: SRE Weekly
   url: https://sreweekly.com
-  description: Weekly newsletter curating the best SRE, reliability, and on-call
-    engineering content from around the web.
+  description: Weekly newsletter curating the best SRE, reliability, and on-call engineering
+    content from around the web.
   topic: IT
   category: News & Communities
   section: Newsletters
   tags:
-    - it
-    - sre
-    - reliability
-    - newsletter
+  - it
+  - sre
+  - reliability
+  - newsletter
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=sreweekly.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Stack Overflow
   url: https://stackoverflow.com
-  description: The world's largest Q&A platform for programming questions across
-    all languages and frameworks.
+  description: The world's largest Q&A platform for programming questions across all languages
+    and frameworks.
   topic: IT
   category: News & Communities
   section: Communities
   tags:
-    - it
-    - community
-    - qa
-    - programming
+  - it
+  - community
+  - qa
+  - programming
   audience: developers
   pricing: free
-  logo: https://stackoverflow.com/Content/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=0f0cab681579
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=stackoverflow.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
-- title: dev.to
-  url: https://dev.to
-  description: Community platform for developers sharing tutorials, career advice,
-    and technical articles.
+  last_checked: '2026-07-27'
+- title: LWN.net
+  url: https://lwn.net/
+  description: Independent publication covering the Linux kernel, free software, and open-source
+    development in technical depth.
+  topic: IT
+  category: News & Communities
+  section: News
+  tags:
+  - it
+  - linux
+  - open-source
+  - news
+  audience: developers
+  pricing: freemium
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=lwn.net
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: ACM Queue
+  url: https://queue.acm.org/
+  description: Practitioner magazine from ACM publishing long-form articles on software and
+    systems engineering.
+  topic: IT
+  category: News & Communities
+  section: News
+  tags:
+  - it
+  - software-engineering
+  - systems
+  - publication
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=queue.acm.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: USENIX
+  url: https://www.usenix.org/
+  description: Technical association publishing open systems research, conference proceedings,
+    and practitioner materials.
   topic: IT
   category: News & Communities
   section: Communities
   tags:
-    - it
-    - community
-    - blogging
-    - tutorials
+  - it
+  - systems
+  - research
+  - community
   audience: developers
   pricing: free
-  logo: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3otvb2z646ytpt1hl2rv.jpg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=dev.to
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.usenix.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'

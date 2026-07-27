@@ -1,1242 +1,336 @@
 - title: Hugging Face Datasets
   url: https://huggingface.co/datasets
-  description: de-facto registry; streaming, viewer, parquet shards.
+  description: Hosts versioned machine-learning datasets with searchable metadata, previews, and streaming access.
   topic: AI
   category: Datasets
   section: General-purpose hubs
-  tags:
-    - ai
-    - datasets
-    - general-purpose-hubs
-    - training-data
+  tags: [ai, datasets, general-purpose-hubs, training-data]
   audience: builders
   pricing: unknown
-  logo: https://huggingface.co/front/thumbnails/datasets.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Kaggle Datasets
   url: https://www.kaggle.com/datasets
-  description: strong on tabular + competition data.
+  description: Provides community datasets, notebooks, and competition data across tabular, vision, and language tasks.
   topic: AI
   category: Datasets
   section: General-purpose hubs
-  tags:
-    - ai
-    - datasets
-    - general-purpose-hubs
-    - training-data
+  tags: [ai, datasets, general-purpose-hubs, training-data]
   audience: builders
   pricing: unknown
-  logo: https://www.kaggle.com/static/images/logos/kaggle-logo-opengraph.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.kaggle.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Papers with Code — Datasets
-  url: https://paperswithcode.com/datasets
-  description: indexed by the papers that use them.
-  topic: AI
-  category: Datasets
-  section: General-purpose hubs
-  tags:
-    - ai
-    - datasets
-    - general-purpose-hubs
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://huggingface.co/front/thumbnails/trending-papers.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=paperswithcode.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Google Dataset Search
   url: https://datasetsearch.research.google.com
-  description: search across publishers worldwide.
+  description: Searches dataset metadata published by repositories, governments, universities, and other providers.
   topic: AI
   category: Datasets
   section: General-purpose hubs
-  tags:
-    - ai
-    - datasets
-    - general-purpose-hubs
-    - training-data
+  tags: [ai, datasets, general-purpose-hubs, training-data]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=datasetsearch.research.google.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: OpenML
   url: https://www.openml.org
-  description: tabular ML datasets + benchmark suites.
+  description: Open platform for sharing datasets, tasks, runs, and reproducible machine-learning benchmark suites.
   topic: AI
   category: Datasets
   section: General-purpose hubs
-  tags:
-    - ai
-    - datasets
-    - general-purpose-hubs
-    - training-data
+  tags: [ai, datasets, general-purpose-hubs, training-data]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.openml.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: UCI ML Repository
+  notes: null
+  last_checked: 2026-07-27
+- title: UCI Machine Learning Repository
   url: https://archive.ics.uci.edu
-  description: the classic; still hosts canonical benchmarks.
+  description: Long-running academic repository of canonical datasets for classification, regression, and clustering.
   topic: AI
   category: Datasets
   section: General-purpose hubs
-  tags:
-    - ai
-    - datasets
-    - general-purpose-hubs
-    - training-data
+  tags: [ai, datasets, general-purpose-hubs, training-data]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=archive.ics.uci.edu
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: AWS Open Data Registry
-  url: https://registry.opendata.aws
-  description: petabyte-scale science/geo data on S3.
-  topic: AI
-  category: Datasets
-  section: General-purpose hubs
-  tags:
-    - ai
-    - datasets
-    - general-purpose-hubs
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=registry.opendata.aws
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Zenodo
-  url: https://zenodo.org
-  description: CERN-hosted; every upload gets a DOI.
-  topic: AI
-  category: Datasets
-  section: General-purpose hubs
-  tags:
-    - ai
-    - datasets
-    - general-purpose-hubs
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=zenodo.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Common Crawl
   url: https://commoncrawl.org
-  description: petabyte-scale web crawl, raw material behind most LLMs.
+  description: Maintains openly accessible petabyte-scale web crawl archives used for search and language-model research.
   topic: AI
   category: Datasets
   section: Text / language
-  tags:
-    - ai
-    - datasets
-    - text-language
-    - training-data
+  tags: [ai, datasets, text-language, training-data]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=commoncrawl.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: FineWeb / FineWeb-Edu
+  notes: null
+  last_checked: 2026-07-27
+- title: FineWeb
   url: https://huggingface.co/datasets/HuggingFaceFW/fineweb
-  description: HF's filtered Common Crawl subsets, current SOTA pretraining mix.
+  description: Large deduplicated and filtered English web corpus derived from Common Crawl for language-model pretraining.
   topic: AI
   category: Datasets
   section: Text / language
-  tags:
-    - ai
-    - datasets
-    - text-language
-    - training-data
+  tags: [ai, datasets, text-language, training-data]
   audience: builders
   pricing: unknown
-  logo: https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/HuggingFaceFW/fineweb.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: RedPajama-v2
-  url: https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2
-  description: open reproduction of LLaMA's training data.
-  topic: AI
-  category: Datasets
-  section: Text / language
-  tags:
-    - ai
-    - datasets
-    - text-language
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/togethercomputer/RedPajama-Data-V2.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Dolma
   url: https://allenai.org/data
-  description: AI2's 3T-token open corpus for OLMo.
+  description: AI2's open multi-source pretraining corpus released with provenance and processing documentation.
   topic: AI
   category: Datasets
   section: Text / language
-  tags:
-    - ai
-    - datasets
-    - text-language
-    - training-data
+  tags: [ai, datasets, text-language, training-data]
   audience: builders
   pricing: unknown
-  logo: https://www.datocms-assets.com/64837/1720481675-social-image-1200x630.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=allenai.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: EleutherAI datasets
-  url: https://huggingface.co/EleutherAI
-  description: The Pile and successors.
-  topic: AI
-  category: Datasets
-  section: Text / language
-  tags:
-    - ai
-    - datasets
-    - text-language
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://cdn-thumbnails.huggingface.co/social-thumbnails/EleutherAI.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Wikipedia dumps
-  url: https://dumps.wikimedia.org
-  description: full dumps, all languages.
-  topic: AI
-  category: Datasets
-  section: Text / language
-  tags:
-    - ai
-    - datasets
-    - text-language
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=dumps.wikimedia.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: arXiv bulk access
-  url: https://info.arxiv.org/help/bulk_data.html
-  description: full-text on S3, requester-pays.
-  topic: AI
-  category: Datasets
-  section: Text / language
-  tags:
-    - ai
-    - datasets
-    - text-language
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=info.arxiv.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Stack Exchange dumps
-  url: https://archive.org/details/stackexchange
-  description: Q&A across all sites, quarterly.
-  topic: AI
-  category: Datasets
-  section: Text / language
-  tags:
-    - ai
-    - datasets
-    - text-language
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://archive.org/services/img/stackexchange
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=archive.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Project Gutenberg
-  url: https://www.gutenberg.org
-  description: public-domain books.
-  topic: AI
-  category: Datasets
-  section: Text / language
-  tags:
-    - ai
-    - datasets
-    - text-language
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.gutenberg.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: OpenAssistant (oasst1/2)
-  url: https://huggingface.co/datasets/OpenAssistant/oasst1
-  description: open instruction-tuning conversations.
-  topic: AI
-  category: Datasets
-  section: Text / language
-  tags:
-    - ai
-    - datasets
-    - text-language
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/OpenAssistant/oasst1.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Anthropic HH-RLHF
-  url: https://huggingface.co/datasets/Anthropic/hh-rlhf
-  description: helpful/harmless preference data.
-  topic: AI
-  category: Datasets
-  section: Text / language
-  tags:
-    - ai
-    - datasets
-    - text-language
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/Anthropic/hh-rlhf.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: The Stack v2
   url: https://huggingface.co/datasets/bigcode/the-stack-v2
-  description: BigCode's permissively-licensed source (~900 GB).
+  description: Large source-code dataset assembled from Software Heritage with repository and licensing metadata.
   topic: AI
   category: Datasets
   section: Code
-  tags:
-    - ai
-    - datasets
-    - code
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/bigcode/the-stack-v2.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: GH Archive
-  url: https://www.gharchive.org
-  description: every public GitHub event since 2011.
-  topic: AI
-  category: Datasets
-  section: Code
-  tags:
-    - ai
-    - datasets
-    - code
-    - training-data
+  tags: [ai, datasets, code, training-data]
   audience: builders
   pricing: unknown
   logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.gharchive.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: HumanEval
-  url: https://github.com/openai/human-eval
-  description: OpenAI's canonical code-gen benchmark.
-  topic: AI
-  category: Datasets
-  section: Code
-  tags:
-    - ai
-    - datasets
-    - code
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://opengraph.githubassets.com/9dcfd297e58c090bb4842c7c2a2e14c1201b1927bfa11f6b9aa83d0c8afdd028/openai/human-eval
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: MBPP
-  url: https://huggingface.co/datasets/google-research-datasets/mbpp
-  description: basic Python problems with tests.
-  topic: AI
-  category: Datasets
-  section: Code
-  tags:
-    - ai
-    - datasets
-    - code
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/google-research-datasets/mbpp.png
   favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: LAION-5B
-  url: https://laion.ai
-  description: 5 B image-text pairs from Common Crawl.
+  notes: null
+  last_checked: 2026-07-27
+- title: HumanEval
+  url: https://github.com/openai/human-eval
+  description: OpenAI benchmark of Python function-synthesis problems evaluated with executable unit tests.
   topic: AI
   category: Datasets
-  section: Image
-  tags:
-    - ai
-    - datasets
-    - image
-    - training-data
+  section: Code
+  tags: [ai, datasets, code, training-data]
   audience: builders
   pricing: unknown
-  logo: https://laion.ai/social.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=laion.ai
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: ImageNet
-  url: https://www.image-net.org
-  description: the original; still baseline for many tasks.
+  notes: null
+  last_checked: 2026-07-27
+- title: LAION-5B
+  url: https://laion.ai
+  description: Large openly indexed collection of image-text pairs derived from Common Crawl for multimodal research.
   topic: AI
   category: Datasets
   section: Image
-  tags:
-    - ai
-    - datasets
-    - image
-    - training-data
+  tags: [ai, datasets, image, training-data]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=laion.ai
+  sublinks: []
+  notes: Review source licenses and consent constraints before use.
+  last_checked: 2026-07-27
+- title: ImageNet
+  url: https://www.image-net.org
+  description: Canonical labeled image dataset organized around WordNet concepts for visual-recognition research.
+  topic: AI
+  category: Datasets
+  section: Image
+  tags: [ai, datasets, image, training-data]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.image-net.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: COCO
   url: https://cocodataset.org
-  description: objects in context; detection/segmentation/captioning.
+  description: Widely used image dataset with object detection, segmentation, keypoint, and caption annotations.
   topic: AI
   category: Datasets
   section: Image
-  tags:
-    - ai
-    - datasets
-    - image
-    - training-data
+  tags: [ai, datasets, image, training-data]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=cocodataset.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Open Images V7
-  url: https://storage.googleapis.com/openimages/web/index.html
-  description: Google's labeled image set, ~9 M images.
-  topic: AI
-  category: Datasets
-  section: Image
-  tags:
-    - ai
-    - datasets
-    - image
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=storage.googleapis.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: DataComp
-  url: https://www.datacomp.ai
-  description: open pipeline + dataset for CLIP-style training.
-  topic: AI
-  category: Datasets
-  section: Image
-  tags:
-    - ai
-    - datasets
-    - image
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.datacomp.ai
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Wikimedia Commons
-  url: https://commons.wikimedia.org
-  description: public-domain / freely-licensed media.
-  topic: AI
-  category: Datasets
-  section: Image
-  tags:
-    - ai
-    - datasets
-    - image
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Crepuscular_rays_over_parc_de_Noisiel_at_sunrise%2C_26_May_2019.jpg/1280px-Crepuscular_rays_over_parc_de_Noisiel_at_sunrise%2C_26_May_2019.jpg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=commons.wikimedia.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Common Voice
   url: https://commonvoice.mozilla.org
-  description: Mozilla's open voice corpus, 100+ languages.
+  description: Mozilla-led multilingual speech corpus contributed and validated by a global volunteer community.
   topic: AI
   category: Datasets
   section: Audio / speech
-  tags:
-    - ai
-    - datasets
-    - audio-speech
-    - training-data
+  tags: [ai, datasets, audio-speech, training-data]
   audience: builders
   pricing: unknown
-  logo: https://commonvoice.mozilla.org/img/cv-social-1024x512.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=commonvoice.mozilla.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: LibriSpeech
   url: https://www.openslr.org/12
-  description: 1000 h of read audiobooks, English.
+  description: Approximately one thousand hours of labeled English audiobook speech for automatic speech recognition.
   topic: AI
   category: Datasets
   section: Audio / speech
-  tags:
-    - ai
-    - datasets
-    - audio-speech
-    - training-data
+  tags: [ai, datasets, audio-speech, training-data]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.openslr.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: People's Speech
-  url: https://mlcommons.org/datasets/peoples-speech
-  description: MLCommons, 30k h transcribed.
-  topic: AI
-  category: Datasets
-  section: Audio / speech
-  tags:
-    - ai
-    - datasets
-    - audio-speech
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://mlcommons.org/wp-content/uploads/2024/10/Peoples-Speech-1.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=mlcommons.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: AudioSet
-  url: https://research.google.com/audioset
-  description: Google's 2 M-clip ontology of sounds.
-  topic: AI
-  category: Datasets
-  section: Audio / speech
-  tags:
-    - ai
-    - datasets
-    - audio-speech
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=research.google.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: VoxPopuli
-  url: https://huggingface.co/datasets/facebook/voxpopuli
-  description: multilingual EU parliament audio.
-  topic: AI
-  category: Datasets
-  section: Audio / speech
-  tags:
-    - ai
-    - datasets
-    - audio-speech
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/facebook/voxpopuli.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Kinetics-700
   url: https://github.com/cvdfoundation/kinetics-dataset
-  description: 650 k clips of human actions.
+  description: Large benchmark of labeled short video clips covering hundreds of human action classes.
   topic: AI
   category: Datasets
   section: Video
-  tags:
-    - ai
-    - datasets
-    - video
-    - training-data
+  tags: [ai, datasets, video, training-data]
   audience: builders
   pricing: unknown
-  logo: https://opengraph.githubassets.com/2685e39546d92a71fb23ddc9741db6bf9190d1aa11f66ba4b01b12cdf450f883/cvdfoundation/kinetics-dataset
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: HowTo100M
-  url: https://www.di.ens.fr/willow/research/howto100m
-  description: 136 M narrated instructional clips.
-  topic: AI
-  category: Datasets
-  section: Video
-  tags:
-    - ai
-    - datasets
-    - video
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.di.ens.fr
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: YouTube-8M
-  url: https://research.google.com/youtube8m
-  description: Google's labeled video features.
-  topic: AI
-  category: Datasets
-  section: Video
-  tags:
-    - ai
-    - datasets
-    - video
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=research.google.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Wikidata
   url: https://www.wikidata.org
-  description: structured Wikipedia, machine-readable.
+  description: Collaborative multilingual knowledge graph with machine-readable entities, properties, and provenance.
   topic: AI
   category: Datasets
   section: Knowledge graphs / structured
-  tags:
-    - ai
-    - datasets
-    - knowledge-graphs-structured
-    - training-data
+  tags: [ai, datasets, knowledge-graphs-structured, training-data]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.wikidata.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: DBpedia
-  url: https://www.dbpedia.org
-  description: RDF extraction of Wikipedia.
-  topic: AI
-  category: Datasets
-  section: Knowledge graphs / structured
-  tags:
-    - ai
-    - datasets
-    - knowledge-graphs-structured
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.dbpedia.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: OpenAlex
-  url: https://openalex.org
-  description: open catalog of scholarly works (replaces Microsoft Academic).
-  topic: AI
-  category: Datasets
-  section: Knowledge graphs / structured
-  tags:
-    - ai
-    - datasets
-    - knowledge-graphs-structured
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=openalex.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: data.gov (US)
-  url: https://data.gov
-  description: data.gov (US) resource in Datasets.
-  topic: AI
-  category: Datasets
-  section: Government & macro data
-  tags:
-    - ai
-    - datasets
-    - government-and-macro-data
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=data.gov
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: data.europa.eu (EU)
-  url: https://data.europa.eu
-  description: data.europa.eu (EU) resource in Datasets.
-  topic: AI
-  category: Datasets
-  section: Government & macro data
-  tags:
-    - ai
-    - datasets
-    - government-and-macro-data
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=data.europa.eu
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: ISTAT (Italy)
-  url: https://www.istat.it
-  description: ISTAT (Italy) resource in Datasets.
-  topic: AI
-  category: Datasets
-  section: Government & macro data
-  tags:
-    - ai
-    - datasets
-    - government-and-macro-data
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.istat.it
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: data.gov.uk
-  url: https://www.data.gov.uk
-  description: data.gov.uk resource in Datasets.
-  topic: AI
-  category: Datasets
-  section: Government & macro data
-  tags:
-    - ai
-    - datasets
-    - government-and-macro-data
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.data.gov.uk
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: World Bank Open Data
-  url: https://data.worldbank.org
-  description: World Bank Open Data resource in Datasets.
-  topic: AI
-  category: Datasets
-  section: Government & macro data
-  tags:
-    - ai
-    - datasets
-    - government-and-macro-data
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://data.worldbank.org/assets/images/logo-wb-header-en.svg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=data.worldbank.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: FRED
-  url: https://fred.stlouisfed.org
-  description: US Federal Reserve economic time series.
-  topic: AI
-  category: Datasets
-  section: Government & macro data
-  tags:
-    - ai
-    - datasets
-    - government-and-macro-data
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=fred.stlouisfed.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Our World in Data
-  url: https://ourworldindata.org
-  description: curated, cleaned global datasets + charts.
-  topic: AI
-  category: Datasets
-  section: Government & macro data
-  tags:
-    - ai
-    - datasets
-    - government-and-macro-data
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://ourworldindata.org/default-thumbnail.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=ourworldindata.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Copernicus Data Space
+  notes: null
+  last_checked: 2026-07-27
+- title: Copernicus Data Space Ecosystem
   url: https://dataspace.copernicus.eu
-  description: ESA Sentinel imagery.
+  description: European access point for Sentinel Earth-observation imagery and related processing services.
   topic: AI
   category: Datasets
   section: Geospatial / Earth observation
-  tags:
-    - ai
-    - datasets
-    - geospatial-earth-observation
-    - training-data
+  tags: [ai, datasets, geospatial-earth-observation, training-data]
   audience: builders
   pricing: unknown
-  logo: https://dataspace.copernicus.eu/sites/default/files/styles/opengraph/public/media/images/2023-03/sentinel-2.jpg?itok=V6k97eQF
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=dataspace.copernicus.eu
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: USGS Earth Explorer
-  url: https://earthexplorer.usgs.gov
-  description: Landsat + USGS archives.
-  topic: AI
-  category: Datasets
-  section: Geospatial / Earth observation
-  tags:
-    - ai
-    - datasets
-    - geospatial-earth-observation
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=earthexplorer.usgs.gov
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: OpenStreetMap (planet)
+  notes: null
+  last_checked: 2026-07-27
+- title: OpenStreetMap Planet
   url: https://planet.openstreetmap.org
-  description: raw planet data.
+  description: Regularly published full-planet snapshots and change files from the OpenStreetMap database.
   topic: AI
   category: Datasets
   section: Geospatial / Earth observation
-  tags:
-    - ai
-    - datasets
-    - geospatial-earth-observation
-    - training-data
+  tags: [ai, datasets, geospatial-earth-observation, training-data]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=planet.openstreetmap.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: MMLU
   url: https://github.com/hendrycks/test
-  description: 57-subject knowledge test.
+  description: Multitask benchmark measuring language-model knowledge across 57 academic and professional subjects.
   topic: AI
   category: Datasets
   section: Evaluation benchmark datasets
-  tags:
-    - ai
-    - datasets
-    - evaluation-benchmark-datasets
-    - training-data
+  tags: [ai, datasets, evaluation-benchmark-datasets, training-data]
   audience: builders
   pricing: unknown
-  logo: https://opengraph.githubassets.com/3b13b504fbf0d049a3e09c70940589117af202ab98efe1adf16c1087fbf0e957/hendrycks/test
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
+  notes: Results require contamination-aware interpretation.
+  last_checked: 2026-07-27
 - title: GSM8K
   url: https://huggingface.co/datasets/openai/gsm8k
-  description: grade-school math word problems.
+  description: Dataset of grade-school math word problems with natural-language, multi-step solutions.
   topic: AI
   category: Datasets
   section: Evaluation benchmark datasets
-  tags:
-    - ai
-    - datasets
-    - evaluation-benchmark-datasets
-    - training-data
+  tags: [ai, datasets, evaluation-benchmark-datasets, training-data]
   audience: builders
   pricing: unknown
-  logo: https://cdn-thumbnails.huggingface.co/social-thumbnails/datasets/openai/gsm8k.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=huggingface.co
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: MATH
-  url: https://github.com/hendrycks/math
-  description: competition math.
-  topic: AI
-  category: Datasets
-  section: Evaluation benchmark datasets
-  tags:
-    - ai
-    - datasets
-    - evaluation-benchmark-datasets
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://opengraph.githubassets.com/f014c86df233f8880f8f9a988e0c532bc52438a47f42874d4fcf1097e85749f0/hendrycks/math
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: TruthfulQA
-  url: https://github.com/sylinrl/TruthfulQA
-  description: factuality / common misconceptions.
-  topic: AI
-  category: Datasets
-  section: Evaluation benchmark datasets
-  tags:
-    - ai
-    - datasets
-    - evaluation-benchmark-datasets
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://opengraph.githubassets.com/dfdacc36cf427f24d61740ff7971c937153d45e901d64e33f86b8d767cda52fd/sylinrl/TruthfulQA
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: BIG-bench
-  url: https://github.com/google/BIG-bench
-  description: 200+ community tasks.
-  topic: AI
-  category: Datasets
-  section: Evaluation benchmark datasets
-  tags:
-    - ai
-    - datasets
-    - evaluation-benchmark-datasets
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://opengraph.githubassets.com/091e299fba0571c087fc76a5f7c3be39cc8a78a8e43ba4fe8720360b47c0417e/google/BIG-bench
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=github.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: HELM
-  url: https://crfm.stanford.edu/helm
-  description: Stanford's holistic eval suite.
-  topic: AI
-  category: Datasets
-  section: Evaluation benchmark datasets
-  tags:
-    - ai
-    - datasets
-    - evaluation-benchmark-datasets
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=crfm.stanford.edu
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Gretel AI
+  notes: Results require contamination-aware interpretation.
+  last_checked: 2026-07-27
+- title: Gretel
   url: https://gretel.ai
-  description: synthetic tabular/text, free tier.
+  description: Commercial platform for generating, transforming, and evaluating privacy-oriented synthetic tabular and text data.
   topic: AI
   category: Datasets
   section: Synthetic data
-  tags:
-    - ai
-    - datasets
-    - synthetic-data
-    - training-data
+  tags: [ai, datasets, synthetic-data, training-data]
   audience: builders
   pricing: unknown
-  logo: https://www.nvidia.com/content/dam/en-zz/Solutions/use-cases/synthetic-data-generation-for-agentic-ai/sdg-agentic-ai-og.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=gretel.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Mostly AI
-  url: https://www.mostly.ai
-  description: synthetic tabular, GDPR-friendly.
-  topic: AI
-  category: Datasets
-  section: Synthetic data
-  tags:
-    - ai
-    - datasets
-    - synthetic-data
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.mostly.ai
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: AWS Data Exchange
-  url: https://aws.amazon.com/data-exchange
-  description: AWS Data Exchange resource in Datasets.
-  topic: AI
-  category: Datasets
-  section: Paid / commercial marketplaces
-  tags:
-    - ai
-    - datasets
-    - paid-commercial-marketplaces
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=aws.amazon.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Snowflake Marketplace
-  url: https://www.snowflake.com/en/data-cloud/marketplace
-  description: Snowflake Marketplace resource in Datasets.
-  topic: AI
-  category: Datasets
-  section: Paid / commercial marketplaces
-  tags:
-    - ai
-    - datasets
-    - paid-commercial-marketplaces
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://www.snowflake.com/content/dam/snowflake-site/general/technical/default-og-image/snowflake-social-share.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.snowflake.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Databricks Marketplace
-  url: https://www.databricks.com/product/marketplace
-  description: Databricks Marketplace resource in Datasets.
-  topic: AI
-  category: Datasets
-  section: Paid / commercial marketplaces
-  tags:
-    - ai
-    - datasets
-    - paid-commercial-marketplaces
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://www.databricks.com/sites/default/files/2023-11/databricks-og-universal.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.databricks.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Datarade
-  url: https://datarade.ai
-  description: broad data-marketplace aggregator.
-  topic: AI
-  category: Datasets
-  section: Paid / commercial marketplaces
-  tags:
-    - ai
-    - datasets
-    - paid-commercial-marketplaces
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://datarade.ai/external/landing_page_og_image.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=datarade.ai
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Bright Data
-  url: https://brightdata.com
-  description: managed web scraping at scale.
-  topic: AI
-  category: Datasets
-  section: Paid / commercial marketplaces
-  tags:
-    - ai
-    - datasets
-    - paid-commercial-marketplaces
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://media.brightdata.com/2025/12/HP_OG_EN.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=brightdata.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Scale AI
-  url: https://scale.com
-  description: labeled data + RLHF pipelines for enterprises.
-  topic: AI
-  category: Datasets
-  section: Paid / commercial marketplaces
-  tags:
-    - ai
-    - datasets
-    - paid-commercial-marketplaces
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://cdn.sanity.io/images/50zba0eo/production/e065968ccd7628bf402bae868e7f8ab88cccb4ae-1200x630.png?w=1200
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=scale.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Have I Been Trained?
-  url: https://haveibeentrained.com
-  description: search whether content is in LAION.
-  topic: AI
-  category: Datasets
-  section: Licensing & ethics — non-optional reading
-  tags:
-    - ai
-    - datasets
-    - licensing-and-ethics-non-optional-reading
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=haveibeentrained.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Spawning
   url: https://spawning.ai
-  description: opt-out + licensing tools.
+  description: Tools and registries for checking, licensing, and communicating preferences about AI training data.
   topic: AI
   category: Datasets
   section: Licensing & ethics — non-optional reading
-  tags:
-    - ai
-    - datasets
-    - licensing-and-ethics-non-optional-reading
-    - training-data
+  tags: [ai, datasets, licensing-and-ethics-non-optional-reading, training-data]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=spawning.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Datasette
-  url: https://datasette.io
-  description: explore any dataset as a queryable web app.
+  notes: null
+  last_checked: 2026-07-27
+- title: Croissant
+  url: https://mlcommons.org/working-groups/data/croissant
+  description: MLCommons metadata format for documenting machine-learning datasets in a portable, machine-readable form.
   topic: AI
   category: Datasets
   section: Tooling
-  tags:
-    - ai
-    - datasets
-    - tooling
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://datasette.io/static/datasette-card.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=datasette.io
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: DVC
-  url: https://dvc.org
-  description: git-style versioning for data and models.
-  topic: AI
-  category: Datasets
-  section: Tooling
-  tags:
-    - ai
-    - datasets
-    - tooling
-    - training-data
+  tags: [ai, datasets, tooling, training-data]
   audience: builders
   pricing: unknown
   logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=dvc.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
-- title: Croissant
-  url: https://mlcommons.org/working-groups/data/croissant
-  description: ML dataset metadata standard, supported by HF/Google/Kaggle.
-  topic: AI
-  category: Datasets
-  section: Tooling
-  tags:
-    - ai
-    - datasets
-    - tooling
-    - training-data
-  audience: builders
-  pricing: unknown
-  logo: https://mlcommons.org/wp-content/uploads/2024/10/ai5.jpg.webp
   favicon: https://www.google.com/s2/favicons?sz=64&domain=mlcommons.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/Datasets.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27

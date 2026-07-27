@@ -1,216 +1,269 @@
 - title: MDN Web Docs
   url: https://developer.mozilla.org
-  description: Reference for HTML, CSS, JavaScript, browser APIs, and web platform
-    behaviour — the definitive source.
+  description: Reference for HTML, CSS, JavaScript, browser APIs, and web platform behaviour
+    — the definitive source.
   topic: IT
   category: Web Development
   section: References & specs
   tags:
-    - it
-    - web
-    - html
-    - css
-    - javascript
+  - it
+  - web
+  - html
+  - css
+  - javascript
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=developer.mozilla.org
   sublinks:
-    - title: CSS
-      url: https://developer.mozilla.org/en-US/docs/Web/CSS
-    - title: JavaScript
-      url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  - title: CSS
+    url: https://developer.mozilla.org/en-US/docs/Web/CSS
+  - title: JavaScript
+    url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: web.dev
   url: https://web.dev
-  description: Google's resource for modern web development — performance, Core
-    Web Vitals, PWAs, and best practices.
+  description: Google's resource for modern web development — performance, Core Web Vitals,
+    PWAs, and best practices.
   topic: IT
   category: Web Development
   section: References & specs
   tags:
-    - it
-    - web
-    - performance
-    - pwa
+  - it
+  - web
+  - performance
+  - pwa
   audience: developers
   pricing: free
-  logo: https://web.dev/images/social-wide.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=web.dev
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Can I Use
   url: https://caniuse.com
-  description: Browser compatibility tables for HTML, CSS, SVG, and JavaScript
-    APIs across all major browsers.
+  description: Browser compatibility tables for HTML, CSS, SVG, and JavaScript APIs across
+    all major browsers.
   topic: IT
   category: Web Development
   section: References & specs
   tags:
-    - it
-    - web
-    - compatibility
-    - browser
+  - it
+  - web
+  - compatibility
+  - browser
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=caniuse.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: React
   url: https://react.dev
-  description: Meta's declarative UI library for building component-based web and
-    native interfaces.
+  description: Meta's declarative UI library for building component-based web and native interfaces.
   topic: IT
   category: Web Development
   section: Frontend frameworks
   tags:
-    - it
-    - react
-    - frontend
-    - javascript
+  - it
+  - react
+  - frontend
+  - javascript
   audience: developers
   pricing: free
-  logo: https://react.dev/images/og-home.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=react.dev
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Vue.js
   url: https://vuejs.org
-  description: Progressive JavaScript framework for building user interfaces with
-    an approachable, performant, and versatile design.
+  description: Progressive JavaScript framework for building user interfaces with an approachable,
+    performant, and versatile design.
   topic: IT
   category: Web Development
   section: Frontend frameworks
   tags:
-    - it
-    - vue
-    - frontend
-    - javascript
+  - it
+  - vue
+  - frontend
+  - javascript
   audience: developers
   pricing: free
-  logo: https://vuejs.org/images/logo.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=vuejs.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Svelte
   url: https://svelte.dev
-  description: Compiler-based frontend framework that shifts work to build time,
-    producing small, fast vanilla JS output.
+  description: Compiler-based frontend framework that shifts work to build time, producing
+    small, fast vanilla JS output.
   topic: IT
   category: Web Development
   section: Frontend frameworks
   tags:
-    - it
-    - svelte
-    - frontend
-    - compiler
+  - it
+  - svelte
+  - frontend
+  - compiler
   audience: developers
   pricing: free
-  logo: https://svelte.dev/images/twitter-thumbnail.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=svelte.dev
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Tailwind CSS
   url: https://tailwindcss.com
-  description: Utility-first CSS framework for rapidly building custom designs
-    without leaving HTML.
+  description: Utility-first CSS framework for rapidly building custom designs without leaving
+    HTML.
   topic: IT
   category: Web Development
   section: CSS & styling
   tags:
-    - it
-    - css
-    - tailwind
-    - design
+  - it
+  - css
+  - tailwind
+  - design
   audience: developers
   pricing: free
-  logo: https://tailwindcss.com/opengraph-image.jpg?opengraph-image.0jwfhnd690..4.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=tailwindcss.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Vite
-  url: https://vitejs.dev
-  description: Next-generation frontend build tool with fast dev server using
-    native ES modules and Rollup for production.
+  url: https://vite.dev
+  description: Official documentation for the Vite frontend build tool and development server.
   topic: IT
   category: Web Development
   section: Build tools
   tags:
-    - it
-    - build
-    - vite
-    - bundler
-  audience: developers
-  pricing: free
-  logo: https://vite.dev/og-image.jpg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=vitejs.dev
-  sublinks: []
-  notes: null
-  last_checked: 2026-05-26
-- title: Astro
-  url: https://astro.build
-  description: Web framework for content-heavy sites that ships zero JavaScript by
-    default and supports all major UI frameworks.
-  topic: IT
-  category: Web Development
-  section: Full-stack frameworks
-  tags:
-    - it
-    - astro
-    - static-site
-    - web
-  audience: developers
-  pricing: free
-  logo: https://astro.build/og/astro.jpg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=astro.build
-  sublinks: []
-  notes: null
-  last_checked: 2026-05-26
-- title: Next.js
-  url: https://nextjs.org
-  description: React meta-framework from Vercel with hybrid SSR/SSG, App Router,
-    server components, and edge runtime support.
-  topic: IT
-  category: Web Development
-  section: Full-stack frameworks
-  tags:
-    - it
-    - nextjs
-    - react
-    - ssr
-  audience: developers
-  pricing: free
-  logo: https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/nextjs/twitter-card.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=nextjs.org
-  sublinks: []
-  notes: null
-  last_checked: 2026-05-26
-- title: RubyGems
-  url: https://rubygems.org
-  description: Package registry for Ruby gems including Jekyll, Rails, and GitHub
-    Pages dependencies.
-  topic: IT
-  category: Web Development
-  section: Package registries
-  tags:
-    - it
-    - ruby
-    - packages
-    - jekyll
+  - it
+  - build
+  - vite
+  - bundler
   audience: developers
   pricing: free
   logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=rubygems.org
-  sublinks:
-    - title: github-pages gem
-      url: https://rubygems.org/gems/github-pages
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=vite.dev
+  sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: Astro
+  url: https://astro.build
+  description: Web framework for content-heavy sites that ships zero JavaScript by default
+    and supports all major UI frameworks.
+  topic: IT
+  category: Web Development
+  section: Full-stack frameworks
+  tags:
+  - it
+  - astro
+  - static-site
+  - web
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=astro.build
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Next.js
+  url: https://nextjs.org
+  description: React meta-framework from Vercel with hybrid SSR/SSG, App Router, server components,
+    and edge runtime support.
+  topic: IT
+  category: Web Development
+  section: Full-stack frameworks
+  tags:
+  - it
+  - nextjs
+  - react
+  - ssr
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=nextjs.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Angular
+  url: https://angular.dev/
+  description: Official documentation for the Angular web application framework, CLI, libraries,
+    and tooling.
+  topic: IT
+  category: Web Development
+  section: Frontend frameworks
+  tags:
+  - it
+  - angular
+  - frontend
+  - typescript
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=angular.dev
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Nuxt
+  url: https://nuxt.com/
+  description: Vue-based full-stack web framework with server rendering, routing, data fetching,
+    and deployment integrations.
+  topic: IT
+  category: Web Development
+  section: Full-stack frameworks
+  tags:
+  - it
+  - nuxt
+  - vue
+  - ssr
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=nuxt.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: WebAssembly
+  url: https://webassembly.org/
+  description: Open web standard and portable binary instruction format for running compiled
+    code in browsers and other runtimes.
+  topic: IT
+  category: Web Development
+  section: References & specs
+  tags:
+  - it
+  - webassembly
+  - wasm
+  - standards
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=webassembly.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: Web Platform Tests
+  url: https://web-platform-tests.org/
+  description: Cross-browser conformance test suite for web platform specifications, maintained
+    by browser vendors and contributors.
+  topic: IT
+  category: Web Development
+  section: References & specs
+  tags:
+  - it
+  - web
+  - testing
+  - standards
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=web-platform-tests.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

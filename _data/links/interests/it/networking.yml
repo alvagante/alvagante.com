@@ -1,198 +1,273 @@
 - title: Nginx
   url: https://nginx.org
-  description: High-performance web server, reverse proxy, and load balancer
-    widely used for serving and proxying HTTP traffic.
+  description: High-performance web server, reverse proxy, and load balancer widely used for
+    serving and proxying HTTP traffic.
   topic: IT
   category: Networking
   section: Web servers & proxies
   tags:
-    - it
-    - nginx
-    - web-server
-    - proxy
+  - it
+  - nginx
+  - web-server
+  - proxy
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=nginx.org
   sublinks:
-    - title: Documentation
-      url: https://nginx.org/en/docs/
+  - title: Documentation
+    url: https://nginx.org/en/docs/
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: HAProxy
   url: https://haproxy.org
-  description: Industry-standard open-source TCP/HTTP load balancer and proxy
-    server known for reliability and performance.
+  description: Industry-standard open-source TCP/HTTP load balancer and proxy server known
+    for reliability and performance.
   topic: IT
   category: Networking
   section: Web servers & proxies
   tags:
-    - it
-    - haproxy
-    - load-balancing
-    - proxy
+  - it
+  - haproxy
+  - load-balancing
+  - proxy
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=haproxy.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Caddy
   url: https://caddyserver.com
-  description: Modern web server with automatic HTTPS, simple configuration
-    syntax, and a powerful plugin ecosystem.
+  description: Modern web server with automatic HTTPS, simple configuration syntax, and a
+    powerful plugin ecosystem.
   topic: IT
   category: Networking
   section: Web servers & proxies
   tags:
-    - it
-    - caddy
-    - https
-    - web-server
+  - it
+  - caddy
+  - https
+  - web-server
   audience: developers
   pricing: free
-  logo: https://caddyserver.com/resources/images/open-graph-square.png?v=378d6d0
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=caddyserver.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: IANA
   url: https://iana.org
-  description: Internet Assigned Numbers Authority maintaining root DNS, IP
-    address allocations, and protocol parameter registries.
+  description: Internet Assigned Numbers Authority maintaining root DNS, IP address allocations,
+    and protocol parameter registries.
   topic: IT
   category: Networking
   section: Internet infrastructure
   tags:
-    - it
-    - dns
-    - internet
-    - standards
+  - it
+  - dns
+  - internet
+  - standards
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=iana.org
   sublinks:
-    - title: Port numbers
-      url: https://www.iana.org/assignments/service-names-port-numbers/
-    - title: Root zone database
-      url: https://www.iana.org/domains/root/db
+  - title: Port numbers
+    url: https://www.iana.org/assignments/service-names-port-numbers/
+  - title: Root zone database
+    url: https://www.iana.org/domains/root/db
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: RIPE NCC
   url: https://ripe.net
-  description: Regional Internet Registry for Europe, the Middle East, and Central
-    Asia — IP allocation, routing data, and RPKI.
+  description: Regional Internet Registry for Europe, the Middle East, and Central Asia —
+    IP allocation, routing data, and RPKI.
   topic: IT
   category: Networking
   section: Internet infrastructure
   tags:
-    - it
-    - internet
-    - bgp
-    - ip-allocation
+  - it
+  - internet
+  - bgp
+  - ip-allocation
   audience: developers
   pricing: free
-  logo: /static/images/logo.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ripe.net
   sublinks:
-    - title: RIPE NCC RIS (routing data)
-      url: https://www.ripe.net/analyse/internet-measurements/routing-information-service-ris
+  - title: RIPE NCC RIS (routing data)
+    url: https://www.ripe.net/analyse/internet-measurements/routing-information-service-ris
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: BGP.tools
   url: https://bgp.tools
-  description: Real-time BGP routing table, AS path lookup, and prefix visibility
-    tool used by network engineers.
+  description: Real-time BGP routing table, AS path lookup, and prefix visibility tool used
+    by network engineers.
   topic: IT
   category: Networking
   section: Routing & BGP
   tags:
-    - it
-    - bgp
-    - routing
-    - network
+  - it
+  - bgp
+  - routing
+  - network
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=bgp.tools
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Hurricane Electric BGP Toolkit
   url: https://bgp.he.net
-  description: Network lookup tools covering BGP prefixes, ASNs, peering, and
-    route origin for internet infrastructure analysis.
+  description: Network lookup tools covering BGP prefixes, ASNs, peering, and route origin
+    for internet infrastructure analysis.
   topic: IT
   category: Networking
   section: Routing & BGP
   tags:
-    - it
-    - bgp
-    - network
-    - routing
+  - it
+  - bgp
+  - network
+  - routing
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=bgp.he.net
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Wireshark
   url: https://wireshark.org
-  description: The world's most widely-used network protocol analyser for packet
-    capture, filtering, and deep inspection.
+  description: The world's most widely-used network protocol analyser for packet capture,
+    filtering, and deep inspection.
   topic: IT
   category: Networking
   section: Packet analysis
   tags:
-    - it
-    - network
-    - packet-capture
-    - debugging
+  - it
+  - network
+  - packet-capture
+  - debugging
   audience: developers
   pricing: free
-  logo: https://www.wireshark.org/assets/img/og-image.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=wireshark.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Tailscale
   url: https://tailscale.com
-  description: Zero-config WireGuard-based mesh VPN for securely connecting
-    devices across any network.
+  description: Zero-config WireGuard-based mesh VPN for securely connecting devices across
+    any network.
   topic: IT
   category: Networking
   section: VPN & overlay networks
   tags:
-    - it
-    - vpn
-    - wireguard
-    - mesh
+  - it
+  - vpn
+  - wireguard
+  - mesh
   audience: developers
   pricing: freemium
-  logo: https://cdn.sanity.io/images/w77i7m8x/production-v2/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=tailscale.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Envoy Proxy
   url: https://envoyproxy.io
-  description: High-performance, cloud-native L7 proxy and service mesh data plane
-    used in Istio and as a standalone edge proxy.
+  description: High-performance, cloud-native L7 proxy and service mesh data plane used in
+    Istio and as a standalone edge proxy.
   topic: IT
   category: Networking
   section: Web servers & proxies
   tags:
-    - it
-    - proxy
-    - service-mesh
-    - cloud-native
+  - it
+  - proxy
+  - service-mesh
+  - cloud-native
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=envoyproxy.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: iPerf3
+  url: https://software.es.net/iperf/
+  description: ESnet-maintained tool for active measurement of TCP, UDP, and SCTP network
+    throughput.
+  topic: IT
+  category: Networking
+  section: Diagnostics & measurement
+  tags:
+  - it
+  - network
+  - performance
+  - diagnostics
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=software.es.net
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: FRRouting
+  url: https://frrouting.org/
+  description: Open-source routing suite implementing BGP, OSPF, IS-IS, and other protocols
+    for Linux and Unix systems.
+  topic: IT
+  category: Networking
+  section: Routing & BGP
+  tags:
+  - it
+  - routing
+  - bgp
+  - open-source
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=frrouting.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: OpenWrt
+  url: https://openwrt.org/
+  description: Linux operating system for embedded network devices with package management
+    and extensive routing features.
+  topic: IT
+  category: Networking
+  section: Network operating systems
+  tags:
+  - it
+  - network
+  - router
+  - linux
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=openwrt.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: IPv6 Specification — RFC 8200
+  url: https://datatracker.ietf.org/doc/html/rfc8200
+  description: Internet Standards Track specification defining Internet Protocol version 6.
+  topic: IT
+  category: Networking
+  section: Internet infrastructure
+  tags:
+  - it
+  - ipv6
+  - rfc
+  - standards
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=datatracker.ietf.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

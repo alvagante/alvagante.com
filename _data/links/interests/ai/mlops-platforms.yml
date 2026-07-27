@@ -1,620 +1,350 @@
 - title: Weights & Biases
   url: https://wandb.ai
-  description: de-facto standard for tracking/sweeps.
+  description: A hosted platform for experiment tracking, model evaluation, sweeps, and registry workflows.
   topic: AI
   category: MLOps Platforms
   section: Experiment tracking & registry
-  tags:
-    - ai
-    - mlops-platforms
-    - experiment-tracking-and-registry
-    - mlops
-    - observability
-    - orchestration
+  tags: [ai, mlops-platforms, experiment-tracking-and-registry, mlops, observability, orchestration]
   audience: builders
   pricing: unknown
-  logo: https://site.wandb.ai/wp-content/uploads/2023/05/logo.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=wandb.ai
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: MLflow
   url: https://mlflow.org
-  description: open-source tracking + registry.
+  description: An open-source platform for experiment tracking, model packaging, evaluation, and model registry workflows.
   topic: AI
   category: MLOps Platforms
   section: Experiment tracking & registry
-  tags:
-    - ai
-    - mlops-platforms
-    - experiment-tracking-and-registry
-    - mlops
-    - observability
-    - orchestration
+  tags: [ai, mlops-platforms, experiment-tracking-and-registry, mlops, observability, orchestration]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=mlflow.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Comet
   url: https://www.comet.com
-  description: tracking + production monitoring.
+  description: A hosted platform for experiment management, model evaluation, prompt tracing, and production monitoring.
   topic: AI
   category: MLOps Platforms
   section: Experiment tracking & registry
-  tags:
-    - ai
-    - mlops-platforms
-    - experiment-tracking-and-registry
-    - mlops
-    - observability
-    - orchestration
+  tags: [ai, mlops-platforms, experiment-tracking-and-registry, mlops, observability, orchestration]
   audience: builders
   pricing: unknown
-  logo: https://www.comet.com/site/wp-content/uploads/2025/10/Share-image-3.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.comet.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: Neptune.ai
-  url: https://neptune.ai
-  description: tracking, foundation-model-friendly.
-  topic: AI
-  category: MLOps Platforms
-  section: Experiment tracking & registry
-  tags:
-    - ai
-    - mlops-platforms
-    - experiment-tracking-and-registry
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=neptune.ai
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: ClearML
   url: https://clear.ml
-  description: open-source MLOps suite.
+  description: An open-source suite for tracking experiments, orchestrating pipelines, managing data, and serving models.
   topic: AI
   category: MLOps Platforms
   section: Experiment tracking & registry
-  tags:
-    - ai
-    - mlops-platforms
-    - experiment-tracking-and-registry
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://clear.ml/wp-content/uploads/2025/02/pyramid-and-labels.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=clear.ml
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: DVC
-  url: https://dvc.org
-  description: git-style data/model versioning.
-  topic: AI
-  category: MLOps Platforms
-  section: Experiment tracking & registry
-  tags:
-    - ai
-    - mlops-platforms
-    - experiment-tracking-and-registry
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://dvc.org/wp-content/uploads/2025/10/dvc-logo.svg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=dvc.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: Metaflow
-  url: https://metaflow.org
-  description: Netflix, Pythonic DAGs.
-  topic: AI
-  category: MLOps Platforms
-  section: Pipeline orchestration
-  tags:
-    - ai
-    - mlops-platforms
-    - pipeline-orchestration
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://tuulos.github.io/mf-site/images/og-metaflow.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=metaflow.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: Flyte
-  url: https://flyte.org
-  description: Kubernetes-native, typed.
-  topic: AI
-  category: MLOps Platforms
-  section: Pipeline orchestration
-  tags:
-    - ai
-    - mlops-platforms
-    - pipeline-orchestration
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://cdn.prod.website-files.com/690e2a44303093ad8549854b/69a8589a7e9f8f8da38aa412_Scale-Dragon.jpg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=flyte.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: ZenML
-  url: https://www.zenml.io
-  description: pluggable MLOps framework.
-  topic: AI
-  category: MLOps Platforms
-  section: Pipeline orchestration
-  tags:
-    - ai
-    - mlops-platforms
-    - pipeline-orchestration
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://www.zenml.io/images/og-default.jpg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.zenml.io
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: Kubeflow
-  url: https://www.kubeflow.org
-  description: K8s ML pipelines.
-  topic: AI
-  category: MLOps Platforms
-  section: Pipeline orchestration
-  tags:
-    - ai
-    - mlops-platforms
-    - pipeline-orchestration
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://www.kubeflow.org/social/social_home.b4b276a78751053b254216bb34638f95.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.kubeflow.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: Prefect
-  url: https://www.prefect.io
-  description: modern Python workflows.
-  topic: AI
-  category: MLOps Platforms
-  section: Pipeline orchestration
-  tags:
-    - ai
-    - mlops-platforms
-    - pipeline-orchestration
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://www.prefect.io/og/home.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.prefect.io
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: Dagster
-  url: https://dagster.io
-  description: asset-oriented orchestration.
-  topic: AI
-  category: MLOps Platforms
-  section: Pipeline orchestration
-  tags:
-    - ai
-    - mlops-platforms
-    - pipeline-orchestration
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://cdn.prod.website-files.com/681399f654933b29e12fb8bd/681cb5f07ccf87ece14559ef_OG%20-%20v2FIX.jpg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=dagster.io
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: Airflow
-  url: https://airflow.apache.org
-  description: the old guard, still ubiquitous.
-  topic: AI
-  category: MLOps Platforms
-  section: Pipeline orchestration
-  tags:
-    - ai
-    - mlops-platforms
-    - pipeline-orchestration
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: /images/feature-image.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=airflow.apache.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: BentoML
-  url: https://www.bentoml.com
-  description: model packaging + serving.
-  topic: AI
-  category: MLOps Platforms
-  section: Serving / inference
-  tags:
-    - ai
-    - mlops-platforms
-    - serving-inference
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://admin.bentoml.com/uploads/bentoml_a77c421af1.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.bentoml.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: KServe
-  url: https://kserve.github.io/website
-  description: K8s model serving (CNCF).
-  topic: AI
-  category: MLOps Platforms
-  section: Serving / inference
-  tags:
-    - ai
-    - mlops-platforms
-    - serving-inference
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://kserve.github.io/website/img/kserve-logo-small.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=kserve.github.io
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: Seldon
-  url: https://www.seldon.io
-  description: enterprise inference.
-  topic: AI
-  category: MLOps Platforms
-  section: Serving / inference
-  tags:
-    - ai
-    - mlops-platforms
-    - serving-inference
-    - mlops
-    - observability
-    - orchestration
+  tags: [ai, mlops-platforms, experiment-tracking-and-registry, mlops, observability, orchestration]
   audience: builders
   pricing: unknown
   logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.seldon.io
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=clear.ml
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: NVIDIA Triton
-  url: https://developer.nvidia.com/triton-inference-server
-  description: high-perf inference server.
+  notes: null
+  last_checked: 2026-07-27
+- title: Metaflow
+  url: https://metaflow.org
+  description: An open-source Python framework from Netflix for data-science workflows, versioning, and scalable execution.
   topic: AI
   category: MLOps Platforms
-  section: Serving / inference
-  tags:
-    - ai
-    - mlops-platforms
-    - serving-inference
-    - mlops
-    - observability
-    - orchestration
+  section: Pipeline orchestration
+  tags: [ai, mlops-platforms, pipeline-orchestration, mlops, observability, orchestration]
   audience: builders
   pricing: unknown
-  logo: https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/triton/og-gtc-22-triton-web-100.jpg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=developer.nvidia.com
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=metaflow.org
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: Ray Serve
-  url: https://docs.ray.io/en/latest/serve
-  description: distributed Python serving.
+  notes: null
+  last_checked: 2026-07-27
+- title: Flyte
+  url: https://flyte.org
+  description: A Kubernetes-native, strongly typed workflow orchestrator for machine-learning and data pipelines.
+  topic: AI
+  category: MLOps Platforms
+  section: Pipeline orchestration
+  tags: [ai, mlops-platforms, pipeline-orchestration, mlops, observability, orchestration]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=flyte.org
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: ZenML
+  url: https://www.zenml.io
+  description: An open-source framework for portable machine-learning pipelines across orchestration, tracking, and deployment stacks.
+  topic: AI
+  category: MLOps Platforms
+  section: Pipeline orchestration
+  tags: [ai, mlops-platforms, pipeline-orchestration, mlops, observability, orchestration]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.zenml.io
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: Kubeflow
+  url: https://www.kubeflow.org
+  description: A Kubernetes project for portable machine-learning workflows, training jobs, notebooks, and model serving.
+  topic: AI
+  category: MLOps Platforms
+  section: Pipeline orchestration
+  tags: [ai, mlops-platforms, pipeline-orchestration, mlops, observability, orchestration]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.kubeflow.org
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: DVC
+  url: https://dvc.org
+  description: Open-source version control and pipeline tooling for datasets, models, and machine-learning experiments using Git and external storage.
+  topic: AI
+  category: MLOps Platforms
+  section: Data and model versioning
+  tags: [ai, mlops-platforms, data-and-model-versioning, mlops, version-control, datasets]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=dvc.org
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: Dagster
+  url: https://dagster.io
+  description: An asset-oriented orchestrator for testable, observable data and machine-learning pipelines.
+  topic: AI
+  category: MLOps Platforms
+  section: Pipeline orchestration
+  tags: [ai, mlops-platforms, pipeline-orchestration, mlops, observability, orchestration]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=dagster.io
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: BentoML
+  url: https://www.bentoml.com
+  description: An open-source framework for packaging, serving, and scaling machine-learning and generative-AI models.
   topic: AI
   category: MLOps Platforms
   section: Serving / inference
-  tags:
-    - ai
-    - mlops-platforms
-    - serving-inference
-    - mlops
-    - observability
-    - orchestration
+  tags: [ai, mlops-platforms, serving-inference, mlops, observability, orchestration]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.bentoml.com
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: KServe
+  url: https://kserve.github.io/website
+  description: A Kubernetes-native model-serving project supporting autoscaling, inference graphs, and multiple serving runtimes.
+  topic: AI
+  category: MLOps Platforms
+  section: Serving / inference
+  tags: [ai, mlops-platforms, serving-inference, mlops, observability, orchestration]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=kserve.github.io
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: NVIDIA Triton Inference Server
+  url: https://developer.nvidia.com/triton-inference-server
+  description: NVIDIA's open-source inference server runs models from multiple frameworks on GPU and CPU infrastructure.
+  topic: AI
+  category: MLOps Platforms
+  section: Serving / inference
+  tags: [ai, mlops-platforms, serving-inference, mlops, observability, orchestration]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=developer.nvidia.com
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: Ray Serve
+  url: https://docs.ray.io/en/latest/serve
+  description: Ray's distributed Python serving library scales online inference and multi-model application graphs.
+  topic: AI
+  category: MLOps Platforms
+  section: Serving / inference
+  tags: [ai, mlops-platforms, serving-inference, mlops, observability, orchestration]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.ray.io
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Vertex AI
   url: https://cloud.google.com/vertex-ai
-  description: GCP.
+  description: Google Cloud's managed platform for training, deploying, evaluating, and monitoring machine-learning and generative-AI systems.
   topic: AI
   category: MLOps Platforms
   section: Managed cloud ML
-  tags:
-    - ai
-    - mlops-platforms
-    - managed-cloud-ml
-    - mlops
-    - observability
-    - orchestration
+  tags: [ai, mlops-platforms, managed-cloud-ml, mlops, observability, orchestration]
   audience: builders
   pricing: unknown
-  logo: https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: SageMaker
+  notes: null
+  last_checked: 2026-07-27
+- title: Amazon SageMaker AI
   url: https://aws.amazon.com/sagemaker
-  description: AWS.
+  description: AWS's managed platform for building, training, deploying, and governing machine-learning models.
   topic: AI
   category: MLOps Platforms
   section: Managed cloud ML
-  tags:
-    - ai
-    - mlops-platforms
-    - managed-cloud-ml
-    - mlops
-    - observability
-    - orchestration
+  tags: [ai, mlops-platforms, managed-cloud-ml, mlops, observability, orchestration]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=aws.amazon.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Azure Machine Learning
   url: https://azure.microsoft.com/en-us/products/machine-learning
-  description: Azure Machine Learning resource in MLOps Platforms.
+  description: Microsoft's managed service for machine-learning development, training, deployment, registry, and governance.
   topic: AI
   category: MLOps Platforms
   section: Managed cloud ML
-  tags:
-    - ai
-    - mlops-platforms
-    - managed-cloud-ml
-    - mlops
-    - observability
-    - orchestration
+  tags: [ai, mlops-platforms, managed-cloud-ml, mlops, observability, orchestration]
   audience: builders
   pricing: unknown
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=azure.microsoft.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27
 - title: Databricks
   url: https://www.databricks.com
-  description: lakehouse + ML.
+  description: A managed lakehouse platform combining data engineering, model development, registry, serving, and governance.
   topic: AI
   category: MLOps Platforms
   section: Managed cloud ML
-  tags:
-    - ai
-    - mlops-platforms
-    - managed-cloud-ml
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://www.databricks.com/sites/default/files/2023-11/databricks-og-universal.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.databricks.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: Langfuse
-  url: https://langfuse.com
-  description: open-source LLM observability.
-  topic: AI
-  category: MLOps Platforms
-  section: LLM observability / evals
-  tags:
-    - ai
-    - mlops-platforms
-    - llm-observability-evals
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://langfuse.com/api/og?title=Langfuse+%E2%80%93+Open+Source+LLM+Engineering+Platform&description=Traces%2C+evals%2C+prompt+management+and+metrics+to+debug+and+improve+your+LLM+application.
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=langfuse.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: LangSmith
-  url: https://www.langchain.com/langsmith
-  description: LangChain's hosted observability.
-  topic: AI
-  category: MLOps Platforms
-  section: LLM observability / evals
-  tags:
-    - ai
-    - mlops-platforms
-    - llm-observability-evals
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/69a2224227e2e682a3a49a95_Website%20preview-LangSmith%20Platform%20Page-obs.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.langchain.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: Helicone
-  url: https://www.helicone.ai
-  description: proxy-based LLM logging.
-  topic: AI
-  category: MLOps Platforms
-  section: LLM observability / evals
-  tags:
-    - ai
-    - mlops-platforms
-    - llm-observability-evals
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://www.helicone.ai/static/new-open-graph.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.helicone.ai
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: Phoenix (Arize)
-  url: https://phoenix.arize.com
-  description: open-source LLM tracing/evals.
-  topic: AI
-  category: MLOps Platforms
-  section: LLM observability / evals
-  tags:
-    - ai
-    - mlops-platforms
-    - llm-observability-evals
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://arize.com/wp-content/uploads/2026/05/Phoenix.jpg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=phoenix.arize.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: Arize AI
-  url: https://arize.com
-  description: production ML/LLM observability.
-  topic: AI
-  category: MLOps Platforms
-  section: LLM observability / evals
-  tags:
-    - ai
-    - mlops-platforms
-    - llm-observability-evals
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://arize.com/wp-content/uploads/2025/02/General-featured.jpg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=arize.com
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: TruLens
-  url: https://www.trulens.org
-  description: eval & feedback for LLM apps.
-  topic: AI
-  category: MLOps Platforms
-  section: LLM observability / evals
-  tags:
-    - ai
-    - mlops-platforms
-    - llm-observability-evals
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: /assets/images/Neural_Network_Explainability.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.trulens.org
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: Braintrust
-  url: https://www.braintrust.dev
-  description: eval platform for AI products.
-  topic: AI
-  category: MLOps Platforms
-  section: LLM observability / evals
-  tags:
-    - ai
-    - mlops-platforms
-    - llm-observability-evals
-    - mlops
-    - observability
-    - orchestration
-  audience: builders
-  pricing: unknown
-  logo: https://www.braintrust.dev/og?title=Braintrust+-+The+AI+observability+platform+for+building+quality+AI+products&v=3
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.braintrust.dev
-  sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: WhyLabs
-  url: https://whylabs.ai
-  description: data/model monitoring.
-  topic: AI
-  category: MLOps Platforms
-  section: LLM observability / evals
-  tags:
-    - ai
-    - mlops-platforms
-    - llm-observability-evals
-    - mlops
-    - observability
-    - orchestration
+  tags: [ai, mlops-platforms, managed-cloud-ml, mlops, observability, orchestration]
   audience: builders
   pricing: unknown
   logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=whylabs.ai
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.databricks.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
-- title: OpenLLMetry / Traceloop
-  url: https://www.traceloop.com
-  description: OpenTelemetry for LLMs.
+  notes: null
+  last_checked: 2026-07-27
+- title: Langfuse
+  url: https://langfuse.com
+  description: An open-source platform for language-model tracing, prompt management, metrics, datasets, and evaluations.
   topic: AI
   category: MLOps Platforms
   section: LLM observability / evals
-  tags:
-    - ai
-    - mlops-platforms
-    - llm-observability-evals
-    - mlops
-    - observability
-    - orchestration
+  tags: [ai, mlops-platforms, llm-observability-evals, mlops, observability, orchestration]
   audience: builders
   pricing: unknown
-  logo: https://cdn.prod.website-files.com/6813b49cdb25f6ecabc12793/6915acf131f6d9813bf464c8_traceloop-ograph.jpg
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=langfuse.com
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: LangSmith
+  url: https://www.langchain.com/langsmith
+  description: LangChain's hosted platform for tracing, testing, evaluating, and deploying language-model applications.
+  topic: AI
+  category: MLOps Platforms
+  section: LLM observability / evals
+  tags: [ai, mlops-platforms, llm-observability-evals, mlops, observability, orchestration]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.langchain.com
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: Helicone
+  url: https://www.helicone.ai
+  description: An open-source gateway and observability platform for logging, caching, monitoring, and evaluating language-model requests.
+  topic: AI
+  category: MLOps Platforms
+  section: LLM observability / evals
+  tags: [ai, mlops-platforms, llm-observability-evals, mlops, observability, orchestration]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.helicone.ai
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: Phoenix (Arize)
+  url: https://docs.arize.com/phoenix
+  description: Arize's open-source platform for AI tracing, retrieval analysis, experiments, and evaluations.
+  topic: AI
+  category: MLOps Platforms
+  section: LLM observability / evals
+  tags: [ai, mlops-platforms, llm-observability-evals, mlops, observability, orchestration]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=docs.arize.com
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: TruLens
+  url: https://www.trulens.org
+  description: A Snowflake-supported open-source library for tracing and systematically evaluating language-model applications.
+  topic: AI
+  category: MLOps Platforms
+  section: LLM observability / evals
+  tags: [ai, mlops-platforms, llm-observability-evals, mlops, observability, orchestration]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.trulens.org
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: Braintrust
+  url: https://www.braintrust.dev
+  description: A hosted platform for datasets, prompt experiments, evaluations, tracing, and quality monitoring for AI products.
+  topic: AI
+  category: MLOps Platforms
+  section: LLM observability / evals
+  tags: [ai, mlops-platforms, llm-observability-evals, mlops, observability, orchestration]
+  audience: builders
+  pricing: unknown
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.braintrust.dev
+  sublinks: []
+  notes: null
+  last_checked: 2026-07-27
+- title: OpenLLMetry / Traceloop
+  url: https://www.traceloop.com
+  description: An OpenTelemetry-based platform and instrumentation library for tracing and evaluating language-model applications.
+  topic: AI
+  category: MLOps Platforms
+  section: LLM observability / evals
+  tags: [ai, mlops-platforms, llm-observability-evals, mlops, observability, orchestration]
+  audience: builders
+  pricing: unknown
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=www.traceloop.com
   sublinks: []
-  notes: "Imported from Obsidian: Resources/AI/MLOps Platforms.md"
-  last_checked: 2026-05-26
+  notes: null
+  last_checked: 2026-07-27

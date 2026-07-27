@@ -1,171 +1,247 @@
 - title: Keycloak
   url: https://keycloak.org
-  description: Open-source identity and access management with SSO, OIDC, SAML,
-    and fine-grained authorisation.
+  description: Open-source identity and access management with SSO, OIDC, SAML, and fine-grained
+    authorisation.
   topic: Security
   category: Identity & Access Management
   section: Open-source IAM
   tags:
-    - security
-    - iam
-    - sso
-    - open-source
+  - security
+  - iam
+  - sso
+  - open-source
   audience: developers
   pricing: free
-  logo: https://www.keycloak.org/preview/index.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=keycloak.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Authentik
   url: https://goauthentik.io
-  description: Self-hosted identity provider supporting OIDC, SAML, LDAP, and
-    Radius with a modern UI.
+  description: Self-hosted identity provider supporting OIDC, SAML, LDAP, and Radius with
+    a modern UI.
   topic: Security
   category: Identity & Access Management
   section: Open-source IAM
   tags:
-    - security
-    - iam
-    - sso
-    - self-hosted
+  - security
+  - iam
+  - sso
+  - self-hosted
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=goauthentik.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Authelia
   url: https://authelia.com
-  description: Open-source authentication and authorisation server providing 2FA
-    and SSO for reverse proxies.
+  description: Open-source authentication and authorisation server providing 2FA and SSO for
+    reverse proxies.
   topic: Security
   category: Identity & Access Management
   section: Open-source IAM
   tags:
-    - security
-    - 2fa
-    - sso
-    - self-hosted
+  - security
+  - 2fa
+  - sso
+  - self-hosted
   audience: developers
   pricing: free
-  logo: https://www.authelia.com/cover.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=authelia.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: HashiCorp Vault
-  url: https://vaultproject.io
-  description: Secrets management, encryption-as-a-service, and dynamic
-    credentials for any infrastructure.
+  url: https://developer.hashicorp.com/vault
+  description: Official Vault documentation for secrets management, dynamic credentials, encryption
+    services, and access policies.
   topic: Security
   category: Identity & Access Management
   section: Secrets management
   tags:
-    - security
-    - secrets
-    - vault
-    - hashicorp
+  - security
+  - secrets
+  - vault
+  - hashicorp
   audience: developers
   pricing: freemium
-  logo: https://developer.hashicorp.com/og-image/vault.jpg
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=vaultproject.io
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=developer.hashicorp.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
-- title: NIST SP 800-63 Digital Identity Guidelines
-  url: https://pages.nist.gov/800-63-3/
-  description: NIST's authoritative guidelines for digital identity,
-    authentication levels, and federation.
+  last_checked: '2026-07-27'
+- title: NIST SP 800-63-4 Digital Identity Guidelines
+  url: https://pages.nist.gov/800-63-4/
+  description: Current NIST guidance for identity proofing, authentication, federation, and
+    authenticator assurance levels.
   topic: Security
   category: Identity & Access Management
   section: Standards & frameworks
   tags:
-    - security
-    - identity
-    - standards
-    - nist
+  - security
+  - identity
+  - standards
+  - nist
   audience: security-professionals
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=pages.nist.gov
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: OpenID Connect
   url: https://openid.net/connect/
-  description: Identity layer built on top of OAuth 2.0 enabling client
-    applications to verify end-user identity.
+  description: Identity layer built on top of OAuth 2.0 enabling client applications to verify
+    end-user identity.
   topic: Security
   category: Identity & Access Management
   section: Standards & frameworks
   tags:
-    - security
-    - oidc
-    - oauth
-    - standards
+  - security
+  - oidc
+  - oauth
+  - standards
   audience: developers
   pricing: free
-  logo: https://openid.net/wp-content/uploads/2022/11/df-l-oix-l-openid_rgb-300dpi.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=openid.net
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: FIDO Alliance
   url: https://fidoalliance.org
-  description: Industry consortium behind FIDO2, WebAuthn, and passkeys — the
-    standard for passwordless authentication.
+  description: Industry consortium behind FIDO2, WebAuthn, and passkeys — the standard for
+    passwordless authentication.
   topic: Security
   category: Identity & Access Management
   section: Standards & frameworks
   tags:
-    - security
-    - passkeys
-    - webauthn
-    - passwordless
+  - security
+  - passkeys
+  - webauthn
+  - passwordless
   audience: developers
   pricing: free
-  logo: https://fidoalliance.org/wp-content/uploads/2023/12/fidoalliance-logo.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=fidoalliance.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Zitadel
   url: https://zitadel.com
-  description: Cloud-native, open-source IAM solution with multi-tenancy,
-    passkeys, and audit log out of the box.
+  description: Cloud-native, open-source IAM solution with multi-tenancy, passkeys, and audit
+    log out of the box.
   topic: Security
   category: Identity & Access Management
   section: Open-source IAM
   tags:
-    - security
-    - iam
-    - multi-tenant
-    - open-source
+  - security
+  - iam
+  - multi-tenant
+  - open-source
   audience: developers
   pricing: freemium
-  logo: https://zitadel.com/og-image.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=zitadel.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: OAuth 2.0
   url: https://oauth.net/2/
-  description: The authorisation framework spec and resources — RFCs, security
-    BCP, and implementation guides.
+  description: The authorisation framework spec and resources — RFCs, security BCP, and implementation
+    guides.
   topic: Security
   category: Identity & Access Management
   section: Standards & frameworks
   tags:
-    - security
-    - oauth
-    - authorisation
-    - standards
+  - security
+  - oauth
+  - authorisation
+  - standards
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=oauth.net
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: Web Authentication Level 3
+  url: https://www.w3.org/TR/webauthn-3/
+  description: W3C specification for public-key credentials used by passkeys and phishing-resistant
+    web authentication.
+  topic: Security
+  category: Identity & Access Management
+  section: Standards & frameworks
+  tags:
+  - security
+  - webauthn
+  - passkeys
+  - standards
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.w3.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: SCIM Protocol — RFC 7644
+  url: https://www.rfc-editor.org/rfc/rfc7644
+  description: IETF protocol specification for interoperable provisioning and management of
+    identity data.
+  topic: Security
+  category: Identity & Access Management
+  section: Standards & frameworks
+  tags:
+  - security
+  - scim
+  - identity
+  - rfc
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.rfc-editor.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: SPIFFE
+  url: https://spiffe.io
+  description: CNCF project defining interoperable workload identities and attestation for
+    distributed systems.
+  topic: Security
+  category: Identity & Access Management
+  section: Standards & frameworks
+  tags:
+  - security
+  - identity
+  - workload
+  - zero-trust
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=spiffe.io
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: OWASP Authentication Cheat Sheet
+  url: https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html
+  description: OWASP guidance for implementing authentication, credential handling, session
+    controls, and reauthentication.
+  topic: Security
+  category: Identity & Access Management
+  section: Standards & frameworks
+  tags:
+  - security
+  - authentication
+  - owasp
+  - appsec
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cheatsheetseries.owasp.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'

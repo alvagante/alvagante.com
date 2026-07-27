@@ -1,196 +1,234 @@
 - title: OWASP Foundation
   url: https://owasp.org
-  description: Open community producing free resources, tools, and standards for
-    improving software security worldwide.
+  description: Open community producing free resources, tools, and standards for improving
+    software security worldwide.
   topic: Security
   category: Application Security
   section: Standards & references
   tags:
-    - security
-    - web
-    - appsec
-    - standards
+  - security
+  - web
+  - appsec
+  - standards
   audience: developers
   pricing: free
-  logo: https://owasp.org/www--site-theme/favicon.ico
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=owasp.org
   sublinks:
-    - title: OWASP Top Ten
-      url: https://owasp.org/www-project-top-ten/
-    - title: OWASP ASVS
-      url: https://owasp.org/www-project-application-security-verification-standard/
+  - title: OWASP Top Ten
+    url: https://owasp.org/www-project-top-ten/
+  - title: OWASP ASVS
+    url: https://owasp.org/www-project-application-security-verification-standard/
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: PortSwigger Web Security Academy
   url: https://portswigger.net/web-security
-  description: Free, world-class web security training with hands-on labs covering
-    every major vulnerability class.
+  description: Free, world-class web security training with hands-on labs covering every major
+    vulnerability class.
   topic: Security
   category: Application Security
   section: Training & labs
   tags:
-    - security
-    - web
-    - learning
-    - labs
+  - security
+  - web
+  - learning
+  - labs
   audience: developers
   pricing: free
-  logo: https://portswigger.net/content/images/logos/academy-twittercard.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=portswigger.net
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: CWE — Common Weakness Enumeration
   url: https://cwe.mitre.org
-  description: MITRE's community-developed list of software and hardware weakness
-    types used in vulnerability classification.
+  description: MITRE's community-developed list of software and hardware weakness types used
+    in vulnerability classification.
   topic: Security
   category: Application Security
   section: Standards & references
   tags:
-    - security
-    - appsec
-    - weakness
-    - classification
+  - security
+  - appsec
+  - weakness
+  - classification
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=cwe.mitre.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
-- title: HackTricks
-  url: https://book.hacktricks.xyz
-  description: Continuously updated hacking and pentesting reference covering
-    techniques, tools, and CTF tricks.
-  topic: Security
-  category: Application Security
-  section: Training & labs
-  tags:
-    - security
-    - pentesting
-    - reference
-    - ctf
-  audience: security-professionals
-  pricing: free
-  logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=book.hacktricks.xyz
-  sublinks: []
-  notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Semgrep
   url: https://semgrep.dev
-  description: Static analysis tool for finding bugs and security issues in source
-    code with a large rule registry.
+  description: Static analysis tool for finding bugs and security issues in source code with
+    a large rule registry.
   topic: Security
   category: Application Security
   section: SAST & code scanning
   tags:
-    - security
-    - sast
-    - static-analysis
-    - ci
+  - security
+  - sast
+  - static-analysis
+  - ci
   audience: developers
   pricing: freemium
-  logo: https://semgrep.dev/assets/content/global/blog-thumbnail-default.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=semgrep.dev
   sublinks:
-    - title: Rule registry
-      url: https://semgrep.dev/r
+  - title: Rule registry
+    url: https://semgrep.dev/r
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: OWASP ZAP
   url: https://zaproxy.org
-  description: Open-source DAST scanner and proxy for automatically finding
-    security vulnerabilities in web applications.
+  description: Open-source DAST scanner and proxy for automatically finding security vulnerabilities
+    in web applications.
   topic: Security
   category: Application Security
   section: DAST & scanning
   tags:
-    - security
-    - dast
-    - web
-    - scanning
+  - security
+  - dast
+  - web
+  - scanning
   audience: developers
   pricing: free
-  logo: https://www.zaproxy.org/img/zap-banner.png
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=zaproxy.org
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Snyk
   url: https://snyk.io
-  description: Developer security platform for scanning code, dependencies,
-    containers, and IaC for vulnerabilities.
+  description: Developer security platform for scanning code, dependencies, containers, and
+    IaC for vulnerabilities.
   topic: Security
   category: Application Security
   section: SAST & code scanning
   tags:
-    - security
-    - supply-chain
-    - dependency
-    - devsecops
+  - security
+  - supply-chain
+  - dependency
+  - devsecops
   audience: developers
   pricing: freemium
-  logo: https://snyk.io/_next/static/media/default-social.8953a9bd.jpg
+  logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=snyk.io
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: SonarQube
-  url: https://sonarqube.org
-  description: Continuous code quality and security inspection platform supporting
-    30+ languages.
+  url: https://www.sonarsource.com/products/sonarqube/
+  description: SonarSource platform for static code analysis, code quality checks, and security-focused
+    rules across many languages.
   topic: Security
   category: Application Security
   section: SAST & code scanning
   tags:
-    - security
-    - sast
-    - code-quality
-    - ci
+  - security
+  - sast
+  - code-quality
+  - ci
   audience: developers
   pricing: freemium
-  logo: https://assets-eu-01.kc-usercontent.com:443/ef593040-b591-0198-9506-ed88b30bc023/8e69d91e-9d71-453d-a4c7-d25797ae7e1a/sonar-open-graph%402x.png
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=sonarqube.org
-  sublinks: []
-  notes: null
-  last_checked: 2026-05-26
-- title: Trivy
-  url: https://trivy.dev
-  description: Comprehensive open-source security scanner for containers,
-    filesystems, IaC, and git repositories.
-  topic: Security
-  category: Application Security
-  section: DAST & scanning
-  tags:
-    - security
-    - containers
-    - iac
-    - supply-chain
-  audience: developers
-  pricing: free
   logo: null
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=trivy.dev
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=www.sonarsource.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
 - title: Content Security Policy (CSP) Evaluator
   url: https://csp-evaluator.withgoogle.com
-  description: Google tool for analysing CSP header configurations and identifying
-    common misconfigurations and bypasses.
+  description: Google tool for analysing CSP header configurations and identifying common
+    misconfigurations and bypasses.
   topic: Security
   category: Application Security
   section: Browser & web standards
   tags:
-    - security
-    - csp
-    - web
-    - headers
+  - security
+  - csp
+  - web
+  - headers
   audience: developers
   pricing: free
   logo: null
   favicon: https://www.google.com/s2/favicons?sz=64&domain=csp-evaluator.withgoogle.com
   sublinks: []
   notes: null
-  last_checked: 2026-05-26
+  last_checked: '2026-07-27'
+- title: OWASP Cheat Sheet Series
+  url: https://cheatsheetseries.owasp.org/
+  description: Practical, community-reviewed guidance for implementing common application
+    security controls and avoiding recurring weaknesses.
+  topic: Security
+  category: Application Security
+  section: Standards & references
+  tags:
+  - security
+  - appsec
+  - owasp
+  - guidance
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=cheatsheetseries.owasp.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: NIST Secure Software Development Framework
+  url: https://csrc.nist.gov/pubs/sp/800/218/final
+  description: NIST SP 800-218 practices for integrating secure software development activities
+    across the development lifecycle.
+  topic: Security
+  category: Application Security
+  section: Standards & references
+  tags:
+  - security
+  - ssdf
+  - nist
+  - secure-development
+  audience: security-professionals
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=csrc.nist.gov
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: OWASP Dependency-Track
+  url: https://dependencytrack.org/
+  description: Open-source software composition analysis platform for tracking components,
+    SBOMs, and known supply-chain risk.
+  topic: Security
+  category: Application Security
+  section: SAST & code scanning
+  tags:
+  - security
+  - supply-chain
+  - sbom
+  - sca
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=dependencytrack.org
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
+- title: CodeQL Documentation
+  url: https://codeql.github.com/docs/
+  description: Official documentation for querying code as data to identify security vulnerabilities
+    and software defects.
+  topic: Security
+  category: Application Security
+  section: SAST & code scanning
+  tags:
+  - security
+  - sast
+  - codeql
+  - static-analysis
+  audience: developers
+  pricing: free
+  logo: null
+  favicon: https://www.google.com/s2/favicons?sz=64&domain=codeql.github.com
+  sublinks: []
+  notes: null
+  last_checked: '2026-07-27'
