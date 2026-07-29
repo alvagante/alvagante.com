@@ -7,7 +7,7 @@ LOG_PREFIX="[alvagante-daily-news]"
 LOCK_FILE="${LOCK_FILE:-/tmp/alvagante-daily-news.lock}"
 NEWS_TIMEOUT="${NEWS_TIMEOUT:-50m}"
 BUILD_TIMEOUT="${BUILD_TIMEOUT:-20m}"
-GENERATED_PATHS=("_data/generated/news" "rss.xml")
+GENERATED_PATHS=("_data/generated/news" "_news_days" "rss.xml")
 
 export PATH="${HOME}/.local/bin:${HOME}/bin:${HOME}/.deno/bin:/usr/local/bin:/usr/bin:/bin:${PATH:-}"
 

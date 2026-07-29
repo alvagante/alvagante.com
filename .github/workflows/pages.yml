@@ -53,7 +53,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update daily news digest"
-          file_pattern: "_data/generated/news/*.yml"
+          file_pattern: "_data/generated/news/*.yml _news_days/*.html"
       - name: Build Jekyll
         run: bundle exec jekyll build
       - uses: actions/upload-pages-artifact@v3

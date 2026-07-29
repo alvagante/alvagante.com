@@ -50,5 +50,5 @@ permalink: /sitemap/
 {% assign digests = site.data.generated.news %}
 {% for pair in digests %}
 {% assign digest_date = pair.first %}
-- [{{ digest_date }}]({{ "/news/" | relative_url }}#{{ digest_date }})
+- [{{ digest_date }}]({{ "/news/" | append: digest_date | append: "/" | relative_url }})
 {% endfor %}

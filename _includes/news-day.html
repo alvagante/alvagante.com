@@ -1,0 +1,25 @@
+{% assign date = include.date %}
+{% assign generated_at = include.generated_at %}
+{% assign items = include.items %}
+{% assign categories = items | map: "category" | uniq | sort %}
+<div class="digest-day" data-news-day-body data-news-date-value="{{ date }}">
+  <header>
+    <div>
+      <p class="meta">{{ generated_at | default: date }}</p>
+      <h2>{{ date }}</h2>
+    </div>
+    <span class="count">{{ items.size }} items</span>
+  </header>
+  <div class="news-controls__categories" data-news-day-categories aria-label="Category filters for {{ date }}">
+    <button class="is-active" type="button" data-news-day-category="all" aria-pressed="true">All</button>
+    {% for category in categories %}
+      <button type="button" data-news-day-category="{{ category | downcase | escape }}" aria-pressed="false">{{ category }}</button>
+    {% endfor %}
+  </div>
+  <div class="news-list" data-news-day-list>
+    {% assign ranked_items = items | sort: "relevance" | reverse %}
+    {% for item in ranked_items %}
+      {% include news-item.html item=item %}
+    {% endfor %}
+  </div>
+</div>

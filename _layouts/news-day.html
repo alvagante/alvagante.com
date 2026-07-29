@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{% assign digest = site.data.generated.news[page.digest_date] %}
+<section class="page-head">
+  <div>
+    <p class="eyebrow">Daily digest</p>
+    <h1>{{ page.digest_date }}</h1>
+    <p class="lede"><a href="{{ '/news/' | relative_url }}">&larr; All digests</a></p>
+  </div>
+</section>
+
+{% if digest %}
+  {% include news-day.html date=page.digest_date generated_at=digest.generated_at items=digest.items %}
+{% else %}
+  <p class="empty">No digest found for {{ page.digest_date }}.</p>
+{% endif %}

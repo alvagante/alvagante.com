@@ -54,6 +54,7 @@ Canonical public data lives under `_data/`:
 - `_data/links/<topic>/<category>.yml` - curated directory entries grouped by topic and category.
 - `_data/sources/<category>.yml` - RSS/Atom sources used by the news digest, grouped by news category.
 - `_data/generated/news/YYYY-MM-DD.yml` - generated daily digest files consumed by the Jekyll pages.
+- `_news_days/YYYY-MM-DD.html` - thin per-date Jekyll collection stub (front matter only: `digest_date`). Its `news-day` layout reads the actual digest back out of `site.data.generated.news[page.digest_date]`; this is what gives each date its own lazily-fetchable page at `/news/YYYY-MM-DD/` instead of `/news/` embedding every digest ever generated.
 
 Primary site files are:
 
@@ -118,7 +119,7 @@ swamp workflow validate daily-news --json
 swamp workflow run daily-news
 ```
 
-The `daily-news` workflow calls `site-curation.build_daily_digest`, writes `_data/generated/news/YYYY-MM-DD.yml`, and stores a swamp data resource for the same digest. Preserve the workflow ID in `workflows/workflow-*.yaml`; create new workflows only with `swamp workflow create <name> --json` before editing.
+The `daily-news` workflow calls `site-curation.build_daily_digest`, writes `_data/generated/news/YYYY-MM-DD.yml` plus its `_news_days/YYYY-MM-DD.html` stub, and stores a swamp data resource for the same digest. Preserve the workflow ID in `workflows/workflow-*.yaml`; create new workflows only with `swamp workflow create <name> --json` before editing.
 
 The model can run without an OpenAI key by using feed excerpts. For AI enrichment, provide `OPENAI_API_KEY` through a swamp vault, environment variable, or GitHub Actions secret. Never commit API keys or put them directly in model YAML.
 
@@ -155,7 +156,7 @@ For swamp extension/model/workflow changes, run the relevant swamp validation co
 ## Editing Guidelines
 
 - Treat `_data/links/<topic>/<category>.yml` and `_data/sources/<category>.yml` as hand-curated source data.
-- Treat `_data/generated/news/*.yml` as generated but commit-worthy site content.
+- Treat `_data/generated/news/*.yml` and `_news_days/*.html` as generated but commit-worthy site content.
 - Keep frontend UI compact and dashboard-like; avoid landing-page hero bloat.
 - Keep Liquid simple and GitHub Pages compatible.
 - Do not edit the swamp-managed section at the top of this file.

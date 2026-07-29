@@ -65,57 +65,84 @@
   if (!root || !list) return;
 
   const dateInput = root.querySelector("[data-news-date]");
-  const categoryButtons = [...root.querySelectorAll("[data-news-category]")];
-  const days = [...list.querySelectorAll("[data-news-day]")];
   const empty = document.querySelector("[data-news-empty]");
-  let activeCategory = "all";
+  const datesEl = document.querySelector("[data-news-available-dates]");
+  const availableDates = datesEl ? JSON.parse(datesEl.textContent) : [];
+  const base = root.dataset.newsBase || "/news/";
+  const cache = new Map();
 
-  const hasDate = (value) => days.some((day) => day.dataset.newsDateValue === value);
+  let currentBody = list.querySelector("[data-news-day-body]");
 
-  if (!hasDate(dateInput.value) && dateInput.max && hasDate(dateInput.max)) {
-    dateInput.value = dateInput.max;
-  }
+  const bindDay = (body) => {
+    const buttons = [...body.querySelectorAll("[data-news-day-category]")];
+    const items = [...body.querySelectorAll("[data-news-item]")];
 
-  const apply = () => {
-    const selectedDate = dateInput.value;
-    let shownItems = 0;
-
-    for (const day of days) {
-      const dateMatches = day.dataset.newsDateValue === selectedDate;
-      const sections = [...day.querySelectorAll("[data-news-category-section]")];
-      let visibleSections = 0;
-
-      for (const section of sections) {
-        const categoryMatches = activeCategory === "all" ||
-          section.dataset.newsCategorySection === activeCategory;
-        const visible = dateMatches && categoryMatches;
-        section.hidden = !visible;
-        if (visible) {
-          visibleSections += 1;
-          shownItems += section.querySelectorAll(".news-item").length;
-        }
+    const selectCategory = (category) => {
+      for (const button of buttons) {
+        const active = button.dataset.newsDayCategory === category;
+        button.classList.toggle("is-active", active);
+        button.setAttribute("aria-pressed", String(active));
       }
+      for (const item of items) {
+        item.hidden = category !== "all" && item.dataset.newsCategory !== category;
+      }
+    };
 
-      day.hidden = !dateMatches || visibleSections === 0;
+    for (const button of buttons) {
+      button.addEventListener("click", () => selectCategory(button.dataset.newsDayCategory || "all"));
     }
-
-    if (empty) empty.hidden = shownItems !== 0;
   };
 
-  dateInput.addEventListener("input", apply);
-  for (const button of categoryButtons) {
-    button.addEventListener("click", () => {
-      activeCategory = button.dataset.newsCategory || "all";
-      for (const option of categoryButtons) {
-        const isActive = option === button;
-        option.classList.toggle("is-active", isActive);
-        option.setAttribute("aria-pressed", String(isActive));
-      }
-      apply();
-    });
-  }
+  if (currentBody) bindDay(currentBody);
 
-  apply();
+  const swapBody = (body) => {
+    currentBody.replaceWith(body);
+    currentBody = body;
+    bindDay(currentBody);
+  };
+
+  const loadDate = async (date) => {
+    if (!date) return;
+
+    if (!availableDates.includes(date)) {
+      if (empty) {
+        empty.hidden = false;
+        empty.textContent = "No digest found for the selected date.";
+      }
+      if (currentBody) currentBody.hidden = true;
+      return;
+    }
+
+    if (empty) empty.hidden = true;
+    if (currentBody) currentBody.hidden = false;
+
+    if (date === currentBody?.dataset.newsDateValue) return;
+
+    if (cache.has(date)) {
+      swapBody(cache.get(date).cloneNode(true));
+      return;
+    }
+
+    try {
+      const response = await fetch(`${base}${date}/`);
+      if (!response.ok) throw new Error(String(response.status));
+      const html = await response.text();
+      const parsed = new DOMParser().parseFromString(html, "text/html");
+      const body = parsed.querySelector("[data-news-day-body]");
+      if (!body) throw new Error("missing digest content");
+      cache.set(date, body.cloneNode(true));
+      swapBody(body);
+    } catch (error) {
+      if (empty) {
+        empty.hidden = false;
+        empty.textContent = "Couldn't load that day's digest.";
+      }
+      if (currentBody) currentBody.hidden = true;
+      console.error(error);
+    }
+  };
+
+  dateInput.addEventListener("change", () => loadDate(dateInput.value));
 })();
 
 

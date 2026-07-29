@@ -63,6 +63,7 @@ const GlobalArgsSchema = z.object({
   linksPath: z.string().default("_data/links"),
   newsSourcesPath: z.string().default("_data/sources"),
   generatedNewsDir: z.string().default("_data/generated/news"),
+  newsDayPagesDir: z.string().default("_news_days"),
   rssPath: z.string().default("rss.xml"),
   siteUrl: z.string().url().default("https://alvagante.com"),
   openaiModel: z.string().default("gpt-5.4-mini"),
@@ -1166,6 +1167,20 @@ export const model = {
           await Deno.writeTextFile(
             pathJoin(outDir, `${date}.yml`),
             stringifyYaml(digest),
+          );
+
+          // Thin Jekyll collection stub — gives this date's digest a real,
+          // individually fetchable page (/news/<date>/) without duplicating
+          // the digest data; the news-day layout reads it back from
+          // site.data.generated.news[page.digest_date].
+          const newsDayPagesDir = pathJoin(
+            globals.repoDir,
+            globals.newsDayPagesDir,
+          );
+          await Deno.mkdir(newsDayPagesDir, { recursive: true });
+          await Deno.writeTextFile(
+            pathJoin(newsDayPagesDir, `${date}.html`),
+            `---\ndigest_date: "${date}"\n---\n`,
           );
 
           if (args.writeRss) {

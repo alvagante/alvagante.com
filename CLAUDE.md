@@ -62,7 +62,9 @@ A GitHub Pages Jekyll site: compact personal link directory + AI-assisted daily 
 - `_data/sources/<category>.yml` — enabled RSS/Atom feeds by news category (do not overwrite).
 - `_data/generated/news/YYYY-MM-DD.yml` — generated digest files (commit-worthy, machine-written).
 
-**Swamp extension** `@alvagante/site-curation` (`extensions/models/site_curation.ts`) is a fan-out model. The `build_daily_digest` method fetches all enabled feeds, optionally enriches via OpenAI, deduplicates, ranks, and writes the YAML digest in one run. Registered via `manifest.yaml`; the configured model instance is `site-curation` under `models/@alvagante/site-curation/`.
+**`_news_days/YYYY-MM-DD.html`** — one thin Jekyll collection stub per digest date (front matter is just `digest_date: "YYYY-MM-DD"`, no duplicated data). The `news_days` collection (`_config.yml`) gives each date a real page at `/news/<date>/` via the `news-day` layout, which looks the actual digest back up from `site.data.generated.news[page.digest_date]`. This lets `/news/` inline only the latest day and lazy-load any other date over `fetch()` (see `assets/js/filters.js`), instead of shipping every digest ever generated in one HTML payload. Keep writing a stub alongside every `_data/generated/news/*.yml` file — `build_daily_digest` does this automatically.
+
+**Swamp extension** `@alvagante/site-curation` (`extensions/models/site_curation.ts`) is a fan-out model. The `build_daily_digest` method fetches all enabled feeds, optionally enriches via OpenAI, deduplicates, ranks, and writes the YAML digest plus its `_news_days/` stub in one run. Registered via `manifest.yaml`; the configured model instance is `site-curation` under `models/@alvagante/site-curation/`.
 
 **Workflow** `daily-news` (`workflows/workflow-*.yaml`) calls `site-curation.build_daily_digest` and also runs on a daily schedule (05:17 UTC). Preserve the workflow UUID in the filename; create new workflows only with `swamp workflow create <name> --json`.
 
@@ -104,7 +106,7 @@ swamp workflow run daily-news
 ## Editing Guidelines
 
 - `_data/links/` and `_data/sources/` are hand-curated — treat them as source data, not generated output.
-- `_data/generated/news/*.yml` and `rss.xml` are generated but should be committed.
+- `_data/generated/news/*.yml`, `_news_days/*.html`, and `rss.xml` are generated but should be committed.
 - Keep frontend UI compact/dashboard-like; avoid landing-page hero bloat.
 - Keep Liquid simple and GitHub Pages-compatible.
 - Do not edit the swamp-managed section at the top of this file.

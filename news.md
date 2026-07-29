@@ -20,51 +20,24 @@ permalink: /news/
   {% assign latest_pair = sorted_digests | last %}
   {% assign first_date = first_pair[0] %}
   {% assign latest_date = latest_pair[0] %}
+  {% assign latest = latest_pair[1] %}
+  {% assign news_day_docs = site.news_days | sort: "digest_date" %}
+  {% capture available_dates_csv %}{% for doc in news_day_docs %}{{ doc.digest_date }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+  {% assign available_dates = available_dates_csv | split: "," %}
 
-  <section class="news-controls" data-news-filters>
+  <section class="news-controls" data-news-filters data-news-base="{{ '/news/' | relative_url }}">
     <label>
       <span>Date</span>
       <input type="date" value="{{ latest_date }}" min="{{ first_date }}" max="{{ latest_date }}" data-news-date>
     </label>
-    <div class="news-controls__categories" aria-label="News category filters" data-news-categories>
-      <button class="is-active" type="button" data-news-category="all" aria-pressed="true">All</button>
-      {% for source_file in site.data.sources %}
-        {% assign source = source_file[1] | first %}
-        {% if source.category %}
-          <button type="button" data-news-category="{{ source.category | downcase | escape }}" aria-pressed="false">{{ source.category }}</button>
-        {% endif %}
-      {% endfor %}
-    </div>
   </section>
 
-  <p class="empty" data-news-empty hidden>No digest found for the selected filters.</p>
+  <script type="application/json" data-news-available-dates>{{ available_dates | jsonify }}</script>
+
+  <p class="empty" data-news-empty hidden>No digest found for the selected date.</p>
 
   <section class="digest-index" data-news-list>
-    {% for pair in sorted_digests reversed %}
-      {% assign digest_date = pair.first %}
-      {% assign digest = pair.last %}
-      <article class="digest-day" id="{{ digest_date }}" data-news-day data-news-date-value="{{ digest_date }}">
-        <header>
-          <div>
-            <p class="meta">{{ digest.generated_at | default: digest.date }}</p>
-            <h2>{{ digest.date | default: digest_date }}</h2>
-          </div>
-          <span class="count">{{ digest.items.size }} items</span>
-        </header>
-        {% assign categories = digest.items | map: "category" | uniq | sort %}
-        {% for category in categories %}
-          <section class="news-category" data-news-category-section="{{ category | downcase | escape }}">
-            <h3>{{ category }}</h3>
-            <div class="news-list">
-              {% assign category_items = digest.items | where: "category", category | sort: "relevance" | reverse %}
-              {% for item in category_items %}
-                {% include news-item.html item=item %}
-              {% endfor %}
-            </div>
-          </section>
-        {% endfor %}
-      </article>
-    {% endfor %}
+    {% include news-day.html date=latest_date generated_at=latest.generated_at items=latest.items %}
   </section>
 {% else %}
   <p class="empty">No generated digest yet.</p>
