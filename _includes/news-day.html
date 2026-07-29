@@ -10,12 +10,14 @@
     </div>
     <span class="count">{{ items.size }} items</span>
   </header>
-  <div class="news-controls__categories" data-news-day-categories aria-label="Category filters for {{ date }}">
-    <button class="is-active" type="button" data-news-day-category="all" aria-pressed="true">All</button>
-    {% for category in categories %}
-      <button type="button" data-news-day-category="{{ category | downcase | escape }}" aria-pressed="false">{{ category }}</button>
-    {% endfor %}
-  </div>
+  {% if categories.size > 1 %}
+    <div class="news-controls__categories" data-news-day-categories aria-label="Category filters for {{ date }}">
+      <button class="is-active" type="button" data-news-day-category="all" aria-pressed="true">All</button>
+      {% for category in categories %}
+        <button type="button" data-news-day-category="{{ category | downcase | escape }}" aria-pressed="false">{{ category }}</button>
+      {% endfor %}
+    </div>
+  {% endif %}
   <div class="news-list" data-news-day-list>
     {% assign ranked_items = items | sort: "relevance" | reverse %}
     {% for item in ranked_items %}

@@ -33,6 +33,13 @@
     {% assign topic_items = digest.items | where: "category", topic.title %}
     {% assign news_count = news_count | plus: topic_items.size %}
   {% endfor %}
+  {% assign latest_pair = sorted_digests | last %}
+  {% assign latest_date = latest_pair[0] %}
+  {% assign latest_digest = latest_pair[1] %}
+  {% assign latest_topic_items = latest_digest.items | where: "category", topic.title %}
+  {% assign news_day_docs = site.news_days | sort: "digest_date" %}
+  {% capture available_dates_csv %}{% for doc in news_day_docs %}{{ doc.digest_date }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+  {% assign available_dates = available_dates_csv | split: "," %}
 {% endif %}
 
 <section class="page-head">
@@ -92,28 +99,19 @@
   </header>
 
   {% if digests and news_count > 0 %}
-    <section class="digest-index">
-      {% for pair in sorted_digests reversed %}
-        {% assign digest_date = pair.first %}
-        {% assign digest = pair.last %}
-        {% assign topic_items = digest.items | where: "category", topic.title | sort: "relevance" | reverse %}
-        {% if topic_items.size > 0 %}
-          <article class="digest-day" id="{{ digest_date }}">
-            <header>
-              <div>
-                <p class="meta">{{ digest.generated_at | default: digest.date }}</p>
-                <h3>{{ digest.date | default: digest_date }}</h3>
-              </div>
-              <span class="count">{{ topic_items.size }} items</span>
-            </header>
-            <div class="news-list">
-              {% for item in topic_items %}
-                {% include news-item.html item=item %}
-              {% endfor %}
-            </div>
-          </article>
-        {% endif %}
-      {% endfor %}
+    <section class="news-controls" data-topic-news-filters data-news-base="{{ '/news/' | relative_url }}" data-topic-category="{{ topic.title | downcase | escape }}">
+      <label>
+        <span>Date</span>
+        <input type="date" value="{{ latest_date }}" min="{{ available_dates | first }}" max="{{ latest_date }}" data-news-date>
+      </label>
+    </section>
+
+    <script type="application/json" data-topic-news-available-dates>{{ available_dates | jsonify }}</script>
+
+    <p class="empty" data-topic-news-empty hidden>No items for this topic on the selected date.</p>
+
+    <section class="digest-index" data-topic-news-list>
+      {% include news-day.html date=latest_date generated_at=latest_digest.generated_at items=latest_topic_items %}
     </section>
   {% else %}
     <p class="empty">No generated news found for this topic.</p>

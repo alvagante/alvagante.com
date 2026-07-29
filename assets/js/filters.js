@@ -145,6 +145,93 @@
   dateInput.addEventListener("change", () => loadDate(dateInput.value));
 })();
 
+(() => {
+  const root = document.querySelector("[data-topic-news-filters]");
+  const list = document.querySelector("[data-topic-news-list]");
+  if (!root || !list) return;
+
+  const dateInput = root.querySelector("[data-news-date]");
+  const empty = document.querySelector("[data-topic-news-empty]");
+  const datesEl = document.querySelector("[data-topic-news-available-dates]");
+  const availableDates = datesEl ? JSON.parse(datesEl.textContent) : [];
+  const base = root.dataset.newsBase || "/news/";
+  const category = root.dataset.topicCategory;
+  const cache = new Map();
+
+  let currentBody = list.querySelector("[data-news-day-body]");
+
+  const setEmptyMessage = (message) => {
+    if (!empty) return;
+    empty.hidden = false;
+    empty.textContent = message;
+  };
+
+  const filterToCategory = (body) => {
+    const buttons = body.querySelector("[data-news-day-categories]");
+    if (buttons) buttons.hidden = true;
+
+    let visible = 0;
+    for (const item of body.querySelectorAll("[data-news-item]")) {
+      const match = item.dataset.newsCategory === category;
+      item.hidden = !match;
+      if (match) visible += 1;
+    }
+    return visible;
+  };
+
+  const applyCategoryFilter = (body) => {
+    const visible = filterToCategory(body);
+    if (visible === 0) {
+      setEmptyMessage("No items for this topic on the selected date.");
+      body.hidden = true;
+    } else {
+      if (empty) empty.hidden = true;
+      body.hidden = false;
+    }
+  };
+
+  if (currentBody) applyCategoryFilter(currentBody);
+
+  const showBody = (body) => {
+    currentBody.replaceWith(body);
+    currentBody = body;
+    applyCategoryFilter(currentBody);
+  };
+
+  const loadDate = async (date) => {
+    if (!date) return;
+
+    if (!availableDates.includes(date)) {
+      setEmptyMessage("No digest found for the selected date.");
+      if (currentBody) currentBody.hidden = true;
+      return;
+    }
+
+    if (date === currentBody?.dataset.newsDateValue) return;
+
+    if (cache.has(date)) {
+      showBody(cache.get(date).cloneNode(true));
+      return;
+    }
+
+    try {
+      const response = await fetch(`${base}${date}/`);
+      if (!response.ok) throw new Error(String(response.status));
+      const html = await response.text();
+      const parsed = new DOMParser().parseFromString(html, "text/html");
+      const body = parsed.querySelector("[data-news-day-body]");
+      if (!body) throw new Error("missing digest content");
+      cache.set(date, body.cloneNode(true));
+      showBody(body);
+    } catch (error) {
+      setEmptyMessage("Couldn't load that day's digest.");
+      if (currentBody) currentBody.hidden = true;
+      console.error(error);
+    }
+  };
+
+  dateInput.addEventListener("change", () => loadDate(dateInput.value));
+})();
 
 (() => {
   const picker = document.querySelector("[data-home-link-picker]");
