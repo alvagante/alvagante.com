@@ -1,5 +1,5 @@
 date: 2026-08-06
-generated_at: 2026-08-06T04:01:08.295Z
+generated_at: 2026-08-06T07:56:44.302Z
 items:
   - title: An AI model from Meta also hacked another company during testing
     url: https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything
@@ -16,7 +16,7 @@ items:
       - llms
       - engineering
       - analysis
-    relevance: 0.8940099370370369
+    relevance: 0.8874662620370369
     published_at: 2026-08-06T00:25:27.000Z
   - title: Vulnerabilities in Car Anti-Theft Device
     url: https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html
@@ -32,7 +32,7 @@ items:
       - security
       - cryptography
       - policy
-    relevance: 0.8694894356481481
+    relevance: 0.8629461449074073
     published_at: 2026-08-05T09:42:43.000Z
   - title: Thousands of servers can be backdoored by exploiting buggy motherboard
       controllers
@@ -47,7 +47,7 @@ items:
       - it
       - infrastructure
       - engineering
-    relevance: 0.8159505106481482
+    relevance: 0.8094076236111112
     published_at: 2026-08-05T22:35:20.000Z
   - title: Elon Musk's attempt at an AI Wikipedia hasn't been updated in months
     url: https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead
@@ -63,7 +63,7 @@ items:
       - technology
       - gadgets
       - consumer
-    relevance: 0.8190020745370371
+    relevance: 0.8124582680555557
     published_at: 2026-08-06T00:25:10.000Z
   - title: King declines collective bargaining agreement with Swedish unions
     url: https://www.gamesindustry.biz/king-declines-collective-bargaining-agreement-with-swedish-unions
@@ -79,7 +79,7 @@ items:
       - industry
       - business
       - development
-    relevance: 0.7719614000000001
+    relevance: 0.765418013425926
     published_at: 2026-08-05T18:41:43.000Z
   - title: Corals Spin Tiny Vortices to Get Oxygen, but Not if It’s Too Hot
     url: https://www.quantamagazine.org/corals-spin-tiny-vortices-to-get-oxygen-but-not-if-its-too-hot-20260805/
@@ -96,7 +96,7 @@ items:
       - mathematics
       - physics
       - biology
-    relevance: 0.8794328462962963
+    relevance: 0.8728895634259258
     published_at: 2026-08-05T15:40:41.000Z
   - title: Ukraine’s Deadly Missile Defense Shortage
     url: https://foreignpolicy.com/2026/08/05/ukraine-patriot-missile-interceptor-shortage-russia-war-zelensky-us-trump-nato/
@@ -110,7 +110,7 @@ items:
       - geopolitics
       - foreign-policy
       - analysis
-    relevance: 0.8874841972222222
+    relevance: 0.8809409537037036
     published_at: 2026-08-05T20:30:32.000Z
   - title: "Cognitive Limitations and Long-Term Care Use in the Netherlands:
       Evidence from the Lifelines Cohort Study -- by Gaia Bagnasco, Pieter Bakx,
@@ -130,7 +130,7 @@ items:
       - working-papers
       - nber
     relevance: 0.7875000000000001
-    published_at: 2026-08-06T04:01:07.551Z
+    published_at: 2026-08-06T07:56:40.580Z
   - title: Introducing Muse Code and Muse Spark 1.2
     url: https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything
     source: Simon Willison's Weblog
@@ -146,7 +146,7 @@ items:
       - llms
       - engineering
       - analysis
-    relevance: 0.8932636407407406
+    relevance: 0.8867199657407406
     published_at: 2026-08-05T23:58:35.000Z
   - title: ISC Stormcast For Thursday, August 6th, 2026
       https://isc.sans.edu/podcastdetail/10040, (Thu, Aug 6th)
@@ -160,38 +160,41 @@ items:
       - security
       - threats
       - iocs
-    relevance: 0.8216368212962963
+    relevance: 0.8150937458333334
     published_at: 2026-08-06T02:00:02.000Z
-  - title: Amazon DynamoDB now supports real-time vector search at any scale
-    url: https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/
-    source: AWS Blog
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=aws.amazon.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=aws.amazon.com
-    summary: DynamoDB now supports native vector search with single-digit
-      millisecond latency at 99%+ recall. It is designed for any scale, even
-      trillions of vectors and requires zero infrastructure management.
+  - title: "Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI
+      Agents on Kubernetes"
+    url: https://www.infoq.com/news/2026/08/pod-deployment-unit-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+    source: InfoQ
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
+    summary: "Running AI agents on Kubernetes raises a key question: should each
+      agent get its own Pod? The kagent project argues no—agents are bursty,
+      short-lived, can spawn subagents, and may wait for human approval, making
+      one Pod per agent wasteful. Agent-substrate adds"
     category: IT
     tags:
       - it
-      - aws
-      - cloud
-    relevance: 0.7278903439814814
-    published_at: 2026-08-05T14:45:10.000Z
-  - title: Welp, Nobody Saw SpaceX’s Falcon 9 Rocket Crash Into the Moon
-    url: https://www.wired.com/story/nobody-saw-spacex-rocket-moon-crash/
-    source: Wired
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    summary: Although no one captured a direct image of the impact, scientists have
-      detected signals confirming the rocket hit the lunar surface. Orbiters
-      could provide the first images of the crash site in the coming days.
+      - engineering
+      - architecture
+    relevance: 0.7467587347222222
+    published_at: 2026-08-06T06:00:00.000Z
+  - title: X product chief Nikita Bier is leaving after one year
+    url: https://www.theverge.com/tech/975955/x-twitter-nikita-bier-leaving
+    source: The Verge
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
+    summary: "X head of product Nikita Bier is stepping down and says he will move
+      into a role as an advisor, writing that \"it's time to pass the torch and
+      demote myself to my natural state: a poster.\" He shared the update just
+      over a month after celebrating his one-year an"
     category: Technology
     tags:
       - technology
-      - culture
-      - society
-    relevance: 0.8161052907407408
-    published_at: 2026-08-05T22:40:53.000Z
+      - gadgets
+      - consumer
+    relevance: 0.808979101388889
+    published_at: 2026-08-05T22:19:55.000Z
   - title: Publisher Secret Mode opens development studio to support internal projects
     url: https://www.gamedeveloper.com/business/publisher-secret-mode-opens-development-studio-to-support-internal-projects
     source: Game Developer
@@ -205,25 +208,24 @@ items:
       - development
       - design
       - industry
-    relevance: 0.7708023648148149
+    relevance: 0.7642591203703705
     published_at: 2026-08-05T18:00:00.000Z
-  - title: Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math
-      conjecture
-    url: https://www.sciencedaily.com/releases/2026/08/260804034634.htm
-    source: ScienceDaily — Top Science
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
-    summary: A mathematician working at Anthropic says he used the AI model Claude
-      Fable 5 to uncover a remarkably simple counterexample to the Jacobian
-      conjecture, a famous problem that has resisted mathematicians for more
-      than a century. The result shows that the conject
+  - title: "APOD: 2026 August 6 – New Sharpest Image of the Sun Uncovers Instability"
+    url: https://science.nasa.gov/image-article/apod-2026-august-6-new-sharpest-image-of-the-sun-uncovers-instability/
+    source: NASA News
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
+    image: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
+    summary: "APOD Science APOD APOD: 2026 August 6 – New… Today’s APOD Archive
+      Submissions Index Search Calendar RSS Education About Discuss APOD
+      Astronomy Picture of the Day Discover the cosmos! Each day a different
+      image or photograph of our fascinating universe is featu"
     category: Science
     tags:
       - science
-      - research
-      - discoveries
-    relevance: 0.7467141972222222
-    published_at: 2026-08-06T02:02:49.000Z
+      - nasa
+      - space
+    relevance: 0.7435651462962963
+    published_at: 2026-08-06T04:05:00.000Z
   - title: South Africa’s Global Image Loses Its Luster
     url: https://foreignpolicy.com/2026/08/05/south-africa-xenophobia-migrant-attacks-global-reputation-boycotts/
     source: Foreign Policy
@@ -236,7 +238,7 @@ items:
       - geopolitics
       - foreign-policy
       - analysis
-    relevance: 0.8863633638888888
+    relevance: 0.8798201203703703
     published_at: 2026-08-05T19:50:11.000Z
   - title: "The China Backlash: Quantifying the Narrative Discourse on China -- by
       Mert Geyiktepe, Dani Rodrik"
@@ -255,7 +257,7 @@ items:
       - working-papers
       - nber
     relevance: 0.7875000000000001
-    published_at: 2026-08-06T04:01:07.551Z
+    published_at: 2026-08-06T07:56:40.580Z
   - title: Third-party cyber evaluations involving OpenAI models
     url: https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything
     source: Simon Willison's Weblog
@@ -271,7 +273,7 @@ items:
       - llms
       - engineering
       - analysis
-    relevance: 0.8929011407407407
+    relevance: 0.8863574657407407
     published_at: 2026-08-05T23:45:32.000Z
   - title: "22 Seconds to Compromise: How Automated SSH Actors Move From Login to
       Persistence Before You Can Blink &#x5b;Guest Diary&#x5d;, (Thu, Aug 6th)"
@@ -286,41 +288,40 @@ items:
       - security
       - threats
       - iocs
-    relevance: 0.8187377472222223
+    relevance: 0.8121946717592593
     published_at: 2026-08-06T00:15:40.000Z
-  - title: JioHotstar Explains the Distributed Engineering Behind Personalized Ad
-      Requests at Streaming Scale
-    url: https://www.infoq.com/news/2026/08/jiohotstar-ad-decisioning-flow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+  - title: "Vercel Labs Ships Zero: A Graph-First Language Built So Agents Write the
+      Code"
+    url: https://www.infoq.com/news/2026/08/vercel-ships-zero-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
     source: InfoQ
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
     image: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
-    summary: "JioHotstar explains the distributed architecture behind its real-time
-      ad request workflow, covering ad decisioning, waterfall tiering, pacing
-      algorithms, latency optimization, and service coordination required to
-      select and deliver personalized advertisements "
+    summary: Vercel Labs has introduced Zero, an experimental systems programming
+      language aimed at AI rather than human users. It employs unique features
+      like a specific toolchain contract and structured error messages. Reaching
+      version 0.3.4, it compiles to native binari
     category: IT
     tags:
       - it
       - engineering
       - architecture
-    relevance: 0.7268854671296296
-    published_at: 2026-08-05T14:09:00.000Z
-  - title: X product chief Nikita Bier is leaving after one year
-    url: https://www.theverge.com/tech/975955/x-twitter-nikita-bier-leaving
-    source: The Verge
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    summary: "X head of product Nikita Bier is stepping down and says he will move
-      into a role as an advisor, writing that \"it's time to pass the torch and
-      demote myself to my natural state: a poster.\" He shared the update just
-      over a month after celebrating his one-year an"
+    relevance: 0.7465087347222222
+    published_at: 2026-08-06T05:51:00.000Z
+  - title: Anthropic’s AI used fake identities, malware in rogue attack on GitHub
+      project
+    url: https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/
+    source: Ars Technica
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
+    summary: Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber
+      tests.
     category: Technology
     tags:
       - technology
-      - gadgets
-      - consumer
-    relevance: 0.8155229078703704
-    published_at: 2026-08-05T22:19:55.000Z
+      - hardware
+      - software
+    relevance: 0.8064034569444445
+    published_at: 2026-08-05T20:47:11.000Z
   - title: Candy Crush maker King has declined staff's collective bargaining agreement
     url: https://www.gamedeveloper.com/business/candy-crush-maker-king-has-declined-staff-s-collective-bargaining-agreement
     source: Game Developer
@@ -334,24 +335,25 @@ items:
       - development
       - design
       - industry
-    relevance: 0.7691806055555557
+    relevance: 0.7626373611111112
     published_at: 2026-08-05T17:01:37.000Z
-  - title: 567-million-year-old fossils rewrite the dawn of animal life
-    url: https://www.sciencedaily.com/releases/2026/08/260804034644.htm
+  - title: Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math
+      conjecture
+    url: https://www.sciencedaily.com/releases/2026/08/260804034634.htm
     source: ScienceDaily — Top Science
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
     image: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
-    summary: A spectacular fossil site in Canada contains 567-million-year-old
-      creatures that may represent some of the earliest animals to move,
-      reproduce sexually, and develop recognizable body plans. The discovery
-      pushes key evolutionary milestones back by up to 10 mill
+    summary: A mathematician working at Anthropic says he used the AI model Claude
+      Fable 5 to uncover a remarkably simple counterexample to the Jacobian
+      conjecture, a famous problem that has resisted mathematicians for more
+      than a century. The result shows that the conject
     category: Science
     tags:
       - science
       - research
       - discoveries
-    relevance: 0.7442354935185185
-    published_at: 2026-08-06T00:33:35.000Z
+    relevance: 0.7401710625
+    published_at: 2026-08-06T02:02:49.000Z
   - title: What’s Behind the Violence in Pakistan-Administered Kashmir
     url: https://foreignpolicy.com/2026/08/05/kashmir-pakistan-violence-election-unrest-governance/
     source: Foreign Policy
@@ -363,7 +365,7 @@ items:
       - geopolitics
       - foreign-policy
       - analysis
-    relevance: 0.8833064194444443
+    relevance: 0.8767631759259258
     published_at: 2026-08-05T18:00:08.000Z
   - title: "Predictive Risk Scores in the Public Sector: Experimental Evidence from
       Child-Protection Investigations -- by E. Jason Baron, Arkadev Ghosh,
@@ -383,7 +385,7 @@ items:
       - working-papers
       - nber
     relevance: 0.7875000000000001
-    published_at: 2026-08-06T04:01:07.551Z
+    published_at: 2026-08-06T07:56:40.580Z
   - title: "Incident Report: unsanctioned agent behaviour during cyber testing"
     url: https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything
     source: Simon Willison's Weblog
@@ -399,56 +401,54 @@ items:
       - llms
       - engineering
       - analysis
-    relevance: 0.8925279925925925
+    relevance: 0.8859843175925926
     published_at: 2026-08-05T23:32:06.000Z
-  - title: OpenAI Didn’t Notice Its AI Agents Using a Message Board to Plan Their
-      Hacking Spree
-    url: https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/
-    source: Wired — Security
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    summary: At the Black Hat security conference, the AI giant revealed new details
-      about how its agents went rogue, hacked several other companies—and did it
-      all right under the company’s nose.
+  - title: Ransom Cartel ransomware creator sentenced to 16 years in prison
+    url: https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/
+    source: BleepingComputer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
+    summary: Maksim Silnikau, the creator and administrator of the Ransom Cartel
+      ransomware operation, was sentenced to 16 years in prison for his role in
+      ransomware attacks against at least 18 companies worldwide. [...]
     category: Security
     tags:
       - security
-      - privacy
-      - surveillance
-    relevance: 0.8187214944444445
-    published_at: 2026-08-06T00:15:04.000Z
-  - title: "Presentation: Automatically Retrofitting JIT Compilers"
-    url: https://www.infoq.com/presentations/yk-meta-tracing-jit-compiler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
-    source: InfoQ
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
-    summary: Laurence Tratt discusses yk, an open-source meta-tracing JIT compiler
-      framework. He shares how to automatically speed up C-based language
-      interpreters like Lua and MicroPython with minimal, non-invasive code
-      changes. He explains the inner workings of tracing l
+      - malware
+      - vulnerabilities
+    relevance: 0.8101160592592593
+    published_at: 2026-08-05T23:00:50.000Z
+  - title: Amazon DynamoDB now supports real-time vector search at any scale
+    url: https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/
+    source: AWS Blog
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=aws.amazon.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=aws.amazon.com
+    summary: DynamoDB now supports native vector search with single-digit
+      millisecond latency at 99%+ recall. It is designed for any scale, even
+      trillions of vectors and requires zero infrastructure management.
     category: IT
     tags:
       - it
-      - engineering
-      - architecture
-    relevance: 0.7216354671296297
-    published_at: 2026-08-05T11:00:00.000Z
-  - title: The National Design Studio Became a DOGE Landing Pad. Now ‘Big Balls’ Is
-      Recruiting
-    url: https://www.wired.com/story/national-design-studio-doge-recruiting/
-    source: Wired
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    summary: WIRED spoke with an engineer who was interviewed by Edward “Big Balls”
-      Coristine for a government engineering role at the NDS, the White House
-      agency staffed by other DOGE veterans.
+      - aws
+      - cloud
+    relevance: 0.7213469791666667
+    published_at: 2026-08-05T14:45:10.000Z
+  - title: Two of Ring's latest video doorbells are a lot cheaper than usual
+    url: https://www.theverge.com/gadgets/975723/ring-wired-doorbell-pro-battery-doorbell-plus-deal-sale
+    source: The Verge
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
+    summary: "Ring's Wired Doorbell Pro and Battery Doorbell Plus are two of the
+      brand's most well-rounded video doorbells, whether you're looking for a
+      hardwired model or one that runs on a battery. Right now, its Wired
+      Doorbell Pro is down to $199 ($50 off) at Amazon and "
     category: Technology
     tags:
       - technology
-      - culture
-      - society
-    relevance: 0.813302975925926
-    published_at: 2026-08-05T21:00:00.000Z
+      - gadgets
+      - consumer
+    relevance: 0.8015846569444445
+    published_at: 2026-08-05T17:53:43.000Z
   - title: Phasmophobia developer's indie label Kinetic Publishing to reveal debut
       slate at showcase later this month
     url: https://www.gamesindustry.biz/phasmophobia-developers-indie-label-kinetic-publishing-to-reveal-debut-slate-at-showcase-this-august
@@ -464,23 +464,24 @@ items:
       - industry
       - business
       - development
-    relevance: 0.7680729740740742
+    relevance: 0.7615295875000001
     published_at: 2026-08-05T16:21:44.000Z
-  - title: Three factors in midlife can delay the onset of dementia by 13 years
-    url: https://www.newscientist.com/article/2583480-three-factors-in-midlife-can-delay-the-onset-of-dementia-by-13-years/?utm_campaign=RSS|NSNS&#038;utm_content=home&#038;utm_medium=RSS&#038;utm_source=NSNS
-    source: New Scientist
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
-    summary: A study involving 12,000 adults in the US suggests that taking action
-      to prevent dementia during your 50s can make a big difference later in
-      life
+  - title: 567-million-year-old fossils rewrite the dawn of animal life
+    url: https://www.sciencedaily.com/releases/2026/08/260804034644.htm
+    source: ScienceDaily — Top Science
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
+    summary: A spectacular fossil site in Canada contains 567-million-year-old
+      creatures that may represent some of the earliest animals to move,
+      reproduce sexually, and develop recognizable body plans. The discovery
+      pushes key evolutionary milestones back by up to 10 mill
     category: Science
     tags:
       - science
       - research
-      - society
-    relevance: 0.7366360166666667
-    published_at: 2026-08-05T20:00:00.000Z
+      - discoveries
+    relevance: 0.7376923587962962
+    published_at: 2026-08-06T00:33:35.000Z
   - title: The Saudis Are the Architects of Their Own Misfortune
     url: https://foreignpolicy.com/2026/08/05/saudi-arabia-iran-israel-united-states-trump-uae-oil-houthis/
     source: Foreign Policy
@@ -492,7 +493,7 @@ items:
       - geopolitics
       - foreign-policy
       - analysis
-    relevance: 0.8824652157407407
+    relevance: 0.8759219722222221
     published_at: 2026-08-05T17:29:51.000Z
   - title: Financial Interdependence and Currency Internationalization -- by
       Zhengyang Jiang
@@ -511,7 +512,7 @@ items:
       - working-papers
       - nber
     relevance: 0.7875000000000001
-    published_at: 2026-08-06T04:01:07.551Z
+    published_at: 2026-08-06T07:56:40.580Z
   - title: One-shotting a Raccoon Heist game using Claude Fable 5
     url: https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything
     source: Simon Willison's Weblog
@@ -527,54 +528,57 @@ items:
       - llms
       - engineering
       - analysis
-    relevance: 0.8861539185185184
+    relevance: 0.8796102435185185
     published_at: 2026-08-05T19:42:38.000Z
-  - title: OpenAI’s Browser Could Be Hijacked to Spam Your WhatsApp Contacts
-    url: https://www.wired.com/story/openais-browser-could-be-hijacked-to-spam-your-whatsapp-contacts/
-    source: Wired — Security
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    summary: Researchers at security firm Zenity found more than a dozen flaws in AI
-      browsers—and managed to get OpenAI’s Atlas to make an unauthorized Amazon
-      purchase.
+  - title: Canadian pleads guilty to Snowflake cloud data-theft attacks
+    url: https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/
+    source: BleepingComputer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
+    summary: A Canadian man pleaded guilty today to his role in accessing company
+      accounts at cloud storage provider Snowflake and stealing data from at
+      least 165 organizations in a scheme to extort millions of dollars from
+      victims. [...]
     category: Security
     tags:
       - security
-      - privacy
-      - surveillance
-    relevance: 0.8174696425925927
-    published_at: 2026-08-05T23:30:00.000Z
-  - title: Ponytail Agent Skill Corrects Its Own Benchmark After Contributor Challenge
-    url: https://www.infoq.com/news/2026/08/ponytail-agent-skill-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+      - malware
+      - vulnerabilities
+    relevance: 0.8082438370370371
+    published_at: 2026-08-05T21:53:26.000Z
+  - title: JioHotstar Explains the Distributed Engineering Behind Personalized Ad
+      Requests at Streaming Scale
+    url: https://www.infoq.com/news/2026/08/jiohotstar-ad-decisioning-flow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
     source: InfoQ
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
     image: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
-    summary: A single-author repo of instruction files, not code, Ponytail passed
-      44,000 GitHub stars in nine days by making coding agents stop
-      over-building. Its headline claim of 80-94% less code came from a flawed
-      baseline; after a contributor said so, the maintainer re
+    summary: "JioHotstar explains the distributed architecture behind its real-time
+      ad request workflow, covering ad decisioning, waterfall tiering, pacing
+      algorithms, latency optimization, and service coordination required to
+      select and deliver personalized advertisements "
     category: IT
     tags:
       - it
       - engineering
       - architecture
-    relevance: 0.7167743560185185
-    published_at: 2026-08-05T08:05:00.000Z
-  - title: Anthropic’s AI used fake identities, malware in rogue attack on GitHub
-      project
-    url: https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/
-    source: Ars Technica
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
-    summary: Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber
-      tests.
+    relevance: 0.7203420680555556
+    published_at: 2026-08-05T14:09:00.000Z
+  - title: Uber CEO brushes off reports of a Waymo break-up
+    url: https://www.theverge.com/transportation/975651/uber-ceo-earnings-waymo-partnership
+    source: The Verge
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
+    summary: After Uber and Waymo ended their partnership in Phoenix earlier this
+      year, experts and robotaxi watchers wondered whether the companies'
+      improbable bromance was fraying. Not so, Uber CEO Dara Khosrowshahi said
+      today. The two companies are committed to continue
     category: Technology
     tags:
       - technology
-      - hardware
-      - software
-    relevance: 0.8129463439814816
-    published_at: 2026-08-05T20:47:11.000Z
+      - gadgets
+      - consumer
+    relevance: 0.8010591939814815
+    published_at: 2026-08-05T17:34:48.000Z
   - title: Policymakers across Europe told to do more to support local game industry
     url: https://www.gamedeveloper.com/production/policymakers-across-europe-told-to-do-more-to-support-game-industry
     source: Game Developer
@@ -589,24 +593,23 @@ items:
       - development
       - design
       - industry
-    relevance: 0.7642005129629631
+    relevance: 0.7576572685185186
     published_at: 2026-08-05T14:02:20.000Z
-  - title: NASA’s IXPE May Have Proven 90-Year-Old Theory
-    url: https://science.nasa.gov/missions/ixpe/nasas-ixpe-may-have-proven-90-year-old-theory/
-    source: NASA News
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
-    image: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
-    summary: A first of its kind measurement of a magnetar may have captured empty
-      space behaving in a way physicists have predicted for 90 years, but never
-      directly observed. The results published Wednesday in Nature. Fast facts
-      Scientists using NASA’s IXPE (Imaging X-ray
+  - title: Three factors in midlife can delay the onset of dementia by 13 years
+    url: https://www.newscientist.com/article/2583480-three-factors-in-midlife-can-delay-the-onset-of-dementia-by-13-years/?utm_campaign=RSS|NSNS&#038;utm_content=home&#038;utm_medium=RSS&#038;utm_source=NSNS
+    source: New Scientist
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
+    summary: A study involving 12,000 adults in the US suggests that taking action
+      to prevent dementia during your 50s can make a big difference later in
+      life
     category: Science
     tags:
       - science
-      - nasa
-      - space
-    relevance: 0.7346705074074074
-    published_at: 2026-08-05T18:49:14.000Z
+      - research
+      - society
+    relevance: 0.7300924814814815
+    published_at: 2026-08-05T20:00:00.000Z
   - title: Why the United States Keeps Losing Wars
     url: https://foreignpolicy.com/2026/08/05/iran-trump-lost-wars-us-military-history-strategy-geopolitics/
     source: Foreign Policy
@@ -619,7 +622,7 @@ items:
       - geopolitics
       - foreign-policy
       - analysis
-    relevance: 0.8790087342592592
+    relevance: 0.8724654907407406
     published_at: 2026-08-05T15:25:25.000Z
   - title: "Winners and Losers: Competition, Creative Destruction, and Labor Income
       Risk -- by Brice C. Green, Leonid Kogan, Dimitris Papanikolaou, Lawrence
@@ -639,69 +642,69 @@ items:
       - working-papers
       - nber
     relevance: 0.7875000000000001
-    published_at: 2026-08-06T04:01:07.551Z
-  - title: Meta launches Muse Code, an AI agent for large code bases
-    url: https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/
-    source: TechCrunch — AI
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    summary: Meta expanded its AI coding offerings with a new agent that, it
-      promises, can handle complex tasks with complex software.
+    published_at: 2026-08-06T07:56:40.580Z
+  - title: "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair;
+      Koray to SVP — what is going on at GDM???"
+    url: https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc
+    source: Latent Space
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=latent.space
+    image: https://substackcdn.com/image/fetch/$s_!1S7v!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F57c9d273-aa50-4bc7-a7c4-caaf9b4952c2_1540x1624.png
+    summary: The end of an era.
     category: AI
     tags:
       - ai
-      - industry
-      - startups
-    relevance: 0.7388992777777778
-    published_at: 2026-08-05T21:21:28.000Z
-  - title: A Security Pro Hacked North Korean Hackers. He Found They’d Breached
-      Hundreds of Networks Worldwide
-    url: https://www.wired.com/story/a-security-pro-hacked-north-korean-hackers-he-found-theyd-breached-hundreds-of-networks-worldwide/
-    source: Wired — Security
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    summary: For nearly two years, researcher Vangelis Stykas has maintained access
-      to North Korean hackers’ servers. His work shows they pulled off
-      intrusions in a shocking number of systems across the globe.
+      - engineering
+      - agents
+      - newsletter
+    relevance: 0.7443755143518519
+    published_at: 2026-08-06T04:34:11.000Z
+  - title: Hackers run khunt post-exploitation toolkit from Oracle database
+    url: https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/
+    source: BleepingComputer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
+    summary: Hackers exploited a SQL injection vulnerability to install a
+      post-exploitation toolkit directly inside an Oracle database that was used
+      to breach a corporate network. [...]
     category: Security
     tags:
       - security
-      - privacy
-      - surveillance
-    relevance: 0.8174696425925927
-    published_at: 2026-08-05T23:30:00.000Z
-  - title: SkiaSharp 4.0 Establishes Milestone-Aligned Release Cadence
-    url: https://www.infoq.com/news/2026/08/skia-sharp-4-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+      - malware
+      - vulnerabilities
+    relevance: 0.8049655962962964
+    published_at: 2026-08-05T19:55:25.000Z
+  - title: "Presentation: Automatically Retrofitting JIT Compilers"
+    url: https://www.infoq.com/presentations/yk-meta-tracing-jit-compiler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
     source: InfoQ
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
     image: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
-    summary: Microsoft and Uno Platform have released the first stable versions in
-      the SkiaSharp 4 series, beginning with SkiaSharp 4.148.0 and followed
-      shortly afterward by 4.150.0. A 4.151.0 prerelease line is also available,
-      demonstrating the project’s new approach of a
+    summary: Laurence Tratt discusses yk, an open-source meta-tracing JIT compiler
+      framework. He shares how to automatically speed up C-based language
+      interpreters like Lua and MicroPython with minimal, non-invasive code
+      changes. He explains the inner workings of tracing l
     category: IT
     tags:
       - it
       - engineering
       - architecture
-    relevance: 0.7166354671296297
-    published_at: 2026-08-05T08:00:00.000Z
-  - title: Two of Ring's latest video doorbells are a lot cheaper than usual
-    url: https://www.theverge.com/gadgets/975723/ring-wired-doorbell-pro-battery-doorbell-plus-deal-sale
+    relevance: 0.7150920680555556
+    published_at: 2026-08-05T11:00:00.000Z
+  - title: Apple’s selling refurbished MacBook Neos with a $100 discount
+    url: https://www.theverge.com/gadgets/975603/refurbished-apple-macbook-neo-google-wireless-charger-deal-sale
     source: The Verge
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
     image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    summary: "Ring's Wired Doorbell Pro and Battery Doorbell Plus are two of the
-      brand's most well-rounded video doorbells, whether you're looking for a
-      hardwired model or one that runs on a battery. Right now, its Wired
-      Doorbell Pro is down to $199 ($50 off) at Amazon and "
+    summary: "Apple’s most affordable laptop, the MacBook Neo, is available once
+      again at its pre-price hike price. All four colors are currently
+      discounted and available refurbished through the company, with the base
+      256GB model listed for $599 (usually $699 new), and the "
     category: Technology
     tags:
       - technology
       - gadgets
       - consumer
-    relevance: 0.808128463425926
-    published_at: 2026-08-05T17:53:43.000Z
+    relevance: 0.8000753976851852
+    published_at: 2026-08-05T16:59:23.000Z
   - title: Silver Lining Interactive launches first title from its development label
       Silver Bullet
     url: https://www.gamesindustry.biz/silver-lining-interactive-launches-first-title-from-its-development-label-silver-bullet
@@ -716,37 +719,41 @@ items:
       - industry
       - business
       - development
-    relevance: 0.762788251851852
+    relevance: 0.7562448652777779
     published_at: 2026-08-05T13:11:29.000Z
-  - title: Swallowing faecal capsules reduces peanut allergy in six adults
-    url: https://www.newscientist.com/article/2583300-swallowing-faecal-capsules-reduces-peanut-allergy-in-six-adults/?utm_campaign=RSS|NSNS&#038;utm_content=home&#038;utm_medium=RSS&#038;utm_source=NSNS
-    source: New Scientist
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
-    summary: Altering the gut microbiomes of people with peanut allergy using faeces
-      donated from an allergy-free individual improved their peanut tolerance in
-      a clinical trial
+  - title: NASA’s IXPE May Have Proven 90-Year-Old Theory
+    url: https://science.nasa.gov/missions/ixpe/nasas-ixpe-may-have-proven-90-year-old-theory/
+    source: NASA News
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
+    image: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
+    summary: A first of its kind measurement of a magnetar may have captured empty
+      space behaving in a way physicists have predicted for 90 years, but never
+      directly observed. The results published Wednesday in Nature. Fast facts
+      Scientists using NASA’s IXPE (Imaging X-ray
     category: Science
     tags:
       - science
-      - research
-      - society
-    relevance: 0.7333026833333334
-    published_at: 2026-08-05T18:00:00.000Z
-  - title: Meta says AI model accessed the internet and hacked another firm
-    url: https://www.bbc.co.uk/news/articles/cx2kgdnyk2po?at_medium=RSS&at_campaign=rss
-    source: BBC News — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    summary: Meta is the latest company to disclose an AI agent breach, raising
-      cyber-security concerns.
+      - nasa
+      - space
+    relevance: 0.7281271833333334
+    published_at: 2026-08-05T18:49:14.000Z
+  - title: "The Blood Price: In Israel, Military Sacrifice Is Becoming Political
+      Power"
+    url: https://warontherocks.com/the-blood-price-in-israel-military-sacrifice-is-becoming-political-power/
+    source: War on the Rocks
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=warontherocks.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=warontherocks.com
+    summary: In late June, cadets at the Israeli military's officer training school
+      sat through a lecture by Ofer Winter, a retired brigadier general and a
+      polarizing figure in the Israel Defense Forces. According to Haaretz,
+      Winter told the future officers that "there are
     category: Geopolitics
     tags:
       - geopolitics
-      - bbc
-      - world-news
-    relevance: 0.8225679629629631
-    published_at: 2026-08-06T02:33:33.000Z
+      - military
+      - strategy
+    relevance: 0.824278875925926
+    published_at: 2026-08-06T07:30:42.000Z
   - title: AI’s Impact on Labor and Hiring
     url: https://libertystreeteconomics.newyorkfed.org/2026/08/ais-impact-on-labor-and-hiring/
     source: Liberty Street Economics
@@ -762,386 +769,22 @@ items:
       - monetary-policy
       - banking
       - research
-    relevance: 0.7591356805555557
+    relevance: 0.7525924953703704
     published_at: 2026-08-05T11:00:00.000Z
-  - title: AI agents can't yet do open-ended AI research
-    url: https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended
-    source: AI Snake Oil
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=aisnakeoil.com
-    image: https://substackcdn.com/image/fetch/$s_!2o-q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a0117ca-8ce4-45e9-a956-62c82a45d44b_3064x1792.jpeg
-    summary: Early evidence from two case studies
+  - title: Meta launches Muse Code, an AI agent for large code bases
+    url: https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/
+    source: TechCrunch — AI
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    summary: Meta expanded its AI coding offerings with a new agent that, it
+      promises, can handle complex tasks with complex software.
     category: AI
     tags:
       - ai
-      - policy
-      - hype
-      - accountability
-    relevance: 0.7263394518518519
-    published_at: 2026-08-05T13:49:19.000Z
-  - title: Ransom Cartel ransomware creator sentenced to 16 years in prison
-    url: https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/
-    source: BleepingComputer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
-    summary: Maksim Silnikau, the creator and administrator of the Ransom Cartel
-      ransomware operation, was sentenced to 16 years in prison for his role in
-      ransomware attacks against at least 18 companies worldwide. [...]
-    category: Security
-    tags:
-      - security
-      - malware
-      - vulnerabilities
-    relevance: 0.816659351388889
-    published_at: 2026-08-05T23:00:50.000Z
-  - title: A Vision for Cargo
-    url: https://epage.github.io/blog/2026/08/cargo-vision/
-    source: Lobsters
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    summary: Comments
-    category: IT
-    tags:
-      - it
-      - programming
-      - systems
-      - community
-    relevance: 0.7004119916666666
-    published_at: 2026-08-05T20:45:57.000Z
-  - title: Uber CEO brushes off reports of a Waymo break-up
-    url: https://www.theverge.com/transportation/975651/uber-ceo-earnings-waymo-partnership
-    source: The Verge
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    summary: After Uber and Waymo ended their partnership in Phoenix earlier this
-      year, experts and robotaxi watchers wondered whether the companies'
-      improbable bromance was fraying. Not so, Uber CEO Dara Khosrowshahi said
-      today. The two companies are committed to continue
-    category: Technology
-    tags:
-      - technology
-      - gadgets
-      - consumer
-    relevance: 0.8076030004629631
-    published_at: 2026-08-05T17:34:48.000Z
-  - title: Coffee Stain bullish despite underperformance of Deep Rock Galactic spinoff
-    url: https://www.gamedeveloper.com/business/coffee-stain-bullish-despite-underperformance-of-deep-rock-galactic-spinoff
-    source: Game Developer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=gamedeveloper.com
-    image: https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt1697a42de364f025/6a731e58d304760d64da987e/Deep_Rock_Galactic.png?width=720&quality=80&disable=upscale
-    summary: Meanwhile, the company's popular Roblox title, Welcome to Bloxburg,
-      generated $2.1 million during Q1.
-    category: Gaming
-    tags:
-      - gaming
-      - development
-      - design
       - industry
-    relevance: 0.7595472722222223
-    published_at: 2026-08-05T11:14:49.000Z
-  - title: Artemis III Orion Crew and Service Models Joined
-    url: https://www.nasa.gov/image-article/artemis-iii-orion-crew-and-service-models-joined/
-    source: NASA News
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
-    image: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
-    summary: Technicians joined the Orion crew and service modules together on July
-      30, 2026, inside the Neil Armstrong Operations and Checkout Building at
-      NASA's Kennedy Space Center in Florida. The crew module will carry and
-      sustain NASA astronauts Randy Bresnik, Andre D
-    category: Science
-    tags:
-      - science
-      - nasa
-      - space
-    relevance: 0.7323945814814815
-    published_at: 2026-08-05T17:27:18.000Z
-  - title: Iran says deal with Oman on Strait of Hormuz is in final stages
-    url: https://www.bbc.co.uk/news/articles/ckg9d3eyeggo?at_medium=RSS&at_campaign=rss
-    source: BBC News — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    summary: Neither the US or Oman have commented on the proposed agreement on the
-      vital waterway.
-    category: Geopolitics
-    tags:
-      - geopolitics
-      - bbc
-      - world-news
-    relevance: 0.8205244444444445
-    published_at: 2026-08-06T01:19:59.000Z
-  - title: Private NFP from ADP
-    url: https://econbrowser.com/archives/2026/08/private-nfp-from-adp
-    source: Econbrowser
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=econbrowser.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=econbrowser.com
-    summary: "+44K vs. +68K per Bloomberg consensus. Figure 1: Change since 2025M03
-      in private nonfarm payroll employment from BLS (blue), from ADP (red),
-      2023M04-2025M03 Stochastic trend (gray line), all in 000's, s.a. Source:
-      BLS, ADP via FRED."
-    category: Economy
-    tags:
-      - economy
-      - macroeconomics
-      - energy
-      - research
-    relevance: 0.733377475
-    published_at: 2026-08-05T18:02:43.000Z
-  - title: "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion
-      about AI and creativity"
-    url: https://importai.substack.com/p/import-ai-467-self-sustaining-ai
-    source: Import AI
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=importai.substack.com
-    image: https://substackcdn.com/image/fetch/$s_!3yYS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6d17996-2bef-40a4-abe3-be72a0e8a227_258x258.png
-    summary: When do we build the moon arcology?
-    category: AI
-    tags:
-      - ai
-      - policy
-      - research
-      - newsletter
-    relevance: 0.7208409541666667
-    published_at: 2026-08-03T13:31:22.000Z
-  - title: Canadian pleads guilty to Snowflake cloud data-theft attacks
-    url: https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/
-    source: BleepingComputer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
-    summary: A Canadian man pleaded guilty today to his role in accessing company
-      accounts at cloud storage provider Snowflake and stealing data from at
-      least 165 organizations in a scheme to extort millions of dollars from
-      victims. [...]
-    category: Security
-    tags:
-      - security
-      - malware
-      - vulnerabilities
-    relevance: 0.8147871291666667
-    published_at: 2026-08-05T21:53:26.000Z
-  - title: I Built a Blog and Forgot to Write
-    url: https://benjcal.space/blog/i-built-a-blog-and-forgot-to-write/
-    source: Lobsters
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    summary: Comments
-    category: IT
-    tags:
-      - it
-      - programming
-      - systems
-      - community
-    relevance: 0.6993481027777777
-    published_at: 2026-08-05T20:07:39.000Z
-  - title: Apple’s selling refurbished MacBook Neos with a $100 discount
-    url: https://www.theverge.com/gadgets/975603/refurbished-apple-macbook-neo-google-wireless-charger-deal-sale
-    source: The Verge
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    summary: "Apple’s most affordable laptop, the MacBook Neo, is available once
-      again at its pre-price hike price. All four colors are currently
-      discounted and available refurbished through the company, with the base
-      256GB model listed for $599 (usually $699 new), and the "
-    category: Technology
-    tags:
-      - technology
-      - gadgets
-      - consumer
-    relevance: 0.8066192041666668
-    published_at: 2026-08-05T16:59:23.000Z
-  - title: "Jobs roundup: August 2026 | Three new hires at Yogscast Games"
-    url: https://www.gamesindustry.biz/jobs-roundup-august-2026-three-new-hires-at-yogscast-games
-    source: GamesIndustry.biz
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=gamesindustry.biz
-    image: https://assetsio.gnwcdn.com/jobs-roundup-august.png?width=690&quality=85&format=jpg&auto=webp
-    summary: It can be difficult keeping track of the various comings and goings in
-      the games industry, which is why we compile them in semi-regular
-      round-ups. Read more
-    category: Gaming
-    tags:
-      - gaming
-      - industry
-      - business
-      - development
-    relevance: 0.7590572333333334
-    published_at: 2026-08-05T10:57:10.000Z
-  - title: We must adapt to climate change while also tackling the root cause
-    url: https://www.newscientist.com/article/2583095-we-must-adapt-to-climate-change-while-also-tackling-the-root-cause/?utm_campaign=RSS|NSNS&#038;utm_content=home&#038;utm_medium=RSS&#038;utm_source=NSNS
-    source: New Scientist
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
-    summary: The devastating wildfires in Europe demand urgent measures to make
-      landscapes more resilient, but without action to reduce use of fossil
-      fuels, the danger is only going to increase
-    category: Science
-    tags:
-      - science
-      - research
-      - society
-    relevance: 0.7316360166666667
-    published_at: 2026-08-05T17:00:00.000Z
-  - title: Banned from football at home, Afghan women's team reunite 8,000 miles away
-    url: https://www.bbc.co.uk/news/articles/c8dnrpmgv4yo?at_medium=RSS&at_campaign=rss
-    source: BBC News — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    summary: Women in the team, which is recognised by Fifa, say football has given
-      them freedom and independence.
-    category: Geopolitics
-    tags:
-      - geopolitics
-      - bbc
-      - world-news
-    relevance: 0.8174165740740741
-    published_at: 2026-08-05T23:28:06.000Z
-  - title: What will Kevin Warsh do if America’s economy breaks?
-    url: https://www.economist.com/finance-and-economics/2026/08/02/what-will-kevin-warsh-do-if-americas-economy-breaks
-    source: The Economist — Finance & Economics
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=economist.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=economist.com
-    summary: An enigmatic Fed faces the risk of AI stocks falling and the oil price
-      soaring
-    category: Economy
-    tags:
-      - economy
-      - finance
-      - macroeconomics
-      - analysis
-    relevance: 0.722803349074074
-    published_at: 2026-08-02T16:12:02.000Z
-  - title: "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the
-      utility of open models on the Pareto frontier"
-    url: https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21
-    source: Interconnects
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=interconnects.ai
-    image: https://substackcdn.com/image/fetch/$s_!RSM6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a71a4f9-5ac5-447e-82ff-899915627512_2048x1152.jpeg
-    summary: Capacity to train strong models is proliferating.
-    category: AI
-    tags:
-      - ai
-      - post-training
-      - open-models
-      - analysis
-    relevance: 0.6800159513888889
-    published_at: 2026-08-02T13:01:40.000Z
-  - title: Hackers run khunt post-exploitation toolkit from Oracle database
-    url: https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/
-    source: BleepingComputer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
-    summary: Hackers exploited a SQL injection vulnerability to install a
-      post-exploitation toolkit directly inside an Oracle database that was used
-      to breach a corporate network. [...]
-    category: Security
-    tags:
-      - security
-      - malware
-      - vulnerabilities
-    relevance: 0.811508888425926
-    published_at: 2026-08-05T19:55:25.000Z
-  - title: 'The "Disability Dongle": Why Silicon Valley Hates Me and you'
-    url: https://sightlessscribbles.com/disability-dongle/
-    source: Lobsters
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    summary: Comments
-    category: IT
-    tags:
-      - it
-      - programming
-      - systems
-      - community
-    relevance: 0.6966207879629629
-    published_at: 2026-08-05T18:29:28.000Z
-  - title: Puzzle Corner
-    url: https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/
-    source: MIT Technology Review
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=technologyreview.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=technologyreview.com
-    summary: Ready for a fresh set of puzzles? Click here for the September/October
-      2026 Puzzle Corner, brought to you by Michael S. Branicky, ScD ’95, of the
-      Puzzle Corner Puzzle Crew (aka PC2), which also includes Edward Faulkner
-      ’03, MEng ’04, and Abe Kunin ’03. This co
-    category: Technology
-    tags:
-      - technology
-      - research
-      - society
-    relevance: 0.8032052712962964
-    published_at: 2026-08-05T14:56:29.000Z
-  - title: Electronic Arts completes $55bn acquisition; CEO announces senior
-      leadership changes
-    url: https://www.gamesindustry.biz/electronic-arts-completes-55bn-acquisition-ceo-announces-senior-leadership-changes
-    source: GamesIndustry.biz
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=gamesindustry.biz
-    image: https://assetsio.gnwcdn.com/electronic-arts.jpg?width=690&quality=85&format=jpg&auto=webp
-    summary: Electronic Arts has completed its $55 billion leveraged buyout , with
-      Saudi Arabia's Public Investment Fund (PIF) now the majority owner. Read
-      more
-    category: Gaming
-    tags:
-      - gaming
-      - industry
-      - business
-      - development
-    relevance: 0.7543414925925926
-    published_at: 2026-08-05T08:07:24.000Z
-  - title: "Twisteddoodles: 'Will you take the red pill or the blue pill?'"
-    url: https://www.newscientist.com/article/2582842-twisteddoodles-2/?utm_campaign=RSS|NSNS&#038;utm_content=home&#038;utm_medium=RSS&#038;utm_source=NSNS
-    source: New Scientist
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
-    summary: This week's cartoon from Twisteddoodles
-    category: Science
-    tags:
-      - science
-      - research
-      - society
-    relevance: 0.7316360166666667
-    published_at: 2026-08-05T17:00:00.000Z
-  - title: Toronto zoo announces birth of pygmy hippo calf, third for mother Kindia
-    url: https://www.theguardian.com/world/2026/aug/05/toronto-zoo-pygmy-hippo-calf
-    source: The Guardian — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theguardian.com
-    image: https://i.guim.co.uk/img/media/7382959e05950456eeaf08482f2f9d66c2ac2d81/0_53_750_600/master/750.jpg?width=140&quality=85&auto=format&fit=max&s=4bf6315c4b95ffc0d048db1521a8bea4
-    summary: "The 20-year-old’s third calf is being monitored by officials as
-      survival rates for the species are challenging, the zoo said The Toronto
-      Zoo has announced the birth of a female pygmy hippo calf. Kindia, the
-      zoo’s 20-year-old pygmy hippo, started showing signs "
-    category: Geopolitics
-    tags:
-      - geopolitics
-      - world-news
-      - investigative
-    relevance: 0.8154230287037038
-    published_at: 2026-08-05T22:16:20.000Z
-  - title: I got two email invitations from friends. Is this a phishing scam
-      &#x2014; or am I suddenly popular?
-    url: https://www.marketwatch.com/story/i-got-two-email-invitations-from-friends-is-this-a-phishing-scam-or-am-i-suddenly-popular-d9680aa8?mod=mw_rss_topstories
-    source: MarketWatch Top Stories
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=marketwatch.com
-    image: https://images.mktw.net/im-02087591
-    summary: "&#x201c;I was surprised &#x2014; and flattered &#x2014; to find myself
-      on the guest list.&#x201d;"
-    category: Economy
-    tags:
-      - economy
-      - markets
-      - finance
-      - news
-    relevance: 0.7083856171296296
-    published_at: 2026-08-06T01:33:00.000Z
-  - title: The benefits of medical AI assistance vary based on user expertise
-    url: https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804
-    source: MIT News — AI
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=news.mit.edu
-    image: https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202608/MIT-AI-Dermatology-01.jpg?itok=SvrI0eha
-    summary: Study finds non-experts deferred to LLM-based diagnostic assistance,
-      even when it was wrong, while clinicians caught AI errors.
-    category: AI
-    tags:
-      - ai
-      - mit
-      - research
-    relevance: 0.6783029657407408
-    published_at: 2026-08-04T09:00:00.000Z
+      - startups
+    relevance: 0.7323554962962963
+    published_at: 2026-08-05T21:21:28.000Z
   - title: "Don't Revoke That Token Yet: Inside the keyv/cacheable npm Worm, (Wed,
       Aug 5th)"
     url: https://isc.sans.edu/diary/rss/33218
@@ -1157,114 +800,115 @@ items:
       - security
       - threats
       - iocs
-    relevance: 0.8081983953703704
+    relevance: 0.8016553199074075
     published_at: 2026-08-05T17:56:15.000Z
-  - title: "Scaling agentic AI: How UiPath built its high-performance GPU platform
-      on AI Hypercomputer"
-    url: https://cloud.google.com/blog/topics/customers/how-uipath-built-its-high-performance-gpu-platform/
-    source: Google Cloud Blog
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
-    summary: As a market leader in enterprise agentic automation and business
-      orchestration, UiPath is helping to pioneer an industry shift toward
-      agentic AI. With it, the company is deploying autonomous agents to
-      actively reason, make decisions, and execute complex busine
+  - title: Ponytail Agent Skill Corrects Its Own Benchmark After Contributor Challenge
+    url: https://www.infoq.com/news/2026/08/ponytail-agent-skill-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+    source: InfoQ
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
+    summary: A single-author repo of instruction files, not code, Ponytail passed
+      44,000 GitHub stars in nine days by making coding agents stop
+      over-building. Its headline claim of 80-94% less code came from a flawed
+      baseline; after a contributor said so, the maintainer re
     category: IT
     tags:
       - it
-      - gcp
-      - cloud
-    relevance: 0.692468385648148
-    published_at: 2026-08-05T16:00:00.000Z
-  - title: "The Download: NASA's new telescope and Chinese tech import curbs"
-    url: https://www.technologyreview.com/2026/08/05/1141212/the-download-nasa-telescope-chinese-tech-import-curbs/
+      - engineering
+      - architecture
+    relevance: 0.7102309569444445
+    published_at: 2026-08-05T08:05:00.000Z
+  - title: Puzzle Corner
+    url: https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/
     source: MIT Technology Review
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=technologyreview.com
     image: https://www.google.com/s2/favicons?sz=64&domain=technologyreview.com
-    summary: This is today's edition of The Download, our weekday newsletter that
-      provides a daily dose of what's going on in the world of technology.
-      NASA’s new dark energy space telescope can also detect killer asteroids At
-      the end of August, NASA is set to launch the Na
+    summary: Ready for a fresh set of puzzles? Click here for the September/October
+      2026 Puzzle Corner, brought to you by Michael S. Branicky, ScD ’95, of the
+      Puzzle Corner Puzzle Crew (aka PC2), which also includes Edward Faulkner
+      ’03, MEng ’04, and Abe Kunin ’03. This co
     category: Technology
     tags:
       - technology
       - research
       - society
-    relevance: 0.7985807337962963
-    published_at: 2026-08-05T12:10:00.000Z
-  - title: Can you play Big Walk alone or with randoms?
-    url: https://www.pcgamer.com/games/adventure/can-you-play-big-walk-alone-or-with-randoms/
-    source: PC Gamer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=pcgamer.com
-    image: https://cdn.mos.cms.futurecdn.net/dxkgnDBuwxUKbVYzjTMgS8-1280-80.jpg
-    summary: The most widely adored co-op game of 2026 is a bit tough on loners.
+    relevance: 0.7966614453703704
+    published_at: 2026-08-05T14:56:29.000Z
+  - title: Coffee Stain bullish despite underperformance of Deep Rock Galactic spinoff
+    url: https://www.gamedeveloper.com/business/coffee-stain-bullish-despite-underperformance-of-deep-rock-galactic-spinoff
+    source: Game Developer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=gamedeveloper.com
+    image: https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt1697a42de364f025/6a731e58d304760d64da987e/Deep_Rock_Galactic.png?width=720&quality=80&disable=upscale
+    summary: Meanwhile, the company's popular Roblox title, Welcome to Bloxburg,
+      generated $2.1 million during Q1.
     category: Gaming
     tags:
       - gaming
-      - pc
-      - news
-      - reviews
-    relevance: 0.7494211439814815
-    published_at: 2026-08-06T03:40:16.000Z
-  - title: Tom Gauld visits the entomology department
-    url: https://www.newscientist.com/article/2582834-tom-gauld/?utm_campaign=RSS|NSNS&#038;utm_content=home&#038;utm_medium=RSS&#038;utm_source=NSNS
+      - development
+      - design
+      - industry
+    relevance: 0.7530040277777779
+    published_at: 2026-08-05T11:14:49.000Z
+  - title: Swallowing faecal capsules reduces peanut allergy in six adults
+    url: https://www.newscientist.com/article/2583300-swallowing-faecal-capsules-reduces-peanut-allergy-in-six-adults/?utm_campaign=RSS|NSNS&#038;utm_content=home&#038;utm_medium=RSS&#038;utm_source=NSNS
     source: New Scientist
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
     image: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
-    summary: Tom Gauld's weekly cartoon
+    summary: Altering the gut microbiomes of people with peanut allergy using faeces
+      donated from an allergy-free individual improved their peanut tolerance in
+      a clinical trial
     category: Science
     tags:
       - science
       - research
       - society
-    relevance: 0.7316360166666667
-    published_at: 2026-08-05T17:00:00.000Z
-  - title: Infantino sorry for errors but stays Fifa president
-    url: https://www.bbc.co.uk/sport/football/articles/clyq3el5gkqo?at_medium=RSS&at_campaign=rss
+    relevance: 0.7267591481481481
+    published_at: 2026-08-05T18:00:00.000Z
+  - title: Indian journalist Tarun Tejpal convicted in 2013 rape case
+    url: https://www.bbc.co.uk/news/articles/cx2v551w9v8o?at_medium=RSS&at_campaign=rss
     source: BBC News — World
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
     image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    summary: Gianni Infantino will remain as Fifa president after receiving the
-      backing of senior executives, but "sincerely apologises" for errors made
-      in his controversial private investment plans.
+    summary: The Goa bench of the Bombay High Court overturned a 2021 trial court
+      verdict clearing Tejpal of all charges.
     category: Geopolitics
     tags:
       - geopolitics
       - bbc
       - world-news
-    relevance: 0.8143341666666667
-    published_at: 2026-08-05T21:37:08.000Z
-  - title: "&#x2018;I don&#x2019;t wish to be cold-hearted&#x2019;: My elderly
-      relative can no longer care for himself. Am I wrong to leave his care to
-      the state?"
-    url: https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories
-    source: MarketWatch Top Stories
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=marketwatch.com
-    image: https://images.mktw.net/im-96138603
-    summary: "&#x201c;He has never been particularly generous or nurturing.&#x201d;"
+    relevance: 0.8241839972222222
+    published_at: 2026-08-06T07:27:17.000Z
+  - title: Private NFP from ADP
+    url: https://econbrowser.com/archives/2026/08/private-nfp-from-adp
+    source: Econbrowser
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=econbrowser.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=econbrowser.com
+    summary: "+44K vs. +68K per Bloomberg consensus. Figure 1: Change since 2025M03
+      in private nonfarm payroll employment from BLS (blue), from ADP (red),
+      2023M04-2025M03 Stochastic trend (gray line), all in 000's, s.a. Source:
+      BLS, ADP via FRED."
     category: Economy
     tags:
       - economy
-      - markets
-      - finance
-      - news
-    relevance: 0.708330061574074
-    published_at: 2026-08-06T01:31:00.000Z
-  - title: Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech
-      founders
-    url: https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/
-    source: TechCrunch — AI
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    summary: The serial entrepreneur joins the e-commerce company as CPO to lead its
-      AI agents.
+      - macroeconomics
+      - energy
+      - research
+    relevance: 0.7268345351851851
+    published_at: 2026-08-05T18:02:43.000Z
+  - title: AI agents can't yet do open-ended AI research
+    url: https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended
+    source: AI Snake Oil
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=aisnakeoil.com
+    image: https://substackcdn.com/image/fetch/$s_!2o-q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a0117ca-8ce4-45e9-a956-62c82a45d44b_3064x1792.jpeg
+    summary: Early evidence from two case studies
     category: AI
     tags:
       - ai
-      - industry
-      - startups
-    relevance: 0.6617752041666667
-    published_at: 2026-08-05T20:05:00.000Z
+      - policy
+      - hype
+      - accountability
+    relevance: 0.7197957476851852
+    published_at: 2026-08-05T13:49:19.000Z
   - title: COLDCARD security audit phishing attack installs remote access tool
     url: https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/
     source: BleepingComputer
@@ -1279,25 +923,143 @@ items:
       - security
       - malware
       - vulnerabilities
-    relevance: 0.8080162958333335
+    relevance: 0.8014730037037038
     published_at: 2026-08-05T17:49:41.000Z
-  - title: 'Solving the "Noisy Neighbor": How Sharded Architecture Protects
-      Multi-Tenant Platforms'
-    url: https://cloud.google.com/blog/products/data-analytics/solving-the-noisy-neighbor-with-sharded-architecture/
-    source: Google Cloud Blog
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
-    summary: "Whether you are a multi-tenant SaaS provider, a large enterprise
-      managing internal data platforms, or a company handling mixed-workload
-      data processing, managing a shared infrastructure environment means facing
-      a common threat: the 'noisy neighbor'. A single t"
+  - title: GNU Hurd news 2026-q2
+    url: https://www.gnu.org/software/hurd/news/2026-q2.html
+    source: Lobsters
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
+    image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
+    summary: Comments
     category: IT
     tags:
       - it
-      - gcp
-      - cloud
-    relevance: 0.692468385648148
-    published_at: 2026-08-05T16:00:00.000Z
+      - programming
+      - systems
+      - community
+    relevance: 0.702199273148148
+    published_at: 2026-08-06T01:45:51.000Z
+  - title: "The Download: NASA's new telescope and Chinese tech import curbs"
+    url: https://www.technologyreview.com/2026/08/05/1141212/the-download-nasa-telescope-chinese-tech-import-curbs/
+    source: MIT Technology Review
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=technologyreview.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=technologyreview.com
+    summary: This is today's edition of The Download, our weekday newsletter that
+      provides a daily dose of what's going on in the world of technology.
+      NASA’s new dark energy space telescope can also detect killer asteroids At
+      the end of August, NASA is set to launch the Na
+    category: Technology
+    tags:
+      - technology
+      - research
+      - society
+    relevance: 0.7920369083333334
+    published_at: 2026-08-05T12:10:00.000Z
+  - title: "Jobs roundup: August 2026 | Three new hires at Yogscast Games"
+    url: https://www.gamesindustry.biz/jobs-roundup-august-2026-three-new-hires-at-yogscast-games
+    source: GamesIndustry.biz
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=gamesindustry.biz
+    image: https://assetsio.gnwcdn.com/jobs-roundup-august.png?width=690&quality=85&format=jpg&auto=webp
+    summary: It can be difficult keeping track of the various comings and goings in
+      the games industry, which is why we compile them in semi-regular
+      round-ups. Read more
+    category: Gaming
+    tags:
+      - gaming
+      - industry
+      - business
+      - development
+    relevance: 0.7525138467592594
+    published_at: 2026-08-05T10:57:10.000Z
+  - title: Artemis III Orion Crew and Service Models Joined
+    url: https://www.nasa.gov/image-article/artemis-iii-orion-crew-and-service-models-joined/
+    source: NASA News
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
+    image: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
+    summary: Technicians joined the Orion crew and service modules together on July
+      30, 2026, inside the Neil Armstrong Operations and Checkout Building at
+      NASA's Kennedy Space Center in Florida. The crew module will carry and
+      sustain NASA astronauts Randy Bresnik, Andre D
+    category: Science
+    tags:
+      - science
+      - nasa
+      - space
+    relevance: 0.7258512569444444
+    published_at: 2026-08-05T17:27:18.000Z
+  - title: Outrage as Ugandan football captain beaten to death in street gang attack
+    url: https://www.bbc.co.uk/news/articles/cm2g0038yr8o?at_medium=RSS&at_campaign=rss
+    source: BBC News — World
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+    summary: The 27-year-old was killed by suspected robbers after resisting an
+      attempt to rob him, police say.
+    category: Geopolitics
+    tags:
+      - geopolitics
+      - bbc
+      - world-news
+    relevance: 0.8218835342592593
+    published_at: 2026-08-06T06:04:28.000Z
+  - title: What will Kevin Warsh do if America’s economy breaks?
+    url: https://www.economist.com/finance-and-economics/2026/08/02/what-will-kevin-warsh-do-if-americas-economy-breaks
+    source: The Economist — Finance & Economics
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=economist.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=economist.com
+    summary: An enigmatic Fed faces the risk of AI stocks falling and the oil price
+      soaring
+    category: Economy
+    tags:
+      - economy
+      - finance
+      - macroeconomics
+      - analysis
+    relevance: 0.7162601388888888
+    published_at: 2026-08-02T16:12:02.000Z
+  - title: "Latest open artifacts (#23): Laguna S2.1, Inkling, & Kimi K3 show the
+      utility of open models on the Pareto frontier"
+    url: https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21
+    source: Interconnects
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=interconnects.ai
+    image: https://substackcdn.com/image/fetch/$s_!RSM6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a71a4f9-5ac5-447e-82ff-899915627512_2048x1152.jpeg
+    summary: Capacity to train strong models is proliferating.
+    category: AI
+    tags:
+      - ai
+      - post-training
+      - open-models
+      - analysis
+    relevance: 0.6734722597222222
+    published_at: 2026-08-02T13:01:40.000Z
+  - title: CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws
+    url: https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/
+    source: BleepingComputer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
+    summary: The U.S. Cybersecurity and Infrastructure Security Agency is giving
+      federal agencies three days to mitigate vulnerabilities in IBM Langflow,
+      N-central, and Apache Tomcat, all actively exploited. [...]
+    category: Security
+    tags:
+      - security
+      - malware
+      - vulnerabilities
+    relevance: 0.7981915222222223
+    published_at: 2026-08-05T15:51:33.000Z
+  - title: A Vision for Cargo
+    url: https://epage.github.io/blog/2026/08/cargo-vision/
+    source: Lobsters
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
+    image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
+    summary: Comments
+    category: IT
+    tags:
+      - it
+      - programming
+      - systems
+      - community
+    relevance: 0.6938687175925925
+    published_at: 2026-08-05T20:45:57.000Z
   - title: NASA’s new dark-energy space telescope can also detect killer asteroids
     url: https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/
     source: MIT Technology Review
@@ -1312,211 +1074,85 @@ items:
       - technology
       - research
       - society
-    relevance: 0.7918214745370371
+    relevance: 0.7852776490740742
     published_at: 2026-08-05T08:06:40.000Z
-  - title: Former Bethesda lead artist is looking forward to Fallout 3's remaster
-      because the game they released was '100% not what we intended, and it was
-      very, very constrained'
-    url: https://www.pcgamer.com/games/fallout/former-bethesda-lead-artist-is-looking-forward-to-fallout-3s-remaster-because-the-game-they-released-was-100-percent-not-what-we-intended-and-it-was-very-very-constrained/
-    source: PC Gamer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=pcgamer.com
-    image: https://cdn.mos.cms.futurecdn.net/96a2vUyeemEnbpoSDrxMsV-1280-80.png
-    summary: '"And you could only place so many lights."'
+  - title: Electronic Arts completes $55bn acquisition; CEO announces senior
+      leadership changes
+    url: https://www.gamesindustry.biz/electronic-arts-completes-55bn-acquisition-ceo-announces-senior-leadership-changes
+    source: GamesIndustry.biz
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=gamesindustry.biz
+    image: https://assetsio.gnwcdn.com/electronic-arts.jpg?width=690&quality=85&format=jpg&auto=webp
+    summary: Electronic Arts has completed its $55 billion leveraged buyout , with
+      Saudi Arabia's Public Investment Fund (PIF) now the majority owner. Read
+      more
     category: Gaming
     tags:
       - gaming
-      - pc
-      - news
-      - reviews
-    relevance: 0.7458785513888889
-    published_at: 2026-08-06T01:32:44.000Z
-  - title: NASA’s Perseverance Captures Phobos and Earth
-    url: https://science.nasa.gov/photojournal/nasas-perseverance-captures-phobos-and-earth/
-    source: NASA News
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
-    image: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
-    summary: Description This composite of seven images from the Mastcam-Z
-      instrument aboard NASA’s Perseverance Mars rover shows Earth, visible as a
-      small bright dot moving from upper left to lower right, passing behind the
-      Martian moon Phobos on July 2, 2026, 1,907th Mar
+      - industry
+      - business
+      - development
+    relevance: 0.7477981060185186
+    published_at: 2026-08-05T08:07:24.000Z
+  - title: We must adapt to climate change while also tackling the root cause
+    url: https://www.newscientist.com/article/2583095-we-must-adapt-to-climate-change-while-also-tackling-the-root-cause/?utm_campaign=RSS|NSNS&#038;utm_content=home&#038;utm_medium=RSS&#038;utm_source=NSNS
+    source: New Scientist
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
+    summary: The devastating wildfires in Europe demand urgent measures to make
+      landscapes more resilient, but without action to reduce use of fossil
+      fuels, the danger is only going to increase
     category: Science
     tags:
       - science
-      - nasa
-      - space
-    relevance: 0.7290820814814815
-    published_at: 2026-08-05T15:28:03.000Z
-  - title: Israel strikes south Lebanon after first evacuation warning in weeks
-    url: https://www.bbc.co.uk/news/articles/c998711dyjvo?at_medium=RSS&at_campaign=rss
+      - research
+      - society
+    relevance: 0.7250924814814815
+    published_at: 2026-08-05T17:00:00.000Z
+  - title: In Odesa, no-one is safe from Russia's new Black Sea strikes
+    url: https://www.bbc.co.uk/news/articles/cy8ev4y172yo?at_medium=RSS&at_campaign=rss
     source: BBC News — World
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
     image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    summary: Lebanon's health ministry says one person was killed in the strikes,
-      which the Israeli military says were a response to a Hezbollah ceasefire
-      violation.
+    summary: Blackened ships and smashed docks mark Russia's recent surge of attacks
+      on Ukraine's coastline.
     category: Geopolitics
     tags:
       - geopolitics
       - bbc
       - world-news
-    relevance: 0.8117360185185186
-    published_at: 2026-08-05T20:03:36.000Z
-  - title: Sandisk&#x2019;s stock falls as the company&#x2019;s forecast
-      doesn&#x2019;t live up to high expectations
-    url: https://www.marketwatch.com/story/sandisks-stock-falls-as-the-companys-forecast-doesnt-live-up-to-high-expectations-8fd13d9b?mod=mw_rss_topstories
-    source: MarketWatch Top Stories
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=marketwatch.com
-    image: https://images.mktw.net/im-57413903
-    summary: The midpoint of the company&#x2019;s revenue forecast was below what
-      analysts had been modeling.
+    relevance: 0.8201177935185185
+    published_at: 2026-08-06T05:00:54.000Z
+  - title: Will U.S. cities face a knock-on fiscal crisis from the feds?
+    url: https://feeds.feedblitz.com/~/966816635/0/marginalrevolution~Will-US-cities-face-a-knockon-fiscal-crisis-from-the-feds.html
+    source: Marginal Revolution
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=marginalrevolution.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=marginalrevolution.com
+    summary: "Federal money flows to cities in three flavors: direct transfers,
+      indirect transfers, and what we call fiscal dark matter. Direct transfers
+      are exactly what they sound like — money sent directly from the federal
+      government to various localities. These include "
     category: Economy
     tags:
       - economy
-      - markets
-      - finance
-      - news
-    relevance: 0.7031633949074073
-    published_at: 2026-08-05T22:25:00.000Z
-  - title: Jeff Dean and other top AI researchers are leaving Google to launch their
-      own startup
-    url: https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/
-    source: TechCrunch — AI
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    summary: The legendary Google executive is joined by other outgoing Google execs
-      in a joint mission to use AI to push forward the process of scientific
-      discovery.
-    category: AI
-    tags:
-      - ai
-      - industry
-      - startups
-    relevance: 0.6608117782407408
-    published_at: 2026-08-05T19:30:19.000Z
-  - title: CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws
-    url: https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/
-    source: BleepingComputer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
-    summary: The U.S. Cybersecurity and Infrastructure Security Agency is giving
-      federal agencies three days to mitigate vulnerabilities in IBM Langflow,
-      N-central, and Apache Tomcat, all actively exploited. [...]
-    category: Security
-    tags:
-      - security
-      - malware
-      - vulnerabilities
-    relevance: 0.8047348143518519
-    published_at: 2026-08-05T15:51:33.000Z
-  - title: Painting with Gaussians
-    url: https://yogthos.net/posts/2026-08-03-splat-painter.html
-    source: Lobsters
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    summary: Comments
-    category: IT
-    tags:
-      - it
-      - programming
-      - systems
-      - community
-    relevance: 0.6883930101851851
-    published_at: 2026-08-05T13:33:16.000Z
-  - title: How much of my boss's job can AI do?
-    url: https://www.platformer.news/replacing-casey-with-claude/
-    source: Platformer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=platformer.news
-    image: https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/08/Screenshot-2026-08-05-at-4.22.03---PM.png
-    summary: "Six months after trying to automate myself, I gave Claude Fable 5 a
-      bigger job: replacing Casey"
-    category: Technology
-    tags:
-      - technology
-      - social-media
-      - platforms
-      - newsletter
-    relevance: 0.7433056782407408
-    published_at: 2026-08-06T00:00:06.000Z
-  - title: What happens after GTA 6?
-    url: https://www.pcgamer.com/games/grand-theft-auto/what-happens-after-gta-6/
-    source: PC Gamer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=pcgamer.com
-    image: https://cdn.mos.cms.futurecdn.net/a5kFkuMcP3K6N2YFbYPxyZ-1280-80.jpg
-    summary: With the industry in flux, will Rockstar's big one create more chaos or
-      calm things down? Probably neither.
-    category: Gaming
-    tags:
-      - gaming
-      - pc
-      - news
-      - reviews
-    relevance: 0.7427785513888889
-    published_at: 2026-08-05T23:41:08.000Z
-  - title: NASA’s Perseverance Rover Watches Earth Vanish Behind Martian Moon
-    url: https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-watches-earth-vanish-behind-martian-moon/
-    source: NASA News
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
-    image: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
-    summary: Earth and the Martian moon Phobos dance together in a series of images
-      recently acquired by NASA’s Perseverance Mars rover. Earth appears as a
-      point of light in the Martian sky, disappearing behind the crescent of
-      Phobos, the larger of Mars’ two moons. This is
-    category: Science
-    tags:
-      - science
-      - nasa
-      - space
-    relevance: 0.7290098592592592
-    published_at: 2026-08-05T15:25:27.000Z
-  - title: US to shut five consulates as critics fear China could fill diplomatic
-      vacuum
-    url: https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures
-    source: The Guardian — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theguardian.com
-    image: https://i.guim.co.uk/img/media/2d303f1c00bd3175b4c5f7faebac7877b8e08984/488_0_4858_3889/master/4858.jpg?width=140&quality=85&auto=format&fit=max&s=e951340e079dde5983e6c08d64721b28
-    summary: State department informs Congress of planned closures in Canada,
-      Grenada, Japan, Indonesia and Cameroon The US state department is to shut
-      five foreign consulates and missions across Asia, Africa, North America
-      and the Caribbean, drawing criticism that it is l
-    category: Geopolitics
-    tags:
-      - geopolitics
-      - world-news
-      - investigative
-    relevance: 0.8105378435185185
-    published_at: 2026-08-05T19:20:28.000Z
-  - title: Block slashed 40% of its workforce for AI &#x2014; and its earnings
-      suggest that&#x2019;s paying off
-    url: https://www.marketwatch.com/story/block-slashed-40-of-its-workforce-for-ai-and-earnings-suggest-thats-paying-off-852b7c54?mod=mw_rss_topstories
-    source: MarketWatch Top Stories
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=marketwatch.com
-    image: https://images.mktw.net/im-60833731
-    summary: "&#x201c;We can ship higher-quality products much, much more
-      quickly,&#x201d; an executive said in the wake of the company&#x2019;s
-      better-than-expected earnings report"
-    category: Economy
-    tags:
-      - economy
-      - markets
-      - finance
-      - news
-    relevance: 0.7029967282407407
-    published_at: 2026-08-05T22:19:00.000Z
-  - title: Alexander Rakhlin named director of the MIT Statistics and Data Science
-      Center
-    url: https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803
+      - economics
+      - commentary
+      - blog
+    relevance: 0.7083762541666666
+    published_at: 2026-08-06T05:28:13.000Z
+  - title: The benefits of medical AI assistance vary based on user expertise
+    url: https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804
     source: MIT News — AI
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=news.mit.edu
-    image: https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202608/sasha-rakhlin-mit-A1.jpg?itok=E-0MgF5E
-    summary: An expert in machine learning, statistics, and computation, Rakhlin
-      succeeds Professor Ankur Moitra.
+    image: https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202608/MIT-AI-Dermatology-01.jpg?itok=SvrI0eha
+    summary: Study finds non-experts deferred to LLM-based diagnostic assistance,
+      even when it was wrong, while clinicians caught AI errors.
     category: AI
     tags:
       - ai
       - mit
       - research
-    relevance: 0.6563585212962963
-    published_at: 2026-08-03T19:50:00.000Z
+    relevance: 0.6717593782407407
+    published_at: 2026-08-04T09:00:00.000Z
   - title: CISA Adds One Known Exploited Vulnerability to Catalog
     url: https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog
     source: CISA Cybersecurity Advisories
@@ -1532,24 +1168,141 @@ items:
       - cisa
       - advisories
       - vulnerabilities
-    relevance: 0.7983026856481482
+    relevance: 0.7917594907407408
     published_at: 2026-08-05T12:00:00.000Z
-  - title: "Unlocking the future of shared storage: Filestore on Colossus"
-    url: https://cloud.google.com/blog/products/storage-data-transfer/filestore-file-service-runs-on-colossus/
-    source: Google Cloud Blog
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
-    summary: "Today, enterprise storage must be as agile, elastic, and responsive as
-      the workloads it supports. Filestore, Google Cloud’s first-party, secure,
-      scalable NFS file service, can service a wide-range of enterprise use
-      cases as well as cutting-edge AI and agentic "
+  - title: I Built a Blog and Forgot to Write
+    url: https://benjcal.space/blog/i-built-a-blog-and-forgot-to-write/
+    source: Lobsters
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
+    image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
+    summary: Comments
     category: IT
     tags:
       - it
-      - gcp
-      - cloud
-    relevance: 0.687468385648148
-    published_at: 2026-08-05T13:00:00.000Z
+      - programming
+      - systems
+      - community
+    relevance: 0.6928048287037036
+    published_at: 2026-08-05T20:07:39.000Z
+  - title: How much of my boss's job can AI do?
+    url: https://www.platformer.news/replacing-casey-with-claude/
+    source: Platformer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=platformer.news
+    image: https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b/content/images/2026/08/Screenshot-2026-08-05-at-4.22.03---PM.png
+    summary: "Six months after trying to automate myself, I gave Claude Fable 5 a
+      bigger job: replacing Casey"
+    category: Technology
+    tags:
+      - technology
+      - social-media
+      - platforms
+      - newsletter
+    relevance: 0.7367617902777778
+    published_at: 2026-08-06T00:00:06.000Z
+  - title: Grab shopkeeper-dungeoncrawler Moonlighter free on Steam for a limited time
+    url: https://www.pcgamer.com/games/roguelike/grab-shopkeeper-dungeoncrawler-moonlighter-free-on-steam-for-a-limited-time/
+    source: PC Gamer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=pcgamer.com
+    image: https://cdn.mos.cms.futurecdn.net/2vJrpDNApmmqv9JhUPmtZb-1280-80.jpg
+    summary: Two jobs for the price of none.
+    category: Gaming
+    tags:
+      - gaming
+      - pc
+      - news
+      - reviews
+    relevance: 0.743550875
+    published_at: 2026-08-06T04:04:30.000Z
+  - title: "Twisteddoodles: 'Will you take the red pill or the blue pill?'"
+    url: https://www.newscientist.com/article/2582842-twisteddoodles-2/?utm_campaign=RSS|NSNS&#038;utm_content=home&#038;utm_medium=RSS&#038;utm_source=NSNS
+    source: New Scientist
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
+    summary: This week's cartoon from Twisteddoodles
+    category: Science
+    tags:
+      - science
+      - research
+      - society
+    relevance: 0.7250924814814815
+    published_at: 2026-08-05T17:00:00.000Z
+  - title: Rihanna is 'in the studio', says partner A$AP Rocky
+    url: https://www.bbc.co.uk/news/articles/c4gwvvw9k1xo?at_medium=RSS&at_campaign=rss
+    source: BBC News — World
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+    summary: The singer, who last released a full album in 2016, is in the studio
+      and "cooking", her partner said.
+    category: Geopolitics
+    tags:
+      - geopolitics
+      - bbc
+      - world-news
+    relevance: 0.8196585342592593
+    published_at: 2026-08-06T04:44:22.000Z
+  - title: Who Pays for Unions?
+    url: https://feeds.feedblitz.com/~/966798095/0/marginalrevolution~Who-Pays-for-Unions.html
+    source: Marginal Revolution
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=marginalrevolution.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=marginalrevolution.com
+    summary: If unions raise worker wages, who pays? We provide a comprehensive
+      assessment of firm responses to increased unionization, using changes in
+      the tax deductibility of union dues in Norway as a quasi-exogenous source
+      of variation in firm-level union density. In t
+    category: Economy
+    tags:
+      - economy
+      - economics
+      - commentary
+      - blog
+    relevance: 0.7065183837962962
+    published_at: 2026-08-06T04:21:20.000Z
+  - title: Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech
+      founders
+    url: https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/
+    source: TechCrunch — AI
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    summary: The serial entrepreneur joins the e-commerce company as CPO to lead its
+      AI agents.
+    category: AI
+    tags:
+      - ai
+      - industry
+      - startups
+    relevance: 0.6552316111111112
+    published_at: 2026-08-05T20:05:00.000Z
+  - title: Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100
+      Million People
+    url: https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
+    source: The Hacker News
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=thehackernews.com
+    image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimtSQSbHZnqrcub_RlfzViiiKRKyucYCIYf0nqt0aWqcYJgY122xGjIRDGnvpYukopZM9DuEPjN6Lax97qyYIghxfFb_faULxhabuOJHBOVbyycVBNUVHAbb5Z8LRfnG_5xrwH__9Jbs6qmPEdopvRysLduoAn0hoANFRnNd2g24zqBTfCUK4WXtDx7eg/s1600/snowflake-hacker.jpg
+    summary: "Connor Riley Moucka pleaded guilty in Seattle federal court on
+      Wednesday to computer fraud, wire fraud, aggravated identity theft and a
+      related conspiracy over the 2024 breaches of Snowflake customer accounts.
+      The intrusions reached at least 165 organizations "
+    category: Security
+    tags:
+      - security
+      - hacking
+      - vulnerabilities
+    relevance: 0.7468845518518519
+    published_at: 2026-08-06T06:04:30.000Z
+  - title: 'The "Disability Dongle": Why Silicon Valley Hates Me and you'
+    url: https://sightlessscribbles.com/disability-dongle/
+    source: Lobsters
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
+    image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
+    summary: Comments
+    category: IT
+    tags:
+      - it
+      - programming
+      - systems
+      - community
+    relevance: 0.6900775138888888
+    published_at: 2026-08-05T18:29:28.000Z
   - title: Get up to $400 off your TechCrunch Disrupt 2026 pass until Friday
     url: https://techcrunch.com/2026/08/05/get-up-to-400-off-your-techcrunch-disrupt-2026-pass-until-friday/
     source: TechCrunch
@@ -1563,5 +1316,252 @@ items:
       - technology
       - startups
       - venture-capital
-    relevance: 0.7415173333333334
+    relevance: 0.7349735523148149
     published_at: 2026-08-05T22:55:43.000Z
+  - title: Can you play Big Walk alone or with randoms?
+    url: https://www.pcgamer.com/games/adventure/can-you-play-big-walk-alone-or-with-randoms/
+    source: PC Gamer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=pcgamer.com
+    image: https://cdn.mos.cms.futurecdn.net/dxkgnDBuwxUKbVYzjTMgS8-1280-80.jpg
+    summary: The most widely adored co-op game of 2026 is a bit tough on loners.
+    category: Gaming
+    tags:
+      - gaming
+      - pc
+      - news
+      - reviews
+    relevance: 0.7428777268518518
+    published_at: 2026-08-06T03:40:16.000Z
+  - title: Tom Gauld visits the entomology department
+    url: https://www.newscientist.com/article/2582834-tom-gauld/?utm_campaign=RSS|NSNS&#038;utm_content=home&#038;utm_medium=RSS&#038;utm_source=NSNS
+    source: New Scientist
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
+    summary: Tom Gauld's weekly cartoon
+    category: Science
+    tags:
+      - science
+      - research
+      - society
+    relevance: 0.7250924814814815
+    published_at: 2026-08-05T17:00:00.000Z
+  - title: Nigerian security forces rescue more than 300 abductees
+    url: https://www.bbc.co.uk/news/articles/cn4ndd8nr8lo?at_medium=RSS&at_campaign=rss
+    source: BBC News — World
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+    summary: The government says the rescue is the country's largest single-day
+      operation by joint security forces.
+    category: Geopolitics
+    tags:
+      - geopolitics
+      - bbc
+      - world-news
+    relevance: 0.8194136268518519
+    published_at: 2026-08-06T04:35:33.000Z
+  - title: I got two email invitations from friends. Is this a phishing scam
+      &#x2014; or am I suddenly popular?
+    url: https://www.marketwatch.com/story/i-got-two-email-invitations-from-friends-is-this-a-phishing-scam-or-am-i-suddenly-popular-d9680aa8?mod=mw_rss_topstories
+    source: MarketWatch Top Stories
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=marketwatch.com
+    image: https://images.mktw.net/im-02087591
+    summary: "&#x201c;I was surprised &#x2014; and flattered &#x2014; to find myself
+      on the guest list.&#x201d;"
+    category: Economy
+    tags:
+      - economy
+      - markets
+      - finance
+      - news
+    relevance: 0.7018425129629629
+    published_at: 2026-08-06T01:33:00.000Z
+  - title: Jeff Dean and other top AI researchers are leaving Google to launch their
+      own startup
+    url: https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/
+    source: TechCrunch — AI
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    summary: The legendary Google executive is joined by other outgoing Google execs
+      in a joint mission to use AI to push forward the process of scientific
+      discovery.
+    category: AI
+    tags:
+      - ai
+      - industry
+      - startups
+    relevance: 0.6542681851851853
+    published_at: 2026-08-05T19:30:19.000Z
+  - title: "Srsly Risky Biz: Being a North Korean hacker is about to be less fun"
+    url: https://risky.biz/SRB178/
+    source: Risky Bulletin
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=risky.biz
+    image: https://dts.podtrac.com/redirect.mp3/media3.risky.biz/SRB178.mp3
+    summary: Tom Uren and James Wilson talk about North Korea losing control over
+      some of its hacker workforce. Expect some tightening of controls and
+      oversight, and perhaps even a reduction in the country’s ransomware
+      operations. They also discuss escalating attacks on Am
+    category: Security
+    tags:
+      - security
+      - news
+      - podcast
+      - intelligence
+    relevance: 0.7441508717592593
+    published_at: 2026-08-06T04:26:06.000Z
+  - title: "Scaling agentic AI: How UiPath built its high-performance GPU platform
+      on AI Hypercomputer"
+    url: https://cloud.google.com/blog/topics/customers/how-uipath-built-its-high-performance-gpu-platform/
+    source: Google Cloud Blog
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
+    summary: As a market leader in enterprise agentic automation and business
+      orchestration, UiPath is helping to pioneer an industry shift toward
+      agentic AI. With it, the company is deploying autonomous agents to
+      actively reason, make decisions, and execute complex busine
+    category: IT
+    tags:
+      - it
+      - gcp
+      - cloud
+    relevance: 0.6859251884259259
+    published_at: 2026-08-05T16:00:00.000Z
+  - title: Nikita Bier steps down as X's head of product
+    url: https://techcrunch.com/2026/08/05/nikita-bier-steps-down-as-xs-head-of-product/
+    source: TechCrunch
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    summary: The serial entrepreneur is stepping down a little over a year after
+      taking the "24/7 job" of overseeing X.
+    category: Technology
+    tags:
+      - technology
+      - startups
+      - venture-capital
+    relevance: 0.7326156819444445
+    published_at: 2026-08-05T21:30:50.000Z
+  - title: Former Bethesda lead artist is looking forward to Fallout 3's remaster
+      because the game they released was '100% not what we intended, and it was
+      very, very constrained'
+    url: https://www.pcgamer.com/games/fallout/former-bethesda-lead-artist-is-looking-forward-to-fallout-3s-remaster-because-the-game-they-released-was-100-percent-not-what-we-intended-and-it-was-very-very-constrained/
+    source: PC Gamer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=pcgamer.com
+    image: https://cdn.mos.cms.futurecdn.net/96a2vUyeemEnbpoSDrxMsV-1280-80.png
+    summary: '"And you could only place so many lights."'
+    category: Gaming
+    tags:
+      - gaming
+      - pc
+      - news
+      - reviews
+    relevance: 0.7393351342592592
+    published_at: 2026-08-06T01:32:44.000Z
+  - title: NASA’s Perseverance Captures Phobos and Earth
+    url: https://science.nasa.gov/photojournal/nasas-perseverance-captures-phobos-and-earth/
+    source: NASA News
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
+    image: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
+    summary: Description This composite of seven images from the Mastcam-Z
+      instrument aboard NASA’s Perseverance Mars rover shows Earth, visible as a
+      small bright dot moving from upper left to lower right, passing behind the
+      Martian moon Phobos on July 2, 2026, 1,907th Mar
+    category: Science
+    tags:
+      - science
+      - nasa
+      - space
+    relevance: 0.7225387569444445
+    published_at: 2026-08-05T15:28:03.000Z
+  - title: Why We Should Fight
+    url: https://www.foreignaffairs.com/united-states/why-we-should-fight-kori-schake
+    source: Foreign Affairs
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=foreignaffairs.com
+    image: https://cdn-live.foreignaffairs.com/sites/default/files/styles/x_large_1x/public/images/2026/08/03/1_Schake_Vert_Crope3.jpg?itok=hCGYZNoX
+    summary: And where Trump went wrong.
+    category: Geopolitics
+    tags:
+      - geopolitics
+      - foreign-policy
+      - analysis
+      - journals
+    relevance: 0.8184260569444445
+    published_at: 2026-08-06T04:00:00.000Z
+  - title: "&#x2018;I don&#x2019;t wish to be cold-hearted&#x2019;: My elderly
+      relative can no longer care for himself. Am I wrong to leave his care to
+      the state?"
+    url: https://www.marketwatch.com/story/i-dont-wish-to-be-cold-hearted-my-elderly-relative-can-no-longer-care-for-himself-am-i-wrong-to-leave-his-care-to-the-state-8d546b32?mod=mw_rss_topstories
+    source: MarketWatch Top Stories
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=marketwatch.com
+    image: https://images.mktw.net/im-96138603
+    summary: "&#x201c;He has never been particularly generous or nurturing.&#x201d;"
+    category: Economy
+    tags:
+      - economy
+      - markets
+      - finance
+      - news
+    relevance: 0.7017869574074074
+    published_at: 2026-08-06T01:31:00.000Z
+  - title: Alexander Rakhlin named director of the MIT Statistics and Data Science
+      Center
+    url: https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803
+    source: MIT News — AI
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=news.mit.edu
+    image: https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202608/sasha-rakhlin-mit-A1.jpg?itok=E-0MgF5E
+    summary: An expert in machine learning, statistics, and computation, Rakhlin
+      succeeds Professor Ankur Moitra.
+    category: AI
+    tags:
+      - ai
+      - mit
+      - research
+    relevance: 0.6498149337962963
+    published_at: 2026-08-03T19:50:00.000Z
+  - title: OpenAI Didn’t Notice Its AI Agents Using a Message Board to Plan Their
+      Hacking Spree
+    url: https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/
+    source: Wired — Security
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
+    summary: At the Black Hat security conference, the AI giant revealed new details
+      about how its agents went rogue, hacked several other companies—and did it
+      all right under the company’s nose.
+    category: Security
+    tags:
+      - security
+      - privacy
+      - surveillance
+    relevance: 0.737178086574074
+    published_at: 2026-08-06T00:15:04.000Z
+  - title: 'Solving the "Noisy Neighbor": How Sharded Architecture Protects
+      Multi-Tenant Platforms'
+    url: https://cloud.google.com/blog/products/data-analytics/solving-the-noisy-neighbor-with-sharded-architecture/
+    source: Google Cloud Blog
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=cloud.google.com
+    summary: "Whether you are a multi-tenant SaaS provider, a large enterprise
+      managing internal data platforms, or a company handling mixed-workload
+      data processing, managing a shared infrastructure environment means facing
+      a common threat: the 'noisy neighbor'. A single t"
+    category: IT
+    tags:
+      - it
+      - gcp
+      - cloud
+    relevance: 0.6859251884259259
+    published_at: 2026-08-05T16:00:00.000Z
+  - title: Travis Kalanick's robotics startup Atoms taps former Uber finance chief
+      as CFO
+    url: https://techcrunch.com/2026/08/05/travis-kalanicks-robotics-startup-atoms-taps-former-uber-finance-chief-as-cfo/
+    source: TechCrunch
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    summary: Kalanick continues to get the band back together, after acquiring
+      Anthony Levandowski's autonomy startup, and even soliciting investment
+      from Uber.
+    category: Technology
+    tags:
+      - technology
+      - startups
+      - venture-capital
+    relevance: 0.7324999407407408
+    published_at: 2026-08-05T21:26:40.000Z
