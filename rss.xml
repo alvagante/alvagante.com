@@ -6,232 +6,574 @@
     <atom:link href="https://alvagante.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>Daily AI-assisted news digest from Alvagante.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Sep 2026 04:01:26 GMT</lastBuildDate>
-    <pubDate>Tue, 08 Sep 2026 04:01:26 GMT</pubDate>
+    <lastBuildDate>Wed, 09 Sep 2026 04:01:24 GMT</lastBuildDate>
+    <pubDate>Wed, 09 Sep 2026 04:01:24 GMT</pubDate>
     <item>
-      <title>llm 0.35</title>
-      <link>https://simonwillison.net/2026/Sep/7/llm/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Sep/7/llm/</guid>
-      <description>Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra</description>
-      <category>AI</category>
-      <source url="https://simonwillison.net/2026/Sep/7/llm/">Simon Willison&apos;s Weblog</source>
-      <pubDate>Mon, 07 Sep 2026 23:54:54 GMT</pubDate>
-    </item>
-    <item>
-      <title>Creepy crawlies</title>
-      <link>https://simonwillison.net/2026/Sep/7/creepy-crawlies/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Sep/7/creepy-crawlies/</guid>
-      <description>Creepy crawlies Konstantin Ryabitsev discusses how bad the &quot;background radiation&quot; of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for sc</description>
-      <category>AI</category>
-      <source url="https://simonwillison.net/2026/Sep/7/creepy-crawlies/">Simon Willison&apos;s Weblog</source>
-      <pubDate>Mon, 07 Sep 2026 23:08:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>Quoting Jakub Pachocki</title>
-      <link>https://simonwillison.net/2026/Sep/7/jakub-pachocki/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Sep/7/jakub-pachocki/</guid>
-      <description>The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rog</description>
-      <category>AI</category>
-      <source url="https://simonwillison.net/2026/Sep/7/jakub-pachocki/">Simon Willison&apos;s Weblog</source>
-      <pubDate>Mon, 07 Sep 2026 22:26:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>Video compressor</title>
-      <link>https://simonwillison.net/2026/Sep/7/video-compressor/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Sep/7/video-compressor/</guid>
-      <description>Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAs</description>
-      <category>AI</category>
-      <source url="https://simonwillison.net/2026/Sep/7/video-compressor/">Simon Willison&apos;s Weblog</source>
-      <pubDate>Mon, 07 Sep 2026 18:29:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mercator ↔ Equal Earth</title>
-      <link>https://simonwillison.net/2026/Sep/7/equal-earth/</link>
-      <guid isPermaLink="true">https://simonwillison.net/2026/Sep/7/equal-earth/</guid>
-      <description>Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Equal Earth using D3. Tags: geospatial , d</description>
-      <category>AI</category>
-      <source url="https://simonwillison.net/2026/Sep/7/equal-earth/">Simon Willison&apos;s Weblog</source>
-      <pubDate>Mon, 07 Sep 2026 16:24:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>Automobile Camouflage to Hide from Flock Cameras</title>
-      <link>https://www.schneier.com/blog/archives/2026/09/automobile-camouflage-to-hide-from-flock-cameras.html</link>
-      <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/09/automobile-camouflage-to-hide-from-flock-cameras.html</guid>
-      <description>Not sure it&apos;s practical, but it&apos;s certainly striking .</description>
+      <title>Microsoft Plugs Nearly 1,000 Security Holes</title>
+      <link>https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/</link>
+      <guid isPermaLink="true">https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/</guid>
+      <description>Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilitie</description>
       <category>Security</category>
-      <source url="https://www.schneier.com/blog/archives/2026/09/automobile-camouflage-to-hide-from-flock-cameras.html">Schneier on Security</source>
-      <pubDate>Mon, 07 Sep 2026 11:06:40 GMT</pubDate>
+      <source url="https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/">Krebs on Security</source>
+      <pubDate>Tue, 08 Sep 2026 21:44:22 GMT</pubDate>
+    </item>
+    <item>
+      <title>How GPT-5.6 Sol helps run quantum computing experiments</title>
+      <link>https://openai.com/index/codex-quantum-computing-experiments</link>
+      <guid isPermaLink="true">https://openai.com/index/codex-quantum-computing-experiments</guid>
+      <description>See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.</description>
+      <category>AI</category>
+      <source url="https://openai.com/index/codex-quantum-computing-experiments">OpenAI News</source>
+      <pubDate>Tue, 08 Sep 2026 17:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Work Now Within Reach</title>
+      <link>https://openai.com/index/the-work-now-within-reach</link>
+      <guid isPermaLink="true">https://openai.com/index/the-work-now-within-reach</guid>
+      <description>Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.</description>
+      <category>AI</category>
+      <source url="https://openai.com/index/the-work-now-within-reach">OpenAI News</source>
+      <pubDate>Tue, 08 Sep 2026 13:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Introducing ChatGPT Images 2.5</title>
+      <link>https://openai.com/index/introducing-chatgpt-images-2-5</link>
+      <guid isPermaLink="true">https://openai.com/index/introducing-chatgpt-images-2-5</guid>
+      <description>ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.</description>
+      <category>AI</category>
+      <source url="https://openai.com/index/introducing-chatgpt-images-2-5">OpenAI News</source>
+      <pubDate>Tue, 08 Sep 2026 11:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>On the Navier–Stokes Millennium Prize Problem</title>
+      <link>https://openai.com/index/navier-stokes-solution</link>
+      <guid isPermaLink="true">https://openai.com/index/navier-stokes-solution</guid>
+      <description>We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.</description>
+      <category>AI</category>
+      <source url="https://openai.com/index/navier-stokes-solution">OpenAI News</source>
+      <pubDate>Tue, 08 Sep 2026 10:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Funding grants for new research into AI and teen development</title>
+      <link>https://openai.com/index/teen-development-research-grants</link>
+      <guid isPermaLink="true">https://openai.com/index/teen-development-research-grants</guid>
+      <description>Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.</description>
+      <category>AI</category>
+      <source url="https://openai.com/index/teen-development-research-grants">OpenAI News</source>
+      <pubDate>Tue, 08 Sep 2026 09:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Quoting Terence Tao</title>
+      <link>https://simonwillison.net/2026/Sep/9/terence-tao/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Sep/9/terence-tao/</guid>
+      <description>I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that even the rumor of someone working on a pro</description>
+      <category>AI</category>
+      <source url="https://simonwillison.net/2026/Sep/9/terence-tao/">Simon Willison&apos;s Weblog</source>
+      <pubDate>Wed, 09 Sep 2026 00:20:17 GMT</pubDate>
+    </item>
+    <item>
+      <title>On the Navier–Stokes Millennium Prize Problem</title>
+      <link>https://simonwillison.net/2026/Sep/8/on-navier-stokes/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Sep/8/on-navier-stokes/</guid>
+      <description>On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem , one of the seven Millennium Prize Problems that have been subject to a $1,</description>
+      <category>AI</category>
+      <source url="https://simonwillison.net/2026/Sep/8/on-navier-stokes/">Simon Willison&apos;s Weblog</source>
+      <pubDate>Tue, 08 Sep 2026 23:55:12 GMT</pubDate>
+    </item>
+    <item>
+      <title>Introducing ChatGPT Images 2.5</title>
+      <link>https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/</link>
+      <guid isPermaLink="true">https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/</guid>
+      <description>Introducing ChatGPT Images 2.5 OpenAI&apos;s image generation models are apparently used &quot;more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API&quot;. This latest release improves their instruction-following ability across multiple turns, </description>
+      <category>AI</category>
+      <source url="https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/">Simon Willison&apos;s Weblog</source>
+      <pubDate>Tue, 08 Sep 2026 22:46:33 GMT</pubDate>
+    </item>
+    <item>
+      <title>Why Is China’s Officer Corps So Sprawling?</title>
+      <link>https://foreignpolicy.com/2026/09/08/china-pla-officer-corps-military-ccp/</link>
+      <guid isPermaLink="true">https://foreignpolicy.com/2026/09/08/china-pla-officer-corps-military-ccp/</guid>
+      <description>Not every People’s Liberation Army general commands troops.</description>
+      <category>Geopolitics</category>
+      <source url="https://foreignpolicy.com/2026/09/08/china-pla-officer-corps-military-ccp/">Foreign Policy</source>
+      <pubDate>Tue, 08 Sep 2026 21:50:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Berlin Is Shedding Light on the Gray Zone</title>
+      <link>https://foreignpolicy.com/2026/09/08/germany-russia-drones-gray-zone-hybrid-warfare-putin/</link>
+      <guid isPermaLink="true">https://foreignpolicy.com/2026/09/08/germany-russia-drones-gray-zone-hybrid-warfare-putin/</guid>
+      <description>Are European countries finally ready to publicly call out Russian sabotage?</description>
+      <category>Geopolitics</category>
+      <source url="https://foreignpolicy.com/2026/09/08/germany-russia-drones-gray-zone-hybrid-warfare-putin/">Foreign Policy</source>
+      <pubDate>Tue, 08 Sep 2026 20:42:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>Are Yemen and Saudi Arabia Returning to All-Out War?</title>
+      <link>https://foreignpolicy.com/2026/09/08/yemen-houthi-strikes-saudi-arabia-oil-iran-bab-el-mandeb/</link>
+      <guid isPermaLink="true">https://foreignpolicy.com/2026/09/08/yemen-houthi-strikes-saudi-arabia-oil-iran-bab-el-mandeb/</guid>
+      <description>Houthi strikes risk adding a new front to the Iran conflict.</description>
+      <category>Geopolitics</category>
+      <source url="https://foreignpolicy.com/2026/09/08/yemen-houthi-strikes-saudi-arabia-oil-iran-bab-el-mandeb/">Foreign Policy</source>
+      <pubDate>Tue, 08 Sep 2026 20:18:37 GMT</pubDate>
+    </item>
+    <item>
+      <title>AIs as Modern Genies</title>
+      <link>https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html</link>
+      <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html</guid>
+      <description>This essay was written with Barath Raghavan, and originally appeared in Lawfare . In April, an artificial intelligence (AI) agent conducting a routine task at a company hit a snag, tried to solve it, and soon ended up deleting the company’s database along with</description>
+      <category>Security</category>
+      <source url="https://www.schneier.com/blog/archives/2026/09/ais-as-modern-genies.html">Schneier on Security</source>
+      <pubDate>Tue, 08 Sep 2026 17:12:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Can Trump Make Americans Mine Again?</title>
+      <link>https://foreignpolicy.com/2026/09/08/critical-minerals-mining-workforce-schools-education/</link>
+      <guid isPermaLink="true">https://foreignpolicy.com/2026/09/08/critical-minerals-mining-workforce-schools-education/</guid>
+      <description>The United States lacks the people to power its critical mineral ambitions.</description>
+      <category>Geopolitics</category>
+      <source url="https://foreignpolicy.com/2026/09/08/critical-minerals-mining-workforce-schools-education/">Foreign Policy</source>
+      <pubDate>Tue, 08 Sep 2026 16:06:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Europe Needs a Real Policy on Israel-Palestine</title>
+      <link>https://foreignpolicy.com/2026/09/08/europe-israel-palestine-washington-gaza/</link>
+      <guid isPermaLink="true">https://foreignpolicy.com/2026/09/08/europe-israel-palestine-washington-gaza/</guid>
+      <description>As U.S. opinion shifts, Europe has an opportunity to be a player, not just a payer.</description>
+      <category>Geopolitics</category>
+      <source url="https://foreignpolicy.com/2026/09/08/europe-israel-palestine-washington-gaza/">Foreign Policy</source>
+      <pubDate>Tue, 08 Sep 2026 14:13:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome</title>
+      <link>https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/</link>
+      <guid isPermaLink="true">https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/</guid>
+      <description>AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.</description>
+      <category>AI</category>
+      <source url="https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/">Google DeepMind Blog</source>
+      <pubDate>Tue, 08 Sep 2026 14:00:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>Stealing AI Reasoning Traces</title>
+      <link>https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html</link>
+      <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html</guid>
+      <description>Interesting research: &quot; Stealing Reasoning Traces from Proprietary LLM APIs &quot;: Abstract: Leading large language model providers now conceal their models&apos; step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakag</description>
+      <category>Security</category>
+      <source url="https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html">Schneier on Security</source>
+      <pubDate>Tue, 08 Sep 2026 10:20:04 GMT</pubDate>
+    </item>
+    <item>
+      <title>AI Has Solved One of Math’s $1 Million Millennium Prize Problems</title>
+      <link>https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/</link>
+      <guid isPermaLink="true">https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/</guid>
+      <description>Mathematicians at OpenAI showed that the Navier-Stokes equations, which describe how fluids flow, can sometimes “blow up.” But the massive result is not without controversy. The post AI Has Solved One of Math’s $1 Million Millennium Prize Problems first appear</description>
+      <category>Science</category>
+      <source url="https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/">Quanta Magazine</source>
+      <pubDate>Tue, 08 Sep 2026 08:43:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>What is causing the global bond sell-off?</title>
+      <link>https://www.economist.com/finance-and-economics/2026/09/08/what-is-causing-the-global-bond-sell-off</link>
+      <guid isPermaLink="true">https://www.economist.com/finance-and-economics/2026/09/08/what-is-causing-the-global-bond-sell-off</guid>
+      <description>India hints at the answer</description>
+      <category>Economy</category>
+      <source url="https://www.economist.com/finance-and-economics/2026/09/08/what-is-causing-the-global-bond-sell-off">The Economist — Finance &amp; Economics</source>
+      <pubDate>Tue, 08 Sep 2026 18:15:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>China’s $54bn capital boost for banks falls far short</title>
+      <link>https://www.economist.com/finance-and-economics/2026/09/08/chinas-54bn-capital-boost-for-banks-falls-far-short</link>
+      <guid isPermaLink="true">https://www.economist.com/finance-and-economics/2026/09/08/chinas-54bn-capital-boost-for-banks-falls-far-short</guid>
+      <description>Old problems bedevil balance-sheets and hold back lending</description>
+      <category>Economy</category>
+      <source url="https://www.economist.com/finance-and-economics/2026/09/08/chinas-54bn-capital-boost-for-banks-falls-far-short">The Economist — Finance &amp; Economics</source>
+      <pubDate>Tue, 08 Sep 2026 16:18:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>What OpenAI’s latest controversy tells us about the future of math</title>
+      <link>https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/</link>
+      <guid isPermaLink="true">https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/</guid>
+      <description>OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, </description>
+      <category>Technology</category>
+      <source url="https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/">MIT Technology Review</source>
+      <pubDate>Wed, 09 Sep 2026 03:10:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hong Kong&apos;s first post-colonial leader dies aged 89</title>
+      <link>https://www.bbc.co.uk/news/articles/cn457lq938jo?at_medium=RSS&amp;at_campaign=rss</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cn457lq938jo?at_medium=RSS&amp;at_campaign=rss</guid>
+      <description>The tenure of Tung Chee-hwa, Hong Kong&apos;s first leader after the 1997 handover, was marked by crises and protests.</description>
+      <category>Geopolitics</category>
+      <source url="https://www.bbc.co.uk/news/articles/cn457lq938jo?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
+      <pubDate>Wed, 09 Sep 2026 03:09:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>US slaps import ban on Canadian alcohol, motorbikes and other goods</title>
+      <link>https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&amp;at_campaign=rss</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&amp;at_campaign=rss</guid>
+      <description>It is the latest strike in a long trade war, and comes as Canadian counter-tariffs on US goods come into force.</description>
+      <category>Geopolitics</category>
+      <source url="https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
+      <pubDate>Wed, 09 Sep 2026 03:03:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>ISC Stormcast For Wednesday, September 9th, 2026 https://isc.sans.edu/podcastdetail/10086, (Wed, Sep 9th)</title>
+      <link>https://isc.sans.edu/diary/rss/33322</link>
+      <guid isPermaLink="true">https://isc.sans.edu/diary/rss/33322</guid>
+      <description>Latest item from SANS Internet Storm Center.</description>
+      <category>Security</category>
+      <source url="https://isc.sans.edu/diary/rss/33322">SANS Internet Storm Center</source>
+      <pubDate>Wed, 09 Sep 2026 02:00:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>UK announces sanctions on West Bank settlements prompting furious Israeli response</title>
+      <link>https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&amp;at_campaign=rss</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&amp;at_campaign=rss</guid>
+      <description>Britain&apos;s foreign secretary accuses settlers of carrying out the &quot;ethnic cleansing&quot; of Palestinians, as Israel responds by shutting the UK consulate in East Jerusalem.</description>
+      <category>Geopolitics</category>
+      <source url="https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
+      <pubDate>Wed, 09 Sep 2026 01:45:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/</link>
+      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/</guid>
+      <description>Microsoft is adding new age-awareness APIs to Windows 11 that will allow apps to determine whether someone is a child, teenager, or adult without exposing their exact date of birth. [...]</description>
+      <category>Security</category>
+      <source url="https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/">BleepingComputer</source>
+      <pubDate>Wed, 09 Sep 2026 01:16:27 GMT</pubDate>
+    </item>
+    <item>
+      <title>Meta continues to run ads promoting child sexual abuse material in India - report</title>
+      <link>https://www.bbc.co.uk/news/articles/cqxv2vwjjq3o?at_medium=RSS&amp;at_campaign=rss</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/cqxv2vwjjq3o?at_medium=RSS&amp;at_campaign=rss</guid>
+      <description>The report follows a BBC Eye investigation that found Instagram running paid ads promoting such material in India.</description>
+      <category>Geopolitics</category>
+      <source url="https://www.bbc.co.uk/news/articles/cqxv2vwjjq3o?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
+      <pubDate>Tue, 08 Sep 2026 23:27:23 GMT</pubDate>
+    </item>
+    <item>
+      <title>&apos;Constantly on my mind&apos; - 9/11 agony goes on for bereaved, 25 years on</title>
+      <link>https://www.bbc.co.uk/news/articles/clyrjw1yj75o?at_medium=RSS&amp;at_campaign=rss</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/clyrjw1yj75o?at_medium=RSS&amp;at_campaign=rss</guid>
+      <description>As the 25th anniversary approaches, the wait for the alleged mastermind of the attack to be put on trial goes on.</description>
+      <category>Geopolitics</category>
+      <source url="https://www.bbc.co.uk/news/articles/clyrjw1yj75o?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
+      <pubDate>Tue, 08 Sep 2026 23:11:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sony isn’t phasing out discs quite as quickly as we thought</title>
+      <link>https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent</link>
+      <guid isPermaLink="true">https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent</guid>
+      <description>Sony isn&apos;t backing away from its decision to kill the video game disc in January 2028. But Sony isn&apos;t shutting down production as quickly as we thought, either. Two months after reports that Sony&apos;s last discmaking plant was already being repurposed, the compan</description>
+      <category>Technology</category>
+      <source url="https://www.theverge.com/games/991806/sony-disc-plant-90-percent-10-percent">The Verge</source>
+      <pubDate>Tue, 08 Sep 2026 21:52:13 GMT</pubDate>
+    </item>
+    <item>
+      <title>Cockroach Milk, How to Blow Your Nose, and Mosquito Printers: The Ig Nobels of 2026</title>
+      <link>https://www.wired.com/story/cockroach-milk-mosquito-printers-ig-nobels-of-2026/</link>
+      <guid isPermaLink="true">https://www.wired.com/story/cockroach-milk-mosquito-printers-ig-nobels-of-2026/</guid>
+      <description>Every year, the prizes recognize the weirdest research that often raises some very serious scientific questions.</description>
+      <category>Technology</category>
+      <source url="https://www.wired.com/story/cockroach-milk-mosquito-printers-ig-nobels-of-2026/">Wired</source>
+      <pubDate>Tue, 08 Sep 2026 21:15:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Why this month&amp;#039;s Microsoft patch release is a doozy</title>
+      <link>https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/</link>
+      <guid isPermaLink="true">https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/</guid>
+      <description>Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.</description>
+      <category>IT</category>
+      <source url="https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/">Ars Technica — Tech Lab</source>
+      <pubDate>Tue, 08 Sep 2026 21:11:46 GMT</pubDate>
+    </item>
+    <item>
+      <title>Drama swirls around OpenAI’s legendary mathematical milestone</title>
+      <link>https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution</link>
+      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution</guid>
+      <description>OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered a solution to the Navier-Stokes problem </description>
+      <category>Technology</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution">The Verge</source>
+      <pubDate>Tue, 08 Sep 2026 20:53:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>Rivian spinout Also apologizes for delays in shipping futuristic e-bikes</title>
+      <link>https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology</link>
+      <guid isPermaLink="true">https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology</guid>
+      <description>Rivian&apos;s futuristic e-bike is delayed, and customers are not happy. Last year, Rivian&apos;s micromobility spinoff Also unveiled a new, software-controlled electric bike called the TM-B that immediately set the e-bike world ablaze. With USB-C chargeable battery, re</description>
+      <category>Technology</category>
+      <source url="https://www.theverge.com/transportation/991707/rivian-also-tmb-ebike-delay-apology">The Verge</source>
+      <pubDate>Tue, 08 Sep 2026 20:46:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Razer’s ANC-equipped gaming headset for PS5 and Xbox is almost $100 off</title>
+      <link>https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale</link>
+      <guid isPermaLink="true">https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale</guid>
+      <description>It’s rare to find high-end features like active noise cancellation in a gaming headset under $200, so we’re thrilled that the Razer BlackShark V3 Pro on sale at Woot for $164.99. There are specific models marketed to Xbox and PlayStation, but the Xbox version </description>
+      <category>Technology</category>
+      <source url="https://www.theverge.com/gadgets/991653/razer-blackshark-v3-pro-gaming-headset-anc-deal-sale">The Verge</source>
+      <pubDate>Tue, 08 Sep 2026 20:39:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>DoppelCart fraud network uses 119,000 fake shops to steal credit cards</title>
+      <link>https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/</link>
+      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/</guid>
+      <description>A massive operation dubbed &quot;DoppelCart&quot; uses more than 119,000 domains to run a network of fake e-shops that steal payment card details. [...]</description>
+      <category>Security</category>
+      <source url="https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/">BleepingComputer</source>
+      <pubDate>Tue, 08 Sep 2026 20:35:14 GMT</pubDate>
+    </item>
+    <item>
+      <title>The EU CRA&apos;s Real Question: What Shipped, and When Did You Know?</title>
+      <link>https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/</link>
+      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/</guid>
+      <description>The EU Cyber Resilience Act&apos;s vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours to report actively exploited flaws. ActiveState explains why knowing exactly what shipped and when vulnerabilities were d</description>
+      <category>Security</category>
+      <source url="https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/">BleepingComputer</source>
+      <pubDate>Tue, 08 Sep 2026 20:24:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>ChatGPT Sketch turns your bad drawings into detailed AI images</title>
+      <link>https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch</link>
+      <guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch</guid>
+      <description>OpenAI announced ChatGPT Images 2.5 on Tuesday and is adding a new way to tell ChatGPT what you want it to make an image of: by drawing a doodle. With a new feature called Sketch, you can just draw something right inside ChatGPT and then tell ChatGPT how you w</description>
+      <category>Technology</category>
+      <source url="https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch">The Verge</source>
+      <pubDate>Tue, 08 Sep 2026 20:16:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Muse, Meta’s New Personal AI Agent, Needs You to Trust It</title>
+      <link>https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/</link>
+      <guid isPermaLink="true">https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/</guid>
+      <description>Designed to compete with OpenClaw and Instinct, the company says Muse can do everything from sell your car to book you a plane ticket.</description>
+      <category>Security</category>
+      <source url="https://www.wired.com/story/meta-releases-muse-a-personal-ai-agent-with-privacy-built-into-it/">Wired — Security</source>
+      <pubDate>Tue, 08 Sep 2026 20:12:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/</link>
+      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/</guid>
+      <description>A Linux rootkit targeting devices in F5 BIG-IP APM environments can intercept PHP file loading and inject a fileless web shell directly into memory, avoiding the need to write malicious code to disk. [...]</description>
+      <category>Security</category>
+      <source url="https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/">BleepingComputer</source>
+      <pubDate>Tue, 08 Sep 2026 20:08:55 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Two Questions Ukraine Asks Before Every Decision</title>
+      <link>https://warontherocks.com/the-two-questions-ukraine-asks-before-every-decision/</link>
+      <guid isPermaLink="true">https://warontherocks.com/the-two-questions-ukraine-asks-before-every-decision/</guid>
+      <description>Welcome to&amp;#160;The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks&amp;#160;members. Each Monday, we bring you a curated selection of articles from Ukrainian media offering insigh</description>
+      <category>Geopolitics</category>
+      <source url="https://warontherocks.com/the-two-questions-ukraine-asks-before-every-decision/">War on the Rocks</source>
+      <pubDate>Tue, 08 Sep 2026 19:50:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>September 2026 Microsoft Patch Tuesday, (Tue, Sep 8th)</title>
+      <link>https://isc.sans.edu/diary/rss/33320</link>
+      <guid isPermaLink="true">https://isc.sans.edu/diary/rss/33320</guid>
+      <description>This month, Microsoft released patches for a record-breaking 973 vulnerabilities, including 113 rated critical. It is by far the largest Patch Tuesday to date, well ahead of the previous high of 664 set in July 2026. Two vulnerabilities are listed as exploited</description>
+      <category>Security</category>
+      <source url="https://isc.sans.edu/diary/rss/33320">SANS Internet Storm Center</source>
+      <pubDate>Tue, 08 Sep 2026 19:20:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Microsoft releases Windows 10 KB5122878 extended security update</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/</link>
+      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/</guid>
+      <description>Microsoft has released the Windows 10 KB5122878 extended security update, which includes this month&apos;s record-breaking September 2026 Patch Tuesday fixes, along with a few bug fixes. [...]</description>
+      <category>Security</category>
+      <source url="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/">BleepingComputer</source>
+      <pubDate>Tue, 08 Sep 2026 18:49:19 GMT</pubDate>
+    </item>
+    <item>
+      <title>Apple and Google Miss Deadline to Block Child Nudity on Their Phones in the UK</title>
+      <link>https://www.wired.com/story/apple-and-google-miss-deadline-to-block-child-nudity-on-their-phones-in-the-uk/</link>
+      <guid isPermaLink="true">https://www.wired.com/story/apple-and-google-miss-deadline-to-block-child-nudity-on-their-phones-in-the-uk/</guid>
+      <description>Now the UK government plans to introduce new legislation that would see companies face fines and potential criminal liability, and signaled similar plans could extend to Snapchat and Instagram.</description>
+      <category>Technology</category>
+      <source url="https://www.wired.com/story/apple-and-google-miss-deadline-to-block-child-nudity-on-their-phones-in-the-uk/">Wired</source>
+      <pubDate>Tue, 08 Sep 2026 18:13:26 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul</title>
+      <link>https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/</link>
+      <guid isPermaLink="true">https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/</guid>
+      <description>A landmark announcement by the frontier AI lab has been overshadowed by accusations of impropriety.</description>
+      <category>Technology</category>
+      <source url="https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/">Wired</source>
+      <pubDate>Tue, 08 Sep 2026 16:42:05 GMT</pubDate>
+    </item>
+    <item>
+      <title>Here’s Samsung’s Advice for Apple and Its Upcoming Folding iPhone</title>
+      <link>https://www.wired.com/story/samsung-advice-for-apple-and-its-upcoming-folding-iphone/</link>
+      <guid isPermaLink="true">https://www.wired.com/story/samsung-advice-for-apple-and-its-upcoming-folding-iphone/</guid>
+      <description>The competition is “absolutely welcome” by the pioneering Korean giant, but Samsung warns that the device’s “weight” is crucial.</description>
+      <category>Technology</category>
+      <source url="https://www.wired.com/story/samsung-advice-for-apple-and-its-upcoming-folding-iphone/">Wired</source>
+      <pubDate>Tue, 08 Sep 2026 16:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic</title>
+      <link>https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom</link>
+      <guid isPermaLink="true">https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom</guid>
+      <description>Latest item from HuggingFace Blog.</description>
+      <category>AI</category>
+      <source url="https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom">HuggingFace Blog</source>
+      <pubDate>Tue, 08 Sep 2026 14:23:07 GMT</pubDate>
+    </item>
+    <item>
+      <title>Latest open artifacts (#24): Motif-3, GLM-5.3, Hy4-preview and open model licenses</title>
+      <link>https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3</link>
+      <guid isPermaLink="true">https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3</guid>
+      <description>The open model ecosystem continues to expand in its breadth</description>
+      <category>AI</category>
+      <source url="https://www.interconnects.ai/p/latest-open-artifacts-24-motif-3">Interconnects</source>
+      <pubDate>Tue, 08 Sep 2026 14:15:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Download: our 35 Innovators Under 35 this year</title>
+      <link>https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/</link>
+      <guid isPermaLink="true">https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/</guid>
+      <description>This is today&apos;s edition of The Download, our weekday newsletter that provides a daily dose of what&apos;s going on in the world of technology. Introducing our 35 Innovators Under 35 list for 2026 What will the next generation of science and technology look like? Ou</description>
+      <category>Technology</category>
+      <source url="https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/">MIT Technology Review</source>
+      <pubDate>Tue, 08 Sep 2026 12:10:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>CareCam Pro IP Cameras</title>
+      <link>https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01</link>
+      <guid isPermaLink="true">https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01</guid>
+      <description>View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to take full control of the device. The following versions of CareCam Pro IP Cameras are affected: ANJIA AJL33PC0801 Firmware linux_linux_202008261138_svn13796_/_Bootloader</description>
+      <category>Security</category>
+      <source url="https://www.cisa.gov/news-events/ics-advisories/icsa-26-251-01">CISA Cybersecurity Advisories</source>
+      <pubDate>Tue, 08 Sep 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies</title>
+      <link>https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a</link>
+      <guid isPermaLink="true">https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a</guid>
+      <description>Executive summary China-based artificial intelligence (AI) companies are conducting systematic extraction of proprietary functionalities and capabilities of U.S. AI companies’ models through industrial-scale knowledge distillation campaigns that form the core—</description>
+      <category>Security</category>
+      <source url="https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a">CISA Cybersecurity Advisories</source>
+      <pubDate>Tue, 08 Sep 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>This founder is teaching chips how to recycle (their energy)</title>
+      <link>https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/</link>
+      <guid isPermaLink="true">https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/</guid>
+      <description>Throughout the history of the computer chip, engineers have treated waste heat as an inevitable cost of a calculation. Hannah Earley, however, thinks it’s a design choice. Earley, 31, is cofounder and chief technology officer of Vaire Computing, a startup buil</description>
+      <category>Technology</category>
+      <source url="https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/">MIT Technology Review</source>
+      <pubDate>Tue, 08 Sep 2026 10:36:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>This AI entrepreneur is developing agents that can plan ahead for the unexpected</title>
+      <link>https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/</link>
+      <guid isPermaLink="true">https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/</guid>
+      <description>Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. </description>
+      <category>Technology</category>
+      <source url="https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/">MIT Technology Review</source>
+      <pubDate>Tue, 08 Sep 2026 10:34:00 GMT</pubDate>
     </item>
     <item>
       <title>‘I heard a lot of noise’: trial begins in Mexico for alleged killers of Australian surfers and American friend</title>
       <link>https://www.theguardian.com/world/2026/sep/07/alleged-killers-of-australian-surfers-and-american-friend-go-on-trial-in-mexico</link>
       <guid isPermaLink="true">https://www.theguardian.com/world/2026/sep/07/alleged-killers-of-australian-surfers-and-american-friend-go-on-trial-in-mexico</guid>
-      <description>Bereaved mother Debra Robinson in court stares at three men accused of murdering Jake and Callum Robinson and Jack Rhoad in Baja California in 2024 The suspected murderers of two Australian surfers and an American at a Mexican surfing hotspot have gone on tria</description>
+      <description>Bereaved mother Debra Robinson in court stares at three men accused of murdering Jake and Callum Robinson and Jack Carter Rhoad in 2024 The suspected murderers of two Australian surfers and an American at a Mexican surfing hotspot have gone on trial, two years</description>
       <category>Geopolitics</category>
       <source url="https://www.theguardian.com/world/2026/sep/07/alleged-killers-of-australian-surfers-and-american-friend-go-on-trial-in-mexico">The Guardian — World</source>
       <pubDate>Tue, 08 Sep 2026 02:00:24 GMT</pubDate>
     </item>
     <item>
-      <title>ISC Stormcast For Tuesday, September 8th, 2026 https://isc.sans.edu/podcastdetail/10084, (Tue, Sep 8th)</title>
-      <link>https://isc.sans.edu/diary/rss/33316</link>
-      <guid isPermaLink="true">https://isc.sans.edu/diary/rss/33316</guid>
-      <description>Latest item from SANS Internet Storm Center.</description>
-      <category>Security</category>
-      <source url="https://isc.sans.edu/diary/rss/33316">SANS Internet Storm Center</source>
-      <pubDate>Tue, 08 Sep 2026 02:00:03 GMT</pubDate>
+      <title>Riot Games is considering making premium titles, says co-founder</title>
+      <link>https://www.gamedeveloper.com/business/riot-games-marc-merrill-says-company-is-considering-making-premium-games</link>
+      <guid isPermaLink="true">https://www.gamedeveloper.com/business/riot-games-marc-merrill-says-company-is-considering-making-premium-games</guid>
+      <description>&apos;Not every game needs to be infinite.&apos;</description>
+      <category>Gaming</category>
+      <source url="https://www.gamedeveloper.com/business/riot-games-marc-merrill-says-company-is-considering-making-premium-games">Game Developer</source>
+      <pubDate>Tue, 08 Sep 2026 21:14:23 GMT</pubDate>
     </item>
     <item>
-      <title>First Xiaomi, then the world: why Arm might give phone gaming a huge graphics boost</title>
-      <link>https://www.theverge.com/games/990676/arm-neural-rendering-mali-g2-ultra-xiaomi-xring-o3</link>
-      <guid isPermaLink="true">https://www.theverge.com/games/990676/arm-neural-rendering-mali-g2-ultra-xiaomi-xring-o3</guid>
-      <description>China is getting first crack at a British technology that might change how mobile games are made and played. Today, the Xiaomi 18 Fold launches in mainland China with an Arm Mali G2-Ultra NX graphics processor inside its custom Xring O3 chip. What&apos;s so special</description>
-      <category>Technology</category>
-      <source url="https://www.theverge.com/games/990676/arm-neural-rendering-mali-g2-ultra-xiaomi-xring-o3">The Verge</source>
-      <pubDate>Tue, 08 Sep 2026 02:00:00 GMT</pubDate>
+      <title>Report: EA is using genAI for commentator voiceover in NHL 27</title>
+      <link>https://www.gamedeveloper.com/business/report-ea-s-nhl-27-is-using-genai-to-create-voiceover-claims-a-sports-commentator</link>
+      <guid isPermaLink="true">https://www.gamedeveloper.com/business/report-ea-s-nhl-27-is-using-genai-to-create-voiceover-claims-a-sports-commentator</guid>
+      <description>Veteran sports commentator John Buccigross claims EA showed him the tech using his voice for in-game commentary in NHL 27.</description>
+      <category>Gaming</category>
+      <source url="https://www.gamedeveloper.com/business/report-ea-s-nhl-27-is-using-genai-to-create-voiceover-claims-a-sports-commentator">Game Developer</source>
+      <pubDate>Tue, 08 Sep 2026 18:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Ukraine&apos;s chief prosecutor resigns over call centre corruption scandal</title>
-      <link>https://www.bbc.co.uk/news/articles/c780nlgyd79o?at_medium=RSS&amp;at_campaign=rss</link>
-      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c780nlgyd79o?at_medium=RSS&amp;at_campaign=rss</guid>
-      <description>In his resignation letter, Ruslan Kravchenko denied the allegations against him, saying he did not want his office &quot;to be used as a tool in political confrontation&quot;.</description>
-      <category>Geopolitics</category>
-      <source url="https://www.bbc.co.uk/news/articles/c780nlgyd79o?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
-      <pubDate>Tue, 08 Sep 2026 01:07:47 GMT</pubDate>
+      <title>Tim Schafer says Double Fine&apos;s unique games can be commercial hits if they can find their audience</title>
+      <link>https://www.gamedeveloper.com/business/tim-schafer-we-never-actively-tried-to-make-a-game-we-thought-was-going-to-lose-money</link>
+      <guid isPermaLink="true">https://www.gamedeveloper.com/business/tim-schafer-we-never-actively-tried-to-make-a-game-we-thought-was-going-to-lose-money</guid>
+      <description>The Double Fine head says the studio was not profitable under Xbox.</description>
+      <category>Gaming</category>
+      <source url="https://www.gamedeveloper.com/business/tim-schafer-we-never-actively-tried-to-make-a-game-we-thought-was-going-to-lose-money">Game Developer</source>
+      <pubDate>Tue, 08 Sep 2026 17:14:18 GMT</pubDate>
     </item>
     <item>
-      <title>Trump threatens to stop sale of Canadian Bombardier jets in US</title>
-      <link>https://www.bbc.co.uk/news/articles/c4gj8xx5010o?at_medium=RSS&amp;at_campaign=rss</link>
-      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c4gj8xx5010o?at_medium=RSS&amp;at_campaign=rss</guid>
-      <description>The threat against one of Canada&apos;s largest companies comes amid an escalating trade war between the two neighbours.</description>
-      <category>Geopolitics</category>
-      <source url="https://www.bbc.co.uk/news/articles/c4gj8xx5010o?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
-      <pubDate>Tue, 08 Sep 2026 00:48:43 GMT</pubDate>
+      <title>Why the world needs a Club Penguin successor – that isn&apos;t Roblox</title>
+      <link>https://www.gamesindustry.biz/why-the-world-needs-a-club-penguin-successor-that-isnt-roblox</link>
+      <guid isPermaLink="true">https://www.gamesindustry.biz/why-the-world-needs-a-club-penguin-successor-that-isnt-roblox</guid>
+      <description>Club Penguin &amp;ndash; the Disney-owned, Flash-based MMO, which ran from 2005 to 2017 &amp;ndash; was a formative experience for a generation of children. Stephen MacDonald, who was a senior manager at Disney from 2012 to 2015, says that Club Penguin had over 300 mi</description>
+      <category>Gaming</category>
+      <source url="https://www.gamesindustry.biz/why-the-world-needs-a-club-penguin-successor-that-isnt-roblox">GamesIndustry.biz</source>
+      <pubDate>Tue, 08 Sep 2026 15:46:17 GMT</pubDate>
     </item>
     <item>
-      <title>Eiffel Tower shut by staff protest after female workers moved for religious visit</title>
-      <link>https://www.bbc.co.uk/news/articles/clyenxp540vo?at_medium=RSS&amp;at_campaign=rss</link>
-      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/clyenxp540vo?at_medium=RSS&amp;at_campaign=rss</guid>
-      <description>The mayor of Paris said an investigation would be launched into the incident, which left female employees &quot;humiliated&quot;, according to a union representative.</description>
-      <category>Geopolitics</category>
-      <source url="https://www.bbc.co.uk/news/articles/clyenxp540vo?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
-      <pubDate>Mon, 07 Sep 2026 23:46:44 GMT</pubDate>
+      <title>Star Stable Entertainment reduces workforce by 20% to secure long-term future of its multiplayer horse adventure RPG</title>
+      <link>https://www.gamesindustry.biz/star-stable-entertainment-reduces-workforce-by-20-to-secure-long-term-future-of-its-multiplayer-horse-adventure-rpg</link>
+      <guid isPermaLink="true">https://www.gamesindustry.biz/star-stable-entertainment-reduces-workforce-by-20-to-secure-long-term-future-of-its-multiplayer-horse-adventure-rpg</guid>
+      <description>Swedish developer Star Stable Entertainment has laid off 20% of its employees following a restructuring program. Read more</description>
+      <category>Gaming</category>
+      <source url="https://www.gamesindustry.biz/star-stable-entertainment-reduces-workforce-by-20-to-secure-long-term-future-of-its-multiplayer-horse-adventure-rpg">GamesIndustry.biz</source>
+      <pubDate>Tue, 08 Sep 2026 13:54:12 GMT</pubDate>
     </item>
     <item>
-      <title>Canada’s retaliatory US tariffs set to take effect as trade dispute grows</title>
-      <link>https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump</link>
-      <guid isPermaLink="true">https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump</guid>
-      <description>Counter-measures covering several sectors come after Trump announced 50% tariffs on Canadian goods Canada is set to impose retaliatory tariffs on billions of dollars’ worth of American imports early on Tuesday, escalating a trade fight with its largest trading</description>
-      <category>Geopolitics</category>
-      <source url="https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump">The Guardian — World</source>
-      <pubDate>Mon, 07 Sep 2026 23:20:24 GMT</pubDate>
+      <title>European game developers are more concerned that AI will pressure them to work faster rather than take their job</title>
+      <link>https://www.gamesindustry.biz/european-game-developers-are-more-concerned-that-ai-will-pressure-them-to-work-faster-rather-than-take-their-job</link>
+      <guid isPermaLink="true">https://www.gamesindustry.biz/european-game-developers-are-more-concerned-that-ai-will-pressure-them-to-work-faster-rather-than-take-their-job</guid>
+      <description>61% of European game developers are concerned that generative AI will place them under pressure to work faster and produce more, but only 35% think that AI might cause them to lose their job or reduce demand for their role. Read more</description>
+      <category>Gaming</category>
+      <source url="https://www.gamesindustry.biz/european-game-developers-are-more-concerned-that-ai-will-pressure-them-to-work-faster-rather-than-take-their-job">GamesIndustry.biz</source>
+      <pubDate>Tue, 08 Sep 2026 13:27:23 GMT</pubDate>
     </item>
     <item>
-      <title>Le Creuset x Star Trek Collection: Prices, availability, release date</title>
-      <link>https://www.wired.com/story/to-boldly-dough-le-creuset-sent-its-new-star-trek-cooking-collection-into-space/</link>
-      <guid isPermaLink="true">https://www.wired.com/story/to-boldly-dough-le-creuset-sent-its-new-star-trek-cooking-collection-into-space/</guid>
-      <description>Vulcan oven mitts, spaceship baking dishes, and an out-of-this-world communicator grater—you&apos;ll need warp speed to Klingon to this limited edition kitchen kit, ideal for perfecting the broth of Khan.</description>
-      <category>Technology</category>
-      <source url="https://www.wired.com/story/to-boldly-dough-le-creuset-sent-its-new-star-trek-cooking-collection-into-space/">Wired</source>
-      <pubDate>Mon, 07 Sep 2026 23:00:00 GMT</pubDate>
+      <title>Report: FuturLab lays off devs without informing team leads or managers</title>
+      <link>https://www.gamedeveloper.com/business/report-futurlab-makes-layoffs-without-informing-team-leads-or-managers</link>
+      <guid isPermaLink="true">https://www.gamedeveloper.com/business/report-futurlab-makes-layoffs-without-informing-team-leads-or-managers</guid>
+      <description>Sources have also accused the Powerwash Simulator developer of obfuscating the truth by asking staff to refer to those laid off as &apos;the leavers.&apos;</description>
+      <category>Gaming</category>
+      <source url="https://www.gamedeveloper.com/business/report-futurlab-makes-layoffs-without-informing-team-leads-or-managers">Game Developer</source>
+      <pubDate>Tue, 08 Sep 2026 13:23:06 GMT</pubDate>
     </item>
     <item>
-      <title>Flight recorders recovered from &apos;devastating&apos; Amazon cargo plane crash</title>
-      <link>https://www.bbc.co.uk/news/articles/ce8e32n8epeo?at_medium=RSS&amp;at_campaign=rss</link>
-      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/ce8e32n8epeo?at_medium=RSS&amp;at_campaign=rss</guid>
-      <description>Five people were killed and five others seriously injured when the Boeing 767-300 overshot the runway at Miami International Airport.</description>
-      <category>Geopolitics</category>
-      <source url="https://www.bbc.co.uk/news/articles/ce8e32n8epeo?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
-      <pubDate>Mon, 07 Sep 2026 22:23:03 GMT</pubDate>
+      <title>The Tetris Company says it was &quot;not involved in the creation&quot; of White House parody, takes &quot;copyright infringement very seriously&quot;</title>
+      <link>https://www.gamesindustry.biz/the-tetris-company-says-it-was-not-involved-in-the-creation-of-white-house-parody-takes-copyright-infringement-very-seriously</link>
+      <guid isPermaLink="true">https://www.gamesindustry.biz/the-tetris-company-says-it-was-not-involved-in-the-creation-of-white-house-parody-takes-copyright-infringement-very-seriously</guid>
+      <description>The Tetris Company has issued a statement regarding a US government-made parody of its tile-matching puzzle game, which has since been removed . Read more</description>
+      <category>Gaming</category>
+      <source url="https://www.gamesindustry.biz/the-tetris-company-says-it-was-not-involved-in-the-creation-of-white-house-parody-takes-copyright-infringement-very-seriously">GamesIndustry.biz</source>
+      <pubDate>Tue, 08 Sep 2026 13:03:33 GMT</pubDate>
     </item>
     <item>
-      <title>Palestinian parents fear for children&apos;s lives at school as settler attacks grow</title>
-      <link>https://www.bbc.co.uk/news/articles/c3wj45g73g1o?at_medium=RSS&amp;at_campaign=rss</link>
-      <guid isPermaLink="true">https://www.bbc.co.uk/news/articles/c3wj45g73g1o?at_medium=RSS&amp;at_campaign=rss</guid>
-      <description>A headteacher in the occupied West Bank has installed new barbed wire fencing after three pupils were killed this year.</description>
-      <category>Geopolitics</category>
-      <source url="https://www.bbc.co.uk/news/articles/c3wj45g73g1o?at_medium=RSS&amp;at_campaign=rss">BBC News — World</source>
-      <pubDate>Mon, 07 Sep 2026 21:12:37 GMT</pubDate>
+      <title>Don&apos;t Nod considering laying off 90 workers in France</title>
+      <link>https://www.gamedeveloper.com/business/don-t-nod-considering-laying-off-90-workers-in-france</link>
+      <guid isPermaLink="true">https://www.gamedeveloper.com/business/don-t-nod-considering-laying-off-90-workers-in-france</guid>
+      <description>The Life is Strange developer has warned it might not have the runway to continue operating beyond January 31, 2027.</description>
+      <category>Gaming</category>
+      <source url="https://www.gamedeveloper.com/business/don-t-nod-considering-laying-off-90-workers-in-france">Game Developer</source>
+      <pubDate>Tue, 08 Sep 2026 11:14:25 GMT</pubDate>
     </item>
     <item>
-      <title>Audi’s new A2 E-tron is its most affordable and efficient EV yet</title>
-      <link>https://www.theverge.com/transportation/991081/audi-a2-etron-ev-specs-price</link>
-      <guid isPermaLink="true">https://www.theverge.com/transportation/991081/audi-a2-etron-ev-specs-price</guid>
-      <description>When shopping for an electric vehicle, affordability is becoming a more common trait. But affordable and energy efficient is truly a rare breed. Often you have to sacrifice one for the other. Want something affordable? Great, here&apos;s a range loser. Want somethi</description>
-      <category>Technology</category>
-      <source url="https://www.theverge.com/transportation/991081/audi-a2-etron-ev-specs-price">The Verge</source>
-      <pubDate>Mon, 07 Sep 2026 20:03:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>Magento StyleSmuggler zero-day exploited to deploy Linux backdoor</title>
-      <link>https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/</link>
-      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/</guid>
-      <description>A zero-day vulnerability dubbed &quot;StyleSmuggler&quot; affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. [...]</description>
-      <category>Security</category>
-      <source url="https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/">BleepingComputer</source>
-      <pubDate>Mon, 07 Sep 2026 16:50:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>Home Depot Labor Day Sale (2026): BOGO on Best Grills and Tools</title>
-      <link>https://www.wired.com/story/home-depot-labor-day-sale-deals-2026/</link>
-      <guid isPermaLink="true">https://www.wired.com/story/home-depot-labor-day-sale-deals-2026/</guid>
-      <description>The Home Depot Labor Day sale goes hard on grills and tools. Here are our recommendations on what to buy—and what to ignore.</description>
-      <category>Technology</category>
-      <source url="https://www.wired.com/story/home-depot-labor-day-sale-deals-2026/">Wired</source>
-      <pubDate>Mon, 07 Sep 2026 16:35:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>Best Tech Labor Day Sales I’d Shop Myself (2026): Vacuums, Headphones, and More</title>
-      <link>https://www.wired.com/story/tech-labor-day-sales-2026/</link>
-      <guid isPermaLink="true">https://www.wired.com/story/tech-labor-day-sales-2026/</guid>
-      <description>From cordless vacuums to the best wireless earbuds we’ve tested, some of our favorite tech is on sale for Labor Day this year.</description>
-      <category>Technology</category>
-      <source url="https://www.wired.com/story/tech-labor-day-sales-2026/">Wired</source>
-      <pubDate>Mon, 07 Sep 2026 16:33:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Six years later, Sony revisits its legendary XM4 headphones</title>
-      <link>https://www.theverge.com/tech/990687/sony-announces-xm4c-headphones</link>
-      <guid isPermaLink="true">https://www.theverge.com/tech/990687/sony-announces-xm4c-headphones</guid>
-      <description>Six years ago Sony and Bose were in the middle of a noise-canceling battle, with each new model of headphones better than the last. In the fall of 2020, Sony released the WH-1000XM4 headphones to wide acclaim. They sat atop best headphones lists for years, tha</description>
-      <category>Technology</category>
-      <source url="https://www.theverge.com/tech/990687/sony-announces-xm4c-headphones">The Verge</source>
-      <pubDate>Mon, 07 Sep 2026 16:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations</title>
-      <link>https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/</link>
-      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/</guid>
-      <description>A phishing-as-a-service framework called BigBear 2.0 has been used to bypass multi-factor authentication at 258 organizations and steal more than 5,000 Microsoft 365 credentials. [...]</description>
-      <category>Security</category>
-      <source url="https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/">BleepingComputer</source>
-      <pubDate>Mon, 07 Sep 2026 15:39:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>EcoFlow makes the miniature power station even smaller</title>
-      <link>https://www.theverge.com/science/991033/ecoflow-makes-the-miniature-power-station-even-smaller</link>
-      <guid isPermaLink="true">https://www.theverge.com/science/991033/ecoflow-makes-the-miniature-power-station-even-smaller</guid>
-      <description>If you&apos;re in the market for a tiny power station that punches well above its size and weight then have a look at EcoFlow&apos;s new fourth-generation River series. The River 260 Gen4 features a 256Wh capacity battery while the 520 Gen4 packs in 512Wh - storing abou</description>
-      <category>Technology</category>
-      <source url="https://www.theverge.com/science/991033/ecoflow-makes-the-miniature-power-station-even-smaller">The Verge</source>
-      <pubDate>Mon, 07 Sep 2026 14:59:41 GMT</pubDate>
-    </item>
-    <item>
-      <title>The 57 Best Deals From the REI Labor Day Sale</title>
-      <link>https://www.wired.com/story/rei-labor-day-sale-2026/</link>
-      <guid isPermaLink="true">https://www.wired.com/story/rei-labor-day-sale-2026/</guid>
-      <description>Labor Day already? Say it ain’t so. Today is the last day to shop the best deals on WIRED-tested outdoor gear from REI, Nemo, MSR, Coleman, and more during REI’s Labor Day sale.</description>
-      <category>Technology</category>
-      <source url="https://www.wired.com/story/rei-labor-day-sale-2026/">Wired</source>
-      <pubDate>Mon, 07 Sep 2026 13:33:30 GMT</pubDate>
-    </item>
-    <item>
-      <title>Mathspace discloses data breach affecting over 1 million people</title>
-      <link>https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/</link>
-      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/</guid>
-      <description>Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breaching its Metabase internal reporting system. [...]</description>
-      <category>Security</category>
-      <source url="https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/">BleepingComputer</source>
-      <pubDate>Mon, 07 Sep 2026 13:05:11 GMT</pubDate>
+      <title>FuturLab cuts staff after cancelling non-Powerwash Simulator title</title>
+      <link>https://www.gamesindustry.biz/futurlab-cuts-staff-after-cancelling-non-powerwash-simulator-title</link>
+      <guid isPermaLink="true">https://www.gamesindustry.biz/futurlab-cuts-staff-after-cancelling-non-powerwash-simulator-title</guid>
+      <description>FuturLab has laid off seven employees following the cancellation of a project unrelated to PowerWash Simulator. Read more</description>
+      <category>Gaming</category>
+      <source url="https://www.gamesindustry.biz/futurlab-cuts-staff-after-cancelling-non-powerwash-simulator-title">GamesIndustry.biz</source>
+      <pubDate>Tue, 08 Sep 2026 11:00:58 GMT</pubDate>
     </item>
     <item>
       <title>Import AI 472: DeepMind&apos;s cheating math agents; populist AI policies; and Forethought theorizes a nightwatchman</title>
@@ -243,382 +585,247 @@
       <pubDate>Mon, 07 Sep 2026 12:26:31 GMT</pubDate>
     </item>
     <item>
-      <title>Trezor data breach impact now reaches 81,000 customers</title>
-      <link>https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/</link>
-      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/</guid>
-      <description>Cryptocurrency hardware wallet maker Trezor says an August data breach at its shipping and logistics provider, ShipMonk, affects an additional 67,000 U.S. customers. [...]</description>
-      <category>Security</category>
-      <source url="https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/">BleepingComputer</source>
-      <pubDate>Mon, 07 Sep 2026 12:16:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>The Download: the hunt for underground hydrogen and more rogue OpenAI agents</title>
-      <link>https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/</link>
-      <guid isPermaLink="true">https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/</guid>
-      <description>This is today&apos;s edition of The Download, our weekday newsletter that provides a daily dose of what&apos;s going on in the world of technology. How much hydrogen awaits us underground? A flurry of exploration efforts is searching for underground stores of hydrogen g</description>
-      <category>Technology</category>
-      <source url="https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/">MIT Technology Review</source>
-      <pubDate>Mon, 07 Sep 2026 12:10:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>The real reason your phone is getting more expensive</title>
-      <link>https://www.theverge.com/tech/988225/ram-shortage-supply-chain-micron-apple-iphone</link>
-      <guid isPermaLink="true">https://www.theverge.com/tech/988225/ram-shortage-supply-chain-micron-apple-iphone</guid>
-      <description>When Apple debuts the next generation of iPhones this week, they&apos;re likely to come with an unwanted change: a higher price tag. A price hike from the supply-chain powerhouse would be the clearest sign yet that soaring memory costs have become unavoidable - wit</description>
-      <category>Technology</category>
-      <source url="https://www.theverge.com/tech/988225/ram-shortage-supply-chain-micron-apple-iphone">The Verge</source>
-      <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Two of the Universe&apos;s Great Mysteries May Have Their Own Dimension</title>
-      <link>https://www.wired.com/story/dark-energy-matter-may-have-own-dimension/</link>
-      <guid isPermaLink="true">https://www.wired.com/story/dark-energy-matter-may-have-own-dimension/</guid>
-      <description>Dark energy might be getting weaker. Scientists are wondering if interactions with dark matter in a “dark dimension” may be responsible.</description>
-      <category>Technology</category>
-      <source url="https://www.wired.com/story/dark-energy-matter-may-have-own-dimension/">Wired</source>
-      <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT can now connect to your personal apps to mimic writing style</title>
-      <link>https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/</link>
-      <guid isPermaLink="true">https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/</guid>
-      <description>OpenAI appears to be testing a new &quot;Writing Style&quot; feature for ChatGPT that can learn how you write by looking at examples from your connected apps. [...]</description>
-      <category>Security</category>
-      <source url="https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/">BleepingComputer</source>
-      <pubDate>Mon, 07 Sep 2026 10:36:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Arm explains its mobile-first AI-reconstruction technology, which takes a different tack from the &quot;black box&quot; approach of DLSS 5</title>
-      <link>https://www.gamesindustry.biz/arm-explains-its-mobile-first-ai-reconstruction-technology-which-takes-a-different-tack-from-the-black-box-approach-of-dlss-5</link>
-      <guid isPermaLink="true">https://www.gamesindustry.biz/arm-explains-its-mobile-first-ai-reconstruction-technology-which-takes-a-different-tack-from-the-black-box-approach-of-dlss-5</guid>
-      <description>Today, the British semiconductor and software design company Arm is holding the Arm Everywhere China event in Shanghai to unveil its latest contributions to the AI computing landscape. Read more</description>
+      <title>Wi-Fi 8 is upon us, so here are two routers we saw at Computex that should be hitting the shops soon</title>
+      <link>https://www.pcgamer.com/hardware/networking/wi-fi-8-is-upon-us-so-here-are-two-routers-we-saw-at-computex-that-should-be-hitting-the-shops-soon/</link>
+      <guid isPermaLink="true">https://www.pcgamer.com/hardware/networking/wi-fi-8-is-upon-us-so-here-are-two-routers-we-saw-at-computex-that-should-be-hitting-the-shops-soon/</guid>
+      <description>Unsurprisingly, Asus ROG is launching its Wi-Fi 8 routers with an extreme gaming monster.</description>
       <category>Gaming</category>
-      <source url="https://www.gamesindustry.biz/arm-explains-its-mobile-first-ai-reconstruction-technology-which-takes-a-different-tack-from-the-black-box-approach-of-dlss-5">GamesIndustry.biz</source>
-      <pubDate>Tue, 08 Sep 2026 02:00:00 GMT</pubDate>
+      <source url="https://www.pcgamer.com/hardware/networking/wi-fi-8-is-upon-us-so-here-are-two-routers-we-saw-at-computex-that-should-be-hitting-the-shops-soon/">PC Gamer</source>
+      <pubDate>Wed, 09 Sep 2026 01:02:28 GMT</pubDate>
     </item>
     <item>
-      <title>Don&apos;t Nod warns it may not have enough funding to operate beyond January 2027</title>
-      <link>https://www.gamesindustry.biz/dont-nod-warns-it-may-not-have-enough-funding-to-operate-beyond-january-2027</link>
-      <guid isPermaLink="true">https://www.gamesindustry.biz/dont-nod-warns-it-may-not-have-enough-funding-to-operate-beyond-january-2027</guid>
-      <description>Don&apos;t Nod has warned there is &quot;material uncertainty&quot; over its ability to continue operating beyond January 31, 2027, unless it secures further external financing. Read more</description>
+      <title>Corporations want to kill physical media because it suits them, but Big Box PC game packaging just got a second chance</title>
+      <link>https://www.pcgamer.com/gaming-industry/corporations-want-to-kill-physical-media-because-it-suits-them-but-big-box-pc-game-packaging-just-got-a-second-chance/</link>
+      <guid isPermaLink="true">https://www.pcgamer.com/gaming-industry/corporations-want-to-kill-physical-media-because-it-suits-them-but-big-box-pc-game-packaging-just-got-a-second-chance/</guid>
+      <description>It&apos;s now much easier to take the DIY approach.</description>
       <category>Gaming</category>
-      <source url="https://www.gamesindustry.biz/dont-nod-warns-it-may-not-have-enough-funding-to-operate-beyond-january-2027">GamesIndustry.biz</source>
-      <pubDate>Mon, 07 Sep 2026 18:42:05 GMT</pubDate>
+      <source url="https://www.pcgamer.com/gaming-industry/corporations-want-to-kill-physical-media-because-it-suits-them-but-big-box-pc-game-packaging-just-got-a-second-chance/">PC Gamer</source>
+      <pubDate>Tue, 08 Sep 2026 23:54:37 GMT</pubDate>
     </item>
     <item>
-      <title>Capcom says it will focus on reviving dormant IPs after Onimusha: Way of the Sword&apos;s breakout launch</title>
-      <link>https://www.gamesindustry.biz/capcom-says-it-will-focus-on-reviving-dormant-ips-after-onimusha-way-of-the-swords-breakout-launch</link>
-      <guid isPermaLink="true">https://www.gamesindustry.biz/capcom-says-it-will-focus-on-reviving-dormant-ips-after-onimusha-way-of-the-swords-breakout-launch</guid>
-      <description>Capcom has revealed it will focus on reactivating dormant intellectual property following a strong launch for Onimusha: Way of the Sword. Read more</description>
-      <category>Gaming</category>
-      <source url="https://www.gamesindustry.biz/capcom-says-it-will-focus-on-reviving-dormant-ips-after-onimusha-way-of-the-swords-breakout-launch">GamesIndustry.biz</source>
-      <pubDate>Mon, 07 Sep 2026 16:51:44 GMT</pubDate>
+      <title>Common painkiller use in early pregnancy linked to smaller ovaries and testes</title>
+      <link>https://www.newscientist.com/article/2588178-common-painkiller-use-in-early-pregnancy-linked-to-smaller-ovaries-and-testes/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
+      <guid isPermaLink="true">https://www.newscientist.com/article/2588178-common-painkiller-use-in-early-pregnancy-linked-to-smaller-ovaries-and-testes/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
+      <description>Taking the painkiller paracetamol (acetaminophen) during pregnancy has been linked to smaller ovaries and testes in baby girls and boys, but that doesn&apos;t mean it directly caused them or affects fertility</description>
+      <category>Science</category>
+      <source url="https://www.newscientist.com/article/2588178-common-painkiller-use-in-early-pregnancy-linked-to-smaller-ovaries-and-testes/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
+      <pubDate>Tue, 08 Sep 2026 23:05:00 GMT</pubDate>
     </item>
     <item>
-      <title>Friday Squid Blogging: Squid on a Stick at the New York State Fair</title>
-      <link>https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-squid-on-a-stick-at-the-new-york-state-fair.html</link>
-      <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-squid-on-a-stick-at-the-new-york-state-fair.html</guid>
-      <description>Looks tasty . As usual, you can also use this squid post to talk about the security stories in the news that I haven&apos;t covered. Blog moderation policy.</description>
-      <category>Security</category>
-      <source url="https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-squid-on-a-stick-at-the-new-york-state-fair.html">Schneier on Security</source>
-      <pubDate>Fri, 04 Sep 2026 21:01:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Milei Renews Argentina’s Falklands Push</title>
-      <link>https://foreignpolicy.com/2026/09/04/argentina-falkland-islands-milei-malvinas-oil-drilling-britain-trump/</link>
-      <guid isPermaLink="true">https://foreignpolicy.com/2026/09/04/argentina-falkland-islands-milei-malvinas-oil-drilling-britain-trump/</guid>
-      <description>Buenos Aires is taking advantage of fraying ties between the United States and Britain.</description>
-      <category>Geopolitics</category>
-      <source url="https://foreignpolicy.com/2026/09/04/argentina-falkland-islands-milei-malvinas-oil-drilling-britain-trump/">Foreign Policy</source>
-      <pubDate>Fri, 04 Sep 2026 20:53:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>&quot;It&apos;s not sexy, but it&apos;s one of the most successful genres on Steam&quot; – Stronghold developer Firefly launches publishing label to serve the vast strategy market</title>
-      <link>https://www.gamesindustry.biz/its-not-sexy-but-its-one-of-the-most-successful-genres-on-steam-stronghold-developer-firefly-steps-up-to-publisher-to-serve-the-vast-strategy-market</link>
-      <guid isPermaLink="true">https://www.gamesindustry.biz/its-not-sexy-but-its-one-of-the-most-successful-genres-on-steam-stronghold-developer-firefly-steps-up-to-publisher-to-serve-the-vast-strategy-market</guid>
-      <description>Stronghold developer Firefly is the latest developer to move into publishing, debuting a new strategy-focused label Wuselfaktory and its first title Fool King as part of UKIE&apos;s For One Night Only showcase earlier this year. The title, from first-time developer</description>
-      <category>Gaming</category>
-      <source url="https://www.gamesindustry.biz/its-not-sexy-but-its-one-of-the-most-successful-genres-on-steam-stronghold-developer-firefly-steps-up-to-publisher-to-serve-the-vast-strategy-market">GamesIndustry.biz</source>
-      <pubDate>Mon, 07 Sep 2026 15:34:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>What Was the War on Terror?</title>
-      <link>https://foreignpolicy.com/2026/09/04/war-on-terror-bush-obama-iraq-afghanistan-al-qaeda-history/</link>
-      <guid isPermaLink="true">https://foreignpolicy.com/2026/09/04/war-on-terror-bush-obama-iraq-afghanistan-al-qaeda-history/</guid>
-      <description>A defining period in U.S. foreign policy has ended, but it remains misunderstood.</description>
-      <category>Geopolitics</category>
-      <source url="https://foreignpolicy.com/2026/09/04/war-on-terror-bush-obama-iraq-afghanistan-al-qaeda-history/">Foreign Policy</source>
-      <pubDate>Fri, 04 Sep 2026 19:00:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>The Conservative Case for International Law</title>
-      <link>https://foreignpolicy.com/2026/09/04/conservative-case-for-international-law/</link>
-      <guid isPermaLink="true">https://foreignpolicy.com/2026/09/04/conservative-case-for-international-law/</guid>
-      <description>Why the U.S. right should rediscover the virtues of a global legal order.</description>
-      <category>Geopolitics</category>
-      <source url="https://foreignpolicy.com/2026/09/04/conservative-case-for-international-law/">Foreign Policy</source>
-      <pubDate>Fri, 04 Sep 2026 18:40:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>Sega cancelled its &quot;risky&quot; Super Game project as it &quot;would have to grow enormously to match the scale of the service&quot;</title>
-      <link>https://www.gamesindustry.biz/sega-cancelled-its-risky-super-game-project-as-it-would-have-to-grow-enormously-to-match-the-scale-of-the-service</link>
-      <guid isPermaLink="true">https://www.gamesindustry.biz/sega-cancelled-its-risky-super-game-project-as-it-would-have-to-grow-enormously-to-match-the-scale-of-the-service</guid>
-      <description>Sega cancelled its live-service Super Game initiative earlier this year as &quot;taking on this challenge at this time would be too risky.&quot; Read more</description>
-      <category>Gaming</category>
-      <source url="https://www.gamesindustry.biz/sega-cancelled-its-risky-super-game-project-as-it-would-have-to-grow-enormously-to-match-the-scale-of-the-service">GamesIndustry.biz</source>
-      <pubDate>Mon, 07 Sep 2026 14:03:15 GMT</pubDate>
-    </item>
-    <item>
-      <title>The Novel Imagining Life After a Second Civil War</title>
-      <link>https://foreignpolicy.com/2026/09/04/international-fiction-releases-emily-st-john-mandel-exit-party-ben-eastham-floating-world/</link>
-      <guid isPermaLink="true">https://foreignpolicy.com/2026/09/04/international-fiction-releases-emily-st-john-mandel-exit-party-ben-eastham-floating-world/</guid>
-      <description>Emily St. John Mandel explores what follows U.S. collapse, plus more fiction in September.</description>
-      <category>Geopolitics</category>
-      <source url="https://foreignpolicy.com/2026/09/04/international-fiction-releases-emily-st-john-mandel-exit-party-ben-eastham-floating-world/">Foreign Policy</source>
-      <pubDate>Fri, 04 Sep 2026 18:30:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Using a VM to Contain an AI Agent</title>
-      <link>https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html</link>
-      <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html</guid>
-      <description>It won&apos;t work : My suspicion was that GPT 5.6-Cyber would succeed, but the frequency and manner of its success removed all doubt. We have to reassess sandboxing quality for capable AI agents, and in general the software stack with which they interact. An off-t</description>
-      <category>Security</category>
-      <source url="https://www.schneier.com/blog/archives/2026/09/using-a-vm-to-contain-an-ai-agent.html">Schneier on Security</source>
-      <pubDate>Fri, 04 Sep 2026 16:31:38 GMT</pubDate>
-    </item>
-    <item>
-      <title>Security Vulnerability in a Voting System</title>
-      <link>https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html</link>
-      <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html</guid>
-      <description>It&apos;s a vulnerability that allows someone to recover the order of ballots cast, newly exploited with AI tools. Nearly four years since the original vulnerability was disclosed, I was still able to use it to analyze voter behavior in Georgia (one of the 21 state</description>
-      <category>Security</category>
-      <source url="https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html">Schneier on Security</source>
-      <pubDate>Fri, 04 Sep 2026 11:09:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>AI Coding Agents Are Installing Unknown/Untrusted Code on Corporate Networks</title>
-      <link>https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html</link>
-      <guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html</guid>
-      <description>We cannot forget that AI coding agents are not yet trustworthy : Researchers at a stealth startup in Israel scanned 6,214 live domains belonging to defense contractors, Fortune 500, and Big Tech companies. Of the 8,265 llms.txt and llms-full.txt files they fou</description>
-      <category>Security</category>
-      <source url="https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html">Schneier on Security</source>
-      <pubDate>Fri, 04 Sep 2026 10:35:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Die Koalition der Ratlosigkeit</title>
-      <link>https://www.politico.eu/podcast/berlin-playbook-podcast/die-koalition-der-ratlosigkeit/?utm_source=RSS_Feed&amp;#038;utm_medium=RSS&amp;#038;utm_campaign=RSS_Syndication</link>
-      <guid isPermaLink="true">https://www.politico.eu/podcast/berlin-playbook-podcast/die-koalition-der-ratlosigkeit/?utm_source=RSS_Feed&amp;#038;utm_medium=RSS&amp;#038;utm_campaign=RSS_Syndication</guid>
-      <description>Nach dem Wahlschock in Sachsen-Anhalt steht der Reformkurs der Bundesregierung auf der Kippe. Während Lars Klingbeil im Bundestag seinen Haushalt erklärt, muss Kanzler Friedrich Merz gucken, dass seinem Koalitionspartner ob schwieriger Umfragen und Wahlergebni</description>
-      <category>Geopolitics</category>
-      <source url="https://www.politico.eu/podcast/berlin-playbook-podcast/die-koalition-der-ratlosigkeit/?utm_source=RSS_Feed&amp;#038;utm_medium=RSS&amp;#038;utm_campaign=RSS_Syndication">Politico Europe</source>
-      <pubDate>Tue, 08 Sep 2026 03:17:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>Eric Wu&apos;s newest company, out of stealth since May, is going after construction&apos;s labor crunch</title>
-      <link>https://techcrunch.com/2026/09/07/eric-wus-newest-company-out-of-stealth-since-may-is-going-after-constructions-labor-crunch/</link>
-      <guid isPermaLink="true">https://techcrunch.com/2026/09/07/eric-wus-newest-company-out-of-stealth-since-may-is-going-after-constructions-labor-crunch/</guid>
-      <description>Eric Wu, who built and ran Opendoor before stepping away in 2022, has had his new company, NavigateAI, out of stealth since May — building AI copilots that give construction workers real-time, hands-free guidance through smartphones and Meta&apos;s AI glasses, back</description>
-      <category>Technology</category>
-      <source url="https://techcrunch.com/2026/09/07/eric-wus-newest-company-out-of-stealth-since-may-is-going-after-constructions-labor-crunch/">TechCrunch</source>
-      <pubDate>Tue, 08 Sep 2026 02:16:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Persona 1 and 2 remakes are something Atlus will &apos;probably eventually do&apos;, which is great, but the PS2-era Shin Megami Tensei games are sitting right there</title>
-      <link>https://www.pcgamer.com/games/rpg/persona-1-and-2-remakes-are-something-atlus-will-probably-eventually-do-which-is-great-but-the-ps2-era-shin-megami-tensei-games-are-sitting-right-there/</link>
-      <guid isPermaLink="true">https://www.pcgamer.com/games/rpg/persona-1-and-2-remakes-are-something-atlus-will-probably-eventually-do-which-is-great-but-the-ps2-era-shin-megami-tensei-games-are-sitting-right-there/</guid>
-      <description>Prioritize what I in particular want first, please Atlus.</description>
-      <category>Gaming</category>
-      <source url="https://www.pcgamer.com/games/rpg/persona-1-and-2-remakes-are-something-atlus-will-probably-eventually-do-which-is-great-but-the-ps2-era-shin-megami-tensei-games-are-sitting-right-there/">PC Gamer</source>
-      <pubDate>Tue, 08 Sep 2026 01:04:48 GMT</pubDate>
-    </item>
-    <item>
-      <title>The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)</title>
-      <link>https://www.latent.space/p/aeo</link>
-      <guid isPermaLink="true">https://www.latent.space/p/aeo</guid>
-      <description>Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to.</description>
+      <title>Hackers are stealing Claude tokens from subscribers</title>
+      <link>https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/</link>
+      <guid isPermaLink="true">https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/</guid>
+      <description>Last month, a Claude user noticed his account was consuming tokens even though he wasn&apos;t working. Anthropic has since warned users about hackers.</description>
       <category>AI</category>
-      <source url="https://www.latent.space/p/aeo">Latent Space</source>
-      <pubDate>Mon, 07 Sep 2026 21:32:37 GMT</pubDate>
+      <source url="https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/">TechCrunch — AI</source>
+      <pubDate>Tue, 08 Sep 2026 21:10:27 GMT</pubDate>
     </item>
     <item>
-      <title>Between Two Nerds: Can AI defend critical infrastructure?</title>
-      <link>https://risky.biz/BTN182/</link>
-      <guid isPermaLink="true">https://risky.biz/BTN182/</guid>
-      <description>In this edition of Between Two Nerds Tom Uren and The Grugq talk about whether AI will help cyber defence in critical infrastructure and organisations that are below the cyber poverty line. This episode is also available on YouTube . Show notes Heather Adkins </description>
-      <category>Security</category>
-      <source url="https://risky.biz/BTN182/">Risky Bulletin</source>
-      <pubDate>Mon, 07 Sep 2026 19:58:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>Opaque recurrence, and other AI terms that you should probably know</title>
-      <link>https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/</link>
-      <guid isPermaLink="true">https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/</guid>
-      <description>The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.</description>
-      <category>AI</category>
-      <source url="https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/">TechCrunch — AI</source>
-      <pubDate>Mon, 07 Sep 2026 19:24:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>GTA 6&apos;s Criminal Profile system sounds pretty interesting, includes a &apos;shattered&apos; state for players who DGAF</title>
-      <link>https://www.pcgamer.com/games/grand-theft-auto/gta-6s-criminal-profile-system-sounds-pretty-interesting-isnt-a-direct-copy-of-red-deads-honor-system/</link>
-      <guid isPermaLink="true">https://www.pcgamer.com/games/grand-theft-auto/gta-6s-criminal-profile-system-sounds-pretty-interesting-isnt-a-direct-copy-of-red-deads-honor-system/</guid>
-      <description>There are reportedly four main states, Professional, Aggressive, Violent, and Psycho, plus a hard-to-reach state you can&apos;t come back from.</description>
-      <category>Gaming</category>
-      <source url="https://www.pcgamer.com/games/grand-theft-auto/gta-6s-criminal-profile-system-sounds-pretty-interesting-isnt-a-direct-copy-of-red-deads-honor-system/">PC Gamer</source>
-      <pubDate>Mon, 07 Sep 2026 19:19:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Persona 1 and 2 remakes are &quot;something we&apos;ll probably eventually do,&quot; series producer says</title>
-      <link>https://www.eurogamer.net/persona-1-and-2-remakes-are-something-well-probably-eventually-do-series-producer-says</link>
-      <guid isPermaLink="true">https://www.eurogamer.net/persona-1-and-2-remakes-are-something-well-probably-eventually-do-series-producer-says</guid>
-      <description>With Persona 3 Reload out the door and Persona 4 Revival next in line, series producer Kazuhisa Wada has said remakes of the first two games will &quot;probably&quot; happen as well. Read more</description>
-      <category>Gaming</category>
-      <source url="https://www.eurogamer.net/persona-1-and-2-remakes-are-something-well-probably-eventually-do-series-producer-says">Eurogamer</source>
-      <pubDate>Mon, 07 Sep 2026 19:05:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution</title>
-      <link>https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html</link>
-      <guid isPermaLink="true">https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html</guid>
-      <description>Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. &quot;Requiring prior administrative or code execution access, its installer injects th</description>
-      <category>Security</category>
-      <source url="https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html">The Hacker News</source>
-      <pubDate>Mon, 07 Sep 2026 18:12:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>Final Fantasy Resonance modders have already reinstated the original mobile game&apos;s biggest icon, Ariana Grande</title>
-      <link>https://www.eurogamer.net/final-fantasy-resonance-mod-ariana-grande-mobile-game</link>
-      <guid isPermaLink="true">https://www.eurogamer.net/final-fantasy-resonance-mod-ariana-grande-mobile-game</guid>
-      <description>Final Fantasy Resonance doesn&apos;t launch in full until next month, but modders are already using its new demo to reinstate the series&apos; most iconic diva. I&apos;m talking about Ariana Grande, of course. Read more</description>
-      <category>Gaming</category>
-      <source url="https://www.eurogamer.net/final-fantasy-resonance-mod-ariana-grande-mobile-game">Eurogamer</source>
-      <pubDate>Mon, 07 Sep 2026 18:07:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>A secret new Elizabeth Holmes documentary stuns Telluride</title>
-      <link>https://techcrunch.com/2026/09/07/a-secret-new-elizabeth-holmes-documentary-stuns-telluride/</link>
-      <guid isPermaLink="true">https://techcrunch.com/2026/09/07/a-secret-new-elizabeth-holmes-documentary-stuns-telluride/</guid>
-      <description>Nathan Fielder and Lance Oppenheim&apos;s secret Elizabeth Holmes documentary, &quot;You Can See Everything,&quot; stunned Telluride audiences Sunday night with its generous access to the Theranos founder.</description>
-      <category>Technology</category>
-      <source url="https://techcrunch.com/2026/09/07/a-secret-new-elizabeth-holmes-documentary-stuns-telluride/">TechCrunch</source>
-      <pubDate>Mon, 07 Sep 2026 18:02:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>Capcom expresses continued interest in &apos;re-activating IPs&apos; as the first new Onimusha game in 20 years surpasses 1 million sales on launch day</title>
-      <link>https://www.pcgamer.com/games/action/capcom-expresses-continued-interest-in-re-activating-ips-as-the-first-new-onimusha-game-in-20-years-surpasses-1-million-sales-on-launch-day/</link>
-      <guid isPermaLink="true">https://www.pcgamer.com/games/action/capcom-expresses-continued-interest-in-re-activating-ips-as-the-first-new-onimusha-game-in-20-years-surpasses-1-million-sales-on-launch-day/</guid>
-      <description>Onimusha: Way of the Sword&apos;s launch day success has propelled the series to 10 million lifetime sales, says Capcom.</description>
-      <category>Gaming</category>
-      <source url="https://www.pcgamer.com/games/action/capcom-expresses-continued-interest-in-re-activating-ips-as-the-first-new-onimusha-game-in-20-years-surpasses-1-million-sales-on-launch-day/">PC Gamer</source>
-      <pubDate>Mon, 07 Sep 2026 17:44:40 GMT</pubDate>
-    </item>
-    <item>
-      <title>Two years after its rocky launch, Civilization 7&apos;s first paid expansion Earthrise is on its way - but first comes the atomic age</title>
-      <link>https://www.eurogamer.net/civilization-7-paid-expansion-earthrise-atomic-age-free-update</link>
-      <guid isPermaLink="true">https://www.eurogamer.net/civilization-7-paid-expansion-earthrise-atomic-age-free-update</guid>
-      <description>It&apos;s been a bumpy ride for Civilization 7, but two years after its widely criticised launch - and as the legendary 4X series celebrates its 35th anniversary - developer Firaxis has unveiled a host of new updates coming to the game. That includes an atomic age </description>
-      <category>Gaming</category>
-      <source url="https://www.eurogamer.net/civilization-7-paid-expansion-earthrise-atomic-age-free-update">Eurogamer</source>
-      <pubDate>Mon, 07 Sep 2026 17:31:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>New Super Smash Bros and Nintendogs games are on the way, according to prominent Nintendo leaker</title>
-      <link>https://www.eurogamer.net/super-smash-bros-new-nintendogs-games-nintendo-leaker</link>
-      <guid isPermaLink="true">https://www.eurogamer.net/super-smash-bros-new-nintendogs-games-nintendo-leaker</guid>
-      <description>A prominent Nintendo leaker has spilled even more information about the console maker&apos;s potential plans, which include the long-awaited return of Nintendogs and an all-new Super Smash Bros. game ( not a buffed up version of Super Smash Bros. Ultimate , apparen</description>
-      <category>Gaming</category>
-      <source url="https://www.eurogamer.net/super-smash-bros-new-nintendogs-games-nintendo-leaker">Eurogamer</source>
-      <pubDate>Mon, 07 Sep 2026 17:14:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Super El Niño set to cause &apos;terribly dangerous&apos; drought in the Amazon</title>
-      <link>https://www.newscientist.com/article/2587998-super-el-nino-set-to-cause-terribly-dangerous-amazon-drought/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
-      <guid isPermaLink="true">https://www.newscientist.com/article/2587998-super-el-nino-set-to-cause-terribly-dangerous-amazon-drought/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
-      <description>The El Niño phase now under way will be the most damaging on record for the Amazon, scientists warn, raising the risk of catastrophic wildfires</description>
-      <category>Science</category>
-      <source url="https://www.newscientist.com/article/2587998-super-el-nino-set-to-cause-terribly-dangerous-amazon-drought/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
-      <pubDate>Mon, 07 Sep 2026 17:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>I made a free AI chatbot solve a decade-long maths problem in 13 minutes</title>
-      <link>https://www.newscientist.com/article/2587148-i-made-a-free-ai-chatbot-solve-a-decade-long-maths-problem-in-13-minutes/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
-      <guid isPermaLink="true">https://www.newscientist.com/article/2587148-i-made-a-free-ai-chatbot-solve-a-decade-long-maths-problem-in-13-minutes/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
-      <description>After months covering the shocking rise of AI mathematics, reporter Matthew Sparkes decided to put a free chatbot to the test – and was shocked at the speed at which it solved an outstanding problem</description>
-      <category>Science</category>
-      <source url="https://www.newscientist.com/article/2587148-i-made-a-free-ai-chatbot-solve-a-decade-long-maths-problem-in-13-minutes/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
-      <pubDate>Mon, 07 Sep 2026 16:09:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>We’re on the verge of seeing the quantum vacuum for the first time</title>
-      <link>https://www.newscientist.com/article/2586310-were-on-the-verge-of-seeing-the-quantum-vacuum-for-the-first-time/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
-      <guid isPermaLink="true">https://www.newscientist.com/article/2586310-were-on-the-verge-of-seeing-the-quantum-vacuum-for-the-first-time/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
-      <description>Quantum theory says a vacuum isn’t truly empty, but proving it directly has remained out of reach. A new experiment using immensely powerful lasers could finally expose its hidden structure – and perhaps offer clues to dark matter</description>
-      <category>Science</category>
-      <source url="https://www.newscientist.com/article/2586310-were-on-the-verge-of-seeing-the-quantum-vacuum-for-the-first-time/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
-      <pubDate>Mon, 07 Sep 2026 15:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026)</title>
-      <link>https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/</link>
-      <guid isPermaLink="true">https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/</guid>
-      <description>Last week, Claude Fable 5.1 became available on AWS. According to Anthropic, Claude Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. Claude Fable 5.1 is built for long-running, high-stak</description>
-      <category>IT</category>
-      <source url="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/">AWS Blog</source>
-      <pubDate>Mon, 07 Sep 2026 14:24:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>Netflix Moves Toward Open Source Flink Autoscaler for 30,000+ Streaming Jobs</title>
-      <link>https://www.infoq.com/news/2026/09/netflix-flink-autoscaler/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</link>
-      <guid isPermaLink="true">https://www.infoq.com/news/2026/09/netflix-flink-autoscaler/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</guid>
-      <description>Netflix is moving toward the open-source Apache Flink Autoscaler for more than 30,000 streaming jobs across multiple AWS regions. The operator-level approach addresses limitations of Netflix’s cluster level autoscaler for complex, stateful pipelines. Netflix r</description>
-      <category>IT</category>
-      <source url="https://www.infoq.com/news/2026/09/netflix-flink-autoscaler/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">InfoQ</source>
-      <pubDate>Mon, 07 Sep 2026 14:06:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>The jobs apocalypse is postponed. An AI jobs boom is here</title>
-      <link>https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here</link>
-      <guid isPermaLink="true">https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here</guid>
-      <description>Initial effects of the technology on employment look positive</description>
+      <title>Interesting Word of the Day: Carousel</title>
+      <link>https://econbrowser.com/archives/2026/09/interesting-word-of-the-day-carousel</link>
+      <guid isPermaLink="true">https://econbrowser.com/archives/2026/09/interesting-word-of-the-day-carousel</guid>
+      <description>For the first couple of months of my stint on the CEA staff back in 2000, I had to cover trade issues (my designated area was international finance). One of the first words I learned walking into the EEOB/OEOB&amp;#8211; that I hadn&apos;t heard of in my grad school cl</description>
       <category>Economy</category>
-      <source url="https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here">The Economist — Finance &amp; Economics</source>
-      <pubDate>Fri, 04 Sep 2026 18:05:02 GMT</pubDate>
+      <source url="https://econbrowser.com/archives/2026/09/interesting-word-of-the-day-carousel">Econbrowser</source>
+      <pubDate>Tue, 08 Sep 2026 20:42:57 GMT</pubDate>
     </item>
     <item>
-      <title>The best new popular science books of September 2026</title>
-      <link>https://www.newscientist.com/article/2587859-the-best-new-popular-science-books-of-september-2026/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
-      <guid isPermaLink="true">https://www.newscientist.com/article/2587859-the-best-new-popular-science-books-of-september-2026/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
-      <description>Dive into new titles from major names including Carlo Rovelli, Maggie Aderin, Xand van Tulleken and Jim Al-Khalili, as well as a new biography of Stephen Hawking</description>
+      <title>From the Corps to the Cosmos, featuring Jaden Caradine</title>
+      <link>https://www.nasa.gov/general/from-the-corps-to-the-cosmos-featuring-jaden-caradine/</link>
+      <guid isPermaLink="true">https://www.nasa.gov/general/from-the-corps-to-the-cosmos-featuring-jaden-caradine/</guid>
+      <description>Jaden Caradine knew he wanted to be an engineer at eight years old. He just took a winding road to get there. Before he enrolled at Embry-Riddle Aeronautical University, before he discovered the field that would become his focus, and before he landed a Pathway</description>
       <category>Science</category>
-      <source url="https://www.newscientist.com/article/2587859-the-best-new-popular-science-books-of-september-2026/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
-      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
+      <source url="https://www.nasa.gov/general/from-the-corps-to-the-cosmos-featuring-jaden-caradine/">NASA News</source>
+      <pubDate>Tue, 08 Sep 2026 20:29:59 GMT</pubDate>
     </item>
     <item>
-      <title>Presentation: From AI Agent Demo to Production: Automated Testing and Evaluation</title>
-      <link>https://www.infoq.com/presentations/ai-agent-testing-evaluation/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</link>
-      <guid isPermaLink="true">https://www.infoq.com/presentations/ai-agent-testing-evaluation/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</guid>
-      <description>Zhou Yu discusses why AI agents stall in demo phase and shares how simulation-driven testing solves compliance and reliability bottlenecks. Learn how Columbia and Arklex AI use synthetic user personas, trajectory entropy, and automated CI/CD pipelines to evalu</description>
-      <category>IT</category>
-      <source url="https://www.infoq.com/presentations/ai-agent-testing-evaluation/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">InfoQ</source>
-      <pubDate>Mon, 07 Sep 2026 11:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.</title>
-      <link>https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm</link>
-      <guid isPermaLink="true">https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm</guid>
-      <description>Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.</description>
+      <title>Wisconsin Dairy Hit With Retaliatory Tariffs:</title>
+      <link>https://econbrowser.com/archives/2026/09/wisconsin-dairy-hit-with-retaliatory-tariffs</link>
+      <guid isPermaLink="true">https://econbrowser.com/archives/2026/09/wisconsin-dairy-hit-with-retaliatory-tariffs</guid>
+      <description>From Wisconsin Cheese Makers Association: On August 25, Canada announced a broad set of retaliatory tariffs, hitting U.S. dairy hard. Our northern neighbor announced that as of September 8, U.S. cheese entering Canada will face a 25 percent tariff, while milk </description>
       <category>Economy</category>
-      <source url="https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm">Federal Reserve Press Releases</source>
-      <pubDate>Fri, 04 Sep 2026 15:00:00 GMT</pubDate>
+      <source url="https://econbrowser.com/archives/2026/09/wisconsin-dairy-hit-with-retaliatory-tariffs">Econbrowser</source>
+      <pubDate>Tue, 08 Sep 2026 20:26:43 GMT</pubDate>
     </item>
     <item>
-      <title>What are you using as a task manager and as a people manager?</title>
-      <link>https://lobste.rs/s/0t6c5f/what_are_you_using_as_task_manager_as</link>
-      <guid isPermaLink="true">https://lobste.rs/s/0t6c5f/what_are_you_using_as_task_manager_as</guid>
-      <description>What’s your tool or method for your daily and then more open tasks? How do you stay on top of everything at work and at home? A program, pen and paper, just your head like Aristotle? How do you keep up with your work contacts and friends? I feel this is tasks </description>
+      <title>NASA Calls for Proposals to Accelerate Lunar Surface Technologies</title>
+      <link>https://www.nasa.gov/news-release/nasa-calls-for-proposals-to-accelerate-lunar-surface-technologies/</link>
+      <guid isPermaLink="true">https://www.nasa.gov/news-release/nasa-calls-for-proposals-to-accelerate-lunar-surface-technologies/</guid>
+      <description>NASA is seeking proposals to advance the technology and infrastructure needed to explore the Moon and establish a Moon Base in the lunar South Pole region. Announced on Tuesday, Sept. 8, the solicitation targets capability gaps, including power generation, oxy</description>
+      <category>Science</category>
+      <source url="https://www.nasa.gov/news-release/nasa-calls-for-proposals-to-accelerate-lunar-surface-technologies/">NASA News</source>
+      <pubDate>Tue, 08 Sep 2026 20:16:16 GMT</pubDate>
+    </item>
+    <item>
+      <title>NIH to use part of its budget to pay for Department of Defense research</title>
+      <link>https://arstechnica.com/science/2026/09/nih-to-use-part-of-its-budget-to-pay-for-department-of-defense-research/</link>
+      <guid isPermaLink="true">https://arstechnica.com/science/2026/09/nih-to-use-part-of-its-budget-to-pay-for-department-of-defense-research/</guid>
+      <description>Money would ostensibly fund research the NIH leadership said it no longer wanted.</description>
+      <category>Science</category>
+      <source url="https://arstechnica.com/science/2026/09/nih-to-use-part-of-its-budget-to-pay-for-department-of-defense-research/">Ars Technica — Science</source>
+      <pubDate>Tue, 08 Sep 2026 20:06:44 GMT</pubDate>
+    </item>
+    <item>
+      <title>Kubernetes v1.37: Advancing Workload-Aware Scheduling</title>
+      <link>https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/</link>
+      <guid isPermaLink="true">https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/</guid>
+      <description>AI/ML and complex batch workloads continue to push the boundaries of Kubernetes scheduling. Following the foundational workload-centric enhancements introduced in previous releases, Kubernetes v1.37 delivers the next major milestone in the Workload-Aware Sched</description>
       <category>IT</category>
-      <source url="https://lobste.rs/s/0t6c5f/what_are_you_using_as_task_manager_as">Lobsters</source>
-      <pubDate>Tue, 08 Sep 2026 00:50:16 GMT</pubDate>
+      <source url="https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/">Kubernetes Blog</source>
+      <pubDate>Tue, 08 Sep 2026 18:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Marginal Efficiency of Investment Equation Interpreted in 2024-26</title>
+      <link>https://econbrowser.com/archives/2026/09/the-marginal-efficiency-of-investment-interpreted-in-2024-26</link>
+      <guid isPermaLink="true">https://econbrowser.com/archives/2026/09/the-marginal-efficiency-of-investment-interpreted-in-2024-26</guid>
+      <description>In the IS-LM equation, we have the investment function: &amp;#160; Where I use the Blanchard modification that lets investment rise with income, kind of an accelerator. How can we reconcile the higher nonresidential fixed investment with higher interest rates, asi</description>
+      <category>Economy</category>
+      <source url="https://econbrowser.com/archives/2026/09/the-marginal-efficiency-of-investment-interpreted-in-2024-26">Econbrowser</source>
+      <pubDate>Tue, 08 Sep 2026 18:03:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>OpenAI has solved the Navier-Stokes Millennium problem using $15m of AI effort</title>
+      <link>https://www.newscientist.com/article/2588063-openai-has-solved-the-navier-stokes-millennium-problem-using-15m-of-ai-effort/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
+      <guid isPermaLink="true">https://www.newscientist.com/article/2588063-openai-has-solved-the-navier-stokes-millennium-problem-using-15m-of-ai-effort/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
+      <description>One of the trickiest problems in mathematics has now fallen to AI after just days of work. The groundbreaking result was announced amid rumour after similar, but less complete work, also created with AI, was announced just hours before</description>
+      <category>Science</category>
+      <source url="https://www.newscientist.com/article/2588063-openai-has-solved-the-navier-stokes-millennium-problem-using-15m-of-ai-effort/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
+      <pubDate>Tue, 08 Sep 2026 17:58:54 GMT</pubDate>
+    </item>
+    <item>
+      <title>Policy Uncertainty: Economic and Trade</title>
+      <link>https://econbrowser.com/archives/2026/09/policy-uncertainty-economic-and-trade</link>
+      <guid isPermaLink="true">https://econbrowser.com/archives/2026/09/policy-uncertainty-economic-and-trade</guid>
+      <description>Through yesterday: Figure 1: EPU (blue, left scale), 7 day centered moving average (red, left scale), EPU-trade policy (green, right scale), 7 day centered moving average (black, right scale), Source: policyuncertainty.com.</description>
+      <category>Economy</category>
+      <source url="https://econbrowser.com/archives/2026/09/policy-uncertainty-economic-and-trade">Econbrowser</source>
+      <pubDate>Tue, 08 Sep 2026 17:02:59 GMT</pubDate>
+    </item>
+    <item>
+      <title>Zapping the face could boost brain signalling and memory</title>
+      <link>https://www.newscientist.com/article/2588180-zapping-the-face-could-boost-brain-signalling-and-memory/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
+      <guid isPermaLink="true">https://www.newscientist.com/article/2588180-zapping-the-face-could-boost-brain-signalling-and-memory/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
+      <description>Bursts of electrical stimulation to a nerve in the face seem to improve signalling between neurons and people&apos;s performance on a memory test</description>
+      <category>Science</category>
+      <source url="https://www.newscientist.com/article/2588180-zapping-the-face-could-boost-brain-signalling-and-memory/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
+      <pubDate>Tue, 08 Sep 2026 17:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Why growing seaweed isn&apos;t a climate solution</title>
+      <link>https://www.newscientist.com/article/2587723-why-growing-seaweed-isnt-a-climate-solution/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</link>
+      <guid isPermaLink="true">https://www.newscientist.com/article/2587723-why-growing-seaweed-isnt-a-climate-solution/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS</guid>
+      <description>Some have claimed cultivating seaweed could remove hundreds of millions of tonnes of CO2. But as warming waters kill off kelp, we need to refocus on preserving what we have, a study argues</description>
+      <category>Science</category>
+      <source url="https://www.newscientist.com/article/2587723-why-growing-seaweed-isnt-a-climate-solution/?utm_campaign=RSS|NSNS&amp;#038;utm_content=home&amp;#038;utm_medium=RSS&amp;#038;utm_source=NSNS">New Scientist</source>
+      <pubDate>Tue, 08 Sep 2026 17:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Superbubble in the Large Magellanic Cloud</title>
+      <link>https://www.nasa.gov/image-article/superbubble-in-the-large-magellanic-cloud/</link>
+      <guid isPermaLink="true">https://www.nasa.gov/image-article/superbubble-in-the-large-magellanic-cloud/</guid>
+      <description>NASA&apos;s Hubble Space Telescope captures a photogenic nebula, N44, in the Large Magellanic Cloud in this Sept. 3, 2026, image. N44 is dominated by two features: a vast central void and a shell of dense, dusty gas. The central void is a ‘superbubble’ spanning rou</description>
+      <category>Science</category>
+      <source url="https://www.nasa.gov/image-article/superbubble-in-the-large-magellanic-cloud/">NASA News</source>
+      <pubDate>Tue, 08 Sep 2026 16:49:15 GMT</pubDate>
+    </item>
+    <item>
+      <title>Fragments: September 8</title>
+      <link>https://martinfowler.com/fragments/2026-09-08.html</link>
+      <guid isPermaLink="true">https://martinfowler.com/fragments/2026-09-08.html</guid>
+      <description>Christian Catalini says we’re in a situation where we are vastly reducing the cost of generating things, but not the cost of verifying them: . This explains why the first major AI products appeared in chat, image generation, and code assistance. Not because th</description>
+      <category>IT</category>
+      <source url="https://martinfowler.com/fragments/2026-09-08.html">Martin Fowler</source>
+      <pubDate>Tue, 08 Sep 2026 15:22:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>NASA Technique for Manipulating Satellite Photos Now Reveals Ancient Images</title>
+      <link>https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-technique-for-manipulating-satellite-photos-now-reveals-ancient-images/</link>
+      <guid isPermaLink="true">https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-technique-for-manipulating-satellite-photos-now-reveals-ancient-images/</guid>
+      <description>Algorithm NASA first applied to satellite imagery is now used to peer into antiquity</description>
+      <category>Science</category>
+      <source url="https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-technique-for-manipulating-satellite-photos-now-reveals-ancient-images/">NASA News</source>
+      <pubDate>Tue, 08 Sep 2026 15:15:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>1,000 Museum Visitors Dive Into NASA Sea Level Science on World Ocean Day</title>
+      <link>https://science.nasa.gov/learning-resources/science-activation/1000-museum-visitors-dive-into-nasa-sea-level-science-on-world-ocean-day/</link>
+      <guid isPermaLink="true">https://science.nasa.gov/learning-resources/science-activation/1000-museum-visitors-dive-into-nasa-sea-level-science-on-world-ocean-day/</guid>
+      <description>More than 1,000 visitors explored NASA sea level science firsthand during World Ocean Day at the University of Georgia Aquarium on Skidaway Island on June 6, 2026.</description>
+      <category>Science</category>
+      <source url="https://science.nasa.gov/learning-resources/science-activation/1000-museum-visitors-dive-into-nasa-sea-level-science-on-world-ocean-day/">NASA News</source>
+      <pubDate>Tue, 08 Sep 2026 14:06:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>HashiCorp Packer 1.16 Adds Native SLSA Provenance Generation and Verification for Machine Images</title>
+      <link>https://www.infoq.com/news/2026/09/hashicorp-packer-verification/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</link>
+      <guid isPermaLink="true">https://www.infoq.com/news/2026/09/hashicorp-packer-verification/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</guid>
+      <description>HashiCorp has released Packer v1.16.0, adding native support for generating, signing, and verifying SLSA provenance attestations for every image the tool builds. The release provides teams with a secure, tamper-proof record of how a machine image was made. It </description>
+      <category>IT</category>
+      <source url="https://www.infoq.com/news/2026/09/hashicorp-packer-verification/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">InfoQ</source>
+      <pubDate>Tue, 08 Sep 2026 14:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Presentation: Platform Engineering in the Age of AI</title>
+      <link>https://www.infoq.com/presentations/ai-platform-engineering-roundtable/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</link>
+      <guid isPermaLink="true">https://www.infoq.com/presentations/ai-platform-engineering-roundtable/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</guid>
+      <description>The panelists explain how platform teams adapt to support AI-assisted engineering, highlighting which capabilities belong in the platform. They discuss trade-offs between standardization and developer autonomy, while sharing strategies to manage AI tooling, se</description>
+      <category>IT</category>
+      <source url="https://www.infoq.com/presentations/ai-platform-engineering-roundtable/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">InfoQ</source>
+      <pubDate>Tue, 08 Sep 2026 14:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Scientists discover a powerful new antivenom hidden in rattlesnake blood</title>
+      <link>https://www.sciencedaily.com/releases/2026/09/260907201605.htm</link>
+      <guid isPermaLink="true">https://www.sciencedaily.com/releases/2026/09/260907201605.htm</guid>
+      <description>Researchers discovered that combinations of toxin-blocking proteins naturally found in rattlesnake blood can powerfully neutralize venom from several dangerous snake species. In lab tests, the mixtures were about 10 times more potent than a current commercial </description>
+      <category>Science</category>
+      <source url="https://www.sciencedaily.com/releases/2026/09/260907201605.htm">ScienceDaily — Top Science</source>
+      <pubDate>Tue, 08 Sep 2026 13:54:56 GMT</pubDate>
+    </item>
+    <item>
+      <title>Do you even need a presentation?</title>
+      <link>https://martinfowler.com/articles/never-send-slides/need-presentation.html</link>
+      <guid isPermaLink="true">https://martinfowler.com/articles/never-send-slides/need-presentation.html</guid>
+      <description>Like me, Sumeet Gayathri Moghe is tired of poor presentations with bad slide decks. He&apos;s started to write a series of posts on how to avoid these calamities, beginning with a post that questions whether a presentation is needed at all. more…</description>
+      <category>IT</category>
+      <source url="https://martinfowler.com/articles/never-send-slides/need-presentation.html">Martin Fowler</source>
+      <pubDate>Tue, 08 Sep 2026 13:42:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>GitLab Warns That AI Agent Sandboxes Are Only as Secure as Their Network Access</title>
+      <link>https://www.infoq.com/news/2026/09/gitlab-ai-sandbox-access/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</link>
+      <guid isPermaLink="true">https://www.infoq.com/news/2026/09/gitlab-ai-sandbox-access/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global</guid>
+      <description>GitLab warns that isolating an AI coding agent in a sandbox does not necessarily make the agent safe. In a new security analysis, the company describes an internal evaluation in which an AI agent escaped its sandbox by exploiting a vulnerable package proxy tha</description>
+      <category>IT</category>
+      <source url="https://www.infoq.com/news/2026/09/gitlab-ai-sandbox-access/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=global">InfoQ</source>
+      <pubDate>Tue, 08 Sep 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>How to create a &amp;#x2018;forever paycheck&amp;#x2019; without paying for an annuity</title>
+      <link>https://www.marketwatch.com/story/how-to-create-a-forever-paycheck-without-paying-for-an-annuity-e5d171d3?mod=mw_rss_topstories</link>
+      <guid isPermaLink="true">https://www.marketwatch.com/story/how-to-create-a-forever-paycheck-without-paying-for-an-annuity-e5d171d3?mod=mw_rss_topstories</guid>
+      <description>Jean Chatzky&amp;#x2019;s new book lays out several strategies for creating steady retirement income.</description>
+      <category>Economy</category>
+      <source url="https://www.marketwatch.com/story/how-to-create-a-forever-paycheck-without-paying-for-an-annuity-e5d171d3?mod=mw_rss_topstories">MarketWatch Top Stories</source>
+      <pubDate>Wed, 09 Sep 2026 02:20:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Bombardier&amp;#x2019;s stock drops as the U.S.-Canada trade war intensifies. Here&amp;#x2019;s what Trump is targeting next.</title>
+      <link>https://www.marketwatch.com/story/bombardiers-stock-drops-as-the-u-s-canada-trade-war-intensifies-heres-what-trump-may-target-next-b389065e?mod=mw_rss_topstories</link>
+      <guid isPermaLink="true">https://www.marketwatch.com/story/bombardiers-stock-drops-as-the-u-s-canada-trade-war-intensifies-heres-what-trump-may-target-next-b389065e?mod=mw_rss_topstories</guid>
+      <description>Shares in Bombardier lost altitude Tuesday after President Donald Trump threatened to ban the Canadian aircraft manufacturer unless it makes new commitments to build in the U.S.</description>
+      <category>Economy</category>
+      <source url="https://www.marketwatch.com/story/bombardiers-stock-drops-as-the-u-s-canada-trade-war-intensifies-heres-what-trump-may-target-next-b389065e?mod=mw_rss_topstories">MarketWatch Top Stories</source>
+      <pubDate>Wed, 09 Sep 2026 00:17:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>How to invest in a booming stock market that&amp;#x2019;s way cheaper than the S&amp;P 500</title>
+      <link>https://www.marketwatch.com/story/how-to-invest-in-a-booming-stock-market-thats-way-cheaper-than-the-s-p-500-b2f5ef5d?mod=mw_rss_topstories</link>
+      <guid isPermaLink="true">https://www.marketwatch.com/story/how-to-invest-in-a-booming-stock-market-thats-way-cheaper-than-the-s-p-500-b2f5ef5d?mod=mw_rss_topstories</guid>
+      <description>Poland&amp;#x2019;s reclassification as a developed economy from an emerging market opens it up for investment by many more investors.</description>
+      <category>Economy</category>
+      <source url="https://www.marketwatch.com/story/how-to-invest-in-a-booming-stock-market-thats-way-cheaper-than-the-s-p-500-b2f5ef5d?mod=mw_rss_topstories">MarketWatch Top Stories</source>
+      <pubDate>Tue, 08 Sep 2026 22:50:00 GMT</pubDate>
     </item>
     <item>
       <title>&amp;#x2018;I&amp;#x2019;m the executor&amp;#x2019;: My two siblings and I inherited an IRA. Can we just cash it out?</title>
@@ -627,286 +834,79 @@
       <description>&amp;#x201c;Am I required to create three new inherited IRAs so that the firm can divide it equally?&amp;#x201d;</description>
       <category>Economy</category>
       <source url="https://www.marketwatch.com/story/im-the-executor-my-two-siblings-and-i-inherited-an-ira-can-we-just-cash-it-out-dafc5b8d?mod=mw_rss_topstories">MarketWatch Top Stories</source>
-      <pubDate>Mon, 07 Sep 2026 22:00:00 GMT</pubDate>
+      <pubDate>Tue, 08 Sep 2026 22:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>South Korean aspirational markets in everything</title>
-      <link>https://feeds.feedblitz.com/~/968783027/0/marginalrevolution~South-Korean-aspirational-markets-in-everything.html</link>
-      <guid isPermaLink="true">https://feeds.feedblitz.com/~/968783027/0/marginalrevolution~South-Korean-aspirational-markets-in-everything.html</guid>
-      <description>Instead of Amazon, I spent the past week browsing a new breed of websites known as “dopamine sites,” a trend that emerged in South Korea. These websites — like Dopamine Shop and FoodNeverComes — recreate the entire ritual of online shopping: You search for pro</description>
+      <title>Memory chips have come to rule the AI boom. Why Micron&amp;#x2019;s reign could be here to stay.</title>
+      <link>https://www.marketwatch.com/story/memory-chips-have-come-to-rule-the-ai-boom-why-microns-reign-could-be-here-to-stay-607a4622?mod=mw_rss_topstories</link>
+      <guid isPermaLink="true">https://www.marketwatch.com/story/memory-chips-have-come-to-rule-the-ai-boom-why-microns-reign-could-be-here-to-stay-607a4622?mod=mw_rss_topstories</guid>
+      <description>Semiconductor industry revenue is expected to reach $1.5 trillion this year, driven mostly by memory chips.</description>
       <category>Economy</category>
-      <source url="https://feeds.feedblitz.com/~/968783027/0/marginalrevolution~South-Korean-aspirational-markets-in-everything.html">Marginal Revolution</source>
-      <pubDate>Mon, 07 Sep 2026 18:41:20 GMT</pubDate>
+      <source url="https://www.marketwatch.com/story/memory-chips-have-come-to-rule-the-ai-boom-why-microns-reign-could-be-here-to-stay-607a4622?mod=mw_rss_topstories">MarketWatch Top Stories</source>
+      <pubDate>Tue, 08 Sep 2026 21:51:00 GMT</pubDate>
     </item>
     <item>
-      <title>bzip3: A better and stronger spiritual successor to BZip2</title>
-      <link>https://github.com/iczelia/bzip3</link>
-      <guid isPermaLink="true">https://github.com/iczelia/bzip3</guid>
+      <title>How to build a f**king printer</title>
+      <link>https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/</link>
+      <guid isPermaLink="true">https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/</guid>
       <description>Comments</description>
       <category>IT</category>
-      <source url="https://github.com/iczelia/bzip3">Lobsters</source>
-      <pubDate>Mon, 07 Sep 2026 18:35:35 GMT</pubDate>
+      <source url="https://nishantjosh.dev/blogs/how-to-build-a-fking-printer/">Hacker News</source>
+      <pubDate>Tue, 08 Sep 2026 21:39:21 GMT</pubDate>
     </item>
     <item>
-      <title>OpenAI agents discussed ways to escape their sandbox on public wiki</title>
-      <link>https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/</link>
-      <guid isPermaLink="true">https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/</guid>
-      <description>In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.</description>
-      <category>IT</category>
-      <source url="https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/">Ars Technica — Tech Lab</source>
-      <pubDate>Fri, 04 Sep 2026 22:17:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>Rust debugging survey 2026 results</title>
-      <link>https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/</link>
-      <guid isPermaLink="true">https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/</guid>
+      <title>Rust: When Empty Isn&apos;t Bottom</title>
+      <link>https://ettolrach.com/blog/rust_when_empty_isnt_bottom.html</link>
+      <guid isPermaLink="true">https://ettolrach.com/blog/rust_when_empty_isnt_bottom.html</guid>
       <description>Comments</description>
       <category>IT</category>
-      <source url="https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/">Lobsters</source>
-      <pubDate>Mon, 07 Sep 2026 17:00:42 GMT</pubDate>
+      <source url="https://ettolrach.com/blog/rust_when_empty_isnt_bottom.html">Lobsters</source>
+      <pubDate>Tue, 08 Sep 2026 21:23:18 GMT</pubDate>
     </item>
     <item>
-      <title>We&amp;#x2019;re in our 60s. We earn $345,000 and have $1 million in 403(b)s. Is it too late for Roth conversions?</title>
-      <link>https://www.marketwatch.com/story/were-in-our-60s-my-wife-and-i-have-345-000-in-annual-pensions-and-1-million-in-403-b-s-is-it-too-late-for-roth-conversions-5df35d42?mod=mw_rss_topstories</link>
-      <guid isPermaLink="true">https://www.marketwatch.com/story/were-in-our-60s-my-wife-and-i-have-345-000-in-annual-pensions-and-1-million-in-403-b-s-is-it-too-late-for-roth-conversions-5df35d42?mod=mw_rss_topstories</guid>
-      <description>&amp;#x201c;Roth assets would provide our children with tax-free distributions.&amp;#x201d;</description>
-      <category>Economy</category>
-      <source url="https://www.marketwatch.com/story/were-in-our-60s-my-wife-and-i-have-345-000-in-annual-pensions-and-1-million-in-403-b-s-is-it-too-late-for-roth-conversions-5df35d42?mod=mw_rss_topstories">MarketWatch Top Stories</source>
-      <pubDate>Mon, 07 Sep 2026 16:30:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>How well do agents use test/verification techniques?</title>
-      <link>https://danluu.com/agentic-testing/</link>
-      <guid isPermaLink="true">https://danluu.com/agentic-testing/</guid>
+      <title>What makes $BigTechCompany&apos;s products bad, anyway?</title>
+      <link>https://herecomesthemoon.net/2026/09/why-is-big-tech-bad/</link>
+      <guid isPermaLink="true">https://herecomesthemoon.net/2026/09/why-is-big-tech-bad/</guid>
       <description>Comments</description>
       <category>IT</category>
-      <source url="https://danluu.com/agentic-testing/">Lobsters</source>
-      <pubDate>Mon, 07 Sep 2026 16:17:46 GMT</pubDate>
+      <source url="https://herecomesthemoon.net/2026/09/why-is-big-tech-bad/">Lobsters</source>
+      <pubDate>Tue, 08 Sep 2026 21:05:31 GMT</pubDate>
     </item>
     <item>
-      <title>Monday assorted links</title>
-      <link>https://feeds.feedblitz.com/~/968778224/0/marginalrevolution~Monday-assorted-links.html</link>
-      <guid isPermaLink="true">https://feeds.feedblitz.com/~/968778224/0/marginalrevolution~Monday-assorted-links.html</guid>
-      <description>1. How are age verification systems going? 2. Eliezer predictions. 3. Are humpback whales policing nature? 4. &quot;Traces of nearly four million coins reveal how Rome achieved economic integration.&quot; 5. Estimating cybersecurity costs (numbers). 6. Great Barrier Ree</description>
-      <category>Economy</category>
-      <source url="https://feeds.feedblitz.com/~/968778224/0/marginalrevolution~Monday-assorted-links.html">Marginal Revolution</source>
-      <pubDate>Mon, 07 Sep 2026 16:17:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>What Archaeology Reveals About the Rise of All-Powerful Rulers</title>
-      <link>https://nautil.us/what-archaeology-reveals-about-the-rise-of-all-powerful-rulers-1284855/</link>
-      <guid isPermaLink="true">https://nautil.us/what-archaeology-reveals-about-the-rise-of-all-powerful-rulers-1284855/</guid>
-      <description>Autocracy wasn’t inevitable in early civilizations—many were more egalitarian. But when riches were there to monopolize, strongmen and inequalities emerged The post What Archaeology Reveals About the Rise of All-Powerful Rulers appeared first on Nautilus .</description>
-      <category>Science</category>
-      <source url="https://nautil.us/what-archaeology-reveals-about-the-rise-of-all-powerful-rulers-1284855/">Nautilus</source>
-      <pubDate>Mon, 07 Sep 2026 16:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Two Tiny Utils for the Result Pattern</title>
-      <link>https://daviddalbusco.com/blog/tiny-utils-for-the-result-pattern</link>
-      <guid isPermaLink="true">https://daviddalbusco.com/blog/tiny-utils-for-the-result-pattern</guid>
-      <description>Comments</description>
+      <title>Power agent hubs or custom harnesses with the Antigravity SDK in one toolkit</title>
+      <link>https://cloud.google.com/blog/topics/developers-practitioners/power-agent-hubs-or-custom-harnesses-with-the-antigravity-sdk/</link>
+      <guid isPermaLink="true">https://cloud.google.com/blog/topics/developers-practitioners/power-agent-hubs-or-custom-harnesses-with-the-antigravity-sdk/</guid>
+      <description>Enterprise agent adoption isn’t one-size-fits-all. While many teams will opt for managed commercial platforms, such as Gemini Enterprise Agent Platform for turnkey agent deployment and governance, developers with bespoke workflows or custom execution engines o</description>
       <category>IT</category>
-      <source url="https://daviddalbusco.com/blog/tiny-utils-for-the-result-pattern">Lobsters</source>
-      <pubDate>Mon, 07 Sep 2026 14:07:45 GMT</pubDate>
+      <source url="https://cloud.google.com/blog/topics/developers-practitioners/power-agent-hubs-or-custom-harnesses-with-the-antigravity-sdk/">Google Cloud Blog</source>
+      <pubDate>Tue, 08 Sep 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>What’s Creating These Mysterious Seafloor Hexagons?</title>
-      <link>https://nautil.us/whats-creating-these-mysterious-seafloor-hexagons-1284850/</link>
-      <guid isPermaLink="true">https://nautil.us/whats-creating-these-mysterious-seafloor-hexagons-1284850/</guid>
-      <description>We now know who is responsible for them, but why they’re doing it is still up for debate The post What’s Creating These Mysterious Seafloor Hexagons? appeared first on Nautilus .</description>
-      <category>Science</category>
-      <source url="https://nautil.us/whats-creating-these-mysterious-seafloor-hexagons-1284850/">Nautilus</source>
-      <pubDate>Mon, 07 Sep 2026 14:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Oracle may be next in EU software licensing hot seat following SAP deal</title>
-      <link>https://www.theregister.com/software/2026/09/07/oracle-may-be-next-in-eu-software-licensing-hot-seat-following-sap-deal/5294805</link>
-      <guid isPermaLink="true">https://www.theregister.com/software/2026/09/07/oracle-may-be-next-in-eu-software-licensing-hot-seat-following-sap-deal/5294805</guid>
-      <description>Commission reportedly seeks third-party views, although no formal investigation is underway</description>
+      <title>Agentic analytics with the Data Agent Kit</title>
+      <link>https://cloud.google.com/blog/products/data-analytics/agentic-analytics-with-the-data-agent-kit/</link>
+      <guid isPermaLink="true">https://cloud.google.com/blog/products/data-analytics/agentic-analytics-with-the-data-agent-kit/</guid>
+      <description>Imagine your director sends you a chat message Monday morning: Our average order value dropped 7% in January, but total revenue stayed flat. Why? If you’re a data practitioner, you know why these types of questions can be tough. They’re totally open ended. The</description>
       <category>IT</category>
-      <source url="https://www.theregister.com/software/2026/09/07/oracle-may-be-next-in-eu-software-licensing-hot-seat-following-sap-deal/5294805">The Register — Software</source>
-      <pubDate>Mon, 07 Sep 2026 13:56:51 GMT</pubDate>
+      <source url="https://cloud.google.com/blog/products/data-analytics/agentic-analytics-with-the-data-agent-kit/">Google Cloud Blog</source>
+      <pubDate>Tue, 08 Sep 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>Once popular for attacking AI, ASCII smuggling is embraced by spammers</title>
-      <link>https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/</link>
-      <guid isPermaLink="true">https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/</guid>
-      <description>A once-overlooked block of unicode that&apos;s invisible to humans is gaining ever wider use.</description>
+      <title>How KDDI built Buffmee, a faster, reliable consumer RAG app</title>
+      <link>https://cloud.google.com/blog/topics/customers/how-kddi-optimized-rag-performance-with-agent-development-kit/</link>
+      <guid isPermaLink="true">https://cloud.google.com/blog/topics/customers/how-kddi-optimized-rag-performance-with-agent-development-kit/</guid>
+      <description>When building consumer-facing generative AI applications, balancing high generation quality with fast response times across diverse media types, can be challenging. KDDI, a major telecommunications carrier in Japan, tackled this challenge head-on when they dev</description>
       <category>IT</category>
-      <source url="https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/">Ars Technica — Tech Lab</source>
-      <pubDate>Fri, 04 Sep 2026 17:18:12 GMT</pubDate>
+      <source url="https://cloud.google.com/blog/topics/customers/how-kddi-optimized-rag-performance-with-agent-development-kit/">Google Cloud Blog</source>
+      <pubDate>Tue, 08 Sep 2026 16:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>After an 8-Year Journey, Orbiters Are About to Give Us a Fresh Look at Mercury</title>
-      <link>https://nautil.us/after-an-8-year-journey-orbiters-are-about-to-give-us-a-fresh-look-at-mercury-1284822/</link>
-      <guid isPermaLink="true">https://nautil.us/after-an-8-year-journey-orbiters-are-about-to-give-us-a-fresh-look-at-mercury-1284822/</guid>
-      <description>But the BepiColombo twin orbiters aren’t the first spacecraft to visit our system’s smallest planet. Here’s what we’ve seen already The post After an 8-Year Journey, Orbiters Are About to Give Us a Fresh Look at Mercury appeared first on Nautilus .</description>
-      <category>Science</category>
-      <source url="https://nautil.us/after-an-8-year-journey-orbiters-are-about-to-give-us-a-fresh-look-at-mercury-1284822/">Nautilus</source>
-      <pubDate>Mon, 07 Sep 2026 12:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Handling vulnerability reports: Recipe card</title>
-      <link>https://www.cncf.io/blog/2026/09/07/handling-vulnerability-reports-recipe-card/</link>
-      <guid isPermaLink="true">https://www.cncf.io/blog/2026/09/07/handling-vulnerability-reports-recipe-card/</guid>
-      <description>Recipe Handling Vulnerability Reports Target audience (the chef) This recipe is aimed at small and medium non-security focused projects.&amp;#160;Maintainers of a high-risk security sensitive project, you probably need a more sophisticated approach (check out http</description>
-      <category>IT</category>
-      <source url="https://www.cncf.io/blog/2026/09/07/handling-vulnerability-reports-recipe-card/">CNCF Blog</source>
-      <pubDate>Mon, 07 Sep 2026 11:30:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>BepiColombo begins Mercury arrival with MTM separation success</title>
-      <link>https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success</link>
-      <guid isPermaLink="true">https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success</guid>
-      <description>On 3 September 2026 at 15:49 CEST, the European Space Agency&apos;s&amp;nbsp; BepiColombo &amp;nbsp;Mission Control Team at the European Space Operations Centre (ESOC) received the signal they had been waiting for&amp;nbsp;–&amp;nbsp;BepiColombo’s&amp;nbsp;Mercury Transfer Module (MTM</description>
-      <category>Science</category>
-      <source url="https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success">ESA — Space Science</source>
-      <pubDate>Mon, 07 Sep 2026 08:25:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>How beavers can help create fire breaks as part of a drought preparation plan</title>
-      <link>https://phys.org/news/2026-09-beavers-drought.html</link>
-      <guid isPermaLink="true">https://phys.org/news/2026-09-beavers-drought.html</guid>
-      <description>Most of the countryside around the Holnicote estate in Somerset has been dry and dusty for most of the summer. But one corner remains conspicuously green.</description>
-      <category>Science</category>
-      <source url="https://phys.org/news/2026-09-beavers-drought.html">Phys.org</source>
-      <pubDate>Tue, 08 Sep 2026 02:40:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>China tries to look past the property slump</title>
-      <link>https://www.economist.com/finance-and-economics/2026/09/03/china-tries-to-look-past-the-property-slump</link>
-      <guid isPermaLink="true">https://www.economist.com/finance-and-economics/2026/09/03/china-tries-to-look-past-the-property-slump</guid>
-      <description>But its new policies could hurt construction and employment</description>
+      <title>Tuesday assorted links</title>
+      <link>https://feeds.feedblitz.com/~/968839973/0/marginalrevolution~Tuesday-assorted-links.html</link>
+      <guid isPermaLink="true">https://feeds.feedblitz.com/~/968839973/0/marginalrevolution~Tuesday-assorted-links.html</guid>
+      <description>1. The Carob Prize, for scholars who tell the truth (WSJ). 2. Observations from watching Iranian social media. 3. The Emma McAleavy feminist vision. 4. Is the inflation picture shifting? 5. The labor market is doing fine. 6. If LLMs had the personalities of TV</description>
       <category>Economy</category>
-      <source url="https://www.economist.com/finance-and-economics/2026/09/03/china-tries-to-look-past-the-property-slump">The Economist — Finance &amp; Economics</source>
-      <pubDate>Thu, 03 Sep 2026 09:35:32 GMT</pubDate>
-    </item>
-    <item>
-      <title>Indian regulators’ attempts to protect retail traders are backfiring</title>
-      <link>https://www.economist.com/finance-and-economics/2026/09/03/indian-regulators-attempts-to-protect-retail-traders-are-backfiring</link>
-      <guid isPermaLink="true">https://www.economist.com/finance-and-economics/2026/09/03/indian-regulators-attempts-to-protect-retail-traders-are-backfiring</guid>
-      <description>The unintended consequences of curbs on options trading</description>
-      <category>Economy</category>
-      <source url="https://www.economist.com/finance-and-economics/2026/09/03/indian-regulators-attempts-to-protect-retail-traders-are-backfiring">The Economist — Finance &amp; Economics</source>
-      <pubDate>Thu, 03 Sep 2026 09:34:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>Jellyfin 12.0</title>
-      <link>https://jellyfin.org/posts/jellyfin-release-12.0/</link>
-      <guid isPermaLink="true">https://jellyfin.org/posts/jellyfin-release-12.0/</guid>
-      <description>Comments</description>
-      <category>IT</category>
-      <source url="https://jellyfin.org/posts/jellyfin-release-12.0/">Hacker News</source>
-      <pubDate>Tue, 08 Sep 2026 01:56:35 GMT</pubDate>
-    </item>
-    <item>
-      <title>Changing the antibiotic playbook to catch an ESKAPE artist</title>
-      <link>https://phys.org/news/2026-09-antibiotic-playbook-eskape-artist.html</link>
-      <guid isPermaLink="true">https://phys.org/news/2026-09-antibiotic-playbook-eskape-artist.html</guid>
-      <description>Nearly a century ago, a single colony of Staphylococcus aureus (S. aureus) helped launch the antibiotic age. In 1928, Alexander Fleming returned to his London lab to find that a stray mold had wiped out the Staphylococcus growing on one of his plates. The acci</description>
-      <category>Science</category>
-      <source url="https://phys.org/news/2026-09-antibiotic-playbook-eskape-artist.html">Phys.org</source>
-      <pubDate>Tue, 08 Sep 2026 01:40:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Early Earth&amp;#039;s auroral belts may have formed a natural ion-beam reactor for prebiotic chemistry</title>
-      <link>https://phys.org/news/2026-09-early-earth-auroral-belts-natural.html</link>
-      <guid isPermaLink="true">https://phys.org/news/2026-09-early-earth-auroral-belts-natural.html</guid>
-      <description>We usually think of auroras as beautiful lights in the night sky. I see them as visible traces of a connection between the sun, Earth&amp;#039;s magnetic field and the atmosphere. This led me to an origin-of-life question: Could the planetary structure that produc</description>
-      <category>Science</category>
-      <source url="https://phys.org/news/2026-09-early-earth-auroral-belts-natural.html">Phys.org</source>
-      <pubDate>Tue, 08 Sep 2026 00:40:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Crime is falling—but the public doesn&amp;#039;t feel safer, UK study finds</title>
-      <link>https://phys.org/news/2026-09-crime-falling-doesnt-safer-uk.html</link>
-      <guid isPermaLink="true">https://phys.org/news/2026-09-crime-falling-doesnt-safer-uk.html</guid>
-      <description>Crime levels are falling for most offenses across the UK—but the public doesn&amp;#039;t necessarily feel safer. It&amp;#039;s a human trait to focus on frightening information in the news or on social media—but it could also mean that people are more fearful about cr</description>
-      <category>Science</category>
-      <source url="https://phys.org/news/2026-09-crime-falling-doesnt-safer-uk.html">Phys.org</source>
-      <pubDate>Tue, 08 Sep 2026 00:00:01 GMT</pubDate>
-    </item>
-    <item>
-      <title>Insurance price sentences to ponder</title>
-      <link>https://feeds.feedblitz.com/~/968565758/0/marginalrevolution~Insurance-price-sentences-to-ponder.html</link>
-      <guid isPermaLink="true">https://feeds.feedblitz.com/~/968565758/0/marginalrevolution~Insurance-price-sentences-to-ponder.html</guid>
-      <description>NYU Stern researcher @NateWitkin questions why cyber insurance rates keep falling if AI cyber risk is accelerating: &quot;Insurance rates for cyber risk declined by about 4% globally in Q2 of this year, and that&apos;s actually the 12th consecutive quarter in which they</description>
-      <category>Economy</category>
-      <source url="https://feeds.feedblitz.com/~/968565758/0/marginalrevolution~Insurance-price-sentences-to-ponder.html">Marginal Revolution</source>
-      <pubDate>Sun, 06 Sep 2026 19:39:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Introducing agentic video understanding with Gemini</title>
-      <link>https://deepmind.google/blog/introducing-agentic-video-in-gemini/</link>
-      <guid isPermaLink="true">https://deepmind.google/blog/introducing-agentic-video-in-gemini/</guid>
-      <description>Latest item from Google DeepMind Blog.</description>
-      <category>AI</category>
-      <source url="https://deepmind.google/blog/introducing-agentic-video-in-gemini/">Google DeepMind Blog</source>
-      <pubDate>Tue, 01 Sep 2026 17:08:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>The Blackest Black Box Mid-Session Review Ever</title>
-      <link>https://econbrowser.com/archives/2026/09/the-blackest-black-box-mid-session-review-ever</link>
-      <guid isPermaLink="true">https://econbrowser.com/archives/2026/09/the-blackest-black-box-mid-session-review-ever</guid>
-      <description>I was looking to see what the Administration&apos;s Mid-Session Review economic forecast looked like. Alas, courtesy of Jared Bernstein, I am disappointed. Did Vought et al. purge all the economists from the CEA, Treasury and OMB? The MSR: We&apos;ll have to take it tha</description>
-      <category>Economy</category>
-      <source url="https://econbrowser.com/archives/2026/09/the-blackest-black-box-mid-session-review-ever">Econbrowser</source>
-      <pubDate>Sat, 05 Sep 2026 02:15:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>August Real Average Hourly Earnings Nowcasted</title>
-      <link>https://econbrowser.com/archives/2026/09/august-real-average-hourly-earnings-nowcasted</link>
-      <guid isPermaLink="true">https://econbrowser.com/archives/2026/09/august-real-average-hourly-earnings-nowcasted</guid>
-      <description>With August hourly earnings and nowcasted August CPI: Figure 1: Average hourly wage in 2025$ using CPI-all urban (blue), using CPI for wage earners and clerical workers (red). August deflated using Cleveland Fed nowcast. Source: BLS, Cleveland Fed, and author’</description>
-      <category>Economy</category>
-      <source url="https://econbrowser.com/archives/2026/09/august-real-average-hourly-earnings-nowcasted">Econbrowser</source>
-      <pubDate>Fri, 04 Sep 2026 21:14:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>Give Your Coding Agents a Memory You Own</title>
-      <link>https://huggingface.co/blog/funes</link>
-      <guid isPermaLink="true">https://huggingface.co/blog/funes</guid>
-      <description>Latest item from HuggingFace Blog.</description>
-      <category>AI</category>
-      <source url="https://huggingface.co/blog/funes">HuggingFace Blog</source>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>Business Cycle Indicators: CES/CPS Employment Surges</title>
-      <link>https://econbrowser.com/archives/2026/09/business-cycle-indicators-ces-cps-employment-surges</link>
-      <guid isPermaLink="true">https://econbrowser.com/archives/2026/09/business-cycle-indicators-ces-cps-employment-surges</guid>
-      <description>Evidence of continued growth: Figure 1: NFP employment (bold blue), civilian employment with smoothed population controls (bold orange), industrial production (red), personal income excluding current transfers in Ch.2017$ (bold light green), manufacturing and </description>
-      <category>Economy</category>
-      <source url="https://econbrowser.com/archives/2026/09/business-cycle-indicators-ces-cps-employment-surges">Econbrowser</source>
-      <pubDate>Fri, 04 Sep 2026 19:01:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>MG Ship adds AI route optimisation as logistics returns accelerate</title>
-      <link>https://www.artificialintelligence-news.com/news/mg-ship-ai-route-optimisation-logistics-returns-accelerate/</link>
-      <guid isPermaLink="true">https://www.artificialintelligence-news.com/news/mg-ship-ai-route-optimisation-logistics-returns-accelerate/</guid>
-      <description>MG Ship has introduced an AI route optimisation and carrier selection module as logistics deployments demonstrate rapid cost and time returns. The technical module targets global retailers and commercial shippers, pairing automated routing algorithms with carr</description>
-      <category>AI</category>
-      <source url="https://www.artificialintelligence-news.com/news/mg-ship-ai-route-optimisation-logistics-returns-accelerate/">AI News</source>
-      <pubDate>Mon, 07 Sep 2026 13:01:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time</title>
-      <link>https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest</link>
-      <guid isPermaLink="true">https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest</guid>
-      <description>new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI&apos;s new frontier model class.</description>
-      <category>AI</category>
-      <source url="https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest">Latent Space</source>
-      <pubDate>Fri, 04 Sep 2026 05:18:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>GPT-6 Astra: an automated AI Engineer you can hire for &lt;$6 an hour</title>
-      <link>https://www.latent.space/p/astra</link>
-      <guid isPermaLink="true">https://www.latent.space/p/astra</guid>
-      <description>We spent 20B+ tokens of GPT-6 Astra to explore everything. Here&apos;s our learnings.</description>
-      <category>AI</category>
-      <source url="https://www.latent.space/p/astra">Latent Space</source>
-      <pubDate>Thu, 03 Sep 2026 21:09:41 GMT</pubDate>
+      <source url="https://feeds.feedblitz.com/~/968839973/0/marginalrevolution~Tuesday-assorted-links.html">Marginal Revolution</source>
+      <pubDate>Tue, 08 Sep 2026 15:55:42 GMT</pubDate>
     </item>
   </channel>
 </rss>
