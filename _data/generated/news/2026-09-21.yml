@@ -1,5 +1,5 @@
 date: 2026-09-21
-generated_at: 2026-09-21T04:01:11.160Z
+generated_at: 2026-09-21T10:48:33.837Z
 items:
   - title: Quoting voxium
     url: https://simonwillison.net/2026/Sep/20/voxium/
@@ -16,55 +16,52 @@ items:
       - llms
       - engineering
       - analysis
-    relevance: 0.8884896291666666
+    relevance: 0.8771726101851851
     published_at: 2026-09-20T21:06:43.000Z
-  - title: Malicious npm packages evade install-script defenses at runtime
-    url: https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/
-    source: BleepingComputer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
-    summary: An ongoing npm malware campaign involving the 'indexed-btree' package
-      shows how threat actors bypass supply chain defenses by hiding malicious
-      code in a package's normal runtime behavior rather than in installation
-      scripts. [...]
+  - title: US and China Discuss Alerting Each Other to AI National Security Threats
+    url: https://www.wired.com/story/us-and-china-discuss-alerting-each-other-to-ai-national-security-threats/
+    source: Wired — Security
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
+    summary: Officials discussed setting up a mechanism for the two countries to
+      notify each other of AI incidents which could threaten national security.
     category: Security
     tags:
       - security
-      - malware
-      - vulnerabilities
-    relevance: 0.8019515421296297
-    published_at: 2026-09-20T14:11:21.000Z
-  - title: An undercover Google analyst infiltrated a notorious supply-chain hacking
-      gang
-    url: https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/
-    source: Ars Technica — Tech Lab
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
-    summary: Google’s threat intelligence group said it had a mole inside TeamPCP's
-      inner circle.
+      - privacy
+      - surveillance
+    relevance: 0.8246170444444445
+    published_at: 2026-09-21T10:34:43.000Z
+  - title: AWS Cannot Restore Data Held Only in Damaged Middle East Availability Zones
+    url: https://www.infoq.com/news/2026/09/aws-middle-east-data-loss/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
+    source: InfoQ
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=infoq.com
+    summary: "AWS has told customers it cannot restore resources and data hosted
+      exclusively in the mec1-az2 availability zone in the UAE, or exclusively
+      in the Bahrain region, after damage during the conflict with Iran. The
+      company says the Bahrain damage spanned multiple "
     category: IT
     tags:
       - it
-      - infrastructure
       - engineering
-    relevance: 0.796830288425926
-    published_at: 2026-09-20T11:07:00.000Z
-  - title: No Dogs in Space is back to feed your need for obsessive music history
-    url: https://www.theverge.com/report/997948/no-dogs-in-space-is-back-punk-2-0-music-history-podcast
-    source: The Verge
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    summary: In August, I wrote about my love of the music history podcast No Dogs
-      in Space, but mourned the fact that there hadn't been a new episode in
-      over two years. Little did I know that hosts Carolina Hidalgo and Marcus
-      Parks were gearing up to announce the show's r
+      - architecture
+    relevance: 0.7465140888888889
+    published_at: 2026-09-21T08:43:00.000Z
+  - title: "Bambu P2S Combo 3D Printer Review: My Own Little Plastics Factory"
+    url: https://www.wired.com/review/bambu-p2s-combo-3d-printer/
+    source: Wired
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
+    summary: The Bambu Lab P2S Combo makes useful, polished objects without
+      requiring advanced technical skills.
     category: Technology
     tags:
       - technology
-      - gadgets
-      - consumer
-    relevance: 0.8130794532407408
-    published_at: 2026-09-20T20:51:57.000Z
+      - culture
+      - society
+    relevance: 0.824486025925926
+    published_at: 2026-09-21T10:30:00.000Z
   - title: Game Conference MX (GCMX)
     url: https://www.gamedeveloper.com/events/untitled
     source: Game Developer
@@ -78,39 +75,37 @@ items:
       - design
       - industry
     relevance: 0.7875000000000001
-    published_at: 2026-09-21T04:01:06.580Z
-  - title: Where Does the Quantum World End and Ours Begin?
-    url: https://www.quantamagazine.org/where-does-the-quantum-world-end-and-ours-begin-20260917/
-    source: Quanta Magazine
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=quantamagazine.org
-    image: https://www.quantamagazine.org/wp-content/uploads/2026/09/JOW-S5-E8-cr-Chanelle-Nibbelink-Default-NO-LOGO.jpg
-    summary: Jonathan Halliwell explains how quantum decoherence is key to
-      understanding how we transition from a world with a wave-like nature of
-      matter and energy to the classical macroscopic world that we’re used to.
-      The post Where Does the Quantum World End and Ours Be
+    published_at: 2026-09-21T10:48:30.452Z
+  - title: What kills Schrödinger’s cat? Gravity may not be the answer
+    url: https://www.sciencedaily.com/releases/2026/09/260920222350.htm
+    source: ScienceDaily — Top Science
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
+    summary: Physicists have put a decades-old idea about why the strange rules of
+      quantum mechanics disappear in our everyday world to one of its toughest
+      experimental tests yet. Deep beneath Italy’s Gran Sasso mountain,
+      researchers searched for an extremely faint radiati
     category: Science
     tags:
       - science
-      - mathematics
-      - physics
-      - biology
-    relevance: 0.7585680870370369
-    published_at: 2026-09-17T15:09:33.000Z
-  - title: German Chancellor Merz calls state election a 'disaster' for his party
-      but vows to stay on
-    url: https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss
-    source: BBC News — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    summary: Exit polls show damaging losses for Merz's centre-right CDU party in
-      the state of Mecklenburg-Vorpommern and Berlin.
+      - research
+      - discoveries
+    relevance: 0.7476763097222222
+    published_at: 2026-09-21T09:24:50.000Z
+  - title: To Win the Peace, Ukraine Must Cope With Vast Numbers of Veterans
+    url: https://foreignpolicy.com/2026/09/21/ukraine-veterans-affairs-minister-vitalii-kim-war-russia/
+    source: Foreign Policy
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=foreignpolicy.com
+    image: https://foreignpolicy.com/wp-content/uploads/2026/09/Ukraine-veterans-GettyImages-2018755730.jpg
+    summary: Ukraine must “build the engine while it’s driving the car,” said
+      Vitalii Kim, the country’s new veterans’ affairs minister.
     category: Geopolitics
     tags:
       - geopolitics
-      - bbc
-      - world-news
-    relevance: 0.8239342865740742
-    published_at: 2026-09-21T03:22:44.000Z
+      - foreign-policy
+      - analysis
+    relevance: 0.8986777694444443
+    published_at: 2026-09-21T10:00:53.000Z
   - title: House prices survived the last interest-rate rise. Will they this time?
     url: https://www.economist.com/finance-and-economics/2026/09/20/house-prices-survived-the-last-interest-rate-rise-will-they-this-time
     source: The Economist — Finance & Economics
@@ -124,7 +119,7 @@ items:
       - finance
       - macroeconomics
       - analysis
-    relevance: 0.8309603893518518
+    relevance: 0.8196437578703704
     published_at: 2026-09-20T09:05:41.000Z
   - title: llm-keys-ui 0.1
     url: https://simonwillison.net/2026/Sep/20/llm-keys-ui/
@@ -141,23 +136,24 @@ items:
       - llms
       - engineering
       - analysis
-    relevance: 0.8855896291666666
+    relevance: 0.8742726101851851
     published_at: 2026-09-20T19:22:19.000Z
-  - title: Researchers escape OpenAI Codex sandbox to run commands on host
-    url: https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/
-    source: BleepingComputer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
-    summary: Researchers escaped OpenAI's Codex sandbox two ways, one running
-      commands on a developer's machine from its most locked-down mode. OpenAI
-      has patched both. [...]
+  - title: "TerminalFix: PNG Steganography, (Mon, Sep 21st)"
+    url: https://isc.sans.edu/diary/rss/33318
+    source: SANS Internet Storm Center
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
+    image: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
+    summary: Microsoft Security Research published an interesting blog post
+      "TerminalFix campaign deploys a reverse tunnel through multistage
+      intrusion" about a malware campaign. The aspect that I want to take a
+      closer look at, is the fact that the threat actors used PNG f
     category: Security
     tags:
       - security
-      - malware
-      - vulnerabilities
-    relevance: 0.7983029310185186
-    published_at: 2026-09-20T12:00:00.000Z
+      - threats
+      - iocs
+    relevance: 0.8245940083333334
+    published_at: 2026-09-21T10:33:53.000Z
   - title: "SRE Weekly Issue #535"
     url: https://sreweekly.com/sre-weekly-issue-535/
     source: SRE Weekly
@@ -173,25 +169,24 @@ items:
       - sre
       - reliability
       - operations
-    relevance: 0.7487013759259259
+    relevance: 0.737385312962963
     published_at: 2026-09-21T03:14:22.000Z
-  - title: No one is surprised that Nvidia's Jensen Huang thinks AI fears are
-      overblown.
-    url: https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown
+  - title: UN says AI safeguards can’t wait for certainty
+    url: https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle
     source: The Verge
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
     image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    summary: The man who may stand to make the most money from the AI boom seems to
-      think he knows better than anyone else, including researchers who have
-      studied and worked on AI for decades. In an interview with CBS Sunday
-      Morning, he claimed there was a "0% chance" of A
+    summary: Governments need to rein in increasingly capable AI agents before their
+      risks are fully understood, a United Nations scientific panel warned in
+      the global organization's first major assessment of OpenAI's hack of
+      Hugging Face earlier this year. The report ceme
     category: Technology
     tags:
       - technology
       - gadgets
       - consumer
-    relevance: 0.8097002865740741
-    published_at: 2026-09-20T18:50:18.000Z
+    relevance: 0.824155438888889
+    published_at: 2026-09-21T10:18:06.000Z
   - title: gamescom
     url: https://www.gamedeveloper.com/events/gamescom
     source: Game Developer
@@ -205,49 +200,48 @@ items:
       - design
       - industry
     relevance: 0.7875000000000001
-    published_at: 2026-09-21T04:01:06.580Z
-  - title: Scientists discover a hidden “ID card” in cat urine
-    url: https://www.sciencedaily.com/releases/2026/09/260919031033.htm
-    source: ScienceDaily — Top Science
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
-    summary: Cats may identify one another through a surprisingly durable chemical
-      “calling card” made from 13 unusual fatty acids in their urine. The
-      compounds appear linked to mysterious fat droplets in the kidneys and may
-      represent a scent-recognition system shared acro
+    published_at: 2026-09-21T10:48:30.452Z
+  - title: Where Does the Quantum World End and Ours Begin?
+    url: https://www.quantamagazine.org/where-does-the-quantum-world-end-and-ours-begin-20260917/
+    source: Quanta Magazine
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=quantamagazine.org
+    image: https://www.quantamagazine.org/wp-content/uploads/2026/09/JOW-S5-E8-cr-Chanelle-Nibbelink-Default-NO-LOGO.jpg
+    summary: Jonathan Halliwell explains how quantum decoherence is key to
+      understanding how we transition from a world with a wave-like nature of
+      matter and energy to the classical macroscopic world that we’re used to.
+      The post Where Does the Quantum World End and Ours Be
     category: Science
     tags:
       - science
-      - research
-      - discoveries
-    relevance: 0.7239790583333333
-    published_at: 2026-09-20T12:24:21.000Z
-  - title: Macron and Carney announce closer France-Canada ties amid Trump tensions
-    url: https://www.theguardian.com/world/2026/sep/21/france-canada-relations-eu-europe-macron-carney
-    source: The Guardian — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theguardian.com
-    image: https://i.guim.co.uk/img/media/e17b0612a5744746012a384b1cea80afef14af1b/394_0_4938_3951/master/4938.jpg?width=140&quality=85&auto=format&fit=max&s=0c15df24dbba8dee534a90375fb86614
-    summary: Two leaders meet in French territory off Canada as Ottawa seeks
-      stronger relations with EU while fighting trade war with US The leaders of
-      France and Canada have pledged closer ties to grapple with rising
-      geopolitical tensions, climate change and the erosion o
+      - mathematics
+      - physics
+      - biology
+    relevance: 0.7472515703703703
+    published_at: 2026-09-17T15:09:33.000Z
+  - title: Why Iran’s Lego Clips Are Anything but ‘Stupid’
+    url: https://foreignpolicy.com/2026/09/21/iran-lego-videos-propaganda-rubio/
+    source: Foreign Policy
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=foreignpolicy.com
+    image: https://foreignpolicy.com/wp-content/uploads/2026/09/Lego-meme-iran-united-states-trump-rubio-hegseth.jpg
+    summary: Marco Rubio should not dismiss this new and highly effective form of
+      propaganda.
     category: Geopolitics
     tags:
       - geopolitics
-      - world-news
-      - investigative
-    relevance: 0.8202300861111111
-    published_at: 2026-09-21T01:09:23.000Z
-  - title: "Spillover Effects of Regulatory Inspections: Evidence from OSHA -- by
-      Matthew S. Johnson, David Levine, Michael W. Toffel"
-    url: https://www.nber.org/papers/w35646#fromrss
+      - foreign-policy
+      - analysis
+    relevance: 0.8910398064814814
+    published_at: 2026-09-21T05:25:55.000Z
+  - title: Fiscal Populism and Monetary Policy Rules -- by Luis I. Jácome, Nicolás
+      E. Magud, Samuel Pienknagura, Martín Uribe
+    url: https://www.nber.org/papers/w35758#fromrss
     source: NBER New Working Papers
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nber.org
     image: https://www.google.com/s2/favicons?sz=64&domain=nber.org
-    summary: Regulatory inspections might affect entities nearby those inspected.
-      Such spillovers are difficult to identify because regulators target
-      inspections and neighboring establishments face correlated shocks. We
-      exploit the U.S. Occupational Safety and Health Admin
+    summary: We explore the historical link between populist regimes, fiscal
+      monetization, and inflation, and how these links affect monetary policy in
+      the 21st century. Using data for a large set of advanced economies and
+      emerging markets since 1960, we show that, histori
     category: Economy
     tags:
       - economy
@@ -255,7 +249,7 @@ items:
       - working-papers
       - nber
     relevance: 0.7875000000000001
-    published_at: 2026-09-21T04:01:07.090Z
+    published_at: 2026-09-21T10:48:31.454Z
   - title: datasette-explain 0.2.2
     url: https://simonwillison.net/2026/Sep/20/datasette-explain/
     source: Simon Willison's Weblog
@@ -271,24 +265,22 @@ items:
       - llms
       - engineering
       - analysis
-    relevance: 0.8539160180555555
+    relevance: 0.842598999074074
     published_at: 2026-09-20T00:22:04.000Z
-  - title: How Candidates Could Use AI for Good
-    url: https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html
-    source: Schneier on Security
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=schneier.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=schneier.com
-    summary: "This essay was written with Nathan E. Sanders, and originally appeared
-      in The Guardian . There are plenty of signs that AI will make all of our
-      experiences of the US midterm elections worse. Voters have anxiety about
-      AI's impacts on the country. Politicos are "
+  - title: ISC Stormcast For Monday, September 21st, 2026
+      https://isc.sans.edu/podcastdetail/10102, (Mon, Sep 21st)
+    url: https://isc.sans.edu/diary/rss/33354
+    source: SANS Internet Storm Center
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
+    image: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
+    summary: Latest item from SANS Internet Storm Center.
     category: Security
     tags:
       - security
-      - cryptography
-      - policy
-    relevance: 0.7518172888888888
-    published_at: 2026-09-17T11:06:31.000Z
+      - threats
+      - iocs
+    relevance: 0.8157416935185186
+    published_at: 2026-09-21T05:15:12.000Z
   - title: "Kubernetes 1.37 Released: Stable Metrics API and Rootless Kubelet in Beta"
     url: https://www.infoq.com/news/2026/09/kubernetes-1-37/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
     source: InfoQ
@@ -302,24 +294,22 @@ items:
       - it
       - engineering
       - architecture
-    relevance: 0.7449687569444444
+    relevance: 0.7336529777777778
     published_at: 2026-09-21T01:00:00.000Z
-  - title: Kojima Productions disputes reports the studio is in trouble
-    url: https://www.theverge.com/games/997880/hideo-kojima-productions-physint-xbox-sony-playstation
-    source: The Verge
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    summary: "After it was announced that Sony was dropping Hideo Kojima's Physint,
-      and that instead the Metal Gear Solid creator's latest title would be
-      coming to Xbox, there were a flurry of rumors about the falling out.
-      Bloomberg reported that the decision was driven by "
+  - title: The Search for Silicon Valley’s Most Powerful Woman
+    url: https://www.wired.com/story/searching-for-powerful-women-silicon-valley/
+    source: Wired
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
+    summary: Women hold some of the most consequential jobs in tech, but they’re
+      still not cult figures. WIRED investigates why.
     category: Technology
     tags:
       - technology
-      - gadgets
-      - consumer
-    relevance: 0.8087243606481482
-    published_at: 2026-09-20T18:15:10.000Z
+      - culture
+      - society
+    relevance: 0.8236526925925927
+    published_at: 2026-09-21T10:00:00.000Z
   - title: SLICE
     url: https://www.gamedeveloper.com/events/slice
     source: Game Developer
@@ -333,47 +323,48 @@ items:
       - design
       - industry
     relevance: 0.7875000000000001
-    published_at: 2026-09-21T04:01:06.580Z
-  - title: Scientists may have solved a 2,000-year-old Dead Sea Scrolls mystery
-    url: https://www.sciencedaily.com/releases/2026/09/260919031035.htm
-    source: ScienceDaily — Top Science
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
-    summary: Researchers may have solved a long-running mystery surrounding the Dead
-      Sea Scrolls by proposing that the Qumran sect really did use its
-      distinctive 364-day calendar. Its perfectly ordered 52-week system kept
-      holidays on the same weekdays, but it slowly drifte
+    published_at: 2026-09-21T10:48:30.452Z
+  - title: "APOD: 2026 September 21 – Cocoon Nebula Wide Field"
+    url: https://science.nasa.gov/image-article/apod-2026-september-21-cocoon-nebula-wide-field/
+    source: NASA News
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
+    image: https://www.google.com/s2/favicons?sz=64&domain=nasa.gov
+    summary: "APOD Science APOD APOD: 2026 September 21 –… Today’s APOD Archive
+      Submissions Index Search Calendar RSS Education About Discuss APOD
+      Astronomy Picture of the Day Discover the cosmos! Each day a different
+      image or photograph of our fascinating universe is featu"
     category: Science
     tags:
       - science
-      - research
-      - discoveries
-    relevance: 0.7232531324074074
-    published_at: 2026-09-20T11:58:13.000Z
-  - title: Man, 82, dies after beach fight with 76-year-old over sunlounger in Greece
-    url: https://www.bbc.co.uk/news/articles/cqm27pnyd294o?at_medium=RSS&at_campaign=rss
-    source: BBC News — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    summary: One eyewitness said the scene was so chaotic that screaming could be
-      heard from the other end of the beach.
+      - nasa
+      - space
+    relevance: 0.7387920555555556
+    published_at: 2026-09-21T04:05:00.000Z
+  - title: Barack Obama and the ‘Most Electable’ Myth
+    url: https://foreignpolicy.com/2026/09/21/barack-obama-most-electable-myth/
+    source: Foreign Policy
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=foreignpolicy.com
+    image: https://foreignpolicy.com/wp-content/uploads/2026/09/Zelizer-Obama-GettyImages-83565923.png
+    summary: The candidate perceived as the riskiest choice can sometimes offer the
+      clearest path to power.
     category: Geopolitics
     tags:
       - geopolitics
-      - bbc
-      - world-news
-    relevance: 0.8137852125
-    published_at: 2026-09-20T21:17:22.000Z
-  - title: How Disability Benefits in Early Life Affect Adult Outcomes -- by Manasi
-      Deshpande, Alessandra Voena, Jason B. Weitze
-    url: https://www.nber.org/papers/w35725#fromrss
+      - foreign-policy
+      - analysis
+    relevance: 0.888681936111111
+    published_at: 2026-09-21T04:01:02.000Z
+  - title: "Responses to Extreme Price Changes: Evidence from the Residential Demand
+      for Natural Gas -- by Anna Alberini, Levan Bezhanishvili, Milan Ščasný,
+      Roberton C. Williams III"
+    url: https://www.nber.org/papers/w35759#fromrss
     source: NBER New Working Papers
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nber.org
     image: https://www.google.com/s2/favicons?sz=64&domain=nber.org
-    summary: We estimate the effect of receiving Supplemental Security Income (SSI)
-      in childhood on adult outcomes using multiple sources of variation. Using
-      variation across and within two quasi-experiments, we find that the
-      program has heterogeneous effects that vary wit
+    summary: We examine the response of residential customers to an extreme price
+      change – namely that imposed by the government in the Republic of Georgia
+      during the pandemic lockdown in the winter of 2020 and early 2021. As of
+      November 2020, the government paid the gas b
     category: Economy
     tags:
       - economy
@@ -381,7 +372,7 @@ items:
       - working-papers
       - nber
     relevance: 0.7875000000000001
-    published_at: 2026-09-21T04:01:07.090Z
+    published_at: 2026-09-21T10:48:31.454Z
   - title: How Cooley is accelerating IPO work with ChatGPT
     url: https://openai.com/index/cooley-gopublic
     source: OpenAI News
@@ -395,25 +386,24 @@ items:
       - ai
       - openai
       - models
-    relevance: 0.8283030305555557
+    relevance: 0.8169860912037038
     published_at: 2026-09-17T12:00:00.000Z
-  - title: "Risky Bulletin: Gemini finally did some crimes"
-    url: https://risky.biz/RBNEWS613/
-    source: Risky Bulletin
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=risky.biz
-    image: https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RBNEWS613.mp3
-    summary: "Google’s Gemini hacked three companies, hackers claim a breach of
-      Russia’s election commission, OpenAI was behind RubyGems’ May incident,
-      and the Coast Guard and FBI board two ships to investigate cyberattacks.
-      Show notes Risky Bulletin: Gemini hacked three co"
+  - title: Malicious npm packages evade install-script defenses at runtime
+    url: https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/
+    source: BleepingComputer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
+    summary: An ongoing npm malware campaign involving the 'indexed-btree' package
+      shows how threat actors bypass supply chain defenses by hiding malicious
+      code in a package's normal runtime behavior rather than in installation
+      scripts. [...]
     category: Security
     tags:
       - security
-      - news
-      - podcast
-      - intelligence
-    relevance: 0.7489512189814815
-    published_at: 2026-09-21T03:23:22.000Z
+      - malware
+      - vulnerabilities
+    relevance: 0.7906348175925927
+    published_at: 2026-09-20T14:11:21.000Z
   - title: Bun Rewrites 535K Lines of Zig into Rust in Four Months, Eliminates
       Numerous Memory Leaks
     url: https://www.infoq.com/news/2026/09/bun-AI-rewrite-zig-rust-4-months/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
@@ -429,24 +419,21 @@ items:
       - it
       - engineering
       - architecture
-    relevance: 0.7363854236111111
+    relevance: 0.7250696444444444
     published_at: 2026-09-20T19:51:00.000Z
-  - title: Trump now says he wants to form an ‘AI Force’
-    url: https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar
-    source: The Verge
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    summary: The president posted on Truth Social that he wanted to appoint an "AI
-      czar" to lead a new "AI force." He made the announcement amid growing
-      calls from across the political spectrum and even within the industry to
-      pump the brakes on AI development. He posted th
+  - title: Justice for CSS
+    url: https://www.wired.com/story/justice-for-css/
+    source: Wired
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
+    summary: In defense of the girliest programming language.
     category: Technology
     tags:
       - technology
-      - gadgets
-      - consumer
-    relevance: 0.8043965828703704
-    published_at: 2026-09-20T15:39:22.000Z
+      - culture
+      - society
+    relevance: 0.8236526925925927
+    published_at: 2026-09-21T10:00:00.000Z
   - title: Unreal Fest
     url: https://www.gamedeveloper.com/events/unreal-fest
     source: Game Developer
@@ -460,56 +447,55 @@ items:
       - design
       - industry
     relevance: 0.7875000000000001
-    published_at: 2026-09-21T04:01:06.580Z
-  - title: New nanoparticles make hidden chemical differences light up
-    url: https://www.sciencedaily.com/releases/2026/09/260919031030.htm
+    published_at: 2026-09-21T10:48:30.452Z
+  - title: Scientists discover a hidden “ID card” in cat urine
+    url: https://www.sciencedaily.com/releases/2026/09/260919031033.htm
     source: ScienceDaily — Top Science
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
     image: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
-    summary: Scientists have developed ultra-bright nanoparticles that can detect
-      tiny amounts of chemicals and distinguish between molecules that look
-      almost identical. The technology could one day provide a cheaper way to
-      catch dangerous drug impurities or trace pollutan
+    summary: Cats may identify one another through a surprisingly durable chemical
+      “calling card” made from 13 unusual fatty acids in their urine. The
+      compounds appear linked to mysterious fat droplets in the kidneys and may
+      represent a scent-recognition system shared acro
     category: Science
     tags:
       - science
       - research
       - discoveries
-    relevance: 0.7226211879629629
-    published_at: 2026-09-20T11:35:28.000Z
-  - title: More than a dozen arrested in connection with 2021 assassination of
-      Haitian president
-    url: https://www.theguardian.com/world/2026/sep/20/more-than-a-dozen-arrested-in-connection-with-assassination-of-haitian-president
-    source: The Guardian — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theguardian.com
-    image: https://i.guim.co.uk/img/media/c07b6557450672c341c5f2c93ab73eae917227e3/232_0_2914_2333/master/2914.jpg?width=140&quality=85&auto=format&fit=max&s=c8ea92c13ca743ac8f8ee4bf4d170e73
-    summary: Jovenel Moïse, 53, was shot dead in July 2021 in a killing which
-      sparked chaos in Haiti Eighteen people have been arrested in association
-      with the 2021 assassination of the Haitian president Jovenel Moïse,
-      according to US officials. Moïse, 53, was shot dead on
+    relevance: 0.7126628837962963
+    published_at: 2026-09-20T12:24:21.000Z
+  - title: Three arrested in South Africa over one of nine women's bodies found
+    url: https://www.bbc.co.uk/news/articles/c617j2x01epjo?at_medium=RSS&at_campaign=rss
+    source: BBC News — World
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+    summary: The body of Jabulile Ntimba was the ninth to be found recently in an
+      area east of Johannesburg.
     category: Geopolitics
     tags:
       - geopolitics
+      - bbc
       - world-news
-      - investigative
-    relevance: 0.8121286972222223
-    published_at: 2026-09-20T20:17:44.000Z
-  - title: How high is current immigration to the United States, in historical
-      perspective?
-    url: https://ourworldindata.org/how-high-is-current-immigration-to-the-united-states-in-historical-perspective
-    source: Our World in Data
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=ourworldindata.org
-    image: https://www.google.com/s2/favicons?sz=64&domain=ourworldindata.org
-    summary: Using long-run census data to understand the scale of recent US
-      migration trends, and how these compare to previous centuries.
+    relevance: 0.8246258273148149
+    published_at: 2026-09-21T10:35:01.000Z
+  - title: Well-Being Salience in Corporate Disclosures and Worker Health -- by
+      Riccardo Di Francesco, Peter Hull, Seetha Menon
+    url: https://www.nber.org/papers/w35760#fromrss
+    source: NBER New Working Papers
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nber.org
+    image: https://www.google.com/s2/favicons?sz=64&domain=nber.org
+    summary: We study how firms’ orientation toward employee well-being shapes the
+      health of their workers. Because this orientation is not directly
+      observable, we measure it from the language Danish firms use in their
+      public disclosures, applying language models to constr
     category: Economy
     tags:
       - economy
-      - data
-      - development
-      - inequality
-    relevance: 0.780802412962963
-    published_at: 2026-09-21T00:00:00.000Z
+      - research
+      - working-papers
+      - nber
+    relevance: 0.7875000000000001
+    published_at: 2026-09-21T10:48:31.454Z
   - title: Introducing Astra for Law
     url: https://openai.com/index/astra-for-law
     source: OpenAI News
@@ -523,24 +509,23 @@ items:
       - ai
       - openai
       - models
-    relevance: 0.8083030305555556
+    relevance: 0.7969860912037038
     published_at: 2026-09-17T00:00:00.000Z
-  - title: "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)"
-    url: https://isc.sans.edu/diary/rss/33352
-    source: SANS Internet Storm Center
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
-    image: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
-    summary: 'In June 2026 the IETF published RFC 10008&#x5b;1&#x5d;, defining a new
-      HTTP method: "QUERY". The HTTP protocol faced already by changes (HTTP/2,
-      HTTP/3) but it&#x27s the first new standard HTTP verb since "PATCH" in
-      2010&#x21;&#xd;'
+  - title: Researchers escape OpenAI Codex sandbox to run commands on host
+    url: https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/
+    source: BleepingComputer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=bleepingcomputer.com
+    summary: Researchers escaped OpenAI's Codex sandbox two ways, one running
+      commands on a developer's machine from its most locked-down mode. OpenAI
+      has patched both. [...]
     category: Security
     tags:
       - security
-      - threats
-      - iocs
-    relevance: 0.7464074912037038
-    published_at: 2026-09-19T04:51:46.000Z
+      - malware
+      - vulnerabilities
+    relevance: 0.7869862064814815
+    published_at: 2026-09-20T12:00:00.000Z
   - title: Alibaba Open Sources OpenCodeReview for AI-Assisted Code Review
     url: https://www.infoq.com/news/2026/09/alibaba-opencodereview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
     source: InfoQ
@@ -555,24 +540,22 @@ items:
       - it
       - engineering
       - architecture
-    relevance: 0.7232187569444445
+    relevance: 0.7119029777777778
     published_at: 2026-09-20T11:57:00.000Z
-  - title: A24’s reputation is on the line with the SCP Foundation movie
-    url: https://www.theverge.com/entertainment/997853/a24-scp-movie-creative-commons-license
-    source: The Verge
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
-    summary: After the success of Backrooms, it looks like A24 is trying to cash in
-      on yet another internet horror craze with a new installment in the V/H/S
-      horror anthology series set in the SCP Foundation universe. But as soon as
-      it was announced, the backlash started, a
+  - title: Women Still Face Too Much Bullshit—in Silicon Valley and Beyond
+    url: https://www.wired.com/story/wired-women-editors-letter/
+    source: Wired
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
+    summary: WIRED dedicating an entire issue to women in 2026 might seem
+      regressive, or obvious, or even unnecessary. We disagree.
     category: Technology
     tags:
       - technology
-      - gadgets
-      - consumer
-    relevance: 0.7995752865740742
-    published_at: 2026-09-20T12:45:48.000Z
+      - culture
+      - society
+    relevance: 0.8236526925925927
+    published_at: 2026-09-21T10:00:00.000Z
   - title: GodotCon
     url: https://www.gamedeveloper.comconference.godotengine.org
     source: Game Developer
@@ -586,7 +569,264 @@ items:
       - design
       - industry
     relevance: 0.7875000000000001
-    published_at: 2026-09-21T04:01:06.580Z
+    published_at: 2026-09-21T10:48:30.452Z
+  - title: Scientists may have solved a 2,000-year-old Dead Sea Scrolls mystery
+    url: https://www.sciencedaily.com/releases/2026/09/260919031035.htm
+    source: ScienceDaily — Top Science
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
+    summary: Researchers may have solved a long-running mystery surrounding the Dead
+      Sea Scrolls by proposing that the Qumran sect really did use its
+      distinctive 364-day calendar. Its perfectly ordered 52-week system kept
+      holidays on the same weekdays, but it slowly drifte
+    category: Science
+    tags:
+      - science
+      - research
+      - discoveries
+    relevance: 0.7119369578703704
+    published_at: 2026-09-20T11:58:13.000Z
+  - title: Seven Ethiopian rebel groups form new alliance
+    url: https://www.bbc.co.uk/news/articles/ckp84pj8zpngo?at_medium=RSS&at_campaign=rss
+    source: BBC News — World
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+    summary: The groups have been active in Ethiopia's most populous regions for
+      years and now say they will work together.
+    category: Geopolitics
+    tags:
+      - geopolitics
+      - bbc
+      - world-news
+    relevance: 0.8244744384259259
+    published_at: 2026-09-21T10:29:34.000Z
+  - title: Measuring Gender Attitudes Toward Men and Women -- by Joshua T. Dean,
+      Christine L. Exley, Muriel Niederle, Heather Sarsons
+    url: https://www.nber.org/papers/w35761#fromrss
+    source: NBER New Working Papers
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nber.org
+    image: https://www.google.com/s2/favicons?sz=64&domain=nber.org
+    summary: "Gender-neutral attitudes judge a behavior the same way regardless of
+      whether a man or a woman does it. Yet surveys of gender attitudes
+      typically ask respondents to evaluate statements about men's or women's
+      behaviors in isolation, never eliciting how the same "
+    category: Economy
+    tags:
+      - economy
+      - research
+      - working-papers
+      - nber
+    relevance: 0.7875000000000001
+    published_at: 2026-09-21T10:48:31.454Z
+  - title: 6 days left to save up to $200 to TechCrunch Disrupt 2026
+    url: https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/
+    source: TechCrunch — AI
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    summary: Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT.
+      Join 10,000+ founders, investors and tech leaders at Disrupt and save up
+      to $200 on your ticket until then.
+    category: AI
+    tags:
+      - ai
+      - industry
+      - startups
+    relevance: 0.7281286222222222
+    published_at: 2026-09-20T21:41:08.000Z
+  - title: "From Exposure to Lockdown: How AWS Neutralizes Compromised IAM
+      Credentials through Managed Policies"
+    url: https://unit42.paloaltonetworks.com/detecting-exposed-aws-iam-credentials/
+    source: Unit 42 (Palo Alto Networks)
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=unit42.paloaltonetworks.com
+    image: https://unit42.paloaltonetworks.com/wp-content/uploads/2026/09/04_Cloud_cybersecurity_research_Overview_1920x900.jpg
+    summary: "We explore how AWS neutralizes exposed IAM credentials using managed
+      policies, detailing GitHub secret scanning and CloudTrail monitoring
+      strategies. The post From Exposure to Lockdown: How AWS Neutralizes
+      Compromised IAM Credentials through Managed Policies a"
+    category: Security
+    tags:
+      - security
+      - threat-research
+      - malware
+    relevance: 0.7486588527777778
+    published_at: 2026-09-21T10:00:13.000Z
+  - title: Salesforce wants to charge for AI outcomes, but first it needs to figure
+      out how
+    url: https://www.theregister.com/software/2026/09/21/salesforce-wants-to-charge-for-ai-outcomes-but-first-it-needs-to-figure-out-how/5297402
+    source: The Register — Software
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theregister.com
+    image: https://image.theregister.com/?imageId=1683935&width=800
+    summary: Seats, Flex Credits, and all-you-can-eat contracts make for an
+      'anxiety-filled architecture'
+    category: IT
+    tags:
+      - it
+      - software
+      - industry
+    relevance: 0.7096805851851851
+    published_at: 2026-09-21T09:07:00.000Z
+  - title: Amazon doesn’t trust Meta’s Muse AI agent
+    url: https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping
+    source: The Verge
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
+    summary: Meta's Muse AI agent has been blocked from shopping Amazon on behalf of
+      its users, GeekWire reports. A popup message started appearing on Sunday
+      for Muse users saying that "continued access by an unauthorized AI agent
+      violates Amazon's Conditions of Use, to wh
+    category: Technology
+    tags:
+      - technology
+      - gadgets
+      - consumer
+    relevance: 0.8225910870370371
+    published_at: 2026-09-21T09:21:47.000Z
+  - title: Hideo Kojima "couldn't understand" why Physint "would be on the list of
+      being cancelled" by Sony
+    url: https://www.gamesindustry.biz/hideo-kojima-couldnt-understand-why-physint-would-be-on-the-list-of-being-cancelled-by-sony
+    source: GamesIndustry.biz
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=gamesindustry.biz
+    image: https://assetsio.gnwcdn.com/hideo-kojima_m5H6eXJ.png?width=690&quality=85&format=jpg&auto=webp
+    summary: Hideo Kojima didn't think Physint " would be on the list of being
+      cancelled " by Sony, as it is "the biggest-selling title [he] could
+      possibly create." Read more
+    category: Gaming
+    tags:
+      - gaming
+      - industry
+      - business
+      - development
+    relevance: 0.7838015083333334
+    published_at: 2026-09-21T08:35:21.000Z
+  - title: New nanoparticles make hidden chemical differences light up
+    url: https://www.sciencedaily.com/releases/2026/09/260919031030.htm
+    source: ScienceDaily — Top Science
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
+    summary: Scientists have developed ultra-bright nanoparticles that can detect
+      tiny amounts of chemicals and distinguish between molecules that look
+      almost identical. The technology could one day provide a cheaper way to
+      catch dangerous drug impurities or trace pollutan
+    category: Science
+    tags:
+      - science
+      - research
+      - discoveries
+    relevance: 0.7113050134259259
+    published_at: 2026-09-20T11:35:28.000Z
+  - title: German Chancellor Merz calls state election a 'disaster' for his party
+      but vows to stay on
+    url: https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss
+    source: BBC News — World
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+    summary: Exit polls show damaging losses for Merz's centre-right CDU party in
+      the state of Mecklenburg-Vorpommern and Berlin.
+    category: Geopolitics
+    tags:
+      - geopolitics
+      - bbc
+      - world-news
+    relevance: 0.8218878643518519
+    published_at: 2026-09-21T08:56:27.000Z
+  - title: Digital (Killer?) Acquisitions -- by Florian Ederer, Regina Seibel,
+      Timothy Simcoe
+    url: https://www.nber.org/papers/w35762#fromrss
+    source: NBER New Working Papers
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nber.org
+    image: https://www.google.com/s2/favicons?sz=64&domain=nber.org
+    summary: This paper examines innovation outcomes before and after 1,200 startup
+      acquisitions by eight major technology firms. Linking patent and workforce
+      data to these deals, we document four main findings. First, most acquired
+      startups hold no patents, but those with
+    category: Economy
+    tags:
+      - economy
+      - research
+      - working-papers
+      - nber
+    relevance: 0.7875000000000001
+    published_at: 2026-09-21T10:48:31.454Z
+  - title: World model companies are keeping a lot of secrets
+    url: https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/
+    source: TechCrunch — AI
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    summary: Everyone in the world-models space is sitting on a pile of cash and a
+      ton of buzz, but good luck getting anyone — from the founders to their own
+      data suppliers — to tell you what they're actually building.
+    category: AI
+    tags:
+      - ai
+      - industry
+      - startups
+    relevance: 0.7261281592592592
+    published_at: 2026-09-20T20:29:07.000Z
+  - title: ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2
+      Infrastructure
+    url: https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html
+    source: The Hacker News
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=thehackernews.com
+    image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-cgmwQRZh142Z19A3s7K7tpaXtsyy6Imy9cYGM7nFP1DAZoSK9gDw8T0dGXlkFWOGDFShJWMNjC7jbwoSvLokr1pX27u2B1SABpBL-aWtaXj2hYYrqVwTE7LpEDn_iIbRYCro8sH2hzAEsjHLGkpFqTjEKlFHi2o2pgacFJQvYkPDCKVEhkJgW8OWhpZA/s1600/poly.jpg
+    summary: Threat actors are leveraging ClickFix-like lures to deliver a
+      previously undocumented remote access trojan (RAT) called ChainScript.
+      "ChainScript has appeared under multiple build names, including
+      ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66,
+    category: Security
+    tags:
+      - security
+      - hacking
+      - vulnerabilities
+    relevance: 0.7464203032407407
+    published_at: 2026-09-21T08:39:38.000Z
+  - title: What happened to the Snowden archive
+    url: https://libroot.org/posts/what-happened-to-the-snowden-archive
+    source: Hacker News
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
+    image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
+    summary: Comments
+    category: IT
+    tags:
+      - it
+      - startups
+      - development
+      - community
+    relevance: 0.7094019898148147
+    published_at: 2026-09-21T08:56:58.000Z
+  - title: No Dogs in Space is back to feed your need for obsessive music history
+    url: https://www.theverge.com/report/997948/no-dogs-in-space-is-back-punk-2-0-music-history-podcast
+    source: The Verge
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
+    summary: In August, I wrote about my love of the music history podcast No Dogs
+      in Space, but mourned the fact that there hadn't been a new episode in
+      over two years. Little did I know that hosts Carolina Hidalgo and Marcus
+      Parks were gearing up to announce the show's r
+    category: Technology
+    tags:
+      - technology
+      - gadgets
+      - consumer
+    relevance: 0.8017623833333334
+    published_at: 2026-09-20T20:51:57.000Z
+  - title: Zach Cregger's quirky Resident Evil film proves skeptics wrong with
+      series-best opening weekend
+    url: https://www.eurogamer.net/zach-cregger-resident-evil-film-opening-weekend-earnings
+    source: Eurogamer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=eurogamer.net
+    image: https://assetsio.gnwcdn.com/cregger-resident-evil.jpg?width=690&quality=85&format=jpg&auto=webp
+    summary: Zach Cregger's quirky new Resident Evil film is a big success,
+      recording the best opening weekend for a Resident Evil film ever. Indeed,
+      it's apparently already made more money, total, than all but one of the
+      Milla Jovovich-starring Resident Evil films. Read m
+    category: Gaming
+    tags:
+      - gaming
+      - video-games
+      - news
+      - reviews
+    relevance: 0.7497340046296296
+    published_at: 2026-09-21T10:38:55.000Z
   - title: Scientists opened a sealed envelope after 10 years. Gravity still didn’t
       make sense
     url: https://www.sciencedaily.com/releases/2026/09/260920032049.htm
@@ -602,70 +842,71 @@ items:
       - science
       - research
       - discoveries
-    relevance: 0.7208170212962963
+    relevance: 0.7095008467592593
     published_at: 2026-09-20T10:30:31.000Z
-  - title: Sister of Pakistan's ex-PM Imran Khan arrested
-    url: https://www.bbc.co.uk/news/articles/cm36l2pye2kwo?at_medium=RSS&at_campaign=rss
-    source: BBC News — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    summary: Aleema Khanum is accused of mobilising her brother’s supporters ahead
-      of country-wide protests.
+  - title: Washington's Foreign Equity Bets Need Better Governance
+    url: https://warontherocks.com/cogs-of-war/washingtons-foreign-equity-bets-need-better-governance/
+    source: War on the Rocks
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=warontherocks.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=warontherocks.com
+    summary: What do a rare earth mine in Brazil and a graphite mine in Mozambique
+      have in common? Both have received significant United States government
+      funding. The rub? Neither was subject, when the financing was committed,
+      to the corporate governance standards that Am
     category: Geopolitics
     tags:
       - geopolitics
-      - bbc
-      - world-news
-    relevance: 0.8100856754629631
-    published_at: 2026-09-20T19:04:11.000Z
-  - title: Where Should We Be, Taylor Rule Wise?
-    url: https://econbrowser.com/archives/2026/09/where-should-we-be-taylor-rule-wise
-    source: Econbrowser
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=econbrowser.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=econbrowser.com
-    summary: "Implications from the Atlanta Fed Taylor Rule utility default
-      settings: Red x denotes 3.88%, orange line Trump's 1% prescription.
-      Readings for targets are 5.32% to 6.54%, vs. 3.88% actual today."
+      - military
+      - strategy
+    relevance: 0.8203429148148149
+    published_at: 2026-09-21T08:00:50.000Z
+  - title: How high is current immigration to the United States in historical
+      perspective?
+    url: https://ourworldindata.org/how-high-is-current-immigration-to-the-united-states-in-historical-perspective
+    source: Our World in Data
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=ourworldindata.org
+    image: https://www.google.com/s2/favicons?sz=64&domain=ourworldindata.org
+    summary: We use long-run census data to understand the scale of recent US
+      migration trends, and how these compare to previous centuries.
     category: Economy
     tags:
       - economy
-      - macroeconomics
-      - energy
-      - research
-    relevance: 0.7408354402777778
-    published_at: 2026-09-20T22:31:12.000Z
-  - title: 6 days left to save up to $200 to TechCrunch Disrupt 2026
-    url: https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/
+      - data
+      - development
+      - inequality
+    relevance: 0.7694857736111111
+    published_at: 2026-09-21T00:00:00.000Z
+  - title: Is the AI industry really ready to slow down?
+    url: https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/
     source: TechCrunch — AI
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
     image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    summary: Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT.
-      Join 10,000+ founders, investors and tech leaders at Disrupt and save up
-      to $200 on your ticket until then.
+    summary: On Equity, we debated whether Ai executives are serious about wanting
+      to slow down.
     category: AI
     tags:
       - ai
       - industry
       - startups
-    relevance: 0.7394456337962962
-    published_at: 2026-09-20T21:41:08.000Z
-  - title: "Sponsored: SpecterOps on the impact of AI agents on BloodHound"
-    url: https://risky.biz/RBNEWSSI144/
-    source: Risky Bulletin
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=risky.biz
-    image: https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RBNEWSSI144.mp3
-    summary: In this Risky Business sponsored interview, Catalin Cimpanu talks with
-      Justin Kohler, Chief Product Officer at SpecterOps. Justin explains how
-      Entra Agent ID can introduce new identity relationships and potential
-      attack paths. Show notes Justin Kohler on Linke
+    relevance: 0.723543437037037
+    published_at: 2026-09-20T18:56:04.000Z
+  - title: Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK
+      Backdoors
+    url: https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html
+    source: The Hacker News
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=thehackernews.com
+    image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-xFiujwBJLdl6_4wZSMCWdeyCgev2EqszOLkIJ5I9Kbanu6YNmQ36nM615XmLQ-sq2aqldOHfl47jaMNRtDd80RT8k5f6I7eQuszf7wsIg49sEdMW36hsEKUtVUkZabRlGvvDxn7H7COmRCV8qP2pzQm9LNo5QKRnnptxmxTlJ8BMcPxuiqdaMjn-are0/s1600/it-services.jpg
+    summary: The North Korean threat actor known as Jade Sleet has been attributed
+      to the compromise of an India-based "much smaller organization" in the
+      information technology (IT) services industry, once again highlighting how
+      the adversary continues to target developers
     category: Security
     tags:
       - security
-      - news
-      - podcast
-      - intelligence
-    relevance: 0.7377299226851852
-    published_at: 2026-09-20T20:39:24.000Z
+      - hacking
+      - vulnerabilities
+    relevance: 0.7421730810185185
+    published_at: 2026-09-21T06:06:44.000Z
   - title: Google Agent Development Kit for Kotlin Reaches Feature Parity with
       Python, Supports On-Device AI
     url: https://www.infoq.com/news/2026/09/google-adk-1-0-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global
@@ -681,68 +922,196 @@ items:
       - it
       - engineering
       - architecture
-    relevance: 0.7199687569444444
+    relevance: 0.7086529777777778
     published_at: 2026-09-20T10:00:00.000Z
-  - title: "Thermacell LIV 2.0 Review: Taking My Yard Back"
-    url: https://www.wired.com/review/thermacell-liv-smart-mosquito-repellent-system-2/
-    source: Wired
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    summary: Thermacell LIV 2.0 is expensive and imperfect, but it outperforms
-      nearly every mosquito-control method I’ve tried.
+  - title: No one is surprised that Nvidia’s Jensen Huang thinks AI fears are
+      overblown
+    url: https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown
+    source: The Verge
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
+    summary: The man who may stand to make the most money from the AI boom seems to
+      think he knows better than anyone else, including researchers who have
+      studied and worked on AI for decades. In an interview with CBS Sunday
+      Morning, he claimed there was a "0% chance" of A
     category: Technology
     tags:
       - technology
-      - culture
-      - society
-    relevance: 0.7968307976851853
-    published_at: 2026-09-20T11:07:00.000Z
-  - title: First 5-day Tokyo Game Show in 30 years cuts back to 4 in face of Typhoon
-      Dujuan
-    url: https://www.pcgamer.com/gaming-industry/first-5-day-tokyo-game-show-in-30-years-cuts-back-to-4-in-face-of-typhoon-dujuan/
+      - gadgets
+      - consumer
+    relevance: 0.7983832166666668
+    published_at: 2026-09-20T18:50:18.000Z
+  - title: WoW devs surprised to find pure liquid nostalgia is popular
+    url: https://www.pcgamer.com/games/world-of-warcraft/wow-devs-surprised-to-find-pure-liquid-nostalgia-is-popular/
     source: PC Gamer
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=pcgamer.com
-    image: https://cdn.mos.cms.futurecdn.net/4NFKHwAjysznfuZyZJFbG3-1920-80.jpg
-    summary: The gamer's traditional enemy, the typhoon.
+    image: https://cdn.mos.cms.futurecdn.net/dZ63uY6YcJey8Wnr6q6664-1920-80.png
+    summary: "\"Betas for WoW aren't usually huge meter movers.\""
     category: Gaming
     tags:
       - gaming
       - pc
       - news
       - reviews
-    relevance: 0.7353341958333334
-    published_at: 2026-09-20T19:13:08.000Z
-  - title: Ancient DNA reveals how plague kept returning for 400 years after the
-      Black Death
-    url: https://www.sciencedaily.com/releases/2026/09/260919031025.htm
-    source: ScienceDaily — Top Science
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=sciencedaily.com
-    summary: Ancient DNA reveals that plague repeatedly returned to Europe for more
-      than 400 years after the Black Death, evolving into new lineages and
-      spreading through trade, migration, and war. Researchers also developed a
-      method to date ancient plague genomes more pre
+    relevance: 0.7496649180555556
+    published_at: 2026-09-21T10:36:26.000Z
+  - title: “Ferritin Face” Is Trending—But Can Your Skin Really Reveal Low Iron?
+    url: https://nautil.us/ferritin-face-is-trending-but-can-your-skin-really-reveal-low-iron-1285150/
+    source: Nautilus
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nautil.us
+    image: https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/09/AdobeStock_492058866.jpeg?w=564
+    summary: There’s a kernel of truth to it, but it’s not the whole story The post
+      “Ferritin Face” Is Trending—But Can Your Skin Really Reveal Low Iron?
+      appeared first on Nautilus .
     category: Science
     tags:
       - science
+      - essays
+      - culture
+      - philosophy
+    relevance: 0.6944865564814814
+    published_at: 2026-09-21T00:00:00.000Z
+  - title: Only America Could Have Designed the Field Jacket
+    url: https://warontherocks.com/only-america-could-have-designed-the-field-jacket/
+    source: War on the Rocks
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=warontherocks.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=warontherocks.com
+    summary: When the M-1943 field jacket was introduced at the height of World War
+      II, it was a revolutionary garment. The jacket was the result of rigorous
+      testing, input from an astonishingly diverse group of experts, and was
+      produced by the most advanced textile and ga
+    category: Geopolitics
+    tags:
+      - geopolitics
+      - military
+      - strategy
+    relevance: 0.8195109703703705
+    published_at: 2026-09-21T07:30:53.000Z
+  - title: Where Should We Be, Taylor Rule Wise?
+    url: https://econbrowser.com/archives/2026/09/where-should-we-be-taylor-rule-wise
+    source: Econbrowser
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=econbrowser.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=econbrowser.com
+    summary: "Implications from the Atlanta Fed Taylor Rule utility default
+      settings: Red x denotes 3.88%, orange line Trump's 1% prescription.
+      Readings for targets are 5.32% to 6.54%, vs. 3.88% actual today."
+    category: Economy
+    tags:
+      - economy
+      - macroeconomics
+      - energy
       - research
-      - discoveries
-    relevance: 0.7145887805555555
-    published_at: 2026-09-20T06:46:18.000Z
-  - title: Trump says triumphal arch will be military complex with drones and snipers
-    url: https://www.bbc.co.uk/news/articles/cqdj4pez00dzo?at_medium=RSS&at_campaign=rss
+    relevance: 0.7295191453703703
+    published_at: 2026-09-20T22:31:12.000Z
+  - title: Vocci's ring adds a new form factor to meeting note-taking
+    url: https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/
+    source: TechCrunch — AI
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    summary: Vocci's lightweight ring costs $249, and might pose some privacy questions
+    category: AI
+    tags:
+      - ai
+      - industry
+      - startups
+    relevance: 0.7228989925925926
+    published_at: 2026-09-20T18:32:52.000Z
+  - title: How Candidates Could Use AI for Good
+    url: https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html
+    source: Schneier on Security
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=schneier.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=schneier.com
+    summary: "This essay was written with Nathan E. Sanders, and originally appeared
+      in The Guardian . There are plenty of signs that AI will make all of our
+      experiences of the US midterm elections worse. Voters have anxiety about
+      AI's impacts on the country. Politicos are "
+    category: Security
+    tags:
+      - security
+      - cryptography
+      - policy
+    relevance: 0.7405005601851851
+    published_at: 2026-09-17T11:06:31.000Z
+  - title: What Sun got wrong
+    url: https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/
+    source: Lobsters
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
+    image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
+    summary: Comments
+    category: IT
+    tags:
+      - it
+      - programming
+      - systems
+      - community
+    relevance: 0.7065598601851851
+    published_at: 2026-09-21T07:14:39.000Z
+  - title: Kojima Productions disputes reports the studio is in trouble
+    url: https://www.theverge.com/games/997880/hideo-kojima-productions-physint-xbox-sony-playstation
+    source: The Verge
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
+    summary: "After it was announced that Sony was dropping Hideo Kojima's Physint,
+      and that instead the Metal Gear Solid creator's latest title would be
+      coming to Xbox, there were a flurry of rumors about the falling out.
+      Bloomberg reported that the decision was driven by "
+    category: Technology
+    tags:
+      - technology
+      - gadgets
+      - consumer
+    relevance: 0.7974072902777778
+    published_at: 2026-09-20T18:15:10.000Z
+  - title: "Dead Cells studio's Castlevania: Belmont's Curse is getting a demo in
+      time for the spooky season"
+    url: https://www.eurogamer.net/castlevania-belmonts-curse-demo-october
+    source: Eurogamer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=eurogamer.net
+    image: https://assetsio.gnwcdn.com/Castlevania-belmonts-curse-art.jpg?width=690&quality=85&format=jpg&auto=webp
+    summary: "If you've been hungering for something gothic as we inch towards
+      October, the scariest month of the year, then you're in luck. Castlevania:
+      Belmont's Curse is getting a demo you'll be able to sink your fangs into
+      soon. Read more"
+    category: Gaming
+    tags:
+      - gaming
+      - video-games
+      - news
+      - reviews
+    relevance: 0.7477886342592592
+    published_at: 2026-09-21T09:28:53.000Z
+  - title: Photonic Legos of functional 3D thin-films unlock high-performance
+      heterogeneous photonic integration
+    url: https://phys.org/news/2026-09-photonic-legos-functional-3d-thin.html
+    source: Phys.org
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=phys.org
+    image: https://www.google.com/s2/favicons?sz=64&domain=phys.org
+    summary: Photonic integrated circuits route information with optical signals
+      instead of relying only on electrical currents. Silicon (Si) and silicon
+      nitride (SiNx) are excellent photonic platforms for waveguides, but they
+      cannot efficiently perform the ever-increasing
+    category: Science
+    tags:
+      - science
+      - physics
+      - technology
+    relevance: 0.6747647069444445
+    published_at: 2026-09-21T10:40:01.000Z
+  - title: Sydney policeman allegedly disguised himself as Uber Eats rider before
+      murders
+    url: https://www.bbc.co.uk/news/articles/cmx2z10zk736o?at_medium=RSS&at_campaign=rss
     source: BBC News — World
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
     image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
-    summary: Trump said the updated plans were at the request of the US military and
-      for national security purposes.
+    summary: Beaumont Lamarre-Condon has pleaded not guilty to the 2024 murder of
+      his ex-partner and his new boyfriend.
     category: Geopolitics
     tags:
       - geopolitics
       - bbc
       - world-news
-    relevance: 0.8059893791666667
-    published_at: 2026-09-20T16:36:43.000Z
+    relevance: 0.8192211976851852
+    published_at: 2026-09-21T07:20:27.000Z
   - title: Military/Econ SitRep and Administration Priorities
     url: https://econbrowser.com/archives/2026/09/military-econ-sitrep-and-administration-priorities
     source: Econbrowser
@@ -758,368 +1127,8 @@ items:
       - macroeconomics
       - energy
       - research
-    relevance: 0.7323021069444444
+    relevance: 0.720985812037037
     published_at: 2026-09-20T17:24:00.000Z
-  - title: World model companies are keeping a lot of secrets
-    url: https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/
-    source: TechCrunch — AI
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    summary: Everyone in the world-models space is sitting on a pile of cash and a
-      ton of buzz, but good luck getting anyone — from the founders to their own
-      data suppliers — to tell you what they're actually building.
-    category: AI
-    tags:
-      - ai
-      - industry
-      - startups
-    relevance: 0.7374451708333334
-    published_at: 2026-09-20T20:29:07.000Z
-  - title: ISC Stormcast For Friday, September 18th, 2026
-      https://isc.sans.edu/podcastdetail/10100, (Fri, Sep 18th)
-    url: https://isc.sans.edu/diary/rss/33350
-    source: SANS Internet Storm Center
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
-    image: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
-    summary: Latest item from SANS Internet Storm Center.
-    category: Security
-    tags:
-      - security
-      - threats
-      - iocs
-    relevance: 0.7016371208333334
-    published_at: 2026-09-18T02:00:02.000Z
-  - title: Bot-free self-hosted analytics with GoatCounter on NixOS
-    url: https://vincent.bernat.ch/en/blog/2026-goatcounter
-    source: Lobsters
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    summary: Comments
-    category: IT
-    tags:
-      - it
-      - programming
-      - systems
-      - community
-    relevance: 0.7038870773148147
-    published_at: 2026-09-20T22:51:03.000Z
-  - title: Welcome to Dogs Anonymous, the Online Support Group for People With
-      Difficult Dogs
-    url: https://www.wired.com/story/inside-dogs-anonymous-the-online-support-group-for-people-with-difficult-dogs/
-    source: Wired
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    summary: “This is a place where you can come and say, I fucking hate my dog
-      today,” a Dogs Anonymous cofounder tells WIRED. “And there are people who
-      are going to be like, yeah, that was me last Tuesday.”
-    category: Technology
-    tags:
-      - technology
-      - culture
-      - society
-    relevance: 0.7966363532407408
-    published_at: 2026-09-20T11:00:00.000Z
-  - title: Elden Ring Nightreign is dead, but modders are dabbing on its corpse,
-      with one porting an entire Dark Souls 2 DLC zone as a playable map
-    url: https://www.pcgamer.com/games/action/elden-ring-nightreign-is-dead-but-modders-are-dabbing-on-its-corpse-with-one-porting-an-entire-dark-souls-2-dlc-zone-as-a-playable-map/
-    source: PC Gamer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=pcgamer.com
-    image: https://cdn.mos.cms.futurecdn.net/abua35RXUY97V82GeJ9ktd-1920-80.jpg
-    summary: A new spin on an old favorite.
-    category: Gaming
-    tags:
-      - gaming
-      - pc
-      - news
-      - reviews
-    relevance: 0.7343652143518519
-    published_at: 2026-09-20T18:38:15.000Z
-  - title: “Ferritin Face” Is Trending—But Can Your Skin Really Reveal Low Iron?
-    url: https://nautil.us/ferritin-face-is-trending-but-can-your-skin-really-reveal-low-iron-1285150/
-    source: Nautilus
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=nautil.us
-    image: https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/09/AdobeStock_492058866.jpeg?w=564
-    summary: There’s a kernel of truth to it, but it’s not the whole story The post
-      “Ferritin Face” Is Trending—But Can Your Skin Really Reveal Low Iron?
-      appeared first on Nautilus .
-    category: Science
-    tags:
-      - science
-      - essays
-      - culture
-      - philosophy
-    relevance: 0.705802860648148
-    published_at: 2026-09-21T00:00:00.000Z
-  - title: Michelle Bachelet withdraws from race to become UN secretary general
-    url: https://www.theguardian.com/world/2026/sep/20/former-president-of-chile-withdraws-from-race-to-become-un-secretary-general
-    source: The Guardian — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theguardian.com
-    image: https://i.guim.co.uk/img/media/f528109b98241076523ba6ca8335c0ba0cd54546/583_0_2917_2335/master/2917.jpg?width=140&quality=85&auto=format&fit=max&s=614a90f9927a504b2ec23edb569b2f87
-    summary: "Former president of Chile drops out after support collapsed in
-      security council straw poll, leaving seven candidates in contest Michelle
-      Bachelet, a former president of Chile, has withdrawn her candidacy to
-      become the next secretary general of the ⁠UN, ending "
-    category: Geopolitics
-    tags:
-      - geopolitics
-      - world-news
-      - investigative
-    relevance: 0.7984175861111111
-    published_at: 2026-09-20T12:04:08.000Z
-  - title: The GDP-per-person slowdown threatens global living standards
-    url: https://www.economist.com/finance-and-economics/2026/09/17/the-gdp-per-person-slowdown-threatens-global-living-standards
-    source: The Economist — Finance & Economics
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=economist.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=economist.com
-    summary: Brazil, China, Germany and Russia have recently joined an unfortunate club
-    category: Economy
-    tags:
-      - economy
-      - finance
-      - macroeconomics
-      - analysis
-    relevance: 0.7133252041666666
-    published_at: 2026-09-17T10:30:49.000Z
-  - title: Is the AI industry really ready to slow down?
-    url: https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/
-    source: TechCrunch — AI
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    summary: On Equity, we debated whether Ai executives are serious about wanting
-      to slow down.
-    category: AI
-    tags:
-      - ai
-      - industry
-      - startups
-    relevance: 0.7348604486111111
-    published_at: 2026-09-20T18:56:04.000Z
-  - title: LausivLoader analysis, or how to pass data between malware stages, (Thu,
-      Sep 17th)
-    url: https://isc.sans.edu/diary/rss/33348
-    source: SANS Internet Storm Center
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
-    image: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
-    summary: At the end of August, a malspam message was caught in the quarantine of
-      a mail gateway operated by one of my customers. The message was not
-      especially remarkable &#xe2;&#x80;&#x93; it asked the recipient to review
-      some attached requirements and provide a price
-    category: Security
-    tags:
-      - security
-      - threats
-      - iocs
-    relevance: 0.6834898986111112
-    published_at: 2026-09-17T15:06:44.000Z
-  - title: ChatGPT now knows what you do on other websites via ad collector
-    url: https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/
-    source: Hacker News
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    summary: Comments
-    category: IT
-    tags:
-      - it
-      - startups
-      - development
-      - community
-    relevance: 0.6953347624999999
-    published_at: 2026-09-20T17:43:10.000Z
-  - title: Meta's Muse Is Better at Surveilling Than Helping Me
-    url: https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/
-    source: Wired
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    summary: The Muse app continues Meta’s trend of opting users into data
-      collection for AI training. It also nudges you to share your bank account,
-      email, and passport information.
-    category: Technology
-    tags:
-      - technology
-      - culture
-      - society
-    relevance: 0.7958030199074074
-    published_at: 2026-09-20T10:30:00.000Z
-  - title: Everything announced at the PC Gaming Show Tokyo Direct 2026
-    url: https://www.pcgamer.com/gaming-industry/events-conferences/everything-announced-at-the-pc-gaming-show-tokyo-direct-2026/
-    source: PC Gamer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=pcgamer.com
-    image: https://cdn.mos.cms.futurecdn.net/9R54FvWBJbWGzAV5x5xhof-1920-80.png
-    summary: Every single game and announcement, in the order they were shown.
-    category: Gaming
-    tags:
-      - gaming
-      - pc
-      - news
-      - reviews
-    relevance: 0.7315828069444444
-    published_at: 2026-09-20T16:58:05.000Z
-  - title: British food was complex, multicultural and flavorful in the 18th
-      century—despite what you might think
-    url: https://phys.org/news/2026-09-british-food-complex-multicultural-flavorful.html
-    source: Phys.org
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=phys.org
-    image: https://www.google.com/s2/favicons?sz=64&domain=phys.org
-    summary: The stereotype of bland British food is notorious, and people mock the
-      horrors of jellied eels and overcooked vegetables. Even roast beef and
-      pudding are seen as uninspired compared with the cuisines of other
-      nations. But British food is and has historically b
-    category: Science
-    tags:
-      - science
-      - physics
-      - technology
-    relevance: 0.6691379412037037
-    published_at: 2026-09-21T00:30:04.000Z
-  - title: "From waste to wealth: Europe’s textile opportunity"
-    url: https://www.politico.eu/sponsored-content/from-waste-to-wealth-europes-textile-opportunity/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication
-    source: Politico Europe
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
-    image: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
-    summary: With textiles now firmly part of Europe’s circular economy agenda, the
-      EU must seize the opportunity to turn textile waste from a liability into
-      a strategic resource.
-    category: Geopolitics
-    tags:
-      - geopolitics
-      - europe
-      - politics
-      - policy
-    relevance: 0.7483027699074074
-    published_at: 2026-09-21T03:00:00.000Z
-  - title: The trickle-down economics of the AI boom
-    url: https://www.economist.com/finance-and-economics/2026/09/17/the-trickle-down-economics-of-the-ai-boom
-    source: The Economist — Finance & Economics
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=economist.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=economist.com
-    summary: How fast are AI investments translating into broader gains? Taiwan and
-      South Korea offer hints
-    category: Economy
-    tags:
-      - economy
-      - finance
-      - macroeconomics
-      - analysis
-    relevance: 0.711557611574074
-    published_at: 2026-09-17T09:27:11.000Z
-  - title: Vocci's ring adds a new form factor to meeting note-taking
-    url: https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/
-    source: TechCrunch — AI
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    summary: Vocci's lightweight ring costs $249, and might pose some privacy questions
-    category: AI
-    tags:
-      - ai
-      - industry
-      - startups
-    relevance: 0.7342160041666667
-    published_at: 2026-09-20T18:32:52.000Z
-  - title: Mitsubishi Electric CC-Link IE TSN Communication Protocol (Update A)
-    url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-211-07
-    source: CISA Cybersecurity Advisories
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=cisa.gov
-    image: https://www.google.com/s2/favicons?sz=64&domain=cisa.gov
-    summary: View CSAF Summary Successful exploitation of this vulnerability could
-      allow an attacker with access to the same network segment to tamper with
-      communication data in the affected product by sending specially crafted
-      packets under specific timing conditions. Thi
-    category: Security
-    tags:
-      - security
-      - cisa
-      - advisories
-      - vulnerabilities
-    relevance: 0.6783028000000001
-    published_at: 2026-09-17T12:00:00.000Z
-  - title: An actively maintained and updated Motif fork actually exists
-    url: https://www.osnews.com/story/145877/an-actively-maintained-and-updated-motif-fork-actually-exists/
-    source: Lobsters
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
-    summary: Comments
-    category: IT
-    tags:
-      - it
-      - programming
-      - systems
-      - community
-    relevance: 0.6945157810185184
-    published_at: 2026-09-20T17:13:41.000Z
-  - title: It’s Donald Trump Versus MAGA on Data Centers
-    url: https://www.wired.com/story/donald-trump-versus-maga-on-data-centers/
-    source: Wired
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    summary: The president has doubled down on data centers and AI. His base is
-      running in the opposite direction.
-    category: Technology
-    tags:
-      - technology
-      - culture
-      - society
-    relevance: 0.7958030199074074
-    published_at: 2026-09-20T10:30:00.000Z
-  - title: Take to the skies and shoot your mates in the face with a shotgun in Fish
-      & Ships
-    url: https://www.pcgamer.com/games/action/take-to-the-skies-and-shoot-your-mates-in-the-face-with-a-shotgun-in-fish-and-ships/
-    source: PC Gamer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=pcgamer.com
-    image: https://cdn.mos.cms.futurecdn.net/weKTtJAZU2e4mPhzLc9ve5-1920-80.jpg
-    summary: These must be flying fish.
-    category: Gaming
-    tags:
-      - gaming
-      - pc
-      - news
-      - reviews
-    relevance: 0.7315591958333333
-    published_at: 2026-09-20T16:57:14.000Z
-  - title: "&#039;Rusty treasure&#039; find revealed as Europe&#039;s largest
-      assemblage of prehistoric iron bars"
-    url: https://phys.org/news/2026-09-rusty-treasure-revealed-europe-largest.html
-    source: Phys.org
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=phys.org
-    image: https://www.google.com/s2/favicons?sz=64&domain=phys.org
-    summary: Analysis of a "rusty treasure" excavated during industrial gravel
-      extraction at Deinham, Austria, reveals it is the largest mass find of
-      prehistoric iron bars in Europe, pointing to iron production and trade
-      during the Iron Age on an unprecedented scale.
-    category: Science
-    tags:
-      - science
-      - physics
-      - technology
-    relevance: 0.6666370152777779
-    published_at: 2026-09-20T23:00:02.000Z
-  - title: Imran Khan’s family says three sisters detained ahead of Islamabad march
-    url: https://www.aljazeera.com/video/newsfeed/2026/9/21/09-21-aleema-khan-arrest-sv?traffic_source=rss
-    source: Al Jazeera — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
-    summary: Imran Khan’s family says three of his sisters have been detained in
-      Lahore ahead of a march demanding his release.
-    category: Geopolitics
-    tags:
-      - geopolitics
-      - middle-east
-      - world-news
-    relevance: 0.7475143481481481
-    published_at: 2026-09-21T02:31:37.000Z
-  - title: Ricardo Reis was too frank for the IMF
-    url: https://www.economist.com/finance-and-economics/2026/09/17/ricardo-reis-was-too-frank-for-the-imf
-    source: The Economist — Finance & Economics
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=economist.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=economist.com
-    summary: It can still benefit from the economist’s ideas
-    category: Economy
-    tags:
-      - economy
-      - finance
-      - macroeconomics
-      - analysis
-    relevance: 0.711483074537037
-    published_at: 2026-09-17T09:24:30.000Z
   - title: Making global data easier to explore
     url: https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/
     source: Google AI Blog
@@ -1132,27 +1141,27 @@ items:
       - ai
       - google
       - research
-    relevance: 0.6916363046296297
+    relevance: 0.6803193680555556
     published_at: 2026-09-17T20:00:00.000Z
-  - title: Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in
-      the Wild
-    url: https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html
-    source: The Hacker News
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=thehackernews.com
-    image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL-YeIVFaRBKvtwQKBxAilhKMaZP_x6L979d8JL60W3AEHy9o2sfL_dMrJWy_sPIV70oIbP6DYe2KVhHh-mwbB4zBvrV_jEgdRiuc_IzNyyPSfUAOGvAp7J7JO06OWUWjSwuqpU4JJ_kNy0vtW1D9_gEtQNNVmWiYzRTpYMwhe-J3Bvve3EHrAp81Wht4L/s1600/orkes.jpg
-    summary: "A critical vulnerability impacting Orkes Conductor is being actively
-      exploited in the wild, according to Fortinet. The vulnerability in
-      question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3),
-      which relates to a case of unauthenticated remote code"
+  - title: "Risky Bulletin: Gemini finally did some crimes"
+    url: https://risky.biz/RBNEWS613/
+    source: Risky Bulletin
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=risky.biz
+    image: https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RBNEWS613.mp3
+    summary: "Google’s Gemini hacked three companies, hackers claim a breach of
+      Russia’s election commission, OpenAI was behind RubyGems’ May incident,
+      and the Coast Guard and FBI board two ships to investigate cyberattacks.
+      Show notes Risky Bulletin: Gemini hacked three co"
     category: Security
     tags:
       - security
-      - hacking
-      - vulnerabilities
-    relevance: 0.677161175462963
-    published_at: 2026-09-19T08:18:54.000Z
-  - title: Lambda MicroEgg
-    url: https://www.philipzucker.com/lambda_miller_egg/
+      - news
+      - podcast
+      - intelligence
+    relevance: 0.7376351578703704
+    published_at: 2026-09-21T03:23:22.000Z
+  - title: Are we really going to use the same Desktop UX forever?
+    url: https://www.youtube.com/watch?v=V7AfAcQwLW0
     source: Lobsters
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
     image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
@@ -1163,86 +1172,87 @@ items:
       - programming
       - systems
       - community
-    relevance: 0.6925884662037036
-    published_at: 2026-09-20T16:04:18.000Z
-  - title: Meet the Academics Trying to Stop You From Having Sex in Robotaxis
-    url: https://www.wired.com/story/meet-the-academics-trying-to-stop-you-from-having-sex-in-robotaxis/
-    source: Wired
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    summary: “You know ‘Bang Bus’? We don’t want that.”
+    relevance: 0.6887797675925925
+    published_at: 2026-09-20T20:34:34.000Z
+  - title: An undercover Google analyst infiltrated a notorious supply-chain hacking
+      gang
+    url: https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/
+    source: Ars Technica
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
+    summary: Google’s threat intelligence group said it had a mole inside TeamPCP's
+      inner circle.
     category: Technology
     tags:
       - technology
-      - culture
-      - society
-    relevance: 0.7949696865740742
-    published_at: 2026-09-20T10:00:00.000Z
-  - title: Feel like a kid again when toy car game Obstacle Overdrive launches
-      October 2
-    url: https://www.pcgamer.com/games/racing/feel-like-a-kid-again-when-toy-car-game-obstacle-overdrive-launches-october-2/
-    source: PC Gamer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=pcgamer.com
-    image: https://cdn.mos.cms.futurecdn.net/XgZKM6DkXY6df7D4C2WbmY-1920-80.jpg
-    summary: Be careful or your car will tumble to the floor and wake your parents up.
+      - hardware
+      - software
+    relevance: 0.7855137273148148
+    published_at: 2026-09-20T11:07:00.000Z
+  - title: Marvel's Wolverine "fart gas" scent trails addressed by a surprise update
+    url: https://www.eurogamer.net/marvels-wolverine-patch-fart-gas-scent-trails-crashes
+    source: Eurogamer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=eurogamer.net
+    image: https://assetsio.gnwcdn.com/marvel's-wolverine-logan-launching-at-a-reaver.jpg?width=690&quality=85&format=jpg&auto=webp
+    summary: "Marvel's Wolverine has received a hotfix update that addresses one of
+      the core features in the game many people have an issue with: scent
+      trails. These are represented on screen by a gassy, bright blue line, and
+      they're used by Wolverine to locate his next mis"
     category: Gaming
     tags:
       - gaming
-      - pc
+      - video-games
       - news
       - reviews
-    relevance: 0.7315318810185185
-    published_at: 2026-09-20T16:56:15.000Z
-  - title: Cooling liquids reveal self-limiting particle clusters behind glass
-      transition
-    url: https://phys.org/news/2026-09-cooling-liquids-reveal-limiting-particle.html
+    relevance: 0.7460645601851852
+    published_at: 2026-09-21T08:26:49.000Z
+  - title: Genes that help flatworms regenerate their brains revealed
+    url: https://phys.org/news/2026-09-genes-flatworms-regenerate-brains-revealed.html
     source: Phys.org
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=phys.org
     image: https://www.google.com/s2/favicons?sz=64&domain=phys.org
-    summary: Before diving into the mystery of glass, theoretical physicist Corentin
-      Laudicina takes us back to high school physics for a moment. Although he
-      has spent years studying exactly what happens in a material during the
-      glass transition, he also understands that h
+    summary: The human brain is terrible at healing itself from injury or disease.
+      But some animals can harness their own cellular abilities not only to
+      repair injuries but also to regrow their brains entirely. Researchers from
+      the University of Georgia have pinpointed sev
     category: Science
     tags:
       - science
       - physics
       - technology
-    relevance: 0.6641365523148148
-    published_at: 2026-09-20T21:30:01.000Z
-  - title: "Why the far right lost: 11 lessons for Europe from Sweden’s election"
-    url: https://www.politico.eu/article/why-the-far-right-failed-11-lessons-for-europe-from-swedens-election/?utm_source=RSS_Feed&#038;utm_medium=RSS&#038;utm_campaign=RSS_Syndication
-    source: Politico Europe
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
-    image: https://www.google.com/s2/favicons?sz=64&domain=politico.eu
-    summary: POLITICO spoke to party leaders Magdalena Andersson and Ulf Kristersson
-      — and leading analysts — to understand the far-right Sweden Democrats'
-      fall in support, and what it means.
+    relevance: 0.6719906328703704
+    published_at: 2026-09-21T09:00:09.000Z
+  - title: Lindsay Clancy's ex-husband says he forgave her so he would not be 'eaten
+      up inside forever'
+    url: https://www.bbc.co.uk/news/articles/cq5yme200n8go?at_medium=RSS&at_campaign=rss
+    source: BBC News — World
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
+    summary: Patrick Clancy gives his first interview since his wife's mistrial over
+      the killing of their three young children.
     category: Geopolitics
     tags:
       - geopolitics
-      - europe
-      - politics
-      - policy
-    relevance: 0.7466361032407407
-    published_at: 2026-09-21T02:00:00.000Z
-  - title: Sunday assorted links
-    url: https://feeds.feedblitz.com/~/969374237/0/marginalrevolution~Sunday-assorted-links.html
-    source: Marginal Revolution
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=marginalrevolution.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=marginalrevolution.com
-    summary: 1. Nobel Laureates in support of the California billionaire wealth tax
-      include Krugman, Acemoglu, Diamond, Stiglitz, Banerjee, and Duflo (FT). 2.
-      Secretariat as GOAT. 3. Dead brains and the piano?? 4. "A real
-      contribution of AI is showing the critical weakness
+      - bbc
+      - world-news
+    relevance: 0.8167906421296297
+    published_at: 2026-09-21T05:52:57.000Z
+  - title: "&#x2018;She says it&#x2019;s just money&#x2019;: My friend pays for
+      everything. I should be grateful, but I can&#x2019;t stand her anymore."
+    url: https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories
+    source: MarketWatch Top Stories
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=marketwatch.com
+    image: https://images.mktw.net/im-63243363
+    summary: "&#x201c;On each of these weekends away, she&#x2019;s probably spending
+      $500.&#x201d;"
     category: Economy
     tags:
       - economy
-      - economics
-      - commentary
-      - blog
-    relevance: 0.6953252972222221
-    published_at: 2026-09-20T17:42:50.000Z
+      - markets
+      - finance
+      - news
+    relevance: 0.7115968939814814
+    published_at: 2026-09-21T10:16:00.000Z
   - title: ScrollEd wants to turn textbooks into TikTok
     url: https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/
     source: TechCrunch — AI
@@ -1257,24 +1267,26 @@ items:
       - ai
       - industry
       - startups
-    relevance: 0.6583030412037038
+    relevance: 0.6469860861111112
     published_at: 2026-09-20T18:00:00.000Z
-  - title: Hackers reveal how Flock cameras really track cars and people
-    url: https://arstechnica.com/security/2026/09/hackers-reveal-how-flock-cameras-really-track-cars-and-people/
-    source: Ars Technica — Security
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
-    summary: One hacked camera captured 1.6 million images and could detect people
-      as well as cars.
+  - title: "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)"
+    url: https://isc.sans.edu/diary/rss/33352
+    source: SANS Internet Storm Center
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
+    image: https://www.google.com/s2/favicons?sz=64&domain=isc.sans.edu
+    summary: 'In June 2026 the IETF published RFC 10008&#x5b;1&#x5d;, defining a new
+      HTTP method: "QUERY". The HTTP protocol faced already by changes (HTTP/2,
+      HTTP/3) but it&#x27s the first new standard HTTP verb since "PATCH" in
+      2010&#x21;&#xd;'
     category: Security
     tags:
       - security
-      - vulnerabilities
-      - research
-    relevance: 0.674518251388889
-    published_at: 2026-09-17T09:43:46.000Z
-  - title: "Software sandboxing: The basics (2025)"
-    url: https://blog.emilua.org/2025/01/12/software-sandboxing-basics/
+      - threats
+      - iocs
+    relevance: 0.7350907675925926
+    published_at: 2026-09-19T04:51:46.000Z
+  - title: ChatGPT now knows what you do on other websites via ad collector
+    url: https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/
     source: Lobsters
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
     image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
@@ -1285,87 +1297,211 @@ items:
       - programming
       - systems
       - community
-    relevance: 0.6895018921296295
-    published_at: 2026-09-20T14:13:11.000Z
-  - title: Elon Musk’s latest Boring Company pitch involves a Hyperloop between
-      Austin and San Antonio
-    url: https://techcrunch.com/2026/09/20/elon-musks-latest-boring-company-pitch-involves-a-hyperloop-between-austin-and-san-antonio/
-    source: TechCrunch
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
-    summary: Many of The Boring Company's announced project have not materialized.
+    relevance: 0.6840186564814814
+    published_at: 2026-09-20T17:43:10.000Z
+  - title: Nvidia’s free AI model could push the UAE closer to the U.S.
+    url: https://restofworld.org/2026/nvidia-open-source-ai-models-uae/?utm_source=rss&utm_medium=rss&utm_campaign=feeds
+    source: Rest of World
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=restofworld.org
+    image: https://restofworld.org/wp-content/uploads/2026/09/Nvidia-UAE-model_-768x432.jpg
+    summary: The Emirates owns the machines but rents the intelligence. Nvidia’s
+      next free AI model could change that.
     category: Technology
     tags:
       - technology
-      - startups
-      - venture-capital
-    relevance: 0.7360474856481481
-    published_at: 2026-09-20T19:38:48.000Z
-  - title: Call of Duty maker Activision claims video game cheating is now a £6.3
-      billion ($8.5 billion) a year industry
-    url: https://www.eurogamer.net/activision-video-game-cheat-market-8-5-billion-a-year
-    source: Eurogamer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=eurogamer.net
-    image: https://assetsio.gnwcdn.com/MW4_MP_004_BRANDED.png?width=690&quality=85&format=jpg&auto=webp
-    summary: Activision has published a breakdown of the numbers behind cheating in
-      its games, claiming cheating is big business, generating about &pound;6.3
-      billion - $8.5bn - every year in account sales, boosting, and spoofing
-      services. Read more
+      - global
+      - society
+    relevance: 0.748652536574074
+    published_at: 2026-09-21T10:00:00.000Z
+  - title: "Silent Hill: Townfall review"
+    url: https://www.pcgamer.com/games/horror/silent-hill-townfall-review/
+    source: PC Gamer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=pcgamer.com
+    image: https://cdn.mos.cms.futurecdn.net/UqeZErpP63ZpBCAV76Nvu-1920-80.jpg
+    summary: There's no place like home.
     category: Gaming
     tags:
       - gaming
-      - video-games
+      - pc
       - news
       - reviews
-    relevance: 0.7291550245370371
-    published_at: 2026-09-20T15:30:41.000Z
-  - title: Tiny beach-dwelling crustaceans are big-time sand movers, shaping the
-      California coast
-    url: https://phys.org/news/2026-09-tiny-beach-crustaceans-big-sand.html
+    relevance: 0.7436561217592592
+    published_at: 2026-09-21T07:00:07.000Z
+  - title: AI-powered barcode unmasks &#039;zombie cells&#039; in aging tissue
+    url: https://phys.org/news/2026-09-ai-powered-barcode-unmasks-zombie.html
     source: Phys.org
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=phys.org
     image: https://www.google.com/s2/favicons?sz=64&domain=phys.org
-    summary: "Stand on the damp sand on a California beach and chances are
-      you&#039;re standing on top of an active earthworks site. Sand hoppers
-      (Megalorchestia spp.), the tiny, shrimp-like creatures commonly found
-      eating away at kelp on the shore, have been found to move "
+    summary: As we age, some of the cells in our body enter a state of senescence,
+      in which they stop dividing but do not die. Those senescent cells can
+      contribute to age-related disorders such as cancer, tissue degeneration
+      and inflammatory diseases. In an advance that co
     category: Science
     tags:
       - science
       - physics
       - technology
-    relevance: 0.6621921078703704
-    published_at: 2026-09-20T20:20:01.000Z
-  - title: Powerful explosions at Syrian army site near Aleppo injure at least four
-    url: https://www.aljazeera.com/news/2026/9/21/powerful-explosions-at-syrian-army-site-near-aleppo-injures-at-least-four?traffic_source=rss
-    source: Al Jazeera — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
-    summary: Officials urge civilians to stay away from the site in al-Eis near
-      Aleppo after a series of explosions.
+    relevance: 0.6719897069444445
+    published_at: 2026-09-21T09:00:07.000Z
+  - title: "Banished to alien lands: Trump’s secret deportation deals"
+    url: https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals
+    source: The Guardian — World
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=theguardian.com
+    image: https://i.guim.co.uk/img/media/8a1111af32b508c7aedf458e07ae1af37f330f83/1_0_4998_4000/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=866fd4e05f8eb0b360470a5fbaa0e559
+    summary: "After a plane journey in shackles, an Iranian woman found herself in
+      the middle of Africa in a country she did not know existed. She is one of
+      thousands deported from the US on the back of shadowy deals made with
+      dozens of countries. An in-depth investigation "
     category: Geopolitics
     tags:
       - geopolitics
-      - middle-east
       - world-news
-    relevance: 0.7458240703703704
-    published_at: 2026-09-21T01:30:46.000Z
-  - title: I have $125,000 in credit-card debt. Will $17,000 a month in income,
-      including disability, affect my bankruptcy?
-    url: https://www.marketwatch.com/story/i-am-drowning-in-debt-i-have-125-000-in-credit-card-debt-will-9-000-in-disability-income-affect-my-bankruptcy-f897c131?mod=mw_rss_topstories
+      - investigative
+    relevance: 0.8153374967592594
+    published_at: 2026-09-21T05:00:38.000Z
+  - title: Corporate earnings are growing much faster than the economy. What Goldman
+      strategists say about bubble concerns.
+    url: https://www.marketwatch.com/story/corporate-earnings-are-growing-much-faster-than-the-economy-what-goldman-strategists-say-about-bubble-concerns-1f625fb3?mod=mw_rss_topstories
     source: MarketWatch Top Stories
     source_favicon: https://www.google.com/s2/favicons?sz=64&domain=marketwatch.com
-    image: https://images.mktw.net/im-58969241
-    summary: "&#x201c;I racked up this debt to cover my living expenses for two
-      years without an income stream.&#x201d;"
+    image: https://images.mktw.net/im-48617111
+    summary: A team at the bank, led by Ben Snider, wrote in a recent note that they
+      see S&P 500 earnings per share growth slowing to 11% in 2027 and 2028.
     category: Economy
     tags:
       - economy
       - markets
       - finance
       - news
-    relevance: 0.6949690949074073
-    published_at: 2026-09-20T17:30:00.000Z
+    relevance: 0.7115135606481481
+    published_at: 2026-09-21T10:13:00.000Z
+  - title: How to Improve Visibility Across Your Enterprise AI Ecosystem
+    url: https://www.artificialintelligence-news.com/news/how-to-improve-visibility-across-your-enterprise-ai-ecosystem/
+    source: AI News
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=artificialintelligence-news.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=artificialintelligence-news.com
+    summary: AI adoption has outpaced AI governance across enterprise environments,
+      creating a fundamental security problem. Organisations cannot protect what
+      they cannot see, and visibility has become the prerequisite for all other
+      AI security controls. Traditional monito
+    category: AI
+    tags:
+      - ai
+      - news
+      - industry
+    relevance: 0.6325633125
+    published_at: 2026-09-21T07:50:48.000Z
+  - title: "Sponsored: SpecterOps on the impact of AI agents on BloodHound"
+    url: https://risky.biz/RBNEWSSI144/
+    source: Risky Bulletin
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=risky.biz
+    image: https://dts.podtrac.com/redirect.mp3/media3.risky.biz/RBNEWSSI144.mp3
+    summary: In this Risky Business sponsored interview, Catalin Cimpanu talks with
+      Justin Kohler, Chief Product Officer at SpecterOps. Justin explains how
+      Entra Agent ID can introduce new identity relationships and potential
+      attack paths. Show notes Justin Kohler on Linke
+    category: Security
+    tags:
+      - security
+      - news
+      - podcast
+      - intelligence
+    relevance: 0.7264138615740741
+    published_at: 2026-09-20T20:39:24.000Z
+  - title: An actively maintained and updated Motif fork actually exists
+    url: https://www.osnews.com/story/145877/an-actively-maintained-and-updated-motif-fork-actually-exists/
+    source: Lobsters
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
+    image: https://www.google.com/s2/favicons?sz=64&domain=lobste.rs
+    summary: Comments
+    category: IT
+    tags:
+      - it
+      - programming
+      - systems
+      - community
+    relevance: 0.6831996749999999
+    published_at: 2026-09-20T17:13:41.000Z
+  - title: Frontier Overhangs
+    url: https://stratechery.com/2026/frontier-overhangs/
+    source: Stratechery
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=stratechery.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=stratechery.com
+    summary: Pacing the frontier may be sincere, but it would also be strategically
+      useful for the frontier labs to have time to reduce overhangs caused by
+      model advancement.
+    category: Technology
+    tags:
+      - technology
+      - strategy
+      - business
+      - newsletter
+    relevance: 0.7486525097222222
+    published_at: 2026-09-21T10:00:00.000Z
+  - title: "Silent Hill: Townfall review"
+    url: https://www.eurogamer.net/silent-hill-townfall-review
+    source: Eurogamer
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=eurogamer.net
+    image: https://assetsio.gnwcdn.com/silent-hill-townfall-header.jpg?width=690&quality=85&format=jpg&auto=webp
+    summary: "As I watch the credits roll on Silent Hill Townfall, it's hard to
+      believe this is the same series that had, until just a few years ago, been
+      neglected into near-irrelevance. Like 2025's excellent Silent Hill f ,
+      Townfall is a fascinating thing; a game of bold "
+    category: Gaming
+    tags:
+      - gaming
+      - video-games
+      - news
+      - reviews
+    relevance: 0.7436529861111111
+    published_at: 2026-09-21T07:00:00.000Z
+  - title: Children born today in Europe will live through almost twice as much
+      extreme fire weather as their grandparents
+    url: https://phys.org/news/2026-09-children-born-today-europe-extreme.html
+    source: Phys.org
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=phys.org
+    image: https://www.google.com/s2/favicons?sz=64&domain=phys.org
+    summary: A child born in Europe in 2025 will live through more than three
+      additional years of extreme fire weather compared with someone born in
+      1950 if we continue with current climate policies, according to new
+      research published in the journal Environmental Research
+    category: Science
+    tags:
+      - science
+      - physics
+      - technology
+    relevance: 0.6719878550925926
+    published_at: 2026-09-21T09:00:03.000Z
+  - title: China Still Has What America Needs
+    url: https://www.foreignaffairs.com/china/china-still-has-what-america-needs
+    source: Foreign Affairs
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=foreignaffairs.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=foreignaffairs.com
+    summary: The Trump-Xi summit gives Washington a chance to buy time.
+    category: Geopolitics
+    tags:
+      - geopolitics
+      - foreign-policy
+      - analysis
+      - journals
+    relevance: 0.8136531750000001
+    published_at: 2026-09-21T04:00:00.000Z
+  - title: My husband and I are in our 50s and have no kids. We have $2 million. Do
+      we need a will?
+    url: https://www.marketwatch.com/story/my-husband-and-i-are-in-our-50s-and-have-no-kids-we-have-2-million-do-we-need-a-will-62fb422f?mod=mw_rss_topstories
+    source: MarketWatch Top Stories
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=marketwatch.com
+    image: https://images.mktw.net/im-79889315
+    summary: "&#x201c;We have no debt and own our primary home, a vacation home, as
+      well as my mother&#x2019;s home in another state.&#x201d;"
+    category: Economy
+    tags:
+      - economy
+      - markets
+      - finance
+      - news
+    relevance: 0.709902449537037
+    published_at: 2026-09-21T09:15:00.000Z
   - title: "[AINews] not much happened today"
     url: https://www.latent.space/p/ainews-not-much-happened-today-612
     source: Latent Space
@@ -1378,24 +1514,22 @@ items:
       - engineering
       - agents
       - newsletter
-    relevance: 0.634100724537037
+    relevance: 0.6227836884259259
     published_at: 2026-09-18T06:28:43.000Z
-  - title: 25 Years of Mass Surveillance Is Enough
-    url: https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html
-    source: Schneier on Security
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=schneier.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=schneier.com
-    summary: "This essay was written with Cindy Cohn, and originally appeared in
-      Lawfare . One of the many legacies of the terrorist attacks of Sept. 11 is
-      the government-wide shift from targeted surveillance&#8212;such as
-      individual wiretaps or pen register/trap and trace "
+  - title: ShinyHunters hacks rival extortion gang and takes over its dark web site
+    url: https://www.malwarebytes.com/blog/news/2026/09/shinyhunters-hacks-rival-extortion-gang-and-takes-over-its-dark-web-site
+    source: Malwarebytes Labs
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=malwarebytes.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=malwarebytes.com
+    summary: Hackers hacked the hackers as a feud between two cybercrime groups
+      escalated, leaving ShinyHunters with the upper hand over rival Clop.
     category: Security
     tags:
       - security
-      - cryptography
-      - policy
-    relevance: 0.6716830296296296
-    published_at: 2026-09-15T11:01:41.000Z
+      - malware
+      - threats
+    relevance: 0.7116291162037036
+    published_at: 2026-09-21T10:17:09.000Z
   - title: LLMs respond differently to harmful prompts when AI watermarking is used
     url: https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/
     source: Ars Technica — Tech Lab
@@ -1408,142 +1542,19 @@ items:
       - it
       - infrastructure
       - engineering
-    relevance: 0.6892251958333334
+    relevance: 0.6779086347222223
     published_at: 2026-09-17T18:33:13.000Z
-  - title: "Don't call it an SUV: The Ferrari Purosangue review"
-    url: https://arstechnica.com/cars/2026/09/dont-call-it-an-suv-the-ferrari-purosangue-review/
-    source: Ars Technica
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
-    image: https://cdn.arstechnica.net/wp-content/uploads/2026/09/2026-Ferrari-Purosangue-1-of-15-1152x648-1789751602.jpg
-    summary: Unlike previous Ferrari four-seaters, this one is better for humans
-      than cargo.
+  - title: Elon Musk’s latest Boring Company pitch involves a Hyperloop between
+      Austin and San Antonio
+    url: https://techcrunch.com/2026/09/20/elon-musks-latest-boring-company-pitch-involves-a-hyperloop-between-austin-and-san-antonio/
+    source: TechCrunch
+    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    image: https://www.google.com/s2/favicons?sz=64&domain=techcrunch.com
+    summary: Many of The Boring Company's announced project have not materialized.
     category: Technology
     tags:
       - technology
-      - hardware
-      - software
-    relevance: 0.7199706291666667
-    published_at: 2026-09-20T10:00:02.000Z
-  - title: Hideo Kojima responds to accusations of Physint being over budget and
-      late on deadline, says he still "loves Sony" despite collapse of
-      publishing deal
-    url: https://www.eurogamer.net/hideo-kojima-loves-sony-playstation-physint
-    source: Eurogamer
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=eurogamer.net
-    image: https://assetsio.gnwcdn.com/kojima-xbox-ps.jpg?width=690&quality=85&format=jpg&auto=webp
-    summary: Last week, we learned that Sony "stepped away" from Kojima Production's
-      previously PlayStation-exclusive "action espionage" game Physint.
-      Following the announcement, which saw Xbox take over publishing duties for
-      the in-development title, a new report has clai
-    category: Gaming
-    tags:
-      - gaming
-      - video-games
-      - news
-      - reviews
-    relevance: 0.7266383578703703
-    published_at: 2026-09-20T14:00:05.000Z
-  - title: How firelight may have shaped the origins of spoken language
-    url: https://phys.org/news/2026-09-firelight-spoken-language.html
-    source: Phys.org
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=phys.org
-    image: https://www.google.com/s2/favicons?sz=64&domain=phys.org
-    summary: When asked about the greatest innovation of humans, people often say
-      language or fire. A new paper suggests these innovations may be more
-      interlinked than we previously assumed.
-    category: Science
-    tags:
-      - science
-      - physics
-      - technology
-    relevance: 0.6599698856481482
-    published_at: 2026-09-20T19:00:01.000Z
-  - title: Trump administration readies sweeping sanctions against ICC, reports say
-    url: https://www.aljazeera.com/news/2026/9/21/trump-administration-readies-sweeping-sanctions-against-icc-reports-say?traffic_source=rss
-    source: Al Jazeera — World
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=aljazeera.com
-    summary: Measures targeting the court itself could disrupt payments, IT services
-      and investigations.
-    category: Geopolitics
-    tags:
-      - geopolitics
-      - middle-east
-      - world-news
-    relevance: 0.7455166629629629
-    published_at: 2026-09-21T01:19:42.000Z
-  - title: "&#x2018;My main goal is to help people&#x2019;: I&#x2019;m single, 74,
-      with $10 million burning a hole in my pocket. What should I do?"
-    url: https://www.marketwatch.com/story/my-main-goal-is-to-help-people-im-single-74-with-10-million-burning-a-hole-in-my-pocket-what-should-i-do-0e6112e1?mod=mw_rss_topstories
-    source: MarketWatch Top Stories
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=marketwatch.com
-    image: https://images.mktw.net/im-31098244
-    summary: "&#x201c;I also own my home and an SUV outright, with no outstanding
-      debt.&#x201d;"
-    category: Economy
-    tags:
-      - economy
-      - markets
-      - finance
-      - news
-    relevance: 0.6933024282407406
-    published_at: 2026-09-20T16:30:00.000Z
-  - title: AI for Societal Impact
-    url: https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/
-    source: Google AI Blog
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=blog.google
-    image: https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Health_Header.gif
-    summary: Explore this collection to see how experts and local leaders are using
-      AI breakthroughs to ensure everyone can share the opportunity of AI.
-    category: AI
-    tags:
-      - ai
-      - google
-      - research
-    relevance: 0.604969637962963
-    published_at: 2026-09-15T16:00:00.000Z
-  - title: Flock Offers Employees Buyouts as Customers Flee
-    url: https://www.wired.com/story/flock-is-offering-voluntary-buyouts-to-employees/
-    source: Wired — Security
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-    summary: As dozens of cities end contracts for its controversial license plate
-      readers, Flock is rolling out a voluntary severance program, WIRED has
-      learned.
-    category: Security
-    tags:
-      - security
-      - privacy
-      - surveillance
-    relevance: 0.6672723259259259
-    published_at: 2026-09-19T02:22:54.000Z
-  - title: Amiga Unix, Again
-    url: https://amigaux.org/
-    source: Hacker News
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=news.ycombinator.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=news.ycombinator.com
-    summary: Comments
-    category: IT
-    tags:
-      - it
       - startups
-      - development
-      - community
-    relevance: 0.6682234597222223
-    published_at: 2026-09-20T23:57:10.000Z
-  - title: The specter of AI-enabled bioweapons is a wake-up call for biotech
-    url: https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech/
-    source: MIT Technology Review
-    source_favicon: https://www.google.com/s2/favicons?sz=64&domain=technologyreview.com
-    image: https://www.google.com/s2/favicons?sz=64&domain=technologyreview.com
-    summary: In recent weeks, leaders of some of the biggest AI companies have
-      warned that the very tech they are developing is dangerous. Last weekend,
-      Anthropic CEO Dario Amodei argued that AI carries serious risk and that
-      progress should be slowed. OpenAI CEO Sam Altman
-    category: Technology
-    tags:
-      - technology
-      - research
-      - society
-    relevance: 0.713303014351852
-    published_at: 2026-09-18T09:00:00.000Z
+      - venture-capital
+    relevance: 0.7247304740740741
+    published_at: 2026-09-20T19:38:48.000Z
