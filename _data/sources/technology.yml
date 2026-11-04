@@ -7,15 +7,6 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=theverge.com
   enabled: true
   importance_bias: 1.1
-- name: Wired
-  url: https://www.wired.com/feed/rss
-  topic: Technology
-  category: Technology
-  section: Consumer tech
-  tags: [technology, culture, society]
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-  enabled: true
-  importance_bias: 1.1
 - name: Ars Technica
   url: https://feeds.arstechnica.com/arstechnica/index
   topic: Technology
@@ -70,15 +61,6 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=techmeme.com
   enabled: true
   importance_bias: 0.9
-- name: MIT Technology Review
-  url: https://www.technologyreview.com/feed/
-  topic: Technology
-  category: Technology
-  section: Analysis
-  tags: [technology, research, society]
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=technologyreview.com
-  enabled: true
-  importance_bias: 1.1
 - name: The Next Web
   url: https://thenextweb.com/feed/
   topic: Technology
@@ -151,15 +133,6 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=hackaday.com
   enabled: true
   importance_bias: 0.9
-- name: Platformer
-  url: https://www.platformer.news/feed
-  topic: Technology
-  category: Technology
-  section: Platforms
-  tags: [technology, social-media, platforms, newsletter]
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=platformer.news
-  enabled: true
-  importance_bias: 1.0
 - name: Benedict Evans
   url: https://www.ben-evans.com/benedictevans?format=rss
   topic: Technology
@@ -169,21 +142,3 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=ben-evans.com
   enabled: true
   importance_bias: 1.0
-- name: Stratechery
-  url: https://stratechery.com/feed/
-  topic: Technology
-  category: Technology
-  section: Analysis
-  tags: [technology, strategy, business, newsletter]
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=stratechery.com
-  enabled: true
-  importance_bias: 1.0
-- name: CB Insights Research
-  url: https://www.cbinsights.com/research/feed/
-  topic: Technology
-  category: Technology
-  section: Market intelligence
-  tags: [technology, startups, vc, market-intelligence]
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=cbinsights.com
-  enabled: true
-  importance_bias: 0.85

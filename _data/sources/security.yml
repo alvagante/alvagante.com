@@ -79,15 +79,6 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=arstechnica.com
   enabled: true
   importance_bias: 1.1
-- name: Wired — Security
-  url: https://www.wired.com/category/security/feed/
-  topic: Security
-  category: Security
-  section: News & analysis
-  tags: [security, privacy, surveillance]
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=wired.com
-  enabled: true
-  importance_bias: 1.0
 - name: CyberScoop
   url: https://cyberscoop.com/feed/
   topic: Security

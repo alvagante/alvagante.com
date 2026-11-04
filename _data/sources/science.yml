@@ -43,15 +43,6 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=quantamagazine.org
   enabled: true
   importance_bias: 1.2
-- name: New Scientist
-  url: https://www.newscientist.com/feed/home/
-  topic: Science
-  category: Science
-  section: General science
-  tags: [science, research, society]
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=newscientist.com
-  enabled: true
-  importance_bias: 1.0
 - name: Phys.org
   url: https://phys.org/rss-feed/
   topic: Science
@@ -70,15 +61,6 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=sciencefriday.com
   enabled: true
   importance_bias: 0.85
-- name: Scientific American
-  url: https://rss.sciam.com/ScientificAmerican-Global
-  topic: Science
-  category: Science
-  section: General science
-  tags: [science, magazine, accessible]
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=scientificamerican.com
-  enabled: false
-  importance_bias: 1.1
 - name: Science (AAAS)
   url: https://www.science.org/rss/news_current.xml
   topic: Science
@@ -122,15 +104,6 @@
   section: Space science
   tags: [science, esa, space, europe]
   favicon: https://www.google.com/s2/favicons?sz=64&domain=esa.int
-  enabled: true
-  importance_bias: 0.95
-- name: Nautilus
-  url: https://nautil.us/feed/
-  topic: Science
-  category: Science
-  section: Essays
-  tags: [science, essays, culture, philosophy]
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=nautil.us
   enabled: true
   importance_bias: 0.95
 - name: Sky & Telescope

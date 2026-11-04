@@ -582,11 +582,29 @@ function sortItems(items: NewsItem[], maxItems: number): NewsItem[] {
     "Geopolitics",
     "Economy",
   ];
-  const groups = new Map<string, NewsItem[]>();
+  // Within each category, order by source round: every source's best item
+  // first, then every source's second best, and so on. Bias/recency only
+  // orders items inside a round, so no single source can crowd out the rest.
+  const byCategorySource = new Map<string, Map<string, NewsItem[]>>();
   for (const item of rankedItems([...byUrl.values()])) {
-    const group = groups.get(item.category) ?? [];
-    group.push(item);
-    groups.set(item.category, group);
+    const sources = byCategorySource.get(item.category) ??
+      new Map<string, NewsItem[]>();
+    const list = sources.get(item.source) ?? [];
+    list.push(item);
+    sources.set(item.source, list);
+    byCategorySource.set(item.category, sources);
+  }
+  const groups = new Map<string, NewsItem[]>();
+  for (const [category, sources] of byCategorySource) {
+    const ordered: NewsItem[] = [];
+    for (let round = 0;; round++) {
+      const roundItems = [...sources.values()]
+        .map((list) => list[round])
+        .filter((item): item is NewsItem => item !== undefined);
+      if (roundItems.length === 0) break;
+      ordered.push(...rankedItems(roundItems));
+    }
+    groups.set(category, ordered);
   }
 
   const categories = [...groups.keys()].sort((a, b) => {

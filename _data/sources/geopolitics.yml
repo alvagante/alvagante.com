@@ -16,15 +16,6 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=bbc.com
   enabled: true
   importance_bias: 1.1
-- name: Foreign Policy
-  url: https://foreignpolicy.com/feed/
-  topic: Geopolitics
-  category: Geopolitics
-  section: Analysis
-  tags: [geopolitics, foreign-policy, analysis]
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=foreignpolicy.com
-  enabled: true
-  importance_bias: 1.2
 - name: Al Jazeera — World
   url: https://www.aljazeera.com/xml/rss/all.xml
   topic: Geopolitics
@@ -142,24 +133,6 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=crisisgroup.org
   enabled: true
   importance_bias: 1.1
-- name: Foreign Affairs
-  url: https://www.foreignaffairs.com/rss.xml
-  topic: Geopolitics
-  category: Geopolitics
-  section: Analysis
-  tags: [geopolitics, foreign-policy, analysis, journals]
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=foreignaffairs.com
-  enabled: true
-  importance_bias: 1.1
-- name: Le Monde Diplomatique
-  url: https://mondediplo.com/rss
-  topic: Geopolitics
-  category: Geopolitics
-  section: Analysis
-  tags: [geopolitics, diplomacy, analysis, europe]
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=mondediplo.com
-  enabled: true
-  importance_bias: 0.95
 - name: Axios
   url: https://www.axios.com/feeds/feed.rss
   topic: Geopolitics

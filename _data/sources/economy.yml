@@ -1,12 +1,3 @@
-- name: The Economist — Finance & Economics
-  url: https://www.economist.com/finance-and-economics/rss.xml
-  topic: Economy
-  category: Economy
-  section: News & analysis
-  tags: [economy, finance, macroeconomics, analysis]
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=economist.com
-  enabled: true
-  importance_bias: 1.15
 - name: Federal Reserve Press Releases
   url: https://www.federalreserve.gov/feeds/press_all.xml
   topic: Economy
@@ -133,15 +124,6 @@
   favicon: https://www.google.com/s2/favicons?sz=64&domain=nber.org
   enabled: true
   importance_bias: 1.05
-- name: MarketWatch Top Stories
-  url: https://feeds.content.dowjones.io/public/rss/mw_topstories
-  topic: Economy
-  category: Economy
-  section: Financial markets
-  tags: [economy, markets, finance, news]
-  favicon: https://www.google.com/s2/favicons?sz=64&domain=marketwatch.com
-  enabled: true
-  importance_bias: 0.95
 - name: Project Syndicate
   url: https://www.project-syndicate.org/rss
   topic: Economy
