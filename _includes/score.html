@@ -1,0 +1,1 @@
+{% assign score = include.value | round: 2 | append: '' %}{% if score.size == 3 %}{% assign score = score | append: '0' %}{% endif %}{{ score }}

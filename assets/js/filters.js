@@ -264,17 +264,23 @@
 
   const buttons = [...root.querySelectorAll("[data-home-news-category]")];
   const items = [...root.querySelectorAll("[data-news-item]")];
+  const heading = root.querySelector("[data-home-news-heading]");
+  const status = root.querySelector("[data-home-news-status]");
 
   const selectCategory = (category) => {
     for (const button of buttons) {
       const active = button.dataset.homeNewsCategory === category;
       button.classList.toggle("is-active", active);
       button.setAttribute("aria-pressed", String(active));
+      if (active) heading.textContent = button.querySelector("[data-home-news-label]").textContent;
     }
 
+    let shown = 0;
     for (const item of items) {
       item.hidden = category !== "all" && item.dataset.newsCategory !== category;
+      if (!item.hidden) shown += 1;
     }
+    status.textContent = `${shown} ${shown === 1 ? "item" : "items"}, ranked by relevance`;
   };
 
   for (const button of buttons) {
