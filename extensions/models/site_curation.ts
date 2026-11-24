@@ -297,7 +297,7 @@ function parseFeed(xml: string, source: Source, limit: number): NewsItem[] {
       ? new Date().toISOString()
       : new Date(parsedPublished).toISOString();
     const url = firstLink(item.link) || source.url;
-    const summary = description.slice(0, 260) ||
+    const summary = description ||
       `Latest item from ${source.name}.`;
 
     return {
@@ -335,7 +335,9 @@ async function callOpenAI(
         {
           role: "system",
           content:
-            "Rank and summarize news items for a concise technical daily digest. Return JSON only.",
+            "Rank and summarize news items for a concise technical daily digest. " +
+            "Write each summary at full length: keep every detail the feed provides, do not cut it short, do not end mid-sentence. " +
+            "Return JSON only.",
         },
         {
           role: "user",
@@ -421,6 +423,7 @@ async function callOllama(
           role: "system",
           content:
             "Rank and summarize news items for a concise technical daily digest. " +
+            "Write each summary at full length: keep every detail the feed provides, do not cut it short, do not end mid-sentence. " +
             "Return a JSON object with a single key 'items' containing an array of news items. " +
             "Each item must have: title, url, source, image (string or null), summary, category, tags (array), relevance (0-1), published_at.",
         },

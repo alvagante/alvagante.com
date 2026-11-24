@@ -393,10 +393,6 @@ body:not(.home) main {
 .ledger td.num { color: var(--color-ink-2); font-size: var(--text-sm); }
 
 .front__sheet td a {
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
   font: 500 var(--text-md)/1.35 var(--font-display);
   text-decoration-color: var(--color-rule);
 }
@@ -497,11 +493,7 @@ body:not(.home) main {
   color: var(--color-ink-2);
   font-size: var(--text-sm);
   line-height: 1.5;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  overflow: hidden;
+  overflow-wrap: anywhere;
 }
 
 .story:hover { background: var(--color-paper-2); }
@@ -1015,7 +1007,6 @@ code {
     grid-template-areas: "title title title" "summary summary summary" "topic source score";
     gap: var(--space-2xs) var(--space-md);
   }
-  .story__summary { -webkit-line-clamp: 3; line-clamp: 3; }
   .story__date { display: none; }
 
   .directory__table thead .directory__about,
