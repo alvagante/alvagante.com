@@ -475,11 +475,33 @@ body:not(.home) main {
   position: relative;
   display: grid;
   grid-template-columns: 7rem minmax(0, 1fr) 11rem 4rem 3rem;
-  gap: var(--space-md);
+  grid-template-areas:
+    "topic title source date score"
+    ".     summary summary summary summary";
+  gap: var(--space-2xs) var(--space-md);
   align-items: baseline;
   padding: var(--space-sm) var(--space-xs);
   border-top: var(--rule-hair) solid var(--color-rule);
   transition: background-color var(--dur-short) var(--ease-out);
+}
+
+.story__topic { grid-area: topic; }
+.story__source { grid-area: source; }
+.story__date { grid-area: date; }
+.story__score { grid-area: score; }
+
+.story__summary {
+  grid-area: summary;
+  margin: 0;
+  max-width: 78ch;
+  color: var(--color-ink-2);
+  font-size: var(--text-sm);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
 }
 
 .story:hover { background: var(--color-paper-2); }
@@ -503,6 +525,7 @@ body:not(.home) main {
 }
 
 .story__title {
+  grid-area: title;
   min-width: 0;
   overflow-wrap: anywhere;
   color: var(--color-ink);
@@ -989,13 +1012,10 @@ code {
 
   .story {
     grid-template-columns: minmax(0, 1fr) auto auto;
-    grid-template-areas: "title title title" "topic source score";
+    grid-template-areas: "title title title" "summary summary summary" "topic source score";
     gap: var(--space-2xs) var(--space-md);
   }
-  .story__title { grid-area: title; }
-  .story__topic { grid-area: topic; }
-  .story__source { grid-area: source; }
-  .story__score { grid-area: score; }
+  .story__summary { -webkit-line-clamp: 3; line-clamp: 3; }
   .story__date { display: none; }
 
   .directory__table thead .directory__about,

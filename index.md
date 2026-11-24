@@ -150,6 +150,9 @@ body_class: home
             <li class="story" data-news-item data-news-category="{{ item.category | downcase | escape }}">
               <span class="story__topic">{{ item.category }}</span>
               <a class="story__title" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title | default: item.url }}</a>
+              {% if item.summary and item.summary != "" %}
+                <p class="story__summary">{{ item.summary | strip_html | normalize_whitespace | truncate: 240 }}</p>
+              {% endif %}
               <span class="story__source">{% if item.source_favicon %}<img class="source-favicon" src="{{ item.source_favicon | escape }}" alt="" width="16" height="16" loading="lazy">{% endif %}{{ item.source }}</span>
               <time class="story__date num" datetime="{{ item.published_at | date_to_xmlschema }}">{{ item.published_at | date: "%b %-d" }}</time>
               <span class="story__score num">{% include score.html value=item.relevance %}</span>
