@@ -287,3 +287,75 @@
     button.addEventListener("click", () => selectCategory(button.dataset.homeNewsCategory || "all"));
   }
 })();
+
+(() => {
+  const watched = new WeakSet();
+
+  const linesOf = (el) => {
+    const lines = parseInt(getComputedStyle(el).getPropertyValue("--clamp-lines"), 10);
+    return Number.isFinite(lines) && lines > 0 ? lines : 3;
+  };
+
+  const overflows = (el) => {
+    const lineHeight = parseFloat(getComputedStyle(el).lineHeight);
+    if (!Number.isFinite(lineHeight) || lineHeight <= 0) return false;
+    if (el.classList.contains("is-expanded")) return el.scrollHeight > lineHeight * linesOf(el) + 1;
+    return el.scrollHeight > el.clientHeight + 1;
+  };
+
+  const sync = (el) => {
+    if (el.clientHeight === 0) return;
+    const button = el.nextElementSibling?.classList?.contains("clamp__toggle") ? el.nextElementSibling : null;
+    if (!overflows(el)) {
+      el.classList.remove("is-expanded");
+      button?.remove();
+      return;
+    }
+    if (button) return;
+    const created = document.createElement("button");
+    created.type = "button";
+    created.className = "clamp__toggle";
+    created.textContent = "More";
+    created.setAttribute("aria-expanded", "false");
+    el.after(created);
+  };
+
+  const watch = (el) => {
+    if (watched.has(el)) return;
+    watched.add(el);
+    observer.observe(el);
+  };
+
+  const scan = (root) => {
+    if (!root?.querySelectorAll) return;
+    if (root.matches?.("[data-clamp]")) watch(root);
+    root.querySelectorAll("[data-clamp]").forEach(watch);
+  };
+
+  const observer = new ResizeObserver((entries) => {
+    for (const entry of entries) sync(entry.target);
+  });
+
+  document.addEventListener("click", (event) => {
+    const button = event.target.closest?.(".clamp__toggle");
+    if (!button) return;
+    event.preventDefault();
+    event.stopPropagation();
+    const el = button.previousElementSibling;
+    if (!el?.matches("[data-clamp]")) return;
+    const expanded = el.classList.toggle("is-expanded");
+    button.setAttribute("aria-expanded", String(expanded));
+    button.textContent = expanded ? "Less" : "More";
+  });
+
+  scan(document);
+  new MutationObserver((records) => {
+    for (const record of records) {
+      for (const node of record.addedNodes) scan(node);
+    }
+  }).observe(document.body, { childList: true, subtree: true });
+
+  document.fonts?.ready.then(() => {
+    document.querySelectorAll("[data-clamp]").forEach(sync);
+  });
+})();

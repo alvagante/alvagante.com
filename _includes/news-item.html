@@ -8,7 +8,9 @@
       <span>Score {{ item.relevance }}</span>
     </div>
     <h4><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></h4>
-    <p>{{ item.summary }}</p>
+    {% if item.summary and item.summary != "" %}
+      <p class="clamp" data-clamp>{{ item.summary }}</p>
+    {% endif %}
     <div class="chips">
       <span>{{ item.category }}</span>
       {% for tag in item.tags limit: 4 %}<span>{{ tag }}</span>{% endfor %}

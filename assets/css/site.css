@@ -488,13 +488,62 @@ body:not(.home) main {
 
 .story__summary {
   grid-area: summary;
-  margin: 0;
   max-width: 78ch;
+  min-width: 0;
+}
+
+.story__summary p {
+  margin: 0;
   color: var(--color-ink-2);
   font-size: var(--text-sm);
   line-height: 1.5;
   overflow-wrap: anywhere;
 }
+
+.clamp {
+  --clamp-lines: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--clamp-lines);
+  overflow: hidden;
+  line-height: 1.5;
+}
+
+.clamp.is-expanded {
+  display: block;
+  -webkit-line-clamp: unset;
+  overflow: visible;
+}
+
+.clamp__toggle {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin-top: var(--space-2xs);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--color-muted);
+  font: 500 var(--text-sm)/1.4 var(--font-body);
+  text-decoration: underline;
+  text-decoration-color: var(--color-rule-2);
+  text-underline-offset: 0.18em;
+  cursor: pointer;
+}
+
+.clamp__toggle:hover {
+  color: var(--color-ink);
+  text-decoration-color: var(--color-accent);
+  text-decoration-thickness: 2px;
+}
+
+.clamp__toggle:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.news-item .clamp:has(+ .clamp__toggle) { margin-bottom: 0; }
+.news-item .clamp__toggle { margin-bottom: var(--space-xs); }
 
 .story:hover { background: var(--color-paper-2); }
 
